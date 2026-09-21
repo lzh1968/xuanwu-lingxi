@@ -42,10 +42,17 @@
   function get(u){return fetch(u+(u.indexOf('?')<0?'?t=':'&t=')+Date.now(),{cache:'no-store'}).then(function(r){
     if(!r.ok)throw 0; return r.json();
   });}
-  // 双源并行：本站(随 Pages 构建) + raw(推送后约1分钟即刷新) → 取 updated 最新那条
+  // 🆕 GitHub API 源: 推送后**几秒内**即新(而 raw 要几分钟·Pages 构建更慢) → 三源取 updated 最新
+  function getApi(){
+    return fetch('https://api.github.com/repos/lzh1968/xuanwu-lingxi/contents/url.json?t='+Date.now(),{cache:'no-store'})
+      .then(function(r){ if(!r.ok) throw 0; return r.json(); })
+      .then(function(j){ return JSON.parse(atob(String(j.content||'').replace(/\s/g,''))); });
+  }
+  // 三源并行：本站(随 Pages 构建) + raw(约1分钟) + GitHub API(几秒) → 取 updated 最新那条
   Promise.allSettled([
     get('url.json'),
-    get(RAW)
+    get(RAW),
+    getApi()
   ]).then(function(rs){
     var c=[];
     rs.forEach(function(x){ if(x.status==='fulfilled'&&x.value&&x.value.url) c.push(x.value); });
