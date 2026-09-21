@@ -21,7 +21,7 @@
 <body>
 <div class="card">
   <h1>🐉 玄武灵犀 · 固定入口</h1>
-  <div class="sub">本页会自动跳到最新可用的手机门户</div>
+  <div class="sub">本页自动跳到最新可用的手机门户</div>
   <div class="st" id="st"><span class="dim">正在读取最新地址…</span></div>
   <a class="btn" id="btn" href="#" style="display:none">👉 点这里打开手机门户</a>
   <div class="foot">当前目标：<code id="u">—</code><br><span id="t"></span></div>
@@ -29,23 +29,37 @@
 <script>
 (function(){
   var st=document.getElementById('st'),btn=document.getElementById('btn'),ue=document.getElementById('u'),te=document.getElementById('t');
-  function go(u){
+  var RAW='https://raw.githubusercontent.com/lzh1968/xuanwu-lingxi/main/url.json';
+  var last=null; try{last=localStorage.getItem('lx_last')}catch(e){}
+  function go(u,stale){
     if(!u)return false;
     ue.textContent=u; btn.href=u; btn.style.display='block';
-    st.innerHTML='<span class="ok">✅ 已找到地址，正在跳转…</span>';
+    st.innerHTML='<span class="ok">✅ '+(stale?'正在跳转（用上次缓存地址）':'已找到最新地址，正在跳转')+'…</span>';
     try{localStorage.setItem('lx_last',u)}catch(e){}
     setTimeout(function(){location.replace(u)},600);
     return true;
   }
-  // ① 先试"上次成功"的地址(秒开)
-  var last=null; try{last=localStorage.getItem('lx_last')}catch(e){}
-  // ② 再读 url.json(手机每 5 分钟自动更新)
-  fetch('url.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json()}).then(function(j){
-    if(j&&j.url){ if(j.updated) te.textContent='地址更新于 '+j.updated; go(j.url); }
-    else if(last){ go(last); }
+  function get(u){return fetch(u+(u.indexOf('?')<0?'?t=':'&t=')+Date.now(),{cache:'no-store'}).then(function(r){
+    if(!r.ok)throw 0; return r.json();
+  });}
+  // 双源并行：本站(随 Pages 构建) + raw(推送后约1分钟即刷新) → 取 updated 最新那条
+  Promise.allSettled([
+    get('url.json'),
+    get(RAW)
+  ]).then(function(rs){
+    var c=[];
+    rs.forEach(function(x){ if(x.status==='fulfilled'&&x.value&&x.value.url) c.push(x.value); });
+    if(!c.length) throw 0;
+    c.sort(function(a,b){ return String(b.updated||'').localeCompare(String(a.updated||'')); });
+    if(c[0].updated) te.textContent='地址更新于 '+c[0].updated;
+    go(c[0].url);
   }).catch(function(){
-    if(last){ st.innerHTML='<span class="dim">取最新地址失败，先用上次的</span>'; go(last); }
-    else{ st.innerHTML='<span class="dim">取地址失败，请稍后刷新</span>'; btn.style.display='block'; btn.href='https://python-tip-cultural-vegetable.trycloudflare.com'; }
+    if(last){ go(last,true); }
+    else{
+      st.innerHTML='<span class="dim">取地址失败，请稍后刷新</span>';
+      var f='https://gospel-trance-bradford-boats.trycloudflare.com';
+      btn.style.display='block'; btn.href=f; ue.textContent=f;
+    }
   });
 })();
 </script>
