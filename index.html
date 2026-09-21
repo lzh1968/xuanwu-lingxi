@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>玄武灵犀 · 固定入口</title>
+<style>
+  :root{--bg:#0d1117;--card:#161b22;--line:#30363d;--fg:#e6edf3;--dim:#8b949e;--acc:#58a6ff;--ok:#3fb950}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.6 -apple-system,system-ui,"PingFang SC","Noto Sans SC",sans-serif;display:flex;min-height:100vh;align-items:center;justify-content:center;padding:20px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 20px;max-width:520px;width:100%;text-align:center;box-shadow:0 8px 30px rgba(0,0,0,.4)}
+  h1{font-size:19px;margin:0 0 6px}
+  .sub{color:var(--dim);font-size:13px;margin-bottom:16px}
+  .st{font-size:15px;margin:10px 0;min-height:24px}
+  .ok{color:var(--ok)} .dim{color:var(--dim)}
+  a.btn{display:block;background:var(--acc);color:#0d1117;text-decoration:none;font-weight:700;padding:13px;border-radius:10px;margin-top:14px}
+  code{background:#0d1117;border:1px solid var(--line);border-radius:6px;padding:2px 6px;font-size:12px;color:var(--dim);word-break:break-all}
+  .foot{margin-top:14px;font-size:12px;color:var(--dim)}
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>🐉 玄武灵犀 · 固定入口</h1>
+  <div class="sub">本页会自动跳到最新可用的手机门户</div>
+  <div class="st" id="st"><span class="dim">正在读取最新地址…</span></div>
+  <a class="btn" id="btn" href="#" style="display:none">👉 点这里打开手机门户</a>
+  <div class="foot">当前目标：<code id="u">—</code><br><span id="t"></span></div>
+</div>
+<script>
+(function(){
+  var st=document.getElementById('st'),btn=document.getElementById('btn'),ue=document.getElementById('u'),te=document.getElementById('t');
+  function go(u){
+    if(!u)return false;
+    ue.textContent=u; btn.href=u; btn.style.display='block';
+    st.innerHTML='<span class="ok">✅ 已找到地址，正在跳转…</span>';
+    try{localStorage.setItem('lx_last',u)}catch(e){}
+    setTimeout(function(){location.replace(u)},600);
+    return true;
+  }
+  // ① 先试"上次成功"的地址(秒开)
+  var last=null; try{last=localStorage.getItem('lx_last')}catch(e){}
+  // ② 再读 url.json(手机每 5 分钟自动更新)
+  fetch('url.json?t='+Date.now(),{cache:'no-store'}).then(function(r){return r.json()}).then(function(j){
+    if(j&&j.url){ if(j.updated) te.textContent='地址更新于 '+j.updated; go(j.url); }
+    else if(last){ go(last); }
+  }).catch(function(){
+    if(last){ st.innerHTML='<span class="dim">取最新地址失败，先用上次的</span>'; go(last); }
+    else{ st.innerHTML='<span class="dim">取地址失败，请稍后刷新</span>'; btn.style.display='block'; btn.href='https://python-tip-cultural-vegetable.trycloudflare.com'; }
+  });
+})();
+</script>
+</body>
+</html>
