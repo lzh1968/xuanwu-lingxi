@@ -1,76 +1,213 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<!-- 🔒 强制 HTTPS 兜底(2026-09-22 老板令) · GitHub Enforce HTTPS 未开时自行升级 -->
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="theme-color" content="#0b0d12">
 <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-<script>(function(){try{var p=location.protocol;if(p==="http:"){location.replace("https://"+location.host+location.pathname+location.search+location.hash);}}catch(e){}})();</script>
-<title>玄武灵犀 · 固定入口</title>
+<title>玄武灵犀 · 常驻门</title>
 <style>
-  :root{--bg:#0d1117;--card:#161b22;--line:#30363d;--fg:#e6edf3;--dim:#8b949e;--acc:#58a6ff;--ok:#3fb950}
-  *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.6 -apple-system,system-ui,"PingFang SC","Noto Sans SC",sans-serif;display:flex;min-height:100vh;align-items:center;justify-content:center;padding:20px}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 20px;max-width:520px;width:100%;text-align:center;box-shadow:0 8px 30px rgba(0,0,0,.4)}
-  h1{font-size:19px;margin:0 0 6px}
-  .sub{color:var(--dim);font-size:13px;margin-bottom:16px}
-  .st{font-size:15px;margin:10px 0;min-height:24px}
-  .ok{color:var(--ok)} .dim{color:var(--dim)}
-  a.btn{display:block;background:var(--acc);color:#0d1117;text-decoration:none;font-weight:700;padding:13px;border-radius:10px;margin-top:14px}
-  code{background:#0d1117;border:1px solid var(--line);border-radius:6px;padding:2px 6px;font-size:12px;color:var(--dim);word-break:break-all}
-  .foot{margin-top:14px;font-size:12px;color:var(--dim)}
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html,body{margin:0;padding:0;min-height:100%}
+  body{
+    background:#0b0d12;
+    background-image:radial-gradient(1100px 620px at 50% -8%,#1b2130 0%,#0b0d12 62%),radial-gradient(700px 420px at 50% 108%,#161a24 0%,rgba(11,13,18,0) 70%);
+    color:#e8e3d6;font-family:"Songti SC","STSong","Noto Serif CJK SC",serif;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    padding:26px 20px calc(20px + env(safe-area-inset-bottom));
+    -webkit-user-select:none;user-select:none;-webkit-touch-callout:none;overflow-x:hidden;
+  }
+  .brand{font-size:30px;letter-spacing:.34em;text-indent:.34em;font-weight:600;
+    background:linear-gradient(180deg,#f6e7bf,#c9a253 60%,#a8823a);
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .sub{margin-top:9px;font-size:12.5px;letter-spacing:.26em;text-indent:.26em;color:#8b8471}
+  .rule{width:132px;height:1px;margin:16px auto 0;
+    background:linear-gradient(90deg,rgba(201,162,83,0),rgba(201,162,83,.75),rgba(201,162,83,0))}
+
+  .sealbox{position:relative;width:186px;height:186px;margin:30px auto 6px;display:flex;align-items:center;justify-content:center}
+  .halo{position:absolute;inset:6px;border-radius:50%;
+    background:radial-gradient(circle,rgba(201,162,83,.16) 0%,rgba(201,162,83,0) 68%);
+    transition:opacity .5s ease,transform .5s ease;opacity:.85}
+  .ring{position:absolute;inset:0;width:100%;height:100%;transform:rotate(-90deg)}
+  .ring .trk{fill:none;stroke:rgba(201,162,83,.16);stroke-width:2}
+  .ring .pty{fill:none;stroke:#e6c073;stroke-width:2.6;stroke-linecap:round;
+    transition:stroke-dashoffset .08s linear}
+  .seal{
+    position:relative;width:126px;height:126px;border-radius:16px;
+    background:linear-gradient(160deg,#8f1f1a,#6d1411 62%,#570f0c);
+    border:1px solid #b8443a;
+    box-shadow:0 10px 30px rgba(0,0,0,.55),inset 0 0 22px rgba(255,190,120,.10);
+    display:flex;align-items:center;justify-content:center;
+    font-size:40px;line-height:1.02;letter-spacing:.06em;color:#f3ddb4;
+    text-shadow:0 1px 0 rgba(0,0,0,.35);
+    transition:transform .16s ease,box-shadow .3s ease,filter .3s ease;cursor:pointer
+  }
+  .seal:active{transform:scale(.97)}
+  .seal.hold{filter:brightness(1.12)}
+  .seal.open{transform:scale(1.06);box-shadow:0 0 60px rgba(230,192,115,.55),0 10px 30px rgba(0,0,0,.5)}
+  .hint{margin-top:16px;font-size:13.5px;letter-spacing:.16em;color:#bdb49c;text-align:center;min-height:20px}
+  .hint.bad{color:#e8a0a0}
+  .hint.ok{color:#9fd7a6}
+
+  .state{margin-top:20px;font-size:12px;letter-spacing:.1em;color:#8b8471;text-align:center;min-height:18px}
+  .state.ok{color:#9fd7a6}.state.bad{color:#e8a0a0}
+  .spin{display:inline-block;width:9px;height:9px;margin-right:6px;border-radius:50%;
+    border:2px solid rgba(201,162,83,.35);border-top-color:#e6c073;animation:sp .8s linear infinite}
+  @keyframes sp{to{transform:rotate(360deg)}}
+
+  .foot{position:fixed;left:0;right:0;bottom:calc(14px + env(safe-area-inset-bottom));
+    display:flex;flex-direction:column;align-items:center;gap:9px;padding:0 16px}
+  .btns{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+  .btns button{font-family:inherit;font-size:12.5px;letter-spacing:.08em;color:#cdc3a8;
+    background:rgba(255,255,255,.045);border:1px solid rgba(201,162,83,.32);
+    border-radius:999px;padding:8px 15px;cursor:pointer}
+  .btns button:active{background:rgba(201,162,83,.16);color:#f0e2be}
+  .diag{font-size:10.5px;letter-spacing:.04em;color:#5f5a4d;text-align:center;font-family:ui-monospace,Menlo,monospace;
+    max-width:330px;line-height:1.5}
 </style>
 </head>
 <body>
-<div class="card">
-  <h1>🐉 玄武灵犀 · 固定入口</h1>
-  <div class="sub">本页自动跳到最新可用的手机门户</div>
-  <div class="st" id="st"><span class="dim">正在读取最新地址…</span></div>
-  <a class="btn" id="btn" href="#" style="display:none">👉 点这里打开手机门户</a>
-  <div class="foot">当前目标：<code id="u">—</code><br><span id="t"></span></div>
-</div>
+  <div class="brand">玄武灵犀</div>
+  <div class="sub">一 门 常 驻 · 唯 手 可 启</div>
+  <div class="rule"></div>
+
+  <div class="sealbox">
+    <div class="halo" id="halo"></div>
+    <svg class="ring" viewBox="0 0 120 120" aria-hidden="true">
+      <circle class="trk" cx="60" cy="60" r="55"></circle>
+      <circle class="pty" id="pty" cx="60" cy="60" r="55" stroke-dasharray="345.6" stroke-dashoffset="345.6"></circle>
+    </svg>
+    <div class="seal" id="seal">玄<br>武</div>
+  </div>
+
+  <div class="hint" id="hint">按住此印 1.2 秒 · 门 自 开</div>
+  <div class="state" id="state"><span class="spin"></span>门 · 正在校准线路…</div>
+
+  <div class="foot">
+    <div class="btns">
+      <button id="refresh">🔁 校准新址</button>
+      <button id="local">🖥 本机直连</button>
+    </div>
+    <div class="diag" id="diag"></div>
+  </div>
+
 <script>
 (function(){
-  var st=document.getElementById('st'),btn=document.getElementById('btn'),ue=document.getElementById('u'),te=document.getElementById('t');
-  var RAW='https://raw.githubusercontent.com/lzh1968/xuanwu-lingxi/main/url.json';
-  var last=null; try{last=localStorage.getItem('lx_last')}catch(e){}
-  function go(u,stale){
-    if(!u)return false;
-    ue.textContent=u; btn.href=u; btn.style.display='block';
-    st.innerHTML='<span class="ok">✅ '+(stale?'正在跳转（用上次缓存地址）':'已找到最新地址，正在跳转')+'…</span>';
-    try{localStorage.setItem('lx_last',u)}catch(e){}
-    setTimeout(function(){location.replace(u)},600);
-    return true;
+  var $ = function(id){ return document.getElementById(id); };
+  var HOLD = 1200;                 // 需按住 1.2 秒
+  var target = null, ready = false, opened = false;
+  var t0 = 0, raf = 0, held = false;
+  var pty = $('pty'), LEN = 345.6;
+
+  function say(s, cls){ var e=$('state'); e.className='state'+(cls?(' '+cls):''); e.innerHTML=s; }
+  function hint(s, cls){ var e=$('hint'); e.className='hint'+(cls?(' '+cls):''); e.textContent=s; }
+  function busy(s){ say('<span class="spin"></span>'+s); }
+  function ring(p){ pty.setAttribute('stroke-dashoffset', String(LEN*(1-p))); }
+  function glow(on){ $('halo').style.opacity = on?1:.85; $('halo').style.transform = on?'scale(1.06)':'scale(1)'; }
+
+  /* ── 取址: 每次带走时间戳, 不吃缓存 ── */
+  function fetchTarget(){
+    return fetch('url.json?t='+new Date().getTime(), {cache:'no-store'})
+      .then(function(r){ return r.ok ? r.json() : null; })
+      .then(function(j){ return (j && j.url) ? String(j.url).replace(/\/+$/,'') : null; });
   }
-  function get(u){return fetch(u+(u.indexOf('?')<0?'?t=':'&t=')+Date.now(),{cache:'no-store'}).then(function(r){
-    if(!r.ok)throw 0; return r.json();
-  });}
-  // 🆕 GitHub API 源: 推送后**几秒内**即新(而 raw 要几分钟·Pages 构建更慢) → 三源取 updated 最新
-  function getApi(){
-    return fetch('https://api.github.com/repos/lzh1968/xuanwu-lingxi/contents/url.json?t='+Date.now(),{cache:'no-store'})
-      .then(function(r){ if(!r.ok) throw 0; return r.json(); })
-      .then(function(j){ return JSON.parse(atob(String(j.content||'').replace(/\s/g,''))); });
+  /* ── 探活: 与入口 /health 握手(带 CORS 可读状态码) ── */
+  function probe(u){
+    if (!window.fetch) return Promise.resolve(true);
+    var ctl = (typeof AbortController!=='undefined') ? new AbortController() : null;
+    var timer = setTimeout(function(){ if(ctl) ctl.abort(); }, 8000);
+    return fetch(u+'/health', {mode:'cors', cache:'no-store', signal: ctl?ctl.signal:undefined})
+      .then(function(r){ clearTimeout(timer); if(!r.ok) return false;
+        return r.json().then(function(j){ return !!(j&&j.ok); }, function(){ return false; }); })
+      .catch(function(){ clearTimeout(timer); return false; });
   }
-  // 三源并行：本站(随 Pages 构建) + raw(约1分钟) + GitHub API(几秒) → 取 updated 最新那条
-  Promise.allSettled([
-    get('url.json'),
-    get(RAW),
-    getApi()
-  ]).then(function(rs){
-    var c=[];
-    rs.forEach(function(x){ if(x.status==='fulfilled'&&x.value&&x.value.url) c.push(x.value); });
-    if(!c.length) throw 0;
-    c.sort(function(a,b){ return String(b.updated||'').localeCompare(String(a.updated||'')); });
-    if(c[0].updated) te.textContent='地址更新于 '+c[0].updated;
-    go(c[0].url);
-  }).catch(function(){
-    if(last){ go(last,true); }
-    else{
-      st.innerHTML='<span class="dim">取地址失败，请稍后刷新</span>';
-      var f='https://gospel-trance-bradford-boats.trycloudflare.com';
-      btn.style.display='block'; btn.href=f; ue.textContent=f;
+  function calibrate(depth){
+    depth = depth || 0;
+    busy('门 · 正在校准线路…');
+    return fetchTarget().then(function(u){
+      if (!u) throw new Error('NOPKG');
+      target = u;
+      return probe(u).then(function(alive){
+        if (alive){ ready = true; glow(true); ring(1); say('门 · 已就绪 · 按住启门','ok'); return true; }
+        if (depth < 2) return new Promise(function(r){ setTimeout(r, 2500); }).then(function(){ return calibrate(depth+1); });
+        ready = false; ring(0); glow(false);
+        say('⚠️ 线路刚更换 · 请点「🔁 校准新址」','bad'); return false;
+      });
+    }).catch(function(){
+      ready = false; ring(0); glow(false);
+      say('⚠️ 暂时校不到线路 · 稍后再试','bad'); return false;
+    });
+  }
+
+  /* ── 开门(仅当按住满时且线路就绪) ── */
+  function open(){
+    if (opened || !ready || !target) return;
+    opened = true; $('seal').className = 'seal open'; glow(true);
+    hint('门 已 开 · 请 入','ok'); say('正在进入·玄武灵犀…','ok');
+    setTimeout(function(){ location.replace(target + '/m.html'); }, 750);
+  }
+
+  function tick(){
+    if (!held) return;
+    var dt = new Date().getTime() - t0, p = dt / HOLD;
+    if (p > 1) p = 1;
+    ring(p);
+    if (p >= 1){
+      if (ready) { open(); return; }
+      held = false; $('seal').className='seal'; ring(0); glow(false);
+      hint('线路未就绪 · 正在校准，请稍候再按','bad'); calibrate(0); return;
     }
-  });
+    raf = requestAnimationFrame(tick);
+  }
+  function pressStart(ev){
+    if (opened) return;
+    if (ev && ev.preventDefault) ev.preventDefault();
+    held = true; t0 = new Date().getTime();
+    $('seal').className = 'seal hold';
+    hint('收 手 则 门 闭 · 请 按 住 不 放');
+    if (raf) cancelAnimationFrame(raf);
+    raf = requestAnimationFrame(tick);
+  }
+  function pressEnd(){
+    if (opened || !held) return;
+    var dt = new Date().getTime() - t0;
+    held = false; $('seal').className = (ready?'seal':'seal'); ring(0); glow(ready);
+    if (dt < HOLD) hint('按住此印 1.2 秒 · 门 自 开');
+  }
+
+  /* ── 手势绑定(触屏 + 鼠标) ── */
+  var seal = $('seal');
+  seal.addEventListener('touchstart', pressStart, {passive:false});
+  seal.addEventListener('touchend', pressEnd);
+  seal.addEventListener('touchcancel', pressEnd);
+  seal.addEventListener('mousedown', pressStart);
+  seal.addEventListener('mouseup', pressEnd);
+  seal.addEventListener('mouseleave', pressEnd);
+  document.addEventListener('contextmenu', function(e){ e.preventDefault(); });
+  document.addEventListener('dragstart', function(e){ e.preventDefault(); });
+
+  $('refresh').addEventListener('click', function(){ ready=false; ring(0); glow(false); calibrate(0); });
+  $('local').addEventListener('click', function(){ location.href = 'http://127.0.0.1:8092/m.html'; });
+
+  /* ── 常驻自校准: 站在门上就一直等线路 ── */
+  setInterval(function(){ if (!ready && !opened) calibrate(2); }, 15000);
+
+  /* ── 自诊断行(一眼看出环境毛病) ── */
+  (function diag(){
+    var ua = (navigator.userAgent||''), br = '未知';
+    if (/EdgA?\//.test(ua)) br='Edge';
+    else if (/Chrome\//.test(ua)) br='Chrome';
+    else if (/Firefox\//.test(ua)) br='Firefox';
+    else if (/Safari\//.test(ua)) br='Safari';
+    var tip = ('ontouchstart' in window) ? '触屏' : '鼠标';
+    var crypto_ok = !!(window.crypto && (window.crypto.subtle||window.crypto.webkitSubtle));
+    var net = (navigator.onLine===false) ? '离线' : '在线';
+    $('diag').textContent = '门体自检 · ' + location.protocol + ' · ' + br + ' · ' + tip + ' · 网络' + net +
+      ' · 抓取' + (window.fetch?'可用':'不可用') + ' · 加密' + (crypto_ok?'可用':'不可用');
+  })();
+
+  calibrate(0);
 })();
 </script>
 </body>
