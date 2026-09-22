@@ -3,230 +3,73 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="robots" content="noindex,nofollow,noarchive">
-<title>玄武灵犀 · 私密入口</title>
-<!-- 🔒 强制 HTTPS 兜底 · GitHub Enforce HTTPS 之外的自保险 -->
+<!-- 🔒 强制 HTTPS 兜底(2026-09-22 老板令) · GitHub Enforce HTTPS 未开时自行升级 -->
 <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 <script>(function(){try{var p=location.protocol;if(p==="http:"){location.replace("https://"+location.host+location.pathname+location.search+location.hash);}}catch(e){}})();</script>
+<title>玄武灵犀 · 固定入口</title>
 <style>
-  :root{--bg:#0d1117;--card:#161b22;--line:#30363d;--fg:#e6edf3;--dim:#8b949e;--acc:#58a6ff;--ok:#3fb950;--bad:#f85149}
+  :root{--bg:#0d1117;--card:#161b22;--line:#30363d;--fg:#e6edf3;--dim:#8b949e;--acc:#58a6ff;--ok:#3fb950}
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.6 -apple-system,system-ui,"PingFang SC","Noto Sans SC",sans-serif;display:flex;min-height:100vh;align-items:center;justify-content:center;padding:20px}
   .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 20px;max-width:520px;width:100%;text-align:center;box-shadow:0 8px 30px rgba(0,0,0,.4)}
-  .ico{font-size:34px;line-height:1}
-  h1{font-size:19px;margin:8px 0 6px}
-  .dim{color:var(--dim);font-size:13px;margin:0 0 14px}
-  input[type=password]{width:100%;padding:13px 14px;border-radius:10px;border:1px solid var(--line);background:#0d1117;color:var(--fg);font-size:16px}
-  input[type=password]:focus{outline:none;border-color:var(--acc)}
-  button,.btn{display:block;width:100%;margin-top:12px;padding:13px 14px;border-radius:10px;border:1px solid var(--line);background:var(--acc);color:#04121f;font-weight:700;font-size:16px;text-decoration:none;cursor:pointer}
-  button.ghost{background:transparent;color:var(--dim);font-weight:500;font-size:13px;padding:9px}
-  .btn.ok{background:var(--ok);color:#04160a}
-  .st{min-height:20px;font-size:13px;color:var(--dim);margin-top:10px}
-  .st.bad{color:var(--bad)} .st.ok{color:var(--ok)}
-  .foot{margin-top:14px;font-size:12px;color:var(--dim);word-break:break-all}
-  code{background:#0d1117;border:1px solid var(--line);border-radius:6px;padding:1px 5px;font-size:12px}
-  .bar{height:6px;background:#0d1117;border:1px solid var(--line);border-radius:6px;overflow:hidden;margin-top:10px}
-  .bar i{display:block;height:100%;width:0;background:var(--acc);transition:width .3s}
-  .row{display:flex;align-items:center;gap:8px;justify-content:center;margin-top:10px;font-size:12.5px;color:var(--dim)}
-  .spin{display:inline-block;width:12px;height:12px;border:2px solid var(--dim);border-top-color:transparent;border-radius:50%;animation:sp .8s linear infinite;vertical-align:-2px}
-  @keyframes sp{to{transform:rotate(360deg)}}
+  h1{font-size:19px;margin:0 0 6px}
+  .sub{color:var(--dim);font-size:13px;margin-bottom:16px}
+  .st{font-size:15px;margin:10px 0;min-height:24px}
+  .ok{color:var(--ok)} .dim{color:var(--dim)}
+  a.btn{display:block;background:var(--acc);color:#0d1117;text-decoration:none;font-weight:700;padding:13px;border-radius:10px;margin-top:14px}
+  code{background:#0d1117;border:1px solid var(--line);border-radius:6px;padding:2px 6px;font-size:12px;color:var(--dim);word-break:break-all}
+  .foot{margin-top:14px;font-size:12px;color:var(--dim)}
 </style>
 </head>
 <body>
 <div class="card">
-  <!-- ① 口令门 -->
-  <div id="lock">
-    <div class="ico">🔒</div>
-    <h1>玄武灵犀 · 私密入口</h1>
-    <p class="dim">私有化部署 · 仅限授权者进入<br>口令经 PBKDF2 60 万轮派生，密文不可逆推</p>
-    <input id="pw" type="password" autocomplete="current-password" placeholder="请输入口令" enterkeyhint="go">
-    <div class="row"><label><input type="checkbox" id="keep" checked style="width:auto;margin-right:4px">本机记住口令（12 小时免重输）</label></div>
-    <button id="go">解 锁 进 入</button>
-    <button class="ghost" id="forgot">忘了口令？找小奈重置</button>
-    <div class="st" id="st"></div>
-    <div class="bar"><i id="pg"></i></div>
-    <div class="foot" id="diag"></div>
-  </div>
-
-  <!-- ② 已解锁 -->
-  <div id="open" style="display:none">
-    <div class="ico">🐢</div>
-    <h1>已解锁 · 欢迎老板</h1>
-    <p class="dim" id="who">本入口为私有部署</p>
-    <a class="btn ok" id="enter" href="#">👉 进入手机门户</a>
-    <div class="foot">当前目标：<code id="u">—</code><br><span id="t"></span></div>
-    <button class="ghost" id="reload">🔁 换最新地址（入口过期时点这里）</button>
-    <button class="ghost" id="relock">🔒 重新锁定（清本机口令）</button>
-  </div>
-
-  <!-- ③ 自动跟进中 -->
-  <div id="auto" style="display:none">
-    <div class="ico">🐢</div>
-    <h1>正在跟进最新入口…</h1>
-    <p class="dim" id="automsg"><span class="spin"></span> 取密包 → 解密 → 探活</p>
-  </div>
-
-  <div class="foot" id="tail">玄武灵犀 · 私有部署 · 地址经 AES-256-GCM 封装，无口令不可解</div>
+  <h1>🐉 玄武灵犀 · 固定入口</h1>
+  <div class="sub">本页自动跳到最新可用的手机门户</div>
+  <div class="st" id="st"><span class="dim">正在读取最新地址…</span></div>
+  <a class="btn" id="btn" href="#" style="display:none">👉 点这里打开手机门户</a>
+  <div class="foot">当前目标：<code id="u">—</code><br><span id="t"></span></div>
 </div>
-
 <script>
 (function(){
-  'use strict';
-  var AADB='lx-portal-v1|';
-  var LSURL='lx_url', LSEXP='lx_exp', LSPW='lx_pw', LSW='lx_who', LSFAIL='lx_fail', LSLOCK='lx_lock';
-  var HOLD_MS=12*3600*1000, LOCK_MS=10*60*1000;
-
-  function $(id){ return document.getElementById(id); }
-  function b64(s){ var b=atob(s), a=new Uint8Array(b.length); for(var i=0;i<b.length;i++) a[i]=b.charCodeAt(i); return a; }
-  function cat(a,b){ var o=new Uint8Array(a.length+b.length); o.set(a,0); o.set(b,a.length); return o; }
-  function enc(s){ return new TextEncoder().encode(s); }
-  function say(m,cls){ var s=$('st'); s.textContent=m||''; s.className='st'+(cls?' '+cls:''); }
-  function now(){ return Date.now(); }
-  function show(id){ ['lock','open','auto'].forEach(function(x){ $(x).style.display = (x===id?'block':'none'); }); }
-
-  /* ── 取密包: 同源 → raw → jsDelivr ── */
-  function fetchPkg(){
-    var ts='?t='+now();
-    var tries=['secret.json'+ts,
-      'https://raw.githubusercontent.com/lzh1968/xuanwu-lingxi/main/secret.json'+ts,
-      'https://cdn.jsdelivr.net/gh/lzh1968/xuanwu-lingxi@main/secret.json'+ts];
-    return tries.reduce(function(p,u){
-      return p.catch(function(){ return fetch(u,{cache:'no-store'}).then(function(r){ if(!r.ok) throw 0; return r.json(); }); });
-    }, Promise.reject(0));
+  var st=document.getElementById('st'),btn=document.getElementById('btn'),ue=document.getElementById('u'),te=document.getElementById('t');
+  var RAW='https://raw.githubusercontent.com/lzh1968/xuanwu-lingxi/main/url.json';
+  var last=null; try{last=localStorage.getItem('lx_last')}catch(e){}
+  function go(u,stale){
+    if(!u)return false;
+    ue.textContent=u; btn.href=u; btn.style.display='block';
+    st.innerHTML='<span class="ok">✅ '+(stale?'正在跳转（用上次缓存地址）':'已找到最新地址，正在跳转')+'…</span>';
+    try{localStorage.setItem('lx_last',u)}catch(e){}
+    setTimeout(function(){location.replace(u)},600);
+    return true;
   }
-
-  /* ── 逐会员试解(AAD 绑定会员 id) ── */
-  function tryOpen(pkg,pw){
-    var i=0;
-    function step(){
-      if (i>=pkg.members.length) return Promise.resolve(null);
-      var m=pkg.members[i++];
-      return crypto.subtle.importKey('raw',enc(pw),'PBKDF2',false,['deriveKey'])
-        .then(function(base){ return crypto.subtle.deriveKey({name:'PBKDF2',salt:b64(m.salt),iterations:(m.iters||600000),hash:'SHA-256'},
-                                                              base,{name:'AES-GCM',length:256},false,['decrypt']); })
-        .then(function(key){ return crypto.subtle.decrypt({name:'AES-GCM',iv:b64(m.iv),additionalData:enc(AADB+m.id)},key,cat(b64(m.ct),b64(m.tag))); })
-        .then(function(pt){ var s=new TextDecoder().decode(pt), u=s; try{ var o=JSON.parse(s); if(o&&o.url) u=o.url; }catch(e){} return {url:u,name:m.name}; })
-        .catch(function(){ return step(); });
+  function get(u){return fetch(u+(u.indexOf('?')<0?'?t=':'&t=')+Date.now(),{cache:'no-store'}).then(function(r){
+    if(!r.ok)throw 0; return r.json();
+  });}
+  // 🆕 GitHub API 源: 推送后**几秒内**即新(而 raw 要几分钟·Pages 构建更慢) → 三源取 updated 最新
+  function getApi(){
+    return fetch('https://api.github.com/repos/lzh1968/xuanwu-lingxi/contents/url.json?t='+Date.now(),{cache:'no-store'})
+      .then(function(r){ if(!r.ok) throw 0; return r.json(); })
+      .then(function(j){ return JSON.parse(atob(String(j.content||'').replace(/\s/g,''))); });
+  }
+  // 三源并行：本站(随 Pages 构建) + raw(约1分钟) + GitHub API(几秒) → 取 updated 最新那条
+  Promise.allSettled([
+    get('url.json'),
+    get(RAW),
+    getApi()
+  ]).then(function(rs){
+    var c=[];
+    rs.forEach(function(x){ if(x.status==='fulfilled'&&x.value&&x.value.url) c.push(x.value); });
+    if(!c.length) throw 0;
+    c.sort(function(a,b){ return String(b.updated||'').localeCompare(String(a.updated||'')); });
+    if(c[0].updated) te.textContent='地址更新于 '+c[0].updated;
+    go(c[0].url);
+  }).catch(function(){
+    if(last){ go(last,true); }
+    else{
+      st.innerHTML='<span class="dim">取地址失败，请稍后刷新</span>';
+      var f='https://gospel-trance-bradford-boats.trycloudflare.com';
+      btn.style.display='block'; btn.href=f; ue.textContent=f;
     }
-    return step();
-  }
-
-  /* ── 探活: 与入口 /health 握手(我们自己的端点·带CORS·可读状态码)
-     活 → 200 + {ok:true} ; 死隧道 → Cloudflare 530(无 CORS) → fetch 直接 reject ; 域名已死 → reject ── */
-  function probe(u){
-    var ctl = (typeof AbortController!=='undefined') ? new AbortController() : null;
-    var timer = setTimeout(function(){ if(ctl) ctl.abort(); }, 8000);
-    return fetch(u+'/health', {mode:'cors', cache:'no-store', signal: ctl?ctl.signal:undefined})
-      .then(function(r){ clearTimeout(timer); if(!r.ok) return false; return r.json().then(function(j){ return !!(j&&j.ok); }, function(){ return false; }); })
-      .catch(function(){ clearTimeout(timer); return false; });
-  }
-
-  /* ── 取包→解密→探活, 死了就重取一次(应对刚换号) ── */
-  function resolveAlive(pw, depth){
-    depth = depth || 0;
-    return fetchPkg()
-      .then(function(pkg){ return tryOpen(pkg, pw); })
-      .then(function(hit){
-        if (!hit) throw new Error('BAD');
-        return probe(hit.url).then(function(alive){
-          if (alive) return hit;
-          if (depth < 2) return new Promise(function(r){ setTimeout(r, 2500); }).then(function(){ return resolveAlive(pw, depth+1); });
-          hit.stale = true; return hit;
-        });
-      });
-  }
-
-  function save(url,name,pw,keep){
-    localStorage.setItem(LSURL,url); localStorage.setItem(LSEXP,String(now()+HOLD_MS));
-    localStorage.setItem(LSW,name||'老板');
-    if (keep) localStorage.setItem(LSPW, btoa(pw||'')); else localStorage.removeItem(LSPW);
-  }
-  function paint(url,name){
-    show('open');
-    $('u').textContent=url;
-    $('t').textContent=new Date().toLocaleString('zh-CN');
-    $('who').textContent='授权身份：'+(name||'老板')+' · 本入口为私有部署';
-    $('enter').href=url;
-  }
-  function jump(url){ try{ location.replace(url); }catch(e){} }
-
-  /* ── 主流程: 拿到口令 → 解包 → 探活 → 跳 ── */
-  function unlock(pw,keep){
-    return resolveAlive(pw,0)
-      .then(function(hit){
-        $('pg')&&($('pg').style.width='100%');
-        save(hit.url,hit.name,pw,keep);
-        paint(hit.url,hit.name);
-        if (!hit.stale){ say('✅ 入口已就绪，正在进入…','ok'); if (keep) setTimeout(function(){ jump(hit.url); },700); }
-        else { say('⚠️ 入口刚换号，请点「🔁 换最新地址」','bad'); }
-        return hit;
-      });
-  }
-
-  function lockedMin(){ var u=parseInt(localStorage.getItem(LSLOCK)||'0',10); return u>now()?Math.ceil((u-now())/60000):0; }
-  function bumpFail(){
-    var n=parseInt(localStorage.getItem(LSFAIL)||'0',10)+1;
-    localStorage.setItem(LSFAIL,String(n));
-    if (n>=5){ localStorage.setItem(LSLOCK,String(now()+LOCK_MS)); localStorage.setItem(LSFAIL,'0'); return 'LOCK'; }
-    return 5-n;
-  }
-
-  /* ── 载入: ①记住的口令 → 自动跟进最新地址 ②否则口令门 ── */
-  (function init(){
-    var savedPw=localStorage.getItem(LSPW);
-    if (savedPw){
-      show('auto');
-      $('automsg').innerHTML='<span class="spin"></span> 正在跟进最新入口…';
-      try{ savedPw = atob(savedPw); }catch(e){ savedPw=null; }
-    }
-    if (!savedPw) return;
-    unlock(savedPw,true).then(function(){ /* 成功即已 paint/jump */ })
-      .catch(function(){
-        localStorage.removeItem(LSPW); localStorage.removeItem(LSURL); localStorage.removeItem(LSEXP);
-        show('lock'); say('本机记住的口令已失效（口令可能已更换），请重新输入','bad');
-      });
-  })();
-
-  $('go').addEventListener('click', function(){
-    var m=lockedMin();
-    if (m){ say('🔒 连续输错过多，请 '+m+' 分钟后再试','bad'); return; }
-    var pw=($('pw').value||'').trim();
-    if (pw.length<4){ say('口令太短','bad'); return; }
-    var keep=$('keep').checked;
-    show('auto'); $('automsg').innerHTML='<span class="spin"></span> 校 验 中…';
-    if ($('pg')) $('pg').style.width='35%';
-    unlock(pw,keep).catch(function(e){
-      show('lock');
-      if (e && e.message==='BAD'){ var r=bumpFail(); say(r==='LOCK'?'🔒 连错 5 次，已锁定 10 分钟':'❌ 口令不对（还可试 '+r+' 次）','bad'); }
-      else { say('⚠️ 读不到密包（网络/仓库异常），请稍后再试或找小奈','bad'); }
-    });
-  });
-
-  $('pw').addEventListener('keydown', function(ev){ if (ev.key==='Enter') $('go').click(); });
-  $('reload').addEventListener('click', function(){
-    var pw=localStorage.getItem(LSPW); pw=pw?atob(pw):'';
-    if (!pw) { show('lock'); say('请重新输入口令（本机未记住）','bad'); return; }
-    show('auto'); $('automsg').innerHTML='<span class="spin"></span> 重新取最新地址…';
-    unlock(pw,true).catch(function(){ show('lock'); say('刷新失败，请重输口令','bad'); });
-  });
-  $('relock').addEventListener('click', function(){
-    [LSURL,LSEXP,LSPW,LSW].forEach(function(k){ localStorage.removeItem(k); });
-    show('lock'); $('pw').value=''; say('已锁定并清除本机口令');
-  });
-  /* ── 自诊断行: 截图一看即知环境 ── */
-  (function diag(){
-    var ok = !!(window.crypto && crypto.subtle && window.fetch && window.TextEncoder);
-    var d = $('diag'); if (!d) return;
-    d.textContent = '环境: ' + location.protocol + ' · ' + (navigator.platform||'') + ' · 加密' + (ok?'可用':'不可用')
-      + ' · ' + (navigator.userAgent||'').slice(0,42);
-    if (!ok){
-      d.innerHTML = '⚠️ 此浏览器不支持网页加密（加密:不可用）——<b>请改用 Chrome/系统浏览器打开本页</b><br>'
-        + '<span style="font-size:10px">' + (navigator.userAgent||'') + '</span>';
-    }
-  })();
-
-  $('forgot').addEventListener('click', function(){
-    say('口令由小奈本机重置：node _口令暗门_封装.js --set-passphrase');
   });
 })();
 </script>
