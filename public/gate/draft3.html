@@ -23,7 +23,7 @@
     --ink:#2c2419;--ink2:#4a4034;--sub:#8b8172;--gold:#8a6a25;--line:rgba(120,98,50,.34);
     --pl-bg:linear-gradient(168deg,#fffdf7,#f2ecdc 58%,#e6ddc9);--pl-ink:#3a3122;--pl-edge:#c3b79b;
     --seal-bg:linear-gradient(158deg,#a3281f,#801c15 62%,#61120d);--seal-ink:#fff1d4;--seal-edge:#c1503f;
-    --grain:.055;--glow:rgba(180,150,80,.20);
+    --grain:.055;--glow:rgba(180,150,80,.20);--firglow:rgba(205,95,45,.22);
   }
   /* ── 三皮：水墨(深) ── */
   html[data-skin=qing]{
@@ -31,7 +31,7 @@
     --ink:#ded5bd;--ink2:#c6bda4;--sub:#867f6c;--gold:#d9b76a;--line:rgba(201,162,83,.30);
     --pl-bg:linear-gradient(168deg,#191c21,#101317 60%,#0b0d10);--pl-ink:#e8cf90;--pl-edge:#8a7340;
     --seal-bg:linear-gradient(158deg,#95211b,#701511 60%,#540d0a);--seal-ink:#f4dfb6;--seal-edge:#bb4a3e;
-    --grain:.085;--glow:rgba(201,162,83,.16);
+    --grain:.085;--glow:rgba(201,162,83,.16);--firglow:rgba(255,132,60,.20);
   }
   /* ── 三皮：金碧(古铜·金箔) ── */
   html[data-skin=jin]{
@@ -39,14 +39,15 @@
     --ink:#ecdcb4;--ink2:#d3c193;--sub:#95845c;--gold:#e9c877;--line:rgba(233,200,119,.38);
     --pl-bg:linear-gradient(168deg,#efe7cd,#dcd1b2 54%,#c6b995);--pl-ink:#33291a;--pl-edge:#b9944f;
     --seal-bg:linear-gradient(158deg,#a52b20,#7d1811 60%,#5c0f0a);--seal-ink:#ffefcc;--seal-edge:#cf5a45;
-    --grain:.10;--glow:rgba(233,200,119,.22);
+    --grain:.10;--glow:rgba(233,200,119,.22);--firglow:rgba(255,150,70,.27);
   }
 
   body{
     background:var(--bg);background-image:var(--bg-img);
     color:var(--ink);font-family:"Songti SC","STSong","Noto Serif CJK SC","Source Han Serif SC",serif;
-    display:flex;flex-direction:column;align-items:center;
-    padding:32px 20px calc(22px + env(safe-area-inset-bottom));
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    min-height:100vh;
+    padding:22px 20px calc(124px + env(safe-area-inset-bottom));
     -webkit-user-select:none;user-select:none;-webkit-touch-callout:none;overflow-x:hidden;
     transition:background-color .5s ease,color .5s ease;
   }
@@ -68,7 +69,7 @@
     color:var(--sub);opacity:.72;margin-top:7px;font-family:ui-monospace,Menlo,monospace}
 
   /* ── 匾额（双扉分启） ── */
-  .plaque{position:relative;margin:20px auto 0;padding:21px 26px 16px;border-radius:4px;
+  .plaque{position:relative;margin:16px auto 0;padding:20px 26px 15px;border-radius:4px;
     background:var(--pl-bg);border:1px solid var(--pl-edge);
     box-shadow:0 20px 48px rgba(0,0,0,.42),inset 0 0 26px rgba(120,104,66,.20)}
   .plaque:before{content:"";position:absolute;inset:7px;border:1px solid var(--line);border-radius:2px;pointer-events:none;opacity:.8}
@@ -93,47 +94,57 @@
     text-indent:.44em;color:var(--sub);font-family:ui-monospace,Menlo,monospace}
 
   /* ── 竖排铭文 ── */
-  .verse{margin:26px auto 0;writing-mode:vertical-rl;text-orientation:upright;
+  .verse{margin:20px auto 0;writing-mode:vertical-rl;text-orientation:upright;
     font-size:14.5px;letter-spacing:.30em;line-height:2.05;color:var(--ink2);max-height:272px}
   .verse div{display:block;margin-left:20px}
   .verse em{font-style:normal;color:var(--sub);font-size:12px;letter-spacing:.18em}
 
-  .rule{width:152px;height:1px;margin:22px auto 0;
+  .rule{width:152px;height:1px;margin:18px auto 0;
     background:linear-gradient(90deg,rgba(0,0,0,0),var(--gold),rgba(0,0,0,0));opacity:.7}
   .rule.dbl{margin-top:6px;width:104px;opacity:.4}
 
-  /* ── 朱印(按住启门) ── */
-  .sealbox{position:relative;width:150px;height:150px;margin:22px auto 4px;display:flex;align-items:center;justify-content:center}
-  .halo{position:absolute;inset:0;border-radius:10px;
-    background:radial-gradient(circle,var(--glow) 0%,rgba(0,0,0,0) 70%);
-    transition:opacity .5s ease,transform .5s ease;opacity:.8}
-  .rring{position:absolute;inset:0;width:100%;height:100%}
+  /* ── 🔥 烛龙火印（不是「开」，是「令」）── */
+  .sealbox{position:relative;width:156px;height:168px;margin:14px auto 2px;
+    display:flex;align-items:flex-end;justify-content:center}
+  .flame{position:absolute;left:50%;top:-26px;width:132px;height:78px;transform:translateX(-50%);
+    pointer-events:none;filter:blur(.3px)}
+  html[data-skin=jin] .flame{animation:flick2 4.4s ease-in-out infinite}
+  @keyframes flick2{0%,100%{opacity:.82;transform:translateX(-50%) scaleY(1)}42%{opacity:1;transform:translateX(-50%) scaleY(1.07)}66%{opacity:.74;transform:translateX(-50%) scaleY(.96)}}
+  .halo{position:absolute;left:50%;bottom:6px;width:168px;height:168px;transform:translateX(-50%);border-radius:14px;
+    background:radial-gradient(circle,var(--firglow) 0%,rgba(0,0,0,0) 70%);
+    transition:opacity .5s ease,transform .5s ease;opacity:.85}
+  .rring{position:absolute;left:50%;bottom:6px;width:150px;height:150px;transform:translateX(-50%)}
   .rring .trk{fill:none;stroke:var(--line);stroke-width:1.6}
-  .rring .pty{fill:none;stroke:var(--gold);stroke-width:2.4;stroke-linejoin:round;transition:stroke-dashoffset .08s linear}
-  .seal{position:relative;width:112px;height:112px;border-radius:6px;background:var(--seal-bg);
-    border:2px solid var(--seal-edge);display:flex;align-items:center;justify-content:center;
-    font-size:62px;line-height:1;color:var(--seal-ink);
+  .rring .pty{fill:none;stroke:url(#gFireRing);stroke-width:2.6;stroke-linejoin:round;transition:stroke-dashoffset .08s linear}
+  .seal{position:relative;width:114px;height:114px;margin-bottom:22px;border-radius:6px;
+    background:var(--seal-bg);border:2px solid var(--seal-edge);
+    display:flex;align-items:center;justify-content:center;
+    font-size:60px;line-height:1;color:var(--seal-ink);
     text-shadow:0 -1px 0 rgba(0,0,0,.5),0 1px 0 rgba(255,226,180,.26);
-    box-shadow:0 12px 30px rgba(0,0,0,.5),inset 0 0 20px rgba(255,180,120,.12);
+    box-shadow:0 12px 30px rgba(0,0,0,.5),inset 0 0 22px rgba(255,150,80,.16),0 0 0 1px rgba(255,170,90,.10);
     transition:transform .16s ease,box-shadow .3s ease,filter .3s ease;cursor:pointer}
   .seal:active{transform:scale(.97)}
-  .seal.hold{filter:brightness(1.14)}
-  .seal.open{transform:scale(1.06);box-shadow:0 0 64px var(--glow),0 12px 30px rgba(0,0,0,.5)}
-  .hint{margin-top:14px;font-size:13px;letter-spacing:.2em;color:var(--ink2);text-align:center;min-height:19px}
+  .seal.hold{filter:brightness(1.16) saturate(1.08)}
+  .seal.open{transform:scale(1.06);box-shadow:0 0 70px var(--firglow),0 12px 30px rgba(0,0,0,.5)}
+  .sealcap{position:absolute;left:50%;bottom:-4px;transform:translateX(-50%);white-space:nowrap;
+    font-size:10.5px;letter-spacing:.34em;text-indent:.34em;color:var(--sub);font-family:ui-monospace,Menlo,monospace}
+  .sealbox.hot .halo{opacity:1;transform:translateX(-50%) scale(1.06)}
+  .sealbox.hot .flame{opacity:1}
+  .hint{margin-top:10px;font-size:13px;letter-spacing:.2em;color:var(--ink2);text-align:center;min-height:19px}
   .hint.bad{color:#d98080}.hint.ok{color:#7fbf8a}
-  .state{margin-top:13px;font-size:11.5px;letter-spacing:.1em;color:var(--sub);text-align:center;min-height:17px}
+  .state{margin-top:11px;font-size:11.5px;letter-spacing:.1em;color:var(--sub);text-align:center;min-height:17px}
   .state.ok{color:#7fbf8a}.state.bad{color:#d98080}
   .spin{display:inline-block;width:8px;height:8px;margin-right:6px;border-radius:50%;
     border:2px solid var(--line);border-top-color:var(--gold);animation:sp .8s linear infinite}
   @keyframes sp{to{transform:rotate(360deg)}}
 
   /* ── 落款 ── */
-  .sign{margin-top:18px;display:flex;align-items:center;gap:14px;justify-content:center}
+  .sign{margin-top:14px;display:flex;align-items:center;gap:14px;justify-content:center}
   .sign span{font-size:11.5px;letter-spacing:.26em;color:var(--sub)}
   .sign i{font-style:normal;width:30px;height:30px;border-radius:4px;background:var(--seal-bg);
     border:1px solid var(--seal-edge);color:var(--seal-ink);font-size:13px;line-height:1.05;
     display:flex;align-items:center;justify-content:center;text-align:center;padding:2px;letter-spacing:0}
-  .motto{margin-top:12px;font-size:12.5px;letter-spacing:.34em;text-indent:.34em;color:var(--sub)}
+  .motto{margin-top:10px;font-size:12.5px;letter-spacing:.34em;text-indent:.34em;color:var(--sub)}
 
   .foot{position:fixed;left:0;right:0;bottom:calc(12px + env(safe-area-inset-bottom));
     display:flex;flex-direction:column;align-items:center;gap:8px;padding:0 16px;z-index:10}
@@ -158,6 +169,15 @@
 </head>
 <body>
   <svg class="grain" aria-hidden="true"><filter id="gr"><feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#gr)"/></svg>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+    <linearGradient id="gFireRing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff9a3c"/><stop offset="46%" stop-color="#e6c073"/><stop offset="100%" stop-color="#c9a253"/>
+    </linearGradient>
+    <radialGradient id="gFlame" cx="50%" cy="74%" r="72%">
+      <stop offset="0%" stop-color="#ffeec2"/><stop offset="42%" stop-color="#ff9a3c"/>
+      <stop offset="100%" stop-color="rgba(190,55,15,0)"/>
+    </radialGradient>
+  </defs></svg>
   <div class="candle" aria-hidden="true"></div>
 
   <div class="skins" id="skins">
@@ -182,17 +202,22 @@
 
   <div class="rule"></div><div class="rule dbl"></div>
 
-  <div class="sealbox">
+  <div class="sealbox" id="sealbox">
+    <svg class="flame" viewBox="0 0 132 78" aria-hidden="true">
+      <path d="M66 78 C 38 70 28 50 39 32 C 46 20 58 14 61 0 C 71 17 85 23 93 37 C 102 52 97 69 66 78 Z" fill="url(#gFlame)" opacity=".92"/>
+      <path d="M66 74 C 51 68 45 55 52 43 C 56 35 63 31 65 20 C 71 33 79 37 83 48 C 87 59 83 68 66 74 Z" fill="#ffd27a" opacity=".5"/>
+    </svg>
     <div class="halo" id="halo"></div>
     <svg class="rring" viewBox="0 0 150 150" aria-hidden="true">
       <rect class="trk" x="8" y="8" width="134" height="134" rx="9"></rect>
       <rect class="pty" id="pty" x="8" y="8" width="134" height="134" rx="9"
             stroke-dasharray="521" stroke-dashoffset="521"></rect>
     </svg>
-    <div class="seal" id="seal">開</div>
+    <div class="seal" id="seal">令</div>
+    <div class="sealcap">燭 龍 · 火 印</div>
   </div>
 
-  <div class="hint" id="hint">按住「開」字 1.2 秒 · 門 自 開</div>
+  <div class="hint" id="hint">按住火印 1.2 秒 · 令 出 則 門 開</div>
   <div class="state" id="state"><span class="spin"></span>門 · 正在校准线路…</div>
 
   <div class="sign ink"><span>玄武灵犀</span><i>靈犀</i></div>
@@ -259,7 +284,7 @@
       if (!u) throw new Error('NOPKG');
       target = u;
       return probe(u).then(function(alive){
-        if (alive){ ready = true; glow(true); ring(1); say('門 · 已就绪 · 按住启门','ok'); return true; }
+        if (alive){ ready = true; glow(true); ring(1); say('門 · 已就绪 · 按住火印','ok'); return true; }
         if (depth < 2) return new Promise(function(r){ setTimeout(r, 2500); }).then(function(){ return calibrate(depth+1); });
         ready = false; ring(0); glow(false);
         say('⚠️ 线路刚更换 · 请点「🔁 校准新址」','bad'); return false;
@@ -275,7 +300,8 @@
     opened = true;
     $('plaque').className = 'plaque open';       // 双扉分启
     $('seal').className = 'seal open'; glow(true);
-    hint('門 已 開 · 請 入','ok'); say('正在进入 · 玄武灵犀…','ok');
+    $('sealbox').className = 'sealbox hot';
+    hint('令 已 出 · 門 已 開','ok'); say('火印已合 · 正在进入 · 玄武灵犀…','ok');
     setTimeout(function(){ location.replace(target + '/m.html'); }, 820);
   }
 
@@ -286,7 +312,7 @@
     ring(p);
     if (p >= 1){
       if (ready) { open(); return; }
-      held = false; $('seal').className='seal'; ring(0); glow(false);
+      held = false; $('seal').className='seal'; $('sealbox').className='sealbox'; ring(0); glow(false);
       hint('线路未就绪 · 正在校准，请稍候再按','bad'); calibrate(0); return;
     }
     raf = requestAnimationFrame(tick);
@@ -296,15 +322,16 @@
     if (ev && ev.preventDefault) ev.preventDefault();
     held = true; t0 = new Date().getTime();
     $('seal').className = 'seal hold';
-    hint('收 手 則 門 閉 · 請 按 住 不 放');
+    $('sealbox').className = 'sealbox hot';
+    hint('收 手 則 令 止 · 請 按 住 不 放');
     if (raf) cancelAnimationFrame(raf);
     raf = requestAnimationFrame(tick);
   }
   function pressEnd(){
     if (opened || !held) return;
     var dt = new Date().getTime() - t0;
-    held = false; $('seal').className = 'seal'; ring(0); glow(ready);
-    if (dt < HOLD) hint('按住「開」字 1.2 秒 · 門 自 開');
+    held = false; $('seal').className = 'seal'; $('sealbox').className = 'sealbox'; ring(0); glow(ready);
+    if (dt < HOLD) hint('按住火印 1.2 秒 · 令 出 則 門 開');
   }
 
   var seal = $('seal');
