@@ -40,15 +40,24 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -x
-          curl -sS -o /tmp/pages_put.json -w 'HTTP %{http_code}\n' -X PUT \
+          code=$(curl -sS -o /tmp/pages_put.json -w '%{http_code}' -X PUT \
             -H "Authorization: Bearer $GH_TOKEN" \
             -H "Accept: application/vnd.github+json" \
             -H "X-GitHub-Api-Version: 2022-11-28" \
             "https://api.github.com/repos/$GITHUB_REPOSITORY/pages" \
-            -d '{"cname":"xuanwulingxi.top"}'
+            -d '{"cname":"xuanwulingxi.top"}')
+          echo "PUT /pages → HTTP $code"
           cat /tmp/pages_put.json || true
+          echo
           echo '--- 当前 Pages 设置 ---'
           curl -sS -H "Authorization: Bearer $GH_TOKEN" \
             -H "Accept: application/vnd.github+json" \
             -H "X-GitHub-Api-Version: 2022-11-28" \
-            "https://api.github.com/repos/$GITHUB_REPOSITORY/pages" || true
+            "https://api.github.com/repos/$GITHUB_REPOSITORY/pages" > /tmp/pages_get.json || true
+          cat /tmp/pages_get.json || true
+          echo
+          # 🔑 没成功就大声报错(工作流结论会变红 → 我这边一看就知道权限/接口不通)
+          if [ "$code" != "200" ] && [ "$code" != "204" ]; then
+            echo "::error::认领自定义域名失败 HTTP $code"
+            exit 1
+          fi
