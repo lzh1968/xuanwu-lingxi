@@ -57,7 +57,7 @@
 <script>
 (function(){
   'use strict';
-  var AAD = new TextEncoder().encode('lx-portal-v1');
+  var AADB = 'lx-portal-v1|';   // v2: 附加数据绑定会员 id(防密文互换)
   var LSURL='lx_url', LSEXP='lx_exp', LSFAIL='lx_fail', LSLOCK='lx_lock';
   var HOLD_MS = 12*3600*1000;   // 解锁后记 12 小时
   var LOCK_MS = 10*60*1000;     // 连错 5 次 → 锁 10 分钟
@@ -95,9 +95,14 @@
                                           base, {name:'AES-GCM', length:256}, false, ['decrypt']);
         })
         .then(function(key){
-          return crypto.subtle.decrypt({name:'AES-GCM', iv:b64(m.iv), additionalData:AAD}, key, cat(b64(m.ct), b64(m.tag)));
+          return crypto.subtle.decrypt({name:'AES-GCM', iv:b64(m.iv),
+            additionalData:new TextEncoder().encode(AADB + m.id)}, key, cat(b64(m.ct), b64(m.tag)));
         })
-        .then(function(pt){ return {url:new TextDecoder().decode(pt), name:m.name}; })
+        .then(function(pt){
+          var s = new TextDecoder().decode(pt), u = s;
+          try { var o = JSON.parse(s); if (o && o.url) u = o.url; } catch(e){}   // v2 载荷(JSON)兼容 v1 裸地址
+          return {url:u, name:m.name};
+        })
         .catch(function(){ return step(); });
     }
     return step();
