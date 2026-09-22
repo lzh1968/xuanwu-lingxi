@@ -102,4 +102,15 @@ footer .btns{margin-top:12px;display:flex;gap:10px;flex-wrap:wrap}
 footer .btns button{font-family:inherit;font-size:12px;color:var(--sub);background:none;border:1px solid var(--line);
   border-radius:999px;padding:5px 11px;cursor:pointer}
 footer .btns button:active{color:var(--gold)}
+/* 外网新声(二期自动采集) */
+.live{margin:0;padding:0;list-style:none}
+.live li{display:flex;gap:9px;align-items:baseline;flex-wrap:wrap;padding:8px 0;border-bottom:1px dashed var(--line);font-size:14.5px}
+.live li:last-child{border-bottom:none}
+.live time{font-family:var(--sans);font-size:11.5px;color:var(--sub);min-width:34px}
+.live .ls{font-family:var(--sans);font-size:10.5px;color:var(--gold);background:var(--tag);
+  border:1px solid var(--line);border-radius:4px;padding:0 5px;white-space:nowrap}
+.live .lf{font-family:var(--sans);font-size:10px;color:var(--zhu);border:1px solid var(--zhu);border-radius:4px;padding:0 4px}
+.live a{flex:1 1 60%;line-height:1.62}
+.live .lk{font-family:var(--sans);font-size:10.5px;color:var(--sub)}
+
 .sizes{font-size:12.5px;color:var(--sub)}

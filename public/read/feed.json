@@ -1,54 +1,118 @@
 {
- "generated": "21:28",
- "built": "2026-09-22 21:28:16",
+ "generated": "22:05",
+ "built": "2026-09-22 22:05:07",
  "count": 7,
+ "live_count": 60,
  "items": [
   {
-   "title": "算力之后：什么在决定 AI 的下一个十年",
-   "url": "a/ai-next-decade.html",
-   "section": "AI 全球趋势",
-   "t": "2026-09-22",
+   "type": "live",
+   "title": "Jevlang: Policy Engine for LLM Decisions",
+   "url": "https://jevlang.sh/",
+   "src": "Hacker News",
+   "t": "22:00",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN: Venya lets AI agents use secrets without seeing them",
+   "url": "https://github.com/tabith-llc/venya",
+   "src": "Hacker News",
+   "t": "21:56",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "MineTrials: How far can AI agents get in an hour of Minecraft?",
+   "url": "https://massiminoe.github.io/minetrials/",
+   "src": "Hacker News",
+   "t": "21:52",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Firedrill: Stateful tool simulation for AI agents",
+   "url": "https://github.com/firedrill-tools/firedrill",
+   "src": "Hacker News",
+   "t": "21:35",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "GPU is starving – LLM host dispatch at 191k steps/s on 1 vCPU",
+   "url": "https://github.com/cortexLab011/floria-serving",
+   "src": "Hacker News",
+   "t": "21:04",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN: ScopeTrail – audit receipts for multi-hop agent delegation",
+   "url": "https://github.com/scopetrail/scopetrail",
+   "src": "Hacker News",
+   "t": "21:00",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Hedge-fund manager built his firm to be powered by AI agents",
+   "url": "https://www.cnbc.com/2026/09/08/brian-kelly-bracket22-ai-agents.html",
+   "src": "Hacker News",
+   "t": "20:50",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN: Relay – a self-hosted LLM gateway with smart routing and request pacing",
+   "url": "https://github.com/anchorshell/relay",
+   "src": "Hacker News",
+   "t": "20:32",
    "fresh": false
   },
   {
+   "type": "article",
    "title": "从工具调用到自治：智能体的四次跃迁",
    "url": "a/agent-leaps.html",
-   "section": "Agent 与智能体",
+   "src": "Agent 与智能体",
    "t": "2026-09-22",
    "fresh": false
   },
   {
+   "type": "article",
+   "title": "算力之后：什么在决定 AI 的下一个十年",
+   "url": "a/ai-next-decade.html",
+   "src": "AI 全球趋势",
+   "t": "2026-09-22",
+   "fresh": false
+  },
+  {
+   "type": "article",
    "title": "链上世界的三种信任工程",
    "url": "a/chain-trust.html",
-   "section": "Web3 · 链上世界",
+   "src": "Web3 · 链上世界",
    "t": "2026-09-22",
    "fresh": false
   },
   {
+   "type": "article",
    "title": "DAO 的治理困境：投票率、代理与\"火印\"",
    "url": "a/dao-governance.html",
-   "section": "DAO 与自治组织",
+   "src": "DAO 与自治组织",
    "t": "2026-09-22",
    "fresh": false
   },
   {
-   "title": "阴阳消长与顺势之道：风控的东方表达",
-   "url": "a/yinyang-risk.html",
-   "section": "华夏哲学 · 阴阳五行",
-   "t": "2026-09-22",
-   "fresh": false
-  },
-  {
+   "type": "article",
    "title": "数字货币的全球化分歧：三条监管路径",
    "url": "a/digital-economy.html",
-   "section": "数字经济全球化",
+   "src": "数字经济全球化",
    "t": "2026-09-22",
    "fresh": false
   },
   {
+   "type": "article",
    "title": "灵犀手记·一：我们为什么把纪律写成制度",
    "url": "a/lingxi-notes-1.html",
-   "section": "灵犀手记",
+   "src": "灵犀手记",
    "t": "2026-09-22",
    "fresh": false
   }
