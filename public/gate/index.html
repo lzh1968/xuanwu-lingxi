@@ -1,96 +1,256 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-skin="qing">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex,nofollow,noarchive">
-<meta name="theme-color" content="#0b0d12">
+<meta name="theme-color" content="#08090b">
 <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 <title>玄武灵犀 · 常驻门</title>
 <style>
+  /* ────────────────────────────────────────────────────────────────
+     玄武灵犀 · 内门 · 三体（素 / 清 / 金）
+     2026-09-23 00:2x 老板令「还可以更美妙对吗？集思广益一下」
+     会诊裁定：甲·三体并呈（加权 53.3% · 8/9 席）→ 一页三皮，老板亲选定案
+     全凭文字：匾额阴刻 / 竖排铭文 / 朱印启门 / 落墨动效 / 双扉分启
+     ──────────────────────────────────────────────────────────────── */
   *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
   html,body{margin:0;padding:0;min-height:100%}
+
+  /* ── 三皮：素纸(浅) ── */
+  html[data-skin=su]{
+    --bg:#f6f1e6;--bg-img:radial-gradient(900px 560px at 50% 6%,#fffdf7 0%,#f3ecdd 62%,#e9e0cd 100%);
+    --ink:#2c2419;--ink2:#4a4034;--sub:#8b8172;--gold:#8a6a25;--line:rgba(120,98,50,.34);
+    --pl-bg:linear-gradient(168deg,#fffdf7,#f2ecdc 58%,#e6ddc9);--pl-ink:#3a3122;--pl-edge:#c3b79b;
+    --seal-bg:linear-gradient(158deg,#a3281f,#801c15 62%,#61120d);--seal-ink:#fff1d4;--seal-edge:#c1503f;
+    --grain:.055;--glow:rgba(180,150,80,.20);--firglow:rgba(205,95,45,.22);
+  }
+  /* ── 三皮：水墨(深) ── */
+  html[data-skin=qing]{
+    --bg:#08090b;--bg-img:radial-gradient(1050px 660px at 50% 4%,#191c21 0%,#0b0d10 60%,#07080a 100%);
+    --ink:#ded5bd;--ink2:#c6bda4;--sub:#867f6c;--gold:#d9b76a;--line:rgba(201,162,83,.30);
+    --pl-bg:linear-gradient(168deg,#191c21,#101317 60%,#0b0d10);--pl-ink:#e8cf90;--pl-edge:#8a7340;
+    --seal-bg:linear-gradient(158deg,#95211b,#701511 60%,#540d0a);--seal-ink:#f4dfb6;--seal-edge:#bb4a3e;
+    --grain:.085;--glow:rgba(201,162,83,.16);--firglow:rgba(255,132,60,.20);
+  }
+  /* ── 三皮：金碧(古铜·金箔) ── */
+  html[data-skin=jin]{
+    --bg:#090a09;--bg-img:radial-gradient(1000px 640px at 50% 2%,#241f14 0%,#100e09 58%,#08080a 100%);
+    --ink:#ecdcb4;--ink2:#d3c193;--sub:#95845c;--gold:#e9c877;--line:rgba(233,200,119,.38);
+    --pl-bg:linear-gradient(168deg,#efe7cd,#dcd1b2 54%,#c6b995);--pl-ink:#33291a;--pl-edge:#b9944f;
+    --seal-bg:linear-gradient(158deg,#a52b20,#7d1811 60%,#5c0f0a);--seal-ink:#ffefcc;--seal-edge:#cf5a45;
+    --grain:.10;--glow:rgba(233,200,119,.22);--firglow:rgba(255,150,70,.27);
+  }
+
   body{
-    background:#0b0d12;
-    background-image:radial-gradient(1100px 620px at 50% -8%,#1b2130 0%,#0b0d12 62%),radial-gradient(700px 420px at 50% 108%,#161a24 0%,rgba(11,13,18,0) 70%);
-    color:#e8e3d6;font-family:"Songti SC","STSong","Noto Serif CJK SC",serif;
+    background:var(--bg);background-image:var(--bg-img);
+    color:var(--ink);font-family:"Songti SC","STSong","Noto Serif CJK SC","Source Han Serif SC",serif;
     display:flex;flex-direction:column;align-items:center;justify-content:center;
-    padding:26px 20px calc(20px + env(safe-area-inset-bottom));
+    min-height:100vh;
+    padding:22px 20px calc(124px + env(safe-area-inset-bottom));
     -webkit-user-select:none;user-select:none;-webkit-touch-callout:none;overflow-x:hidden;
+    transition:background-color .5s ease,color .5s ease;
   }
-  .brand{font-size:30px;letter-spacing:.34em;text-indent:.34em;font-weight:600;
-    background:linear-gradient(180deg,#f6e7bf,#c9a253 60%,#a8823a);
-    -webkit-background-clip:text;background-clip:text;color:transparent}
-  .sub{margin-top:9px;font-size:12.5px;letter-spacing:.26em;text-indent:.26em;color:#8b8471}
-  .rule{width:132px;height:1px;margin:16px auto 0;
-    background:linear-gradient(90deg,rgba(201,162,83,0),rgba(201,162,83,.75),rgba(201,162,83,0))}
+  .grain{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;
+    opacity:var(--grain);mix-blend-mode:overlay;z-index:9}
+  .candle{position:fixed;left:0;right:0;top:0;height:46vh;pointer-events:none;z-index:0;
+    background:radial-gradient(60% 100% at 50% 0%,var(--glow),rgba(0,0,0,0) 72%)}
+  html[data-skin=jin] .candle{animation:flick 5.6s ease-in-out infinite}
+  @keyframes flick{0%,100%{opacity:.72;transform:scaleY(1)}38%{opacity:1;transform:scaleY(1.04)}61%{opacity:.62;transform:scaleY(.98)}}
 
-  .sealbox{position:relative;width:186px;height:186px;margin:30px auto 6px;display:flex;align-items:center;justify-content:center}
-  .halo{position:absolute;inset:6px;border-radius:50%;
-    background:radial-gradient(circle,rgba(201,162,83,.16) 0%,rgba(201,162,83,0) 68%);
+  /* ── 皮切换(素/清/金) ── */
+  .skins{position:fixed;top:calc(11px + env(safe-area-inset-top));right:12px;z-index:20;display:flex;gap:6px}
+  .skins button{font-family:inherit;font-size:12px;letter-spacing:.06em;color:var(--sub);
+    background:transparent;border:1px solid var(--line);border-radius:5px;padding:3px 8px;cursor:pointer}
+  .skins button.on{color:var(--gold);border-color:var(--gold)}
+
+  .tick{font-size:11px;letter-spacing:.5em;text-indent:.5em;color:var(--sub);margin-top:2px}
+  .tick i{font-style:normal;display:block;font-size:10px;letter-spacing:.3em;text-indent:.3em;
+    color:var(--sub);opacity:.72;margin-top:7px;font-family:ui-monospace,Menlo,monospace}
+
+  /* ── 匾额（双扉分启） ── */
+  .plaque{position:relative;margin:16px auto 0;padding:20px 26px 15px;border-radius:4px;
+    background:var(--pl-bg);border:1px solid var(--pl-edge);
+    box-shadow:0 20px 48px rgba(0,0,0,.42),inset 0 0 26px rgba(120,104,66,.20)}
+  .plaque:before{content:"";position:absolute;inset:7px;border:1px solid var(--line);border-radius:2px;pointer-events:none;opacity:.8}
+  .plaque:after{content:"";position:absolute;inset:11px;border:1px solid var(--line);border-radius:1px;pointer-events:none;opacity:.45}
+  .doors{position:relative;display:flex;justify-content:center;overflow:hidden}
+  .doorway{position:absolute;left:50%;top:8%;width:2px;height:84%;transform:translateX(-50%);
+    background:linear-gradient(180deg,rgba(0,0,0,0),var(--gold),rgba(0,0,0,0));opacity:0;
+    transition:opacity .45s ease,width .45s ease;box-shadow:0 0 26px var(--glow)}
+  .plaque.open .doorway{opacity:.9;width:12px}
+  .doors b{position:relative;font-size:54px;line-height:1;font-weight:600;display:inline-block;
+    color:var(--pl-ink);
+    text-shadow:0 1px 0 rgba(255,251,238,.72),0 -1px 1px rgba(46,38,22,.42),0 2px 3px rgba(46,38,22,.22);
+    transition:transform .52s cubic-bezier(.5,.02,.3,1),opacity .5s ease}
+  .doors b.d2{margin-left:.2em}
+  html[data-skin=qing] .doors b{background:linear-gradient(180deg,#f6e7bf,#c9a253 58%,#a8823a);
+    -webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:none;
+    filter:drop-shadow(0 1px 0 rgba(0,0,0,.5))}
+  .plaque.open .doors b{opacity:.06}
+  .plaque.open b.d1{transform:translateX(-46px)}
+  .plaque.open b.d2{transform:translateX(46px)}
+  .plaque .cap{display:block;text-align:center;margin-top:12px;font-size:10.5px;letter-spacing:.44em;
+    text-indent:.44em;color:var(--sub);font-family:ui-monospace,Menlo,monospace}
+
+  /* ── 竖排铭文 ── */
+  .verse{margin:20px auto 0;writing-mode:vertical-rl;text-orientation:upright;
+    font-size:14.5px;letter-spacing:.30em;line-height:2.05;color:var(--ink2);max-height:272px}
+  .verse div{display:block;margin-left:20px}
+  .verse em{font-style:normal;color:var(--sub);font-size:12px;letter-spacing:.18em}
+
+  .rule{width:152px;height:1px;margin:18px auto 0;
+    background:linear-gradient(90deg,rgba(0,0,0,0),var(--gold),rgba(0,0,0,0));opacity:.7}
+  .rule.dbl{margin-top:6px;width:104px;opacity:.4}
+
+  /* ── 🔥 烛龙火印（不是「开」，是「令」）── */
+  .sealbox{position:relative;width:156px;height:168px;margin:14px auto 2px;
+    display:flex;align-items:flex-end;justify-content:center}
+  .flame{position:absolute;left:50%;top:-26px;width:132px;height:78px;transform:translateX(-50%);
+    pointer-events:none;filter:blur(.3px)}
+  html[data-skin=jin] .flame{animation:flick2 4.4s ease-in-out infinite}
+  @keyframes flick2{0%,100%{opacity:.82;transform:translateX(-50%) scaleY(1)}42%{opacity:1;transform:translateX(-50%) scaleY(1.07)}66%{opacity:.74;transform:translateX(-50%) scaleY(.96)}}
+  .halo{position:absolute;left:50%;bottom:6px;width:168px;height:168px;transform:translateX(-50%);border-radius:14px;
+    background:radial-gradient(circle,var(--firglow) 0%,rgba(0,0,0,0) 70%);
     transition:opacity .5s ease,transform .5s ease;opacity:.85}
-  .ring{position:absolute;inset:0;width:100%;height:100%;transform:rotate(-90deg)}
-  .ring .trk{fill:none;stroke:rgba(201,162,83,.16);stroke-width:2}
-  .ring .pty{fill:none;stroke:#e6c073;stroke-width:2.6;stroke-linecap:round;
-    transition:stroke-dashoffset .08s linear}
-  .seal{
-    position:relative;width:126px;height:126px;border-radius:16px;
-    background:linear-gradient(160deg,#8f1f1a,#6d1411 62%,#570f0c);
-    border:1px solid #b8443a;
-    box-shadow:0 10px 30px rgba(0,0,0,.55),inset 0 0 22px rgba(255,190,120,.10);
+  .rring{position:absolute;left:50%;bottom:6px;width:150px;height:150px;transform:translateX(-50%)}
+  .rring .trk{fill:none;stroke:var(--line);stroke-width:1.6}
+  .rring .pty{fill:none;stroke:url(#gFireRing);stroke-width:2.6;stroke-linejoin:round;transition:stroke-dashoffset .08s linear}
+  .seal{position:relative;width:114px;height:114px;margin-bottom:22px;border-radius:6px;
+    background:var(--seal-bg);border:2px solid var(--seal-edge);
     display:flex;align-items:center;justify-content:center;
-    font-size:40px;line-height:1.02;letter-spacing:.06em;color:#f3ddb4;
-    text-shadow:0 1px 0 rgba(0,0,0,.35);
-    transition:transform .16s ease,box-shadow .3s ease,filter .3s ease;cursor:pointer
-  }
+    font-size:60px;line-height:1;color:var(--seal-ink);
+    text-shadow:0 -1px 0 rgba(0,0,0,.5),0 1px 0 rgba(255,226,180,.26);
+    box-shadow:0 12px 30px rgba(0,0,0,.5),inset 0 0 22px rgba(255,150,80,.16),0 0 0 1px rgba(255,170,90,.10);
+    transition:transform .16s ease,box-shadow .3s ease,filter .3s ease;cursor:pointer}
   .seal:active{transform:scale(.97)}
-  .seal.hold{filter:brightness(1.12)}
-  .seal.open{transform:scale(1.06);box-shadow:0 0 60px rgba(230,192,115,.55),0 10px 30px rgba(0,0,0,.5)}
-  .hint{margin-top:16px;font-size:13.5px;letter-spacing:.16em;color:#bdb49c;text-align:center;min-height:20px}
-  .hint.bad{color:#e8a0a0}
-  .hint.ok{color:#9fd7a6}
-
-  .state{margin-top:20px;font-size:12px;letter-spacing:.1em;color:#8b8471;text-align:center;min-height:18px}
-  .state.ok{color:#9fd7a6}.state.bad{color:#e8a0a0}
-  .spin{display:inline-block;width:9px;height:9px;margin-right:6px;border-radius:50%;
-    border:2px solid rgba(201,162,83,.35);border-top-color:#e6c073;animation:sp .8s linear infinite}
+  .seal.hold{filter:brightness(1.16) saturate(1.08)}
+  .seal.open{transform:scale(1.06);box-shadow:0 0 70px var(--firglow),0 12px 30px rgba(0,0,0,.5)}
+  /* 龙纹边（王者令・火印为凭） */
+  .sealframe{position:absolute;left:50%;bottom:16px;width:134px;height:134px;transform:translateX(-50%);pointer-events:none}
+  .edict{margin-top:2px;font-size:11px;letter-spacing:.3em;text-indent:.3em;color:var(--gold);text-align:center;opacity:.92}
+  .sealcap{position:absolute;left:50%;bottom:-4px;transform:translateX(-50%);white-space:nowrap;
+    font-size:10.5px;letter-spacing:.34em;text-indent:.34em;color:var(--sub);font-family:ui-monospace,Menlo,monospace}
+  .sealbox.hot .halo{opacity:1;transform:translateX(-50%) scale(1.06)}
+  .sealbox.hot .flame{opacity:1}
+  .hint{margin-top:10px;font-size:13px;letter-spacing:.2em;color:var(--ink2);text-align:center;min-height:19px}
+  .hint.bad{color:#d98080}.hint.ok{color:#7fbf8a}
+  .state{margin-top:11px;font-size:11.5px;letter-spacing:.1em;color:var(--sub);text-align:center;min-height:17px}
+  .state.ok{color:#7fbf8a}.state.bad{color:#d98080}
+  .spin{display:inline-block;width:8px;height:8px;margin-right:6px;border-radius:50%;
+    border:2px solid var(--line);border-top-color:var(--gold);animation:sp .8s linear infinite}
   @keyframes sp{to{transform:rotate(360deg)}}
 
-  .foot{position:fixed;left:0;right:0;bottom:calc(14px + env(safe-area-inset-bottom));
-    display:flex;flex-direction:column;align-items:center;gap:9px;padding:0 16px}
-  .btns{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
-  .btns button{font-family:inherit;font-size:12.5px;letter-spacing:.08em;color:#cdc3a8;
-    background:rgba(255,255,255,.045);border:1px solid rgba(201,162,83,.32);
-    border-radius:999px;padding:8px 15px;cursor:pointer}
-  .btns button:active{background:rgba(201,162,83,.16);color:#f0e2be}
-  .diag{font-size:10.5px;letter-spacing:.04em;color:#5f5a4d;text-align:center;font-family:ui-monospace,Menlo,monospace;
-    max-width:330px;line-height:1.5}
+  /* ── 落款 ── */
+  .sign{margin-top:14px;display:flex;align-items:center;gap:14px;justify-content:center}
+  .sign span{font-size:11.5px;letter-spacing:.26em;color:var(--sub)}
+  .sign i{font-style:normal;width:30px;height:30px;border-radius:4px;background:var(--seal-bg);
+    border:1px solid var(--seal-edge);color:var(--seal-ink);font-size:13px;line-height:1.05;
+    display:flex;align-items:center;justify-content:center;text-align:center;padding:2px;letter-spacing:0}
+  .motto{margin-top:10px;font-size:12.5px;letter-spacing:.34em;text-indent:.34em;color:var(--sub)}
+
+  .foot{position:fixed;left:0;right:0;bottom:calc(12px + env(safe-area-inset-bottom));
+    display:flex;flex-direction:column;align-items:center;gap:8px;padding:0 16px;z-index:10}
+  .btns{display:flex;gap:9px;flex-wrap:wrap;justify-content:center}
+  .btns a,.btns button{font-family:inherit;font-size:12px;letter-spacing:.08em;color:var(--ink2);
+    background:rgba(127,127,127,.10);border:1px solid var(--line);border-radius:999px;
+    padding:7px 14px;cursor:pointer;text-decoration:none}
+  .btns a:active,.btns button:active{background:rgba(201,162,83,.16);color:var(--gold)}
+  .diag{font-size:10px;letter-spacing:.03em;color:var(--sub);opacity:.8;text-align:center;
+    font-family:ui-monospace,Menlo,monospace;max-width:330px;line-height:1.5}
+
+  /* ── 落墨动效 ── */
+  .ink{opacity:0;filter:blur(7px);animation:inkin 1.05s cubic-bezier(.2,.7,.2,1) forwards}
+  @keyframes inkin{to{opacity:1;filter:blur(0)}}
+  .d1.ink{animation-delay:.05s}.d2.ink{animation-delay:.22s}
+  .verse.ink{animation-delay:.42s}.sign.ink{animation-delay:.66s}
+  @media (prefers-reduced-motion:reduce){
+    .ink{opacity:1;filter:none;animation:none}
+    .candle{animation:none}
+  }
 </style>
 </head>
 <body>
-  <div class="brand">玄武灵犀</div>
-  <div class="sub">一 门 常 驻 · 唯 手 可 启</div>
-  <div class="rule"></div>
+  <svg class="grain" aria-hidden="true"><filter id="gr"><feTurbulence type="fractalNoise" baseFrequency="0.82" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#gr)"/></svg>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+    <linearGradient id="gFireRing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff9a3c"/><stop offset="46%" stop-color="#e6c073"/><stop offset="100%" stop-color="#c9a253"/>
+    </linearGradient>
+    <radialGradient id="gFlame" cx="50%" cy="74%" r="72%">
+      <stop offset="0%" stop-color="#ffeec2"/><stop offset="42%" stop-color="#ff9a3c"/>
+      <stop offset="100%" stop-color="rgba(190,55,15,0)"/>
+    </radialGradient>
+  </defs></svg>
+  <div class="candle" aria-hidden="true"></div>
 
-  <div class="sealbox">
-    <div class="halo" id="halo"></div>
-    <svg class="ring" viewBox="0 0 120 120" aria-hidden="true">
-      <circle class="trk" cx="60" cy="60" r="55"></circle>
-      <circle class="pty" id="pty" cx="60" cy="60" r="55" stroke-dasharray="345.6" stroke-dashoffset="345.6"></circle>
-    </svg>
-    <div class="seal" id="seal">玄<br>武</div>
+  <div class="skins" id="skins">
+    <button data-s="su">素</button><button data-s="qing">清</button><button data-s="jin">金</button>
   </div>
 
-  <div class="hint" id="hint">按住此印 1.2 秒 · 门 自 开</div>
-  <div class="state" id="state"><span class="spin"></span>门 · 正在校准线路…</div>
+  <div class="tick">觀 天 下<i>內 門 · 常 駐</i></div>
+
+  <div class="plaque" id="plaque">
+    <div class="doors">
+      <b class="d1 ink">玄</b><b class="d2 ink">武</b>
+      <span class="doorway"></span>
+    </div>
+    <span class="cap">丙 午 · 秋 ｜ 北 宮 之 象 · 龜 蛇 相 纏</span>
+  </div>
+
+  <div class="verse ink">
+    <div>玄者幽遠、武者止戈</div>
+    <div>北宮龜蛇、主水主藏</div>
+    <div>藏而後動、動則有定</div>
+  </div>
+
+  <div class="rule"></div><div class="rule dbl"></div>
+
+  <div class="sealbox" id="sealbox">
+    <svg class="flame" viewBox="0 0 132 78" aria-hidden="true">
+      <path d="M66 78 C 38 70 28 50 39 32 C 46 20 58 14 61 0 C 71 17 85 23 93 37 C 102 52 97 69 66 78 Z" fill="url(#gFlame)" opacity=".92"/>
+      <path d="M66 74 C 51 68 45 55 52 43 C 56 35 63 31 65 20 C 71 33 79 37 83 48 C 87 59 83 68 66 74 Z" fill="#ffd27a" opacity=".5"/>
+    </svg>
+    <svg class="sealframe" viewBox="0 0 134 134" aria-hidden="true">
+      <g transform="translate(67,67)" fill="none" stroke="url(#gFireRing)" stroke-linecap="round">
+        <rect x="-65" y="-65" width="130" height="130" rx="7" stroke-width="1.6"/>
+        <rect x="-59" y="-59" width="118" height="118" rx="5" stroke-width=".7" opacity=".5"/>
+        <g opacity=".85" stroke-width="1.2">
+          <path d="M-65 -50 C -65 -59 -59 -65 -50 -65 C -57 -62 -61 -58 -61 -50"/>
+          <path d="M65 -50 C 65 -59 59 -65 50 -65 C 57 -62 61 -58 61 -50"/>
+          <path d="M-65 50 C -65 59 -59 65 -50 65 C -57 62 -61 58 -61 50"/>
+          <path d="M65 50 C 65 59 59 65 50 65 C 57 62 61 58 61 50"/>
+        </g>
+        <g opacity=".42" stroke-width=".9">
+          <path d="M-38 -65 a6 6 0 0 1 12 0"/><path d="M-14 -65 a6 6 0 0 1 12 0"/>
+          <path d="M10 -65 a6 6 0 0 1 12 0"/><path d="M34 -65 a6 6 0 0 1 12 0"/>
+          <path d="M-38 65 a6 6 0 0 1 12 0"/><path d="M-14 65 a6 6 0 0 1 12 0"/>
+          <path d="M10 65 a6 6 0 0 1 12 0"/><path d="M34 65 a6 6 0 0 1 12 0"/>
+        </g>
+      </g>
+    </svg>
+    <div class="halo" id="halo"></div>
+    <svg class="rring" viewBox="0 0 150 150" aria-hidden="true">
+      <rect class="trk" x="8" y="8" width="134" height="134" rx="9"></rect>
+      <rect class="pty" id="pty" x="8" y="8" width="134" height="134" rx="9"
+            stroke-dasharray="521" stroke-dashoffset="521"></rect>
+    </svg>
+    <div class="seal" id="seal">令</div>
+    <div class="sealcap">燭 龍 · 火 印</div>
+  </div>
+
+  <div class="edict"><b>令 行 禁 止</b> · 火 印 為 憑 · 無 上 尊 榮</div>
+
+  <div class="hint" id="hint">按住火印 1.2 秒 · 令 出 則 門 開</div>
+  <div class="state" id="state"><span class="spin"></span>門 · 正在校准线路…</div>
+
+  <div class="sign ink"><span>玄武灵犀</span><i>靈犀</i></div>
+  <div class="motto">一 門 常 駐 · 唯 手 可 啟</div>
 
   <div class="foot">
     <div class="btns">
       <button id="refresh">🔁 校准新址</button>
       <button id="local">🖥 本机直连</button>
-      <a href="../" style="font-family:inherit;font-size:12.5px;letter-spacing:.08em;color:#8b8471;
-        background:rgba(255,255,255,.045);border:1px solid rgba(201,162,83,.32);border-radius:999px;
-        padding:8px 15px;text-decoration:none">← 观天下</a>
+      <a href="../">← 观天下</a>
     </div>
     <div class="diag" id="diag"></div>
   </div>
@@ -98,24 +258,39 @@
 <script>
 (function(){
   var $ = function(id){ return document.getElementById(id); };
-  var HOLD = 1200;                 // 需按住 1.2 秒
+  var HOLD = 1200, PER = 521;
   var target = null, ready = false, opened = false;
   var t0 = 0, raf = 0, held = false;
-  var pty = $('pty'), LEN = 345.6;
+  var pty = $('pty');
+
+  /* ── 三皮：素/清/金（记在本地，下次开门还是这身） ── */
+  var SKINS = ['su','qing','jin'];
+  function skin(s){
+    if (SKINS.indexOf(s) < 0) s = 'qing';
+    document.documentElement.setAttribute('data-skin', s);
+    try { localStorage.setItem('lingxi_gate_skin', s); } catch(e){}
+    Array.prototype.forEach.call(document.querySelectorAll('#skins button'), function(b){
+      b.className = (b.getAttribute('data-s') === s) ? 'on' : '';
+    });
+  }
+  var saved = 'qing';
+  try { saved = localStorage.getItem('lingxi_gate_skin') || 'qing'; } catch(e){}
+  skin(saved);
+  Array.prototype.forEach.call(document.querySelectorAll('#skins button'), function(b){
+    b.addEventListener('click', function(){ skin(b.getAttribute('data-s')); });
+  });
 
   function say(s, cls){ var e=$('state'); e.className='state'+(cls?(' '+cls):''); e.innerHTML=s; }
   function hint(s, cls){ var e=$('hint'); e.className='hint'+(cls?(' '+cls):''); e.textContent=s; }
   function busy(s){ say('<span class="spin"></span>'+s); }
-  function ring(p){ pty.setAttribute('stroke-dashoffset', String(LEN*(1-p))); }
-  function glow(on){ $('halo').style.opacity = on?1:.85; $('halo').style.transform = on?'scale(1.06)':'scale(1)'; }
+  function ring(p){ pty.setAttribute('stroke-dashoffset', String(PER*(1-p))); }
+  function glow(on){ $('halo').style.opacity = on?1:.8; $('halo').style.transform = on?'scale(1.05)':'scale(1)'; }
 
-  /* ── 取址: 每次带走时间戳, 不吃缓存 ── */
   function fetchTarget(){
     return fetch('../url.json?t='+new Date().getTime(), {cache:'no-store'})
       .then(function(r){ return r.ok ? r.json() : null; })
       .then(function(j){ return (j && j.url) ? String(j.url).replace(/\/+$/,'') : null; });
   }
-  /* ── 探活: 与入口 /health 握手(带 CORS 可读状态码) ── */
   function probe(u){
     if (!window.fetch) return Promise.resolve(true);
     var ctl = (typeof AbortController!=='undefined') ? new AbortController() : null;
@@ -127,12 +302,12 @@
   }
   function calibrate(depth){
     depth = depth || 0;
-    busy('门 · 正在校准线路…');
+    busy('門 · 正在校准线路…');
     return fetchTarget().then(function(u){
       if (!u) throw new Error('NOPKG');
       target = u;
       return probe(u).then(function(alive){
-        if (alive){ ready = true; glow(true); ring(1); say('门 · 已就绪 · 按住启门','ok'); return true; }
+        if (alive){ ready = true; glow(true); ring(1); say('門 · 已就绪 · 按住火印','ok'); return true; }
         if (depth < 2) return new Promise(function(r){ setTimeout(r, 2500); }).then(function(){ return calibrate(depth+1); });
         ready = false; ring(0); glow(false);
         say('⚠️ 线路刚更换 · 请点「🔁 校准新址」','bad'); return false;
@@ -143,12 +318,14 @@
     });
   }
 
-  /* ── 开门(仅当按住满时且线路就绪) ── */
   function open(){
     if (opened || !ready || !target) return;
-    opened = true; $('seal').className = 'seal open'; glow(true);
-    hint('门 已 开 · 请 入','ok'); say('正在进入·玄武灵犀…','ok');
-    setTimeout(function(){ location.replace(target + '/m.html'); }, 750);
+    opened = true;
+    $('plaque').className = 'plaque open';       // 双扉分启
+    $('seal').className = 'seal open'; glow(true);
+    $('sealbox').className = 'sealbox hot';
+    hint('令 已 出 · 門 已 開','ok'); say('火印已合 · 正在进入 · 玄武灵犀…','ok');
+    setTimeout(function(){ location.replace(target + '/m.html'); }, 820);
   }
 
   function tick(){
@@ -158,7 +335,7 @@
     ring(p);
     if (p >= 1){
       if (ready) { open(); return; }
-      held = false; $('seal').className='seal'; ring(0); glow(false);
+      held = false; $('seal').className='seal'; $('sealbox').className='sealbox'; ring(0); glow(false);
       hint('线路未就绪 · 正在校准，请稍候再按','bad'); calibrate(0); return;
     }
     raf = requestAnimationFrame(tick);
@@ -168,18 +345,18 @@
     if (ev && ev.preventDefault) ev.preventDefault();
     held = true; t0 = new Date().getTime();
     $('seal').className = 'seal hold';
-    hint('收 手 则 门 闭 · 请 按 住 不 放');
+    $('sealbox').className = 'sealbox hot';
+    hint('收 手 則 令 止 · 請 按 住 不 放');
     if (raf) cancelAnimationFrame(raf);
     raf = requestAnimationFrame(tick);
   }
   function pressEnd(){
     if (opened || !held) return;
     var dt = new Date().getTime() - t0;
-    held = false; $('seal').className = (ready?'seal':'seal'); ring(0); glow(ready);
-    if (dt < HOLD) hint('按住此印 1.2 秒 · 门 自 开');
+    held = false; $('seal').className = 'seal'; $('sealbox').className = 'sealbox'; ring(0); glow(ready);
+    if (dt < HOLD) hint('按住火印 1.2 秒 · 令 出 則 門 開');
   }
 
-  /* ── 手势绑定(触屏 + 鼠标) ── */
   var seal = $('seal');
   seal.addEventListener('touchstart', pressStart, {passive:false});
   seal.addEventListener('touchend', pressEnd);
@@ -193,10 +370,8 @@
   $('refresh').addEventListener('click', function(){ ready=false; ring(0); glow(false); calibrate(0); });
   $('local').addEventListener('click', function(){ location.href = 'http://127.0.0.1:8092/m.html'; });
 
-  /* ── 常驻自校准: 站在门上就一直等线路 ── */
   setInterval(function(){ if (!ready && !opened) calibrate(2); }, 15000);
 
-  /* ── 自诊断行(一眼看出环境毛病) ── */
   (function diag(){
     var ua = (navigator.userAgent||''), br = '未知';
     if (/EdgA?\//.test(ua)) br='Edge';
