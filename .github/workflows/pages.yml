@@ -31,3 +31,24 @@ jobs:
       - name: 发布
         id: deployment
         uses: actions/deploy-pages@v4
+
+      # 🌐 自动认领自定义域名 (2026-09-22 18:2x 老板令「独立域名今天搞定」)
+      #   用工作流自带的 GITHUB_TOKEN(已申明 pages: write) 调 Pages API 设置 cname ——
+      #   老板无需手点 GitHub 设置页,也无需造个人令牌。放在发布之后: 即使本步失败, 站点也已上线。
+      - name: 认领自定义域名 xuanwulingxi.top
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -x
+          curl -sS -o /tmp/pages_put.json -w 'HTTP %{http_code}\n' -X PUT \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/$GITHUB_REPOSITORY/pages" \
+            -d '{"cname":"xuanwulingxi.top"}'
+          cat /tmp/pages_put.json || true
+          echo '--- 当前 Pages 设置 ---'
+          curl -sS -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/$GITHUB_REPOSITORY/pages" || true
