@@ -32,32 +32,17 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-      # 🌐 自动认领自定义域名 (2026-09-22 18:2x 老板令「独立域名今天搞定」)
-      #   用工作流自带的 GITHUB_TOKEN(已申明 pages: write) 调 Pages API 设置 cname ——
-      #   老板无需手点 GitHub 设置页,也无需造个人令牌。放在发布之后: 即使本步失败, 站点也已上线。
-      - name: 认领自定义域名 xuanwulingxi.top
+      # 🌐 自定义域名 xuanwulingxi.top 已于 2026-09-22 18:46 认领成功(HTTPS 200),
+      #    本处只做一次状态打印(只读・不影响发布)。
+      #    ⚠️ 曾试过用 GITHUB_TOKEN 直接 PUT /pages 设 cname —— 实测**权限不够**(工作流转红),
+      #    已删除该写操作(Pages 设置需管理员权限或 PAT)。
+      - name: 打印 Pages 状态
+        continue-on-error: true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          set -x
-          code=$(curl -sS -o /tmp/pages_put.json -w '%{http_code}' -X PUT \
-            -H "Authorization: Bearer $GH_TOKEN" \
-            -H "Accept: application/vnd.github+json" \
-            -H "X-GitHub-Api-Version: 2022-11-28" \
-            "https://api.github.com/repos/$GITHUB_REPOSITORY/pages" \
-            -d '{"cname":"xuanwulingxi.top"}')
-          echo "PUT /pages → HTTP $code"
-          cat /tmp/pages_put.json || true
-          echo
-          echo '--- 当前 Pages 设置 ---'
           curl -sS -H "Authorization: Bearer $GH_TOKEN" \
             -H "Accept: application/vnd.github+json" \
             -H "X-GitHub-Api-Version: 2022-11-28" \
-            "https://api.github.com/repos/$GITHUB_REPOSITORY/pages" > /tmp/pages_get.json || true
-          cat /tmp/pages_get.json || true
+            "https://api.github.com/repos/$GITHUB_REPOSITORY/pages" || true
           echo
-          # 🔑 没成功就大声报错(工作流结论会变红 → 我这边一看就知道权限/接口不通)
-          if [ "$code" != "200" ] && [ "$code" != "204" ]; then
-            echo "::error::认领自定义域名失败 HTTP $code"
-            exit 1
-          fi
