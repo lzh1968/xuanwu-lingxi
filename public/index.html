@@ -3,73 +3,167 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<title>玄武灵犀 · 私密入口</title>
 <!-- 🔒 强制 HTTPS 兜底(2026-09-22 老板令) · GitHub Enforce HTTPS 未开时自行升级 -->
 <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 <script>(function(){try{var p=location.protocol;if(p==="http:"){location.replace("https://"+location.host+location.pathname+location.search+location.hash);}}catch(e){}})();</script>
-<title>玄武灵犀 · 固定入口</title>
 <style>
-  :root{--bg:#0d1117;--card:#161b22;--line:#30363d;--fg:#e6edf3;--dim:#8b949e;--acc:#58a6ff;--ok:#3fb950}
+  :root{--bg:#0d1117;--card:#161b22;--line:#30363d;--fg:#e6edf3;--dim:#8b949e;--acc:#58a6ff;--ok:#3fb950;--bad:#f85149}
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.6 -apple-system,system-ui,"PingFang SC","Noto Sans SC",sans-serif;display:flex;min-height:100vh;align-items:center;justify-content:center;padding:20px}
   .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 20px;max-width:520px;width:100%;text-align:center;box-shadow:0 8px 30px rgba(0,0,0,.4)}
-  h1{font-size:19px;margin:0 0 6px}
-  .sub{color:var(--dim);font-size:13px;margin-bottom:16px}
-  .st{font-size:15px;margin:10px 0;min-height:24px}
-  .ok{color:var(--ok)} .dim{color:var(--dim)}
-  a.btn{display:block;background:var(--acc);color:#0d1117;text-decoration:none;font-weight:700;padding:13px;border-radius:10px;margin-top:14px}
-  code{background:#0d1117;border:1px solid var(--line);border-radius:6px;padding:2px 6px;font-size:12px;color:var(--dim);word-break:break-all}
-  .foot{margin-top:14px;font-size:12px;color:var(--dim)}
+  .ico{font-size:34px;line-height:1}
+  h1{font-size:19px;margin:8px 0 6px}
+  .dim{color:var(--dim);font-size:13px;margin:0 0 14px}
+  input{width:100%;padding:13px 14px;border-radius:10px;border:1px solid var(--line);background:#0d1117;color:var(--fg);font-size:16px}
+  input:focus{outline:none;border-color:var(--acc)}
+  button,.btn{display:block;width:100%;margin-top:12px;padding:13px 14px;border-radius:10px;border:1px solid var(--line);background:var(--acc);color:#04121f;font-weight:700;font-size:16px;text-decoration:none;cursor:pointer}
+  button.ghost{background:transparent;color:var(--dim);font-weight:500;font-size:13px;padding:9px}
+  .btn.ok{background:var(--ok);color:#04160a}
+  .st{min-height:20px;font-size:13px;color:var(--dim);margin-top:10px}
+  .st.bad{color:var(--bad)} .st.ok{color:var(--ok)}
+  .foot{margin-top:14px;font-size:12px;color:var(--dim);word-break:break-all}
+  code{background:#0d1117;border:1px solid var(--line);border-radius:6px;padding:1px 5px;font-size:12px}
+  .bar{height:6px;background:#0d1117;border:1px solid var(--line);border-radius:6px;overflow:hidden;margin-top:10px}
+  .bar i{display:block;height:100%;width:0;background:var(--acc);transition:width .3s}
 </style>
 </head>
 <body>
 <div class="card">
-  <h1>🐉 玄武灵犀 · 固定入口</h1>
-  <div class="sub">本页自动跳到最新可用的手机门户</div>
-  <div class="st" id="st"><span class="dim">正在读取最新地址…</span></div>
-  <a class="btn" id="btn" href="#" style="display:none">👉 点这里打开手机门户</a>
-  <div class="foot">当前目标：<code id="u">—</code><br><span id="t"></span></div>
+  <div id="lock">
+    <div class="ico">🔒</div>
+    <h1>玄武灵犀 · 私密入口</h1>
+    <p class="dim">私有化部署 · 仅限授权者进入<br>请输入口令（口令经 PBKDF2 60 万轮派生，密文不可逆推）</p>
+    <input id="pw" type="password" autocomplete="current-password" placeholder="请输入口令" enterkeyhint="go">
+    <button id="go">解 锁 进 入</button>
+    <button class="ghost" id="forgot">忘了口令？找小奈重置</button>
+    <div class="st" id="st"></div>
+    <div class="bar"><i id="pg"></i></div>
+  </div>
+
+  <div id="open" style="display:none">
+    <div class="ico">🐢</div>
+    <h1>已解锁 · 欢迎老板</h1>
+    <p class="dim" id="who">本入口为私有部署</p>
+    <a class="btn ok" id="enter" href="#">👉 进入手机门户</a>
+    <div class="foot">当前目标：<code id="u">—</code><br><span id="t"></span></div>
+    <button class="ghost" id="relock">🔒 重新锁定</button>
+  </div>
+
+  <div class="foot" id="tail">玄武灵犀 · 私有部署 · 地址经 AES-256-GCM 封装，无口令不可解</div>
 </div>
+
 <script>
 (function(){
-  var st=document.getElementById('st'),btn=document.getElementById('btn'),ue=document.getElementById('u'),te=document.getElementById('t');
-  var RAW='https://raw.githubusercontent.com/lzh1968/xuanwu-lingxi/main/url.json';
-  var last=null; try{last=localStorage.getItem('lx_last')}catch(e){}
-  function go(u,stale){
-    if(!u)return false;
-    ue.textContent=u; btn.href=u; btn.style.display='block';
-    st.innerHTML='<span class="ok">✅ '+(stale?'正在跳转（用上次缓存地址）':'已找到最新地址，正在跳转')+'…</span>';
-    try{localStorage.setItem('lx_last',u)}catch(e){}
-    setTimeout(function(){location.replace(u)},600);
-    return true;
+  'use strict';
+  var AAD = new TextEncoder().encode('lx-portal-v1');
+  var LSURL='lx_url', LSEXP='lx_exp', LSFAIL='lx_fail', LSLOCK='lx_lock';
+  var HOLD_MS = 12*3600*1000;   // 解锁后记 12 小时
+  var LOCK_MS = 10*60*1000;     // 连错 5 次 → 锁 10 分钟
+
+  var $ = function(id){ return document.getElementById(id); };
+  function b64(s){ var b = atob(s), a = new Uint8Array(b.length); for (var i=0;i<b.length;i++) a[i]=b.charCodeAt(i); return a; }
+  function cat(a,b){ var o = new Uint8Array(a.length+b.length); o.set(a,0); o.set(b,a.length); return o; }
+  function say(m, cls){ var s=$('st'); s.textContent = m||''; s.className = 'st' + (cls?' '+cls:''); }
+  function now(){ return Date.now(); }
+
+  /* ── 取密包: 同源优先 → raw → api ── */
+  function fetchPkg(){
+    var ts = '?t=' + now();
+    var tries = [
+      'secret.json' + ts,
+      'https://raw.githubusercontent.com/lzh1968/xuanwu-lingxi/main/secret.json' + ts,
+      'https://cdn.jsdelivr.net/gh/lzh1968/xuanwu-lingxi@main/secret.json' + ts
+    ];
+    return tries.reduce(function(p, u){
+      return p.catch(function(){
+        return fetch(u, {cache:'no-store'}).then(function(r){ if(!r.ok) throw 0; return r.json(); });
+      });
+    }, Promise.reject(0));
   }
-  function get(u){return fetch(u+(u.indexOf('?')<0?'?t=':'&t=')+Date.now(),{cache:'no-store'}).then(function(r){
-    if(!r.ok)throw 0; return r.json();
-  });}
-  // 🆕 GitHub API 源: 推送后**几秒内**即新(而 raw 要几分钟·Pages 构建更慢) → 三源取 updated 最新
-  function getApi(){
-    return fetch('https://api.github.com/repos/lzh1968/xuanwu-lingxi/contents/url.json?t='+Date.now(),{cache:'no-store'})
-      .then(function(r){ if(!r.ok) throw 0; return r.json(); })
-      .then(function(j){ return JSON.parse(atob(String(j.content||'').replace(/\s/g,''))); });
-  }
-  // 三源并行：本站(随 Pages 构建) + raw(约1分钟) + GitHub API(几秒) → 取 updated 最新那条
-  Promise.allSettled([
-    get('url.json'),
-    get(RAW),
-    getApi()
-  ]).then(function(rs){
-    var c=[];
-    rs.forEach(function(x){ if(x.status==='fulfilled'&&x.value&&x.value.url) c.push(x.value); });
-    if(!c.length) throw 0;
-    c.sort(function(a,b){ return String(b.updated||'').localeCompare(String(a.updated||'')); });
-    if(c[0].updated) te.textContent='地址更新于 '+c[0].updated;
-    go(c[0].url);
-  }).catch(function(){
-    if(last){ go(last,true); }
-    else{
-      st.innerHTML='<span class="dim">取地址失败，请稍后刷新</span>';
-      var f='https://gospel-trance-bradford-boats.trycloudflare.com';
-      btn.style.display='block'; btn.href=f; ue.textContent=f;
+
+  /* ── 逐会员试解 ── */
+  function tryOpen(pkg, pw){
+    var i = 0;
+    function step(){
+      if (i >= pkg.members.length) return Promise.resolve(null);
+      var m = pkg.members[i++];
+      return crypto.subtle.importKey('raw', new TextEncoder().encode(pw), 'PBKDF2', false, ['deriveKey'])
+        .then(function(base){
+          return crypto.subtle.deriveKey({name:'PBKDF2', salt:b64(m.salt), iterations:(m.iters||600000), hash:'SHA-256'},
+                                          base, {name:'AES-GCM', length:256}, false, ['decrypt']);
+        })
+        .then(function(key){
+          return crypto.subtle.decrypt({name:'AES-GCM', iv:b64(m.iv), additionalData:AAD}, key, cat(b64(m.ct), b64(m.tag)));
+        })
+        .then(function(pt){ return {url:new TextDecoder().decode(pt), name:m.name}; })
+        .catch(function(){ return step(); });
     }
+    return step();
+  }
+
+  function show(url, name){
+    $('lock').style.display='none';
+    $('open').style.display='block';
+    $('u').textContent = url;
+    $('t').textContent = new Date().toLocaleString('zh-CN');
+    $('who').textContent = '授权身份：' + (name||'老板') + ' · 本入口为私有部署';
+    var a = $('enter'); a.href = url;
+  }
+
+  function locked(){
+    var u = parseInt(localStorage.getItem(LSLOCK)||'0',10);
+    return u > now() ? Math.ceil((u-now())/60000) : 0;
+  }
+  function bumpFail(){
+    var n = parseInt(localStorage.getItem(LSFAIL)||'0',10) + 1;
+    localStorage.setItem(LSFAIL, String(n));
+    if (n >= 5){ localStorage.setItem(LSLOCK, String(now()+LOCK_MS)); localStorage.setItem(LSFAIL,'0'); return 'LOCK'; }
+    return 5-n;
+  }
+
+  /* ── 已解锁(12h 内)直接放行 ── */
+  (function(){
+    var u = localStorage.getItem(LSURL), e = parseInt(localStorage.getItem(LSEXP)||'0',10);
+    if (u && e > now()) show(u, localStorage.getItem('lx_who'));
+  })();
+
+  $('go').addEventListener('click', function(){
+    var m = locked();
+    if (m){ say('🔒 连续输错过多，请 ' + m + ' 分钟后再试', 'bad'); return; }
+    var pw = ($('pw').value||'').trim();
+    if (pw.length < 4){ say('口令太短', 'bad'); return; }
+    say('正在校验…'); $('pg').style.width = '35%';
+    fetchPkg().then(function(pkg){
+      $('pg').style.width = '65%';
+      return tryOpen(pkg, pw);
+    }).then(function(hit){
+      $('pg').style.width = '100%';
+      if (!hit){
+        var r = bumpFail();
+        say(r === 'LOCK' ? '🔒 连错 5 次，已锁定 10 分钟' : '❌ 口令不对（还可试 ' + r + ' 次）', 'bad');
+        return;
+      }
+      localStorage.setItem(LSFAIL,'0');
+      localStorage.setItem(LSURL, hit.url);
+      localStorage.setItem(LSEXP, String(now()+HOLD_MS));
+      localStorage.setItem('lx_who', hit.name||'老板');
+      say('✅ 解锁成功，正在进入…','ok');
+      show(hit.url, hit.name);
+      setTimeout(function(){ try{ location.replace(hit.url); }catch(e){} }, 900);
+    }).catch(function(){
+      say('⚠️ 读不到密包（网络/仓库异常），请稍后再试或找小奈', 'bad');
+    });
+  });
+
+  $('pw').addEventListener('keydown', function(ev){ if (ev.key === 'Enter') $('go').click(); });
+  $('relock').addEventListener('click', function(){
+    localStorage.removeItem(LSURL); localStorage.removeItem(LSEXP); localStorage.removeItem('lx_who');
+    $('open').style.display='none'; $('lock').style.display='block'; $('pw').value=''; say('');
+  });
+  $('forgot').addEventListener('click', function(){
+    say('口令由小奈本机重置：在手机执行  node _口令暗门_封装.js --set-passphrase 新口令', '');
   });
 })();
 </script>
