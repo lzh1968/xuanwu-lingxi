@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0c0e13">
+<title>从工具调用到自治：智能体的四次跃迁 · 玄武灵犀</title>
+<meta name="description" content="智能体不是"更聪明的聊天机器人"。它经历四次跃迁：会用工具、会规划、会记忆、会协作——每一次都改变系统的架构形态。">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="pbar" id="pbar"></div>
+<header><div class="wrap hd">
+  <div class="logo"><b>玄武灵犀</b></div>
+  <nav class="nav"><a href="../#ai">🌐 AI 全球趋势</a><a href="../#agent" class="on">🤖 Agent 与智能体</a><a href="../#web3">⛓ Web3 · 链上世界</a><a href="../#dao">🏛 DAO 与自治组织</a><a href="../#philo">☯ 华夏哲学 · 阴阳五行</a><a href="../#econ">💹 数字经济全球化</a><a href="../#notes">📓 灵犀手记</a></nav>
+  <button class="tbtn" id="theme">☾/☀</button>
+</div></header>
+<div class="wrap">
+<article>
+<h1>从工具调用到自治：智能体的四次跃迁</h1>
+<div class="ameta"><span>Agent 与智能体</span><span>2026-09-22</span><span>约 3 分钟 · 969 字</span><span class="tag">多智能体</span><span class="tag">规划</span><span class="tag">记忆</span><span class="tag">自治</span></div>
+<p>把智能体理解成"会聊天的模型"，是最常见的误解。真正让"Agent"这个词有重量的，是它<strong>在一个环境里连续做出影响环境的决定</strong>。沿着这条线，能看到四次清晰的跃迁。</p>
+<h2>第一次跃迁：学会用工具</h2>
+<p>模型只能生成文本时，它的能力边界是语言。当它能调用搜索、计算、数据库、代码执行，边界就变成了<strong>它能接触到的世界</strong>。</p>
+<p>工程上的关键不是"接了多少工具"，而是：</p>
+<ul>
+<li>工具的<strong>描述</strong>是否精确（模型选错工具，多半是描述含糊）；</li>
+<li>失败是否<strong>可恢复</strong>（超时、空结果、权限拒绝都要有明确的回退路径）；</li>
+<li>权限是否<strong>最小化</strong>（只给必需的操作，尤其是写操作）。</li>
+</ul>
+<h2>第二次跃迁：学会规划</h2>
+<p>有了工具，下一步是"先做什么、后做什么"。规划让智能体从"一问一答"变成"多步执行"。</p>
+<p>但规划本身有个陷阱：<strong>链条越长，错误累积越快</strong>。于是成熟的系统会插入检查点——每一步都验证前提是否还成立，而不是一路跑到黑。</p>
+<h2>第三次跃迁：学会记忆</h2>
+<p>没有记忆的智能体，每次对话都从零开始。记忆分三层，价值递增：</p>
+<p>1. <strong>上下文记忆</strong>：本次任务内保持连贯；</p>
+<p>2. <strong>长期记忆</strong>：跨会话记住偏好、结论、失败教训；</p>
+<p>3. <strong>制度记忆</strong>：把"该怎么做"写成规则，让系统而不是模型来记住。</p>
+<blockquote>第三层最容易被忽略，却最能提高可靠性：<strong>把纪律从模型里搬到系统里。</strong> 模型可以漂移，制度不会。</blockquote>
+<h2>第四次跃迁：学会协作</h2>
+<p>单体的能力有上限，协作结构却能放大整体。多智能体的核心问题不是"找几个角色扮演"，而是<strong>如何组织分歧</strong>：</p>
+<ul>
+<li><strong>分工</strong>：每个智能体只负责自己最擅长的一段；</li>
+<li><strong>交叉校验</strong>：让另一个智能体去质疑结果，而不是都往里塞正例；</li>
+<li><strong>收敛机制</strong>：出现不一致时，谁来裁定、按什么规则裁定、裁定可否被申诉；</li>
+<li><strong>终审与刹车</strong>：必须有一个能说"停"的环节，并且这个环节不依赖任何单个模型的情绪。</li>
+</ul>
+<h2>收敛：从"聪明"到"可信"</h2>
+<p>四次跃迁之后，评价标准也变了。不再问"它有多强"，而是问：</p>
+<ul>
+<li>它出错时，<strong>是否知道自己在出错</strong>？</li>
+<li>它停摆时，<strong>谁在看护</strong>？</li>
+<li>它做决定时，<strong>能否被复盘</strong>？</li>
+</ul>
+<p>我们在自己的系统里用一条朴素的标准自查：<strong>任何一次决策，都要能在事后被完整重放。</strong> 做不到重放的能力，宁可不要。</p>
+<p>智能体的终点不是"更像人"，而是"更像一支可靠的团队"——有分工、有制衡、有纪律、有记录。</p>
+<div class="note">本文为研究与交流之用，不构成任何投资建议，亦不涉及任何交易服务。</div>
+<a class="back" href="../">← 回「观天下」首页</a>
+</article></div>
+<footer><div class="wrap">
+  <a class="door" href="../../" title="内部">門</a>
+  <div class="disc">本站为<b>技术研究与思想交流</b>之用：探讨人工智能、多智能体系统、链上机制与数字经济。
+  所有内容<b>不构成任何投资建议</b>，本站不提供任何交易服务，亦不从事任何形式的荐股、荐币或代客理财。</div>
+  <div class="btns">
+    <button id="sizer">字号 · <span id="szname">标准</span></button>
+    <button id="speak">🔊 朗读全文</button>
+    <button id="top">↑ 回到顶部</button>
+  </div>
+</div></footer>
+<script>
+(function(){
+  var RS='../../';
+  function $(i){return document.getElementById(i);}
+  // 主题
+  var html=document.documentElement;
+  try{ var t=localStorage.getItem('lx-theme'); if(t) html.setAttribute('data-theme',t); }catch(e){}
+  $('theme').addEventListener('click',function(){
+    var n=(html.getAttribute('data-theme')==='dark')?'light':'dark';
+    html.setAttribute('data-theme',n);
+    try{ localStorage.setItem('lx-theme',n); }catch(e){}
+  });
+  // 字号三档
+  var LV=[['标准','17.5px'],['大','19.5px'],['特大','21.5px']], li=0;
+  try{ var l=parseInt(localStorage.getItem('lx-fs')||'0',10); if(l>0&&l<3) li=l; }catch(e){}
+  function applyFs(){ document.documentElement.style.setProperty('--fs',LV[li][1]);
+    $('szname').textContent=LV[li][0]; try{ localStorage.setItem('lx-fs',String(li)); }catch(e){} }
+  applyFs();
+  $('sizer').addEventListener('click',function(){ li=(li+1)%3; applyFs(); });
+  // 朗读
+  $('speak').addEventListener('click',function(){
+    if(!window.speechSynthesis){ alert('本浏览器不支持朗读'); return; }
+    if(speechSynthesis.speaking){ speechSynthesis.cancel(); this.textContent='🔊 朗读全文'; return; }
+    var el=document.querySelector('article')||document.querySelector('.wrap');
+    var u=new SpeechSynthesisUtterance((el.innerText||'').slice(0,4000));
+    u.lang='zh-CN'; u.rate=1.0; this.textContent='⏹ 停止朗读';
+    var self=this; u.onend=function(){ self.textContent='🔊 朗读全文'; };
+    speechSynthesis.speak(u);
+  });
+  $('top').addEventListener('click',function(){ window.scrollTo({top:0,behavior:'smooth'}); });
+  // 阅读进度(文章页)
+  function prog(){
+    var h=document.documentElement.scrollHeight-window.innerHeight;
+    var p=h>0?(window.pageYOffset/h*100):0;
+    $('pbar').style.width=Math.min(100,p)+'%';
+  }
+  window.addEventListener('scroll',prog); prog();
+  // 时钟
+  function clock(){
+    var d=new Date(), p=function(n){return (n<10?'0':'')+n;};
+    var e=$('clk'); if(e) e.textContent=p(d.getHours())+':'+p(d.getMinutes())+':'+p(d.getSeconds());
+  }
+  setInterval(clock,1000); clock();
+  // 最近更新: 每 60 秒拉 feed.json(不吃缓存)
+  function esc(s){ return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+  function loadFeed(){
+    if(!window.fetch) return;
+    fetch('feed.json?t='+new Date().getTime(),{cache:'no-store'}).then(function(r){return r.ok?r.json():null;})
+    .then(function(j){
+      if(!j||!j.items) return;
+      var ul=$('feed'); if(!ul) return;
+      ul.innerHTML=j.items.slice(0,5).map(function(it){
+        var fresh=it.fresh?'<span class="fresh">刚刚</span>':'';
+        return '<li><time>'+esc(it.t)+'</time>'+fresh+'<a href="'+esc(it.url)+'">'+esc(it.title)+'</a></li>';
+      }).join('');
+      var u=$('upd'); if(u&&j.generated) u.textContent=j.generated;
+    }).catch(function(){});
+  }
+  loadFeed();
+  if($('feed')) setInterval(loadFeed,60000);
+})();
+</script>
+</body>
+</html>
