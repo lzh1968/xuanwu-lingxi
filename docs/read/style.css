@@ -123,5 +123,11 @@ footer .btns button:active{color:var(--gold)}
 .live .lf{font-family:var(--sans);font-size:10px;color:var(--zhu);border:1px solid var(--zhu);border-radius:4px;padding:0 4px}
 .live a{flex:1 1 60%;line-height:1.62}
 .live .lk{font-family:var(--sans);font-size:10.5px;color:var(--sub)}
+.live .lz{font-family:var(--sans);font-size:10px;color:var(--gold);border:1px solid var(--line);
+  border-radius:4px;padding:0 4px;background:var(--tag)}
+.live .lz.en{color:var(--sub);background:none}
+.live .lz.naike{color:#0c0e13;background:linear-gradient(180deg,#e6c073,#c9a253);border-color:#c9a253;font-weight:600}
+.live .orig{flex:1 1 100%;font-family:var(--sans);font-size:11px;color:var(--sub);opacity:.62;
+  line-height:1.5;margin:-2px 0 2px 43px}
 
 .sizes{font-size:12.5px;color:var(--sub)}
