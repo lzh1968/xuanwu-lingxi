@@ -111,10 +111,29 @@
     return step();
   }
 
-  /* ── 探活(跨域 no-cors: 连得上=能开; 死活域名会 reject) ── */
+  /* ── 探活: 与入口 /health 握手(我们自己的端点·带CORS·可读状态码)
+     活 → 200 + {ok:true} ; 死隧道 → Cloudflare 530(无 CORS) → fetch 直接 reject ; 域名已死 → reject ── */
   function probe(u){
-    return fetch(u+'/m.html',{mode:'no-cors',cache:'no-store'})
-      .then(function(){ return true; }).catch(function(){ return false; });
+    var ctl = (typeof AbortController!=='undefined') ? new AbortController() : null;
+    var timer = setTimeout(function(){ if(ctl) ctl.abort(); }, 8000);
+    return fetch(u+'/health', {mode:'cors', cache:'no-store', signal: ctl?ctl.signal:undefined})
+      .then(function(r){ clearTimeout(timer); if(!r.ok) return false; return r.json().then(function(j){ return !!(j&&j.ok); }, function(){ return false; }); })
+      .catch(function(){ clearTimeout(timer); return false; });
+  }
+
+  /* ── 取包→解密→探活, 死了就重取一次(应对刚换号) ── */
+  function resolveAlive(pw, depth){
+    depth = depth || 0;
+    return fetchPkg()
+      .then(function(pkg){ return tryOpen(pkg, pw); })
+      .then(function(hit){
+        if (!hit) throw new Error('BAD');
+        return probe(hit.url).then(function(alive){
+          if (alive) return hit;
+          if (depth < 2) return new Promise(function(r){ setTimeout(r, 2500); }).then(function(){ return resolveAlive(pw, depth+1); });
+          hit.stale = true; return hit;
+        });
+      });
   }
 
   function save(url,name,pw,keep){
@@ -133,17 +152,14 @@
 
   /* ── 主流程: 拿到口令 → 解包 → 探活 → 跳 ── */
   function unlock(pw,keep){
-    return fetchPkg()
-      .then(function(pkg){ $('pg')&&($('pg').style.width='65%'); return tryOpen(pkg,pw); })
+    return resolveAlive(pw,0)
       .then(function(hit){
         $('pg')&&($('pg').style.width='100%');
-        if (!hit) throw new Error('BAD');
-        return probe(hit.url).then(function(alive){
-          save(hit.url,hit.name,pw,keep);
-          if (alive){ paint(hit.url,hit.name); if (keep) setTimeout(function(){ jump(hit.url); },700); }
-          else { paint(hit.url,hit.name); say('⚠️ 该入口刚过期，请点「🔁 换最新地址」再试','bad'); }
-          return hit;
-        });
+        save(hit.url,hit.name,pw,keep);
+        paint(hit.url,hit.name);
+        if (!hit.stale){ say('✅ 入口已就绪，正在进入…','ok'); if (keep) setTimeout(function(){ jump(hit.url); },700); }
+        else { say('⚠️ 入口刚换号，请点「🔁 换最新地址」','bad'); }
+        return hit;
       });
   }
 
@@ -178,6 +194,7 @@
     if (pw.length<4){ say('口令太短','bad'); return; }
     var keep=$('keep').checked;
     show('auto'); $('automsg').innerHTML='<span class="spin"></span> 校 验 中…';
+    if ($('pg')) $('pg').style.width='35%';
     unlock(pw,keep).catch(function(e){
       show('lock');
       if (e && e.message==='BAD'){ var r=bumpFail(); say(r==='LOCK'?'🔒 连错 5 次，已锁定 10 分钟':'❌ 口令不对（还可试 '+r+' 次）','bad'); }
