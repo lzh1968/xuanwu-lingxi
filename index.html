@@ -45,6 +45,7 @@
     <button class="ghost" id="forgot">忘了口令？找小奈重置</button>
     <div class="st" id="st"></div>
     <div class="bar"><i id="pg"></i></div>
+    <div class="foot" id="diag"></div>
   </div>
 
   <!-- ② 已解锁 -->
@@ -195,6 +196,18 @@
     [LSURL,LSEXP,LSPW,LSW].forEach(function(k){ localStorage.removeItem(k); });
     show('lock'); $('pw').value=''; say('已锁定并清除本机口令');
   });
+  /* ── 自诊断行: 截图一看即知环境 ── */
+  (function diag(){
+    var ok = !!(window.crypto && crypto.subtle && window.fetch && window.TextEncoder);
+    var d = $('diag'); if (!d) return;
+    d.textContent = '环境: ' + location.protocol + ' · ' + (navigator.platform||'') + ' · 加密' + (ok?'可用':'不可用')
+      + ' · ' + (navigator.userAgent||'').slice(0,42);
+    if (!ok){
+      d.innerHTML = '⚠️ 此浏览器不支持网页加密（加密:不可用）——<b>请改用 Chrome/系统浏览器打开本页</b><br>'
+        + '<span style="font-size:10px">' + (navigator.userAgent||'') + '</span>';
+    }
+  })();
+
   $('forgot').addEventListener('click', function(){
     say('口令由小奈本机重置：node _口令暗门_封装.js --set-passphrase');
   });
