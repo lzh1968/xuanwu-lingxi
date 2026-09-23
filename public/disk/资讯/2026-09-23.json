@@ -1,9 +1,29 @@
 {
  "日期": "2026-09-23",
- "落盘": "2026-09-23 21:29:44",
+ "落盘": "2026-09-23 21:40:46",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "Benchmarking LLM query generation across SQL, Cypher, and TypeQL",
+   "url": "https://typedb.com/blog/benchmarking-llm-query-generation-across-sql-cypher-and-typeql",
+   "type": "live"
+  },
+  {
+   "title": "Unlocking parallel test-time scaling for long-horizon agents",
+   "url": "https://blog.doubleword.ai/swe-bench-pro-64-deepseek-agents",
+   "type": "live"
+  },
+  {
+   "title": "Cafe Bench: Can LLMs run a coffee chain for a year?",
+   "url": "https://www.getdot.ai/blog/cafe-bench",
+   "type": "live"
+  },
+  {
+   "title": "Six of 48: I logged every way my AI agents failed for five months",
+   "url": "https://github.com/taylorancapital/nothing-threw/blob/main/SIX_OF_FORTY_EIGHT.md",
+   "type": "live"
+  },
   {
    "title": "The Gnome LLM Policy That I Want",
    "url": "https://blogs.gnome.org/alatiera/2026/09/23/the-gnome-llm-policy-that-i-want/",
@@ -22,26 +42,6 @@
   {
    "title": "Show HN: RxFilm Studio–Create and edit your product videos with AI agent",
    "url": "https://filmstudio.rxlab.app",
-   "type": "live"
-  },
-  {
-   "title": "Jev-rs: a Rust crate to turn a LLM to serve jev",
-   "url": "https://github.com/yijunyu/jev-rs",
-   "type": "live"
-  },
-  {
-   "title": "Show HN: Red-team your AI agent",
-   "url": "https://www.botgauge.com",
-   "type": "live"
-  },
-  {
-   "title": "Jev-serve: Run latest qwen3.8, all LLM models, mlx-supported",
-   "url": "https://github.com/rreinold/jev-serve",
-   "type": "live"
-  },
-  {
-   "title": "元测试模拟呼叫中心的人工智能座席呼叫",
-   "url": "https://www.404media.co/meta-tests-muse-ai-agent-calls-that-are-actually-made-by-humans-in-a-call-center/",
    "type": "live"
   },
   {
