@@ -1,9 +1,19 @@
 {
  "日期": "2026-09-24",
- "落盘": "2026-09-24 00:19:50",
+ "落盘": "2026-09-24 00:27:11",
  "条数": 14,
- "live": 35,
+ "live": 60,
  "条目": [
+  {
+   "title": "问问HN：当人工智能编写我们所有的程序时，软件是否仍然重要？",
+   "url": "https://news.ycombinator.com/item?id=49818484",
+   "type": "live"
+  },
+  {
+   "title": "用于去识别和合成的LLM基准",
+   "url": "https://huggingface.co/datasets/TonicAI/Privacy-Bench",
+   "type": "live"
+  },
   {
    "title": "Meta为其新的个人智能体Muse测试“人类礼宾服务”",
    "url": "https://www.reuters.com/business/meta-testing-human-concierge-its-new-personal-ai-agent-muse-2026-09-22/",
@@ -30,18 +40,8 @@
    "type": "live"
   },
   {
-   "title": "Show HN: Open Code for Jev",
-   "url": "https://github.com/backant-io/jevelry",
-   "type": "live"
-  },
-  {
-   "title": "Amazon opens its seller tools to outside AI agents, starting with Anthropic",
+   "title": "亚马逊向外部智能体开放其卖家工具，从Anthropic开始",
    "url": "https://www.geekwire.com/2026/amazon-opens-its-seller-tools-to-outside-ai-agents-starting-with-anthropics-claude/",
-   "type": "live"
-  },
-  {
-   "title": "Step Code: MIT-licensed coding agent CLI built around Step 5 Preview",
-   "url": "https://github.com/stepfun-ai/Step-Code",
    "type": "live"
   },
   {
@@ -52,6 +52,11 @@
   {
    "title": "自治系统的\"慢变量\"",
    "url": "a/note-20260924-1.html",
+   "type": "article"
+  },
+  {
+   "title": "关于\"记忆\"的三种用法",
+   "url": "a/note-20260924-2.html",
    "type": "article"
   },
   {
@@ -67,11 +72,6 @@
   {
    "title": "关于\"记忆\"的三种用法",
    "url": "a/note-20260923-2.html",
-   "type": "article"
-  },
-  {
-   "title": "阴阳与反馈环",
-   "url": "a/note-20260923-3.html",
    "type": "article"
   }
  ]
