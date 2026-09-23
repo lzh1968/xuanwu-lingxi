@@ -1,12 +1,28 @@
 {
- "generated": "19:59",
- "built": "2026-09-23 19:59:08",
+ "generated": "20:04",
+ "built": "2026-09-23 20:04:55",
  "count": 12,
  "live_count": 60,
  "items": [
   {
    "type": "live",
-   "title": "Jev-serve: Run latest qwen3.8 mlx, other frozen LLM models",
+   "title": "Jev-rs: a Rust crate to turn a LLM to serve jev",
+   "url": "https://github.com/yijunyu/jev-rs",
+   "src": "Hacker News",
+   "t": "20:02",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN: Red-team your AI agent",
+   "url": "https://www.botgauge.com",
+   "src": "Hacker News",
+   "t": "19:58",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Jev-serve: Run latest qwen3.8, other frozen LLM models, mlx-supported",
    "url": "https://github.com/rreinold/jev-serve",
    "src": "Hacker News",
    "t": "19:51",
@@ -50,22 +66,6 @@
    "url": "https://www.inc.com/jason-aten/metas-new-muse-ai-agent-read-my-private-messages-i-never-asked-it-to/91408202",
    "src": "Hacker News",
    "t": "16:24",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Show HN: Gwae – infinite-scroll terminal multiplexer for AI agent fleets",
-   "url": "https://github.com/hongnoul/gwae",
-   "src": "Hacker News",
-   "t": "16:10",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Tradeoff considerations while running LLM models locally",
-   "url": "https://swapniltalekar.substack.com/p/should-you-be-running-llm-models",
-   "src": "Hacker News",
-   "t": "15:56",
    "fresh": false
   },
   {
