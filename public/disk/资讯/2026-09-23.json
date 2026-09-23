@@ -1,9 +1,14 @@
 {
  "日期": "2026-09-23",
- "落盘": "2026-09-23 19:52:43",
+ "落盘": "2026-09-23 19:58:56",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "Jev-serve: Run latest qwen3.8 mlx, other frozen LLM models",
+   "url": "https://github.com/rreinold/jev-serve",
+   "type": "live"
+  },
   {
    "title": "元测试模拟呼叫中心的人工智能座席呼叫",
    "url": "https://www.404media.co/meta-tests-muse-ai-agent-calls-that-are-actually-made-by-humans-in-a-call-center/",
@@ -37,11 +42,6 @@
   {
    "title": "Tradeoff considerations while running LLM models locally",
    "url": "https://swapniltalekar.substack.com/p/should-you-be-running-llm-models",
-   "type": "live"
-  },
-  {
-   "title": "NobodyWho is an inference engine that lets you run LLMs locally and efficiently",
-   "url": "https://github.com/nobodywho-ooo/nobodywho",
    "type": "live"
   },
   {
