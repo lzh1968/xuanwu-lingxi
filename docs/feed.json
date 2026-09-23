@@ -1,17 +1,9 @@
 {
- "generated": "15:57",
- "built": "2026-09-23 15:57:00",
+ "generated": "15:45",
+ "built": "2026-09-23 15:45:48",
  "count": 12,
  "live_count": 60,
  "items": [
-  {
-   "type": "live",
-   "title": "Tradeoff considerations while running LLM models locally",
-   "url": "https://swapniltalekar.substack.com/p/should-you-be-running-llm-models",
-   "src": "Hacker News",
-   "t": "15:56",
-   "fresh": true
-  },
   {
    "type": "live",
    "title": "NobodyWho is an inference engine that lets you run LLMs locally and efficiently",
@@ -50,7 +42,7 @@
    "url": "https://news.ycombinator.com/item?id=49812392",
    "src": "Hacker News",
    "t": "14:25",
-   "fresh": false
+   "fresh": true
   },
   {
    "type": "live",
@@ -58,7 +50,7 @@
    "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
    "src": "Hacker News",
    "t": "14:18",
-   "fresh": false
+   "fresh": true
   },
   {
    "type": "live",
@@ -66,6 +58,14 @@
    "url": "https://www.nytimes.com/2026/09/22/technology/meta-muse-ai-agent.html",
    "src": "Hacker News",
    "t": "14:06",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "Mastering LLM Inference Optimization",
+   "url": "https://machinelearningmastery.com/the-roadmap-to-mastering-llm-inference-optimization/",
+   "src": "Hacker News",
+   "t": "14:02",
    "fresh": false
   },
   {

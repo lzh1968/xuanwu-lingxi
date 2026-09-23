@@ -1,62 +1,206 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>玄武灵犀 · 固定入口</title>
-<!-- 🏠20260923 回滚: 复原「创建初期」固定入口页长相(单卡·居中·自动跳转最新可用入口)
-     改动只有一处: 地址源不再是明文 url.json(已取缔)，改为本机直连台探活 -->
-<style>
-  :root{--bg:#0d1117;--card:#161b22;--line:#30363d;--fg:#e6edf3;--dim:#8b949e;--acc:#58a6ff;--ok:#3fb950}
-  *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.6 -apple-system,system-ui,"PingFang SC","Noto Sans SC",sans-serif;display:flex;min-height:100vh;align-items:center;justify-content:center;padding:20px}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 20px;max-width:520px;width:100%;text-align:center;box-shadow:0 8px 30px rgba(0,0,0,.4)}
-  h1{font-size:19px;margin:0 0 6px}
-  .sub{color:var(--dim);font-size:13px;margin-bottom:16px}
-  .st{font-size:15px;margin:10px 0;min-height:24px}
-  .ok{color:var(--ok)} .dim{color:var(--dim)}
-  a.btn{display:block;background:var(--acc);color:#0d1117;text-decoration:none;font-weight:700;padding:13px;border-radius:10px;margin-top:14px}
-  code{background:#0d1117;border:1px solid var(--line);border-radius:6px;padding:2px 6px;font-size:12px;color:var(--dim);word-break:break-all}
-  .row{margin-top:12px;font-size:13px}
-  .row a{color:var(--acc);text-decoration:none;margin:0 7px}
-  .foot{margin-top:14px;font-size:12px;color:var(--dim)}
-</style>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0c0e13">
+<title>玄武灵犀 · 观天下</title>
+<meta name="description" content="AI 智能体 · 链上机制 · 华夏哲学 · 数字经济的研究与交流">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="card">
-  <h1>🐉 玄武灵犀 · 固定入口</h1>
-  <div class="sub">本页会自动打开最新可用的入口</div>
-  <div class="st" id="st"><span class="dim">正在检查入口…</span></div>
-  <a class="btn" id="btn" href="http://127.0.0.1:8094/" style="display:none">👉 打开管理台</a>
-  <div class="row">
-    <a href="read/">📖 读本</a>·
-    <a href="live/">📈 实况</a>·
-    <a href="disk/">💽 硬盘</a>·
-    <a href="http://127.0.0.1:8094/">🖥 管理台</a>
-  </div>
-  <div class="foot">当前目标：<code id="u">http://127.0.0.1:8094/</code><br><span id="t">本页于 2026-09-23 15:57 刷新 · 只读入口</span></div>
+<div class="pbar" id="pbar"></div>
+<header><div class="wrap hd">
+  <a class="logo" id="branddoor" href="gate/?v=2609231303" title=""><b>玄武灵犀</b></a>
+  <nav class="nav"><a href="#ai">🌐 AI 全球趋势</a><a href="#agent">🤖 Agent 与智能体</a><a href="#web3">⛓ Web3 · 链上世界</a><a href="#dao">🏛 DAO 与自治组织</a><a href="#philo">☯ 华夏哲学 · 阴阳五行</a><a href="#econ">💹 数字经济全球化</a><a href="#notes">📓 灵犀手记</a><a href="disk/" title="硬盘·数据归档">💽 硬盘</a><i class="ldots" id="ldots" title="">⋯</i><a class="door2" id="navdoor" href="gate/?v=2609231303" title="">門</a></nav>
+  <button class="tbtn" id="sbtn" title="搜索">🔍</button>
+  <button class="tbtn" id="theme">☾/☀</button>
+</div></header>
+<div class="wrap">
+<div class="hero">
+<h1>玄武灵犀 · 观天下</h1>
+<div class="motto">研究 · 探索 · 交流 —— 关于智能体研发、链上机制与东方思维的读本</div>
+<div class="meta"><span><i class="dot"></i>内容站运行中</span><span>现在 <b id="clk">--:--:--</b></span><span>本页更新 <b id="upd">15:45</b></span><span>本刊 <b>12</b> 篇 · 外网新声 <b>60</b> 条</span></div>
 </div>
+<div class="tape"><h3>⚡ 最近更新 · 每 60 秒自动刷新</h3><ul id="feed"><li><time>15:45</time><a href="#">加载中…</a></li></ul></div>
+<section class="sec" id="ai">
+<h2>🌐 AI 全球趋势</h2><p class="sdesc">模型、算力、产业与监管的风向</p><div class="rule"></div>
+<a class="card" href="a/ai-next-decade.html"><h3>算力之后：什么在决定 AI 的下一个十年</h3><p>参数规模的红利在收窄。真正拉开差距的，正从"训练得多大"转向"推理得多省、数据多干净、系统多可控"。</p><div class="row"><span>2026-09-22</span><span>AI 全球趋势</span><span>约 2 分钟</span><span class="tag">算力</span><span class="tag">推理</span><span class="tag">监管</span><span class="tag">能源</span></div></a>
+</section>
+<section class="sec" id="agent">
+<h2>🤖 Agent 与智能体</h2><p class="sdesc">多智能体 · 自治规划 · 工具与记忆</p><div class="rule"></div>
+<a class="card" href="a/agent-leaps.html"><h3>从工具调用到自治：智能体的四次跃迁</h3><p>智能体不是"更聪明的聊天机器人"。它经历四次跃迁：会用工具、会规划、会记忆、会协作——每一次都改变系统的架构形态。</p><div class="row"><span>2026-09-22</span><span>Agent 与智能体</span><span>约 3 分钟</span><span class="tag">多智能体</span><span class="tag">规划</span><span class="tag">记忆</span><span class="tag">自治</span></div></a>
+<a class="card" href="a/digest-20260923.html"><h3>今日辑要 · 2026-09-23（前沿 12 条）</h3><p>当日采集条目的分方向汇编：保留来源与链接，只作机制与线索观察。</p><div class="row"><span>2026-09-23</span><span>Agent 与智能体</span><span>约 5 分钟</span><span class="tag">辑要</span><span class="tag">每日</span><span class="tag">前沿</span></div></a>
+<a class="card" href="a/note-20260923-2.html"><h3>关于"记忆"的三种用法</h3><p>智能体的记忆常被误解为"存得越多越聪明"。工程上更接近事实的是三种不同用途：</p><div class="row"><span>2026-09-23</span><span>Agent 与智能体</span><span>约 2 分钟</span><span class="tag">手记</span><span class="tag">方法论</span></div></a>
+</section>
+<section class="sec" id="web3">
+<h2>⛓ Web3 · 链上世界</h2><p class="sdesc">从机制与工程的角度看链</p><div class="rule"></div>
+<a class="card" href="a/chain-trust.html"><h3>链上世界的三种信任工程</h3><p>链上系统不产生信任，它只是把信任换成了三种可计算的工程：密码学的证明、共识的代价、激励的约束。看懂这三样，比记住任何项目名字都有用。</p><div class="row"><span>2026-09-22</span><span>Web3 · 链上世界</span><span>约 2 分钟</span><span class="tag">密码学</span><span class="tag">共识</span><span class="tag">激励</span><span class="tag">机制设计</span></div></a>
+<a class="card" href="a/note-20260923-4.html"><h3>链上机制的可读性</h3><p>评价一条链上机制，可以先问三个可读性问题：</p><div class="row"><span>2026-09-23</span><span>Web3 · 链上世界</span><span>约 2 分钟</span><span class="tag">手记</span><span class="tag">方法论</span></div></a>
+</section>
+<section class="sec" id="dao">
+<h2>🏛 DAO 与自治组织</h2><p class="sdesc">治理、激励与决策机制的研究</p><div class="rule"></div>
+<a class="card" href="a/dao-governance.html"><h3>DAO 的治理困境：投票率、代理与"火印"</h3><p>把决策搬上链并不自动变好。DAO 真正的难题是三个：没人投票、有人代投、以及"谁能否决"。这是我们自己实践过的一套解法。</p><div class="row"><span>2026-09-22</span><span>DAO 与自治组织</span><span>约 3 分钟</span><span class="tag">治理</span><span class="tag">加权投票</span><span class="tag">否决权</span><span class="tag">制衡</span></div></a>
+</section>
+<section class="sec" id="philo">
+<h2>☯ 华夏哲学 · 阴阳五行</h2><p class="sdesc">东方思维与系统论的对话</p><div class="rule"></div>
+<a class="card" href="a/note-20260923-3.html"><h3>阴阳与反馈环</h3><p>把阴阳放进控制系统里看，它更像一对**符号相反的反馈环**：一个负责扩张，一个负责收敛。</p><div class="row"><span>2026-09-23</span><span>华夏哲学 · 阴阳五行</span><span>约 2 分钟</span><span class="tag">手记</span><span class="tag">方法论</span></div></a>
+<a class="card" href="a/yinyang-risk.html"><h3>阴阳消长与顺势之道：风控的东方表达</h3><p>阴阳不是玄学，它是一套关于"消长与转化"的语言。把它翻译成工程语言，恰好对应风控里最难的那件事——何时收、何时放。</p><div class="row"><span>2026-09-22</span><span>华夏哲学 · 阴阳五行</span><span>约 3 分钟</span><span class="tag">阴阳</span><span class="tag">五行</span><span class="tag">系统论</span><span class="tag">风控</span></div></a>
+</section>
+<section class="sec" id="econ">
+<h2>💹 数字经济全球化</h2><p class="sdesc">数字贸易 · 支付 · 监管观察</p><div class="rule"></div>
+<a class="card" href="a/digital-economy.html"><h3>数字货币的全球化分歧：三条监管路径</h3><p>同一种技术，在三个法域里长出三套完全不同的制度：内地从严、香港持牌、欧美框架先行。看清差异，是做全球化研究的第一步。</p><div class="row"><span>2026-09-22</span><span>数字经济全球化</span><span>约 2 分钟</span><span class="tag">监管</span><span class="tag">CBDC</span><span class="tag">跨境支付</span><span class="tag">稳定币</span></div></a>
+</section>
+<section class="sec" id="notes">
+<h2>📓 灵犀手记</h2><p class="sdesc">研究笔记与工程札记</p><div class="rule"></div>
+<a class="card" href="a/lingxi-notes-1.html"><h3>灵犀手记·一：我们为什么把纪律写成制度</h3><p>一支多智能体系统最容易死在哪里？答案是"人忘了"。这份手记记录我们把纪律从脑子里搬进制度里的过程。</p><div class="row"><span>2026-09-22</span><span>灵犀手记</span><span>约 2 分钟</span><span class="tag">工程札记</span><span class="tag">制度化</span><span class="tag">复盘</span><span class="tag">存证</span></div></a>
+<a class="card" href="a/note-20260923-1.html"><h3>自治系统的"慢变量"</h3><p>在自治系统里，最难的从来不是把动作写对，而是判断**该不该动**。</p><div class="row"><span>2026-09-23</span><span>灵犀手记</span><span>约 2 分钟</span><span class="tag">手记</span><span class="tag">方法论</span></div></a>
+</section>
+<section class="sec" id="live">
+<h2>📡 外网新声</h2>
+<p class="sdesc">自动采集 · 每 5 分钟刷新 · 共 60 条（已汉化 31 条） · 更新于 15:45 ｜ <a href="live/">查看全部 →</a> ｜ <b>译文为机器翻译，供速览；点开原文为准</b></p>
+<div class="rule"></div><ul class="live mini">
+<li><time>15:33</time><span class="ls">Hacker News</span><span class="lz en">EN</span><a href="https://github.com/nobodywho-ooo/nobodywho" target="_blank" rel="noopener">NobodyWho is an inference engine that lets you run LLMs locally and efficiently</a></li>
+<li><time>15:07</time><span class="ls">Hacker News</span><span class="lz en">EN</span><a href="https://arxiv.org/abs/2609.26457" target="_blank" rel="noopener">Recursive self-improvement of AI research agents</a></li>
+<li><time>14:56</time><span class="ls">Hacker News</span><span class="lz en">EN</span><a href="https://gwern.net/tool-ai" target="_blank" rel="noopener">Why Tool AIs Want to Be Agent AIs</a></li>
+<li><time>14:46</time><span class="ls">Hacker News</span><span class="lz en">EN</span><a href="https://news.ycombinator.com/item?id=49812519" target="_blank" rel="noopener">Jevify skill – Gets your existing agents running on Jev</a></li>
+<li><time>14:25</time><span class="ls">Hacker News</span><span class="lz en">EN</span><a href="https://news.ycombinator.com/item?id=49812392" target="_blank" rel="noopener">Ask HN: Engineers on highly polished products, how are you using agentic coding?</a></li>
+<li><time>14:18</time><span class="ls">Hacker News</span><span class="lz en">EN</span><a href="https://huggingface.co/blog/transformers-llama-cpp-quants" target="_blank" rel="noopener">Transformers now runs llama.cpp quants</a></li>
+</ul>
+<a class="back" href="live/">📡 全部 60 条外网新声 →</a>
+</section></div>
+<div class="sbox" id="sbox" hidden><div class="sinner">
+  <div class="srow"><input id="sinput" type="search" placeholder="搜索本站：标题 / 摘要 / 正文…" autocomplete="off"><button id="sclose" title="关闭">✕</button></div>
+  <div class="shint" id="shint">输入关键词即可检索全部文章（本地检索 · 不联网）</div>
+  <ul id="sres"></ul>
+</div></div>
+<footer><div class="wrap">
+  <a class="door" href="gate/?v=2609231303" title="内部">門</a>
+  <div class="disc">本站为<b>技术研究与思想交流</b>之用：探讨人工智能、多智能体系统、链上机制与数字经济。
+  所有内容<b>不构成任何投资建议</b>，本站不提供任何交易服务，亦不从事任何形式的荐股、荐币或代客理财。</div>
+  <div class="btns">
+    <button id="sizer">字号 · <span id="szname">标准</span></button>
+    <button id="speak">🔊 朗读全文</button>
+    <button id="top">↑ 回到顶部</button>
+  </div>
+</div></footer>
 <script>
 (function(){
-  var LOCAL='http://127.0.0.1:8094/';
-  var st=document.getElementById('st'),btn=document.getElementById('btn'),te=document.getElementById('t');
-  btn.href=LOCAL;
-  function go(){
-    st.innerHTML='<span class="ok">✅ 本机台在线，正在打开…</span>';
-    btn.style.display='block';
-    setTimeout(function(){location.replace(LOCAL)},700);
+  function $(i){return document.getElementById(i);}
+  var html=document.documentElement;
+  try{ var t=localStorage.getItem('lx-theme'); if(t) html.setAttribute('data-theme',t); }catch(e){}
+  $('theme').addEventListener('click',function(){
+    var n=(html.getAttribute('data-theme')==='dark')?'light':'dark';
+    html.setAttribute('data-theme',n);
+    try{ localStorage.setItem('lx-theme',n); }catch(e){}
+  });
+  var LV=[['标准','17.5px'],['大','19.5px'],['特大','21.5px']], li=0;
+  try{ var l=parseInt(localStorage.getItem('lx-fs')||'0',10); if(l>0&&l<3) li=l; }catch(e){}
+  function applyFs(){ document.documentElement.style.setProperty('--fs',LV[li][1]);
+    $('szname').textContent=LV[li][0]; try{ localStorage.setItem('lx-fs',String(li)); }catch(e){} }
+  applyFs();
+  $('sizer').addEventListener('click',function(){ li=(li+1)%3; applyFs(); });
+  $('speak').addEventListener('click',function(){
+    if(!window.speechSynthesis){ alert('本浏览器不支持朗读'); return; }
+    if(speechSynthesis.speaking){ speechSynthesis.cancel(); this.textContent='🔊 朗读全文'; return; }
+    var el=document.querySelector('article')||document.querySelector('.wrap');
+    var u=new SpeechSynthesisUtterance((el.innerText||'').slice(0,4000));
+    u.lang='zh-CN'; u.rate=1.0; this.textContent='⏹ 停止朗读';
+    var self=this; u.onend=function(){ self.textContent='🔊 朗读全文'; };
+    speechSynthesis.speak(u);
+  });
+  $('top').addEventListener('click',function(){ window.scrollTo({top:0,behavior:'smooth'}); });
+  function prog(){
+    var h=document.documentElement.scrollHeight-window.innerHeight;
+    var p=h>0?(window.pageYOffset/h*100):0;
+    $('pbar').style.width=Math.min(100,p)+'%';
   }
-  // 探活本机台(手机上的台; 只在确认在线时才自动跳转, 与创建初期同一逻辑)
-  var ctl=(typeof AbortController!=='undefined')?new AbortController():null;
-  var timer=setTimeout(function(){ if(ctl) ctl.abort(); },2500);
-  fetch(LOCAL+'health',{mode:'cors',cache:'no-store',signal:ctl?ctl.signal:undefined})
-    .then(function(r){clearTimeout(timer);return r.ok?r.json():null})
-    .then(function(j){ if(j&&j.ok){ go(); } else { miss(); } })
-    .catch(function(){ clearTimeout(timer); miss(); });
-  function miss(){
-    st.innerHTML='<span class="dim">本机台未响应（先把手机上的台开起来，或点下面的入口）</span>';
-    btn.style.display='block';
-    te.textContent='本页于 2026-09-23 15:57 刷新 · 只读入口';
+  window.addEventListener('scroll',prog); prog();
+  function clock(){
+    var d=new Date(), p=function(n){return (n<10?'0':'')+n;};
+    var e=$('clk'); if(e) e.textContent=p(d.getHours())+':'+p(d.getMinutes())+':'+p(d.getSeconds());
+  }
+  setInterval(clock,1000); clock();
+  function e2(s){ return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+  function loadFeed(){
+    if(!window.fetch) return;
+    fetch('feed.json?t='+new Date().getTime(),{cache:'no-store'}).then(function(r){return r.ok?r.json():null;})
+    .then(function(j){
+      if(!j||!j.items) return;
+      var ul=$('feed'); if(!ul) return;
+      ul.innerHTML=j.items.slice(0,6).map(function(it){
+        var ext=/^https?:/.test(it.url);
+        var badge=it.fresh?'<span class="fresh">'+(it.type==='live'?'新收':'新')+'</span>':'';
+        var tg=it.type==='live'?'<span class="ls">'+e2(it.src||'')+'</span>':'';
+        return '<li><time>'+e2(it.t)+'</time>'+badge+tg+'<a href="'+e2(it.url)+'"'+
+               (ext?' target="_blank" rel="noopener"':'')+'>'+e2(it.title)+'</a></li>';
+      }).join('');
+      var u=$('upd'); if(u&&j.generated) u.textContent=j.generated;
+    }).catch(function(){});
+  }
+  loadFeed();
+  if($('feed')) setInterval(loadFeed,60000);
+  // 🔎 站内全文搜索(三期·本地检索 search.json, 不联网)
+  var SROOT='', SIDX=null, SLOAD=false;
+  function loadIdx(){
+    if(SIDX||SLOAD) return; SLOAD=true;
+    fetch(SROOT+'search.json?t='+new Date().getTime(),{cache:'no-store'})
+      .then(function(r){return r.ok?r.json():null;})
+      .then(function(j){ SIDX=(j&&j.items)||[]; if(curr) runSearch(curr); })
+      .catch(function(){ SLOAD=false; });
+  }
+  var curr='';
+  function openS(){ var b=$('sbox'); if(!b) return; b.hidden=false; loadIdx(); setTimeout(function(){ $('sinput').focus(); },50); }
+  function closeS(){ var b=$('sbox'); if(b) b.hidden=true; }
+  function esc2(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+  function runSearch(q){
+    var res=$('sres'), hint=$('shint');
+    if(!res) return;
+    q=(q||'').trim().toLowerCase();
+    if(!q){ res.innerHTML=''; hint.textContent='输入关键词即可检索全部文章（本地检索 · 不联网）'; return; }
+    if(!SIDX){ hint.textContent='索引加载中…'; return; }
+    var ks=q.split(/\s+/).filter(Boolean);
+    var hits=SIDX.map(function(it){
+      var hay=((it.t||'')+' '+(it.s||'')+' '+(it.k||'')+' '+(it.x||'')).toLowerCase();
+      var sc=0, ok=true;
+      ks.forEach(function(k){
+        if(hay.indexOf(k)<0) ok=false;
+        else { sc+=1; if((it.t||'').toLowerCase().indexOf(k)>=0) sc+=3; }
+      });
+      return ok?{it:it,sc:sc}:null;
+    }).filter(Boolean).sort(function(a,b){return b.sc-a.sc;}).slice(0,40);
+    if(!hits.length){ res.innerHTML=''; hint.textContent='未找到「'+q+'」相关内容'; return; }
+    hint.textContent='找到 '+hits.length+' 条';
+    res.innerHTML=hits.map(function(h){
+      var it=h.it, x=(it.x||'').slice(0,140);
+      return '<li><a href="'+SROOT+esc2(it.u)+'"><b>'+esc2(it.t)+'</b></a>'+
+             '<div class="smeta">'+esc2(it.s||'')+' · '+esc2(it.d||'')+'</div>'+
+             (x?'<div class="sx">'+esc2(x)+'…</div>':'')+'</li>';
+    }).join('');
+  }
+  var sb=$('sbtn'), si=$('sinput');
+  if(sb) sb.addEventListener('click',openS);
+  if($('sclose')) $('sclose').addEventListener('click',closeS);
+  if(si) si.addEventListener('input',function(){ curr=this.value; runSearch(curr); });
+  document.addEventListener('keydown',function(e){
+    if(e.key==='/'&&!e.target.matches('input,textarea')){ e.preventDefault(); openS(); }
+    if(e.key==='Escape') closeS();
+  });
+  // 🚪 暗记: 磁条拖到最里端才亮; 点「⋯」自动拖到最里
+  var navEl=document.querySelector('.nav'), nd=$('navdoor');
+  function chkDoor(){
+    if(!navEl||!nd) return;
+    var end=(navEl.scrollLeft+navEl.clientWidth)>=(navEl.scrollWidth-8);
+    nd.style.opacity=end?'0.95':'0.20';
+  }
+  if(navEl&&nd){
+    navEl.addEventListener('scroll',chkDoor); chkDoor();
+    var dots=$('ldots');
+    if(dots) dots.addEventListener('click',function(){
+      if(navEl.scrollTo) navEl.scrollTo({left:navEl.scrollWidth,behavior:'smooth'});
+      else navEl.scrollLeft=navEl.scrollWidth;
+      setTimeout(chkDoor,400);
+    });
   }
 })();
 </script>
