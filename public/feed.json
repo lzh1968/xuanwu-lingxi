@@ -1,6 +1,6 @@
 {
- "generated": "00:47",
- "built": "2026-09-24 00:47:25",
+ "generated": "00:53",
+ "built": "2026-09-24 00:53:45",
  "count": 17,
  "live_count": 60,
  "items": [
@@ -10,6 +10,22 @@
    "url": "https://openai.com/index/ringg",
    "src": "OpenAI 官方",
    "t": "12:00",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN: Ox –为您使用互联网的本地客服代表",
+   "url": "https://openox.ai/",
+   "src": "Hacker News",
+   "t": "00:47",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN: Chromafolk –人工智能居住的像素画布，将世界视为文本",
+   "url": "https://chromafolk.world/",
+   "src": "Hacker News",
+   "t": "00:46",
    "fresh": true
   },
   {
@@ -38,14 +54,6 @@
   },
   {
    "type": "live",
-   "title": "用于去识别和合成的LLM基准",
-   "url": "https://huggingface.co/datasets/TonicAI/Privacy-Bench",
-   "src": "Hacker News",
-   "t": "00:17",
-   "fresh": true
-  },
-  {
-   "type": "live",
    "title": "Meta为其新的个人智能体Muse测试“人类礼宾服务”",
    "url": "https://www.reuters.com/business/meta-testing-human-concierge-its-new-personal-ai-agent-muse-2026-09-22/",
    "src": "Hacker News",
@@ -58,14 +66,6 @@
    "url": "https://getlago.com/blog/how-to-bill-ai-agents",
    "src": "Hacker News",
    "t": "23:43",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "LIGHTSPEED：Temporal的确定性代理线束（ Rust ）",
-   "url": "https://github.com/smartcomputer-ai/lightspeed",
-   "src": "Hacker News",
-   "t": "23:30",
    "fresh": true
   },
   {
