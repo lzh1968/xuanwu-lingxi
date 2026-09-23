@@ -304,7 +304,7 @@
     depth = depth || 0;
     busy('門 · 正在校准线路…');
     return fetchTarget().then(function(u){
-      if (!u) throw new Error('NOPKG');
+      if (!u){ ready=false; ring(0); glow(false); hint('内厅·暂撤（原手机门户已停用，本页即唯一入口）','bad'); say('門 · 内厅暂撤 · 站体请直接浏览','bad'); return false; }
       target = u;
       return probe(u).then(function(alive){
         if (alive){ ready = true; glow(true); ring(1); say('門 · 已就绪 · 按住火印','ok'); return true; }
