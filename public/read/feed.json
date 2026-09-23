@@ -1,6 +1,6 @@
 {
- "generated": "02:36",
- "built": "2026-09-24 02:36:48",
+ "generated": "02:42",
+ "built": "2026-09-24 02:42:49",
  "count": 17,
  "live_count": 60,
  "items": [
@@ -10,6 +10,14 @@
    "url": "https://openai.com/index/ringg",
    "src": "OpenAI 官方",
    "t": "12:00",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "问问HN：你是将你的编码转交给人工智能，还是让你的技能保持敏锐？",
+   "url": "https://news.ycombinator.com/item?id=49820486",
+   "src": "Hacker News",
+   "t": "02:35",
    "fresh": true
   },
   {
@@ -56,14 +64,6 @@
    "type": "live",
    "title": "ApprenticeBench：智能体可以端到端地学习真正的工作吗？",
    "url": "https://neocognition.io/blog/apprentice-bench",
-   "src": "Hacker News",
-   "t": "01:47",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "人工智能研究智能体的递归自我提升",
-   "url": "https://arxiv.org/abs/2609.26457",
    "src": "Hacker News",
    "t": "01:47",
    "fresh": true
