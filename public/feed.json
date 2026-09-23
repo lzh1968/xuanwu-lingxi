@@ -1,12 +1,44 @@
 {
- "generated": "23:59",
- "built": "2026-09-23 23:59:41",
- "count": 12,
- "live_count": 24,
+ "generated": "00:19",
+ "built": "2026-09-24 00:19:18",
+ "count": 14,
+ "live_count": 35,
  "items": [
   {
    "type": "live",
-   "title": "AMD-AGI/HyperLoom – Agentic system that auto-optimizes LLM workloads on AMD GPUs",
+   "title": "Meta为其新的个人智能体Muse测试“人类礼宾服务”",
+   "url": "https://www.reuters.com/business/meta-testing-human-concierge-its-new-personal-ai-agent-muse-2026-09-22/",
+   "src": "Hacker News",
+   "t": "00:14",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN：PicoLM v1.0-rc2 （ “Yura Kana” ）。在Digital Unix上运行LLM",
+   "url": "https://github.com/whoreson/picolm/",
+   "src": "Hacker News",
+   "t": "00:12",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "座席不是创建座席的员工的延伸",
+   "url": "https://getlago.com/blog/how-to-bill-ai-agents",
+   "src": "Hacker News",
+   "t": "23:43",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "LIGHTSPEED：Temporal的确定性代理线束（ Rust ）",
+   "url": "https://github.com/smartcomputer-ai/lightspeed",
+   "src": "Hacker News",
+   "t": "23:30",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "AMD-AGI/HyperLoom -自动优化AMD GPU上LLM工作负载的Agentic系统",
    "url": "https://github.com/AMD-AGI/Hyperloom",
    "src": "Hacker News",
    "t": "23:29",
@@ -22,50 +54,34 @@
   },
   {
    "type": "live",
-   "title": "Show HN: I Built a GIF Decider with Jev",
-   "url": "https://gifdecider.com/",
+   "title": "Amazon opens its seller tools to outside AI agents, starting with Anthropic",
+   "url": "https://www.geekwire.com/2026/amazon-opens-its-seller-tools-to-outside-ai-agents-starting-with-anthropics-claude/",
    "src": "Hacker News",
-   "t": "23:10",
+   "t": "23:20",
    "fresh": true
   },
   {
    "type": "live",
-   "title": "SpeakerMem-R1：以扬声器为中心的多方对话双轨内存",
-   "url": "https://arxiv.org/abs/2609.26780v1",
-   "src": "arXiv cs.AI",
-   "t": "17:56",
+   "title": "Step Code: MIT-licensed coding agent CLI built around Step 5 Preview",
+   "url": "https://github.com/stepfun-ai/Step-Code",
+   "src": "Hacker News",
+   "t": "23:12",
+   "fresh": true
+  },
+  {
+   "type": "article",
+   "title": "今日辑要 · 2026-09-24（前沿 12 条）",
+   "url": "a/digest-20260924.html",
+   "src": "Agent 与智能体",
+   "t": "2026-09-24",
    "fresh": false
   },
   {
-   "type": "live",
-   "title": "CliffCompaction：长距离编码智能体的高性价比压缩",
-   "url": "https://arxiv.org/abs/2609.26779v1",
-   "src": "arXiv cs.AI",
-   "t": "17:55",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "SWE-Serve：对生产推理服务的代理工程进行基准测试",
-   "url": "https://arxiv.org/abs/2609.26777v1",
-   "src": "arXiv cs.AI",
-   "t": "17:54",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "A2M：MCP生态系统中的跟踪优化Agent劫持",
-   "url": "https://arxiv.org/abs/2609.26761v1",
-   "src": "arXiv cs.AI",
-   "t": "17:41",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "发展线索，而不是背景：从无战略的支架到可重复使用的专业代理",
-   "url": "https://arxiv.org/abs/2609.26760v1",
-   "src": "arXiv cs.AI",
-   "t": "17:40",
+   "type": "article",
+   "title": "自治系统的\"慢变量\"",
+   "url": "a/note-20260924-1.html",
+   "src": "灵犀手记",
+   "t": "2026-09-24",
    "fresh": false
   },
   {
@@ -98,22 +114,6 @@
    "url": "a/note-20260923-3.html",
    "src": "华夏哲学 · 阴阳五行",
    "t": "2026-09-23",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "链上机制的可读性",
-   "url": "a/note-20260923-4.html",
-   "src": "Web3 · 链上世界",
-   "t": "2026-09-23",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "从工具调用到自治：智能体的四次跃迁",
-   "url": "a/agent-leaps.html",
-   "src": "Agent 与智能体",
-   "t": "2026-09-22",
    "fresh": false
   }
  ]
