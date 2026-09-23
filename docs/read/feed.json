@@ -1,8 +1,8 @@
 {
- "generated": "21:48",
- "built": "2026-09-23 21:48:41",
+ "generated": "21:56",
+ "built": "2026-09-23 21:56:16",
  "count": 12,
- "live_count": 50,
+ "live_count": 60,
  "items": [
   {
    "type": "live",
@@ -22,10 +22,26 @@
   },
   {
    "type": "live",
+   "title": "Unlocking parallel test-time scaling for long-horizon agents",
+   "url": "https://blog.doubleword.ai/swe-bench-pro-64-deepseek-agents",
+   "src": "Hacker News",
+   "t": "21:34",
+   "fresh": true
+  },
+  {
+   "type": "live",
    "title": "Cafe Bench: Can LLMs run a coffee chain for a year?",
    "url": "https://www.getdot.ai/blog/cafe-bench",
    "src": "Hacker News",
    "t": "21:33",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Six of 48: I logged every way my AI agents failed for five months",
+   "url": "https://github.com/taylorancapital/nothing-threw/blob/main/SIX_OF_FORTY_EIGHT.md",
+   "src": "Hacker News",
+   "t": "21:30",
    "fresh": true
   },
   {
@@ -38,35 +54,19 @@
   },
   {
    "type": "live",
+   "title": "Native Mail – An email client where an agent handles your inbox",
+   "url": "https://getnative.ai",
+   "src": "Hacker News",
+   "t": "21:00",
+   "fresh": true
+  },
+  {
+   "type": "live",
    "title": "The Pain Axis: LLMs Represent Self-Directed Harm and Act to Relieve It",
    "url": "https://arxiv.org/abs/2609.16247",
    "src": "Hacker News",
    "t": "20:54",
    "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "url": "https://github.com/earendil-works/pi",
-   "src": "GitHub 新星",
-   "t": "13:44",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "url": "https://github.com/ggml-org/llama.cpp",
-   "src": "GitHub 新星",
-   "t": "13:28",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
-   "url": "https://github.com/Dao-AILab/flash-attention",
-   "src": "GitHub 新星",
-   "t": "08:20",
-   "fresh": false
   },
   {
    "type": "article",
