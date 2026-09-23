@@ -1,5 +1,5 @@
 {
- "built": "2026-09-23 21:41:03",
+ "built": "2026-09-23 21:48:41",
  "count": 52,
  "items": [
   {
@@ -99,18 +99,18 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "Benchmarking LLM query generation across SQL, Cypher, and TypeQL",
-   "u": "https://typedb.com/blog/benchmarking-llm-query-generation-across-sql-cypher-and-typeql",
+   "t": "Cheaper LLM Labelling",
+   "u": "https://entropicthoughts.com/cheaper-llm-labeling",
    "s": "外网新声·Hacker News",
-   "d": "21:37",
+   "d": "21:41",
    "k": "",
    "x": ""
   },
   {
-   "t": "Unlocking parallel test-time scaling for long-horizon agents",
-   "u": "https://blog.doubleword.ai/swe-bench-pro-64-deepseek-agents",
+   "t": "Benchmarking LLM query generation across SQL, Cypher, and TypeQL",
+   "u": "https://typedb.com/blog/benchmarking-llm-query-generation-across-sql-cypher-and-typeql",
    "s": "外网新声·Hacker News",
-   "d": "21:34",
+   "d": "21:37",
    "k": "",
    "x": ""
   },
@@ -123,26 +123,10 @@
    "x": ""
   },
   {
-   "t": "Six of 48: I logged every way my AI agents failed for five months",
-   "u": "https://github.com/taylorancapital/nothing-threw/blob/main/SIX_OF_FORTY_EIGHT.md",
-   "s": "外网新声·Hacker News",
-   "d": "21:30",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "The Gnome LLM Policy That I Want",
    "u": "https://blogs.gnome.org/alatiera/2026/09/23/the-gnome-llm-policy-that-i-want/",
    "s": "外网新声·Hacker News",
    "d": "21:16",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Native Mail – An email client where an agent handles your inbox",
-   "u": "https://getnative.ai",
-   "s": "外网新声·Hacker News",
-   "d": "21:00",
    "k": "",
    "x": ""
   },
@@ -155,50 +139,10 @@
    "x": ""
   },
   {
-   "t": "Show HN: RxFilm Studio–Create and edit your product videos with AI agent",
-   "u": "https://filmstudio.rxlab.app",
-   "s": "外网新声·Hacker News",
-   "d": "20:28",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN: Red-team your AI agent",
-   "u": "https://www.botgauge.com",
-   "s": "外网新声·Hacker News",
-   "d": "19:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "元测试模拟呼叫中心的人工智能座席呼叫",
-   "u": "https://www.404media.co/meta-tests-muse-ai-agent-calls-that-are-actually-made-by-humans-in-a-call-center/",
-   "s": "外网新声·Hacker News",
-   "d": "19:32",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Universal Agent HP – 10-layer autonomous AI agent OS (free or local)",
-   "u": "https://github.com/kapitan00000978-sketch/Universal-Agent-HP",
-   "s": "外网新声·Hacker News",
-   "d": "19:28",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "13:40",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
    "u": "https://github.com/earendil-works/pi",
    "s": "外网新声·GitHub 新星",
-   "d": "13:34",
+   "d": "13:44",
    "k": "",
    "x": ""
   },
@@ -207,14 +151,6 @@
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
    "d": "13:28",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "13:14",
    "k": "",
    "x": ""
   },
@@ -231,30 +167,6 @@
    "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
    "s": "外网新声·GitHub 新星",
    "d": "05:24",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
-   "u": "https://github.com/affaan-m/ECC",
-   "s": "外网新声·GitHub 新星",
-   "d": "23:09",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ScopeTrail：为「多跳智能体委派」生成可审计回执",
-   "u": "https://github.com/scopetrail/scopetrail",
-   "s": "外网新声·Hacker News",
-   "d": "21:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "obra/superpowers —有效的代理技能框架和软件开发方法。",
-   "u": "https://github.com/obra/superpowers",
-   "s": "外网新声·GitHub 新星",
-   "d": "18:22",
    "k": "",
    "x": ""
   },
@@ -415,6 +327,94 @@
    "u": "https://arxiv.org/abs/2609.26642v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "16:15",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models",
+   "u": "https://arxiv.org/abs/2609.26637v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:10",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Label-Efficient Learning for Ground-Based Sky-Image Classification: A Benchmark of Transfer Learning, Active Learning, and Pseudo-Labeling on GCD",
+   "u": "https://arxiv.org/abs/2609.26631v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:06",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "On Basis Function Selection for Sparse Gaussian Process Regression",
+   "u": "https://arxiv.org/abs/2609.26624v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "15:56",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Greedy Decoding Is Not Precision-Invariant: Cross-Precision Output Divergence in LLM Inference",
+   "u": "https://arxiv.org/abs/2609.26621v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "15:54",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "MMAP: Multimodal Missing-Aware Pretraining for Longitudinal Alzheimer's Prediction",
+   "u": "https://arxiv.org/abs/2609.26617v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "15:50",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "rasbt/LLMs-from-scratch：一步步用 PyTorch 从零实现类 ChatGPT 模型",
+   "u": "https://github.com/rasbt/LLMs-from-scratch",
+   "s": "外网新声·GitHub 新星",
+   "d": "13:58",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "使用GPT ‑ 6 Astra将研究时间和成本并行削减一半",
+   "u": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+   "s": "外网新声·OpenAI 官方",
+   "d": "12:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "有效第三方评估的优先事项和原则",
+   "u": "https://openai.com/index/priorities-principles-third-party-assessments",
+   "s": "外网新声·OpenAI 官方",
+   "d": "00:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "为下一阶段的人工智能构建标准",
+   "u": "https://openai.com/index/building-standards-next-phase-ai",
+   "s": "外网新声·OpenAI 官方",
+   "d": "10:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "V7如何为智能体提供机构记忆",
+   "u": "https://openai.com/index/v7",
+   "s": "外网新声·OpenAI 官方",
+   "d": "00:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "澳大利亚青少年安全蓝图简介",
+   "u": "https://openai.com/index/australian-youth-safety-blueprint",
+   "s": "外网新声·OpenAI 官方",
+   "d": "12:00",
    "k": "",
    "x": ""
   }

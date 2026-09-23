@@ -1,23 +1,23 @@
 {
- "generated": "21:41",
- "built": "2026-09-23 21:41:03",
+ "generated": "21:48",
+ "built": "2026-09-23 21:48:41",
  "count": 12,
- "live_count": 60,
+ "live_count": 50,
  "items": [
+  {
+   "type": "live",
+   "title": "Cheaper LLM Labelling",
+   "url": "https://entropicthoughts.com/cheaper-llm-labeling",
+   "src": "Hacker News",
+   "t": "21:41",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Benchmarking LLM query generation across SQL, Cypher, and TypeQL",
    "url": "https://typedb.com/blog/benchmarking-llm-query-generation-across-sql-cypher-and-typeql",
    "src": "Hacker News",
    "t": "21:37",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Unlocking parallel test-time scaling for long-horizon agents",
-   "url": "https://blog.doubleword.ai/swe-bench-pro-64-deepseek-agents",
-   "src": "Hacker News",
-   "t": "21:34",
    "fresh": true
   },
   {
@@ -30,26 +30,10 @@
   },
   {
    "type": "live",
-   "title": "Six of 48: I logged every way my AI agents failed for five months",
-   "url": "https://github.com/taylorancapital/nothing-threw/blob/main/SIX_OF_FORTY_EIGHT.md",
-   "src": "Hacker News",
-   "t": "21:30",
-   "fresh": true
-  },
-  {
-   "type": "live",
    "title": "The Gnome LLM Policy That I Want",
    "url": "https://blogs.gnome.org/alatiera/2026/09/23/the-gnome-llm-policy-that-i-want/",
    "src": "Hacker News",
    "t": "21:16",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Native Mail – An email client where an agent handles your inbox",
-   "url": "https://getnative.ai",
-   "src": "Hacker News",
-   "t": "21:00",
    "fresh": true
   },
   {
@@ -62,11 +46,27 @@
   },
   {
    "type": "live",
-   "title": "Show HN: RxFilm Studio–Create and edit your product videos with AI agent",
-   "url": "https://filmstudio.rxlab.app",
-   "src": "Hacker News",
-   "t": "20:28",
-   "fresh": true
+   "title": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "url": "https://github.com/earendil-works/pi",
+   "src": "GitHub 新星",
+   "t": "13:44",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "url": "https://github.com/ggml-org/llama.cpp",
+   "src": "GitHub 新星",
+   "t": "13:28",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "url": "https://github.com/Dao-AILab/flash-attention",
+   "src": "GitHub 新星",
+   "t": "08:20",
+   "fresh": false
   },
   {
    "type": "article",
