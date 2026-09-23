@@ -1,0 +1,398 @@
+{
+ "built": "2026-09-23 11:01:12",
+ "count": 49,
+ "items": [
+  {
+   "t": "今日辑要 · 2026-09-23（前沿 12 条）",
+   "u": "a/digest-20260923.html",
+   "s": "Agent 与智能体",
+   "d": "2026-09-23",
+   "k": "辑要,每日,前沿",
+   "x": "今日从公开源汇得 12 条与人工智能、智能体系统、链上机制与数字经济相关的条目，按方向归拢如下。所有条目均保留来源与原文链接， 只作线索与机制观察 ，不代表任何结论。 Agent 与智能体 Show HN: Making agent decisions better and traceable <span class=\"src\" Hacker News · 10:15</span [查看原文](https://news.ycombinator.com/item?id=49810838) Naming AI agents after Seinfeld characters helps bots join the team – report <span class=\"src\" Hacker News · 08:54</span [查看原文](https://www.theregister.co"
+  },
+  {
+   "t": "阴阳与反馈环",
+   "u": "a/note-20260923-3.html",
+   "s": "华夏哲学 · 阴阳五行",
+   "d": "2026-09-23",
+   "k": "手记,方法论",
+   "x": "把阴阳放进控制系统里看，它更像一对 符号相反的反馈环 ：一个负责扩张，一个负责收敛。 只有扩张的环，系统会在顺境中自我强化直到崩塌；只有收敛的环，系统会在谨慎中失去一切机会。传统讲\"阴阳相生\"，工程讲\"增益平衡\"——说的是同一件事： 别让任一侧单独主导太久。 所以好的自适应并非不断调参，而是在两侧都留出可回退的余地：进要能退，退也要能再进；底线固定，节奏可变。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "从工具调用到自治：智能体的四次跃迁",
+   "u": "a/agent-leaps.html",
+   "s": "Agent 与智能体",
+   "d": "2026-09-22",
+   "k": "多智能体, 规划, 记忆, 自治",
+   "x": "把智能体理解成\"会聊天的模型\"，是最常见的误解。真正让\"Agent\"这个词有重量的，是它 在一个环境里连续做出影响环境的决定 。沿着这条线，能看到四次清晰的跃迁。 第一次跃迁：学会用工具 模型只能生成文本时，它的能力边界是语言。当它能调用搜索、计算、数据库、代码执行，边界就变成了 它能接触到的世界 。 工程上的关键不是\"接了多少工具\"，而是： 工具的 描述 是否精确（模型选错工具，多半是描述含糊）； 失败是否 可恢复 （超时、空结果、权限拒绝都要有明确的回退路径）； 权限是否 最小化 （只给必需的操作，尤其是写操作）。 第二次跃迁：学会规划 有了工具，下一步是\"先做什么、后做什么\"。规划让智能体从\"一问一答\"变成\"多步执行\"。 但规划本身有个陷阱： 链条越长，错误累积越快 。于是成熟的系统会插入检查点——每一步都验证前提是否还成立，而不是一路跑到黑。 第三次跃迁：学会记忆 没有记忆的智能体"
+  },
+  {
+   "t": "算力之后：什么在决定 AI 的下一个十年",
+   "u": "a/ai-next-decade.html",
+   "s": "AI 全球趋势",
+   "d": "2026-09-22",
+   "k": "算力, 推理, 监管, 能源",
+   "x": "过去这几年，我们习惯用\"规模\"解释一切：更大的参数、更多的数据、更多的卡。它确实有效，但它正在接近边际收益递减的区间——同样的投入，换来的能力提升不再线性。 于是问题变了： 下一个十年的分水岭，可能不在训练，而在推理与落地。 一、从\"训练贵\"到\"推理贵\" 大模型的第一阶段成本集中在训练；当模型被真正用起来，成本重心会移到 每一次推理 上。一个系统如果每天要回答一百万次，推理的成本结构、延迟与稳定性，就比训练框架更决定生死。 这带来三个工程转向： 小模型 + 好流程 ：把大模型的判断力\"蒸馏\"进可负担的小模型，复杂任务再向上调用； 缓存与复用 ：把重复的推理变成查表，把确定性交给规则； 算力调度 ：任务分级，什么必须立刻答、什么可以排队。 一个粗糙但有用的判断： 能把推理成本压下去的系统，才有资格长期运行。 二、数据的天花板与\"干净\"的价值 公开语料的总量是有限的。接下来的竞争，更多发生在 "
+  },
+  {
+   "t": "链上世界的三种信任工程",
+   "u": "a/chain-trust.html",
+   "s": "Web3 · 链上世界",
+   "d": "2026-09-22",
+   "k": "密码学, 共识, 激励, 机制设计",
+   "x": "谈链上世界，容易陷进两个误区：一是把它当投机标的，二是把它当万能技术。若从 机制 的角度看，它真正提供的其实是三件工程品——都不玄。 一、密码学：把\"承诺\"变成可验证 哈希、签名、默克尔证明，解决的是同一类问题： 让不可信的一方也能自证 。 哈希 保证内容不可篡改（改一个字节，指纹全变）； 签名 保证来源不可冒充（只有私钥持有者能签）； 默克尔结构 让海量数据只需一个小证明就能验证局部（轻节点也敢信）。 工程含义： 验证成本可以被压到极低，而伪造成本被抬得极高。 这是\"自证\"的核心。 二、共识：把\"一致\"卖出代价 分布式系统的老问题是：谁说了算？ 有中心，效率高但有单点； 无中心，必须用某种机制让多数节点接受同一版本的状态。 于是有了\"用代价换一致\"的设计：工作量证明用 能源 ，权益证明用 押金 。代价的作用不是浪费，而是 让作恶比守规矩更贵 。 关键认识：共识不保证\"正确\"，只保证\"一致"
+  },
+  {
+   "t": "DAO 的治理困境：投票率、代理与\"火印\"",
+   "u": "a/dao-governance.html",
+   "s": "DAO 与自治组织",
+   "d": "2026-09-22",
+   "k": "治理, 加权投票, 否决权, 制衡",
+   "x": "去中心化自治组织最诱人的承诺是\"规则写在代码里，人人可参与\"。真正跑起来，会遇到三个绕不开的困境。 困境一：投票率天然低迷 参与者越多，单票影响越小，投与不投的收益差趋近于零。于是出现典型的 沉默多数 ：治理被少数积极分子决定。 常见对策及其代价： 委托投票 ：效率提升，但容易形成新的权力集中； 投票激励 ：能拉高参与，但会引来只为奖励的羊毛； 法定出席门槛 ：保证代表性，代价是决议经常\"卡住\"。 结论： 参与率不是靠热情，而要靠制度设计；而任何制度都有代价。 困境二：权力与责任错配 如果\"票数 = 权力\"，那么资金更大的一方自然更强。这在资本型组织里说得通，在 承担风险的组织 里却很危险——出风险的人和投票的人可能不是同一批。 我们自己的做法是引入三层结构： 加权席位 ：不是按钱，而是按\"岗位责任\"分配权重； 专职否决 ：对涉及本金、安全、合规的议题，设置少数席位的 一票否决 ； 事后复"
+  },
+  {
+   "t": "数字货币的全球化分歧：三条监管路径",
+   "u": "a/digital-economy.html",
+   "s": "数字经济全球化",
+   "d": "2026-09-22",
+   "k": "监管, CBDC, 跨境支付, 稳定币",
+   "x": "数字货币不是一个市场问题，而是一组 制度问题 。技术全球通用，规则却各走各路。粗略地看，当下至少有三条清晰路径。 路径一：内地 —— 从严，划清边界 内地对虚拟货币相关业务活动采取的是 严格禁止 的口径：交易炒作、代币发行、相关宣传与引流都在禁止之列；对境内的持牌金融机构与支付机构，也明确切断了相关业务。 同时，另一条线在快速推进： 数字人民币（e CNY） 。它的定位是法定货币的数字化形态，强调可控匿名与双层运营。 要点： \"禁止炒作\"与\"推进法定数字货币\"并行不悖。 对做研究的人，这条路径给出一个重要提醒： 在境内做任何与虚拟货币相关的公开内容，必须极其克制 ——这是法律问题，不是偏好问题。 路径二：香港 —— 持牌，把风险关进笼子 香港选择了另一条路： 设牌照、定门槛、纳入监管 。 虚拟资产交易平台需持牌经营，对客户资产隔离、托管、反洗钱有明确要求； 稳定币立法推进，发行需要牌照与储"
+  },
+  {
+   "t": "灵犀手记·一：我们为什么把纪律写成制度",
+   "u": "a/lingxi-notes-1.html",
+   "s": "灵犀手记",
+   "d": "2026-09-22",
+   "k": "工程札记, 制度化, 复盘, 存证",
+   "x": "这是《灵犀手记》的第一篇。以后会陆续写下我们在搭建\"玄武灵犀\"多智能体系统时的 思考与教训 ——只谈工程与制度，不涉及任何收益，也不构成任何建议。 起点：人是最不可靠的那个环节 系统运行的头几个月，我们最常复盘的失败不是算法，而是 \"忘了\" ： 忘了记录某个变更为何而做； 忘了排除某个模块是否还在运行； 忘了在某条规则触发时，按规则执行。 人脑的缓存很小，而且会自我美化。于是我们做了一个决定： 凡是重要的东西，不从\"记住\"里要，而从\"制度\"里要。 第一步：把纪律写成文件 我们把\"该怎么做\"从口头约定变成了 在案条文 ： 改内核要有授权（我们叫\"火印\"），且必须留痕； 涉及真实资金的变更，必须有回退令与复核期； 每次决策要能被 完整重放 ——谁在何时、基于什么、做了什么判断。 纸面看起来繁琐，但它的价值在 事后 ：当出现问题时，你能定位到\"哪一条规则没被执行\"，而不是只能感叹\"当时大意了\"。"
+  },
+  {
+   "t": "阴阳消长与顺势之道：风控的东方表达",
+   "u": "a/yinyang-risk.html",
+   "s": "华夏哲学 · 阴阳五行",
+   "d": "2026-09-22",
+   "k": "阴阳, 五行, 系统论, 风控",
+   "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
+  },
+  {
+   "t": "通过心理测量分析测量法学硕士的行为信号",
+   "u": "https://arxiv.org/abs/2609.22934",
+   "s": "外网新声·Hacker News",
+   "d": "10:46",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：让代理决策更好、更可追溯",
+   "u": "https://news.ycombinator.com/item?id=49810838",
+   "s": "外网新声·Hacker News",
+   "d": "10:15",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "复杂代理推理的维基基础模型",
+   "u": "https://academy.dair.ai/papers/wfm-wiki-foundation-model-for-complex-agentic-reasoning-2609.18182",
+   "s": "外网新声·Hacker News",
+   "d": "10:01",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "以Seinfeld角色命名AI 智能体帮助机器人加入团队–报告",
+   "u": "https://www.theregister.com/ai-and-ml/2026/09/22/security-firm-finds-naming-ai-agents-after-seinfeld-characters-helps-bots-join-the-team/5298424",
+   "s": "外网新声·Hacker News",
+   "d": "08:54",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "全新CC，专为家庭打造的智能体",
+   "u": "https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups/",
+   "s": "外网新声·Hacker News",
+   "d": "07:46",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：适用于内置Swift的macOS的快速离线Markdown查看器",
+   "u": "https://github.com/temir-dev/tims-markdown-reader",
+   "s": "外网新声·Hacker News",
+   "d": "06:39",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "自主智能体正在闯入在线零售商",
+   "u": "https://gambit.security/blog-posts/autonomous-ai-agents-online-retailers-25-a-company",
+   "s": "外网新声·Hacker News",
+   "d": "06:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN: Jade Email.您域名的无限电子邮件，以及AI 智能体支持",
+   "u": "https://jade.email/",
+   "s": "外网新声·Hacker News",
+   "d": "05:46",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Meta的新Muse AI 智能体阅读我的私人消息。我从来没有要求过",
+   "u": "https://www.inc.com/jason-aten/metas-new-muse-ai-agent-read-my-private-messages-i-never-asked-it-to/91408202",
+   "s": "外网新声·Hacker News",
+   "d": "05:43",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "LLM Ass Bench",
+   "u": "https://www.assbench.com/",
+   "s": "外网新声·Hacker News",
+   "d": "04:34",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "问HN：什么时候对小型LLM进行微调是值得的？",
+   "u": "https://news.ycombinator.com/item?id=49807413",
+   "s": "外网新声·Hacker News",
+   "d": "04:11",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：精明–我学到的是将LLM标签提炼成本地分类器",
+   "u": "https://github.com/sshah03/shrewd",
+   "s": "外网新声·Hacker News",
+   "d": "04:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "02:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "02:50",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
+   "s": "外网新声·GitHub 新星",
+   "d": "02:39",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
+   "s": "外网新声·GitHub 新星",
+   "d": "23:33",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
+   "u": "https://github.com/affaan-m/ECC",
+   "s": "外网新声·GitHub 新星",
+   "d": "23:09",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ScopeTrail：为「多跳智能体委派」生成可审计回执",
+   "u": "https://github.com/scopetrail/scopetrail",
+   "s": "外网新声·Hacker News",
+   "d": "21:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "u": "https://github.com/Dao-AILab/flash-attention",
+   "s": "外网新声·GitHub 新星",
+   "d": "20:40",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "obra/superpowers —有效的代理技能框架和软件开发方法。",
+   "u": "https://github.com/obra/superpowers",
+   "s": "外网新声·GitHub 新星",
+   "d": "18:22",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "SpeakerMem-R1：以扬声器为中心的多方对话双轨内存",
+   "u": "https://arxiv.org/abs/2609.26780v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:56",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "CliffCompaction：长距离编码智能体的高性价比压缩",
+   "u": "https://arxiv.org/abs/2609.26779v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "SWE-Serve：对生产推理服务的代理工程进行基准测试",
+   "u": "https://arxiv.org/abs/2609.26777v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:54",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "A2M：MCP生态系统中的跟踪优化Agent劫持",
+   "u": "https://arxiv.org/abs/2609.26761v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:41",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "发展线索，而不是背景：从无战略的支架到可重复使用的专业代理",
+   "u": "https://arxiv.org/abs/2609.26760v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:40",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "基于LLM的代码漏洞修复中的指标失败：实证研究和变更感知屏幕",
+   "u": "https://arxiv.org/abs/2609.26749v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:32",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "人工智能是否节省了产品设计的时间？人工智能提示设计工作流程的随机对照实验",
+   "u": "https://arxiv.org/abs/2609.26725v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:13",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "《The Sirens 'Song: When Proximal Background Context Oversadows Distant Evidence》",
+   "u": "https://arxiv.org/abs/2609.26718v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:06",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "TraceVIC: Causal Reasoning over Code Evolution for Identifying Vulnerability-Inducing Commits",
+   "u": "https://arxiv.org/abs/2609.26711v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:02",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Train Where the Quantized Model Goes: On-Policy Distillation for Low-Bit Reasoning",
+   "u": "https://arxiv.org/abs/2609.26708v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:01",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Beyond Repeated Sampling: Learning Search Policies for LLM Reasoning",
+   "u": "https://arxiv.org/abs/2609.26704v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:56",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Measuring the Serving Stack Instead of the Model: Hidden Confounds in Local Tool-Use Evaluation",
+   "u": "https://arxiv.org/abs/2609.26693v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:48",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "From Alignment to Access Control: A Framework for GenAI Policy Enforcement",
+   "u": "https://arxiv.org/abs/2609.26682v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:40",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "A Spectral Theory of Grokking: Weight Decay induces Feature Learning",
+   "u": "https://arxiv.org/abs/2609.26679v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:38",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "The Delegation Blind Spot: Auditing Product Decisions from Agent Choices",
+   "u": "https://arxiv.org/abs/2609.26642v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:15",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models",
+   "u": "https://arxiv.org/abs/2609.26637v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:10",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Greedy Decoding Is Not Precision-Invariant: Cross-Precision Output Divergence in LLM Inference",
+   "u": "https://arxiv.org/abs/2609.26621v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "15:54",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "rasbt/LLMs-from-scratch：一步步用 PyTorch 从零实现类 ChatGPT 模型",
+   "u": "https://github.com/rasbt/LLMs-from-scratch",
+   "s": "外网新声·GitHub 新星",
+   "d": "13:58",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "OMatG-flash：具有增强伴随匹配的全原流图，用于可扩展材料发现",
+   "u": "https://arxiv.org/abs/2609.26402v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "13:36",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "扩散模型中的双重下降和恶性过拟合",
+   "u": "https://arxiv.org/abs/2609.26392v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "13:30",
+   "k": "",
+   "x": ""
+  }
+ ]
+}
