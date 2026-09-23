@@ -1,27 +1,22 @@
 {
  "日期": "2026-09-24",
- "落盘": "2026-09-24 00:27:11",
+ "落盘": "2026-09-24 00:33:57",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "每个人都通过llms.txt热闹地提示注入人工智能，而你没有",
+   "url": "https://installmap.com/research/llms-txt-ai-instructions",
+   "type": "live"
+  },
   {
    "title": "问问HN：当人工智能编写我们所有的程序时，软件是否仍然重要？",
    "url": "https://news.ycombinator.com/item?id=49818484",
    "type": "live"
   },
   {
-   "title": "用于去识别和合成的LLM基准",
-   "url": "https://huggingface.co/datasets/TonicAI/Privacy-Bench",
-   "type": "live"
-  },
-  {
    "title": "Meta为其新的个人智能体Muse测试“人类礼宾服务”",
    "url": "https://www.reuters.com/business/meta-testing-human-concierge-its-new-personal-ai-agent-muse-2026-09-22/",
-   "type": "live"
-  },
-  {
-   "title": "Show HN：PicoLM v1.0-rc2 （ “Yura Kana” ）。在Digital Unix上运行LLM",
-   "url": "https://github.com/whoreson/picolm/",
    "type": "live"
   },
   {
@@ -35,13 +30,18 @@
    "type": "live"
   },
   {
-   "title": "AMD-AGI/HyperLoom -自动优化AMD GPU上LLM工作负载的Agentic系统",
-   "url": "https://github.com/AMD-AGI/Hyperloom",
+   "title": "亚马逊向外部智能体开放其卖家工具，从Anthropic开始",
+   "url": "https://www.geekwire.com/2026/amazon-opens-its-seller-tools-to-outside-ai-agents-starting-with-anthropics-claude/",
    "type": "live"
   },
   {
-   "title": "亚马逊向外部智能体开放其卖家工具，从Anthropic开始",
-   "url": "https://www.geekwire.com/2026/amazon-opens-its-seller-tools-to-outside-ai-agents-starting-with-anthropics-claude/",
+   "title": "步骤代码：围绕步骤5预览构建的MIT许可编码代理CLI",
+   "url": "https://github.com/stepfun-ai/Step-Code",
+   "type": "live"
+  },
+  {
+   "title": "适用于Grok Bot和Muse的代理Cookie同步",
+   "url": "https://club.reinventing.ai/cookie-sync",
    "type": "live"
   },
   {
@@ -60,6 +60,11 @@
    "type": "article"
   },
   {
+   "title": "阴阳与反馈环",
+   "url": "a/note-20260924-3.html",
+   "type": "article"
+  },
+  {
    "title": "今日辑要 · 2026-09-23（前沿 12 条）",
    "url": "a/digest-20260923.html",
    "type": "article"
@@ -67,11 +72,6 @@
   {
    "title": "自治系统的\"慢变量\"",
    "url": "a/note-20260923-1.html",
-   "type": "article"
-  },
-  {
-   "title": "关于\"记忆\"的三种用法",
-   "url": "a/note-20260923-2.html",
    "type": "article"
   }
  ]
