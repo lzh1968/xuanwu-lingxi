@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0d1117">
+<title>玄武灵犀 · 手机可达自测</title>
+<style>
+ body{margin:0;background:#0d1117;color:#e6edf3;font:15px/1.7 -apple-system,system-ui,"PingFang SC",sans-serif;padding:18px}
+ h1{font-size:18px;margin:6px 0 4px}
+ .sub{color:#8b949e;font-size:12px;margin-bottom:14px}
+ .row{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:12px 14px;margin:10px 0;display:flex;justify-content:space-between;align-items:center;gap:10px}
+ .nm{font-size:14px}
+ .st{font-weight:800;font-size:14px;white-space:nowrap}
+ .yk{color:#d29922}.ok{color:#3fb950}.no{color:#f85149}
+ code{color:#8b949e;font-size:11px;word-break:break-all}
+ .tip{margin-top:16px;font-size:13px;color:#8b949e;border-top:1px solid #30363d;padding-top:12px}
+</style></head><body>
+<h1>🐉 玄武灵犀 · 手机可达自测</h1>
+<div class="sub">本页在你手机上逐条探测线路；<b>绿=通</b> <b>红=不通</b> <b>黄=探测中</b></div>
+<div id="list"></div>
+<div class="tip">判读：<br>· 若「Cloudflare 探针」也红 → 你这台手机/运营商<b>连不上 Cloudflare</b>（你方网络层）<br>· 若资讯站绿、管理系统红 → 仅<b>管理系统线路</b>被运营商挡（需换固定域名）</div>
+<script>
+var L=[{"name": "管理系统·随机隧道(本机备线)", "url": "https://arrangement-manner-piece-electricity.trycloudflare.com/m.html"}, {"name": "资讯站·首页(GitHub Pages)", "url": "https://xuanwulingxi.top/"}, {"name": "Cloudflare 探针", "url": "https://www.cloudflare.com/cdn-cgi/trace"}, {"name": "DNS 解析测试(1.1.1.1)", "url": "https://one.one.one.one/"}];
+var box=document.getElementById('list');
+L.forEach(function(o){
+  var d=document.createElement('div');d.className='row';
+  d.innerHTML='<div><div class="nm">'+o.name+'</div><code>'+o.url+'</code></div><div class="st yk">探测中…</div>';
+  box.appendChild(d);
+  var st=d.querySelector('.st');
+  var t0=Date.now();
+  fetch(o.url,{mode:'no-cors',cache:'no-store'}).then(function(){
+    var ms=Date.now()-t0;
+    st.className='st ok';st.textContent='✅ 通 '+ms+'ms';
+  }).catch(function(){
+    st.className='st no';st.textContent='❌ 不通';
+  });
+});
+</script>
+<div style="margin-top:14px;font-size:12px;color:#8b949e">更新于 2026-09-23 20:51:03</div>
+</body></html>
