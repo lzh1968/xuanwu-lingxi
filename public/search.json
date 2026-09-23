@@ -1,6 +1,6 @@
 {
- "built": "2026-09-24 00:19:18",
- "count": 49,
+ "built": "2026-09-24 00:27:06",
+ "count": 55,
  "items": [
   {
    "t": "今日辑要 · 2026-09-24（前沿 12 条）",
@@ -17,6 +17,14 @@
    "d": "2026-09-24",
    "k": "手记,方法论",
    "x": "在自治系统里，最难的从来不是把动作写对，而是判断 该不该动 。 快变量是价格、是情绪、是每一根K线；慢变量是结构、是约束、是系统的边界条件。只盯快变量的系统，会把噪声当信号；只认慢变量的系统，又会在真实拐点前迟钝。 工程上的折中是分层的：外层用慢变量定\"能不能做\"，内层用快变量定\"此刻怎么做\"。两层之间用一条极窄的通道传递许可，而不是把两套逻辑搅在一起。 这也是为什么 固定底线 在自动化里如此重要：它不由任何一次判断决定，因此也不会被任何一次判断推翻。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "关于\"记忆\"的三种用法",
+   "u": "a/note-20260924-2.html",
+   "s": "Agent 与智能体",
+   "d": "2026-09-24",
+   "k": "手记,方法论",
+   "x": "智能体的记忆常被误解为\"存得越多越聪明\"。工程上更接近事实的是三种不同用途： 事实记忆 ：发生了什么（可核对、可追溯、可审计） 策略记忆 ：什么条件下做了什么、结果如何（用于校准，不用于信仰） 身份记忆 ：我是谁、我受什么约束（最稳定，最少改动） 把三者混在一个容器里，就会得到\"记得很牢却用不对\"的系统：把偶然当规律，把经验当身份。拆开的代价是结构更复杂；收益是每类记忆可以有自己的过期与校验规则。 一句话： 记忆的价值不在容量，而在校验方式。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "今日辑要 · 2026-09-23（前沿 12 条）",
@@ -115,6 +123,22 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "问问HN：当人工智能编写我们所有的程序时，软件是否仍然重要？",
+   "u": "https://news.ycombinator.com/item?id=49818484",
+   "s": "外网新声·Hacker News",
+   "d": "00:24",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "用于去识别和合成的LLM基准",
+   "u": "https://huggingface.co/datasets/TonicAI/Privacy-Bench",
+   "s": "外网新声·Hacker News",
+   "d": "00:17",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Meta为其新的个人智能体Muse测试“人类礼宾服务”",
    "u": "https://www.reuters.com/business/meta-testing-human-concierge-its-new-personal-ai-agent-muse-2026-09-22/",
    "s": "外网新声·Hacker News",
@@ -155,15 +179,7 @@
    "x": ""
   },
   {
-   "t": "Show HN: Open Code for Jev",
-   "u": "https://github.com/backant-io/jevelry",
-   "s": "外网新声·Hacker News",
-   "d": "23:25",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Amazon opens its seller tools to outside AI agents, starting with Anthropic",
+   "t": "亚马逊向外部智能体开放其卖家工具，从Anthropic开始",
    "u": "https://www.geekwire.com/2026/amazon-opens-its-seller-tools-to-outside-ai-agents-starting-with-anthropics-claude/",
    "s": "外网新声·Hacker News",
    "d": "23:20",
@@ -171,7 +187,7 @@
    "x": ""
   },
   {
-   "t": "Step Code: MIT-licensed coding agent CLI built around Step 5 Preview",
+   "t": "步骤代码：围绕步骤5预览构建的MIT许可编码代理CLI",
    "u": "https://github.com/stepfun-ai/Step-Code",
    "s": "外网新声·Hacker News",
    "d": "23:12",
@@ -179,15 +195,7 @@
    "x": ""
   },
   {
-   "t": "Show HN: I Built a GIF Decider with Jev",
-   "u": "https://gifdecider.com/",
-   "s": "外网新声·Hacker News",
-   "d": "23:10",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Agent Cookie Sync for Grok Bot and Muse",
+   "t": "适用于Grok Bot和Muse的代理Cookie同步",
    "u": "https://club.reinventing.ai/cookie-sync",
    "s": "外网新声·Hacker News",
    "d": "23:10",
@@ -203,18 +211,82 @@
    "x": ""
   },
   {
-   "t": "Meta's New AI Agent Is an Instant Hit–and the Backlash Has Begun",
-   "u": "https://www.wsj.com/tech/ai/meta-ai-agent-muse-reactions-5bf236af",
-   "s": "外网新声·Hacker News",
-   "d": "22:36",
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:25",
    "k": "",
    "x": ""
   },
   {
-   "t": "Advancing Private AI Compute with secure, server-side memory",
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:24",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:20",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "使用安全的服务器端内存推进专用AI计算",
    "u": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
    "s": "外网新声·DeepMind 官方",
    "d": "16:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
+   "s": "外网新声·GitHub 新星",
+   "d": "15:41",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "u": "https://github.com/Dao-AILab/flash-attention",
+   "s": "外网新声·GitHub 新星",
+   "d": "08:20",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
+   "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+   "s": "外网新声·GitHub 新星",
+   "d": "05:24",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
+   "u": "https://github.com/affaan-m/ECC",
+   "s": "外网新声·GitHub 新星",
+   "d": "23:09",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ScopeTrail：为「多跳智能体委派」生成可审计回执",
+   "u": "https://github.com/scopetrail/scopetrail",
+   "s": "外网新声·Hacker News",
+   "d": "21:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "obra/superpowers —有效的代理技能框架和软件开发方法。",
+   "u": "https://github.com/obra/superpowers",
+   "s": "外网新声·GitHub 新星",
+   "d": "18:22",
    "k": "",
    "x": ""
   },
@@ -259,10 +331,26 @@
    "x": ""
   },
   {
+   "t": "EquivSVA：经过正式验证的等效RTL实施的行为断言数据集",
+   "u": "https://arxiv.org/abs/2609.26751v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:33",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "基于LLM的代码漏洞修复中的指标失败：实证研究和变更感知屏幕",
    "u": "https://arxiv.org/abs/2609.26749v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:32",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Diffusion-Induced Spatial Attention Overlapping Community Detection",
+   "u": "https://arxiv.org/abs/2609.26737v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:25",
    "k": "",
    "x": ""
   },
@@ -299,6 +387,14 @@
    "x": ""
   },
   {
+   "t": "Optimal Sequential Annotations for Off-Policy Evaluation",
+   "u": "https://arxiv.org/abs/2609.26707v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:00",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Beyond Repeated Sampling: Learning Search Policies for LLM Reasoning",
    "u": "https://arxiv.org/abs/2609.26704v1",
    "s": "外网新声·arXiv cs.AI",
@@ -331,66 +427,18 @@
    "x": ""
   },
   {
-   "t": "The Delegation Blind Spot: Auditing Product Decisions from Agent Choices",
-   "u": "https://arxiv.org/abs/2609.26642v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:15",
+   "t": "MAGIC: Mixed-Granularity Agent Graphs via Incremental Construction with Dense-Reward Reinforcement Learning",
+   "u": "https://arxiv.org/abs/2609.26667v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:27",
    "k": "",
    "x": ""
   },
   {
-   "t": "Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models",
-   "u": "https://arxiv.org/abs/2609.26637v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:10",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Greedy Decoding Is Not Precision-Invariant: Cross-Precision Output Divergence in LLM Inference",
-   "u": "https://arxiv.org/abs/2609.26621v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "15:54",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "人工智能万亿美元赌博的风险是什么",
-   "u": "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "10:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Introducing agentic video understanding with Gemini",
-   "u": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "17:08",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Piloting the world's first double-blind AI evaluations",
-   "u": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "12:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
-   "u": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "15:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Gemini Robotics 2 brings whole body intelligence to robots",
-   "u": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "13:21",
+   "t": "Discovery-Driven Integration of Disjoint Tables via Text",
+   "u": "https://arxiv.org/abs/2609.26658v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:22",
    "k": "",
    "x": ""
   }
