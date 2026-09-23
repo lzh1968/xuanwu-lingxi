@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>硬盘 · 隔离封存（口令）</title>
+<style>
+body{background:#0b0f14;color:#dfe7ef;font:15px/1.75 -apple-system,system-ui,"PingFang SC",sans-serif;margin:0;padding:18px}
+h1{font-size:18px;margin:0 0 6px}a{color:#7fd1ff;text-decoration:none}
+.dim{color:#7d8ea0;font-size:13px}
+input{width:100%;box-sizing:border-box;padding:11px;border-radius:9px;border:1px solid #24313f;background:#0f1620;color:#e7eef6;font-size:15px;margin:10px 0}
+button{width:100%;padding:12px;border:0;border-radius:9px;background:#1f6feb;color:#fff;font-size:15px}
+code{background:#131c26;padding:1px 5px;border-radius:4px}
+.card{border:1px solid #1f2a36;border-radius:11px;padding:13px;margin:12px 0;background:#0e141c}
+.ok{color:#57d38c}.bad{color:#ff7b72}
+pre{white-space:pre-wrap;word-break:break-all;font-size:12px;color:#9fb3c8;max-height:220px;overflow:auto}
+</style></head><body>
+<h1>🔐 硬盘 · 隔离封存</h1>
+<p class="dim">网关产生的内存（会话 / 记忆 / 运行档案）全文 + 原登科榜·老面板源码封存<br>
+密文上站，<b>口令方能解</b>；算法 PBKDF2-SHA256 60 万轮 → AES-256-GCM（浏览器就地解密，钥匙不出本机）</p>
+<div class="card" id="info">读取密包…</div>
+<input id="pw" type="password" placeholder="输入口令" autocomplete="current-password">
+<button id="go">解密</button>
+<div id="out"></div>
+<p class="dim" style="margin-top:14px"><a href="../">← 回硬盘首页</a> · <a href="清单.json">封存清册(公开)</a></p>
+<script>
+var AADB='lx-portal-v1|';
+function b64(s){var b=atob(s),a=new Uint8Array(b.length);for(var i=0;i<b.length;i++)a[i]=b.charCodeAt(i);return a}
+function enc(s){return new TextEncoder().encode(s)}
+function cat(a,b){var c=new Uint8Array(a.length+b.length);c.set(a);c.set(b,a.length);return c}
+function tryOpen(pkg,pw){
+  var i=0;
+  function step(){
+    if(i>=pkg.members.length) return Promise.resolve(null);
+    var m=pkg.members[i++];
+    return crypto.subtle.importKey('raw',enc(pw),'PBKDF2',false,['deriveKey'])
+      .then(function(base){return crypto.subtle.deriveKey({name:'PBKDF2',salt:b64(m.salt),iterations:(m.iters||600000),hash:'SHA-256'},
+        base,{name:'AES-GCM',length:256},false,['decrypt'])})
+      .then(function(k){return crypto.subtle.decrypt({name:'AES-GCM',iv:b64(m.iv),additionalData:enc(AADB+m.id)},k,cat(b64(m.ct),b64(m.tag)))})
+      .then(function(pt){return {id:m.id,name:m.name,buf:pt}})
+      .catch(function(){return step()});
+  }
+  return step();
+}
+function gunzip(u8){
+  if(typeof DecompressionStream==='undefined') return Promise.resolve(null);
+  var ds=new DecompressionStream('gzip'), s=new Blob([u8]).stream().pipeThrough(ds);
+  return new Response(s).arrayBuffer().then(function(ab){return new TextDecoder().decode(ab)});
+}
+fetch('会话密包.json',{cache:'no-store'}).then(function(r){return r.json()}).then(function(pkg){
+  window._pkg=pkg;
+  document.getElementById('info').innerHTML='密包日期 '+pkg.生成+' · 密文 '+((JSON.stringify(pkg).length/1048576).toFixed(2))+'MB · 会员 '+pkg.members.length+'<br>'+
+    '<span class="dim">明文: 会话 '+((pkg.明文||{}).会话档数||'?')+' 档 · 记忆 '+((pkg.明文||{}).记忆档数||'?')+' 档 · 压缩后 '+((pkg.明文||{}).压缩后||'?')+'</span>';
+}).catch(function(){document.getElementById('info').innerHTML='<span class="bad">密包尚未生成</span>'});
+document.getElementById('go').addEventListener('click',function(){
+  var pw=document.getElementById('pw').value; if(!pw) return;
+  var o=document.getElementById('out'); o.innerHTML='<p class="dim">解密中…</p>';
+  tryOpen(window._pkg,pw).then(function(hit){
+    if(!hit){o.innerHTML='<p class="bad">口令不对（或密包损坏）</p>';return}
+    return gunzip(new Uint8Array(hit.buf)).then(function(txt){
+      if(txt===null){o.innerHTML='<p class="bad">本浏览器不支持解压，请用电脑/新版浏览器</p>';return}
+      var j=JSON.parse(txt);
+      var names=Object.keys(j.会话||{}), mem=Object.keys(j.记忆||{});
+      var dl=new Blob([txt],{type:'application/json'});
+      o.innerHTML='<div class="card"><b class="ok">✅ 解开了（'+(hit.name||hit.id)+'）</b><br>生成 '+j.生成+' · 会话 '+names.length+' 档（合计 '+(j.会话合计||'')+'）· 记忆 '+mem.length+' 档'+
+        '<p><a href="'+URL.createObjectURL(dl)+'" download="玄武灵犀_封存_'+j.生成.replace(/[^0-9]/g,'')+'.json">⬇️ 下载完整明文(JSON)</a></p>'+
+        '<p class="dim">会话档: '+names.join(' · ')+'</p></div>';
+    });
+  }).catch(function(e){o.innerHTML='<p class="bad">出错: '+e+'</p>'});
+});
+</script></body></html>
