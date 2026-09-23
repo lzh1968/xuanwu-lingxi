@@ -1,9 +1,17 @@
 {
- "generated": "03:40",
- "built": "2026-09-24 03:40:13",
+ "generated": "03:46",
+ "built": "2026-09-24 03:46:09",
  "count": 17,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN: AgentRun: DSL以将客服代表转换为工作流",
+   "url": "https://github.com/Parcha-ai/agentrun",
+   "src": "Hacker News",
+   "t": "03:42",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "问问HN：你是将你的编码转交给人工智能，还是让你的技能保持敏锐？",
@@ -26,7 +34,7 @@
    "url": "https://www.lesswrong.com/posts/xvdngZAqFZfek7KGH/pretraining-data-not-verifiability-is-why-llms-are",
    "src": "Hacker News",
    "t": "02:10",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -56,14 +64,6 @@
    "type": "live",
    "title": "ApprenticeBench：智能体可以端到端地学习真正的工作吗？",
    "url": "https://neocognition.io/blog/apprentice-bench",
-   "src": "Hacker News",
-   "t": "01:47",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "人工智能研究智能体的递归自我提升",
-   "url": "https://arxiv.org/abs/2609.26457",
    "src": "Hacker News",
    "t": "01:47",
    "fresh": false
