@@ -1,17 +1,32 @@
 {
  "日期": "2026-09-24",
- "落盘": "2026-09-24 00:33:57",
+ "落盘": "2026-09-24 00:40:39",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "Ringg的AI 智能体通过OpenAI解决高达65%的客户呼叫",
+   "url": "https://openai.com/index/ringg",
+   "type": "live"
+  },
   {
    "title": "每个人都通过llms.txt热闹地提示注入人工智能，而你没有",
    "url": "https://installmap.com/research/llms-txt-ai-instructions",
    "type": "live"
   },
   {
+   "title": "VLLM中的硬件无关模型",
+   "url": "https://pytorch.org/blog/hardware-agnostic-models-in-vllm/",
+   "type": "live"
+  },
+  {
    "title": "问问HN：当人工智能编写我们所有的程序时，软件是否仍然重要？",
    "url": "https://news.ycombinator.com/item?id=49818484",
+   "type": "live"
+  },
+  {
+   "title": "用于去识别和合成的LLM基准",
+   "url": "https://huggingface.co/datasets/TonicAI/Privacy-Bench",
    "type": "live"
   },
   {
@@ -27,21 +42,6 @@
   {
    "title": "LIGHTSPEED：Temporal的确定性代理线束（ Rust ）",
    "url": "https://github.com/smartcomputer-ai/lightspeed",
-   "type": "live"
-  },
-  {
-   "title": "亚马逊向外部智能体开放其卖家工具，从Anthropic开始",
-   "url": "https://www.geekwire.com/2026/amazon-opens-its-seller-tools-to-outside-ai-agents-starting-with-anthropics-claude/",
-   "type": "live"
-  },
-  {
-   "title": "步骤代码：围绕步骤5预览构建的MIT许可编码代理CLI",
-   "url": "https://github.com/stepfun-ai/Step-Code",
-   "type": "live"
-  },
-  {
-   "title": "适用于Grok Bot和Muse的代理Cookie同步",
-   "url": "https://club.reinventing.ai/cookie-sync",
    "type": "live"
   },
   {
@@ -65,13 +65,13 @@
    "type": "article"
   },
   {
-   "title": "今日辑要 · 2026-09-23（前沿 12 条）",
-   "url": "a/digest-20260923.html",
+   "title": "链上机制的可读性",
+   "url": "a/note-20260924-4.html",
    "type": "article"
   },
   {
-   "title": "自治系统的\"慢变量\"",
-   "url": "a/note-20260923-1.html",
+   "title": "今日辑要 · 2026-09-23（前沿 12 条）",
+   "url": "a/digest-20260923.html",
    "type": "article"
   }
  ]
