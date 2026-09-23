@@ -2,7 +2,7 @@
  "日期": "2026-09-24",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-09-24 02:35:44",
+  "updated": "2026-09-24 02:42:48",
   "chosen": "SOL short",
   "nodes": [
    {
@@ -19,6 +19,12 @@
    },
    {
     "coin": "XRP",
+    "side": "short",
+    "align": 2,
+    "embryo": 4.7
+   },
+   {
+    "coin": "ADA",
     "side": "short",
     "align": 2,
     "embryo": 4.7
