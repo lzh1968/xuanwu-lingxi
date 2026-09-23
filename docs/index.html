@@ -1,208 +1,63 @@
 <!doctype html>
-<html lang="zh-CN" data-theme="dark">
+<html lang="zh-CN">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#0c0e13">
-<title>玄武灵犀 · 观天下</title>
-<meta name="description" content="AI 智能体 · 链上机制 · 华夏哲学 · 数字经济的研究与交流">
-<link rel="stylesheet" href="style.css">
+<meta name="theme-color" content="#0b0f14">
+<title>玄武灵犀 · 入口</title>
+<meta name="description" content="玄武灵犀固定入口：管理台 · 实况 · 读本 · 硬盘">
+<style>
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{margin:0;padding:18px 14px 40px;background:#0b0f14;color:#e8eef6;
+  font:16px/1.6 -apple-system,system-ui,"PingFang SC","Noto Sans SC",sans-serif}
+h1{font-size:22px;margin:0 0 4px;letter-spacing:1px}
+.sub{color:#8fa3b8;font-size:13px;margin-bottom:16px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:16px}
+a.big{display:block;padding:16px 14px;border-radius:14px;background:#131c26;border:1px solid #1e2a36;
+  color:#e8eef6;text-decoration:none}
+a.big b{display:block;font-size:17px;margin-bottom:4px}
+a.big span{color:#8fa3b8;font-size:12px}
+a.big:active{background:#182534}
+.card{background:#111823;border:1px solid #1e2a36;border-radius:14px;padding:13px;margin-bottom:14px}
+.gt{color:#8fa3b8;font-size:13px;margin-bottom:8px;letter-spacing:.5px}
+.row{display:flex;justify-content:space-between;gap:10px;padding:6px 0;border-bottom:1px dashed #1a2431;font-size:14px}
+.row:last-child{border-bottom:0}
+.k{color:#8fa3b8}.v{text-align:right;word-break:break-all}
+.qr{background:#fff;border-radius:10px;padding:6px;display:inline-block;margin:6px 12px 0 0;line-height:0}
+.qr svg{width:148px;height:148px}
+.qrlab{font-size:12px;color:#8fa3b8;text-align:center;margin-top:4px}
+.two{display:flex;flex-wrap:wrap}
+.foot{color:#6f8194;font-size:12px;margin-top:18px;line-height:1.7}
+.foot a{color:#7fd1ff;text-decoration:none}
+</style>
 </head>
 <body>
-<div class="pbar" id="pbar"></div>
-<header><div class="wrap hd">
-  <a class="logo" id="branddoor" href="gate/?v=2609231303" title=""><b>玄武灵犀</b></a>
-  <nav class="nav"><a href="#ai">🌐 AI 全球趋势</a><a href="#agent">🤖 Agent 与智能体</a><a href="#web3">⛓ Web3 · 链上世界</a><a href="#dao">🏛 DAO 与自治组织</a><a href="#philo">☯ 华夏哲学 · 阴阳五行</a><a href="#econ">💹 数字经济全球化</a><a href="#notes">📓 灵犀手记</a><a href="disk/" title="硬盘·数据归档">💽 硬盘</a><i class="ldots" id="ldots" title="">⋯</i><a class="door2" id="navdoor" href="gate/?v=2609231303" title="">門</a></nav>
-  <button class="tbtn" id="sbtn" title="搜索">🔍</button>
-  <button class="tbtn" id="theme">☾/☀</button>
-</div></header>
-<div class="wrap">
-<div class="hero">
-<h1>玄武灵犀 · 观天下</h1>
-<div class="motto">研究 · 探索 · 交流 —— 关于智能体研发、链上机制与东方思维的读本</div>
-<div class="meta"><span><i class="dot"></i>内容站运行中</span><span>现在 <b id="clk">--:--:--</b></span><span>本页更新 <b id="upd">15:45</b></span><span>本刊 <b>12</b> 篇 · 外网新声 <b>60</b> 条</span></div>
+<h1>玄武灵犀 · 入口</h1>
+<div class="sub">固定入口 —— 手机常走的路都在这页 · 电脑用同一地址</div>
+
+<div class="grid">
+  <a class="big" href="http://127.0.0.1:8094/"><b>🖥 管理台</b><span>本机直连 · 权益/持仓/进程</span></a>
+  <a class="big" href="live/"><b>📈 实况</b><span>本站只读快照</span></a>
+  <a class="big" href="read/"><b>📖 读本</b><span>观天下 · 文章与快讯</span></a>
+  <a class="big" href="disk/"><b>💽 硬盘</b><span>归档 · 网关 · 封存</span></a>
 </div>
-<div class="tape"><h3>⚡ 最近更新 · 每 60 秒自动刷新</h3><ul id="feed"><li><time>15:45</time><a href="#">加载中…</a></li></ul></div>
-<section class="sec" id="ai">
-<h2>🌐 AI 全球趋势</h2><p class="sdesc">模型、算力、产业与监管的风向</p><div class="rule"></div>
-<a class="card" href="a/ai-next-decade.html"><h3>算力之后：什么在决定 AI 的下一个十年</h3><p>参数规模的红利在收窄。真正拉开差距的，正从"训练得多大"转向"推理得多省、数据多干净、系统多可控"。</p><div class="row"><span>2026-09-22</span><span>AI 全球趋势</span><span>约 2 分钟</span><span class="tag">算力</span><span class="tag">推理</span><span class="tag">监管</span><span class="tag">能源</span></div></a>
-</section>
-<section class="sec" id="agent">
-<h2>🤖 Agent 与智能体</h2><p class="sdesc">多智能体 · 自治规划 · 工具与记忆</p><div class="rule"></div>
-<a class="card" href="a/agent-leaps.html"><h3>从工具调用到自治：智能体的四次跃迁</h3><p>智能体不是"更聪明的聊天机器人"。它经历四次跃迁：会用工具、会规划、会记忆、会协作——每一次都改变系统的架构形态。</p><div class="row"><span>2026-09-22</span><span>Agent 与智能体</span><span>约 3 分钟</span><span class="tag">多智能体</span><span class="tag">规划</span><span class="tag">记忆</span><span class="tag">自治</span></div></a>
-<a class="card" href="a/digest-20260923.html"><h3>今日辑要 · 2026-09-23（前沿 12 条）</h3><p>当日采集条目的分方向汇编：保留来源与链接，只作机制与线索观察。</p><div class="row"><span>2026-09-23</span><span>Agent 与智能体</span><span>约 5 分钟</span><span class="tag">辑要</span><span class="tag">每日</span><span class="tag">前沿</span></div></a>
-<a class="card" href="a/note-20260923-2.html"><h3>关于"记忆"的三种用法</h3><p>智能体的记忆常被误解为"存得越多越聪明"。工程上更接近事实的是三种不同用途：</p><div class="row"><span>2026-09-23</span><span>Agent 与智能体</span><span>约 2 分钟</span><span class="tag">手记</span><span class="tag">方法论</span></div></a>
-</section>
-<section class="sec" id="web3">
-<h2>⛓ Web3 · 链上世界</h2><p class="sdesc">从机制与工程的角度看链</p><div class="rule"></div>
-<a class="card" href="a/chain-trust.html"><h3>链上世界的三种信任工程</h3><p>链上系统不产生信任，它只是把信任换成了三种可计算的工程：密码学的证明、共识的代价、激励的约束。看懂这三样，比记住任何项目名字都有用。</p><div class="row"><span>2026-09-22</span><span>Web3 · 链上世界</span><span>约 2 分钟</span><span class="tag">密码学</span><span class="tag">共识</span><span class="tag">激励</span><span class="tag">机制设计</span></div></a>
-<a class="card" href="a/note-20260923-4.html"><h3>链上机制的可读性</h3><p>评价一条链上机制，可以先问三个可读性问题：</p><div class="row"><span>2026-09-23</span><span>Web3 · 链上世界</span><span>约 2 分钟</span><span class="tag">手记</span><span class="tag">方法论</span></div></a>
-</section>
-<section class="sec" id="dao">
-<h2>🏛 DAO 与自治组织</h2><p class="sdesc">治理、激励与决策机制的研究</p><div class="rule"></div>
-<a class="card" href="a/dao-governance.html"><h3>DAO 的治理困境：投票率、代理与"火印"</h3><p>把决策搬上链并不自动变好。DAO 真正的难题是三个：没人投票、有人代投、以及"谁能否决"。这是我们自己实践过的一套解法。</p><div class="row"><span>2026-09-22</span><span>DAO 与自治组织</span><span>约 3 分钟</span><span class="tag">治理</span><span class="tag">加权投票</span><span class="tag">否决权</span><span class="tag">制衡</span></div></a>
-</section>
-<section class="sec" id="philo">
-<h2>☯ 华夏哲学 · 阴阳五行</h2><p class="sdesc">东方思维与系统论的对话</p><div class="rule"></div>
-<a class="card" href="a/note-20260923-3.html"><h3>阴阳与反馈环</h3><p>把阴阳放进控制系统里看，它更像一对**符号相反的反馈环**：一个负责扩张，一个负责收敛。</p><div class="row"><span>2026-09-23</span><span>华夏哲学 · 阴阳五行</span><span>约 2 分钟</span><span class="tag">手记</span><span class="tag">方法论</span></div></a>
-<a class="card" href="a/yinyang-risk.html"><h3>阴阳消长与顺势之道：风控的东方表达</h3><p>阴阳不是玄学，它是一套关于"消长与转化"的语言。把它翻译成工程语言，恰好对应风控里最难的那件事——何时收、何时放。</p><div class="row"><span>2026-09-22</span><span>华夏哲学 · 阴阳五行</span><span>约 3 分钟</span><span class="tag">阴阳</span><span class="tag">五行</span><span class="tag">系统论</span><span class="tag">风控</span></div></a>
-</section>
-<section class="sec" id="econ">
-<h2>💹 数字经济全球化</h2><p class="sdesc">数字贸易 · 支付 · 监管观察</p><div class="rule"></div>
-<a class="card" href="a/digital-economy.html"><h3>数字货币的全球化分歧：三条监管路径</h3><p>同一种技术，在三个法域里长出三套完全不同的制度：内地从严、香港持牌、欧美框架先行。看清差异，是做全球化研究的第一步。</p><div class="row"><span>2026-09-22</span><span>数字经济全球化</span><span>约 2 分钟</span><span class="tag">监管</span><span class="tag">CBDC</span><span class="tag">跨境支付</span><span class="tag">稳定币</span></div></a>
-</section>
-<section class="sec" id="notes">
-<h2>📓 灵犀手记</h2><p class="sdesc">研究笔记与工程札记</p><div class="rule"></div>
-<a class="card" href="a/lingxi-notes-1.html"><h3>灵犀手记·一：我们为什么把纪律写成制度</h3><p>一支多智能体系统最容易死在哪里？答案是"人忘了"。这份手记记录我们把纪律从脑子里搬进制度里的过程。</p><div class="row"><span>2026-09-22</span><span>灵犀手记</span><span>约 2 分钟</span><span class="tag">工程札记</span><span class="tag">制度化</span><span class="tag">复盘</span><span class="tag">存证</span></div></a>
-<a class="card" href="a/note-20260923-1.html"><h3>自治系统的"慢变量"</h3><p>在自治系统里，最难的从来不是把动作写对，而是判断**该不该动**。</p><div class="row"><span>2026-09-23</span><span>灵犀手记</span><span>约 2 分钟</span><span class="tag">手记</span><span class="tag">方法论</span></div></a>
-</section>
-<section class="sec" id="live">
-<h2>📡 外网新声</h2>
-<p class="sdesc">自动采集 · 每 5 分钟刷新 · 共 60 条（已汉化 31 条） · 更新于 15:45 ｜ <a href="live/">查看全部 →</a> ｜ <b>译文为机器翻译，供速览；点开原文为准</b></p>
-<div class="rule"></div><ul class="live mini">
-<li><time>15:33</time><span class="ls">Hacker News</span><span class="lz en">EN</span><a href="https://github.com/nobodywho-ooo/nobodywho" target="_blank" rel="noopener">NobodyWho is an inference engine that lets you run LLMs locally and efficiently</a></li>
-<li><time>15:07</time><span class="ls">Hacker News</span><span class="lz en">EN</span><a href="https://arxiv.org/abs/2609.26457" target="_blank" rel="noopener">Recursive self-improvement of AI research agents</a></li>
-<li><time>14:56</time><span class="ls">Hacker News</span><span class="lz en">EN</span><a href="https://gwern.net/tool-ai" target="_blank" rel="noopener">Why Tool AIs Want to Be Agent AIs</a></li>
-<li><time>14:46</time><span class="ls">Hacker News</span><span class="lz en">EN</span><a href="https://news.ycombinator.com/item?id=49812519" target="_blank" rel="noopener">Jevify skill – Gets your existing agents running on Jev</a></li>
-<li><time>14:25</time><span class="ls">Hacker News</span><span class="lz en">EN</span><a href="https://news.ycombinator.com/item?id=49812392" target="_blank" rel="noopener">Ask HN: Engineers on highly polished products, how are you using agentic coding?</a></li>
-<li><time>14:18</time><span class="ls">Hacker News</span><span class="lz en">EN</span><a href="https://huggingface.co/blog/transformers-llama-cpp-quants" target="_blank" rel="noopener">Transformers now runs llama.cpp quants</a></li>
-</ul>
-<a class="back" href="live/">📡 全部 60 条外网新声 →</a>
-</section></div>
-<div class="sbox" id="sbox" hidden><div class="sinner">
-  <div class="srow"><input id="sinput" type="search" placeholder="搜索本站：标题 / 摘要 / 正文…" autocomplete="off"><button id="sclose" title="关闭">✕</button></div>
-  <div class="shint" id="shint">输入关键词即可检索全部文章（本地检索 · 不联网）</div>
-  <ul id="sres"></ul>
-</div></div>
-<footer><div class="wrap">
-  <a class="door" href="gate/?v=2609231303" title="内部">門</a>
-  <div class="disc">本站为<b>技术研究与思想交流</b>之用：探讨人工智能、多智能体系统、链上机制与数字经济。
-  所有内容<b>不构成任何投资建议</b>，本站不提供任何交易服务，亦不从事任何形式的荐股、荐币或代客理财。</div>
-  <div class="btns">
-    <button id="sizer">字号 · <span id="szname">标准</span></button>
-    <button id="speak">🔊 朗读全文</button>
-    <button id="top">↑ 回到顶部</button>
+
+<div class="card">
+  <div class="gt">🧭 三条路（换设备/换网络时）</div>
+  <div class="row"><span class="k">本机台（手机上看）</span><span class="v">http://127.0.0.1:8094/</span></div>
+  <div class="row"><span class="k">对外网站</span><span class="v">https://xuanwulingxi.top</span></div>
+  <div class="row"><span class="k">本页更新</span><span class="v">2026-09-23 15:46</span></div>
+  <div class="two">
+    <div><div class="qr"><?xml version='1.0' encoding='UTF-8'?>
+<svg width="16.2mm" height="16.2mm" version="1.1" viewBox="0 0 16.2 16.2" xmlns="http://www.w3.org/2000/svg"><path d="M0.6,0.6H1.2V1.2H0.6zM1.2,0.6H1.8V1.2H1.2zM1.8,0.6H2.4V1.2H1.8zM2.4,0.6H3V1.2H2.4zM3,0.6H3.6V1.2H3zM3.6,0.6H4.2V1.2H3.6zM4.2,0.6H4.8V1.2H4.2zM5.4,0.6H6V1.2H5.4zM6,0.6H6.6V1.2H6zM7.2,0.6H7.8V1.2H7.2zM10.2,0.6H10.8V1.2H10.2zM11.4,0.6H12V1.2H11.4zM12,0.6H12.6V1.2H12zM12.6,0.6H13.2V1.2H12.6zM13.2,0.6H13.8V1.2H13.2zM13.8,0.6H14.4V1.2H13.8zM14.4,0.6H15V1.2H14.4zM15,0.6H15.6V1.2H15zM0.6,1.2H1.2V1.8H0.6zM4.2,1.2H4.8V1.8H4.2zM5.4,1.2H6V1.8H5.4zM6,1.2H6.6V1.8H6zM7.2,1.2H7.8V1.8H7.2zM7.8,1.2H8.4V1.8H7.8zM8.4,1.2H9V1.8H8.4zM9,1.2H9.6V1.8H9zM11.4,1.2H12V1.8H11.4zM15,1.2H15.6V1.8H15zM0.6,1.8H1.2V2.4H0.6zM1.8,1.8H2.4V2.4H1.8zM2.4,1.8H3V2.4H2.4zM3,1.8H3.6V2.4H3zM4.2,1.8H4.8V2.4H4.2zM5.4,1.8H6V2.4H5.4zM6.6,1.8H7.2V2.4H6.6zM7.8,1.8H8.4V2.4H7.8zM8.4,1.8H9V2.4H8.4zM10.2,1.8H10.8V2.4H10.2zM11.4,1.8H12V2.4H11.4zM12.6,1.8H13.2V2.4H12.6zM13.2,1.8H13.8V2.4H13.2zM13.8,1.8H14.4V2.4H13.8zM15,1.8H15.6V2.4H15zM0.6,2.4H1.2V3H0.6zM1.8,2.4H2.4V3H1.8zM2.4,2.4H3V3H2.4zM3,2.4H3.6V3H3zM4.2,2.4H4.8V3H4.2zM6,2.4H6.6V3H6zM6.6,2.4H7.2V3H6.6zM8.4,2.4H9V3H8.4zM9,2.4H9.6V3H9zM9.6,2.4H10.2V3H9.6zM11.4,2.4H12V3H11.4zM12.6,2.4H13.2V3H12.6zM13.2,2.4H13.8V3H13.2zM13.8,2.4H14.4V3H13.8zM15,2.4H15.6V3H15zM0.6,3H1.2V3.6H0.6zM1.8,3H2.4V3.6H1.8zM2.4,3H3V3.6H2.4zM3,3H3.6V3.6H3zM4.2,3H4.8V3.6H4.2zM5.4,3H6V3.6H5.4zM7.8,3H8.4V3.6H7.8zM11.4,3H12V3.6H11.4zM12.6,3H13.2V3.6H12.6zM13.2,3H13.8V3.6H13.2zM13.8,3H14.4V3.6H13.8zM15,3H15.6V3.6H15zM0.6,3.6H1.2V4.2H0.6zM4.2,3.6H4.8V4.2H4.2zM6,3.6H6.6V4.2H6zM7.2,3.6H7.8V4.2H7.2zM11.4,3.6H12V4.2H11.4zM15,3.6H15.6V4.2H15zM0.6,4.2H1.2V4.8H0.6zM1.2,4.2H1.8V4.8H1.2zM1.8,4.2H2.4V4.8H1.8zM2.4,4.2H3V4.8H2.4zM3,4.2H3.6V4.8H3zM3.6,4.2H4.2V4.8H3.6zM4.2,4.2H4.8V4.8H4.2zM5.4,4.2H6V4.8H5.4zM6.6,4.2H7.2V4.8H6.6zM7.8,4.2H8.4V4.8H7.8zM9,4.2H9.6V4.8H9zM10.2,4.2H10.8V4.8H10.2zM11.4,4.2H12V4.8H11.4zM12,4.2H12.6V4.8H12zM12.6,4.2H13.2V4.8H12.6zM13.2,4.2H13.8V4.8H13.2zM13.8,4.2H14.4V4.8H13.8zM14.4,4.2H15V4.8H14.4zM15,4.2H15.6V4.8H15zM7.2,4.8H7.8V5.4H7.2zM7.8,4.8H8.4V5.4H7.8zM8.4,4.8H9V5.4H8.4zM9,4.8H9.6V5.4H9zM0.6,5.4H1.2V6H0.6zM2.4,5.4H3V6H2.4zM3,5.4H3.6V6H3zM3.6,5.4H4.2V6H3.6zM4.2,5.4H4.8V6H4.2zM4.8,5.4H5.4V6H4.8zM5.4,5.4H6V6H5.4zM6.6,5.4H7.2V6H6.6zM7.2,5.4H7.8V6H7.2zM7.8,5.4H8.4V6H7.8zM9.6,5.4H10.2V6H9.6zM10.8,5.4H11.4V6H10.8zM12.6,5.4H13.2V6H12.6zM13.8,5.4H14.4V6H13.8zM14.4,5.4H15V6H14.4zM15,5.4H15.6V6H15zM1.2,6H1.8V6.6H1.2zM2.4,6H3V6.6H2.4zM3,6H3.6V6.6H3zM5.4,6H6V6.6H5.4zM6.6,6H7.2V6.6H6.6zM8.4,6H9V6.6H8.4zM9.6,6H10.2V6.6H9.6zM10.2,6H10.8V6.6H10.2zM10.8,6H11.4V6.6H10.8zM12.6,6H13.2V6.6H12.6zM13.2,6H13.8V6.6H13.2zM13.8,6H14.4V6.6H13.8zM14.4,6H15V6.6H14.4zM1.2,6.6H1.8V7.2H1.2zM1.8,6.6H2.4V7.2H1.8zM2.4,6.6H3V7.2H2.4zM3,6.6H3.6V7.2H3zM3.6,6.6H4.2V7.2H3.6zM4.2,6.6H4.8V7.2H4.2zM4.8,6.6H5.4V7.2H4.8zM5.4,6.6H6V7.2H5.4zM6,6.6H6.6V7.2H6zM6.6,6.6H7.2V7.2H6.6zM7.8,6.6H8.4V7.2H7.8zM9,6.6H9.6V7.2H9zM9.6,6.6H10.2V7.2H9.6zM11.4,6.6H12V7.2H11.4zM13.2,6.6H13.8V7.2H13.2zM15,6.6H15.6V7.2H15zM0.6,7.2H1.2V7.8H0.6zM2.4,7.2H3V7.8H2.4zM3,7.2H3.6V7.8H3zM3.6,7.2H4.2V7.8H3.6zM6,7.2H6.6V7.8H6zM9,7.2H9.6V7.8H9zM9.6,7.2H10.2V7.8H9.6zM13.2,7.2H13.8V7.8H13.2zM13.8,7.2H14.4V7.8H13.8zM14.4,7.2H15V7.8H14.4zM15,7.2H15.6V7.8H15zM0.6,7.8H1.2V8.4H0.6zM1.2,7.8H1.8V8.4H1.2zM3,7.8H3.6V8.4H3zM4.2,7.8H4.8V8.4H4.2zM7.2,7.8H7.8V8.4H7.2zM9,7.8H9.6V8.4H9zM10.2,7.8H10.8V8.4H10.2zM10.8,7.8H11.4V8.4H10.8zM11.4,7.8H12V8.4H11.4zM15,7.8H15.6V8.4H15zM0.6,8.4H1.2V9H0.6zM2.4,8.4H3V9H2.4zM3,8.4H3.6V9H3zM6,8.4H6.6V9H6zM7.8,8.4H8.4V9H7.8zM8.4,8.4H9V9H8.4zM9.6,8.4H10.2V9H9.6zM12,8.4H12.6V9H12zM12.6,8.4H13.2V9H12.6zM14.4,8.4H15V9H14.4zM0.6,9H1.2V9.6H0.6zM1.2,9H1.8V9.6H1.2zM1.8,9H2.4V9.6H1.8zM2.4,9H3V9.6H2.4zM3.6,9H4.2V9.6H3.6zM4.2,9H4.8V9.6H4.2zM5.4,9H6V9.6H5.4zM8.4,9H9V9.6H8.4zM9,9H9.6V9.6H9zM9.6,9H10.2V9.6H9.6zM10.2,9H10.8V9.6H10.2zM10.8,9H11.4V9.6H10.8zM13.2,9H13.8V9.6H13.2zM13.8,9H14.4V9.6H13.8zM14.4,9H15V9.6H14.4zM15,9H15.6V9.6H15zM0.6,9.6H1.2V10.2H0.6zM2.4,9.6H3V10.2H2.4zM3,9.6H3.6V10.2H3zM7.8,9.6H8.4V10.2H7.8zM9,9.6H9.6V10.2H9zM10.2,9.6H10.8V10.2H10.2zM12.6,9.6H13.2V10.2H12.6zM13.8,9.6H14.4V10.2H13.8zM15,9.6H15.6V10.2H15zM0.6,10.2H1.2V10.8H0.6zM3.6,10.2H4.2V10.8H3.6zM4.2,10.2H4.8V10.8H4.2zM5.4,10.2H6V10.8H5.4zM6,10.2H6.6V10.8H6zM7.2,10.2H7.8V10.8H7.2zM7.8,10.2H8.4V10.8H7.8zM8.4,10.2H9V10.8H8.4zM9,10.2H9.6V10.8H9zM9.6,10.2H10.2V10.8H9.6zM10.2,10.2H10.8V10.8H10.2zM10.8,10.2H11.4V10.8H10.8zM11.4,10.2H12V10.8H11.4zM12,10.2H12.6V10.8H12zM12.6,10.2H13.2V10.8H12.6zM13.8,10.2H14.4V10.8H13.8zM14.4,10.2H15V10.8H14.4zM5.4,10.8H6V11.4H5.4zM6,10.8H6.6V11.4H6zM7.2,10.8H7.8V11.4H7.2zM8.4,10.8H9V11.4H8.4zM9.6,10.8H10.2V11.4H9.6zM10.2,10.8H10.8V11.4H10.2zM12.6,10.8H13.2V11.4H12.6zM14.4,10.8H15V11.4H14.4zM0.6,11.4H1.2V12H0.6zM1.2,11.4H1.8V12H1.2zM1.8,11.4H2.4V12H1.8zM2.4,11.4H3V12H2.4zM3,11.4H3.6V12H3zM3.6,11.4H4.2V12H3.6zM4.2,11.4H4.8V12H4.2zM5.4,11.4H6V12H5.4zM6,11.4H6.6V12H6zM7.8,11.4H8.4V12H7.8zM10.2,11.4H10.8V12H10.2zM11.4,11.4H12V12H11.4zM12.6,11.4H13.2V12H12.6zM13.2,11.4H13.8V12H13.2zM15,11.4H15.6V12H15zM0.6,12H1.2V12.6H0.6zM4.2,12H4.8V12.6H4.2zM5.4,12H6V12.6H5.4zM6,12H6.6V12.6H6zM6.6,12H7.2V12.6H6.6zM7.2,12H7.8V12.6H7.2zM8.4,12H9V12.6H8.4zM10.2,12H10.8V12.6H10.2zM12.6,12H13.2V12.6H12.6zM0.6,12.6H1.2V13.2H0.6zM1.8,12.6H2.4V13.2H1.8zM2.4,12.6H3V13.2H2.4zM3,12.6H3.6V13.2H3zM4.2,12.6H4.8V13.2H4.2zM5.4,12.6H6V13.2H5.4zM6,12.6H6.6V13.2H6zM7.2,12.6H7.8V13.2H7.2zM8.4,12.6H9V13.2H8.4zM9.6,12.6H10.2V13.2H9.6zM10.2,12.6H10.8V13.2H10.2zM10.8,12.6H11.4V13.2H10.8zM11.4,12.6H12V13.2H11.4zM12,12.6H12.6V13.2H12zM12.6,12.6H13.2V13.2H12.6zM13.2,12.6H13.8V13.2H13.2zM14.4,12.6H15V13.2H14.4zM15,12.6H15.6V13.2H15zM0.6,13.2H1.2V13.8H0.6zM1.8,13.2H2.4V13.8H1.8zM2.4,13.2H3V13.8H2.4zM3,13.2H3.6V13.8H3zM4.2,13.2H4.8V13.8H4.2zM5.4,13.2H6V13.8H5.4zM6.6,13.2H7.2V13.8H6.6zM7.8,13.2H8.4V13.8H7.8zM8.4,13.2H9V13.8H8.4zM9,13.2H9.6V13.8H9zM11.4,13.2H12V13.8H11.4zM12,13.2H12.6V13.8H12zM13.2,13.2H13.8V13.8H13.2zM14.4,13.2H15V13.8H14.4zM15,13.2H15.6V13.8H15zM0.6,13.8H1.2V14.4H0.6zM1.8,13.8H2.4V14.4H1.8zM2.4,13.8H3V14.4H2.4zM3,13.8H3.6V14.4H3zM4.2,13.8H4.8V14.4H4.2zM6,13.8H6.6V14.4H6zM7.2,13.8H7.8V14.4H7.2zM8.4,13.8H9V14.4H8.4zM10.2,13.8H10.8V14.4H10.2zM12.6,13.8H13.2V14.4H12.6zM13.8,13.8H14.4V14.4H13.8zM14.4,13.8H15V14.4H14.4zM15,13.8H15.6V14.4H15zM0.6,14.4H1.2V15H0.6zM4.2,14.4H4.8V15H4.2zM6.6,14.4H7.2V15H6.6zM7.2,14.4H7.8V15H7.2zM7.8,14.4H8.4V15H7.8zM8.4,14.4H9V15H8.4zM10.8,14.4H11.4V15H10.8zM11.4,14.4H12V15H11.4zM12,14.4H12.6V15H12zM12.6,14.4H13.2V15H12.6zM13.8,14.4H14.4V15H13.8zM14.4,14.4H15V15H14.4zM15,14.4H15.6V15H15zM0.6,15H1.2V15.6H0.6zM1.2,15H1.8V15.6H1.2zM1.8,15H2.4V15.6H1.8zM2.4,15H3V15.6H2.4zM3,15H3.6V15.6H3zM3.6,15H4.2V15.6H3.6zM4.2,15H4.8V15.6H4.2zM5.4,15H6V15.6H5.4zM6.6,15H7.2V15.6H6.6zM7.2,15H7.8V15.6H7.2zM7.8,15H8.4V15.6H7.8zM8.4,15H9V15.6H8.4zM9.6,15H10.2V15.6H9.6zM10.2,15H10.8V15.6H10.2zM10.8,15H11.4V15.6H10.8zM11.4,15H12V15.6H11.4zM13.2,15H13.8V15.6H13.2zM15,15H15.6V15.6H15z" id="qr-path" fill="#000000" fill-opacity="1" fill-rule="nonzero" stroke="none" /></svg></div><div class="qrlab">管理台</div></div>
+    <div><div class="qr"><?xml version='1.0' encoding='UTF-8'?>
+<svg width="16.2mm" height="16.2mm" version="1.1" viewBox="0 0 16.2 16.2" xmlns="http://www.w3.org/2000/svg"><path d="M0.6,0.6H1.2V1.2H0.6zM1.2,0.6H1.8V1.2H1.2zM1.8,0.6H2.4V1.2H1.8zM2.4,0.6H3V1.2H2.4zM3,0.6H3.6V1.2H3zM3.6,0.6H4.2V1.2H3.6zM4.2,0.6H4.8V1.2H4.2zM6,0.6H6.6V1.2H6zM7.8,0.6H8.4V1.2H7.8zM8.4,0.6H9V1.2H8.4zM9,0.6H9.6V1.2H9zM11.4,0.6H12V1.2H11.4zM12,0.6H12.6V1.2H12zM12.6,0.6H13.2V1.2H12.6zM13.2,0.6H13.8V1.2H13.2zM13.8,0.6H14.4V1.2H13.8zM14.4,0.6H15V1.2H14.4zM15,0.6H15.6V1.2H15zM0.6,1.2H1.2V1.8H0.6zM4.2,1.2H4.8V1.8H4.2zM5.4,1.2H6V1.8H5.4zM6,1.2H6.6V1.8H6zM7.8,1.2H8.4V1.8H7.8zM8.4,1.2H9V1.8H8.4zM9,1.2H9.6V1.8H9zM11.4,1.2H12V1.8H11.4zM15,1.2H15.6V1.8H15zM0.6,1.8H1.2V2.4H0.6zM1.8,1.8H2.4V2.4H1.8zM2.4,1.8H3V2.4H2.4zM3,1.8H3.6V2.4H3zM4.2,1.8H4.8V2.4H4.2zM5.4,1.8H6V2.4H5.4zM6.6,1.8H7.2V2.4H6.6zM7.8,1.8H8.4V2.4H7.8zM9,1.8H9.6V2.4H9zM10.2,1.8H10.8V2.4H10.2zM11.4,1.8H12V2.4H11.4zM12.6,1.8H13.2V2.4H12.6zM13.2,1.8H13.8V2.4H13.2zM13.8,1.8H14.4V2.4H13.8zM15,1.8H15.6V2.4H15zM0.6,2.4H1.2V3H0.6zM1.8,2.4H2.4V3H1.8zM2.4,2.4H3V3H2.4zM3,2.4H3.6V3H3zM4.2,2.4H4.8V3H4.2zM5.4,2.4H6V3H5.4zM6,2.4H6.6V3H6zM7.2,2.4H7.8V3H7.2zM8.4,2.4H9V3H8.4zM9.6,2.4H10.2V3H9.6zM10.2,2.4H10.8V3H10.2zM11.4,2.4H12V3H11.4zM12.6,2.4H13.2V3H12.6zM13.2,2.4H13.8V3H13.2zM13.8,2.4H14.4V3H13.8zM15,2.4H15.6V3H15zM0.6,3H1.2V3.6H0.6zM1.8,3H2.4V3.6H1.8zM2.4,3H3V3.6H2.4zM3,3H3.6V3.6H3zM4.2,3H4.8V3.6H4.2zM7.2,3H7.8V3.6H7.2zM8.4,3H9V3.6H8.4zM9,3H9.6V3.6H9zM10.2,3H10.8V3.6H10.2zM11.4,3H12V3.6H11.4zM12.6,3H13.2V3.6H12.6zM13.2,3H13.8V3.6H13.2zM13.8,3H14.4V3.6H13.8zM15,3H15.6V3.6H15zM0.6,3.6H1.2V4.2H0.6zM4.2,3.6H4.8V4.2H4.2zM7.2,3.6H7.8V4.2H7.2zM7.8,3.6H8.4V4.2H7.8zM10.2,3.6H10.8V4.2H10.2zM11.4,3.6H12V4.2H11.4zM15,3.6H15.6V4.2H15zM0.6,4.2H1.2V4.8H0.6zM1.2,4.2H1.8V4.8H1.2zM1.8,4.2H2.4V4.8H1.8zM2.4,4.2H3V4.8H2.4zM3,4.2H3.6V4.8H3zM3.6,4.2H4.2V4.8H3.6zM4.2,4.2H4.8V4.8H4.2zM5.4,4.2H6V4.8H5.4zM6.6,4.2H7.2V4.8H6.6zM7.8,4.2H8.4V4.8H7.8zM9,4.2H9.6V4.8H9zM10.2,4.2H10.8V4.8H10.2zM11.4,4.2H12V4.8H11.4zM12,4.2H12.6V4.8H12zM12.6,4.2H13.2V4.8H12.6zM13.2,4.2H13.8V4.8H13.2zM13.8,4.2H14.4V4.8H13.8zM14.4,4.2H15V4.8H14.4zM15,4.2H15.6V4.8H15zM5.4,4.8H6V5.4H5.4zM6.6,4.8H7.2V5.4H6.6zM7.2,4.8H7.8V5.4H7.2zM0.6,5.4H1.2V6H0.6zM4.2,5.4H4.8V6H4.2zM5.4,5.4H6V6H5.4zM6,5.4H6.6V6H6zM7.2,5.4H7.8V6H7.2zM8.4,5.4H9V6H8.4zM9,5.4H9.6V6H9zM10.8,5.4H11.4V6H10.8zM11.4,5.4H12V6H11.4zM13.2,5.4H13.8V6H13.2zM13.8,5.4H14.4V6H13.8zM14.4,5.4H15V6H14.4zM0.6,6H1.2V6.6H0.6zM3,6H3.6V6.6H3zM4.8,6H5.4V6.6H4.8zM6.6,6H7.2V6.6H6.6zM7.8,6H8.4V6.6H7.8zM8.4,6H9V6.6H8.4zM9,6H9.6V6.6H9zM9.6,6H10.2V6.6H9.6zM10.8,6H11.4V6.6H10.8zM12,6H12.6V6.6H12zM12.6,6H13.2V6.6H12.6zM13.2,6H13.8V6.6H13.2zM13.8,6H14.4V6.6H13.8zM14.4,6H15V6.6H14.4zM1.8,6.6H2.4V7.2H1.8zM2.4,6.6H3V7.2H2.4zM3,6.6H3.6V7.2H3zM4.2,6.6H4.8V7.2H4.2zM5.4,6.6H6V7.2H5.4zM6.6,6.6H7.2V7.2H6.6zM9.6,6.6H10.2V7.2H9.6zM10.8,6.6H11.4V7.2H10.8zM11.4,6.6H12V7.2H11.4zM13.2,6.6H13.8V7.2H13.2zM14.4,6.6H15V7.2H14.4zM15,6.6H15.6V7.2H15zM0.6,7.2H1.2V7.8H0.6zM1.2,7.2H1.8V7.8H1.2zM1.8,7.2H2.4V7.8H1.8zM2.4,7.2H3V7.8H2.4zM3.6,7.2H4.2V7.8H3.6zM6,7.2H6.6V7.8H6zM6.6,7.2H7.2V7.8H6.6zM7.2,7.2H7.8V7.8H7.2zM9,7.2H9.6V7.8H9zM10.2,7.2H10.8V7.8H10.2zM10.8,7.2H11.4V7.8H10.8zM11.4,7.2H12V7.8H11.4zM12.6,7.2H13.2V7.8H12.6zM13.2,7.2H13.8V7.8H13.2zM15,7.2H15.6V7.8H15zM1.2,7.8H1.8V8.4H1.2zM1.8,7.8H2.4V8.4H1.8zM2.4,7.8H3V8.4H2.4zM3,7.8H3.6V8.4H3zM4.2,7.8H4.8V8.4H4.2zM4.8,7.8H5.4V8.4H4.8zM5.4,7.8H6V8.4H5.4zM6,7.8H6.6V8.4H6zM6.6,7.8H7.2V8.4H6.6zM7.8,7.8H8.4V8.4H7.8zM9,7.8H9.6V8.4H9zM10.2,7.8H10.8V8.4H10.2zM11.4,7.8H12V8.4H11.4zM15,7.8H15.6V8.4H15zM0.6,8.4H1.2V9H0.6zM1.2,8.4H1.8V9H1.2zM2.4,8.4H3V9H2.4zM4.8,8.4H5.4V9H4.8zM5.4,8.4H6V9H5.4zM8.4,8.4H9V9H8.4zM9.6,8.4H10.2V9H9.6zM10.2,8.4H10.8V9H10.2zM12,8.4H12.6V9H12zM14.4,8.4H15V9H14.4zM0.6,9H1.2V9.6H0.6zM2.4,9H3V9.6H2.4zM3.6,9H4.2V9.6H3.6zM4.2,9H4.8V9.6H4.2zM7.2,9H7.8V9.6H7.2zM7.8,9H8.4V9.6H7.8zM8.4,9H9V9.6H8.4zM9,9H9.6V9.6H9zM9.6,9H10.2V9.6H9.6zM10.2,9H10.8V9.6H10.2zM11.4,9H12V9.6H11.4zM12,9H12.6V9.6H12zM12.6,9H13.2V9.6H12.6zM13.2,9H13.8V9.6H13.2zM14.4,9H15V9.6H14.4zM15,9H15.6V9.6H15zM0.6,9.6H1.2V10.2H0.6zM1.8,9.6H2.4V10.2H1.8zM3.6,9.6H4.2V10.2H3.6zM6,9.6H6.6V10.2H6zM7.2,9.6H7.8V10.2H7.2zM9,9.6H9.6V10.2H9zM10.8,9.6H11.4V10.2H10.8zM11.4,9.6H12V10.2H11.4zM12,9.6H12.6V10.2H12zM13.2,9.6H13.8V10.2H13.2zM13.8,9.6H14.4V10.2H13.8zM15,9.6H15.6V10.2H15zM0.6,10.2H1.2V10.8H0.6zM1.8,10.2H2.4V10.8H1.8zM2.4,10.2H3V10.8H2.4zM3.6,10.2H4.2V10.8H3.6zM4.2,10.2H4.8V10.8H4.2zM6,10.2H6.6V10.8H6zM7.2,10.2H7.8V10.8H7.2zM7.8,10.2H8.4V10.8H7.8zM8.4,10.2H9V10.8H8.4zM9,10.2H9.6V10.8H9zM9.6,10.2H10.2V10.8H9.6zM10.2,10.2H10.8V10.8H10.2zM10.8,10.2H11.4V10.8H10.8zM11.4,10.2H12V10.8H11.4zM12,10.2H12.6V10.8H12zM12.6,10.2H13.2V10.8H12.6zM13.8,10.2H14.4V10.8H13.8zM5.4,10.8H6V11.4H5.4zM6.6,10.8H7.2V11.4H6.6zM7.8,10.8H8.4V11.4H7.8zM9,10.8H9.6V11.4H9zM9.6,10.8H10.2V11.4H9.6zM10.2,10.8H10.8V11.4H10.2zM12.6,10.8H13.2V11.4H12.6zM0.6,11.4H1.2V12H0.6zM1.2,11.4H1.8V12H1.2zM1.8,11.4H2.4V12H1.8zM2.4,11.4H3V12H2.4zM3,11.4H3.6V12H3zM3.6,11.4H4.2V12H3.6zM4.2,11.4H4.8V12H4.2zM6,11.4H6.6V12H6zM6.6,11.4H7.2V12H6.6zM7.2,11.4H7.8V12H7.2zM8.4,11.4H9V12H8.4zM10.2,11.4H10.8V12H10.2zM11.4,11.4H12V12H11.4zM12.6,11.4H13.2V12H12.6zM15,11.4H15.6V12H15zM0.6,12H1.2V12.6H0.6zM4.2,12H4.8V12.6H4.2zM6.6,12H7.2V12.6H6.6zM7.2,12H7.8V12.6H7.2zM9.6,12H10.2V12.6H9.6zM10.2,12H10.8V12.6H10.2zM12.6,12H13.2V12.6H12.6zM14.4,12H15V12.6H14.4zM15,12H15.6V12.6H15zM0.6,12.6H1.2V13.2H0.6zM1.8,12.6H2.4V13.2H1.8zM2.4,12.6H3V13.2H2.4zM3,12.6H3.6V13.2H3zM4.2,12.6H4.8V13.2H4.2zM6.6,12.6H7.2V13.2H6.6zM7.2,12.6H7.8V13.2H7.2zM7.8,12.6H8.4V13.2H7.8zM8.4,12.6H9V13.2H8.4zM9,12.6H9.6V13.2H9zM9.6,12.6H10.2V13.2H9.6zM10.2,12.6H10.8V13.2H10.2zM10.8,12.6H11.4V13.2H10.8zM11.4,12.6H12V13.2H11.4zM12,12.6H12.6V13.2H12zM12.6,12.6H13.2V13.2H12.6zM13.8,12.6H14.4V13.2H13.8zM0.6,13.2H1.2V13.8H0.6zM1.8,13.2H2.4V13.8H1.8zM2.4,13.2H3V13.8H2.4zM3,13.2H3.6V13.8H3zM4.2,13.2H4.8V13.8H4.2zM6,13.2H6.6V13.8H6zM6.6,13.2H7.2V13.8H6.6zM7.2,13.2H7.8V13.8H7.2zM7.8,13.2H8.4V13.8H7.8zM8.4,13.2H9V13.8H8.4zM9,13.2H9.6V13.8H9zM9.6,13.2H10.2V13.8H9.6zM10.8,13.2H11.4V13.8H10.8zM11.4,13.2H12V13.8H11.4zM14.4,13.2H15V13.8H14.4zM15,13.2H15.6V13.8H15zM0.6,13.8H1.2V14.4H0.6zM1.8,13.8H2.4V14.4H1.8zM2.4,13.8H3V14.4H2.4zM3,13.8H3.6V14.4H3zM4.2,13.8H4.8V14.4H4.2zM6,13.8H6.6V14.4H6zM6.6,13.8H7.2V14.4H6.6zM7.8,13.8H8.4V14.4H7.8zM8.4,13.8H9V14.4H8.4zM9,13.8H9.6V14.4H9zM13.2,13.8H13.8V14.4H13.2zM13.8,13.8H14.4V14.4H13.8zM15,13.8H15.6V14.4H15zM0.6,14.4H1.2V15H0.6zM4.2,14.4H4.8V15H4.2zM6,14.4H6.6V15H6zM6.6,14.4H7.2V15H6.6zM7.8,14.4H8.4V15H7.8zM9,14.4H9.6V15H9zM9.6,14.4H10.2V15H9.6zM10.2,14.4H10.8V15H10.2zM10.8,14.4H11.4V15H10.8zM12,14.4H12.6V15H12zM12.6,14.4H13.2V15H12.6zM15,14.4H15.6V15H15zM0.6,15H1.2V15.6H0.6zM1.2,15H1.8V15.6H1.2zM1.8,15H2.4V15.6H1.8zM2.4,15H3V15.6H2.4zM3,15H3.6V15.6H3zM3.6,15H4.2V15.6H3.6zM4.2,15H4.8V15.6H4.2zM5.4,15H6V15.6H5.4zM7.2,15H7.8V15.6H7.2zM10.2,15H10.8V15.6H10.2zM10.8,15H11.4V15.6H10.8zM13.2,15H13.8V15.6H13.2zM15,15H15.6V15.6H15z" id="qr-path" fill="#000000" fill-opacity="1" fill-rule="nonzero" stroke="none" /></svg></div><div class="qrlab">对外网站</div></div>
   </div>
-</div></footer>
-<script>
-(function(){
-  function $(i){return document.getElementById(i);}
-  var html=document.documentElement;
-  try{ var t=localStorage.getItem('lx-theme'); if(t) html.setAttribute('data-theme',t); }catch(e){}
-  $('theme').addEventListener('click',function(){
-    var n=(html.getAttribute('data-theme')==='dark')?'light':'dark';
-    html.setAttribute('data-theme',n);
-    try{ localStorage.setItem('lx-theme',n); }catch(e){}
-  });
-  var LV=[['标准','17.5px'],['大','19.5px'],['特大','21.5px']], li=0;
-  try{ var l=parseInt(localStorage.getItem('lx-fs')||'0',10); if(l>0&&l<3) li=l; }catch(e){}
-  function applyFs(){ document.documentElement.style.setProperty('--fs',LV[li][1]);
-    $('szname').textContent=LV[li][0]; try{ localStorage.setItem('lx-fs',String(li)); }catch(e){} }
-  applyFs();
-  $('sizer').addEventListener('click',function(){ li=(li+1)%3; applyFs(); });
-  $('speak').addEventListener('click',function(){
-    if(!window.speechSynthesis){ alert('本浏览器不支持朗读'); return; }
-    if(speechSynthesis.speaking){ speechSynthesis.cancel(); this.textContent='🔊 朗读全文'; return; }
-    var el=document.querySelector('article')||document.querySelector('.wrap');
-    var u=new SpeechSynthesisUtterance((el.innerText||'').slice(0,4000));
-    u.lang='zh-CN'; u.rate=1.0; this.textContent='⏹ 停止朗读';
-    var self=this; u.onend=function(){ self.textContent='🔊 朗读全文'; };
-    speechSynthesis.speak(u);
-  });
-  $('top').addEventListener('click',function(){ window.scrollTo({top:0,behavior:'smooth'}); });
-  function prog(){
-    var h=document.documentElement.scrollHeight-window.innerHeight;
-    var p=h>0?(window.pageYOffset/h*100):0;
-    $('pbar').style.width=Math.min(100,p)+'%';
-  }
-  window.addEventListener('scroll',prog); prog();
-  function clock(){
-    var d=new Date(), p=function(n){return (n<10?'0':'')+n;};
-    var e=$('clk'); if(e) e.textContent=p(d.getHours())+':'+p(d.getMinutes())+':'+p(d.getSeconds());
-  }
-  setInterval(clock,1000); clock();
-  function e2(s){ return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
-  function loadFeed(){
-    if(!window.fetch) return;
-    fetch('feed.json?t='+new Date().getTime(),{cache:'no-store'}).then(function(r){return r.ok?r.json():null;})
-    .then(function(j){
-      if(!j||!j.items) return;
-      var ul=$('feed'); if(!ul) return;
-      ul.innerHTML=j.items.slice(0,6).map(function(it){
-        var ext=/^https?:/.test(it.url);
-        var badge=it.fresh?'<span class="fresh">'+(it.type==='live'?'新收':'新')+'</span>':'';
-        var tg=it.type==='live'?'<span class="ls">'+e2(it.src||'')+'</span>':'';
-        return '<li><time>'+e2(it.t)+'</time>'+badge+tg+'<a href="'+e2(it.url)+'"'+
-               (ext?' target="_blank" rel="noopener"':'')+'>'+e2(it.title)+'</a></li>';
-      }).join('');
-      var u=$('upd'); if(u&&j.generated) u.textContent=j.generated;
-    }).catch(function(){});
-  }
-  loadFeed();
-  if($('feed')) setInterval(loadFeed,60000);
-  // 🔎 站内全文搜索(三期·本地检索 search.json, 不联网)
-  var SROOT='', SIDX=null, SLOAD=false;
-  function loadIdx(){
-    if(SIDX||SLOAD) return; SLOAD=true;
-    fetch(SROOT+'search.json?t='+new Date().getTime(),{cache:'no-store'})
-      .then(function(r){return r.ok?r.json():null;})
-      .then(function(j){ SIDX=(j&&j.items)||[]; if(curr) runSearch(curr); })
-      .catch(function(){ SLOAD=false; });
-  }
-  var curr='';
-  function openS(){ var b=$('sbox'); if(!b) return; b.hidden=false; loadIdx(); setTimeout(function(){ $('sinput').focus(); },50); }
-  function closeS(){ var b=$('sbox'); if(b) b.hidden=true; }
-  function esc2(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
-  function runSearch(q){
-    var res=$('sres'), hint=$('shint');
-    if(!res) return;
-    q=(q||'').trim().toLowerCase();
-    if(!q){ res.innerHTML=''; hint.textContent='输入关键词即可检索全部文章（本地检索 · 不联网）'; return; }
-    if(!SIDX){ hint.textContent='索引加载中…'; return; }
-    var ks=q.split(/\s+/).filter(Boolean);
-    var hits=SIDX.map(function(it){
-      var hay=((it.t||'')+' '+(it.s||'')+' '+(it.k||'')+' '+(it.x||'')).toLowerCase();
-      var sc=0, ok=true;
-      ks.forEach(function(k){
-        if(hay.indexOf(k)<0) ok=false;
-        else { sc+=1; if((it.t||'').toLowerCase().indexOf(k)>=0) sc+=3; }
-      });
-      return ok?{it:it,sc:sc}:null;
-    }).filter(Boolean).sort(function(a,b){return b.sc-a.sc;}).slice(0,40);
-    if(!hits.length){ res.innerHTML=''; hint.textContent='未找到「'+q+'」相关内容'; return; }
-    hint.textContent='找到 '+hits.length+' 条';
-    res.innerHTML=hits.map(function(h){
-      var it=h.it, x=(it.x||'').slice(0,140);
-      return '<li><a href="'+SROOT+esc2(it.u)+'"><b>'+esc2(it.t)+'</b></a>'+
-             '<div class="smeta">'+esc2(it.s||'')+' · '+esc2(it.d||'')+'</div>'+
-             (x?'<div class="sx">'+esc2(x)+'…</div>':'')+'</li>';
-    }).join('');
-  }
-  var sb=$('sbtn'), si=$('sinput');
-  if(sb) sb.addEventListener('click',openS);
-  if($('sclose')) $('sclose').addEventListener('click',closeS);
-  if(si) si.addEventListener('input',function(){ curr=this.value; runSearch(curr); });
-  document.addEventListener('keydown',function(e){
-    if(e.key==='/'&&!e.target.matches('input,textarea')){ e.preventDefault(); openS(); }
-    if(e.key==='Escape') closeS();
-  });
-  // 🚪 暗记: 磁条拖到最里端才亮; 点「⋯」自动拖到最里
-  var navEl=document.querySelector('.nav'), nd=$('navdoor');
-  function chkDoor(){
-    if(!navEl||!nd) return;
-    var end=(navEl.scrollLeft+navEl.clientWidth)>=(navEl.scrollWidth-8);
-    nd.style.opacity=end?'0.95':'0.20';
-  }
-  if(navEl&&nd){
-    navEl.addEventListener('scroll',chkDoor); chkDoor();
-    var dots=$('ldots');
-    if(dots) dots.addEventListener('click',function(){
-      if(navEl.scrollTo) navEl.scrollTo({left:navEl.scrollWidth,behavior:'smooth'});
-      else navEl.scrollLeft=navEl.scrollWidth;
-      setTimeout(chkDoor,400);
-    });
-  }
-})();
-</script>
+</div>
+
+<div class="foot">
+  本页为<b>固定入口</b>（内门已停用，不再需要按印开门）· 内容站已移到 <a href="read/">/read/</a><br>
+  真钱改动一律须火印 + 老板点头 · 本站只读 · 生成于 2026-09-23 15:46
+</div>
 </body>
 </html>
