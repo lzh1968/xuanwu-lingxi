@@ -1,11 +1,21 @@
 {
  "日期": "2026-09-23",
- "落盘": "2026-09-23 19:58:56",
+ "落盘": "2026-09-23 20:05:00",
  "条数": 14,
  "live": 60,
  "条目": [
   {
-   "title": "Jev-serve: Run latest qwen3.8 mlx, other frozen LLM models",
+   "title": "Jev-rs: a Rust crate to turn a LLM to serve jev",
+   "url": "https://github.com/yijunyu/jev-rs",
+   "type": "live"
+  },
+  {
+   "title": "Show HN: Red-team your AI agent",
+   "url": "https://www.botgauge.com",
+   "type": "live"
+  },
+  {
+   "title": "Jev-serve: Run latest qwen3.8, other frozen LLM models, mlx-supported",
    "url": "https://github.com/rreinold/jev-serve",
    "type": "live"
   },
@@ -32,16 +42,6 @@
   {
    "title": "Meta的新Muse AI 智能体阅读我的私人消息。我从来没有要求过",
    "url": "https://www.inc.com/jason-aten/metas-new-muse-ai-agent-read-my-private-messages-i-never-asked-it-to/91408202",
-   "type": "live"
-  },
-  {
-   "title": "Show HN: Gwae – infinite-scroll terminal multiplexer for AI agent fleets",
-   "url": "https://github.com/hongnoul/gwae",
-   "type": "live"
-  },
-  {
-   "title": "Tradeoff considerations while running LLM models locally",
-   "url": "https://swapniltalekar.substack.com/p/should-you-be-running-llm-models",
    "type": "live"
   },
   {
