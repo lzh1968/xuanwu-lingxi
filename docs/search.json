@@ -1,5 +1,5 @@
 {
- "built": "2026-09-23 12:49:00",
+ "built": "2026-09-23 12:54:41",
  "count": 52,
  "items": [
   {
@@ -187,18 +187,18 @@
    "x": ""
   },
   {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "04:38",
+   "d": "04:51",
    "k": "",
    "x": ""
   },
   {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "04:22",
+   "d": "04:50",
    "k": "",
    "x": ""
   },
@@ -253,7 +253,7 @@
   {
    "t": "SpeakerMem-R1：以扬声器为中心的多方对话双轨内存",
    "u": "https://arxiv.org/abs/2609.26780v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:56",
    "k": "",
    "x": ""
@@ -261,8 +261,32 @@
   {
    "t": "CliffCompaction：长距离编码智能体的高性价比压缩",
    "u": "https://arxiv.org/abs/2609.26779v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "SWE-Serve：对生产推理服务的代理工程进行基准测试",
+   "u": "https://arxiv.org/abs/2609.26777v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:54",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "A2M：MCP生态系统中的跟踪优化Agent劫持",
+   "u": "https://arxiv.org/abs/2609.26761v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:41",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "发展线索，而不是背景：从无战略的支架到可重复使用的专业代理",
+   "u": "https://arxiv.org/abs/2609.26760v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:40",
    "k": "",
    "x": ""
   },
@@ -275,6 +299,14 @@
    "x": ""
   },
   {
+   "t": "基于LLM的代码漏洞修复中的指标失败：实证研究和变更感知屏幕",
+   "u": "https://arxiv.org/abs/2609.26749v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:32",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Diffusion-Induced Spatial Attention Overlapping Community Detection",
    "u": "https://arxiv.org/abs/2609.26737v1",
    "s": "外网新声·arXiv cs.LG",
@@ -283,17 +315,33 @@
    "x": ""
   },
   {
+   "t": "人工智能是否节省了产品设计的时间？人工智能提示设计工作流程的随机对照实验",
+   "u": "https://arxiv.org/abs/2609.26725v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:13",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "《The Sirens 'Song: When Proximal Background Context Oversadows Distant Evidence》",
    "u": "https://arxiv.org/abs/2609.26718v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:06",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "TraceVIC: Causal Reasoning over Code Evolution for Identifying Vulnerability-Inducing Commits",
+   "u": "https://arxiv.org/abs/2609.26711v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:02",
    "k": "",
    "x": ""
   },
   {
    "t": "Train Where the Quantized Model Goes: On-Policy Distillation for Low-Bit Reasoning",
    "u": "https://arxiv.org/abs/2609.26708v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:01",
    "k": "",
    "x": ""
@@ -307,9 +355,33 @@
    "x": ""
   },
   {
+   "t": "Beyond Repeated Sampling: Learning Search Policies for LLM Reasoning",
+   "u": "https://arxiv.org/abs/2609.26704v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:56",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Measuring the Serving Stack Instead of the Model: Hidden Confounds in Local Tool-Use Evaluation",
+   "u": "https://arxiv.org/abs/2609.26693v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:48",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "From Alignment to Access Control: A Framework for GenAI Policy Enforcement",
+   "u": "https://arxiv.org/abs/2609.26682v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:40",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "A Spectral Theory of Grokking: Weight Decay induces Feature Learning",
    "u": "https://arxiv.org/abs/2609.26679v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "16:38",
    "k": "",
    "x": ""
@@ -333,88 +405,16 @@
   {
    "t": "The Delegation Blind Spot: Auditing Product Decisions from Agent Choices",
    "u": "https://arxiv.org/abs/2609.26642v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "16:15",
    "k": "",
    "x": ""
   },
   {
-   "t": "Label-Efficient Learning for Ground-Based Sky-Image Classification: A Benchmark of Transfer Learning, Active Learning, and Pseudo-Labeling on GCD",
-   "u": "https://arxiv.org/abs/2609.26631v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "16:06",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "On Basis Function Selection for Sparse Gaussian Process Regression",
-   "u": "https://arxiv.org/abs/2609.26624v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "15:56",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Greedy Decoding Is Not Precision-Invariant: Cross-Precision Output Divergence in LLM Inference",
-   "u": "https://arxiv.org/abs/2609.26621v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "15:54",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "MMAP: Multimodal Missing-Aware Pretraining for Longitudinal Alzheimer's Prediction",
-   "u": "https://arxiv.org/abs/2609.26617v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "15:50",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "rasbt/LLMs-from-scratch：一步步用 PyTorch 从零实现类 ChatGPT 模型",
-   "u": "https://github.com/rasbt/LLMs-from-scratch",
-   "s": "外网新声·GitHub 新星",
-   "d": "13:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "使用GPT ‑ 6 Astra将研究时间和成本并行削减一半",
-   "u": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-   "s": "外网新声·OpenAI 官方",
-   "d": "12:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
-   "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-   "s": "外网新声·GitHub 新星",
-   "d": "07:39",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "有效第三方评估的优先事项和原则",
-   "u": "https://openai.com/index/priorities-principles-third-party-assessments",
-   "s": "外网新声·OpenAI 官方",
-   "d": "00:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN: Maki，开源多代理LLM框架（本地或托管）",
-   "u": "https://github.com/BowlOfData/maki",
-   "s": "外网新声·Hacker News",
-   "d": "18:52",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "为下一阶段的人工智能构建标准",
-   "u": "https://openai.com/index/building-standards-next-phase-ai",
-   "s": "外网新声·OpenAI 官方",
-   "d": "10:00",
+   "t": "Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models",
+   "u": "https://arxiv.org/abs/2609.26637v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:10",
    "k": "",
    "x": ""
   }
