@@ -2,47 +2,64 @@
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>玄武灵犀 · 固定入口</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0d1117">
+<title>玄武灵犀 · 常驻门</title>
 <style>
-  :root{--bg:#0d1117;--card:#161b22;--line:#30363d;--fg:#e6edf3;--dim:#8b949e;--acc:#58a6ff;--ok:#3fb950}
+  :root{--bg:#0d1117;--card:#161b22;--line:#30363d;--fg:#e6edf3;--dim:#8b949e;--acc:#58a6ff;--ok:#3fb950;--warn:#d29922}
   *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.6 -apple-system,system-ui,"PingFang SC","Noto Sans SC",sans-serif;display:flex;min-height:100vh;align-items:center;justify-content:center;padding:20px}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px 20px;max-width:520px;width:100%;text-align:center;box-shadow:0 8px 30px rgba(0,0,0,.4)}
-  h1{font-size:19px;margin:0 0 6px}
-  .sub{color:var(--dim);font-size:13px;margin-bottom:16px}
-  .st{font-size:15px;margin:10px 0;min-height:24px}
-  .ok{color:var(--ok)} .dim{color:var(--dim)}
-  a.btn{display:block;background:var(--acc);color:#0d1117;text-decoration:none;font-weight:700;padding:13px;border-radius:10px;margin-top:14px}
-  code{background:#0d1117;border:1px solid var(--line);border-radius:6px;padding:2px 6px;font-size:12px;color:var(--dim);word-break:break-all}
-  .foot{margin-top:14px;font-size:12px;color:var(--dim)}
+  body{margin:0;background:radial-gradient(1200px 600px at 50% -10%,#18202b 0%,var(--bg) 60%);color:var(--fg);
+       font:15px/1.6 -apple-system,system-ui,"PingFang SC","Noto Sans SC",sans-serif;
+       display:flex;min-height:100vh;align-items:center;justify-content:center;padding:20px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px 20px 22px;max-width:480px;width:100%;
+        text-align:center;box-shadow:0 10px 40px rgba(0,0,0,.5)}
+  .dragon{font-size:38px;line-height:1;margin-bottom:8px;filter:drop-shadow(0 0 10px rgba(88,166,255,.35))}
+  h1{font-size:20px;margin:0 0 6px;letter-spacing:.5px}
+  .sub{color:var(--dim);font-size:13px;margin-bottom:18px}
+  .st{font-size:14px;margin:0 0 14px;min-height:22px}
+  .ok{color:var(--ok)} .dim{color:var(--dim)} .warn{color:var(--warn)}
+  a.btn{display:block;text-decoration:none;font-weight:800;font-size:16px;padding:15px;border-radius:12px;margin-top:6px;
+        background:linear-gradient(180deg,#6cb2ff,#3b82f6);color:#08111f;letter-spacing:.5px;
+        box-shadow:0 6px 18px rgba(59,130,246,.35);transition:transform .12s ease,filter .12s ease}
+  a.btn:active{transform:scale(.97);filter:brightness(1.08)}
+  a.btn.off{background:#21262d;color:var(--dim);box-shadow:none;pointer-events:none}
+  .alt{margin-top:12px;font-size:12px;color:var(--dim)}
+  code{background:#0d1117;border:1px solid var(--line);border-radius:6px;padding:2px 6px;font-size:11.5px;color:var(--dim);word-break:break-all}
+  .foot{margin-top:16px;font-size:11.5px;color:var(--dim);border-top:1px solid var(--line);padding-top:12px}
+  .ring{display:inline-block;width:12px;height:12px;border:2px solid var(--line);border-top-color:var(--acc);border-radius:50%;
+        animation:sp 1s linear infinite;vertical-align:-1px;margin-right:6px}
+  @keyframes sp{to{transform:rotate(360deg)}}
 </style>
 </head>
 <body>
 <div class="card">
-  <h1>🐉 玄武灵犀 · 固定入口</h1>
-  <div class="sub">本页自动跳到最新可用的手机门户</div>
-  <div class="st" id="st"><span class="dim">正在读取最新地址…</span></div>
-  <a class="btn" id="btn" href="#" style="display:none">👉 点这里打开手机门户</a>
-  <div class="foot">当前目标：<code id="u">—</code><br><span id="t"></span></div>
+  <div class="dragon">🐉</div>
+  <h1>玄武灵犀 · 常驻门</h1>
+  <div class="sub">内厅入口 · 请点击下方按钮进入管理系统</div>
+  <div class="st" id="st"><span class="ring"></span><span class="dim">正在读取最新入口…</span></div>
+  <a class="btn off" id="btn" href="#">👉 点此进入管理系统</a>
+  <div class="alt" id="hint" style="display:none">若按钮无效，请复制下方地址在浏览器打开：</div>
+  <div class="alt"><code id="u">—</code></div>
+  <div class="foot" id="t">地址更新中…<br>内厅为私密入口，请勿外传</div>
 </div>
 <script>
 (function(){
-  var st=document.getElementById('st'),btn=document.getElementById('btn'),ue=document.getElementById('u'),te=document.getElementById('t');
+  var st=document.getElementById('st'),btn=document.getElementById('btn'),ue=document.getElementById('u'),
+      te=document.getElementById('t'),hint=document.getElementById('hint');
   var RAW='https://raw.githubusercontent.com/lzh1968/xuanwu-lingxi/main/url.json';
   var last=null; try{last=localStorage.getItem('lx_last')}catch(e){}
-  function go(u,stale){
+  function ready(u,stale){
     if(!u)return false;
-    ue.textContent=u; btn.href=u; btn.style.display='block';
-    st.innerHTML='<span class="ok">✅ '+(stale?'正在跳转（用上次缓存地址）':'已找到最新地址，正在跳转')+'…</span>';
+    ue.textContent=u; btn.href=u; btn.classList.remove('off');
+    st.innerHTML='<span class="ok">✅ '+(stale?'已用上次缓存地址':'已找到最新入口')+'，点击按钮进入</span>';
+    hint.style.display='block';
     try{localStorage.setItem('lx_last',u)}catch(e){}
-    setTimeout(function(){location.replace(u)},600);
     return true;
   }
   function get(u){return fetch(u+(u.indexOf('?')<0?'?t=':'&t=')+Date.now(),{cache:'no-store'}).then(function(r){
     if(!r.ok)throw 0; return r.json();
   });}
-  // 双源并行：本站(随 Pages 构建) + raw(推送后约1分钟即刷新) → 取 updated 最新那条
+  // 双源并行：本站(url.json 随 Pages 构建) + raw(推送后约1分钟即刷新) → 取 updated 最新那条
   Promise.allSettled([
     get('../url.json'),
     get(RAW)
@@ -51,14 +68,13 @@
     rs.forEach(function(x){ if(x.status==='fulfilled'&&x.value&&x.value.url) c.push(x.value); });
     if(!c.length) throw 0;
     c.sort(function(a,b){ return String(b.updated||'').localeCompare(String(a.updated||'')); });
-    if(c[0].updated) te.textContent='地址更新于 '+c[0].updated;
-    go(c[0].url);
+    if(c[0].updated) te.innerHTML='地址更新于 '+c[0].updated+'<br>内厅为私密入口，请勿外传';
+    ready(c[0].url);
   }).catch(function(){
-    if(last){ go(last,true); }
+    if(last){ ready(last,true); }
     else{
-      st.innerHTML='<span class="dim">取地址失败，请稍后刷新</span>';
-      var f='https://gospel-trance-bradford-boats.trycloudflare.com';
-      btn.style.display='block'; btn.href=f; ue.textContent=f;
+      st.innerHTML='<span class="warn">⚠️ 取地址失败，请稍后刷新本页</span>';
+      te.innerHTML='内厅为私密入口，请勿外传';
     }
   });
 })();
