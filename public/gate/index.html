@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex,nofollow,noarchive">
 <meta name="theme-color" content="#08090b">
-<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<!-- ⛔2026-09-23 13:0x 老板「内门系统无法打开」: 删除 CSP `upgrade-insecure-requests` —— 它会把「本机直连 http://127.0.0.1:8094」也升级成 https ⇒ 打不开本机台。站体已由 GitHub Pages 强制 HTTPS，无须此条。 -->
 <title>玄武灵犀 · 常驻门</title>
 <style>
   /* ────────────────────────────────────────────────────────────────
@@ -250,6 +250,7 @@
     <div class="btns">
       <button id="refresh">🔁 校准新址</button>
       <button id="local">🖥 本机直连</button>
+      <a class="btn" id="local2" href="http://127.0.0.1:8094/" style="margin-left:6px">↗ 直开本机台</a>
       <a href="../">← 观天下</a>
     </div>
     <div class="diag" id="diag"></div>
@@ -373,7 +374,12 @@
   document.addEventListener('dragstart', function(e){ e.preventDefault(); });
 
   $('refresh').addEventListener('click', function(){ ready=false; ring(0); glow(false); calibrate(0); });
-  $('local').addEventListener('click', function(){ location.href = LOCAL; });
+  $('local').addEventListener('click', function(){ goLocal(); });
+  /* 🖥2026-09-23: 本机直连兜底 —— 先试本机台；若打不开(无响应)则提示直接在地址栏输入 */
+  function goLocal(){
+    try { say('門 · 正在开本机台…','ok'); hint('若 3 秒没跳转，请直接在地址栏输入 127.0.0.1:8094',''); } catch(e){}
+    setTimeout(function(){ location.href = LOCAL; }, 400);
+  }
 
   setInterval(function(){ if (!ready && !opened) calibrate(2); }, 15000);
 
