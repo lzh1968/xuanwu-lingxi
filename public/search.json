@@ -1,6 +1,6 @@
 {
- "built": "2026-09-24 00:34:14",
- "count": 56,
+ "built": "2026-09-24 00:40:34",
+ "count": 57,
  "items": [
   {
    "t": "今日辑要 · 2026-09-24（前沿 12 条）",
@@ -33,6 +33,14 @@
    "d": "2026-09-24",
    "k": "手记,方法论",
    "x": "把阴阳放进控制系统里看，它更像一对 符号相反的反馈环 ：一个负责扩张，一个负责收敛。 只有扩张的环，系统会在顺境中自我强化直到崩塌；只有收敛的环，系统会在谨慎中失去一切机会。传统讲\"阴阳相生\"，工程讲\"增益平衡\"——说的是同一件事： 别让任一侧单独主导太久。 所以好的自适应并非不断调参，而是在两侧都留出可回退的余地：进要能退，退也要能再进；底线固定，节奏可变。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "链上机制的可读性",
+   "u": "a/note-20260924-4.html",
+   "s": "Web3 · 链上世界",
+   "d": "2026-09-24",
+   "k": "手记,方法论",
+   "x": "评价一条链上机制，可以先问三个可读性问题： 1. 谁承担最后风险？ （收益来自哪里，亏损落到谁头上） 2. 信息何时公开？ （先看到的人是否天然占优） 3. 退出是否顺畅？ （极端情形下能不能有序离场） 这三个问题不涉及任何价格判断，却能筛掉绝大部分\"看起来精巧\"的设计。机制研究的价值也正在于此： 把不可读的风险变成可讨论的条款。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "今日辑要 · 2026-09-23（前沿 12 条）",
@@ -131,6 +139,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Ringg的AI 智能体通过OpenAI解决高达65%的客户呼叫",
+   "u": "https://openai.com/index/ringg",
+   "s": "外网新声·OpenAI 官方",
+   "d": "12:00",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "每个人都通过llms.txt热闹地提示注入人工智能，而你没有",
    "u": "https://installmap.com/research/llms-txt-ai-instructions",
    "s": "外网新声·Hacker News",
@@ -139,10 +155,26 @@
    "x": ""
   },
   {
+   "t": "VLLM中的硬件无关模型",
+   "u": "https://pytorch.org/blog/hardware-agnostic-models-in-vllm/",
+   "s": "外网新声·Hacker News",
+   "d": "00:26",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "问问HN：当人工智能编写我们所有的程序时，软件是否仍然重要？",
    "u": "https://news.ycombinator.com/item?id=49818484",
    "s": "外网新声·Hacker News",
    "d": "00:24",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "用于去识别和合成的LLM基准",
+   "u": "https://huggingface.co/datasets/TonicAI/Privacy-Bench",
+   "s": "外网新声·Hacker News",
+   "d": "00:17",
    "k": "",
    "x": ""
   },
@@ -195,10 +227,18 @@
    "x": ""
   },
   {
+   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "u": "https://github.com/Dao-AILab/flash-attention",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:39",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "16:32",
+   "d": "16:37",
    "k": "",
    "x": ""
   },
@@ -206,7 +246,7 @@
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "16:29",
+   "d": "16:36",
    "k": "",
    "x": ""
   },
@@ -235,14 +275,6 @@
    "x": ""
   },
   {
-   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
-   "u": "https://github.com/Dao-AILab/flash-attention",
-   "s": "外网新声·GitHub 新星",
-   "d": "08:20",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
    "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
    "s": "外网新声·GitHub 新星",
@@ -255,6 +287,14 @@
    "u": "https://github.com/affaan-m/ECC",
    "s": "外网新声·GitHub 新星",
    "d": "23:09",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ScopeTrail：为「多跳智能体委派」生成可审计回执",
+   "u": "https://github.com/scopetrail/scopetrail",
+   "s": "外网新声·Hacker News",
+   "d": "21:00",
    "k": "",
    "x": ""
   },
@@ -395,7 +435,7 @@
    "x": ""
   },
   {
-   "t": "A Spectral Theory of Grokking: Weight Decay induces Feature Learning",
+   "t": "Grokking的光谱理论：权重衰减诱导特征学习",
    "u": "https://arxiv.org/abs/2609.26679v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "16:38",
@@ -403,7 +443,7 @@
    "x": ""
   },
   {
-   "t": "MAGIC: Mixed-Granularity Agent Graphs via Incremental Construction with Dense-Reward Reinforcement Learning",
+   "t": "MAGIC：通过增量构造与密集奖励强化学习的混合粒度Agent图",
    "u": "https://arxiv.org/abs/2609.26667v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "16:27",
@@ -411,42 +451,10 @@
    "x": ""
   },
   {
-   "t": "Discovery-Driven Integration of Disjoint Tables via Text",
+   "t": "通过文本发现驱动的不相交表集成",
    "u": "https://arxiv.org/abs/2609.26658v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "16:22",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "The Delegation Blind Spot: Auditing Product Decisions from Agent Choices",
-   "u": "https://arxiv.org/abs/2609.26642v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:15",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Capable yet Parsimonious: Extracting and Characterizing Hidden Chain-of-Thought in Frontier Models",
-   "u": "https://arxiv.org/abs/2609.26637v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:10",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Label-Efficient Learning for Ground-Based Sky-Image Classification: A Benchmark of Transfer Learning, Active Learning, and Pseudo-Labeling on GCD",
-   "u": "https://arxiv.org/abs/2609.26631v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "16:06",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "On Basis Function Selection for Sparse Gaussian Process Regression",
-   "u": "https://arxiv.org/abs/2609.26624v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "15:56",
    "k": "",
    "x": ""
   }
