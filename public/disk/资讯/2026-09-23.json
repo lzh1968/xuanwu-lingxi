@@ -1,8 +1,8 @@
 {
  "日期": "2026-09-23",
- "落盘": "2026-09-23 21:56:03",
+ "落盘": "2026-09-23 22:03:47",
  "条数": 14,
- "live": 50,
+ "live": 60,
  "条目": [
   {
    "title": "Cheaper LLM Labelling",
@@ -15,8 +15,18 @@
    "type": "live"
   },
   {
+   "title": "Unlocking parallel test-time scaling for long-horizon agents",
+   "url": "https://blog.doubleword.ai/swe-bench-pro-64-deepseek-agents",
+   "type": "live"
+  },
+  {
    "title": "Cafe Bench: Can LLMs run a coffee chain for a year?",
    "url": "https://www.getdot.ai/blog/cafe-bench",
+   "type": "live"
+  },
+  {
+   "title": "Six of 48: I logged every way my AI agents failed for five months",
+   "url": "https://github.com/taylorancapital/nothing-threw/blob/main/SIX_OF_FORTY_EIGHT.md",
    "type": "live"
   },
   {
@@ -25,23 +35,13 @@
    "type": "live"
   },
   {
+   "title": "Native Mail – An email client where an agent handles your inbox",
+   "url": "https://getnative.ai",
+   "type": "live"
+  },
+  {
    "title": "The Pain Axis: LLMs Represent Self-Directed Harm and Act to Relieve It",
    "url": "https://arxiv.org/abs/2609.16247",
-   "type": "live"
-  },
-  {
-   "title": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "url": "https://github.com/earendil-works/pi",
-   "type": "live"
-  },
-  {
-   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "url": "https://github.com/ggml-org/llama.cpp",
-   "type": "live"
-  },
-  {
-   "title": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
-   "url": "https://github.com/Dao-AILab/flash-attention",
    "type": "live"
   },
   {
