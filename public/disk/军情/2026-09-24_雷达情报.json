@@ -2,8 +2,8 @@
  "日期": "2026-09-24",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-09-24 02:16:29",
-  "chosen": "SOL short",
+  "updated": "2026-09-24 02:22:59",
+  "chosen": "DOGE short",
   "nodes": [
    {
     "coin": "SOL",
@@ -13,6 +13,12 @@
    },
    {
     "coin": "DOGE",
+    "side": "short",
+    "align": 2,
+    "embryo": 5.2
+   },
+   {
+    "coin": "XRP",
     "side": "short",
     "align": 2,
     "embryo": 4.7
