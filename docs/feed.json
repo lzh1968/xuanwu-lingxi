@@ -1,9 +1,17 @@
 {
- "generated": "11:07",
- "built": "2026-09-23 11:07:59",
- "count": 9,
+ "generated": "11:32",
+ "built": "2026-09-23 11:32:56",
+ "count": 10,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Long-Horizon LLM客服代表互动中的紧急勾结",
+   "url": "https://arxiv.org/abs/2609.24967",
+   "src": "Hacker News",
+   "t": "11:07",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "通过心理测量分析测量法学硕士的行为信号",
@@ -26,7 +34,7 @@
    "url": "https://academy.dair.ai/papers/wfm-wiki-foundation-model-for-complex-agentic-reasoning-2609.18182",
    "src": "Hacker News",
    "t": "10:01",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -61,14 +69,6 @@
    "fresh": false
   },
   {
-   "type": "live",
-   "title": "Show HN: Jade Email.您域名的无限电子邮件，以及AI 智能体支持",
-   "url": "https://jade.email/",
-   "src": "Hacker News",
-   "t": "05:46",
-   "fresh": false
-  },
-  {
    "type": "article",
    "title": "今日辑要 · 2026-09-23（前沿 12 条）",
    "url": "a/digest-20260923.html",
@@ -81,6 +81,14 @@
    "title": "阴阳与反馈环",
    "url": "a/note-20260923-3.html",
    "src": "华夏哲学 · 阴阳五行",
+   "t": "2026-09-23",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "链上机制的可读性",
+   "url": "a/note-20260923-4.html",
+   "src": "Web3 · 链上世界",
    "t": "2026-09-23",
    "fresh": false
   },
@@ -105,14 +113,6 @@
    "title": "链上世界的三种信任工程",
    "url": "a/chain-trust.html",
    "src": "Web3 · 链上世界",
-   "t": "2026-09-22",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "DAO 的治理困境：投票率、代理与\"火印\"",
-   "url": "a/dao-governance.html",
-   "src": "DAO 与自治组织",
    "t": "2026-09-22",
    "fresh": false
   }
