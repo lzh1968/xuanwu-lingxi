@@ -1,5 +1,5 @@
 {
- "built": "2026-09-23 21:30:52",
+ "built": "2026-09-23 21:40:41",
  "count": 52,
  "items": [
   {
@@ -99,6 +99,38 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Benchmarking LLM query generation across SQL, Cypher, and TypeQL",
+   "u": "https://typedb.com/blog/benchmarking-llm-query-generation-across-sql-cypher-and-typeql",
+   "s": "外网新声·Hacker News",
+   "d": "21:37",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Unlocking parallel test-time scaling for long-horizon agents",
+   "u": "https://blog.doubleword.ai/swe-bench-pro-64-deepseek-agents",
+   "s": "外网新声·Hacker News",
+   "d": "21:34",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Cafe Bench: Can LLMs run a coffee chain for a year?",
+   "u": "https://www.getdot.ai/blog/cafe-bench",
+   "s": "外网新声·Hacker News",
+   "d": "21:33",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Six of 48: I logged every way my AI agents failed for five months",
+   "u": "https://github.com/taylorancapital/nothing-threw/blob/main/SIX_OF_FORTY_EIGHT.md",
+   "s": "外网新声·Hacker News",
+   "d": "21:30",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "The Gnome LLM Policy That I Want",
    "u": "https://blogs.gnome.org/alatiera/2026/09/23/the-gnome-llm-policy-that-i-want/",
    "s": "外网新声·Hacker News",
@@ -131,26 +163,10 @@
    "x": ""
   },
   {
-   "t": "Jev-rs: a Rust crate to turn a LLM to serve jev",
-   "u": "https://github.com/yijunyu/jev-rs",
-   "s": "外网新声·Hacker News",
-   "d": "20:02",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Show HN: Red-team your AI agent",
    "u": "https://www.botgauge.com",
    "s": "外网新声·Hacker News",
    "d": "19:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Jev-serve: Run latest qwen3.8, all LLM models, mlx-supported",
-   "u": "https://github.com/rreinold/jev-serve",
-   "s": "外网新声·Hacker News",
-   "d": "19:51",
    "k": "",
    "x": ""
   },
@@ -171,18 +187,18 @@
    "x": ""
   },
   {
-   "t": "Show HN: Life Forge – Open-source flight simulator for autonomous AI agents",
-   "u": "https://github.com/zariffromlatif/life-forge",
-   "s": "外网新声·Hacker News",
-   "d": "18:17",
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "13:40",
    "k": "",
    "x": ""
   },
   {
-   "t": "Meta的新Muse AI 智能体阅读我的私人消息。我从来没有要求过",
-   "u": "https://www.inc.com/jason-aten/metas-new-muse-ai-agent-read-my-private-messages-i-never-asked-it-to/91408202",
-   "s": "外网新声·Hacker News",
-   "d": "16:24",
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
+   "s": "外网新声·GitHub 新星",
+   "d": "13:34",
    "k": "",
    "x": ""
   },
@@ -191,22 +207,6 @@
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
    "d": "13:28",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "u": "https://github.com/earendil-works/pi",
-   "s": "外网新声·GitHub 新星",
-   "d": "13:28",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "13:27",
    "k": "",
    "x": ""
   },

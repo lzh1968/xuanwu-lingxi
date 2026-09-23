@@ -1,9 +1,41 @@
 {
- "generated": "21:30",
- "built": "2026-09-23 21:30:52",
+ "generated": "21:40",
+ "built": "2026-09-23 21:40:41",
  "count": 12,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Benchmarking LLM query generation across SQL, Cypher, and TypeQL",
+   "url": "https://typedb.com/blog/benchmarking-llm-query-generation-across-sql-cypher-and-typeql",
+   "src": "Hacker News",
+   "t": "21:37",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Unlocking parallel test-time scaling for long-horizon agents",
+   "url": "https://blog.doubleword.ai/swe-bench-pro-64-deepseek-agents",
+   "src": "Hacker News",
+   "t": "21:34",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Cafe Bench: Can LLMs run a coffee chain for a year?",
+   "url": "https://www.getdot.ai/blog/cafe-bench",
+   "src": "Hacker News",
+   "t": "21:33",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Six of 48: I logged every way my AI agents failed for five months",
+   "url": "https://github.com/taylorancapital/nothing-threw/blob/main/SIX_OF_FORTY_EIGHT.md",
+   "src": "Hacker News",
+   "t": "21:30",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "The Gnome LLM Policy That I Want",
@@ -35,38 +67,6 @@
    "src": "Hacker News",
    "t": "20:28",
    "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Jev-rs: a Rust crate to turn a LLM to serve jev",
-   "url": "https://github.com/yijunyu/jev-rs",
-   "src": "Hacker News",
-   "t": "20:02",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Show HN: Red-team your AI agent",
-   "url": "https://www.botgauge.com",
-   "src": "Hacker News",
-   "t": "19:58",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Jev-serve: Run latest qwen3.8, all LLM models, mlx-supported",
-   "url": "https://github.com/rreinold/jev-serve",
-   "src": "Hacker News",
-   "t": "19:51",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "元测试模拟呼叫中心的人工智能座席呼叫",
-   "url": "https://www.404media.co/meta-tests-muse-ai-agent-calls-that-are-actually-made-by-humans-in-a-call-center/",
-   "src": "Hacker News",
-   "t": "19:32",
-   "fresh": false
   },
   {
    "type": "article",
