@@ -1,6 +1,6 @@
 {
- "built": "2026-09-23 11:40:23",
- "count": 51,
+ "built": "2026-09-23 11:43:25",
+ "count": 52,
  "items": [
   {
    "t": "今日辑要 · 2026-09-23（前沿 12 条）",
@@ -17,6 +17,14 @@
    "d": "2026-09-23",
    "k": "手记,方法论",
    "x": "在自治系统里，最难的从来不是把动作写对，而是判断 该不该动 。 快变量是价格、是情绪、是每一根K线；慢变量是结构、是约束、是系统的边界条件。只盯快变量的系统，会把噪声当信号；只认慢变量的系统，又会在真实拐点前迟钝。 工程上的折中是分层的：外层用慢变量定\"能不能做\"，内层用快变量定\"此刻怎么做\"。两层之间用一条极窄的通道传递许可，而不是把两套逻辑搅在一起。 这也是为什么 固定底线 在自动化里如此重要：它不由任何一次判断决定，因此也不会被任何一次判断推翻。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "关于\"记忆\"的三种用法",
+   "u": "a/note-20260923-2.html",
+   "s": "Agent 与智能体",
+   "d": "2026-09-23",
+   "k": "手记,方法论",
+   "x": "智能体的记忆常被误解为\"存得越多越聪明\"。工程上更接近事实的是三种不同用途： 事实记忆 ：发生了什么（可核对、可追溯、可审计） 策略记忆 ：什么条件下做了什么、结果如何（用于校准，不用于信仰） 身份记忆 ：我是谁、我受什么约束（最稳定，最少改动） 把三者混在一个容器里，就会得到\"记得很牢却用不对\"的系统：把偶然当规律，把经验当身份。拆开的代价是结构更复杂；收益是每类记忆可以有自己的过期与校验规则。 一句话： 记忆的价值不在容量，而在校验方式。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "阴阳与反馈环",
@@ -190,7 +198,7 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "03:35",
+   "d": "03:43",
    "k": "",
    "x": ""
   },
@@ -253,7 +261,7 @@
   {
    "t": "SpeakerMem-R1：以扬声器为中心的多方对话双轨内存",
    "u": "https://arxiv.org/abs/2609.26780v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:56",
    "k": "",
    "x": ""
@@ -261,8 +269,32 @@
   {
    "t": "CliffCompaction：长距离编码智能体的高性价比压缩",
    "u": "https://arxiv.org/abs/2609.26779v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "SWE-Serve：对生产推理服务的代理工程进行基准测试",
+   "u": "https://arxiv.org/abs/2609.26777v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:54",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "A2M：MCP生态系统中的跟踪优化Agent劫持",
+   "u": "https://arxiv.org/abs/2609.26761v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:41",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "发展线索，而不是背景：从无战略的支架到可重复使用的专业代理",
+   "u": "https://arxiv.org/abs/2609.26760v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:40",
    "k": "",
    "x": ""
   },
@@ -275,6 +307,14 @@
    "x": ""
   },
   {
+   "t": "基于LLM的代码漏洞修复中的指标失败：实证研究和变更感知屏幕",
+   "u": "https://arxiv.org/abs/2609.26749v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:32",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Diffusion-Induced Spatial Attention Overlapping Community Detection",
    "u": "https://arxiv.org/abs/2609.26737v1",
    "s": "外网新声·arXiv cs.LG",
@@ -283,17 +323,33 @@
    "x": ""
   },
   {
+   "t": "人工智能是否节省了产品设计的时间？人工智能提示设计工作流程的随机对照实验",
+   "u": "https://arxiv.org/abs/2609.26725v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:13",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "《The Sirens 'Song: When Proximal Background Context Oversadows Distant Evidence》",
    "u": "https://arxiv.org/abs/2609.26718v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:06",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "TraceVIC: Causal Reasoning over Code Evolution for Identifying Vulnerability-Inducing Commits",
+   "u": "https://arxiv.org/abs/2609.26711v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:02",
    "k": "",
    "x": ""
   },
   {
    "t": "Train Where the Quantized Model Goes: On-Policy Distillation for Low-Bit Reasoning",
    "u": "https://arxiv.org/abs/2609.26708v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:01",
    "k": "",
    "x": ""
@@ -307,9 +363,33 @@
    "x": ""
   },
   {
+   "t": "Beyond Repeated Sampling: Learning Search Policies for LLM Reasoning",
+   "u": "https://arxiv.org/abs/2609.26704v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:56",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Measuring the Serving Stack Instead of the Model: Hidden Confounds in Local Tool-Use Evaluation",
+   "u": "https://arxiv.org/abs/2609.26693v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:48",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "From Alignment to Access Control: A Framework for GenAI Policy Enforcement",
+   "u": "https://arxiv.org/abs/2609.26682v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:40",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "A Spectral Theory of Grokking: Weight Decay induces Feature Learning",
    "u": "https://arxiv.org/abs/2609.26679v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "16:38",
    "k": "",
    "x": ""
@@ -333,80 +413,8 @@
   {
    "t": "The Delegation Blind Spot: Auditing Product Decisions from Agent Choices",
    "u": "https://arxiv.org/abs/2609.26642v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "16:15",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Label-Efficient Learning for Ground-Based Sky-Image Classification: A Benchmark of Transfer Learning, Active Learning, and Pseudo-Labeling on GCD",
-   "u": "https://arxiv.org/abs/2609.26631v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "16:06",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "On Basis Function Selection for Sparse Gaussian Process Regression",
-   "u": "https://arxiv.org/abs/2609.26624v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "15:56",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Greedy Decoding Is Not Precision-Invariant: Cross-Precision Output Divergence in LLM Inference",
-   "u": "https://arxiv.org/abs/2609.26621v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "15:54",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "MMAP: Multimodal Missing-Aware Pretraining for Longitudinal Alzheimer's Prediction",
-   "u": "https://arxiv.org/abs/2609.26617v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "15:50",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "rasbt/LLMs-from-scratch：一步步用 PyTorch 从零实现类 ChatGPT 模型",
-   "u": "https://github.com/rasbt/LLMs-from-scratch",
-   "s": "外网新声·GitHub 新星",
-   "d": "13:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "GitScholar：预测GitHub参与人工智能研究影响的数据集",
-   "u": "https://arxiv.org/abs/2609.26361v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "13:03",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "PACT：从信用分配到批评者一致性",
-   "u": "https://arxiv.org/abs/2609.26355v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "12:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "TriWorldBench：体现世界模型的三视图一致性视角",
-   "u": "https://arxiv.org/abs/2609.26314v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "12:23",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "CompKV：用于长上下文LLM推理的补偿感知KV选择",
-   "u": "https://arxiv.org/abs/2609.26300v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "12:11",
    "k": "",
    "x": ""
   }
