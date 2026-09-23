@@ -259,6 +259,8 @@
 (function(){
   var $ = function(id){ return document.getElementById(id); };
   var HOLD = 1200, PER = 521;
+  var LOCAL = 'http://127.0.0.1:8094/';        /* 🖥 本机直连台(2026-09-23 老板令) */
+  var localmode = false;
   var target = null, ready = false, opened = false;
   var t0 = 0, raf = 0, held = false;
   var pty = $('pty');
@@ -304,7 +306,10 @@
     depth = depth || 0;
     busy('門 · 正在校准线路…');
     return fetchTarget().then(function(u){
-      if (!u){ ready=false; ring(0); glow(false); hint('内厅·暂撤（原手机门户已停用，本页即唯一入口）','bad'); say('門 · 内厅暂撤 · 站体请直接浏览','bad'); return false; }
+      if (!u){ /* 🖥 2026-09-23: 外网内厅(隧道)已撤 → 本机直连兜底 */
+        localmode = true; target = LOCAL; ready = true; glow(true); ring(1);
+        hint('内厅·本机直连已就绪 · 按住火印开门','ok');
+        say('門 · 内厅(本机)已就绪 · 按住火印','ok'); return true; }
       target = u;
       return probe(u).then(function(alive){
         if (alive){ ready = true; glow(true); ring(1); say('門 · 已就绪 · 按住火印','ok'); return true; }
@@ -325,7 +330,7 @@
     $('seal').className = 'seal open'; glow(true);
     $('sealbox').className = 'sealbox hot';
     hint('令 已 出 · 門 已 開','ok'); say('火印已合 · 正在进入 · 玄武灵犀…','ok');
-    setTimeout(function(){ location.replace(target + '/m.html'); }, 820);
+    setTimeout(function(){ location.replace(localmode ? target : (target + '/m.html')); }, 820);
   }
 
   function tick(){
@@ -368,7 +373,7 @@
   document.addEventListener('dragstart', function(e){ e.preventDefault(); });
 
   $('refresh').addEventListener('click', function(){ ready=false; ring(0); glow(false); calibrate(0); });
-  $('local').addEventListener('click', function(){ location.href = 'http://127.0.0.1:8092/m.html'; });
+  $('local').addEventListener('click', function(){ location.href = LOCAL; });
 
   setInterval(function(){ if (!ready && !opened) calibrate(2); }, 15000);
 
