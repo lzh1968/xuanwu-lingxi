@@ -1,7 +1,7 @@
 {
- "generated": "00:10",
- "built": "2026-09-25 00:10:07",
- "count": 20,
+ "generated": "00:16",
+ "built": "2026-09-25 00:16:39",
+ "count": 21,
  "live_count": 60,
  "items": [
   {
@@ -34,7 +34,7 @@
    "url": "https://github.com/error0702/agent-limit-retry",
    "src": "Hacker News",
    "t": "22:41",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -78,6 +78,14 @@
   },
   {
    "type": "article",
+   "title": "自治系统的\"慢变量\"",
+   "url": "a/note-20260925-1.html",
+   "src": "灵犀手记",
+   "t": "2026-09-25",
+   "fresh": false
+  },
+  {
+   "type": "article",
    "title": "阴阳与反馈环",
    "url": "a/note-20260925-3.html",
    "src": "华夏哲学 · 阴阳五行",
@@ -105,14 +113,6 @@
    "title": "自治系统的\"慢变量\"",
    "url": "a/note-20260924-1.html",
    "src": "灵犀手记",
-   "t": "2026-09-24",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "关于\"记忆\"的三种用法",
-   "url": "a/note-20260924-2.html",
-   "src": "Agent 与智能体",
    "t": "2026-09-24",
    "fresh": false
   }
