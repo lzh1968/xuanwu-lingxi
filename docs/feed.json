@@ -1,9 +1,17 @@
 {
- "generated": "16:01",
- "built": "2026-09-24 16:01:55",
+ "generated": "16:07",
+ "built": "2026-09-24 16:07:49",
  "count": 17,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Code shouldn't know which LLM provider you're using",
+   "url": "https://github.com/BerriAI/litellm",
+   "src": "Hacker News",
+   "t": "16:06",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Investigate top humanity questions with your own AI agent",
@@ -18,7 +26,7 @@
    "url": "https://github.com/rudratoshs/buried-injections",
    "src": "Hacker News",
    "t": "14:37",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -26,7 +34,7 @@
    "url": "https://medium.com/@MirArshadTalpur/how-to-audit-not-observe-an-ai-agent-time-travel-debugging-and-drift-measurement-f755a6f4732e",
    "src": "Hacker News",
    "t": "14:34",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,6 @@
    "url": "https://transluce.org/agent-activity",
    "src": "Hacker News",
    "t": "13:21",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Meta的新Muse AI 智能体阅读我的私人消息。我从来没有要求过",
-   "url": "https://www.inc.com/jason-aten/metas-new-muse-ai-agent-read-my-private-messages-i-never-asked-it-to/91408202",
-   "src": "Hacker News",
-   "t": "12:38",
    "fresh": false
   },
   {
