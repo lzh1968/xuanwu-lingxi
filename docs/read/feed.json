@@ -1,9 +1,17 @@
 {
- "generated": "22:39",
- "built": "2026-09-24 22:39:02",
+ "generated": "22:45",
+ "built": "2026-09-24 22:45:17",
  "count": 17,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN: Resume Claude Code subagents killed by a usage limit, don't redo them",
+   "url": "https://github.com/error0702/agent-limit-retry",
+   "src": "Hacker News",
+   "t": "22:41",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "何时使用LLM",
@@ -56,14 +64,6 @@
    "type": "live",
    "title": "Our EU AI Act compliance engine has zero LLM calls, and CI blocks adding any",
    "url": "https://opencomplai.com/blog/no-llm-in-compliance-decisions",
-   "src": "Hacker News",
-   "t": "21:50",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Hard Stop: Out-of-band kernel preemption for rogue AI agents",
-   "url": "https://github.com/joseluispino/hardstop",
    "src": "Hacker News",
    "t": "21:50",
    "fresh": true
