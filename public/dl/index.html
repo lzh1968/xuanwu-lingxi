@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>玄武灵犀 · 生命体独立子系统 · 下载</title>
+<style>
+  :root{--bg:#0b0f14;--card:#121a22;--line:#1f2a35;--fg:#e6edf3;--dim:#8a94a3;--ok:#7ee2c0;--gold:#ffd76a}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.75 -apple-system,"PingFang SC","Noto Sans CJK SC",sans-serif;padding:18px}
+  .wrap{max-width:680px;margin:0 auto}
+  h1{font-size:20px;margin:6px 0 2px}
+  .sub{color:var(--dim);font-size:13px;margin-bottom:16px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin:12px 0}
+  .gt{font-weight:700;margin-bottom:8px}
+  a.btn{display:block;text-align:center;background:#123;border:1px solid #1f6b53;color:var(--ok);
+        text-decoration:none;border-radius:12px;padding:14px;font-weight:700;font-size:16px;margin:10px 0}
+  code,pre{background:#0e141a;border:1px solid var(--line);border-radius:8px;font-family:ui-monospace,Menlo,monospace;font-size:13px}
+  code{padding:1px 6px}
+  pre{padding:10px 12px;overflow-x:auto;white-space:pre-wrap}
+  .md5{color:var(--dim);font-size:12px;word-break:break-all}
+  ul{padding-left:20px;margin:6px 0}
+  .iron{color:var(--gold)}
+  .ft{color:var(--dim);font-size:12px;text-align:center;margin-top:18px;line-height:1.9}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>🐢 玄武灵犀 · 生命体独立子系统</h1>
+  <div class="sub">一键对外部署包（ZXY 模板）· 默认<strong>模拟档</strong> · <strong>不含任何密钥</strong></div>
+
+  <div class="card">
+    <div class="gt">⬇️ 下载</div>
+    <a class="btn" href="/dl/lingxi-zxy-lifeform-20260924.tar.gz" download>下载：lingxi-zxy-lifeform-20260924.tar.gz</a>
+    <div class="md5">大小 80 KB · 指纹 md5：731969e133b0116694700a9d55170dc1（下完可比对，一致即未被篡改）</div>
+  </div>
+
+  <div class="card">
+    <div class="gt">🚀 三步装好（新机 · 同款 NextFlowOSAi / Termux 环境）</div>
+<pre># 1) 解包（放到手机任意位置）
+mkdir -p ~/灵犀独立子系统 && tar -xzf lingxi-zxy-lifeform-20260924.tar.gz -C ~/灵犀独立子系统
+
+# 2) 一键部署（先只校验 + 就位，安全）
+cd ~/灵犀独立子系统/生命体_独立子系统ZXY_* && bash _安装_一键部署.sh
+
+# 3) 跑起来（引擎 + 常驻自巡 · 掉线自愈）
+bash _安装_一键部署.sh --带自巡</pre>
+    <div class="sub" style="margin:8px 0 0">看活：<code>tail -f ~/.openclaw/workspace/skills/sniper-engine/data_v2/logs/sub_zxy_paper.log</code></div>
+  </div>
+
+  <div class="card">
+    <div class="gt">🧩 包里有什么</div>
+    <ul>
+      <li><code>_子引擎.py</code> —— 引擎驱动（读内核、管账本、跑下单/平仓流水线）</li>
+      <li><code>子引擎/_内核_zxy.py</code> —— <strong>专属内核</strong>（择时/择币/风控/兜底都在里面）</li>
+      <li><code>_隔离防护墙.py</code> —— 一实体一锁 + 账本白名单（防双开、防串账）</li>
+      <li><code>_自巡_独立子系统.sh</code> —— 自包含自巡（60 秒点卯，引擎掉了自动拉起）</li>
+      <li><code>_安装_一键部署.sh</code> —— 校验 → 就位 → 试跑自检 → 启动</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <div class="gt">📋 铁律（务必先看）</div>
+    <ul>
+      <li class="iron">本包<strong>不含任何密钥</strong>：没有交易所 Key、没有账户 → 物理上下不了真单，随便传、随便装。</li>
+      <li>要接<strong>真钱</strong>：新机<strong>自配自家 Key</strong>（写入 <code>子引擎/accounts.json</code>）+ 同意码，且<strong>旧机必须先停</strong>（同一账户双开＝双向乱下单，必炸）。</li>
+      <li>模拟档只读公开行情 + 本地记账，<strong>不动一分钱</strong>。</li>
+      <li>要停：<code>pkill -f "_子引擎.py zxy"</code> 停引擎；<code>pkill -f "_自巡_独立子系统.sh"</code> 停自巡。</li>
+    </ul>
+  </div>
+
+  <div class="ft">玄武灵犀 · 生命体独立子系统（ZXY 模板）· 打包于 2026-09-24<br>
+  安装说明与包内 <code>_说明_新机部署.md</code> 一致</div>
+</div>
+</body>
+</html>
