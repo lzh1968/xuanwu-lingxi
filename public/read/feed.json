@@ -1,12 +1,12 @@
 {
- "generated": "23:56",
- "built": "2026-09-24 23:56:26",
- "count": 17,
+ "generated": "00:02",
+ "built": "2026-09-25 00:02:55",
+ "count": 19,
  "live_count": 60,
  "items": [
   {
    "type": "live",
-   "title": "Agent-Manager: Reviewing code while an AI agent is still rewriting it",
+   "title": "Agent-Manager：AI 智能体仍在重写代码时查看代码",
    "url": "https://agent-manager.dev/writing/live-review-race/",
    "src": "Hacker News",
    "t": "23:38",
@@ -14,7 +14,7 @@
   },
   {
    "type": "live",
-   "title": "Show HN: Enclawed – A hard-fork hardening framework for AI agent gateways",
+   "title": "Show HN：Enclawed – AI 智能体网关的硬分叉硬化框架",
    "url": "https://enclawed.com/",
    "src": "Hacker News",
    "t": "23:35",
@@ -22,7 +22,7 @@
   },
   {
    "type": "live",
-   "title": "Paperclip: Open-source orchestration for teams of AI agents",
+   "title": "Paperclip：智能体团队的开源编排",
    "url": "https://github.com/paperclipai/paperclip",
    "src": "Hacker News",
    "t": "23:24",
@@ -30,7 +30,7 @@
   },
   {
    "type": "live",
-   "title": "Show HN: Resume Claude Code subagents killed by a usage limit, don't redo them",
+   "title": "Show HN：恢复因使用限制而终止的Claude Code子代理，不要重做它们",
    "url": "https://github.com/error0702/agent-limit-retry",
    "src": "Hacker News",
    "t": "22:41",
@@ -46,7 +46,7 @@
   },
   {
    "type": "live",
-   "title": "Show HN: PlaceCall (YC W26) – agentic API to call businesses and get things done",
+   "title": "Show HN：PlaceCall (YC W26) –呼叫企业并完成任务的代理API",
    "url": "https://news.ycombinator.com/item?id=49831231",
    "src": "Hacker News",
    "t": "22:36",
@@ -54,18 +54,34 @@
   },
   {
    "type": "live",
-   "title": "Unlocking parallel test-time scaling for long-horizon agents",
+   "title": "为长时间代理解锁并行测试时间缩放",
    "url": "https://blog.doubleword.ai/swe-bench-pro-64-deepseek-agents",
    "src": "Hacker News",
    "t": "22:30",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
-   "title": "Dear AI Agent Swarms",
+   "title": "尊敬的AI智能体群体",
    "url": "https://smales.com/dear-ai-agents/",
    "src": "Hacker News",
    "t": "22:21",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "今日辑要 · 2026-09-25（前沿 12 条）",
+   "url": "a/digest-20260925.html",
+   "src": "Agent 与智能体",
+   "t": "2026-09-25",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "阴阳与反馈环",
+   "url": "a/note-20260925-3.html",
+   "src": "华夏哲学 · 阴阳五行",
+   "t": "2026-09-25",
    "fresh": false
   },
   {
@@ -98,22 +114,6 @@
    "url": "a/note-20260924-3.html",
    "src": "华夏哲学 · 阴阳五行",
    "t": "2026-09-24",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "链上机制的可读性",
-   "url": "a/note-20260924-4.html",
-   "src": "Web3 · 链上世界",
-   "t": "2026-09-24",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "今日辑要 · 2026-09-23（前沿 12 条）",
-   "url": "a/digest-20260923.html",
-   "src": "Agent 与智能体",
-   "t": "2026-09-23",
    "fresh": false
   }
  ]
