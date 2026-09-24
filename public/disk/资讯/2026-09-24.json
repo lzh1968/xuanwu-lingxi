@@ -1,9 +1,19 @@
 {
  "日期": "2026-09-24",
- "落盘": "2026-09-24 08:10:26",
+ "落盘": "2026-09-24 08:16:37",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "AI-CAD：用于机械工程CAD的OSS多Agent线束",
+   "url": "https://github.com/ai-cad-labs/ai-cad",
+   "type": "live"
+  },
+  {
+   "title": "Sol 6和Opus 5.5在代理CAD线束上的比较",
+   "url": "https://www.partforge.ai/blog/2026-09-23-new-model-day",
+   "type": "live"
+  },
   {
    "title": "Show HN：通过一个界面提交异步LLM批处理作业",
    "url": "https://github.com/gojiplus/batchlane",
@@ -32,16 +42,6 @@
   {
    "title": "我通过故意打破模型来对LLM量化进行压力测试",
    "url": "https://github.com/gracejackson-sudo/quant-delta-predictor",
-   "type": "live"
-  },
-  {
-   "title": "智能体目标劫持：攻击者如何利用代理自己的工具来对抗它",
-   "url": "https://darkmarc.substack.com/p/hijacking-ai-agents-how-an-agents",
-   "type": "live"
-  },
-  {
-   "title": "Agent Etna –智能体的自动分期环境和回归编译器",
-   "url": "https://www.agentetna.com/",
    "type": "live"
   },
   {
