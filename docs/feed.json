@@ -1,7 +1,7 @@
 {
- "generated": "00:03",
- "built": "2026-09-25 00:03:16",
- "count": 19,
+ "generated": "00:09",
+ "built": "2026-09-25 00:09:39",
+ "count": 20,
  "live_count": 60,
  "items": [
   {
@@ -42,7 +42,7 @@
    "url": "https://extralongdivision.com/articles/when-to-use-an-llm/",
    "src": "Hacker News",
    "t": "22:37",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -50,7 +50,7 @@
    "url": "https://news.ycombinator.com/item?id=49831231",
    "src": "Hacker News",
    "t": "22:36",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -86,6 +86,14 @@
   },
   {
    "type": "article",
+   "title": "链上机制的可读性",
+   "url": "a/note-20260925-4.html",
+   "src": "Web3 · 链上世界",
+   "t": "2026-09-25",
+   "fresh": false
+  },
+  {
+   "type": "article",
    "title": "今日辑要 · 2026-09-24（前沿 12 条）",
    "url": "a/digest-20260924.html",
    "src": "Agent 与智能体",
@@ -105,14 +113,6 @@
    "title": "关于\"记忆\"的三种用法",
    "url": "a/note-20260924-2.html",
    "src": "Agent 与智能体",
-   "t": "2026-09-24",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "阴阳与反馈环",
-   "url": "a/note-20260924-3.html",
-   "src": "华夏哲学 · 阴阳五行",
    "t": "2026-09-24",
    "fresh": false
   }
