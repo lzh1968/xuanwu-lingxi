@@ -1,9 +1,17 @@
 {
- "generated": "18:32",
- "built": "2026-09-24 18:32:12",
+ "generated": "18:38",
+ "built": "2026-09-24 18:38:03",
  "count": 17,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN: I built AgeDB, a database for AI agents to store context and data",
+   "url": "https://github.com/sivsivsree/agedb",
+   "src": "Hacker News",
+   "t": "18:34",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "LLM-friendliness as a metric: porting 20 languages with an LLM",
@@ -26,7 +34,7 @@
    "url": "https://grigio.org/assbench-is-all-you-need-to-benchmark-llm-harness-intelligence-s/",
    "src": "Hacker News",
    "t": "17:02",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,6 @@
    "url": "https://medium.com/@MirArshadTalpur/how-to-audit-not-observe-an-ai-agent-time-travel-debugging-and-drift-measurement-f755a6f4732e",
    "src": "Hacker News",
    "t": "14:34",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Show HN: I asked 5 LLMs 10k questions and indexed every domain they cited",
-   "url": "https://citegeo.uvansa.com",
-   "src": "Hacker News",
-   "t": "14:27",
    "fresh": false
   },
   {
