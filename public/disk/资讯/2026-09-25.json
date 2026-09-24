@@ -1,120 +1,78 @@
 {
- "generated": "00:03",
- "built": "2026-09-25 00:03:16",
- "count": 19,
- "live_count": 60,
- "items": [
+ "日期": "2026-09-25",
+ "落盘": "2026-09-25 00:03:00",
+ "条数": 14,
+ "live": 60,
+ "条目": [
   {
-   "type": "live",
    "title": "Agent-Manager：AI 智能体仍在重写代码时查看代码",
    "url": "https://agent-manager.dev/writing/live-review-race/",
-   "src": "Hacker News",
-   "t": "23:38",
-   "fresh": true
+   "type": "live"
   },
   {
-   "type": "live",
    "title": "Show HN：Enclawed – AI 智能体网关的硬分叉硬化框架",
    "url": "https://enclawed.com/",
-   "src": "Hacker News",
-   "t": "23:35",
-   "fresh": true
+   "type": "live"
   },
   {
-   "type": "live",
    "title": "Paperclip：智能体团队的开源编排",
    "url": "https://github.com/paperclipai/paperclip",
-   "src": "Hacker News",
-   "t": "23:24",
-   "fresh": true
+   "type": "live"
   },
   {
-   "type": "live",
    "title": "Show HN：恢复因使用限制而终止的Claude Code子代理，不要重做它们",
    "url": "https://github.com/error0702/agent-limit-retry",
-   "src": "Hacker News",
-   "t": "22:41",
-   "fresh": true
+   "type": "live"
   },
   {
-   "type": "live",
    "title": "何时使用LLM",
    "url": "https://extralongdivision.com/articles/when-to-use-an-llm/",
-   "src": "Hacker News",
-   "t": "22:37",
-   "fresh": true
+   "type": "live"
   },
   {
-   "type": "live",
    "title": "Show HN：PlaceCall (YC W26) –呼叫企业并完成任务的代理API",
    "url": "https://news.ycombinator.com/item?id=49831231",
-   "src": "Hacker News",
-   "t": "22:36",
-   "fresh": true
+   "type": "live"
   },
   {
-   "type": "live",
    "title": "为长时间代理解锁并行测试时间缩放",
    "url": "https://blog.doubleword.ai/swe-bench-pro-64-deepseek-agents",
-   "src": "Hacker News",
-   "t": "22:30",
-   "fresh": false
+   "type": "live"
   },
   {
-   "type": "live",
    "title": "尊敬的AI智能体群体",
    "url": "https://smales.com/dear-ai-agents/",
-   "src": "Hacker News",
-   "t": "22:21",
-   "fresh": false
+   "type": "live"
   },
   {
-   "type": "article",
    "title": "今日辑要 · 2026-09-25（前沿 12 条）",
    "url": "a/digest-20260925.html",
-   "src": "Agent 与智能体",
-   "t": "2026-09-25",
-   "fresh": false
+   "type": "article"
   },
   {
-   "type": "article",
    "title": "阴阳与反馈环",
    "url": "a/note-20260925-3.html",
-   "src": "华夏哲学 · 阴阳五行",
-   "t": "2026-09-25",
-   "fresh": false
+   "type": "article"
   },
   {
-   "type": "article",
    "title": "今日辑要 · 2026-09-24（前沿 12 条）",
    "url": "a/digest-20260924.html",
-   "src": "Agent 与智能体",
-   "t": "2026-09-24",
-   "fresh": false
+   "type": "article"
   },
   {
-   "type": "article",
    "title": "自治系统的\"慢变量\"",
    "url": "a/note-20260924-1.html",
-   "src": "灵犀手记",
-   "t": "2026-09-24",
-   "fresh": false
+   "type": "article"
   },
   {
-   "type": "article",
    "title": "关于\"记忆\"的三种用法",
    "url": "a/note-20260924-2.html",
-   "src": "Agent 与智能体",
-   "t": "2026-09-24",
-   "fresh": false
+   "type": "article"
   },
   {
-   "type": "article",
    "title": "阴阳与反馈环",
    "url": "a/note-20260924-3.html",
-   "src": "华夏哲学 · 阴阳五行",
-   "t": "2026-09-24",
-   "fresh": false
+   "type": "article"
   }
  ]
 }
