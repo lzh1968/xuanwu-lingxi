@@ -1,9 +1,17 @@
 {
- "generated": "23:23",
- "built": "2026-09-24 23:23:46",
+ "generated": "23:29",
+ "built": "2026-09-24 23:29:46",
  "count": 17,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Paperclip: Open-source orchestration for teams of AI agents",
+   "url": "https://github.com/paperclipai/paperclip",
+   "src": "Hacker News",
+   "t": "23:24",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Show HN: Resume Claude Code subagents killed by a usage limit, don't redo them",
@@ -59,14 +67,6 @@
    "src": "Hacker News",
    "t": "22:09",
    "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Our EU AI Act compliance engine has zero LLM calls, and CI blocks adding any",
-   "url": "https://opencomplai.com/blog/no-llm-in-compliance-decisions",
-   "src": "Hacker News",
-   "t": "21:50",
-   "fresh": false
   },
   {
    "type": "article",
