@@ -1,41 +1,41 @@
 {
  "日期": "2026-09-24",
- "落盘": "2026-09-24 23:29:52",
+ "落盘": "2026-09-24 23:36:33",
  "内存报表": {
-  "时间": "2026-09-24 23:29:52",
-  "受托进程数": 17,
+  "时间": "2026-09-24 23:36:33",
+  "受托进程数": 14,
   "网关": {
-   "进程号": "24580",
-   "内存MB": 703.5,
+   "进程号": "4019",
+   "内存MB": 545.5,
    "线程": 11,
-   "堆上限": "2048"
+   "堆上限": "512"
   },
   "实例数": 1,
   "全机MemTotal": "11469MB",
-  "全机MemAvailable": "5604MB",
+  "全机MemAvailable": "5744MB",
   "全机SwapTotal": "7110MB",
-  "全机SwapFree": "4071MB",
-  "探活": "000"
+  "全机SwapFree": "4548MB",
+  "探活": "200"
  },
  "断线统计": {
-  "今日断线次数": 21,
+  "今日断线次数": 24,
   "今日最长断线秒": 196,
   "近2小时真停摆(≥90秒)": 0,
-  "维护窗口": 8
+  "维护窗口": 9
  },
  "日志体量KB": {
-  "gateway_guard.log": 126.6,
-  "gateway_outage.jsonl": 5.3,
-  "gw_boot.out": 695.6,
+  "gateway_guard.log": 127.3,
+  "gateway_outage.jsonl": 5.4,
+  "gw_boot.out": 697.7,
   "gw_run.out": 71.8,
-  "网关停摆取证.log": 16.1
+  "网关停摆取证.log": 17.3
  },
  "会话索引(不含正文)": [
   {
    "档": "d7d7070b-2cac-4db1-8edb-8c679bb51eed.jsonl",
-   "大小KB": 4317.3,
-   "行数": 1809,
-   "最后改动": "2026-09-24 23:28:45"
+   "大小KB": 4333.6,
+   "行数": 1820,
+   "最后改动": "2026-09-24 23:32:46"
   },
   {
    "档": "fce2f3c2-7ffb-44a2-90cf-db07cd739ea9.jsonl",
@@ -93,33 +93,6 @@
   }
  ],
  "停摆取证(近段)": [
-  "  CPU    18.6s python3 -u _母体实盘.py --mode paper",
-  "── 停摆取证 2026-09-24 00:15:04 (取码 000) ──",
-  "  网关 VmRSS:\t  555064 kB",
-  "  网关 VmSwap:\t       0 kB",
-  "  网关 Threads:\t11",
-  "  Mem:           11469        5386        1037          35        5045        5836",
-  "  Swap:           7110        2443        4667",
-  "  CPU   131.2s openclaw-gateway",
-  "  CPU    17.2s python3 -u _母体实盘.py --mode paper",
-  "  CPU    15.0s python3 -u _母体实盘.py --mode paper",
-  "── 停摆取证 2026-09-24 02:20:20 (取码 000) ──",
-  "  Mem:           11469        5339        1135         209        4994        5702",
-  "  Swap:           7110        2436        4674",
-  "  CPU    96.2s python3 -u _母体实盘.py --mode live_test100 --consent 奈工复开实盘·$10",
-  "  CPU    89.5s python3 -u _母体实盘.py --mode paper",
-  "  CPU    86.0s bash _守护总管.sh",
-  "── 停摆取证 2026-09-24 02:22:41 (取码 000) ──",
-  "  Mem:           11469        4983        1459         209        5026        6070",
-  "  Swap:           7110        2362        4748",
-  "  CPU    99.2s python3 -u _母体实盘.py --mode live_test100 --consent 奈工复开实盘·$10",
-  "  CPU    91.9s python3 -u _母体实盘.py --mode paper",
-  "  CPU    87.4s bash _守护总管.sh",
-  "── 停摆取证 2026-09-24 02:24:58 (取码 000) ──",
-  "  网关 VmRSS:\t  542632 kB",
-  "  网关 VmSwap:\t       0 kB",
-  "  网关 Threads:\t11",
-  "  Mem:           11469        5486         969         209        5012        5563",
   "  Swap:           7110        2352        4758",
   "  CPU   162.7s openclaw-gateway",
   "  CPU   102.1s python3 -u _母体实盘.py --mode live_test100 --consent 奈工复开实盘·$10",
@@ -252,6 +225,33 @@
   "  Swap:           7110        2909        4201",
   "  CPU   243.6s cloudflared tunnel --url http://127.0.0.1:8092 --no-autoupda",
   "  CPU    42.4s python3 panel_secure.py 8092",
-  "  CPU    26.3s bash _停摆看护.sh"
+  "  CPU    26.3s bash _停摆看护.sh",
+  "── 停摆取证 2026-09-24 23:30:05 (取码 000) ──",
+  "  网关 VmRSS:\t  723140 kB",
+  "  网关 VmSwap:\t       0 kB",
+  "  网关 Threads:\t11",
+  "  Mem:           11469        5508         723         228        5237        5527",
+  "  Swap:           7110        3026        4084",
+  "  CPU   243.8s cloudflared tunnel --url http://127.0.0.1:8092 --no-autoupda",
+  "  CPU    67.0s openclaw-gateway",
+  "  CPU    42.6s python3 panel_secure.py 8092",
+  "── 停摆取证 2026-09-24 23:31:29 (取码 000) ──",
+  "  网关 VmRSS:\t  820092 kB",
+  "  网关 VmSwap:\t       0 kB",
+  "  网关 Threads:\t11",
+  "  Mem:           11469        5615         621         228        5232        5420",
+  "  Swap:           7110        3016        4094",
+  "  CPU   244.1s cloudflared tunnel --url http://127.0.0.1:8092 --no-autoupda",
+  "  CPU   156.9s openclaw-gateway",
+  "  CPU    42.8s python3 panel_secure.py 8092",
+  "── 停摆取证 2026-09-24 23:36:16 (取码 000) ──",
+  "  网关 VmRSS:\t  541548 kB",
+  "  网关 VmSwap:\t       0 kB",
+  "  网关 Threads:\t11",
+  "  Mem:           11469        5265        1026         220        5177        5756",
+  "  Swap:           7110        2648        4462",
+  "  CPU   245.0s cloudflared tunnel --url http://127.0.0.1:8092 --no-autoupda",
+  "  CPU   168.3s openclaw-gateway",
+  "  CPU    43.3s python3 panel_secure.py 8092"
  ]
 }
