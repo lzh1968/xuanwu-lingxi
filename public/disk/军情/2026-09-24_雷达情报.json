@@ -2,7 +2,7 @@
  "日期": "2026-09-24",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-09-24 14:02:25",
+  "updated": "2026-09-24 14:08:31",
   "chosen": "DOGE long",
   "nodes": [
    {
@@ -10,6 +10,12 @@
     "side": "long",
     "align": 2,
     "embryo": 3.2
+   },
+   {
+    "coin": "LINK",
+    "side": "long",
+    "align": 1,
+    "embryo": 2.2
    }
   ]
  }
