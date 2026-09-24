@@ -1,6 +1,6 @@
 {
- "built": "2026-09-25 00:17:20",
- "count": 61,
+ "built": "2026-09-25 00:23:51",
+ "count": 62,
  "items": [
   {
    "t": "今日辑要 · 2026-09-25（前沿 12 条）",
@@ -17,6 +17,14 @@
    "d": "2026-09-25",
    "k": "手记,方法论",
    "x": "在自治系统里，最难的从来不是把动作写对，而是判断 该不该动 。 快变量是价格、是情绪、是每一根K线；慢变量是结构、是约束、是系统的边界条件。只盯快变量的系统，会把噪声当信号；只认慢变量的系统，又会在真实拐点前迟钝。 工程上的折中是分层的：外层用慢变量定\"能不能做\"，内层用快变量定\"此刻怎么做\"。两层之间用一条极窄的通道传递许可，而不是把两套逻辑搅在一起。 这也是为什么 固定底线 在自动化里如此重要：它不由任何一次判断决定，因此也不会被任何一次判断推翻。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "关于\"记忆\"的三种用法",
+   "u": "a/note-20260925-2.html",
+   "s": "Agent 与智能体",
+   "d": "2026-09-25",
+   "k": "手记,方法论",
+   "x": "智能体的记忆常被误解为\"存得越多越聪明\"。工程上更接近事实的是三种不同用途： 事实记忆 ：发生了什么（可核对、可追溯、可审计） 策略记忆 ：什么条件下做了什么、结果如何（用于校准，不用于信仰） 身份记忆 ：我是谁、我受什么约束（最稳定，最少改动） 把三者混在一个容器里，就会得到\"记得很牢却用不对\"的系统：把偶然当规律，把经验当身份。拆开的代价是结构更复杂；收益是每类记忆可以有自己的过期与校验规则。 一句话： 记忆的价值不在容量，而在校验方式。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "阴阳与反馈环",
@@ -286,7 +294,7 @@
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "16:16",
+   "d": "16:22",
    "k": "",
    "x": ""
   },
@@ -435,7 +443,7 @@
    "x": ""
   },
   {
-   "t": "LEAP-CBF: A Safety Filter for Uncertain Systems with Least-Effort Adversarial Potentials",
+   "t": "LEAP-CBF：具有最小对抗潜力的不确定系统的安全过滤器",
    "u": "https://arxiv.org/abs/2609.28364v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "16:36",
@@ -443,7 +451,7 @@
    "x": ""
   },
   {
-   "t": "MicroQonv: Reshaping Convolution Tensors for Efficient Microscaling in Training and Inference",
+   "t": "MicroQonv：重塑卷积张量，在训练和推理中实现高效微观测量",
    "u": "https://arxiv.org/abs/2609.28358v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "16:30",
@@ -451,7 +459,7 @@
    "x": ""
   },
   {
-   "t": "Local Geometric Mixing via Dobrushin Contraction with Applications to Diffusion Path Monte Carlo and the Proximal Sampler",
+   "t": "通过Dobrushin收缩进行局部几何混合，并应用于扩散路径Monte Carlo和近端采样器",
    "u": "https://arxiv.org/abs/2609.28338v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "16:17",
@@ -459,7 +467,7 @@
    "x": ""
   },
   {
-   "t": "An Open Pipeline and Dashboard for Systemic-Risk Evidence under the EU AI Act's Code of Practice",
+   "t": "根据《欧盟人工智能法案》的行为准则，系统性风险证据的开放管道和仪表板",
    "u": "https://arxiv.org/abs/2609.28335v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "16:13",
@@ -467,7 +475,7 @@
    "x": ""
   },
   {
-   "t": "Learning the Cost of Reliable Inference",
+   "t": "学习可靠推理的成本",
    "u": "https://arxiv.org/abs/2609.28322v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "16:01",
@@ -483,7 +491,7 @@
    "x": ""
   },
   {
-   "t": "PBLH Estimation from Satellite Radiances via a Dual-Encoder Transformer",
+   "t": "通过双编码器变压器从卫星辐射进行的PBLH估计",
    "u": "https://arxiv.org/abs/2609.28286v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "15:33",
