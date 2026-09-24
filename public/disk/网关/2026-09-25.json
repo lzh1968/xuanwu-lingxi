@@ -1,34 +1,34 @@
 {
  "日期": "2026-09-25",
- "落盘": "2026-09-25 03:42:12",
+ "落盘": "2026-09-25 03:48:10",
  "内存报表": {
-  "时间": "2026-09-25 03:42:12",
+  "时间": "2026-09-25 03:48:10",
   "受托进程数": 14,
   "网关": {
-   "进程号": "4019",
-   "内存MB": 648.8,
+   "进程号": "29447",
+   "内存MB": 726.4,
    "线程": 11,
-   "堆上限": "512"
+   "堆上限": "2048"
   },
   "实例数": 1,
   "全机MemTotal": "11469MB",
-  "全机MemAvailable": "5818MB",
+  "全机MemAvailable": "5936MB",
   "全机SwapTotal": "7110MB",
-  "全机SwapFree": "5346MB",
-  "探活": "200"
+  "全机SwapFree": "4982MB",
+  "探活": "000"
  },
  "断线统计": {
-  "今日断线次数": 0,
+  "今日断线次数": 1,
   "今日最长断线秒": 0,
   "近2小时真停摆(≥90秒)": 0,
   "维护窗口": 0
  },
  "日志体量KB": {
-  "gateway_guard.log": 130.2,
+  "gateway_guard.log": 130.3,
   "gateway_outage.jsonl": 5.5,
-  "gw_boot.out": 855.2,
+  "gw_boot.out": 856.4,
   "gw_run.out": 71.8,
-  "网关停摆取证.log": 17.7
+  "网关停摆取证.log": 18.1
  },
  "会话索引(不含正文)": [
   {
@@ -75,9 +75,9 @@
   },
   {
    "档": "d7d7070b-2cac-4db1-8edb-8c679bb51eed.jsonl",
-   "大小KB": 444.9,
-   "行数": 243,
-   "最后改动": "2026-09-25 03:41:42"
+   "大小KB": 445.9,
+   "行数": 244,
+   "最后改动": "2026-09-25 03:45:53"
   },
   {
    "档": "d6d1241a-b01c-4fd8-8ce7-c6b12283f085.jsonl",
@@ -99,12 +99,6 @@
   }
  ],
  "停摆取证(近段)": [
-  "  Swap:           7110        2327        4783",
-  "  CPU   108.8s python3 -u _母体实盘.py --mode live_test100 --consent 奈工复开实盘·$10",
-  "  CPU   101.8s python3 -u _母体实盘.py --mode paper",
-  "  CPU    92.2s bash _守护总管.sh",
-  "── 停摆取证 2026-09-24 02:45:19 (取码 000) ──",
-  "  网关 VmRSS:\t  520816 kB",
   "  网关 VmSwap:\t       0 kB",
   "  网关 Threads:\t11",
   "  Mem:           11469        5730         561         209        5177        5339",
@@ -258,6 +252,12 @@
   "  Swap:           7110        2512        4597",
   "  CPU   362.4s openclaw-gateway",
   "  CPU   248.3s cloudflared tunnel --url http://127.0.0.1:8092 --no-autoupda",
-  "  CPU    43.7s python3 panel_secure.py 8092"
+  "  CPU    43.7s python3 panel_secure.py 8092",
+  "── 停摆取证 2026-09-25 03:46:02 (取码 000) ──",
+  "  Mem:           11469        4602        1335         107        5531        6629",
+  "  Swap:           7110        1938        5172",
+  "  CPU   297.6s cloudflared tunnel --url http://127.0.0.1:8092 --no-autoupda",
+  "  CPU   217.1s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
+  "  CPU   140.3s python3 -u _子引擎.py wen --mode paper"
  ]
 }
