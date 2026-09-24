@@ -1,5 +1,5 @@
 {
- "built": "2026-09-24 10:41:33",
+ "built": "2026-09-24 10:47:31",
  "count": 57,
  "items": [
   {
@@ -238,7 +238,7 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "02:33",
+   "d": "02:47",
    "k": "",
    "x": ""
   },
@@ -246,7 +246,7 @@
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "02:29",
+   "d": "02:41",
    "k": "",
    "x": ""
   },
@@ -283,9 +283,17 @@
    "x": ""
   },
   {
-   "t": "Can LLMs Reason About Runtime Behavior? A Repository-Level Dynamic Benchmark",
-   "u": "https://arxiv.org/abs/2609.28449v1",
-   "s": "外网新声·arXiv cs.AI",
+   "t": "On the Diffusibility of High-Dimensional Latents",
+   "u": "https://arxiv.org/abs/2609.28473v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Nonequilibrium Phases of Repulsive Self-Attention: Chaos, Attention Condensation, and Emergent Locality",
+   "u": "https://arxiv.org/abs/2609.28448v1",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:46",
    "k": "",
    "x": ""
@@ -293,7 +301,7 @@
   {
    "t": "Order-Invariant Answers, Order-Sensitive Representations in Mathematical Reasoning",
    "u": "https://arxiv.org/abs/2609.28442v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:40",
    "k": "",
    "x": ""
@@ -301,55 +309,63 @@
   {
    "t": "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
    "u": "https://arxiv.org/abs/2609.28416v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:18",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Memory Attention",
+   "u": "https://arxiv.org/abs/2609.28399v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:04",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Fine-Tuning LLMs for Translation: General Forgetting Mitigation Does Not Preserve MT-Specific Instruction Following",
+   "u": "https://arxiv.org/abs/2609.28395v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:02",
    "k": "",
    "x": ""
   },
   {
    "t": "When and Where to Trust the Teacher: Unifying On-Policy Distillation and GRPO through Entropy-Calibrated Credit Assignment",
    "u": "https://arxiv.org/abs/2609.28385v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "16:58",
    "k": "",
    "x": ""
   },
   {
-   "t": "Shopping by algorithm: How agentic AI deploys human heuristics as a surrogate consumer",
-   "u": "https://arxiv.org/abs/2609.28372v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:47",
+   "t": "ForgetMimic: Motion Unlearning for Reinforcement Learning Humanoid Control",
+   "u": "https://arxiv.org/abs/2609.28378v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:54",
    "k": "",
    "x": ""
   },
   {
-   "t": "AnchorReasoning: A Visual Grounding and Causal Reasoning Dataset in Long-Tail Autonomous Driving Scenarios",
-   "u": "https://arxiv.org/abs/2609.28366v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:38",
+   "t": "LEAP-CBF: A Safety Filter for Uncertain Systems with Least-Effort Adversarial Potentials",
+   "u": "https://arxiv.org/abs/2609.28364v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:36",
    "k": "",
    "x": ""
   },
   {
-   "t": "MicroQonv: Reshaping Convolution Tensors for Efficient Microscaling in Training and Inference",
-   "u": "https://arxiv.org/abs/2609.28358v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:30",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "An Open Pipeline and Dashboard for Systemic-Risk Evidence under the EU AI Act's Code of Practice",
-   "u": "https://arxiv.org/abs/2609.28335v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:13",
+   "t": "Local Geometric Mixing via Dobrushin Contraction with Applications to Diffusion Path Monte Carlo and the Proximal Sampler",
+   "u": "https://arxiv.org/abs/2609.28338v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:17",
    "k": "",
    "x": ""
   },
   {
    "t": "Learning the Cost of Reliable Inference",
    "u": "https://arxiv.org/abs/2609.28322v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "16:01",
    "k": "",
    "x": ""
@@ -363,98 +379,82 @@
    "x": ""
   },
   {
-   "t": "Shutdown Sabotage Propensities in Multi-Agent Systems",
-   "u": "https://arxiv.org/abs/2609.28274v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "15:27",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "MemBodied: Recurrent Associative Memory for Vision-Language-Action Models",
-   "u": "https://arxiv.org/abs/2609.28256v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "15:19",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Controlling Collectives of AI Agents in Reasoning Space with Spatial Transformers",
-   "u": "https://arxiv.org/abs/2609.28247v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "15:08",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Beyond Poetry: Can Large Language Models Generate Classical Arabic Maqamat?",
-   "u": "https://arxiv.org/abs/2609.28245v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "15:08",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "From Agent Output to Authorized Transition",
-   "u": "https://arxiv.org/abs/2609.28216v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "14:50",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "PASTABench: Proactive Assessment of Sequential Trajectories for Agent Safety",
-   "u": "https://arxiv.org/abs/2609.28197v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "14:34",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "SoLiD26：用于机器学习的原子间电位的第一原理固液界面数据集",
-   "u": "https://arxiv.org/abs/2609.28013v1",
+   "t": "PBLH Estimation from Satellite Radiances via a Dual-Encoder Transformer",
+   "u": "https://arxiv.org/abs/2609.28286v1",
    "s": "外网新声·arXiv cs.LG",
-   "d": "12:36",
+   "d": "15:33",
    "k": "",
    "x": ""
   },
   {
-   "t": "评估受检索和硬件限制的土耳其域文档的开源权重 LLM",
-   "u": "https://arxiv.org/abs/2609.28007v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "12:33",
+   "t": "Compliant with Local Controls, Collectively Discriminatory. A Governance Architecture for Multi-Agent AI in Regulated Finance",
+   "u": "https://arxiv.org/abs/2609.27994v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "12:25",
    "k": "",
    "x": ""
   },
   {
-   "t": "共享的全球KV，具有特定于图层的本地历史记录",
-   "u": "https://arxiv.org/abs/2609.28006v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "12:33",
+   "t": "Evaluation of pre-trained models for pedagogical assessment of novel AI-assisted educational questions",
+   "u": "https://arxiv.org/abs/2609.27749v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "12:00",
    "k": "",
    "x": ""
   },
   {
-   "t": "从失败中学习：小语言模型工具使用智能体的异构图内存",
-   "u": "https://arxiv.org/abs/2609.28003v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "12:31",
+   "t": "山姆·奥尔特曼在联合国安理会的讲话",
+   "u": "https://openai.com/index/sam-altman-un-security-council-remarks",
+   "s": "外网新声·OpenAI 官方",
+   "d": "12:00",
    "k": "",
    "x": ""
   },
   {
-   "t": "视觉变换器特征空间的任务诱导黎曼度量",
-   "u": "https://arxiv.org/abs/2609.27988v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "12:17",
+   "t": "Ringg的AI 智能体通过OpenAI解决高达65%的客户呼叫",
+   "u": "https://openai.com/index/ringg",
+   "s": "外网新声·OpenAI 官方",
+   "d": "12:00",
    "k": "",
    "x": ""
   },
   {
-   "t": "PCQC：针对多轮医疗对话的特权反事实问题积分",
-   "u": "https://arxiv.org/abs/2609.27987v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "12:15",
+   "t": "The Path Matters: Evaluating Small Language Models Beyond Answer Accuracy in KGQA",
+   "u": "https://arxiv.org/abs/2609.27669v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "10:38",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Evolutionary Stability Does Not Guarantee Learning Accessibility: A Multi-Agent Reinforcement Learning Perspective on Cooperation Emergence",
+   "u": "https://arxiv.org/abs/2609.27664v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "10:35",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "FLEET: From Logits Entropy to Enhanced Trajectories in Text Generation",
+   "u": "https://arxiv.org/abs/2609.27657v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "10:26",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "MentalHealthBench简介",
+   "u": "https://openai.com/index/introducing-mentalhealthbench",
+   "s": "外网新声·OpenAI 官方",
+   "d": "10:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Compliant AI Infrastructure for Regulated Finance: A tiered multi-agent framework with DLT audit trails for financial operations in DACH",
+   "u": "https://arxiv.org/abs/2609.27632v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "09:54",
    "k": "",
    "x": ""
   }
