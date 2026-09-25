@@ -1,7 +1,23 @@
 {
- "built": "2026-09-25 23:53:59",
- "count": 62,
+ "built": "2026-09-26 00:00:44",
+ "count": 64,
  "items": [
+  {
+   "t": "今日辑要 · 2026-09-26（前沿 12 条）",
+   "u": "a/digest-20260926.html",
+   "s": "Agent 与智能体",
+   "d": "2026-09-26",
+   "k": "辑要,每日,前沿",
+   "x": "今日从公开源汇得 12 条与人工智能、智能体系统、链上机制与数字经济相关的条目，按方向归拢如下。所有条目均保留来源与原文链接， 只作线索与机制观察 ，不代表任何结论。 Agent 与智能体 Cargo atlas – A compiler accurate Rust code map for AI coding agents <span class=\"src\" Hacker News · 23:39</span [查看原文](https://github.com/TheBlitzschnell/cargo atlas) 200B Tokens Later: A Month of Letting AI Agents Decompile MW2 <span class=\"src\" Hacker News · 23:29</span [查看原文](https://momo5502.com/pos"
+  },
+  {
+   "t": "自治系统的\"慢变量\"",
+   "u": "a/note-20260926-1.html",
+   "s": "灵犀手记",
+   "d": "2026-09-26",
+   "k": "手记,方法论",
+   "x": "在自治系统里，最难的从来不是把动作写对，而是判断 该不该动 。 快变量是价格、是情绪、是每一根K线；慢变量是结构、是约束、是系统的边界条件。只盯快变量的系统，会把噪声当信号；只认慢变量的系统，又会在真实拐点前迟钝。 工程上的折中是分层的：外层用慢变量定\"能不能做\"，内层用快变量定\"此刻怎么做\"。两层之间用一条极窄的通道传递许可，而不是把两套逻辑搅在一起。 这也是为什么 固定底线 在自动化里如此重要：它不由任何一次判断决定，因此也不会被任何一次判断推翻。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
   {
    "t": "今日辑要 · 2026-09-25（前沿 12 条）",
    "u": "a/digest-20260925.html",
@@ -179,7 +195,7 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "Cargo-atlas – A compiler-accurate Rust code map for AI coding agents",
+   "t": "Cargo-atlas -用于AI编码智能体的编译器精确Rust代码映射",
    "u": "https://github.com/TheBlitzschnell/cargo-atlas",
    "s": "外网新声·Hacker News",
    "d": "23:39",
@@ -187,7 +203,7 @@
    "x": ""
   },
   {
-   "t": "200B Tokens Later: A Month of Letting AI Agents Decompile MW2",
+   "t": "200B Tokens Later：让智能体反编译MW2的一个月",
    "u": "https://momo5502.com/posts/2026-08-17-mw2-decompilation/",
    "s": "外网新声·Hacker News",
    "d": "23:29",
@@ -195,7 +211,7 @@
    "x": ""
   },
   {
-   "t": "LLM Policies: Progress at All Costs",
+   "t": "法学硕士政策：不惜一切代价取得进展",
    "u": "https://diegoe.be/2026/09/25/llm-policies-progress-at-all-costs/",
    "s": "外网新声·Hacker News",
    "d": "22:45",
@@ -203,7 +219,7 @@
    "x": ""
   },
   {
-   "t": "What's still manual when debugging AI agents?",
+   "t": "在调试AI 智能体时，还有什么是手动操作的？",
    "u": "https://www.traser.dev/",
    "s": "外网新声·Hacker News",
    "d": "22:43",
@@ -211,7 +227,7 @@
    "x": ""
   },
   {
-   "t": "Giving AI agents a voice at the table",
+   "t": "让智能体在谈判桌上发出声音",
    "u": "https://www.highfidelity.com/blog/giving-our-a.i.-agents-a-voice-at-the-table",
    "s": "外网新声·Hacker News",
    "d": "22:32",
@@ -219,7 +235,7 @@
    "x": ""
   },
   {
-   "t": "Entropy-Based Guided Collaboration in Heterogeneous LLM Multi-Agent Systems",
+   "t": "异构LLM多Agent系统中基于熵的引导式协作",
    "u": "https://arxiv.org/abs/2602.13639",
    "s": "外网新声·Hacker News",
    "d": "22:12",
@@ -227,7 +243,7 @@
    "x": ""
   },
   {
-   "t": "A Jevlike using an escalation model to route between a classifier and an LLM",
+   "t": "使用升级模型在分类器和LLM之间路由的Jevlike",
    "u": "https://yogthos.net/posts/2026-09-24-introducing-lev.html",
    "s": "外网新声·Hacker News",
    "d": "21:57",
@@ -235,7 +251,7 @@
    "x": ""
   },
   {
-   "t": "Show HN: Sifthound – self-hosted, Tavily-compatible search API for AI agents",
+   "t": "Show HN: Sifthound –适用于AI 智能体的自托管、Tavily兼容搜索API",
    "u": "https://github.com/khsarvar/sifthound",
    "s": "外网新声·Hacker News",
    "d": "21:42",
@@ -278,6 +294,22 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
+   "d": "15:58",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
+   "s": "外网新声·GitHub 新星",
+   "d": "15:58",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "obra/superpowers —有效的代理技能框架和软件开发方法。",
+   "u": "https://github.com/obra/superpowers",
+   "s": "外网新声·GitHub 新星",
    "d": "15:53",
    "k": "",
    "x": ""
@@ -287,14 +319,6 @@
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
    "d": "15:51",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "u": "https://github.com/earendil-works/pi",
-   "s": "外网新声·GitHub 新星",
-   "d": "15:39",
    "k": "",
    "x": ""
   },
@@ -319,14 +343,6 @@
    "u": "https://github.com/motif-Labs/motif",
    "s": "外网新声·Hacker News",
    "d": "06:31",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "obra/superpowers —有效的代理技能框架和软件开发方法。",
-   "u": "https://github.com/obra/superpowers",
-   "s": "外网新声·GitHub 新星",
-   "d": "03:16",
    "k": "",
    "x": ""
   },

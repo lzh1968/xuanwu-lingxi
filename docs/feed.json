@@ -1,12 +1,12 @@
 {
- "generated": "23:53",
- "built": "2026-09-25 23:53:59",
- "count": 22,
+ "generated": "00:00",
+ "built": "2026-09-26 00:00:44",
+ "count": 24,
  "live_count": 60,
  "items": [
   {
    "type": "live",
-   "title": "Cargo-atlas – A compiler-accurate Rust code map for AI coding agents",
+   "title": "Cargo-atlas -用于AI编码智能体的编译器精确Rust代码映射",
    "url": "https://github.com/TheBlitzschnell/cargo-atlas",
    "src": "Hacker News",
    "t": "23:39",
@@ -14,7 +14,7 @@
   },
   {
    "type": "live",
-   "title": "200B Tokens Later: A Month of Letting AI Agents Decompile MW2",
+   "title": "200B Tokens Later：让智能体反编译MW2的一个月",
    "url": "https://momo5502.com/posts/2026-08-17-mw2-decompilation/",
    "src": "Hacker News",
    "t": "23:29",
@@ -22,7 +22,7 @@
   },
   {
    "type": "live",
-   "title": "LLM Policies: Progress at All Costs",
+   "title": "法学硕士政策：不惜一切代价取得进展",
    "url": "https://diegoe.be/2026/09/25/llm-policies-progress-at-all-costs/",
    "src": "Hacker News",
    "t": "22:45",
@@ -30,7 +30,7 @@
   },
   {
    "type": "live",
-   "title": "What's still manual when debugging AI agents?",
+   "title": "在调试AI 智能体时，还有什么是手动操作的？",
    "url": "https://www.traser.dev/",
    "src": "Hacker News",
    "t": "22:43",
@@ -38,7 +38,7 @@
   },
   {
    "type": "live",
-   "title": "Giving AI agents a voice at the table",
+   "title": "让智能体在谈判桌上发出声音",
    "url": "https://www.highfidelity.com/blog/giving-our-a.i.-agents-a-voice-at-the-table",
    "src": "Hacker News",
    "t": "22:32",
@@ -46,7 +46,7 @@
   },
   {
    "type": "live",
-   "title": "Entropy-Based Guided Collaboration in Heterogeneous LLM Multi-Agent Systems",
+   "title": "异构LLM多Agent系统中基于熵的引导式协作",
    "url": "https://arxiv.org/abs/2602.13639",
    "src": "Hacker News",
    "t": "22:12",
@@ -54,7 +54,7 @@
   },
   {
    "type": "live",
-   "title": "A Jevlike using an escalation model to route between a classifier and an LLM",
+   "title": "使用升级模型在分类器和LLM之间路由的Jevlike",
    "url": "https://yogthos.net/posts/2026-09-24-introducing-lev.html",
    "src": "Hacker News",
    "t": "21:57",
@@ -62,10 +62,26 @@
   },
   {
    "type": "live",
-   "title": "Show HN: Sifthound – self-hosted, Tavily-compatible search API for AI agents",
+   "title": "Show HN: Sifthound –适用于AI 智能体的自托管、Tavily兼容搜索API",
    "url": "https://github.com/khsarvar/sifthound",
    "src": "Hacker News",
    "t": "21:42",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "今日辑要 · 2026-09-26（前沿 12 条）",
+   "url": "a/digest-20260926.html",
+   "src": "Agent 与智能体",
+   "t": "2026-09-26",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "自治系统的\"慢变量\"",
+   "url": "a/note-20260926-1.html",
+   "src": "灵犀手记",
+   "t": "2026-09-26",
    "fresh": false
   },
   {
@@ -98,22 +114,6 @@
    "url": "a/note-20260925-3.html",
    "src": "华夏哲学 · 阴阳五行",
    "t": "2026-09-25",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "链上机制的可读性",
-   "url": "a/note-20260925-4.html",
-   "src": "Web3 · 链上世界",
-   "t": "2026-09-25",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "今日辑要 · 2026-09-24（前沿 12 条）",
-   "url": "a/digest-20260924.html",
-   "src": "Agent 与智能体",
-   "t": "2026-09-24",
    "fresh": false
   }
  ]
