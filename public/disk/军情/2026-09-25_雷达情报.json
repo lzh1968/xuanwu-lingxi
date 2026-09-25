@@ -2,14 +2,32 @@
  "日期": "2026-09-25",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-09-25 20:48:27",
-  "chosen": "DOGE long",
+  "updated": "2026-09-25 20:54:23",
+  "chosen": "SOL long",
   "nodes": [
    {
-    "coin": "DOGE",
+    "coin": "SOL",
     "side": "long",
     "align": 3,
-    "embryo": 1.89
+    "embryo": 2.7
+   },
+   {
+    "coin": "LINK",
+    "side": "long",
+    "align": 3,
+    "embryo": 2.1
+   },
+   {
+    "coin": "XRP",
+    "side": "long",
+    "align": 3,
+    "embryo": 2.7
+   },
+   {
+    "coin": "ADA",
+    "side": "long",
+    "align": 3,
+    "embryo": 2.7
    }
   ]
  }
