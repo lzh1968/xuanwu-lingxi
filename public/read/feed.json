@@ -1,9 +1,17 @@
 {
- "generated": "03:01",
- "built": "2026-09-26 03:01:07",
+ "generated": "03:07",
+ "built": "2026-09-26 03:07:17",
  "count": 27,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "龙虾：将vibecoding重命名为LLM （ Greasemonkey脚本）",
+   "url": "https://greasyfork.org/en/scripts",
+   "src": "Hacker News",
+   "t": "03:01",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "询问HN：您使用哪种工作模式？",
@@ -34,7 +42,7 @@
    "url": "https://medium.com/@roeehersh/i-gave-my-ai-agent-one-harmless-permission-it-became-a-backdoor-for-everyone-728acf52e37e",
    "src": "Hacker News",
    "t": "01:33",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,6 @@
    "url": "https://news.ycombinator.com/item?id=49847249",
    "src": "Hacker News",
    "t": "01:12",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Prompt2ELF：LLM编写了一个没有编译器的449字节HTTP服务器",
-   "url": "https://github.com/faustinoaq/prompt2elf",
-   "src": "Hacker News",
-   "t": "01:08",
    "fresh": false
   },
   {
