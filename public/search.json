@@ -1,5 +1,5 @@
 {
- "built": "2026-09-25 09:41:12",
+ "built": "2026-09-25 09:47:00",
  "count": 62,
  "items": [
   {
@@ -270,7 +270,7 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "01:40",
+   "d": "01:46",
    "k": "",
    "x": ""
   },
@@ -347,6 +347,62 @@
    "x": ""
   },
   {
+   "t": "CORDIAL: Calibrating Ordinal LLM Outputs from Few Labels",
+   "u": "https://arxiv.org/abs/2609.29807v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "13:41",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "An Analytical Theory of Auxiliary Learning",
+   "u": "https://arxiv.org/abs/2609.29774v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "13:18",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "TopU-LBVS: A Realistic Multi Target Benchmark for Ligand Based Virtual Screening",
+   "u": "https://arxiv.org/abs/2609.29740v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "12:56",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Rufus-Air: An Open LLM Post-Training Recipe",
+   "u": "https://arxiv.org/abs/2609.29421v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "11:45",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Neural Transport Nested Sampling",
+   "u": "https://arxiv.org/abs/2609.29413v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "11:34",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "RD-JEPA: Predictive latent pretraining for few-trajectory transfer across reaction--diffusion equations",
+   "u": "https://arxiv.org/abs/2609.29403v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "11:28",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ICE: Task-Aligned Clifford Latent Fields for Multimodal Graph Foundation Models",
+   "u": "https://arxiv.org/abs/2609.29398v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "11:24",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "AI-CAD：用于机械工程CAD的OSS多Agent线束",
    "u": "https://github.com/ai-cad-labs/ai-cad",
    "s": "外网新声·Hacker News",
@@ -355,25 +411,9 @@
    "x": ""
   },
   {
-   "t": "论高维潜伏点的扩散性",
-   "u": "https://arxiv.org/abs/2609.28473v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "LLM可以推理运行时行为吗？存储库级动态基准",
    "u": "https://arxiv.org/abs/2609.28449v1",
    "s": "外网新声·arXiv cs.AI",
-   "d": "17:46",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "排斥性自我注意的非平衡阶段：混乱、注意力凝结和紧急局部性",
-   "u": "https://arxiv.org/abs/2609.28448v1",
-   "s": "外网新声·arXiv cs.LG",
    "d": "17:46",
    "k": "",
    "x": ""
@@ -395,34 +435,10 @@
    "x": ""
   },
   {
-   "t": "内存注意力",
-   "u": "https://arxiv.org/abs/2609.28399v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:04",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "微调翻译的LLM：一般遗忘缓解措施不能保留MT特定的指令",
-   "u": "https://arxiv.org/abs/2609.28395v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:02",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "何时何地信任老师：通过熵校准的学分分配统一政策蒸馏和GRPO",
    "u": "https://arxiv.org/abs/2609.28385v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "16:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ForgetMimic：用于强化学习人形控制的运动去学习",
-   "u": "https://arxiv.org/abs/2609.28378v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "16:54",
    "k": "",
    "x": ""
   },
@@ -443,26 +459,10 @@
    "x": ""
   },
   {
-   "t": "LEAP-CBF：具有最小对抗潜力的不确定系统的安全过滤器",
-   "u": "https://arxiv.org/abs/2609.28364v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "16:36",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "MicroQonv：重塑卷积张量，在训练和推理中实现高效微观测量",
    "u": "https://arxiv.org/abs/2609.28358v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "16:30",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "通过Dobrushin收缩进行局部几何混合，并应用于扩散路径Monte Carlo和近端采样器",
-   "u": "https://arxiv.org/abs/2609.28338v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "16:17",
    "k": "",
    "x": ""
   },
@@ -483,18 +483,18 @@
    "x": ""
   },
   {
-   "t": "使用安全的服务器端内存推进专用AI计算",
-   "u": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "16:00",
+   "t": "关闭多Agent系统中的破坏倾向",
+   "u": "https://arxiv.org/abs/2609.28274v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "15:27",
    "k": "",
    "x": ""
   },
   {
-   "t": "通过双编码器变压器从卫星辐射进行的PBLH估计",
-   "u": "https://arxiv.org/abs/2609.28286v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "15:33",
+   "t": "MemBodied：视觉-语言-动作模型的循环关联记忆",
+   "u": "https://arxiv.org/abs/2609.28256v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "15:19",
    "k": "",
    "x": ""
   }
