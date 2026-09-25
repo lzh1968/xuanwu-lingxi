@@ -1,6 +1,6 @@
 {
- "built": "2026-09-26 00:01:15",
- "count": 64,
+ "built": "2026-09-26 00:07:40",
+ "count": 65,
  "items": [
   {
    "t": "今日辑要 · 2026-09-26（前沿 12 条）",
@@ -17,6 +17,14 @@
    "d": "2026-09-26",
    "k": "手记,方法论",
    "x": "在自治系统里，最难的从来不是把动作写对，而是判断 该不该动 。 快变量是价格、是情绪、是每一根K线；慢变量是结构、是约束、是系统的边界条件。只盯快变量的系统，会把噪声当信号；只认慢变量的系统，又会在真实拐点前迟钝。 工程上的折中是分层的：外层用慢变量定\"能不能做\"，内层用快变量定\"此刻怎么做\"。两层之间用一条极窄的通道传递许可，而不是把两套逻辑搅在一起。 这也是为什么 固定底线 在自动化里如此重要：它不由任何一次判断决定，因此也不会被任何一次判断推翻。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "关于\"记忆\"的三种用法",
+   "u": "a/note-20260926-2.html",
+   "s": "Agent 与智能体",
+   "d": "2026-09-26",
+   "k": "手记,方法论",
+   "x": "智能体的记忆常被误解为\"存得越多越聪明\"。工程上更接近事实的是三种不同用途： 事实记忆 ：发生了什么（可核对、可追溯、可审计） 策略记忆 ：什么条件下做了什么、结果如何（用于校准，不用于信仰） 身份记忆 ：我是谁、我受什么约束（最稳定，最少改动） 把三者混在一个容器里，就会得到\"记得很牢却用不对\"的系统：把偶然当规律，把经验当身份。拆开的代价是结构更复杂；收益是每类记忆可以有自己的过期与校验规则。 一句话： 记忆的价值不在容量，而在校验方式。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "今日辑要 · 2026-09-25（前沿 12 条）",
@@ -259,7 +267,7 @@
    "x": ""
   },
   {
-   "t": "I Ran 255 AI Agents to Make Three Comics. The Line Between Slop and Good Is",
+   "t": "我运行了255个人工智能智能体，制作了三部漫画。Slop和Good之间的界限是",
    "u": "https://thoughts.jock.pl/p/ai-slop-comic-experiment-2026",
    "s": "外网新声·Hacker News",
    "d": "21:02",
@@ -267,7 +275,7 @@
    "x": ""
   },
   {
-   "t": "LLMs are universal translators (2023)",
+   "t": "法学硕士是通用翻译人员（ 2023年）",
    "u": "https://lil.law.harvard.edu/blog/2023/11/29/llms-are-universal-translators/",
    "s": "外网新声·Hacker News",
    "d": "21:02",
@@ -275,7 +283,7 @@
    "x": ""
   },
   {
-   "t": "Show HN: Hard Stop: Kernel-level preemption for autonomous AI agents",
+   "t": "Show HN: Hard Stop：自主智能体的内核级抢占",
    "u": "https://arxiv.org/abs/2609.29808",
    "s": "外网新声·Hacker News",
    "d": "21:01",
@@ -283,7 +291,7 @@
    "x": ""
   },
   {
-   "t": "Kilo for JetBrains is now a multi-agent control room",
+   "t": "KILO for JetBrains现在是一个多代理控制室",
    "u": "https://blog.kilo.ai/p/kilo-for-jetbrains-a-multi-agent-control-room",
    "s": "外网新声·Hacker News",
    "d": "19:46",
@@ -294,7 +302,7 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "15:58",
+   "d": "16:06",
    "k": "",
    "x": ""
   },
@@ -302,7 +310,7 @@
    "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
    "u": "https://github.com/earendil-works/pi",
    "s": "外网新声·GitHub 新星",
-   "d": "15:58",
+   "d": "16:05",
    "k": "",
    "x": ""
   },
@@ -387,7 +395,7 @@
    "x": ""
   },
   {
-   "t": "LLM Agents Can Easily Tamper With Their Own Traces",
+   "t": "法学硕士经纪人可以轻松篡改自己的痕迹",
    "u": "https://arxiv.org/abs/2609.30266v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
@@ -395,7 +403,7 @@
    "x": ""
   },
   {
-   "t": "Temporal Gradient Inversion for Private Trajectory Reconstruction in Embodied Reinforcement Learning",
+   "t": "用于实体强化学习中私有轨迹重建的时间梯度反演",
    "u": "https://arxiv.org/abs/2609.30258v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:59",
@@ -403,7 +411,7 @@
    "x": ""
   },
   {
-   "t": "Agentic Detection of Online Conspiracies",
+   "t": "代理检测在线阴谋",
    "u": "https://arxiv.org/abs/2609.30250v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:58",
@@ -411,7 +419,7 @@
    "x": ""
   },
   {
-   "t": "RAPID: Robot Agentic Programming from Demonstrations",
+   "t": "RAPID：来自演示的机器人代理编程",
    "u": "https://arxiv.org/abs/2609.30249v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:58",
