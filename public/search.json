@@ -1,6 +1,6 @@
 {
- "built": "2026-09-26 00:08:00",
- "count": 65,
+ "built": "2026-09-26 00:14:16",
+ "count": 66,
  "items": [
   {
    "t": "今日辑要 · 2026-09-26（前沿 12 条）",
@@ -25,6 +25,14 @@
    "d": "2026-09-26",
    "k": "手记,方法论",
    "x": "智能体的记忆常被误解为\"存得越多越聪明\"。工程上更接近事实的是三种不同用途： 事实记忆 ：发生了什么（可核对、可追溯、可审计） 策略记忆 ：什么条件下做了什么、结果如何（用于校准，不用于信仰） 身份记忆 ：我是谁、我受什么约束（最稳定，最少改动） 把三者混在一个容器里，就会得到\"记得很牢却用不对\"的系统：把偶然当规律，把经验当身份。拆开的代价是结构更复杂；收益是每类记忆可以有自己的过期与校验规则。 一句话： 记忆的价值不在容量，而在校验方式。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "阴阳与反馈环",
+   "u": "a/note-20260926-3.html",
+   "s": "华夏哲学 · 阴阳五行",
+   "d": "2026-09-26",
+   "k": "手记,方法论",
+   "x": "把阴阳放进控制系统里看，它更像一对 符号相反的反馈环 ：一个负责扩张，一个负责收敛。 只有扩张的环，系统会在顺境中自我强化直到崩塌；只有收敛的环，系统会在谨慎中失去一切机会。传统讲\"阴阳相生\"，工程讲\"增益平衡\"——说的是同一件事： 别让任一侧单独主导太久。 所以好的自适应并非不断调参，而是在两侧都留出可回退的余地：进要能退，退也要能再进；底线固定，节奏可变。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "今日辑要 · 2026-09-25（前沿 12 条）",
@@ -299,10 +307,26 @@
    "x": ""
   },
   {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:13",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "16:06",
+   "d": "16:13",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "u": "https://github.com/Dao-AILab/flash-attention",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:08",
    "k": "",
    "x": ""
   },
@@ -319,14 +343,6 @@
    "u": "https://github.com/obra/superpowers",
    "s": "外网新声·GitHub 新星",
    "d": "15:53",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "15:51",
    "k": "",
    "x": ""
   },
@@ -367,14 +383,6 @@
    "u": "https://odyssey.systems/introducing-agora-2",
    "s": "外网新声·Hacker News",
    "d": "00:47",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
-   "u": "https://github.com/Dao-AILab/flash-attention",
-   "s": "外网新声·GitHub 新星",
-   "d": "22:50",
    "k": "",
    "x": ""
   },
@@ -427,7 +435,7 @@
    "x": ""
   },
   {
-   "t": "Rolling-WAM: World Action Models with Rolling Imagination",
+   "t": "Rolling-WAM：具有滚动想象力的世界动作模型",
    "u": "https://arxiv.org/abs/2609.30247v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:58",
@@ -435,7 +443,7 @@
    "x": ""
   },
   {
-   "t": "Coding Agents for Generalized Task and Motion Planning Problems",
+   "t": "广义任务和运动规划问题的编码代理",
    "u": "https://arxiv.org/abs/2609.30233v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:53",
@@ -443,7 +451,7 @@
    "x": ""
   },
   {
-   "t": "To Trust or Not to Trust: Retrieval-Augmented Fact Checking in Speech",
+   "t": "信任或不信任：检索-言语中的强化事实核查",
    "u": "https://arxiv.org/abs/2609.30227v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:50",
@@ -451,7 +459,7 @@
    "x": ""
   },
   {
-   "t": "PoEM: Predicting RL Outcomes from Existing Policies",
+   "t": "PoEM：从现有政策预测RL结果",
    "u": "https://arxiv.org/abs/2609.30226v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:50",
@@ -459,7 +467,7 @@
    "x": ""
   },
   {
-   "t": "Requirement-Bound Verified Commissioning: A Frozen Four-Billion-Parameter Local Model as a Candidate Generator under an External Acceptance Layer with Verification and Release Auth",
+   "t": "受要求约束的已验证调试：冻结的四十亿参数本地模型作为外部验收层下的候选生成器，具有验证和发布授权",
    "u": "https://arxiv.org/abs/2609.30219v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:46",
@@ -467,7 +475,7 @@
    "x": ""
   },
   {
-   "t": "Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure",
+   "t": "仪器监视器逃避在普通任务压力下出现",
    "u": "https://arxiv.org/abs/2609.30217v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:46",
@@ -475,7 +483,7 @@
    "x": ""
   },
   {
-   "t": "The Alignment Illusion in Multimodal Large Language Models",
+   "t": "多模态大模型中的对齐错觉",
    "u": "https://arxiv.org/abs/2609.30210v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:42",
@@ -483,7 +491,7 @@
    "x": ""
   },
   {
-   "t": "A Living Benchmark for Information Retrieval from Electronic Health Records",
+   "t": "从电子健康记录中检索信息的活基准",
    "u": "https://arxiv.org/abs/2609.30205v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:41",
