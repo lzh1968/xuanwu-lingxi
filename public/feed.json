@@ -1,9 +1,17 @@
 {
- "generated": "16:44",
- "built": "2026-09-25 16:44:50",
+ "generated": "16:50",
+ "built": "2026-09-25 16:50:43",
  "count": 22,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Who Is Open Source About?",
+   "url": "https://blog.glyph.im/2026/09/who-is-open-source-about.html",
+   "src": "Hacker News",
+   "t": "16:46",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Show HN: Can an AI agent bypass a post-quantum signed authorization policy?",
@@ -18,7 +26,7 @@
    "url": "https://infere.com/blog/what-is-llm-as-a-judge/",
    "src": "Hacker News",
    "t": "15:19",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,6 @@
    "url": "https://www.tilert.ai/blog/tilert-amd-agentx.html",
    "src": "Hacker News",
    "t": "13:30",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Show HN: SelMem – selective reconstructive memory for LLMs",
-   "url": "https://github.com/jbsalles/Selmem",
-   "src": "Hacker News",
-   "t": "13:28",
    "fresh": false
   },
   {
