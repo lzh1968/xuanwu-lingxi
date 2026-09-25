@@ -1,9 +1,17 @@
 {
- "generated": "22:30",
- "built": "2026-09-25 22:30:15",
+ "generated": "22:36",
+ "built": "2026-09-25 22:36:25",
  "count": 22,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Giving AI agents a voice at the table",
+   "url": "https://www.highfidelity.com/blog/giving-our-a.i.-agents-a-voice-at-the-table",
+   "src": "Hacker News",
+   "t": "22:32",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Entropy-Based Guided Collaboration in Heterogeneous LLM Multi-Agent Systems",
@@ -34,7 +42,7 @@
    "url": "https://thoughts.jock.pl/p/ai-slop-comic-experiment-2026",
    "src": "Hacker News",
    "t": "21:02",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -42,7 +50,7 @@
    "url": "https://lil.law.harvard.edu/blog/2023/11/29/llms-are-universal-translators/",
    "src": "Hacker News",
    "t": "21:02",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -50,7 +58,7 @@
    "url": "https://arxiv.org/abs/2609.29808",
    "src": "Hacker News",
    "t": "21:01",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,6 @@
    "url": "https://play.google.com/store/apps/details?id=com.gads.hamilton&hl=en_US",
    "src": "Hacker News",
    "t": "20:49",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "IronWarden – A microsecond PII firewall for streaming LLMs in safe Rust",
-   "url": "https://github.com/Somnerd/IronWarden",
-   "src": "Hacker News",
-   "t": "20:35",
    "fresh": false
   },
   {
