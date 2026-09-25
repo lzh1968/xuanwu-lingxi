@@ -1,6 +1,6 @@
 {
- "built": "2026-09-26 00:14:40",
- "count": 66,
+ "built": "2026-09-26 00:20:58",
+ "count": 67,
  "items": [
   {
    "t": "今日辑要 · 2026-09-26（前沿 12 条）",
@@ -33,6 +33,14 @@
    "d": "2026-09-26",
    "k": "手记,方法论",
    "x": "把阴阳放进控制系统里看，它更像一对 符号相反的反馈环 ：一个负责扩张，一个负责收敛。 只有扩张的环，系统会在顺境中自我强化直到崩塌；只有收敛的环，系统会在谨慎中失去一切机会。传统讲\"阴阳相生\"，工程讲\"增益平衡\"——说的是同一件事： 别让任一侧单独主导太久。 所以好的自适应并非不断调参，而是在两侧都留出可回退的余地：进要能退，退也要能再进；底线固定，节奏可变。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "链上机制的可读性",
+   "u": "a/note-20260926-4.html",
+   "s": "Web3 · 链上世界",
+   "d": "2026-09-26",
+   "k": "手记,方法论",
+   "x": "评价一条链上机制，可以先问三个可读性问题： 1. 谁承担最后风险？ （收益来自哪里，亏损落到谁头上） 2. 信息何时公开？ （先看到的人是否天然占优） 3. 退出是否顺畅？ （极端情形下能不能有序离场） 这三个问题不涉及任何价格判断，却能筛掉绝大部分\"看起来精巧\"的设计。机制研究的价值也正在于此： 把不可读的风险变成可讨论的条款。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "今日辑要 · 2026-09-25（前沿 12 条）",
@@ -310,7 +318,7 @@
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "16:13",
+   "d": "16:20",
    "k": "",
    "x": ""
   },
@@ -318,7 +326,7 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "16:13",
+   "d": "16:19",
    "k": "",
    "x": ""
   },
@@ -499,7 +507,7 @@
    "x": ""
   },
   {
-   "t": "Beyond Compression: Training Latent Representations for Stable Long-Horizon Rollout in Neural Surrogate Solvers",
+   "t": "超越压缩：在神经代孕求解器中为稳定的长视野部署训练潜在表示",
    "u": "https://arxiv.org/abs/2609.30198v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:36",
@@ -507,7 +515,7 @@
    "x": ""
   },
   {
-   "t": "SAGE: Mitigating Long-Horizon Reasoning Biases via Topological Guidance",
+   "t": "SAGE：通过拓扑引导缓解长视野推理偏差",
    "u": "https://arxiv.org/abs/2609.30192v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:33",
@@ -515,7 +523,7 @@
    "x": ""
   },
   {
-   "t": "Jev-Mobile: Jev as an Executor for Mobile GUI Agents",
+   "t": "Jev-Mobile：Jev作为移动GUI智能体的执行者",
    "u": "https://arxiv.org/abs/2609.30186v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:30",
@@ -523,7 +531,7 @@
    "x": ""
   },
   {
-   "t": "Search-Aware Reinforcement Learning for Multi-Component Query Understanding in Roblox Game Search",
+   "t": "Roblox游戏搜索中多组件查询理解的搜索感知强化学习",
    "u": "https://arxiv.org/abs/2609.30177v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:26",
