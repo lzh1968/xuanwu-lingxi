@@ -1,9 +1,14 @@
 {
  "日期": "2026-09-26",
- "落盘": "2026-09-26 01:04:56",
+ "落盘": "2026-09-26 01:11:07",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "Prompt2ELF：LLM编写了一个没有编译器的449字节HTTP服务器",
+   "url": "https://github.com/faustinoaq/prompt2elf",
+   "type": "live"
+  },
   {
    "title": "Show HN：用于查找潜在客户的网络搜索代理",
    "url": "https://agentjesse.ai/",
@@ -37,11 +42,6 @@
   {
    "title": "异构LLM多Agent系统中基于熵的引导式协作",
    "url": "https://arxiv.org/abs/2602.13639",
-   "type": "live"
-  },
-  {
-   "title": "使用升级模型在分类器和LLM之间路由的Jevlike",
-   "url": "https://yogthos.net/posts/2026-09-24-introducing-lev.html",
    "type": "live"
   },
   {
