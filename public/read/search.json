@@ -1,5 +1,5 @@
 {
- "built": "2026-09-25 09:53:15",
+ "built": "2026-09-25 09:59:02",
  "count": 62,
  "items": [
   {
@@ -267,18 +267,18 @@
    "x": ""
   },
   {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "01:52",
+   "d": "01:58",
    "k": "",
    "x": ""
   },
   {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "01:51",
+   "d": "01:56",
    "k": "",
    "x": ""
   },
@@ -331,6 +331,14 @@
    "x": ""
   },
   {
+   "t": "关闭多Agent系统中的破坏倾向",
+   "u": "https://arxiv.org/abs/2609.28274",
+   "s": "外网新声·Hacker News",
+   "d": "18:07",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
    "u": "https://github.com/affaan-m/ECC",
    "s": "外网新声·GitHub 新星",
@@ -347,10 +355,58 @@
    "x": ""
   },
   {
+   "t": "Hard Stop: Kernel-Level Preemption and Containment for Rogue Agentic Execution",
+   "u": "https://arxiv.org/abs/2609.29808v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "13:42",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "CORDIAL: Calibrating Ordinal LLM Outputs from Few Labels",
    "u": "https://arxiv.org/abs/2609.29807v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "13:41",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "SEEK: Skill-Routed Evaluation with Evolvable Knowledge for Industrial Search",
+   "u": "https://arxiv.org/abs/2609.29803v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "13:39",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Learning to Ideate for Scientific Impact",
+   "u": "https://arxiv.org/abs/2609.29802v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "13:37",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Benchmarking and Domain Adaptation of Automatic Speech Recognition (ASR) for Adolescent Health Communication in Ghanaian Languages",
+   "u": "https://arxiv.org/abs/2609.29798v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "13:36",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Hallucination Neurons and Where to Find Them: An Investigation into the existence of Hallucination Neurons",
+   "u": "https://arxiv.org/abs/2609.29781v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "13:23",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Prefilling the Reasoning Channel: Output-Prefix Attacks on Reasoning LLMs",
+   "u": "https://arxiv.org/abs/2609.29775v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "13:18",
    "k": "",
    "x": ""
   },
@@ -363,10 +419,50 @@
    "x": ""
   },
   {
+   "t": "Breaking the Environment Wall: Evolving LLM Agent Environments for Recursive Self-Improvement",
+   "u": "https://arxiv.org/abs/2609.29773v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "13:17",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Between the Commits: Process, Error, and Claim Reliability in a Wholly AI-Authored Codebase",
+   "u": "https://arxiv.org/abs/2609.29744v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "12:59",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "TopU-LBVS: A Realistic Multi Target Benchmark for Ligand Based Virtual Screening",
    "u": "https://arxiv.org/abs/2609.29740v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "12:56",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "C3M: Cross-Session Multimodal Memory Maintenance for Long-Horizon Tasks",
+   "u": "https://arxiv.org/abs/2609.29735v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "12:52",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "A General Framework for Budgeted Threshold Incentives on Request",
+   "u": "https://arxiv.org/abs/2609.29724v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "12:41",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "SWE-Prometheus: Measuring Engineering Governance Improvements in Real-World Repositories",
+   "u": "https://arxiv.org/abs/2609.29465v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "12:23",
    "k": "",
    "x": ""
   },
@@ -399,102 +495,6 @@
    "u": "https://arxiv.org/abs/2609.29398v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "11:24",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "AI-CAD：用于机械工程CAD的OSS多Agent线束",
-   "u": "https://github.com/ai-cad-labs/ai-cad",
-   "s": "外网新声·Hacker News",
-   "d": "08:14",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "LLM可以推理运行时行为吗？存储库级动态基准",
-   "u": "https://arxiv.org/abs/2609.28449v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:46",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "序不变答案，数学推理中的序敏感表示",
-   "u": "https://arxiv.org/abs/2609.28442v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:40",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "代理编辑世界模型：重新思考LLM智能体的世界建模",
-   "u": "https://arxiv.org/abs/2609.28416v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:18",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "何时何地信任老师：通过熵校准的学分分配统一政策蒸馏和GRPO",
-   "u": "https://arxiv.org/abs/2609.28385v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "通过算法购物：代理人工智能如何将人类启发式方法部署为代理消费者",
-   "u": "https://arxiv.org/abs/2609.28372v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:47",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "AnchorReasoning：长尾自动驾驶场景中的视觉基础和因果推理数据集",
-   "u": "https://arxiv.org/abs/2609.28366v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:38",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "MicroQonv：重塑卷积张量，在训练和推理中实现高效微观测量",
-   "u": "https://arxiv.org/abs/2609.28358v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:30",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "根据《欧盟人工智能法案》的行为准则，系统性风险证据的开放管道和仪表板",
-   "u": "https://arxiv.org/abs/2609.28335v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:13",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "学习可靠推理的成本",
-   "u": "https://arxiv.org/abs/2609.28322v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:01",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "使用安全的服务器端内存推进专用AI计算",
-   "u": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "16:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "关闭多Agent系统中的破坏倾向",
-   "u": "https://arxiv.org/abs/2609.28274v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "15:27",
    "k": "",
    "x": ""
   }
