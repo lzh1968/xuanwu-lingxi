@@ -2,14 +2,20 @@
  "日期": "2026-09-26",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-09-26 16:57:05",
-  "chosen": "LINK long",
+  "updated": "2026-09-26 17:02:53",
+  "chosen": "SOL long",
   "nodes": [
+   {
+    "coin": "SOL",
+    "side": "long",
+    "align": 2,
+    "embryo": 2.65
+   },
    {
     "coin": "LINK",
     "side": "long",
     "align": 3,
-    "embryo": 0.65
+    "embryo": 0.5
    }
   ]
  }
