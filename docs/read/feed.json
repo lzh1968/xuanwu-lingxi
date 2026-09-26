@@ -1,9 +1,17 @@
 {
- "generated": "00:53",
- "built": "2026-09-27 00:53:16",
+ "generated": "00:59",
+ "built": "2026-09-27 00:59:16",
  "count": 32,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "我们根据OWASP的LLM Top对提示注射检测器进行了基准测试",
+   "url": "https://www.cerbereag.site/blog/detecting-prompt-injection-in-production",
+   "src": "Hacker News",
+   "t": "00:51",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Show HN：StarSkirmish，LLM创建星际争霸战机器人的竞技场",
@@ -50,14 +58,6 @@
    "url": "https://github.com/dream-num/univer",
    "src": "Hacker News",
    "t": "23:06",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "CropCode –将UI作物转换为LLM的结构化JSON",
-   "url": "https://chromewebstore.google.com/detail/cropcode/pcgcpipdelhclccjoaphjelkdidkiecj",
-   "src": "Hacker News",
-   "t": "22:39",
    "fresh": false
   },
   {
