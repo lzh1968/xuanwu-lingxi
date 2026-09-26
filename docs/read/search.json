@@ -1,7 +1,23 @@
 {
- "built": "2026-09-26 23:54:26",
- "count": 67,
+ "built": "2026-09-27 00:01:03",
+ "count": 69,
  "items": [
+  {
+   "t": "今日辑要 · 2026-09-27（前沿 12 条）",
+   "u": "a/digest-20260927.html",
+   "s": "Agent 与智能体",
+   "d": "2026-09-27",
+   "k": "辑要,每日,前沿",
+   "x": "今日从公开源汇得 12 条与人工智能、智能体系统、链上机制与数字经济相关的条目，按方向归拢如下。所有条目均保留来源与原文链接， 只作线索与机制观察 ，不代表任何结论。 Agent 与智能体 Show HN: Ogre MCP – Let your AI agent see your WoW Classic game state <span class=\"src\" Hacker News · 23:06</span [查看原文](https://github.com/bttf/ogremcp) The Office Harness for AI Agents – Spreadsheets,Docs,Slides,PDF in One Runtime <span class=\"src\" Hacker News · 23:06</span [查看原文](https://github.com/dr"
+  },
+  {
+   "t": "阴阳与反馈环",
+   "u": "a/note-20260927-3.html",
+   "s": "华夏哲学 · 阴阳五行",
+   "d": "2026-09-27",
+   "k": "手记,方法论",
+   "x": "把阴阳放进控制系统里看，它更像一对 符号相反的反馈环 ：一个负责扩张，一个负责收敛。 只有扩张的环，系统会在顺境中自我强化直到崩塌；只有收敛的环，系统会在谨慎中失去一切机会。传统讲\"阴阳相生\"，工程讲\"增益平衡\"——说的是同一件事： 别让任一侧单独主导太久。 所以好的自适应并非不断调参，而是在两侧都留出可回退的余地：进要能退，退也要能再进；底线固定，节奏可变。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
   {
    "t": "今日辑要 · 2026-09-26（前沿 12 条）",
    "u": "a/digest-20260926.html",
@@ -219,7 +235,7 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "Using an LLM to Automate the Process of Archiving New macOS App Icons",
+   "t": "使用LLM自动化存档新macOS应用程序图标的过程",
    "u": "https://blog.jim-nielsen.com/2026/faster-app-icon-retrieval/",
    "s": "外网新声·Hacker News",
    "d": "23:48",
@@ -227,7 +243,7 @@
    "x": ""
   },
   {
-   "t": "Show HN: Ogre MCP – Let your AI agent see your WoW Classic game state",
+   "t": "Show HN: Ogre MCP –让您的AI 智能体查看您的WoW经典游戏状态",
    "u": "https://github.com/bttf/ogremcp",
    "s": "外网新声·Hacker News",
    "d": "23:06",
@@ -235,7 +251,7 @@
    "x": ""
   },
   {
-   "t": "The Office Harness for AI Agents – Spreadsheets,Docs,Slides,PDF in One Runtime",
+   "t": "智能体的Office线束–电子表格、文档、幻灯片、PDF在一个运行时",
    "u": "https://github.com/dream-num/univer",
    "s": "外网新声·Hacker News",
    "d": "23:06",
@@ -243,7 +259,7 @@
    "x": ""
   },
   {
-   "t": "CropCode – Convert UI Crops into Structured JSON for LLMs",
+   "t": "CropCode –将UI作物转换为LLM的结构化JSON",
    "u": "https://chromewebstore.google.com/detail/cropcode/pcgcpipdelhclccjoaphjelkdidkiecj",
    "s": "外网新声·Hacker News",
    "d": "22:39",
@@ -251,7 +267,7 @@
    "x": ""
   },
   {
-   "t": "Show HN: AI coding agents that prove their work",
+   "t": "Show HN：证明其工作的人工智能编码代理",
    "u": "https://daneb.github.io/keel/",
    "s": "外网新声·Hacker News",
    "d": "21:31",
@@ -259,7 +275,7 @@
    "x": ""
   },
   {
-   "t": "Show HN: Note Duel – LLM Arena for composing music",
+   "t": "Show HN: Note Duel – LLM音乐创作竞技场",
    "u": "https://www.noteduel.com/",
    "s": "外网新声·Hacker News",
    "d": "21:28",
@@ -267,7 +283,7 @@
    "x": ""
   },
   {
-   "t": "Codetta: High-Capacity, Keyless, and Undetectable Multi-Agent Collusion",
+   "t": "Codetta：大容量、无钥匙和不可检测的多代理串通",
    "u": "https://arxiv.org/abs/2609.28900",
    "s": "外网新声·Hacker News",
    "d": "21:07",
@@ -275,7 +291,7 @@
    "x": ""
   },
   {
-   "t": "Understanding the Impact of LLM Watermarking on AI Agent Behavior",
+   "t": "了解LLM水印对智能体行为的影响",
    "u": "https://www.lasso.security/blog/the-provenance-tax-understanding-the-impact-of-llm-watermarking-on-ai-agent-behavior",
    "s": "外网新声·Hacker News",
    "d": "21:05",
@@ -307,6 +323,14 @@
    "x": ""
   },
   {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "15:55",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
@@ -319,14 +343,6 @@
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
    "d": "14:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "13:20",
    "k": "",
    "x": ""
   },
