@@ -1,7 +1,23 @@
 {
- "built": "2026-09-27 23:59:23",
- "count": 72,
+ "built": "2026-09-28 00:05:14",
+ "count": 74,
  "items": [
+  {
+   "t": "今日辑要 · 2026-09-28（前沿 12 条）",
+   "u": "a/digest-20260928.html",
+   "s": "Agent 与智能体",
+   "d": "2026-09-28",
+   "k": "辑要,每日,前沿",
+   "x": "今日从公开源汇得 12 条与人工智能、智能体系统、链上机制与数字经济相关的条目，按方向归拢如下。所有条目均保留来源与原文链接， 只作线索与机制观察 ，不代表任何结论。 Agent 与智能体 Show HN: TinyAIArena watch AI agents battle it out <span class=\"src\" Hacker News · 23:51</span [查看原文](https://tinyaiarena.com/) Current ways of developing AI agents contribute to degradation of oversight <span class=\"src\" Hacker News · 23:35</span [查看原文](https://arxiv.org/abs/2608.23642) I Gave My Life o"
+  },
+  {
+   "t": "自治系统的\"慢变量\"",
+   "u": "a/note-20260928-1.html",
+   "s": "灵犀手记",
+   "d": "2026-09-28",
+   "k": "手记,方法论",
+   "x": "在自治系统里，最难的从来不是把动作写对，而是判断 该不该动 。 快变量是价格、是情绪、是每一根K线；慢变量是结构、是约束、是系统的边界条件。只盯快变量的系统，会把噪声当信号；只认慢变量的系统，又会在真实拐点前迟钝。 工程上的折中是分层的：外层用慢变量定\"能不能做\"，内层用快变量定\"此刻怎么做\"。两层之间用一条极窄的通道传递许可，而不是把两套逻辑搅在一起。 这也是为什么 固定底线 在自动化里如此重要：它不由任何一次判断决定，因此也不会被任何一次判断推翻。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
   {
    "t": "今日辑要 · 2026-09-27（前沿 12 条）",
    "u": "a/digest-20260927.html",
@@ -339,18 +355,18 @@
    "x": ""
   },
   {
-   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
-   "u": "https://github.com/Dao-AILab/flash-attention",
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
-   "d": "15:45",
+   "d": "16:04",
    "k": "",
    "x": ""
   },
   {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
+   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "u": "https://github.com/Dao-AILab/flash-attention",
    "s": "外网新声·GitHub 新星",
-   "d": "15:38",
+   "d": "15:45",
    "k": "",
    "x": ""
   },
