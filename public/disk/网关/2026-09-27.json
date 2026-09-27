@@ -1,41 +1,41 @@
 {
  "日期": "2026-09-27",
- "落盘": "2026-09-27 21:47:54",
+ "落盘": "2026-09-27 21:54:07",
  "内存报表": {
-  "时间": "2026-09-27 21:47:54",
-  "受托进程数": 21,
+  "时间": "2026-09-27 21:54:07",
+  "受托进程数": 28,
   "网关": {
-   "进程号": "14770",
-   "内存MB": 449.8,
+   "进程号": "14063",
+   "内存MB": 474.5,
    "线程": 11,
-   "堆上限": "2048"
+   "堆上限": "512"
   },
-  "实例数": 2,
+  "实例数": 1,
   "全机MemTotal": "11469MB",
-  "全机MemAvailable": "5672MB",
+  "全机MemAvailable": "5796MB",
   "全机SwapTotal": "7110MB",
-  "全机SwapFree": "4593MB",
-  "探活": "000"
+  "全机SwapFree": "4785MB",
+  "探活": "200"
  },
  "断线统计": {
-  "今日断线次数": 18,
+  "今日断线次数": 20,
   "今日最长断线秒": 167,
   "近2小时真停摆(≥90秒)": 0,
   "维护窗口": 7
  },
  "日志体量KB": {
-  "gateway_guard.log": 257.2,
-  "gateway_outage.jsonl": 7.4,
-  "gw_boot.out": 1837.9,
+  "gateway_guard.log": 257.6,
+  "gateway_outage.jsonl": 7.5,
+  "gw_boot.out": 1843.2,
   "gw_run.out": 71.8,
-  "网关停摆取证.log": 34.6
+  "网关停摆取证.log": 35.4
  },
  "会话索引(不含正文)": [
   {
    "档": "fce2f3c2-7ffb-44a2-90cf-db07cd739ea9.jsonl",
-   "大小KB": 4768.0,
-   "行数": 3117,
-   "最后改动": "2026-09-27 21:29:29"
+   "大小KB": 4772.4,
+   "行数": 3123,
+   "最后改动": "2026-09-27 21:53:51"
   },
   {
    "档": "efb8f754-429d-4fe2-a641-a9ad77bac39f.jsonl",
@@ -45,9 +45,9 @@
   },
   {
    "档": "b6f746f8-b6df-439a-9495-ccd4a9740d46.jsonl",
-   "大小KB": 3617.4,
-   "行数": 1267,
-   "最后改动": "2026-09-27 21:46:18"
+   "大小KB": 3722.7,
+   "行数": 1331,
+   "最后改动": "2026-09-27 21:53:31"
   },
   {
    "档": "560c4752-8ba9-4325-b7a5-c292d32e5a36.jsonl",
@@ -99,24 +99,6 @@
   }
  ],
  "停摆取证(近段)": [
-  "  网关 VmSwap:\t       0 kB",
-  "  网关 Threads:\t11",
-  "  Mem:           11469        5393        1246         122        4828        5795",
-  "  Swap:           7110        1780        5330",
-  "  CPU   933.8s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
-  "  CPU   581.0s python3 -u _子引擎.py wuxing --mode paper",
-  "  CPU   272.8s python3 -u _子引擎.py wen --mode paper",
-  "── 停摆取证 2026-09-27 04:00:40 (取码 000) ──",
-  "  Mem:           11469        5382        1508         210        4578        5743",
-  "  Swap:           7110        2035        5075",
-  "  CPU   177.6s cloudflared tunnel --url http://127.0.0.1:8092 --no-autoupda",
-  "  CPU    79.0s python3 _护身符_守护.py",
-  "  CPU    44.1s bash _网关看护.sh",
-  "── 停摆取证 2026-09-27 04:02:24 (取码 000) ──",
-  "  网关 VmRSS:\t  733852 kB",
-  "  网关 VmSwap:\t       0 kB",
-  "  网关 Threads:\t11",
-  "  Mem:           11469        5545        1194         210        4729        5559",
   "  Swap:           7110        2295        4815",
   "  CPU   177.9s cloudflared tunnel --url http://127.0.0.1:8092 --no-autoupda",
   "  CPU   126.5s openclaw-gateway",
@@ -258,6 +240,24 @@
   "  Swap:           7110        2468        4642",
   "  CPU   117.4s openclaw-gateway",
   "  CPU    58.7s python3 -u _子引擎.py lbh --mode paper",
-  "  CPU    58.4s python3 -u _子引擎.py dss --mode paper"
+  "  CPU    58.4s python3 -u _子引擎.py dss --mode paper",
+  "── 停摆取证 2026-09-27 21:48:33 (取码 000) ──",
+  "  网关 VmRSS:\t  519648 kB",
+  "  网关 VmSwap:\t       0 kB",
+  "  网关 Threads:\t11",
+  "  Mem:           11469        5842         709          31        4916        5463",
+  "  Swap:           7110        2345        4765",
+  "  CPU    96.2s openclaw-gateway",
+  "  CPU    64.6s python3 -u _子引擎.py lbh --mode paper",
+  "  CPU    64.5s python3 -u _子引擎.py zls --mode paper",
+  "── 停摆取证 2026-09-27 21:49:05 (取码 000) ──",
+  "  网关 VmRSS:\t  530052 kB",
+  "  网关 VmSwap:\t       0 kB",
+  "  网关 Threads:\t11",
+  "  Mem:           11469        5678         883          31        4906        5627",
+  "  Swap:           7110        2198        4912",
+  "  CPU   130.5s openclaw-gateway",
+  "  CPU    66.0s python3 -u _子引擎.py lbh --mode paper",
+  "  CPU    65.2s python3 -u _子引擎.py dss --mode paper"
  ]
 }
