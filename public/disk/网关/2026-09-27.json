@@ -1,34 +1,34 @@
 {
  "日期": "2026-09-27",
- "落盘": "2026-09-27 21:41:48",
+ "落盘": "2026-09-27 21:47:54",
  "内存报表": {
-  "时间": "2026-09-27 21:41:48",
-  "受托进程数": 24,
+  "时间": "2026-09-27 21:47:54",
+  "受托进程数": 21,
   "网关": {
-   "进程号": "32110",
-   "内存MB": 494.7,
+   "进程号": "14770",
+   "内存MB": 449.8,
    "线程": 11,
-   "堆上限": "512"
+   "堆上限": "2048"
   },
-  "实例数": 1,
+  "实例数": 2,
   "全机MemTotal": "11469MB",
-  "全机MemAvailable": "5455MB",
+  "全机MemAvailable": "5672MB",
   "全机SwapTotal": "7110MB",
-  "全机SwapFree": "5118MB",
-  "探活": "200"
+  "全机SwapFree": "4593MB",
+  "探活": "000"
  },
  "断线统计": {
-  "今日断线次数": 15,
+  "今日断线次数": 18,
   "今日最长断线秒": 167,
   "近2小时真停摆(≥90秒)": 0,
-  "维护窗口": 6
+  "维护窗口": 7
  },
  "日志体量KB": {
-  "gateway_guard.log": 255.7,
-  "gateway_outage.jsonl": 7.3,
-  "gw_boot.out": 1832.9,
+  "gateway_guard.log": 257.2,
+  "gateway_outage.jsonl": 7.4,
+  "gw_boot.out": 1837.9,
   "gw_run.out": 71.8,
-  "网关停摆取证.log": 33.5
+  "网关停摆取证.log": 34.6
  },
  "会话索引(不含正文)": [
   {
@@ -45,9 +45,9 @@
   },
   {
    "档": "b6f746f8-b6df-439a-9495-ccd4a9740d46.jsonl",
-   "大小KB": 3528.5,
-   "行数": 1250,
-   "最后改动": "2026-09-27 21:29:18"
+   "大小KB": 3617.4,
+   "行数": 1267,
+   "最后改动": "2026-09-27 21:46:18"
   },
   {
    "档": "560c4752-8ba9-4325-b7a5-c292d32e5a36.jsonl",
@@ -99,30 +99,6 @@
   }
  ],
  "停摆取证(近段)": [
-  "  网关 VmSwap:\t       0 kB",
-  "  网关 Threads:\t11",
-  "  Mem:           11469        5849         923         120        4696        5386",
-  "  Swap:           7110        2003        5107",
-  "  CPU   509.5s bash _网关看护.sh",
-  "  CPU   504.0s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
-  "  CPU   206.1s python3 -u _子引擎.py wen --mode paper",
-  "── 停摆取证 2026-09-26 23:51:27 (取码 000) ──",
-  "  Mem:           11469        4907        1888         122        4673        6272",
-  "  Swap:           7110        1959        5151",
-  "  CPU   926.4s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
-  "  CPU   580.0s python3 -u _子引擎.py wuxing --mode paper",
-  "  CPU   271.8s python3 -u _子引擎.py wen --mode paper",
-  "── 停摆取证 2026-09-26 23:54:34 (取码 000) ──",
-  "  网关 VmRSS:\t  502516 kB",
-  "  网关 VmSwap:\t       0 kB",
-  "  网关 Threads:\t11",
-  "  Mem:           11469        5419        1230         122        4818        5769",
-  "  Swap:           7110        1776        5334",
-  "  CPU   930.2s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
-  "  CPU   580.5s python3 -u _子引擎.py wuxing --mode paper",
-  "  CPU   272.3s python3 -u _子引擎.py wen --mode paper",
-  "── 停摆取证 2026-09-26 23:57:19 (取码 000) ──",
-  "  网关 VmRSS:\t  555704 kB",
   "  网关 VmSwap:\t       0 kB",
   "  网关 Threads:\t11",
   "  Mem:           11469        5393        1246         122        4828        5795",
@@ -258,6 +234,30 @@
   "  Swap:           7110        1296        5813",
   "  CPU   115.5s openclaw-gateway",
   "  CPU     7.7s python3 -u _子引擎.py xwu --mode paper",
-  "  CPU     7.7s python3 -u _子引擎.py lbh --mode paper"
+  "  CPU     7.7s python3 -u _子引擎.py lbh --mode paper",
+  "── 停摆取证 2026-09-27 21:43:11 (取码 000) ──",
+  "  Mem:           11469        5268        1219          31        4981        6009",
+  "  Swap:           7110        2278        4832",
+  "  CPU    56.5s python3 -u _子引擎.py lbh --mode paper",
+  "  CPU    55.9s python3 -u _子引擎.py dss --mode paper",
+  "  CPU    55.4s python3 -u _子引擎.py zls --mode paper",
+  "── 停摆取证 2026-09-27 21:44:09 (取码 000) ──",
+  "  网关 VmRSS:\t  703672 kB",
+  "  网关 VmSwap:\t       0 kB",
+  "  网关 Threads:\t11",
+  "  Mem:           11469        5720         747          31        5000        5558",
+  "  Swap:           7110        2268        4842",
+  "  CPU    74.8s openclaw-gateway",
+  "  CPU    57.9s python3 -u _子引擎.py lbh --mode paper",
+  "  CPU    57.2s python3 -u _子引擎.py dss --mode paper",
+  "── 停摆取证 2026-09-27 21:44:51 (取码 000) ──",
+  "  网关 VmRSS:\t  759564 kB",
+  "  网关 VmSwap:\t       0 kB",
+  "  网关 Threads:\t11",
+  "  Mem:           11469        5846         785          32        4837        5463",
+  "  Swap:           7110        2468        4642",
+  "  CPU   117.4s openclaw-gateway",
+  "  CPU    58.7s python3 -u _子引擎.py lbh --mode paper",
+  "  CPU    58.4s python3 -u _子引擎.py dss --mode paper"
  ]
 }
