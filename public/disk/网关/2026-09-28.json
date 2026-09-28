@@ -1,34 +1,34 @@
 {
  "日期": "2026-09-28",
- "落盘": "2026-09-28 12:48:15",
+ "落盘": "2026-09-28 12:54:12",
  "内存报表": {
-  "时间": "2026-09-28 12:48:15",
-  "受托进程数": 22,
+  "时间": "2026-09-28 12:54:12",
+  "受托进程数": 17,
   "网关": {
-   "进程号": "31576",
-   "内存MB": 564.7,
+   "进程号": "27815",
+   "内存MB": 532.1,
    "线程": 11,
    "堆上限": "512"
   },
   "实例数": 1,
   "全机MemTotal": "11469MB",
-  "全机MemAvailable": "5869MB",
+  "全机MemAvailable": "5920MB",
   "全机SwapTotal": "7110MB",
-  "全机SwapFree": "4333MB",
+  "全机SwapFree": "4346MB",
   "探活": "200"
  },
  "断线统计": {
-  "今日断线次数": 2,
+  "今日断线次数": 3,
   "今日最长断线秒": 155,
   "近2小时真停摆(≥90秒)": 0,
   "维护窗口": 2
  },
  "日志体量KB": {
-  "gateway_guard.log": 265.8,
+  "gateway_guard.log": 266.6,
   "gateway_outage.jsonl": 7.6,
-  "gw_boot.out": 1927.1,
+  "gw_boot.out": 1929.2,
   "gw_run.out": 71.8,
-  "网关停摆取证.log": 36.2
+  "网关停摆取证.log": 36.6
  },
  "会话索引(不含正文)": [
   {
@@ -99,15 +99,6 @@
   }
  ],
  "停摆取证(近段)": [
-  "  Swap:           7110        2384        4726",
-  "  CPU   179.1s cloudflared tunnel --url http://127.0.0.1:8092 --no-autoupda",
-  "  CPU    80.0s python3 _护身符_守护.py",
-  "  CPU    47.1s bash _网关看护.sh",
-  "── 停摆取证 2026-09-27 07:31:23 (取码 000) ──",
-  "  网关 VmRSS:\t  537512 kB",
-  "  网关 VmSwap:\t       0 kB",
-  "  网关 Threads:\t11",
-  "  Mem:           11469        5565        1220         209        4682        5557",
   "  Swap:           7110        2004        5106",
   "  CPU   264.5s bash _守护总管.sh",
   "  CPU   158.3s python3 -u _子引擎.py xwu --mode paper",
@@ -258,6 +249,15 @@
   "  Swap:           7110        2243        4867",
   "  CPU   443.1s bash _守护总管.sh",
   "  CPU   161.6s python3 -u _子引擎.py xwu --mode paper",
-  "  CPU   159.3s python3 -u _子引擎.py lbh --mode paper"
+  "  CPU   159.3s python3 -u _子引擎.py lbh --mode paper",
+  "── 停摆取证 2026-09-28 12:51:49 (取码 000) ──",
+  "  网关 VmRSS:\t  258316 kB",
+  "  网关 VmSwap:\t       0 kB",
+  "  网关 Threads:\t11",
+  "  Mem:           11469        5032        1636         275        4799        6026",
+  "  Swap:           7110        2780        4330",
+  "  CPU   316.1s bash _守护总管.sh",
+  "  CPU   124.5s bash _网关看护.sh",
+  "  CPU    54.9s python3 /data/data/com.termux/files/home/.openclaw/workspace"
  ]
 }
