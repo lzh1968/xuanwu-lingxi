@@ -1,6 +1,6 @@
 {
- "generated": "14:12",
- "built": "2026-09-28 14:12:16",
+ "generated": "14:18",
+ "built": "2026-09-28 14:18:15",
  "count": 37,
  "live_count": 60,
  "items": [
@@ -26,7 +26,7 @@
    "url": "https://flowlight.xinbetween.com/",
    "src": "Hacker News",
    "t": "12:46",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -34,6 +34,14 @@
    "url": "https://news.ycombinator.com/item?id=49873303",
    "src": "Hacker News",
    "t": "11:36",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "如何使用DiffusionGemma和vLLM构建Jev风格的分类器",
+   "url": "https://medium.com/google-cloud/how-to-build-a-jev-style-classifier-with-diffusiongemma-and-vllm-ef2e0bfa9ad7",
+   "src": "Hacker News",
+   "t": "10:21",
    "fresh": false
   },
   {
@@ -58,14 +66,6 @@
    "url": "https://github.com/Chaarangan/stepgate",
    "src": "Hacker News",
    "t": "08:57",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Show HN: Ghostfox -适用于AI 智能体的自托管隐形浏览器",
-   "url": "https://github.com/autokeren/ghostfox",
-   "src": "Hacker News",
-   "t": "08:45",
    "fresh": false
   },
   {
