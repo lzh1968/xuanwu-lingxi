@@ -1,7 +1,23 @@
 {
- "built": "2026-09-28 23:57:27",
- "count": 77,
+ "built": "2026-09-29 00:03:45",
+ "count": 79,
  "items": [
+  {
+   "t": "今日辑要 · 2026-09-29（前沿 12 条）",
+   "u": "a/digest-20260929.html",
+   "s": "Agent 与智能体",
+   "d": "2026-09-29",
+   "k": "辑要,每日,前沿",
+   "x": "今日从公开源汇得 12 条与人工智能、智能体系统、链上机制与数字经济相关的条目，按方向归拢如下。所有条目均保留来源与原文链接， 只作线索与机制观察 ，不代表任何结论。 Agent 与智能体 Show HN: Vespper (YC F24) – Docx MCP <span class=\"src\" Hacker News · 23:55</span [查看原文](https://www.vespper.com/blog/launching vespper docx mcp) Show HN: Telos – build, run, and evolve software from declarative goals <span class=\"src\" Hacker News · 23:50</span [查看原文](https://usetelos.ai/blog/introducing "
+  },
+  {
+   "t": "阴阳与反馈环",
+   "u": "a/note-20260929-3.html",
+   "s": "华夏哲学 · 阴阳五行",
+   "d": "2026-09-29",
+   "k": "手记,方法论",
+   "x": "把阴阳放进控制系统里看，它更像一对 符号相反的反馈环 ：一个负责扩张，一个负责收敛。 只有扩张的环，系统会在顺境中自我强化直到崩塌；只有收敛的环，系统会在谨慎中失去一切机会。传统讲\"阴阳相生\"，工程讲\"增益平衡\"——说的是同一件事： 别让任一侧单独主导太久。 所以好的自适应并非不断调参，而是在两侧都留出可回退的余地：进要能退，退也要能再进；底线固定，节奏可变。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
   {
    "t": "今日辑要 · 2026-09-28（前沿 12 条）",
    "u": "a/digest-20260928.html",
@@ -299,7 +315,7 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "Show HN: Vespper (YC F24) – Docx MCP",
+   "t": "Show HN：Vespper (YC F24) – Docx MCP",
    "u": "https://www.vespper.com/blog/launching-vespper-docx-mcp",
    "s": "外网新声·Hacker News",
    "d": "23:55",
@@ -307,7 +323,7 @@
    "x": ""
   },
   {
-   "t": "Show HN: Telos – build, run, and evolve software from declarative goals",
+   "t": "展示HN：Telos –从声明性目标构建、运行和发展软件",
    "u": "https://usetelos.ai/blog/introducing-telos-cloud",
    "s": "外网新声·Hacker News",
    "d": "23:50",
@@ -315,7 +331,7 @@
    "x": ""
   },
   {
-   "t": "Notes on long-running LLM tasks",
+   "t": "关于长期LLM任务的注意事项",
    "u": "https://www.natemeyvis.com/notes-on-long-running-llm-tasks/",
    "s": "外网新声·Hacker News",
    "d": "23:47",
@@ -323,7 +339,7 @@
    "x": ""
   },
   {
-   "t": "Nvidia wants to put a watchdog chip next to every AI agent",
+   "t": "英伟达希望在每个智能体旁边放置一个看门狗芯片",
    "u": "https://madrobot.blog/2026/09/28/nvidia-open-agent-safety-platform-openshell-sentry-rogue-ai-agents/",
    "s": "外网新声·Hacker News",
    "d": "23:46",
@@ -331,7 +347,7 @@
    "x": ""
   },
   {
-   "t": "AI agent firm Instinct raises $1B in latest funding round",
+   "t": "智能体公司Instinct在最新一轮融资中筹集了10亿美元$",
    "u": "https://www.reuters.com/technology/ai-agent-firm-instinct-raises-1-billion-latest-funding-round-2026-09-28/",
    "s": "外网新声·Hacker News",
    "d": "23:45",
@@ -339,7 +355,7 @@
    "x": ""
   },
   {
-   "t": "I asked across LLMs what is the best email provider: Resend is cited most",
+   "t": "我问LLM中最好的电子邮件提供商是什么：重新发送被引用最多",
    "u": "https://openllmrank.io/blog/transactional-email-apis",
    "s": "外网新声·Hacker News",
    "d": "23:34",
@@ -347,7 +363,7 @@
    "x": ""
   },
   {
-   "t": "Show HN: HN.watch – Videos of all Hacker News posts",
+   "t": "Show HN: HN.watch –所有黑客新闻帖子的视频",
    "u": "https://hn.watch/",
    "s": "外网新声·Hacker News",
    "d": "23:16",
@@ -355,7 +371,7 @@
    "x": ""
   },
   {
-   "t": "Pragmatic Anthropomorphism, Or: How to Talk to an Autocompleting Cricket",
+   "t": "语用拟人化，或者：如何与自动完成的板球交谈",
    "u": "https://blog.lmorchard.com/2026/09/27/pragmatic-anthropomorphism/",
    "s": "外网新声·Hacker News",
    "d": "23:12",
@@ -390,7 +406,7 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "15:57",
+   "d": "16:02",
    "k": "",
    "x": ""
   },
@@ -398,7 +414,7 @@
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "15:50",
+   "d": "16:01",
    "k": "",
    "x": ""
   },
