@@ -1,34 +1,34 @@
 {
  "日期": "2026-09-28",
- "落盘": "2026-09-28 20:24:41",
+ "落盘": "2026-09-28 20:30:44",
  "内存报表": {
-  "时间": "2026-09-28 20:24:41",
-  "受托进程数": 24,
+  "时间": "2026-09-28 20:30:44",
+  "受托进程数": 25,
   "网关": {
-   "进程号": "6497",
-   "内存MB": 627.8,
+   "进程号": "16167",
+   "内存MB": 501.1,
    "线程": 11,
-   "堆上限": "512"
+   "堆上限": "2048"
   },
-  "实例数": 1,
+  "实例数": 2,
   "全机MemTotal": "11469MB",
-  "全机MemAvailable": "5456MB",
+  "全机MemAvailable": "5075MB",
   "全机SwapTotal": "7110MB",
-  "全机SwapFree": "5127MB",
-  "探活": "200"
+  "全机SwapFree": "5086MB",
+  "探活": "000"
  },
  "断线统计": {
-  "今日断线次数": 9,
+  "今日断线次数": 10,
   "今日最长断线秒": 155,
   "近2小时真停摆(≥90秒)": 0,
   "维护窗口": 3
  },
  "日志体量KB": {
-  "gateway_guard.log": 300.5,
+  "gateway_guard.log": 302.3,
   "gateway_outage.jsonl": 7.9,
-  "gw_boot.out": 2061.0,
+  "gw_boot.out": 2062.0,
   "gw_run.out": 71.8,
-  "网关停摆取证.log": 39.0
+  "网关停摆取证.log": 39.4
  },
  "会话索引(不含正文)": [
   {
@@ -99,12 +99,6 @@
   }
  ],
  "停摆取证(近段)": [
-  "  Swap:           7110        1840        5270",
-  "  CPU   211.7s openclaw-gateway",
-  "  CPU    76.1s bash _网关看护.sh",
-  "  CPU    40.0s python3 -u _子引擎.py xwu --mode paper",
-  "── 停摆取证 2026-09-27 17:45:53 (取码 000) ──",
-  "  网关 VmRSS:\t  537760 kB",
   "  网关 VmSwap:\t       0 kB",
   "  网关 Threads:\t11",
   "  Mem:           11469        5795         814          33        4859        5503",
@@ -258,6 +252,12 @@
   "  Swap:           7110        2428        4682",
   "  CPU   764.5s bash _守护总管.sh",
   "  CPU   125.6s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
-  "  CPU   107.8s openclaw-gateway"
+  "  CPU   107.8s openclaw-gateway",
+  "── 停摆取证 2026-09-28 20:30:16 (取码 000) ──",
+  "  Mem:           11469        5347        1062         208        5058        5724",
+  "  Swap:           7110        2006        5104",
+  "  CPU   196.2s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
+  "  CPU   157.5s bash _守护总管.sh",
+  "  CPU   117.6s cloudflared tunnel --url http://127.0.0.1:8092 --no-autoupda"
  ]
 }
