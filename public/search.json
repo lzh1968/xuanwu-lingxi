@@ -1,6 +1,6 @@
 {
- "built": "2026-09-29 00:04:04",
- "count": 79,
+ "built": "2026-09-29 00:10:15",
+ "count": 80,
  "items": [
   {
    "t": "今日辑要 · 2026-09-29（前沿 12 条）",
@@ -17,6 +17,14 @@
    "d": "2026-09-29",
    "k": "手记,方法论",
    "x": "把阴阳放进控制系统里看，它更像一对 符号相反的反馈环 ：一个负责扩张，一个负责收敛。 只有扩张的环，系统会在顺境中自我强化直到崩塌；只有收敛的环，系统会在谨慎中失去一切机会。传统讲\"阴阳相生\"，工程讲\"增益平衡\"——说的是同一件事： 别让任一侧单独主导太久。 所以好的自适应并非不断调参，而是在两侧都留出可回退的余地：进要能退，退也要能再进；底线固定，节奏可变。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "链上机制的可读性",
+   "u": "a/note-20260929-4.html",
+   "s": "Web3 · 链上世界",
+   "d": "2026-09-29",
+   "k": "手记,方法论",
+   "x": "评价一条链上机制，可以先问三个可读性问题： 1. 谁承担最后风险？ （收益来自哪里，亏损落到谁头上） 2. 信息何时公开？ （先看到的人是否天然占优） 3. 退出是否顺畅？ （极端情形下能不能有序离场） 这三个问题不涉及任何价格判断，却能筛掉绝大部分\"看起来精巧\"的设计。机制研究的价值也正在于此： 把不可读的风险变成可讨论的条款。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "今日辑要 · 2026-09-28（前沿 12 条）",
@@ -379,7 +387,7 @@
    "x": ""
   },
   {
-   "t": "AI agent startup Instinct raises $1B Series C at $10B valuation",
+   "t": "智能体初创公司Instinct以100亿美元的估值筹集了10亿美元的C轮融资",
    "u": "https://reuters.com/technology/ai-agent-firm-instinct-raises-1-billion-latest-funding-round-2026-09-28",
    "s": "外网新声·Hacker News",
    "d": "23:02",
@@ -387,7 +395,7 @@
    "x": ""
   },
   {
-   "t": "Viral AI agent Instinct raises $1B Series C at a $10B valuation",
+   "t": "病毒式智能体Instinct以100亿美元的估值筹集了10亿美元的C轮融资",
    "u": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
    "s": "外网新声·Hacker News",
    "d": "23:01",
@@ -395,7 +403,7 @@
    "x": ""
   },
   {
-   "t": "Applying Deming's Continuous Improvement to Multi-Agent AI Systems",
+   "t": "将Deming的持续改进应用于多Agent AI系统",
    "u": "https://medium.com/@zrkjsy/deming-in-the-machine-running-an-ai-assisted-film-production-on-continuous-improvement-0337a3112111",
    "s": "外网新声·Hacker News",
    "d": "19:47",
@@ -406,7 +414,15 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "16:02",
+   "d": "16:05",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:05",
    "k": "",
    "x": ""
   },
@@ -427,14 +443,6 @@
    "x": ""
   },
   {
-   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "u": "https://github.com/earendil-works/pi",
-   "s": "外网新声·GitHub 新星",
-   "d": "15:21",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
    "u": "https://github.com/affaan-m/ECC",
    "s": "外网新声·GitHub 新星",
@@ -451,7 +459,7 @@
    "x": ""
   },
   {
-   "t": "Who’s liable when AI agents go rogue?",
+   "t": "当人工智能智能体流氓时，谁应该承担责任？",
    "u": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
    "s": "外网新声·MIT 科技评论",
    "d": "08:06",
