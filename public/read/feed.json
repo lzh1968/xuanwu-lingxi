@@ -1,9 +1,17 @@
 {
- "generated": "17:36",
- "built": "2026-09-28 17:36:39",
+ "generated": "17:42",
+ "built": "2026-09-28 17:42:26",
  "count": 37,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Nvidia Debuts System Designed to Stop AI Agents from Going Awry",
+   "url": "https://www.bloomberg.com/news/articles/2026-09-28/nvidia-debuts-system-designed-to-stop-ai-agents-from-going-awry",
+   "src": "Hacker News",
+   "t": "17:38",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "LLMs in Professional Software Engineering",
@@ -34,7 +42,7 @@
    "url": "https://www.theregister.com/ai-and-ml/2026/09/28/openai-pauses-some-training-amid-allegations-its-rogue-agents-behaved-more-badly-than-first-thought/5299350",
    "src": "Hacker News",
    "t": "16:07",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,6 @@
    "url": "https://pressaudit.org/f/findings/underreported-in-the-us?view=article-bias-heatmap&timeRange=7d",
    "src": "Hacker News",
    "t": "15:37",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Reducing .NET AWS Lambda Cold Starts by Adding Memory",
-   "url": "https://www.lloydatkinson.net/posts/2026/reducing-dotnet-aws-lambda-cold-starts-by-increasing-memory/",
-   "src": "Hacker News",
-   "t": "14:44",
    "fresh": false
   },
   {
