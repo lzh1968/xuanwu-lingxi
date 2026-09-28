@@ -1,9 +1,14 @@
 {
  "日期": "2026-09-28",
- "落盘": "2026-09-28 14:42:15",
+ "落盘": "2026-09-28 14:48:17",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "Reducing .NET AWS Lambda Cold Starts by Adding Memory",
+   "url": "https://www.lloydatkinson.net/posts/2026/reducing-dotnet-aws-lambda-cold-starts-by-increasing-memory/",
+   "type": "live"
+  },
   {
    "title": "SeedRouter – One API for LLM, image and video models",
    "url": "https://seedrouter.ai",
@@ -37,11 +42,6 @@
   {
    "title": "Putting the trace before the loop: observability-first AI agent design",
    "url": "https://dbln.me/blog/building-an-ai-agent-observability-first",
-   "type": "live"
-  },
-  {
-   "title": "Flowlight – macOS上AI 智能体的开源网络可见性",
-   "url": "https://flowlight.xinbetween.com/",
    "type": "live"
   },
   {
