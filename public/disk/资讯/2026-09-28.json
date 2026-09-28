@@ -1,9 +1,14 @@
 {
  "日期": "2026-09-28",
- "落盘": "2026-09-28 15:36:05",
+ "落盘": "2026-09-28 15:42:10",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "Underreported in the US: new site uses open source LLMs to find underovered news",
+   "url": "https://pressaudit.org/f/findings/underreported-in-the-us?view=article-bias-heatmap&timeRange=7d",
+   "type": "live"
+  },
   {
    "title": "Reducing .NET AWS Lambda Cold Starts by Adding Memory",
    "url": "https://www.lloydatkinson.net/posts/2026/reducing-dotnet-aws-lambda-cold-starts-by-increasing-memory/",
@@ -37,11 +42,6 @@
   {
    "title": "LLM capabilities can transfer through unrelated text",
    "url": "https://github.com/myboker/ATD",
-   "type": "live"
-  },
-  {
-   "title": "Putting the trace before the loop: observability-first AI agent design",
-   "url": "https://dbln.me/blog/building-an-ai-agent-observability-first",
    "type": "live"
   },
   {
