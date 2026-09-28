@@ -1,9 +1,17 @@
 {
- "generated": "00:10",
- "built": "2026-09-29 00:10:43",
- "count": 40,
+ "generated": "00:16",
+ "built": "2026-09-29 00:16:57",
+ "count": 41,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN：Assay –一种QA CLI，可查找没有LLM且未编写测试的缺陷",
+   "url": "https://github.com/awss1i/assay",
+   "src": "Hacker News",
+   "t": "00:09",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Show HN：Vespper (YC F24) – Docx MCP",
@@ -61,18 +69,18 @@
    "fresh": true
   },
   {
-   "type": "live",
-   "title": "语用拟人化，或者：如何与自动完成的板球交谈",
-   "url": "https://blog.lmorchard.com/2026/09/27/pragmatic-anthropomorphism/",
-   "src": "Hacker News",
-   "t": "23:12",
-   "fresh": true
-  },
-  {
    "type": "article",
    "title": "今日辑要 · 2026-09-29（前沿 12 条）",
    "url": "a/digest-20260929.html",
    "src": "Agent 与智能体",
+   "t": "2026-09-29",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "自治系统的\"慢变量\"",
+   "url": "a/note-20260929-1.html",
+   "src": "灵犀手记",
    "t": "2026-09-29",
    "fresh": false
   },
@@ -105,14 +113,6 @@
    "title": "自治系统的\"慢变量\"",
    "url": "a/note-20260928-1.html",
    "src": "灵犀手记",
-   "t": "2026-09-28",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "关于\"记忆\"的三种用法",
-   "url": "a/note-20260928-2.html",
-   "src": "Agent 与智能体",
    "t": "2026-09-28",
    "fresh": false
   }
