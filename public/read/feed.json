@@ -1,9 +1,17 @@
 {
- "generated": "16:06",
- "built": "2026-09-28 16:06:34",
+ "generated": "16:12",
+ "built": "2026-09-28 16:12:22",
  "count": 37,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "OpenAI pauses some training amid allegations its rogue agents behaved more",
+   "url": "https://www.theregister.com/ai-and-ml/2026/09/28/openai-pauses-some-training-amid-allegations-its-rogue-agents-behaved-more-badly-than-first-thought/5299350",
+   "src": "Hacker News",
+   "t": "16:07",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Give your AI agent a versioned filesystem",
@@ -42,7 +50,7 @@
    "url": "https://seedrouter.ai",
    "src": "Hacker News",
    "t": "14:39",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -50,20 +58,12 @@
    "url": "https://blog.lmorchard.com/2026/09/27/pragmatic-anthropomorphism/",
    "src": "Hacker News",
    "t": "14:36",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
    "title": "Publish facts AI agents can trust, instead of what they scraped",
    "url": "https://profiles.skin/",
-   "src": "Hacker News",
-   "t": "14:34",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Show HN: FAB – A benchmark for AI agents doing financial due diligence",
-   "url": "https://github.com/SecondState-ai/finance-agents-benchmark",
    "src": "Hacker News",
    "t": "14:34",
    "fresh": false
