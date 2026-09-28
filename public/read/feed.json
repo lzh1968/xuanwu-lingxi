@@ -1,9 +1,17 @@
 {
- "generated": "21:13",
- "built": "2026-09-28 21:13:47",
+ "generated": "21:19",
+ "built": "2026-09-28 21:19:37",
  "count": 37,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN: Jevpipe – a fast System 1 for AI agents, as a Unix pipe",
+   "url": "https://github.com/fabianboth/jevpipe",
+   "src": "Hacker News",
+   "t": "21:15",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "AI agent that emails, texts, and calls customers – one API, shared context",
@@ -42,11 +50,11 @@
    "url": "https://medium.com/@zrkjsy/deming-in-the-machine-running-an-ai-assisted-film-production-on-continuous-improvement-0337a3112111",
    "src": "Hacker News",
    "t": "19:47",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
-   "title": "Show HN: Onesie – An expressive CLI for System One models like Jev",
+   "title": "Show HN: onesie – An expressive Unix-pipeable CLI for System One models like Jev",
    "url": "https://github.com/frodi-karlsson/onesie",
    "src": "Hacker News",
    "t": "19:37",
@@ -58,14 +66,6 @@
    "url": "https://identity.algebrix.co",
    "src": "Hacker News",
    "t": "19:30",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Who's liable when AI agents go rogue?",
-   "url": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
-   "src": "Hacker News",
-   "t": "19:01",
    "fresh": false
   },
   {
