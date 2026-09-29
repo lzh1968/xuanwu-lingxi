@@ -1,7 +1,23 @@
 {
- "built": "2026-09-29 23:54:49",
- "count": 82,
+ "built": "2026-09-30 00:01:40",
+ "count": 84,
  "items": [
+  {
+   "t": "今日辑要 · 2026-09-30（前沿 12 条）",
+   "u": "a/digest-20260930.html",
+   "s": "Agent 与智能体",
+   "d": "2026-09-30",
+   "k": "辑要,每日,前沿",
+   "x": "今日从公开源汇得 12 条与人工智能、智能体系统、链上机制与数字经济相关的条目，按方向归拢如下。所有条目均保留来源与原文链接， 只作线索与机制观察 ，不代表任何结论。 Agent 与智能体 anomalyco/opencode — The open source coding agent. <span class=\"src\" GitHub 新星 · 15:57</span [查看原文](https://github.com/anomalyco/opencode) NousResearch/hermes agent — The agent that grows with you <span class=\"src\" GitHub 新星 · 15:55</span [查看原文](https://github.com/NousResearch/hermes agent) mattpocock/sk"
+  },
+  {
+   "t": "自治系统的\"慢变量\"",
+   "u": "a/note-20260930-1.html",
+   "s": "灵犀手记",
+   "d": "2026-09-30",
+   "k": "手记,方法论",
+   "x": "在自治系统里，最难的从来不是把动作写对，而是判断 该不该动 。 快变量是价格、是情绪、是每一根K线；慢变量是结构、是约束、是系统的边界条件。只盯快变量的系统，会把噪声当信号；只认慢变量的系统，又会在真实拐点前迟钝。 工程上的折中是分层的：外层用慢变量定\"能不能做\"，内层用快变量定\"此刻怎么做\"。两层之间用一条极窄的通道传递许可，而不是把两套逻辑搅在一起。 这也是为什么 固定底线 在自动化里如此重要：它不由任何一次判断决定，因此也不会被任何一次判断推翻。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
   {
    "t": "今日辑要 · 2026-09-29（前沿 12 条）",
    "u": "a/digest-20260929.html",
@@ -339,66 +355,10 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "Show HN: Sensored – streaming-first PII/PHI redaction",
-   "u": "https://github.com/atomicpages/sensored",
-   "s": "外网新声·Hacker News",
-   "d": "23:25",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN: Squidbrake – self-hosted approval gateway for AI agent tool calls",
-   "u": "https://github.com/batrapulkit/squidbrake",
-   "s": "外网新声·Hacker News",
-   "d": "23:09",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Antifragile Programming and Why AI Won't Steal Your Job",
-   "u": "https://lemire.me/blog/2025/11/29/antifragile-programming-and-why-ai-wont-steal-your-job/",
-   "s": "外网新声·Hacker News",
-   "d": "23:01",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "We asked an agent to tune 1 slow query on 3 Postgres MCP servers. It had notes",
-   "u": "https://goodtiming.ai/blog/agent-taste-test-1/",
-   "s": "外网新声·Hacker News",
-   "d": "22:35",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "I let AI agents write most of a live-trading codebase",
-   "u": "https://redgeoff.com/posts/ai-agents-test-gate/",
-   "s": "外网新声·Hacker News",
-   "d": "22:34",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Why Secret Collaboration Is an AI Agent Security Risk",
-   "u": "https://spectrum.ieee.org/ai-agent-security",
-   "s": "外网新声·Hacker News",
-   "d": "22:21",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "法学硕士2026年（到目前为止）",
-   "u": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
-   "s": "外网新声·Hacker News",
-   "d": "22:21",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Shopify adds WebMCP checkout for browser-based AI agents",
-   "u": "https://shopify.dev/docs/agents/carts-and-checkout/checkout-webmcp",
-   "s": "外网新声·Hacker News",
-   "d": "22:16",
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
+   "s": "外网新声·GitHub 新星",
+   "d": "15:59",
    "k": "",
    "x": ""
   },
@@ -406,7 +366,7 @@
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "15:53",
+   "d": "15:57",
    "k": "",
    "x": ""
   },
@@ -414,15 +374,7 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "15:51",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
-   "s": "外网新声·GitHub 新星",
-   "d": "15:48",
+   "d": "15:55",
    "k": "",
    "x": ""
   },
@@ -475,7 +427,7 @@
    "x": ""
   },
   {
-   "t": "Towards safety cases for frontier AI training",
+   "t": "面向前沿人工智能培训的安全案例",
    "u": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
    "s": "外网新声·OpenAI 官方",
    "d": "19:00",
@@ -483,7 +435,7 @@
    "x": ""
   },
   {
-   "t": "FurE: Efficient Instance-Specific 3D Fur Reconstruction without Animal-Fur Datasets",
+   "t": "FURE：无动物毛皮数据集的高效实例特异性3D毛皮重建",
    "u": "https://arxiv.org/abs/2609.35770v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
@@ -491,7 +443,7 @@
    "x": ""
   },
   {
-   "t": "Telescopic Language Models",
+   "t": "伸缩语言模型",
    "u": "https://arxiv.org/abs/2609.35769v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
@@ -499,7 +451,7 @@
    "x": ""
   },
   {
-   "t": "PDMD: Projected Distribution Matching Distillation for Video Diffusion Models",
+   "t": "PDMD：视频扩散模型的预计分布匹配蒸馏",
    "u": "https://arxiv.org/abs/2609.35768v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:59",
@@ -507,7 +459,7 @@
    "x": ""
   },
   {
-   "t": "Learning Native Reflection in Unified Models with Interleaved Reinforcement Learning",
+   "t": "使用交织强化学习在统一模型中学习原生反思",
    "u": "https://arxiv.org/abs/2609.35767v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
@@ -515,7 +467,7 @@
    "x": ""
   },
   {
-   "t": "TokenCast: Forecasting Token Consumption During LLM Agent Execution",
+   "t": "TokenCast：预测LLM代理执行期间的代币消耗量",
    "u": "https://arxiv.org/abs/2609.35760v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
@@ -523,7 +475,7 @@
    "x": ""
   },
   {
-   "t": "Neural Harmonic Measure Operator",
+   "t": "神经谐波测量算子",
    "u": "https://arxiv.org/abs/2609.35752v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:58",
@@ -531,7 +483,7 @@
    "x": ""
   },
   {
-   "t": "How to Loop MoE: Flatten the Experts, Untie the Attention",
+   "t": "如何循环MoE：扁平化专家，松开注意力",
    "u": "https://arxiv.org/abs/2609.35751v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:58",
@@ -655,6 +607,70 @@
    "u": "https://arxiv.org/abs/2609.35694v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:38",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Report: Progressive Disclosure of Agent Skills",
+   "u": "https://arxiv.org/abs/2609.35692v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:38",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Rethinking Circuit Evaluation: Do Circuits Explain Model Errors?",
+   "u": "https://arxiv.org/abs/2609.35686v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:34",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "The Hidden Perception Constraint in Task-Aware Compression",
+   "u": "https://arxiv.org/abs/2609.35684v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:33",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Verifier Errors in RLVR: Reward Hacking, Limits of Feedback, and Selective Control",
+   "u": "https://arxiv.org/abs/2609.35677v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:30",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "PhoneCLI: From App Interfaces to Callable Commands for Mobile Agents",
+   "u": "https://arxiv.org/abs/2609.35671v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:26",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "MS-GLA: Multi-Scale Gated Linear Attention for Addressing Representational Bottlenecks via Multi-Temporal Resolution",
+   "u": "https://arxiv.org/abs/2609.35664v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:23",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
+   "u": "https://github.com/affaan-m/ECC",
+   "s": "外网新声·GitHub 新星",
+   "d": "11:26",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "OpenRig：多Agent线束",
+   "u": "https://github.com/mvschwarz/openrig",
+   "s": "外网新声·Hacker News",
+   "d": "09:48",
    "k": "",
    "x": ""
   }
