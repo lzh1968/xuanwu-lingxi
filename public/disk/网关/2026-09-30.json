@@ -1,27 +1,34 @@
 {
  "日期": "2026-09-30",
- "落盘": "2026-09-30 00:13:46",
+ "落盘": "2026-09-30 00:20:36",
  "内存报表": {
-  "时间": "2026-09-30 00:13:46",
-  "受托进程数": 23,
+  "时间": "2026-09-30 00:20:36",
+  "受托进程数": 24,
+  "网关": {
+   "进程号": "13872",
+   "内存MB": 506.6,
+   "线程": 11,
+   "堆上限": "512"
+  },
+  "实例数": 1,
   "全机MemTotal": "11469MB",
-  "全机MemAvailable": "5957MB",
+  "全机MemAvailable": "5753MB",
   "全机SwapTotal": "7110MB",
-  "全机SwapFree": "4502MB",
+  "全机SwapFree": "4775MB",
   "探活": "000"
  },
  "断线统计": {
-  "今日断线次数": 1,
-  "今日最长断线秒": 0,
+  "今日断线次数": 2,
+  "今日最长断线秒": 47,
   "近2小时真停摆(≥90秒)": 2,
-  "维护窗口": 0
+  "维护窗口": 1
  },
  "日志体量KB": {
-  "gateway_guard.log": 353.0,
-  "gateway_outage.jsonl": 9.1,
-  "gw_boot.out": 2526.1,
+  "gateway_guard.log": 355.0,
+  "gateway_outage.jsonl": 9.2,
+  "gw_boot.out": 2532.3,
   "gw_run.out": 71.8,
-  "网关停摆取证.log": 50.1
+  "网关停摆取证.log": 50.6
  },
  "会话索引(不含正文)": [
   {
@@ -98,15 +105,6 @@
   }
  ],
  "停摆取证(近段)": [
-  "  Swap:           7110        2046        5063",
-  "  CPU   152.4s openclaw-gateway",
-  "  CPU   125.6s python3 -u _子引擎.py wuxing --mode paper",
-  "  CPU    86.9s bash _网关看护.sh",
-  "── 停摆取证 2026-09-29 06:40:48 (取码 000) ──",
-  "  网关 VmRSS:\t  253404 kB",
-  "  网关 VmSwap:\t       0 kB",
-  "  网关 Threads:\t11",
-  "  Mem:           11469        4813        1217         142        5438        6323",
   "  Swap:           7110        2158        4952",
   "  CPU   236.8s bash _守护总管.sh",
   "  CPU    69.7s cloudflared tunnel --url http://127.0.0.1:8092 --no-autoupda",
@@ -257,6 +255,15 @@
   "  Swap:           7110        2627        4483",
   "  CPU   114.1s python3 _推演_一周盈利_20260928.py --step 1 --days 6 --gene _基因_ru",
   "  CPU    16.7s python3 -u _子引擎.py dss --mode live --consent 奈工复开实盘·分身独立测试(2",
-  "  CPU    16.3s python3 -u _子引擎.py zxy --mode live --consent 奈工复开实盘·分身独立测试(2"
+  "  CPU    16.3s python3 -u _子引擎.py zxy --mode live --consent 奈工复开实盘·分身独立测试(2",
+  "── 停摆取证 2026-09-30 00:19:37 (取码 000) ──",
+  "  网关 VmRSS:\t  502264 kB",
+  "  网关 VmSwap:\t       0 kB",
+  "  网关 Threads:\t11",
+  "  Mem:           11469        5955         602          90        4911        5347",
+  "  Swap:           7110        2393        4716",
+  "  CPU   426.5s python3 _推演_一周盈利_20260928.py --step 1 --days 6 --gene _基因_ru",
+  "  CPU    57.9s openclaw-gateway",
+  "  CPU    33.8s openclaw-gateway"
  ]
 }
