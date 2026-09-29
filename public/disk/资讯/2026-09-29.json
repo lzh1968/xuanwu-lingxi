@@ -1,9 +1,14 @@
 {
  "日期": "2026-09-29",
- "落盘": "2026-09-29 23:01:20",
+ "落盘": "2026-09-29 23:08:01",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "Antifragile Programming and Why AI Won't Steal Your Job",
+   "url": "https://lemire.me/blog/2025/11/29/antifragile-programming-and-why-ai-wont-steal-your-job/",
+   "type": "live"
+  },
   {
    "title": "We asked an agent to tune 1 slow query on 3 Postgres MCP servers. It had notes",
    "url": "https://goodtiming.ai/blog/agent-taste-test-1/",
@@ -37,11 +42,6 @@
   {
    "title": "A challenging, contamination-free LLM benchmark",
    "url": "https://livebench.ai/",
-   "type": "live"
-  },
-  {
-   "title": "Oya, an agent does a browser task once, then it replays with no LLM",
-   "url": "https://oyabrowser.com",
    "type": "live"
   },
   {
