@@ -1,5 +1,5 @@
 {
- "built": "2026-09-29 11:10:15",
+ "built": "2026-09-29 11:16:03",
  "count": 82,
  "items": [
   {
@@ -339,6 +339,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Run Decision Models on vLLM and Red Hat AI Using DiffusionGemma",
+   "u": "https://developers.redhat.com/articles/2026/09/28/run-decision-model-vllm-and-red-hat-ai",
+   "s": "外网新声·Hacker News",
+   "d": "11:13",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "智能体即将淹没劳动力。没有人准备好了",
    "u": "https://www.wired.com/story/ai-agents-are-about-to-flood-the-workforce-no-ones-ready-for-it/",
    "s": "外网新声·Hacker News",
@@ -523,6 +531,110 @@
    "x": ""
   },
   {
+   "t": "Steering Language Model Goals with Value Transplant",
+   "u": "https://arxiv.org/abs/2609.34056v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "00:26",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "PReCache: Efficient KV Cache Sharing for Multi-LoRA Agents via Low-Rank Precomputation and Neutral Reconstruction",
+   "u": "https://arxiv.org/abs/2609.34054v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "00:24",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Kafila: Serving Large Language Models on a Trusted Set of Heterogeneous Commodity Machines",
+   "u": "https://arxiv.org/abs/2609.34045v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "00:10",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Vision--Language Signals in Constrained RL: Safety Gains Without Anticipation",
+   "u": "https://arxiv.org/abs/2609.34041v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "00:07",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "UOPD: Uncertainty-Aware Intervention for On-Policy Distillation of Multi-Turn Agents",
+   "u": "https://arxiv.org/abs/2609.34036v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "23:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ADPTNet: Adaptive with Prescriptive Timescales Non-Linear SSM for Sequence Modelling",
+   "u": "https://arxiv.org/abs/2609.34034v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "23:56",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Posterior Regimes and Latent Deception: Variational Bayesian Inference in Hidden Markov Models for Sequential Fraud Detection in Financial Transactions",
+   "u": "https://arxiv.org/abs/2609.34031v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "23:52",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Jev in Medicine: A Benchmark Evaluation. Preliminary Results",
+   "u": "https://arxiv.org/abs/2609.34024v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "23:33",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "LTV-CTDNet: Compositional Turning Decomposition for Short-Term Turning-Movement Forecasting",
+   "u": "https://arxiv.org/abs/2609.34014v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "23:18",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "When Known Physics Helps Neural PDE Models: Residual Constraints Out-Regularize Generic Priors for Nonlinear Dynamics",
+   "u": "https://arxiv.org/abs/2609.34012v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "23:15",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Fisher-Informed Recalibration for Feedback-Based On-Policy Self-Distillation of LLMs",
+   "u": "https://arxiv.org/abs/2609.34009v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "23:07",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "RICE-Alpha: Reliability-Informed Correction with Event Graphs for LLM-Agent Stock Forecasting",
+   "u": "https://arxiv.org/abs/2609.34004v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "23:03",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "T-SNN: Temporal Simplicial Neural Network for EEG Decoding",
+   "u": "https://arxiv.org/abs/2609.34002v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "23:02",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "obra/superpowers —有效的代理技能框架和软件开发方法。",
    "u": "https://github.com/obra/superpowers",
    "s": "外网新声·GitHub 新星",
@@ -539,122 +651,10 @@
    "x": ""
   },
   {
-   "t": "SynCo：通过对比互动残差来学习跨模式协同效应",
-   "u": "https://arxiv.org/abs/2609.32846v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "18:19",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "HamiFormer：具有仿射辛映射的双专家扩散场",
-   "u": "https://arxiv.org/abs/2609.32838v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "18:10",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "FinancialAuditBench: Benchmark Construction under Differential Privacy Using Real-World Priors",
    "u": "https://arxiv.org/abs/2609.32835v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "18:07",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "用于无对齐神经权重生成的置换等变量流匹配",
-   "u": "https://arxiv.org/abs/2609.32833v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "18:04",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "UniCache：用于统一多模式模型的任务和类型感知KV缓存压缩",
-   "u": "https://arxiv.org/abs/2609.32831v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "18:02",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "重定时贝尔曼流：逃离速度引导的不可能三角",
-   "u": "https://arxiv.org/abs/2609.32828v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Improving LLM Collaboration via Multi-Agent Preference Learning",
-   "u": "https://arxiv.org/abs/2609.32827v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:54",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "The Decomposition Tax: LLM Pipelines Lose Up to 40 Accuracy Points at Their Own Interfaces",
-   "u": "https://arxiv.org/abs/2609.32825v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:49",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "仅路由漂移不能诊断合并的教育部LLM中的故障",
-   "u": "https://arxiv.org/abs/2609.32821v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:47",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Right Answer, Wrong Reason: Accuracy, Consistency, and Consensus Are Misleading Indicators of LLM Faithfulness in Clinical Decision Support",
-   "u": "https://arxiv.org/abs/2609.32817v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:44",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "更改乘积，保留参数：变压器的相关代数层",
-   "u": "https://arxiv.org/abs/2609.32814v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:39",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "USAI-Quant：建筑环境中视觉语言模型的定量推理基准",
-   "u": "https://arxiv.org/abs/2609.32813v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:37",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "OpenTumorBoard：多学科肿瘤委员会讨论轨迹的真实基准",
-   "u": "https://arxiv.org/abs/2609.32810v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:35",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Overwhelmed by Choice: Studying LLM Decision Making at Scale",
-   "u": "https://arxiv.org/abs/2609.32809v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:33",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Beyond Accuracy: Counterfactual Fragility and Demographic Bias in Clinical Evaluation of LLMs",
-   "u": "https://arxiv.org/abs/2609.32807v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:28",
    "k": "",
    "x": ""
   }
