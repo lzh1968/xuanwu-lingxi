@@ -1,9 +1,33 @@
 {
- "generated": "01:42",
- "built": "2026-09-30 01:42:44",
+ "generated": "01:48",
+ "built": "2026-09-30 01:48:36",
  "count": 47,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "An LLM Beat NetHack",
+   "url": "https://kenforthewin.github.io/blog/posts/llm-nethack-ascension/",
+   "src": "Hacker News",
+   "t": "01:47",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "智能体将人类推出循环",
+   "url": "https://arxiv.org/abs/2608.23642",
+   "src": "Hacker News",
+   "t": "01:44",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "通过TCP风格的拥塞控制在推理提供商之间路由LLM流量",
+   "url": "https://getunblocked.com/blog/adaptive-routing-inference-providers/",
+   "src": "Hacker News",
+   "t": "01:43",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "我构建了唯一的多代理文档智能应用程序。（使用MCP ）",
@@ -42,30 +66,6 @@
    "url": "https://github.com/batrapulkit/squidbrake",
    "src": "Hacker News",
    "t": "23:09",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "我们要求代理在3个Postgres MCP服务器上调整1个慢速查询。它有备注",
-   "url": "https://goodtiming.ai/blog/agent-taste-test-1/",
-   "src": "Hacker News",
-   "t": "22:35",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "我让智能体编写了大部分实时交易代码库",
-   "url": "https://redgeoff.com/posts/ai-agents-test-gate/",
-   "src": "Hacker News",
-   "t": "22:34",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "url": "https://github.com/NousResearch/hermes-agent",
-   "src": "GitHub 新星",
-   "t": "17:42",
    "fresh": false
   },
   {
