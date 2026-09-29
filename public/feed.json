@@ -1,9 +1,17 @@
 {
- "generated": "23:01",
- "built": "2026-09-29 23:01:45",
+ "generated": "23:07",
+ "built": "2026-09-29 23:07:56",
  "count": 42,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Antifragile Programming and Why AI Won't Steal Your Job",
+   "url": "https://lemire.me/blog/2025/11/29/antifragile-programming-and-why-ai-wont-steal-your-job/",
+   "src": "Hacker News",
+   "t": "23:01",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "We asked an agent to tune 1 slow query on 3 Postgres MCP servers. It had notes",
@@ -59,14 +67,6 @@
    "src": "Hacker News",
    "t": "21:38",
    "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Oya, an agent does a browser task once, then it replays with no LLM",
-   "url": "https://oyabrowser.com",
-   "src": "Hacker News",
-   "t": "21:28",
-   "fresh": false
   },
   {
    "type": "article",
