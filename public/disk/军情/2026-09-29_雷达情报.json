@@ -2,20 +2,26 @@
  "日期": "2026-09-29",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-09-29 11:58:00",
-  "chosen": "ETH short",
+  "updated": "2026-09-29 12:00:37",
+  "chosen": "ADA short",
   "nodes": [
    {
-    "coin": "BTC",
-    "side": "short",
-    "align": 2,
-    "embryo": 3.3
-   },
-   {
-    "coin": "ETH",
+    "coin": "SOL",
     "side": "short",
     "align": 3,
-    "embryo": 1.3
+    "embryo": 2.7
+   },
+   {
+    "coin": "DOGE",
+    "side": "short",
+    "align": 3,
+    "embryo": 1.6
+   },
+   {
+    "coin": "ADA",
+    "side": "short",
+    "align": 3,
+    "embryo": 2.2
    }
   ]
  }
