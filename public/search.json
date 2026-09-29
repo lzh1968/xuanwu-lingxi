@@ -1,5 +1,5 @@
 {
- "built": "2026-09-29 10:09:44",
+ "built": "2026-09-29 10:15:50",
  "count": 82,
  "items": [
   {
@@ -446,7 +446,7 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "02:08",
+   "d": "02:15",
    "k": "",
    "x": ""
   },
@@ -454,7 +454,7 @@
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "01:55",
+   "d": "02:15",
    "k": "",
    "x": ""
   },
@@ -462,7 +462,7 @@
    "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
    "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
    "s": "外网新声·GitHub 新星",
-   "d": "01:53",
+   "d": "02:10",
    "k": "",
    "x": ""
   },
@@ -539,6 +539,94 @@
    "x": ""
   },
   {
+   "t": "SynCo：通过对比互动残差来学习跨模式协同效应",
+   "u": "https://arxiv.org/abs/2609.32846v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "18:19",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "HamiFormer：具有仿射辛映射的双专家扩散场",
+   "u": "https://arxiv.org/abs/2609.32838v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "18:10",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "用于无对齐神经权重生成的置换等变量流匹配",
+   "u": "https://arxiv.org/abs/2609.32833v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "18:04",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "UniCache：用于统一多模式模型的任务和类型感知KV缓存压缩",
+   "u": "https://arxiv.org/abs/2609.32831v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "18:02",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "重定时贝尔曼流：逃离速度引导的不可能三角",
+   "u": "https://arxiv.org/abs/2609.32828v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:58",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "仅路由漂移不能诊断合并的教育部LLM中的故障",
+   "u": "https://arxiv.org/abs/2609.32821v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:47",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "更改乘积，保留参数：变压器的相关代数层",
+   "u": "https://arxiv.org/abs/2609.32814v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:39",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "USAI-Quant：建筑环境中视觉语言模型的定量推理基准",
+   "u": "https://arxiv.org/abs/2609.32813v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:37",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "OpenTumorBoard: A Real-World Benchmark of Multidisciplinary Tumor Board Discussion Trajectories",
+   "u": "https://arxiv.org/abs/2609.32810v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:35",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Decision-Sufficient State Representations: Measuring and Reducing Write-Time Regret",
+   "u": "https://arxiv.org/abs/2609.32805v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:27",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Re-derivability Decides What a Staged Agent Pipeline Recovers After an Upstream Fault",
+   "u": "https://arxiv.org/abs/2609.32802v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:23",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "问问HN：有没有人建立了一个无领导力的多代理系统？",
    "u": "https://news.ycombinator.com/item?id=49847249",
    "s": "外网新声·Hacker News",
@@ -567,94 +655,6 @@
    "u": "https://arxiv.org/abs/2609.31619v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "反向扩散的一阶平稳性",
-   "u": "https://arxiv.org/abs/2609.31612v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:57",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "通过输出后处理进行黑盒生成AI的统计属性对齐",
-   "u": "https://arxiv.org/abs/2609.31607v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "通过信念自蒸馏提取用户模型",
-   "u": "https://arxiv.org/abs/2609.31603v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:54",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "新的LoRA技能应该阅读但从不写作",
-   "u": "https://arxiv.org/abs/2609.31600v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:54",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "直接反馈对齐中的共模崩溃和恢复",
-   "u": "https://arxiv.org/abs/2609.31589v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:43",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "针对编码智能体的紧凑文档：基准、优化器及其不转移的原因",
-   "u": "https://arxiv.org/abs/2609.31587v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:42",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Trust Guided Decision Transformer",
-   "u": "https://arxiv.org/abs/2609.31586v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:42",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "深度粗糙波动中的不确定性和可解释性：一种神经信息-理论后验方法",
-   "u": "https://arxiv.org/abs/2609.31570v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:34",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "DeepEdu-v1：适用于越南教育的高效且可扩展的Agentic LLM",
-   "u": "https://arxiv.org/abs/2609.31568v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:33",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "权重对编码：在神经网络权重中引入较小的语法",
-   "u": "https://arxiv.org/abs/2609.31564v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:29",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "跨选言和补偿性任务的多代理扩展",
-   "u": "https://arxiv.org/abs/2609.31563v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:29",
    "k": "",
    "x": ""
   }
