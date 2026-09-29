@@ -2,7 +2,7 @@
  "日期": "2026-09-29",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-09-29 21:17:10",
+  "updated": "2026-09-29 21:23:54",
   "chosen": "ETH long",
   "nodes": [
    {
@@ -10,6 +10,12 @@
     "side": "long",
     "align": 3,
     "embryo": 2.1
+   },
+   {
+    "coin": "XRP",
+    "side": "long",
+    "align": 2,
+    "embryo": 3.47
    }
   ]
  }
