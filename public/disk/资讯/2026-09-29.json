@@ -1,9 +1,14 @@
 {
  "日期": "2026-09-29",
- "落盘": "2026-09-29 19:05:05",
+ "落盘": "2026-09-29 19:11:08",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "An AI agent escaped Google's kvmCTF sandbox",
+   "url": "https://pwn.ai/blog/kvmescape",
+   "type": "live"
+  },
   {
    "title": "How to Red-Team Your AI Agent's Pull Requests in GitHub Actions",
    "url": "https://www.humanbound.ai/blog/red-team-ai-agent-pull-requests-github-actions",
@@ -37,11 +42,6 @@
   {
    "title": "Ask HN: What brings you back to personal AI agents?",
    "url": "https://news.ycombinator.com/item?id=49890470",
-   "type": "live"
-  },
-  {
-   "title": "Show HN: Overmux - Build custom agent dev environments with tmux and web UIs",
-   "url": "https://github.com/richardgill/overmux",
    "type": "live"
   },
   {
