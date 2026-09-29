@@ -1,12 +1,32 @@
 {
  "日期": "2026-09-30",
- "落盘": "2026-09-30 00:01:47",
+ "落盘": "2026-09-30 00:06:32",
  "条数": 14,
  "live": 60,
  "条目": [
   {
-   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "url": "https://github.com/ggml-org/llama.cpp",
+   "title": "Show HN：Squidbrake - AI 智能体工具调用的自托管审批网关",
+   "url": "https://github.com/batrapulkit/squidbrake",
+   "type": "live"
+  },
+  {
+   "title": "We asked an agent to tune 1 slow query on 3 Postgres MCP servers. It had notes",
+   "url": "https://goodtiming.ai/blog/agent-taste-test-1/",
+   "type": "live"
+  },
+  {
+   "title": "I let AI agents write most of a live-trading codebase",
+   "url": "https://redgeoff.com/posts/ai-agents-test-gate/",
+   "type": "live"
+  },
+  {
+   "title": "Why Secret Collaboration Is an AI Agent Security Risk",
+   "url": "https://spectrum.ieee.org/ai-agent-security",
+   "type": "live"
+  },
+  {
+   "title": "Shopify adds WebMCP checkout for browser-based AI agents",
+   "url": "https://shopify.dev/docs/agents/carts-and-checkout/checkout-webmcp",
    "type": "live"
   },
   {
@@ -20,28 +40,8 @@
    "type": "live"
   },
   {
-   "title": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "url": "https://github.com/earendil-works/pi",
-   "type": "live"
-  },
-  {
-   "title": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
-   "url": "https://github.com/mattpocock/skills",
-   "type": "live"
-  },
-  {
-   "title": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
-   "url": "https://github.com/Dao-AILab/flash-attention",
-   "type": "live"
-  },
-  {
-   "title": "TauricResearch/TradingAgents — TradingAgents：多代理LLM金融交易框架",
-   "url": "https://github.com/TauricResearch/TradingAgents",
-   "type": "live"
-  },
-  {
-   "title": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
-   "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "url": "https://github.com/ggml-org/llama.cpp",
    "type": "live"
   },
   {
@@ -52,6 +52,11 @@
   {
    "title": "自治系统的\"慢变量\"",
    "url": "a/note-20260930-1.html",
+   "type": "article"
+  },
+  {
+   "title": "关于\"记忆\"的三种用法",
+   "url": "a/note-20260930-2.html",
    "type": "article"
   },
   {
@@ -67,11 +72,6 @@
   {
    "title": "关于\"记忆\"的三种用法",
    "url": "a/note-20260929-2.html",
-   "type": "article"
-  },
-  {
-   "title": "阴阳与反馈环",
-   "url": "a/note-20260929-3.html",
    "type": "article"
   }
  ]
