@@ -1,9 +1,17 @@
 {
- "generated": "21:24",
- "built": "2026-09-29 21:24:10",
+ "generated": "21:30",
+ "built": "2026-09-29 21:30:01",
  "count": 42,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Oya, an agent does a browser task once, then it replays with no LLM",
+   "url": "https://oyabrowser.com",
+   "src": "Hacker News",
+   "t": "21:28",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Show HN: Gangway, self-hosted artifacts and apps from folders, PRs, and agents",
@@ -59,14 +67,6 @@
    "src": "Hacker News",
    "t": "20:39",
    "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Cybersecurity harness for full-stack LLM-driven penetration testing",
-   "url": "https://github.com/0sec-labs/0",
-   "src": "Hacker News",
-   "t": "19:39",
-   "fresh": false
   },
   {
    "type": "article",
