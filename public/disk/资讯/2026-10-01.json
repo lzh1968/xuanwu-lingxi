@@ -1,14 +1,9 @@
 {
  "日期": "2026-10-01",
- "落盘": "2026-10-01 00:53:02",
+ "落盘": "2026-10-01 01:01:01",
  "条数": 14,
- "live": 60,
+ "live": 42,
  "条目": [
-  {
-   "title": "LLM中的权威偏见：一个“经过验证的来源”注释翻转了45-88%的答案",
-   "url": "https://authority-bias.vercel.app/",
-   "type": "live"
-  },
   {
    "title": "值：Agentic AI的可验证对齐层",
    "url": "https://asteris.ai/blog/wiai/value-gives-agents-a-second-opinion-before-they-act",
@@ -42,6 +37,11 @@
   {
    "title": "Show HN：我们如何通过构建缺失的内存层使Web代理速度提高3倍",
    "url": "https://blog.reduck.ai/browser-action-memory-layer-for-faster-agents/",
+   "type": "live"
+  },
+  {
+   "title": "DoorDash打开AI订购代理和批量订单API的美国候补名单",
+   "url": "https://about.doordash.com/en-us/news/doordash-ordering-connector",
    "type": "live"
   },
   {
