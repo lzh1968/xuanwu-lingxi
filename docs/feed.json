@@ -1,12 +1,12 @@
 {
- "generated": "23:55",
- "built": "2026-09-30 23:55:12",
- "count": 47,
- "live_count": 43,
+ "generated": "00:02",
+ "built": "2026-10-01 00:02:34",
+ "count": 49,
+ "live_count": 60,
  "items": [
   {
    "type": "live",
-   "title": "What Happens Inside an LLM Server",
+   "title": "LLM服务器内部发生了什么",
    "url": "https://muhammadraza.me/2026/what-happens-inside-an-llm-server/",
    "src": "Hacker News",
    "t": "23:39",
@@ -14,58 +14,74 @@
   },
   {
    "type": "live",
-   "title": "Show HN: Tracelane.dev- OSS Rust LLM Gateway with a tamper-evident ledger",
+   "title": "Show HN: Glance –构建、评估和监控AI 智能体",
+   "url": "https://github.com/vpanghal/glance-releases/releases/download/v0.2.0/Glance-0.2.0-arm64.dmg",
+   "src": "Hacker News",
+   "t": "23:37",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN：我们如何通过构建缺失的内存层使Web代理速度提高3倍",
+   "url": "https://blog.reduck.ai/browser-action-memory-layer-for-faster-agents/",
+   "src": "Hacker News",
+   "t": "23:20",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "DoorDash打开AI订购代理和批量订单API的美国候补名单",
+   "url": "https://about.doordash.com/en-us/news/doordash-ordering-connector",
+   "src": "Hacker News",
+   "t": "23:10",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "预计到2028年，十分之七的企业将放弃供应商构建的代理人工智能",
+   "url": "https://www.theregister.com/ai-and-ml/2026/09/30/7-in-10-enterprises-expected-to-abandon-vendor-built-agentic-ai-by-2028/5300021",
+   "src": "Hacker News",
+   "t": "22:58",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "代理技能：改善企业AI的4种强大方法",
+   "url": "https://devnavigator.com/2026/09/30/agent-skills-contextualized-execution/",
+   "src": "Hacker News",
+   "t": "22:46",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN: Burning Man for Agents",
+   "url": "https://burning-tokens.transitivebullsh.it/",
+   "src": "Hacker News",
+   "t": "22:35",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN：Tracelane.dev- OSS Rust LLM网关，带有防篡改分类账",
    "url": "https://github.com/tracelane/tracelane",
    "src": "Hacker News",
    "t": "22:27",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Training-free asynchronous agents playing DOOM",
-   "url": "https://dvmazur.github.io/async_llm/",
-   "src": "Hacker News",
-   "t": "22:24",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Sub-two-second LLM-driven NPC behavior in a 3D action game",
-   "url": "https://emcom.ai/2026/09/26/the-quest-for-real-time/",
-   "src": "Hacker News",
-   "t": "22:19",
    "fresh": false
   },
   {
-   "type": "live",
-   "title": "Show HN: AFAW – A multi-agent coding workflow that doesn't trust the model",
-   "url": "https://github.com/agustindiazcano/afaw-anti-fragile-agentic-workflow",
-   "src": "Hacker News",
-   "t": "18:31",
+   "type": "article",
+   "title": "今日辑要 · 2026-10-01（前沿 12 条）",
+   "url": "a/digest-20261001.html",
+   "src": "Agent 与智能体",
+   "t": "2026-10-01",
    "fresh": false
   },
   {
-   "type": "live",
-   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "url": "https://github.com/NousResearch/hermes-agent",
-   "src": "GitHub 新星",
-   "t": "15:52",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "anomalyco/opencode：开源编码智能体",
-   "url": "https://github.com/anomalyco/opencode",
-   "src": "GitHub 新星",
-   "t": "15:42",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "关闭多Agent系统中的破坏倾向",
-   "url": "https://arxiv.org/abs/2609.28274",
-   "src": "Hacker News",
-   "t": "13:55",
+   "type": "article",
+   "title": "阴阳与反馈环",
+   "url": "a/note-20261001-3.html",
+   "src": "华夏哲学 · 阴阳五行",
+   "t": "2026-10-01",
    "fresh": false
   },
   {
@@ -98,22 +114,6 @@
    "url": "a/note-20260930-3.html",
    "src": "华夏哲学 · 阴阳五行",
    "t": "2026-09-30",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "链上机制的可读性",
-   "url": "a/note-20260930-4.html",
-   "src": "Web3 · 链上世界",
-   "t": "2026-09-30",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "今日辑要 · 2026-09-29（前沿 12 条）",
-   "url": "a/digest-20260929.html",
-   "src": "Agent 与智能体",
-   "t": "2026-09-29",
    "fresh": false
   }
  ]

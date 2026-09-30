@@ -1,7 +1,23 @@
 {
- "built": "2026-09-30 23:55:12",
- "count": 87,
+ "built": "2026-10-01 00:02:34",
+ "count": 89,
  "items": [
+  {
+   "t": "今日辑要 · 2026-10-01（前沿 12 条）",
+   "u": "a/digest-20261001.html",
+   "s": "Agent 与智能体",
+   "d": "2026-10-01",
+   "k": "辑要,每日,前沿",
+   "x": "今日从公开源汇得 12 条与人工智能、智能体系统、链上机制与数字经济相关的条目，按方向归拢如下。所有条目均保留来源与原文链接， 只作线索与机制观察 ，不代表任何结论。 Agent 与智能体 Show HN: Glance – Build, evaluate, and monitor AI agents <span class=\"src\" Hacker News · 23:37</span [查看原文](https://github.com/vpanghal/glance releases/releases/download/v0.2.0/Glance 0.2.0 arm64.dmg) Show HN: How we made web agents 3x faster by building the missing memory layer <span class=\"src\" Hacker "
+  },
+  {
+   "t": "阴阳与反馈环",
+   "u": "a/note-20261001-3.html",
+   "s": "华夏哲学 · 阴阳五行",
+   "d": "2026-10-01",
+   "k": "手记,方法论",
+   "x": "把阴阳放进控制系统里看，它更像一对 符号相反的反馈环 ：一个负责扩张，一个负责收敛。 只有扩张的环，系统会在顺境中自我强化直到崩塌；只有收敛的环，系统会在谨慎中失去一切机会。传统讲\"阴阳相生\"，工程讲\"增益平衡\"——说的是同一件事： 别让任一侧单独主导太久。 所以好的自适应并非不断调参，而是在两侧都留出可回退的余地：进要能退，退也要能再进；底线固定，节奏可变。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
   {
    "t": "今日辑要 · 2026-09-30（前沿 12 条）",
    "u": "a/digest-20260930.html",
@@ -379,7 +395,7 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "What Happens Inside an LLM Server",
+   "t": "LLM服务器内部发生了什么",
    "u": "https://muhammadraza.me/2026/what-happens-inside-an-llm-server/",
    "s": "外网新声·Hacker News",
    "d": "23:39",
@@ -387,7 +403,55 @@
    "x": ""
   },
   {
-   "t": "Show HN: Tracelane.dev- OSS Rust LLM Gateway with a tamper-evident ledger",
+   "t": "Show HN: Glance –构建、评估和监控AI 智能体",
+   "u": "https://github.com/vpanghal/glance-releases/releases/download/v0.2.0/Glance-0.2.0-arm64.dmg",
+   "s": "外网新声·Hacker News",
+   "d": "23:37",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：我们如何通过构建缺失的内存层使Web代理速度提高3倍",
+   "u": "https://blog.reduck.ai/browser-action-memory-layer-for-faster-agents/",
+   "s": "外网新声·Hacker News",
+   "d": "23:20",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "DoorDash打开AI订购代理和批量订单API的美国候补名单",
+   "u": "https://about.doordash.com/en-us/news/doordash-ordering-connector",
+   "s": "外网新声·Hacker News",
+   "d": "23:10",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "预计到2028年，十分之七的企业将放弃供应商构建的代理人工智能",
+   "u": "https://www.theregister.com/ai-and-ml/2026/09/30/7-in-10-enterprises-expected-to-abandon-vendor-built-agentic-ai-by-2028/5300021",
+   "s": "外网新声·Hacker News",
+   "d": "22:58",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "代理技能：改善企业AI的4种强大方法",
+   "u": "https://devnavigator.com/2026/09/30/agent-skills-contextualized-execution/",
+   "s": "外网新声·Hacker News",
+   "d": "22:46",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN: Burning Man for Agents",
+   "u": "https://burning-tokens.transitivebullsh.it/",
+   "s": "外网新声·Hacker News",
+   "d": "22:35",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：Tracelane.dev- OSS Rust LLM网关，带有防篡改分类账",
    "u": "https://github.com/tracelane/tracelane",
    "s": "外网新声·Hacker News",
    "d": "22:27",
@@ -419,18 +483,18 @@
    "x": ""
   },
   {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
    "s": "外网新声·GitHub 新星",
-   "d": "15:52",
+   "d": "15:55",
    "k": "",
    "x": ""
   },
   {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
-   "d": "15:42",
+   "d": "15:29",
    "k": "",
    "x": ""
   },
@@ -439,14 +503,6 @@
    "u": "https://arxiv.org/abs/2609.28274",
    "s": "外网新声·Hacker News",
    "d": "13:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer",
-   "u": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "10:40",
    "k": "",
    "x": ""
   },
@@ -475,17 +531,9 @@
    "x": ""
   },
   {
-   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
-   "u": "https://github.com/affaan-m/ECC",
-   "s": "外网新声·GitHub 新星",
-   "d": "01:24",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "STEPQuant: When and Where Errors Matter in Delta-Rule Recurrent State Quantization",
    "u": "https://arxiv.org/abs/2609.38169v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
    "k": "",
    "x": ""
@@ -493,7 +541,7 @@
   {
    "t": "LeapQuant: Efficient Linear Attention with Accurate Recurrent State Quantization",
    "u": "https://arxiv.org/abs/2609.38166v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
    "k": "",
    "x": ""
@@ -517,15 +565,23 @@
   {
    "t": "Beyond the Timeline: Augmenting Long-Video Memory with Grounded Entity Biographies",
    "u": "https://arxiv.org/abs/2609.38155v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Thinking Before Thinking: Scaling Agentic Inference Through Meta-Reasoning",
+   "u": "https://arxiv.org/abs/2609.38147v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:57",
    "k": "",
    "x": ""
   },
   {
    "t": "Learning Meta-Skills for Agent Harness Design in Test-Time AI4AI",
    "u": "https://arxiv.org/abs/2609.38143v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:55",
    "k": "",
    "x": ""
@@ -533,7 +589,15 @@
   {
    "t": "AdviSD: Learning to Advise Frontier LLMs via Targeted Multi-Turn Self-Distillation",
    "u": "https://arxiv.org/abs/2609.38142v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Breaking the Uniformity Trap: Scaling Video Diffusion Model via SplitMoE",
+   "u": "https://arxiv.org/abs/2609.38140v1",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:55",
    "k": "",
    "x": ""
@@ -563,9 +627,17 @@
    "x": ""
   },
   {
+   "t": "Stochastic World Models for Verifying Vision-Based Neural Feedback Systems",
+   "u": "https://arxiv.org/abs/2609.38120v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:50",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "How Local Mixing Encodes Relative Position in Global NoPE Attention",
    "u": "https://arxiv.org/abs/2609.38109v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:47",
    "k": "",
    "x": ""
@@ -573,8 +645,16 @@
   {
    "t": "Do LLM Agents Execute the Plans They Declare? From Planning-Mode Declaration to Pattern-Specific Execution",
    "u": "https://arxiv.org/abs/2609.38108v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:47",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Correct Answers, Invalid Traces: What Verifiable Grade-School Math Reveals About Chain-of-Thought Traces",
+   "u": "https://arxiv.org/abs/2609.38107v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:46",
    "k": "",
    "x": ""
   },
@@ -583,6 +663,14 @@
    "u": "https://arxiv.org/abs/2609.38104v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:45",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NeuronEye: Query-Guided Visual Concept Activation for Vision-Language Reasoning",
+   "u": "https://arxiv.org/abs/2609.38098v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:44",
    "k": "",
    "x": ""
   },
@@ -603,6 +691,14 @@
    "x": ""
   },
   {
+   "t": "Character Training for Risk-Averse Agents",
+   "u": "https://arxiv.org/abs/2609.38093v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:42",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Mira: Memory-Efficient MoE Inference Using Adaptive Caching and Predictive Expert Staging",
    "u": "https://arxiv.org/abs/2609.38090v1",
    "s": "外网新声·arXiv cs.LG",
@@ -611,90 +707,10 @@
    "x": ""
   },
   {
-   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
-   "u": "https://github.com/mattpocock/skills",
-   "s": "外网新声·GitHub 新星",
-   "d": "12:38",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "将Deming的持续改进应用于多Agent AI系统",
-   "u": "https://medium.com/@zrkjsy/deming-in-the-machine-running-an-ai-assisted-film-production-on-continuous-improvement-0337a3112111",
-   "s": "外网新声·Hacker News",
-   "d": "19:47",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "OpenRig：多Agent线束",
-   "u": "https://github.com/mvschwarz/openrig",
-   "s": "外网新声·Hacker News",
-   "d": "09:48",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "当人工智能智能体流氓时，谁应该承担责任？",
-   "u": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "08:06",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "obra/superpowers —有效的代理技能框架和软件开发方法。",
-   "u": "https://github.com/obra/superpowers",
-   "s": "外网新声·GitHub 新星",
-   "d": "02:37",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Codetta：大容量、无钥匙和不可检测的多代理串通",
-   "u": "https://arxiv.org/abs/2609.28900",
-   "s": "外网新声·Hacker News",
-   "d": "21:07",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "问问HN：有没有人建立了一个无领导力的多代理系统？",
-   "u": "https://news.ycombinator.com/item?id=49847249",
-   "s": "外网新声·Hacker News",
-   "d": "01:12",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "AI炒作指数：AI喜欢作弊",
-   "u": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "09:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "TangSengDaoDao/TangSengDaoDaoServer — 高颜值 IM 即时通讯,聊天",
-   "u": "https://github.com/TangSengDaoDao/TangSengDaoDaoServer",
-   "s": "外网新声·GitHub 新星",
-   "d": "08:13",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ultraworkers/claw-code -代理管理的博物馆展览，使用Gajae-Code/LazyCodex在Rust中建造—开发和",
-   "u": "https://github.com/ultraworkers/claw-code",
-   "s": "外网新声·GitHub 新星",
-   "d": "06:18",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "nutzam/nutz — Nutz —适用于所有Java开发人员的Web框架（ Mvc/Ioc/Aop/DAO/Json ）",
-   "u": "https://github.com/nutzam/nutz",
-   "s": "外网新声·GitHub 新星",
-   "d": "03:17",
+   "t": "Neural topology optimization of ship structures under propulsion machinery vibrations",
+   "u": "https://arxiv.org/abs/2609.38089v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:41",
    "k": "",
    "x": ""
   }
