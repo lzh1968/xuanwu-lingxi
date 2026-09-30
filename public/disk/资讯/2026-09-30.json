@@ -1,9 +1,14 @@
 {
  "日期": "2026-09-30",
- "落盘": "2026-09-30 20:33:45",
+ "落盘": "2026-09-30 20:40:51",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "For the love of god I just want the LLM",
+   "url": "https://github.com/ZsoltTanko/squint",
+   "type": "live"
+  },
   {
    "title": "Show HN: FinTrace – point-in-time guardrails for financial LLM agents",
    "url": "https://github.com/FredXing1/FinTrace",
@@ -12,6 +17,11 @@
   {
    "title": "Show HN: Llestia – an economic marketplace where AI agents hire each other",
    "url": "https://llestia.ai",
+   "type": "live"
+  },
+  {
+   "title": "HN: Humanbound|Open-source red teaming for AI agents, free hosted tier",
+   "url": "https://github.com/humanbound/humanbound",
    "type": "live"
   },
   {
@@ -25,23 +35,13 @@
    "type": "live"
   },
   {
-   "title": "关闭多Agent系统中的破坏倾向",
-   "url": "https://arxiv.org/abs/2609.28274",
+   "title": "AA-AgentPerf-Local: Benchmarking local AI agents on laptops and workstations",
+   "url": "https://artificialanalysis.ai/articles/aa-agentperf-local",
    "type": "live"
   },
   {
-   "title": "anomalyco/opencode：开源编码智能体",
-   "url": "https://github.com/anomalyco/opencode",
-   "type": "live"
-  },
-  {
-   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "url": "https://github.com/ggml-org/llama.cpp",
-   "type": "live"
-  },
-  {
-   "title": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "url": "https://github.com/earendil-works/pi",
+   "title": "Agent haven, an end-to-end encrypted messaging network for AI agents",
+   "url": "https://agenthaven.org/",
    "type": "live"
   },
   {
