@@ -1,5 +1,5 @@
 {
- "built": "2026-09-30 22:36:21",
+ "built": "2026-09-30 22:55:56",
  "count": 87,
  "items": [
   {
@@ -379,6 +379,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Agent Skills: 4 Powerful Ways to Improve Enterprise AI",
+   "u": "https://devnavigator.com/2026/09/30/agent-skills-contextualized-execution/",
+   "s": "外网新声·Hacker News",
+   "d": "22:46",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Show HN: Burning Man for Agents",
    "u": "https://burning-tokens.transitivebullsh.it/",
    "s": "外网新声·Hacker News",
@@ -443,50 +451,10 @@
    "x": ""
   },
   {
-   "t": "Show HN: Four frontier models argue over your AI agent's riskiest code",
-   "u": "https://truverif.ai/panel-review",
-   "s": "外网新声·Hacker News",
-   "d": "21:01",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "AI Coding Agent session compaction with Jev",
-   "u": "https://codeaholicguy.com/2026/09/30/ai-coding-agent-session-compaction-with-jev/",
-   "s": "外网新声·Hacker News",
-   "d": "20:45",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN: Llestia – an economic marketplace where AI agents hire each other",
-   "u": "https://llestia.ai",
-   "s": "外网新声·Hacker News",
-   "d": "19:57",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN: AFAW – A multi-agent coding workflow that doesn't trust the model",
-   "u": "https://github.com/agustindiazcano/afaw-anti-fragile-agentic-workflow",
-   "s": "外网新声·Hacker News",
-   "d": "18:31",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "14:35",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "14:33",
+   "d": "14:54",
    "k": "",
    "x": ""
   },
@@ -494,15 +462,15 @@
    "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
-   "d": "14:24",
+   "d": "14:38",
    "k": "",
    "x": ""
   },
   {
-   "t": "关闭多Agent系统中的破坏倾向",
-   "u": "https://arxiv.org/abs/2609.28274",
-   "s": "外网新声·Hacker News",
-   "d": "13:55",
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "14:37",
    "k": "",
    "x": ""
   },
@@ -515,34 +483,10 @@
    "x": ""
   },
   {
-   "t": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer",
-   "u": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "10:40",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
    "u": "https://github.com/Dao-AILab/flash-attention",
    "s": "外网新声·GitHub 新星",
    "d": "08:21",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "JMulti-Agent",
-   "u": "https://developers.openai.com/api/docs/guides/responses-multi-agent",
-   "s": "外网新声·Hacker News",
-   "d": "02:16",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "我构建了唯一的多代理文档智能应用程序。（使用MCP ）",
-   "u": "https://smarterdeck.com/",
-   "s": "外网新声·Hacker News",
-   "d": "01:40",
    "k": "",
    "x": ""
   },
@@ -557,7 +501,7 @@
   {
    "t": "STEPQuant: When and Where Errors Matter in Delta-Rule Recurrent State Quantization",
    "u": "https://arxiv.org/abs/2609.38169v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
    "k": "",
    "x": ""
@@ -565,7 +509,7 @@
   {
    "t": "LeapQuant: Efficient Linear Attention with Accurate Recurrent State Quantization",
    "u": "https://arxiv.org/abs/2609.38166v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
    "k": "",
    "x": ""
@@ -589,15 +533,23 @@
   {
    "t": "Beyond the Timeline: Augmenting Long-Video Memory with Grounded Entity Biographies",
    "u": "https://arxiv.org/abs/2609.38155v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Thinking Before Thinking: Scaling Agentic Inference Through Meta-Reasoning",
+   "u": "https://arxiv.org/abs/2609.38147v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:57",
    "k": "",
    "x": ""
   },
   {
    "t": "Learning Meta-Skills for Agent Harness Design in Test-Time AI4AI",
    "u": "https://arxiv.org/abs/2609.38143v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:55",
    "k": "",
    "x": ""
@@ -605,7 +557,15 @@
   {
    "t": "AdviSD: Learning to Advise Frontier LLMs via Targeted Multi-Turn Self-Distillation",
    "u": "https://arxiv.org/abs/2609.38142v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Breaking the Uniformity Trap: Scaling Video Diffusion Model via SplitMoE",
+   "u": "https://arxiv.org/abs/2609.38140v1",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:55",
    "k": "",
    "x": ""
@@ -635,9 +595,17 @@
    "x": ""
   },
   {
+   "t": "Stochastic World Models for Verifying Vision-Based Neural Feedback Systems",
+   "u": "https://arxiv.org/abs/2609.38120v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:50",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "How Local Mixing Encodes Relative Position in Global NoPE Attention",
    "u": "https://arxiv.org/abs/2609.38109v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:47",
    "k": "",
    "x": ""
@@ -645,8 +613,16 @@
   {
    "t": "Do LLM Agents Execute the Plans They Declare? From Planning-Mode Declaration to Pattern-Specific Execution",
    "u": "https://arxiv.org/abs/2609.38108v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:47",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Correct Answers, Invalid Traces: What Verifiable Grade-School Math Reveals About Chain-of-Thought Traces",
+   "u": "https://arxiv.org/abs/2609.38107v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:46",
    "k": "",
    "x": ""
   },
@@ -655,6 +631,14 @@
    "u": "https://arxiv.org/abs/2609.38104v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:45",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NeuronEye: Query-Guided Visual Concept Activation for Vision-Language Reasoning",
+   "u": "https://arxiv.org/abs/2609.38098v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:44",
    "k": "",
    "x": ""
   },
@@ -675,6 +659,14 @@
    "x": ""
   },
   {
+   "t": "Character Training for Risk-Averse Agents",
+   "u": "https://arxiv.org/abs/2609.38093v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:42",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Mira: Memory-Efficient MoE Inference Using Adaptive Caching and Predictive Expert Staging",
    "u": "https://arxiv.org/abs/2609.38090v1",
    "s": "外网新声·arXiv cs.LG",
@@ -683,18 +675,26 @@
    "x": ""
   },
   {
-   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
-   "u": "https://github.com/mattpocock/skills",
-   "s": "外网新声·GitHub 新星",
-   "d": "12:38",
+   "t": "Neural topology optimization of ship structures under propulsion machinery vibrations",
+   "u": "https://arxiv.org/abs/2609.38089v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:41",
    "k": "",
    "x": ""
   },
   {
-   "t": "GPT-6.1 Sol简介",
-   "u": "https://openai.com/index/introducing-gpt-6-1-sol",
-   "s": "外网新声·OpenAI 官方",
-   "d": "10:00",
+   "t": "Probability is Not Enough: Exploring and Counting Divergent Tokens for Reasoning Uncertainty Quantification in LLMs",
+   "u": "https://arxiv.org/abs/2609.38070v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:33",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Jaxolotl: A Unified High-Performance Benchmark Suite for LTL-Based Multi-Task RL",
+   "u": "https://arxiv.org/abs/2609.38065v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:30",
    "k": "",
    "x": ""
   }
