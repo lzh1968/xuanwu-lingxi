@@ -1,6 +1,6 @@
 {
- "built": "2026-09-30 21:35:04",
- "count": 85,
+ "built": "2026-09-30 21:43:26",
+ "count": 87,
  "items": [
   {
    "t": "今日辑要 · 2026-09-30（前沿 12 条）",
@@ -387,6 +387,14 @@
    "x": ""
   },
   {
+   "t": "ADLX 2.0: Extending graphics control to AI agents and agentic apps",
+   "u": "https://gpuopen.com/learn/adlx-2-0-extending-graphics-control-to-ai-agents-apps/",
+   "s": "外网新声·Hacker News",
+   "d": "21:14",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Local LLM Observability",
    "u": "https://github.com/LogneBudo/llmxray",
    "s": "外网新声·Hacker News",
@@ -399,6 +407,22 @@
    "u": "https://github.com/anis-marrouchi/agentx",
    "s": "外网新声·Hacker News",
    "d": "21:09",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN: Four frontier models argue over your AI agent's riskiest code",
+   "u": "https://truverif.ai/panel-review",
+   "s": "外网新声·Hacker News",
+   "d": "21:01",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "AI Coding Agent session compaction with Jev",
+   "u": "https://codeaholicguy.com/2026/09/30/ai-coding-agent-session-compaction-with-jev/",
+   "s": "外网新声·Hacker News",
+   "d": "20:45",
    "k": "",
    "x": ""
   },
@@ -419,10 +443,66 @@
    "x": ""
   },
   {
+   "t": "Show HN: Llestia – an economic marketplace where AI agents hire each other",
+   "u": "https://llestia.ai",
+   "s": "外网新声·Hacker News",
+   "d": "19:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "HN: Humanbound|Open-source red teaming for AI agents, free hosted tier",
+   "u": "https://github.com/humanbound/humanbound",
+   "s": "外网新声·Hacker News",
+   "d": "19:48",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN: AFAW – A multi-agent coding workflow that doesn't trust the model",
+   "u": "https://github.com/agustindiazcano/afaw-anti-fragile-agentic-workflow",
+   "s": "外网新声·Hacker News",
+   "d": "18:31",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "AA-AgentPerf-Local: Benchmarking local AI agents on laptops and workstations",
+   "u": "https://artificialanalysis.ai/articles/aa-agentperf-local",
+   "s": "外网新声·Hacker News",
+   "d": "17:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Agent haven, an end-to-end encrypted messaging network for AI agents",
+   "u": "https://agenthaven.org/",
+   "s": "外网新声·Hacker News",
+   "d": "17:38",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN:I built an AI agent team that recreates the style of any video",
+   "u": "https://github.com/edenfunf/reelmimic",
+   "s": "外网新声·Hacker News",
+   "d": "17:37",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "关闭多Agent系统中的破坏倾向",
+   "u": "https://arxiv.org/abs/2609.28274",
+   "s": "外网新声·Hacker News",
+   "d": "13:55",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
-   "d": "13:33",
+   "d": "13:39",
    "k": "",
    "x": ""
   },
@@ -430,22 +510,38 @@
    "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
    "u": "https://github.com/earendil-works/pi",
    "s": "外网新声·GitHub 新星",
-   "d": "13:20",
+   "d": "13:34",
    "k": "",
    "x": ""
   },
   {
-   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
-   "u": "https://github.com/Dao-AILab/flash-attention",
-   "s": "外网新声·GitHub 新星",
-   "d": "08:21",
+   "t": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer",
+   "u": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "10:40",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "JMulti-Agent",
+   "u": "https://developers.openai.com/api/docs/guides/responses-multi-agent",
+   "s": "外网新声·Hacker News",
+   "d": "02:16",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "我构建了唯一的多代理文档智能应用程序。（使用MCP ）",
+   "u": "https://smarterdeck.com/",
+   "s": "外网新声·Hacker News",
+   "d": "01:40",
    "k": "",
    "x": ""
   },
   {
    "t": "STEPQuant: When and Where Errors Matter in Delta-Rule Recurrent State Quantization",
    "u": "https://arxiv.org/abs/2609.38169v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
    "k": "",
    "x": ""
@@ -453,7 +549,7 @@
   {
    "t": "LeapQuant: Efficient Linear Attention with Accurate Recurrent State Quantization",
    "u": "https://arxiv.org/abs/2609.38166v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
    "k": "",
    "x": ""
@@ -477,15 +573,23 @@
   {
    "t": "Beyond the Timeline: Augmenting Long-Video Memory with Grounded Entity Biographies",
    "u": "https://arxiv.org/abs/2609.38155v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Thinking Before Thinking: Scaling Agentic Inference Through Meta-Reasoning",
+   "u": "https://arxiv.org/abs/2609.38147v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:57",
    "k": "",
    "x": ""
   },
   {
    "t": "Learning Meta-Skills for Agent Harness Design in Test-Time AI4AI",
    "u": "https://arxiv.org/abs/2609.38143v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:55",
    "k": "",
    "x": ""
@@ -493,7 +597,15 @@
   {
    "t": "AdviSD: Learning to Advise Frontier LLMs via Targeted Multi-Turn Self-Distillation",
    "u": "https://arxiv.org/abs/2609.38142v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Breaking the Uniformity Trap: Scaling Video Diffusion Model via SplitMoE",
+   "u": "https://arxiv.org/abs/2609.38140v1",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:55",
    "k": "",
    "x": ""
@@ -523,9 +635,17 @@
    "x": ""
   },
   {
+   "t": "Stochastic World Models for Verifying Vision-Based Neural Feedback Systems",
+   "u": "https://arxiv.org/abs/2609.38120v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:50",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "How Local Mixing Encodes Relative Position in Global NoPE Attention",
    "u": "https://arxiv.org/abs/2609.38109v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:47",
    "k": "",
    "x": ""
@@ -533,8 +653,16 @@
   {
    "t": "Do LLM Agents Execute the Plans They Declare? From Planning-Mode Declaration to Pattern-Specific Execution",
    "u": "https://arxiv.org/abs/2609.38108v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:47",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Correct Answers, Invalid Traces: What Verifiable Grade-School Math Reveals About Chain-of-Thought Traces",
+   "u": "https://arxiv.org/abs/2609.38107v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:46",
    "k": "",
    "x": ""
   },
@@ -543,6 +671,14 @@
    "u": "https://arxiv.org/abs/2609.38104v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:45",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NeuronEye: Query-Guided Visual Concept Activation for Vision-Language Reasoning",
+   "u": "https://arxiv.org/abs/2609.38098v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:44",
    "k": "",
    "x": ""
   },
@@ -559,126 +695,6 @@
    "u": "https://arxiv.org/abs/2609.38095v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:43",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Mira: Memory-Efficient MoE Inference Using Adaptive Caching and Predictive Expert Staging",
-   "u": "https://arxiv.org/abs/2609.38090v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:41",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "GPT-6.1 Sol简介",
-   "u": "https://openai.com/index/introducing-gpt-6-1-sol",
-   "s": "外网新声·OpenAI 官方",
-   "d": "10:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "TauricResearch/TradingAgents — TradingAgents：多代理LLM金融交易框架",
-   "u": "https://github.com/TauricResearch/TradingAgents",
-   "s": "外网新声·GitHub 新星",
-   "d": "06:15",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
-   "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-   "s": "外网新声·GitHub 新星",
-   "d": "04:56",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "面向前沿人工智能培训的安全案例",
-   "u": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-   "s": "外网新声·OpenAI 官方",
-   "d": "19:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "山姆·奥尔特曼在联合国安理会的讲话",
-   "u": "https://openai.com/index/sam-altman-un-security-council-remarks",
-   "s": "外网新声·OpenAI 官方",
-   "d": "12:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Ringg的AI 智能体通过OpenAI解决高达65%的客户呼叫",
-   "u": "https://openai.com/index/ringg",
-   "s": "外网新声·OpenAI 官方",
-   "d": "12:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "MentalHealthBench简介",
-   "u": "https://openai.com/index/introducing-mentalhealthbench",
-   "s": "外网新声·OpenAI 官方",
-   "d": "10:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "rasbt/LLMs-from-scratch：一步步用 PyTorch 从零实现类 ChatGPT 模型",
-   "u": "https://github.com/rasbt/LLMs-from-scratch",
-   "s": "外网新声·GitHub 新星",
-   "d": "13:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "TangSengDaoDao/TangSengDaoDaoServer — 高颜值 IM 即时通讯,聊天",
-   "u": "https://github.com/TangSengDaoDao/TangSengDaoDaoServer",
-   "s": "外网新声·GitHub 新星",
-   "d": "08:13",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "nutzam/nutz — Nutz —适用于所有Java开发人员的Web框架（ Mvc/Ioc/Aop/DAO/Json ）",
-   "u": "https://github.com/nutzam/nutz",
-   "s": "外网新声·GitHub 新星",
-   "d": "03:17",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "multica-ai/andrej-karpathy-skills —用于改进Claude Code行为的单个CLAUDE.md文件，源自Andrej Karpathy的ob",
-   "u": "https://github.com/multica-ai/andrej-karpathy-skills",
-   "s": "外网新声·GitHub 新星",
-   "d": "10:05",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Dapp-Learning-DAO/Dapp-Learning —面向所有阶段开发人员的Dapp学习项目。成为和培养主权国家",
-   "u": "https://github.com/Dapp-Learning-DAO/Dapp-Learning",
-   "s": "外网新声·GitHub 新星",
-   "d": "11:30",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
-   "u": "https://github.com/IBAX-io/go-ibax",
-   "s": "外网新声·GitHub 新星",
-   "d": "01:23",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "greenrobot/greenDAO — greenDAO是适用于Android的轻型快速ORM解决方案，可将对象映射到SQLite数据库。",
-   "u": "https://github.com/greenrobot/greenDAO",
-   "s": "外网新声·GitHub 新星",
-   "d": "05:30",
    "k": "",
    "x": ""
   }
