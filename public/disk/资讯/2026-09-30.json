@@ -1,9 +1,14 @@
 {
  "日期": "2026-09-30",
- "落盘": "2026-09-30 23:32:33",
+ "落盘": "2026-09-30 23:40:23",
  "条数": 14,
- "live": 29,
+ "live": 60,
  "条目": [
+  {
+   "title": "Glance – Build, evaluate, and monitor AI agents",
+   "url": "https://github.com/vpanghal/glance-releases/releases/download/v0.2.0/Glance-0.2.0-arm64.dmg",
+   "type": "live"
+  },
   {
    "title": "Show HN: How we made web agents 3x faster by building the missing memory layer",
    "url": "https://blog.reduck.ai/browser-action-memory-layer-for-faster-agents/",
@@ -37,11 +42,6 @@
   {
    "title": "Training-free asynchronous agents playing DOOM",
    "url": "https://dvmazur.github.io/async_llm/",
-   "type": "live"
-  },
-  {
-   "title": "Sub-two-second LLM-driven NPC behavior in a 3D action game",
-   "url": "https://emcom.ai/2026/09/26/the-quest-for-real-time/",
    "type": "live"
   },
   {
