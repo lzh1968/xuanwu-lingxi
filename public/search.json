@@ -1,5 +1,5 @@
 {
- "built": "2026-10-01 00:46:41",
+ "built": "2026-10-01 00:54:10",
  "count": 92,
  "items": [
   {
@@ -419,14 +419,6 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "LLM中的权威偏见：一个“经过验证的来源”注释翻转了45-88%的答案",
-   "u": "https://authority-bias.vercel.app/",
-   "s": "外网新声·Hacker News",
-   "d": "00:36",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "值：Agentic AI的可验证对齐层",
    "u": "https://asteris.ai/blog/wiai/value-gives-agents-a-second-opinion-before-they-act",
    "s": "外网新声·Hacker News",
@@ -499,73 +491,33 @@
    "x": ""
   },
   {
-   "t": "Show HN：AFAW –不信任模型的多代理编码工作流程",
-   "u": "https://github.com/agustindiazcano/afaw-anti-fragile-agentic-workflow",
-   "s": "外网新声·Hacker News",
-   "d": "18:31",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
-   "d": "16:39",
+   "d": "16:48",
    "k": "",
    "x": ""
   },
   {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
    "s": "外网新声·GitHub 新星",
-   "d": "16:30",
+   "d": "16:40",
    "k": "",
    "x": ""
   },
   {
-   "t": "关闭多Agent系统中的破坏倾向",
-   "u": "https://arxiv.org/abs/2609.28274",
-   "s": "外网新声·Hacker News",
-   "d": "13:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "OpenAI首席研究官表示：“我们不会因为黑客攻击而自杀”",
-   "u": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "10:40",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "JMulti-Agent",
-   "u": "https://developers.openai.com/api/docs/guides/responses-multi-agent",
-   "s": "外网新声·Hacker News",
-   "d": "02:16",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "我构建了唯一的多代理文档智能应用程序。（使用MCP ）",
-   "u": "https://smarterdeck.com/",
-   "s": "外网新声·Hacker News",
-   "d": "01:40",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
-   "u": "https://github.com/affaan-m/ECC",
+   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "u": "https://github.com/Dao-AILab/flash-attention",
    "s": "外网新声·GitHub 新星",
-   "d": "01:24",
+   "d": "08:21",
    "k": "",
    "x": ""
   },
   {
    "t": "STEPQuant：Delta规则递归状态量化中的错误何时何地重要",
    "u": "https://arxiv.org/abs/2609.38169v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:59",
    "k": "",
    "x": ""
@@ -573,7 +525,7 @@
   {
    "t": "LeapQuant：具有精确递归状态量化的高效线性注意力",
    "u": "https://arxiv.org/abs/2609.38166v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:59",
    "k": "",
    "x": ""
@@ -597,23 +549,15 @@
   {
    "t": "超越时间线：通过接地实体传记增强长视频记忆",
    "u": "https://arxiv.org/abs/2609.38155v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "思考前思考：通过元推理扩展代理推理",
-   "u": "https://arxiv.org/abs/2609.38147v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:57",
    "k": "",
    "x": ""
   },
   {
    "t": "在测试AI4AI中学习Agent线束设计的元技能",
    "u": "https://arxiv.org/abs/2609.38143v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:55",
    "k": "",
    "x": ""
@@ -621,15 +565,7 @@
   {
    "t": "AdviSD：通过有针对性的多回合自蒸馏学习为前沿LLM提供建议",
    "u": "https://arxiv.org/abs/2609.38142v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "打破均匀性陷阱：通过SplitMoE缩放视频扩散模型",
-   "u": "https://arxiv.org/abs/2609.38140v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:55",
    "k": "",
    "x": ""
@@ -659,17 +595,9 @@
    "x": ""
   },
   {
-   "t": "Stochastic World Models for Verifying Vision-Based Neural Feedback Systems",
-   "u": "https://arxiv.org/abs/2609.38120v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:50",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "How Local Mixing Encodes Relative Position in Global NoPE Attention",
    "u": "https://arxiv.org/abs/2609.38109v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:47",
    "k": "",
    "x": ""
@@ -677,16 +605,8 @@
   {
    "t": "Do LLM Agents Execute the Plans They Declare? From Planning-Mode Declaration to Pattern-Specific Execution",
    "u": "https://arxiv.org/abs/2609.38108v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:47",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Correct Answers, Invalid Traces: What Verifiable Grade-School Math Reveals About Chain-of-Thought Traces",
-   "u": "https://arxiv.org/abs/2609.38107v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:46",
    "k": "",
    "x": ""
   },
@@ -695,14 +615,6 @@
    "u": "https://arxiv.org/abs/2609.38104v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:45",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NeuronEye: Query-Guided Visual Concept Activation for Vision-Language Reasoning",
-   "u": "https://arxiv.org/abs/2609.38098v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:44",
    "k": "",
    "x": ""
   },
@@ -723,18 +635,106 @@
    "x": ""
   },
   {
-   "t": "Character Training for Risk-Averse Agents",
-   "u": "https://arxiv.org/abs/2609.38093v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:42",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Mira: Memory-Efficient MoE Inference Using Adaptive Caching and Predictive Expert Staging",
    "u": "https://arxiv.org/abs/2609.38090v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:41",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "GPT-6.1 Sol简介",
+   "u": "https://openai.com/index/introducing-gpt-6-1-sol",
+   "s": "外网新声·OpenAI 官方",
+   "d": "10:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "TauricResearch/TradingAgents — TradingAgents：多代理LLM金融交易框架",
+   "u": "https://github.com/TauricResearch/TradingAgents",
+   "s": "外网新声·GitHub 新星",
+   "d": "06:15",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
+   "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+   "s": "外网新声·GitHub 新星",
+   "d": "04:56",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "面向前沿人工智能培训的安全案例",
+   "u": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+   "s": "外网新声·OpenAI 官方",
+   "d": "19:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "山姆·奥尔特曼在联合国安理会的讲话",
+   "u": "https://openai.com/index/sam-altman-un-security-council-remarks",
+   "s": "外网新声·OpenAI 官方",
+   "d": "12:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Ringg的AI 智能体通过OpenAI解决高达65%的客户呼叫",
+   "u": "https://openai.com/index/ringg",
+   "s": "外网新声·OpenAI 官方",
+   "d": "12:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "MentalHealthBench简介",
+   "u": "https://openai.com/index/introducing-mentalhealthbench",
+   "s": "外网新声·OpenAI 官方",
+   "d": "10:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "rasbt/LLMs-from-scratch：一步步用 PyTorch 从零实现类 ChatGPT 模型",
+   "u": "https://github.com/rasbt/LLMs-from-scratch",
+   "s": "外网新声·GitHub 新星",
+   "d": "13:58",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "TangSengDaoDao/TangSengDaoDaoServer — 高颜值 IM 即时通讯,聊天",
+   "u": "https://github.com/TangSengDaoDao/TangSengDaoDaoServer",
+   "s": "外网新声·GitHub 新星",
+   "d": "08:13",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "nutzam/nutz — Nutz —适用于所有Java开发人员的Web框架（ Mvc/Ioc/Aop/DAO/Json ）",
+   "u": "https://github.com/nutzam/nutz",
+   "s": "外网新声·GitHub 新星",
+   "d": "03:17",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "multica-ai/andrej-karpathy-skills —用于改进Claude Code行为的单个CLAUDE.md文件，源自Andrej Karpathy的ob",
+   "u": "https://github.com/multica-ai/andrej-karpathy-skills",
+   "s": "外网新声·GitHub 新星",
+   "d": "10:05",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Dapp-Learning-DAO/Dapp-Learning —面向所有阶段开发人员的Dapp学习项目。成为和培养主权国家",
+   "u": "https://github.com/Dapp-Learning-DAO/Dapp-Learning",
+   "s": "外网新声·GitHub 新星",
+   "d": "11:30",
    "k": "",
    "x": ""
   }

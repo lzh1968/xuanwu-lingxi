@@ -1,17 +1,9 @@
 {
- "generated": "00:46",
- "built": "2026-10-01 00:46:41",
+ "generated": "00:54",
+ "built": "2026-10-01 00:54:10",
  "count": 52,
- "live_count": 60,
+ "live_count": 42,
  "items": [
-  {
-   "type": "live",
-   "title": "LLM中的权威偏见：一个“经过验证的来源”注释翻转了45-88%的答案",
-   "url": "https://authority-bias.vercel.app/",
-   "src": "Hacker News",
-   "t": "00:36",
-   "fresh": true
-  },
   {
    "type": "live",
    "title": "值：Agentic AI的可验证对齐层",
@@ -66,7 +58,15 @@
    "url": "https://blog.reduck.ai/browser-action-memory-layer-for-faster-agents/",
    "src": "Hacker News",
    "t": "23:20",
-   "fresh": true
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "DoorDash打开AI订购代理和批量订单API的美国候补名单",
+   "url": "https://about.doordash.com/en-us/news/doordash-ordering-connector",
+   "src": "Hacker News",
+   "t": "23:10",
+   "fresh": false
   },
   {
    "type": "article",
