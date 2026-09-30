@@ -1,5 +1,5 @@
 {
- "built": "2026-09-30 20:27:32",
+ "built": "2026-09-30 20:34:09",
  "count": 87,
  "items": [
   {
@@ -379,14 +379,6 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "Show HN: FinTrace – point-in-time guardrails for financial LLM agents",
-   "u": "https://github.com/FredXing1/FinTrace",
-   "s": "外网新声·Hacker News",
-   "d": "20:16",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Show HN: Llestia – an economic marketplace where AI agents hire each other",
    "u": "https://llestia.ai",
    "s": "外网新声·Hacker News",
@@ -395,26 +387,74 @@
    "x": ""
   },
   {
-   "t": "Show HN: Privacy-First Natural Language to SQL, No LLMs, No Uploads",
-   "u": "https://www.clientvirt.com/",
+   "t": "HN: Humanbound|Open-source red teaming for AI agents, free hosted tier",
+   "u": "https://github.com/humanbound/humanbound",
    "s": "外网新声·Hacker News",
-   "d": "19:01",
+   "d": "19:48",
    "k": "",
    "x": ""
   },
   {
-   "t": "Show HN: AFAW – A multi-agent coding workflow that doesn't trust the model",
-   "u": "https://github.com/agustindiazcano/afaw-anti-fragile-agentic-workflow",
+   "t": "AA-AgentPerf-Local: Benchmarking local AI agents on laptops and workstations",
+   "u": "https://artificialanalysis.ai/articles/aa-agentperf-local",
    "s": "外网新声·Hacker News",
-   "d": "18:31",
+   "d": "17:57",
    "k": "",
    "x": ""
   },
   {
-   "t": "关闭多Agent系统中的破坏倾向",
-   "u": "https://arxiv.org/abs/2609.28274",
+   "t": "Agent haven, an end-to-end encrypted messaging network for AI agents",
+   "u": "https://agenthaven.org/",
    "s": "外网新声·Hacker News",
-   "d": "13:55",
+   "d": "17:38",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN:I built an AI agent team that recreates the style of any video",
+   "u": "https://github.com/edenfunf/reelmimic",
+   "s": "外网新声·Hacker News",
+   "d": "17:37",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "How to Manage a Team of AI Agents at Month-End",
+   "u": "https://adaptiveinc.com/blog/01a0d880/how-to-manage-a-team-of-ai-agents-at-month-end",
+   "s": "外网新声·Hacker News",
+   "d": "16:05",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN: Instapath – your personal agent needs something, another agent has it",
+   "u": "https://instapath.ai/",
+   "s": "外网新声·Hacker News",
+   "d": "13:41",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN: Runtape – counterfactual debugging and regression tests for AI agents",
+   "u": "https://github.com/RehanMohammed985/runtape",
+   "s": "外网新声·Hacker News",
+   "d": "13:15",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
+   "s": "外网新声·GitHub 新星",
+   "d": "12:33",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "12:30",
    "k": "",
    "x": ""
   },
@@ -427,26 +467,10 @@
    "x": ""
   },
   {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
-   "s": "外网新声·GitHub 新星",
-   "d": "12:24",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
    "u": "https://github.com/earendil-works/pi",
    "s": "外网新声·GitHub 新星",
    "d": "12:20",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "12:18",
    "k": "",
    "x": ""
   },
@@ -463,22 +487,6 @@
    "u": "https://github.com/Dao-AILab/flash-attention",
    "s": "外网新声·GitHub 新星",
    "d": "08:21",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "JMulti-Agent",
-   "u": "https://developers.openai.com/api/docs/guides/responses-multi-agent",
-   "s": "外网新声·Hacker News",
-   "d": "02:16",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "我构建了唯一的多代理文档智能应用程序。（使用MCP ）",
-   "u": "https://smarterdeck.com/",
-   "s": "外网新声·Hacker News",
-   "d": "01:40",
    "k": "",
    "x": ""
   },
@@ -687,14 +695,6 @@
    "u": "https://arxiv.org/abs/2609.38065v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:30",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "UserProxyBench: Evaluating LLM User Simulators for Agent Benchmarks and Training",
-   "u": "https://arxiv.org/abs/2609.38043v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:17",
    "k": "",
    "x": ""
   }
