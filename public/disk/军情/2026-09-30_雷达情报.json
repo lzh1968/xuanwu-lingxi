@@ -2,14 +2,20 @@
  "日期": "2026-09-30",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-09-30 13:29:59",
-  "chosen": "ATOM short",
+  "updated": "2026-09-30 14:17:18",
+  "chosen": "WLD short",
   "nodes": [
    {
-    "coin": "ATOM",
+    "coin": "LTC",
     "side": "short",
     "align": 3,
-    "embryo": 2.2
+    "embryo": 2.7
+   },
+   {
+    "coin": "WLD",
+    "side": "short",
+    "align": 3,
+    "embryo": 1.2
    }
   ]
  }
