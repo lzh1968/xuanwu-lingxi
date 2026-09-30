@@ -1,5 +1,5 @@
 {
- "built": "2026-09-30 20:48:46",
+ "built": "2026-09-30 20:56:13",
  "count": 87,
  "items": [
   {
@@ -379,26 +379,10 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "Show HN: AFAW – A multi-agent coding workflow that doesn't trust the model",
-   "u": "https://github.com/agustindiazcano/afaw-anti-fragile-agentic-workflow",
-   "s": "外网新声·Hacker News",
-   "d": "18:31",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "关闭多Agent系统中的破坏倾向",
-   "u": "https://arxiv.org/abs/2609.28274",
-   "s": "外网新声·Hacker News",
-   "d": "13:55",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "12:47",
+   "d": "12:54",
    "k": "",
    "x": ""
   },
@@ -423,22 +407,6 @@
    "u": "https://github.com/Dao-AILab/flash-attention",
    "s": "外网新声·GitHub 新星",
    "d": "08:21",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "JMulti-Agent",
-   "u": "https://developers.openai.com/api/docs/guides/responses-multi-agent",
-   "s": "外网新声·Hacker News",
-   "d": "02:16",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "我构建了唯一的多代理文档智能应用程序。（使用MCP ）",
-   "u": "https://smarterdeck.com/",
-   "s": "外网新声·Hacker News",
-   "d": "01:40",
    "k": "",
    "x": ""
   },
@@ -683,18 +651,50 @@
    "x": ""
   },
   {
-   "t": "将Deming的持续改进应用于多Agent AI系统",
-   "u": "https://medium.com/@zrkjsy/deming-in-the-machine-running-an-ai-assisted-film-production-on-continuous-improvement-0337a3112111",
-   "s": "外网新声·Hacker News",
-   "d": "19:47",
+   "t": "当人工智能智能体流氓时，谁应该承担责任？",
+   "u": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "08:06",
    "k": "",
    "x": ""
   },
   {
-   "t": "OpenRig：多Agent线束",
-   "u": "https://github.com/mvschwarz/openrig",
-   "s": "外网新声·Hacker News",
-   "d": "09:48",
+   "t": "obra/superpowers —有效的代理技能框架和软件开发方法。",
+   "u": "https://github.com/obra/superpowers",
+   "s": "外网新声·GitHub 新星",
+   "d": "02:37",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "使用安全的服务器端内存推进专用AI计算",
+   "u": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+   "s": "外网新声·DeepMind 官方",
+   "d": "16:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "AI炒作指数：AI喜欢作弊",
+   "u": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "09:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "TangSengDaoDao/TangSengDaoDaoServer — 高颜值 IM 即时通讯,聊天",
+   "u": "https://github.com/TangSengDaoDao/TangSengDaoDaoServer",
+   "s": "外网新声·GitHub 新星",
+   "d": "08:13",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "通过Gemini介绍代理视频理解",
+   "u": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+   "s": "外网新声·DeepMind 官方",
+   "d": "17:08",
    "k": "",
    "x": ""
   }
