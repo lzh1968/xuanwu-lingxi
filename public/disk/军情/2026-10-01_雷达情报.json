@@ -2,14 +2,20 @@
  "日期": "2026-10-01",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-01 03:30:04",
-  "chosen": "WLFI short",
+  "updated": "2026-10-01 04:01:13",
+  "chosen": "BTC short",
   "nodes": [
    {
-    "coin": "WLFI",
+    "coin": "BTC",
     "side": "short",
-    "align": 3,
-    "embryo": 2.7
+    "align": 2,
+    "embryo": 3.3
+   },
+   {
+    "coin": "XRP",
+    "side": "short",
+    "align": 2,
+    "embryo": 3.3
    }
   ]
  }
