@@ -1,71 +1,71 @@
 {
- "generated": "00:10",
- "built": "2026-10-01 00:10:50",
- "count": 50,
+ "generated": "00:17",
+ "built": "2026-10-01 00:17:40",
+ "count": 51,
  "live_count": 60,
  "items": [
   {
    "type": "live",
-   "title": "LLM服务器内部发生了什么",
-   "url": "https://muhammadraza.me/2026/what-happens-inside-an-llm-server/",
+   "title": "Show HN：AFAW –不信任模型的多代理编码工作流程",
+   "url": "https://github.com/agustindiazcano/afaw-anti-fragile-agentic-workflow",
    "src": "Hacker News",
-   "t": "23:39",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Show HN: Glance –构建、评估和监控AI 智能体",
-   "url": "https://github.com/vpanghal/glance-releases/releases/download/v0.2.0/Glance-0.2.0-arm64.dmg",
-   "src": "Hacker News",
-   "t": "23:37",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Show HN：我们如何通过构建缺失的内存层使Web代理速度提高3倍",
-   "url": "https://blog.reduck.ai/browser-action-memory-layer-for-faster-agents/",
-   "src": "Hacker News",
-   "t": "23:20",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "DoorDash打开AI订购代理和批量订单API的美国候补名单",
-   "url": "https://about.doordash.com/en-us/news/doordash-ordering-connector",
-   "src": "Hacker News",
-   "t": "23:10",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "预计到2028年，十分之七的企业将放弃供应商构建的代理人工智能",
-   "url": "https://www.theregister.com/ai-and-ml/2026/09/30/7-in-10-enterprises-expected-to-abandon-vendor-built-agentic-ai-by-2028/5300021",
-   "src": "Hacker News",
-   "t": "22:58",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "代理技能：改善企业AI的4种强大方法",
-   "url": "https://devnavigator.com/2026/09/30/agent-skills-contextualized-execution/",
-   "src": "Hacker News",
-   "t": "22:46",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Show HN: Burning Man for Agents",
-   "url": "https://burning-tokens.transitivebullsh.it/",
-   "src": "Hacker News",
-   "t": "22:35",
+   "t": "18:31",
    "fresh": false
   },
   {
    "type": "live",
-   "title": "Show HN：Tracelane.dev- OSS Rust LLM网关，带有防篡改分类账",
-   "url": "https://github.com/tracelane/tracelane",
+   "title": "anomalyco/opencode：开源编码智能体",
+   "url": "https://github.com/anomalyco/opencode",
+   "src": "GitHub 新星",
+   "t": "16:16",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "url": "https://github.com/NousResearch/hermes-agent",
+   "src": "GitHub 新星",
+   "t": "16:13",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "url": "https://github.com/ggml-org/llama.cpp",
+   "src": "GitHub 新星",
+   "t": "16:09",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "url": "https://github.com/earendil-works/pi",
+   "src": "GitHub 新星",
+   "t": "15:55",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "关闭多Agent系统中的破坏倾向",
+   "url": "https://arxiv.org/abs/2609.28274",
    "src": "Hacker News",
-   "t": "22:27",
+   "t": "13:55",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "url": "https://github.com/Dao-AILab/flash-attention",
+   "src": "GitHub 新星",
+   "t": "08:21",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "JMulti-Agent",
+   "url": "https://developers.openai.com/api/docs/guides/responses-multi-agent",
+   "src": "Hacker News",
+   "t": "02:16",
    "fresh": false
   },
   {
@@ -73,6 +73,14 @@
    "title": "今日辑要 · 2026-10-01（前沿 12 条）",
    "url": "a/digest-20261001.html",
    "src": "Agent 与智能体",
+   "t": "2026-10-01",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "自治系统的\"慢变量\"",
+   "url": "a/note-20261001-1.html",
+   "src": "灵犀手记",
    "t": "2026-10-01",
    "fresh": false
   },
@@ -105,14 +113,6 @@
    "title": "自治系统的\"慢变量\"",
    "url": "a/note-20260930-1.html",
    "src": "灵犀手记",
-   "t": "2026-09-30",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "关于\"记忆\"的三种用法",
-   "url": "a/note-20260930-2.html",
-   "src": "Agent 与智能体",
    "t": "2026-09-30",
    "fresh": false
   }
