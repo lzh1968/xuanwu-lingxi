@@ -1,6 +1,6 @@
 {
- "built": "2026-09-30 21:20:00",
- "count": 78,
+ "built": "2026-09-30 21:26:40",
+ "count": 87,
  "items": [
   {
    "t": "今日辑要 · 2026-09-30（前沿 12 条）",
@@ -379,17 +379,161 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer",
-   "u": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "10:40",
+   "t": "Policy Gradient for LLMs, Explained Visually",
+   "u": "https://www.tylerromero.com/posts/2026-09-policy-gradient/",
+   "s": "外网新声·Hacker News",
+   "d": "21:19",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ADLX 2.0: Extending graphics control to AI agents and agentic apps",
+   "u": "https://gpuopen.com/learn/adlx-2-0-extending-graphics-control-to-ai-agents-apps/",
+   "s": "外网新声·Hacker News",
+   "d": "21:14",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Local LLM Observability",
+   "u": "https://github.com/LogneBudo/llmxray",
+   "s": "外网新声·Hacker News",
+   "d": "21:11",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN: AgentX – Run Claude Code, Codex or Any LLM from Your Chats and GitHub",
+   "u": "https://github.com/anis-marrouchi/agentx",
+   "s": "外网新声·Hacker News",
+   "d": "21:09",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN: Four frontier models argue over your AI agent's riskiest code",
+   "u": "https://truverif.ai/panel-review",
+   "s": "外网新声·Hacker News",
+   "d": "21:01",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "AI Coding Agent session compaction with Jev",
+   "u": "https://codeaholicguy.com/2026/09/30/ai-coding-agent-session-compaction-with-jev/",
+   "s": "外网新声·Hacker News",
+   "d": "20:45",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "I Turned 17 Hours of Video into a Second Brain with Local LLM",
+   "u": "https://shramko.dev/blog/second-brain-from-video",
+   "s": "外网新声·Hacker News",
+   "d": "20:42",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "For the love of god I just want the LLM",
+   "u": "https://github.com/ZsoltTanko/squint",
+   "s": "外网新声·Hacker News",
+   "d": "20:36",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN: Llestia – an economic marketplace where AI agents hire each other",
+   "u": "https://llestia.ai",
+   "s": "外网新声·Hacker News",
+   "d": "19:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "HN: Humanbound|Open-source red teaming for AI agents, free hosted tier",
+   "u": "https://github.com/humanbound/humanbound",
+   "s": "外网新声·Hacker News",
+   "d": "19:48",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "AA-AgentPerf-Local: Benchmarking local AI agents on laptops and workstations",
+   "u": "https://artificialanalysis.ai/articles/aa-agentperf-local",
+   "s": "外网新声·Hacker News",
+   "d": "17:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Agent haven, an end-to-end encrypted messaging network for AI agents",
+   "u": "https://agenthaven.org/",
+   "s": "外网新声·Hacker News",
+   "d": "17:38",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN:I built an AI agent team that recreates the style of any video",
+   "u": "https://github.com/edenfunf/reelmimic",
+   "s": "外网新声·Hacker News",
+   "d": "17:37",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "13:23",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "13:20",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
+   "s": "外网新声·GitHub 新星",
+   "d": "13:20",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
+   "s": "外网新声·GitHub 新星",
+   "d": "13:14",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "u": "https://github.com/Dao-AILab/flash-attention",
+   "s": "外网新声·GitHub 新星",
+   "d": "08:21",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
+   "u": "https://github.com/affaan-m/ECC",
+   "s": "外网新声·GitHub 新星",
+   "d": "01:24",
    "k": "",
    "x": ""
   },
   {
    "t": "STEPQuant: When and Where Errors Matter in Delta-Rule Recurrent State Quantization",
    "u": "https://arxiv.org/abs/2609.38169v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:59",
    "k": "",
    "x": ""
@@ -397,7 +541,7 @@
   {
    "t": "LeapQuant: Efficient Linear Attention with Accurate Recurrent State Quantization",
    "u": "https://arxiv.org/abs/2609.38166v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:59",
    "k": "",
    "x": ""
@@ -421,23 +565,15 @@
   {
    "t": "Beyond the Timeline: Augmenting Long-Video Memory with Grounded Entity Biographies",
    "u": "https://arxiv.org/abs/2609.38155v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Thinking Before Thinking: Scaling Agentic Inference Through Meta-Reasoning",
-   "u": "https://arxiv.org/abs/2609.38147v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:57",
    "k": "",
    "x": ""
   },
   {
    "t": "Learning Meta-Skills for Agent Harness Design in Test-Time AI4AI",
    "u": "https://arxiv.org/abs/2609.38143v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:55",
    "k": "",
    "x": ""
@@ -445,15 +581,7 @@
   {
    "t": "AdviSD: Learning to Advise Frontier LLMs via Targeted Multi-Turn Self-Distillation",
    "u": "https://arxiv.org/abs/2609.38142v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Breaking the Uniformity Trap: Scaling Video Diffusion Model via SplitMoE",
-   "u": "https://arxiv.org/abs/2609.38140v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:55",
    "k": "",
    "x": ""
@@ -483,17 +611,9 @@
    "x": ""
   },
   {
-   "t": "Stochastic World Models for Verifying Vision-Based Neural Feedback Systems",
-   "u": "https://arxiv.org/abs/2609.38120v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:50",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "How Local Mixing Encodes Relative Position in Global NoPE Attention",
    "u": "https://arxiv.org/abs/2609.38109v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:47",
    "k": "",
    "x": ""
@@ -501,16 +621,8 @@
   {
    "t": "Do LLM Agents Execute the Plans They Declare? From Planning-Mode Declaration to Pattern-Specific Execution",
    "u": "https://arxiv.org/abs/2609.38108v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:47",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Correct Answers, Invalid Traces: What Verifiable Grade-School Math Reveals About Chain-of-Thought Traces",
-   "u": "https://arxiv.org/abs/2609.38107v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:46",
    "k": "",
    "x": ""
   },
@@ -519,14 +631,6 @@
    "u": "https://arxiv.org/abs/2609.38104v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:45",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NeuronEye: Query-Guided Visual Concept Activation for Vision-Language Reasoning",
-   "u": "https://arxiv.org/abs/2609.38098v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:44",
    "k": "",
    "x": ""
   },
@@ -547,14 +651,6 @@
    "x": ""
   },
   {
-   "t": "Character Training for Risk-Averse Agents",
-   "u": "https://arxiv.org/abs/2609.38093v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:42",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Mira: Memory-Efficient MoE Inference Using Adaptive Caching and Predictive Expert Staging",
    "u": "https://arxiv.org/abs/2609.38090v1",
    "s": "外网新声·arXiv cs.LG",
@@ -563,66 +659,42 @@
    "x": ""
   },
   {
-   "t": "Neural topology optimization of ship structures under propulsion machinery vibrations",
-   "u": "https://arxiv.org/abs/2609.38089v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:41",
+   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
+   "u": "https://github.com/mattpocock/skills",
+   "s": "外网新声·GitHub 新星",
+   "d": "12:38",
    "k": "",
    "x": ""
   },
   {
-   "t": "Probability is Not Enough: Exploring and Counting Divergent Tokens for Reasoning Uncertainty Quantification in LLMs",
-   "u": "https://arxiv.org/abs/2609.38070v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:33",
+   "t": "GPT-6.1 Sol简介",
+   "u": "https://openai.com/index/introducing-gpt-6-1-sol",
+   "s": "外网新声·OpenAI 官方",
+   "d": "10:00",
    "k": "",
    "x": ""
   },
   {
-   "t": "Jaxolotl: A Unified High-Performance Benchmark Suite for LTL-Based Multi-Task RL",
-   "u": "https://arxiv.org/abs/2609.38065v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:30",
+   "t": "TauricResearch/TradingAgents — TradingAgents：多代理LLM金融交易框架",
+   "u": "https://github.com/TauricResearch/TradingAgents",
+   "s": "外网新声·GitHub 新星",
+   "d": "06:15",
    "k": "",
    "x": ""
   },
   {
-   "t": "UserProxyBench: Evaluating LLM User Simulators for Agent Benchmarks and Training",
-   "u": "https://arxiv.org/abs/2609.38043v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:17",
+   "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
+   "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+   "s": "外网新声·GitHub 新星",
+   "d": "04:56",
    "k": "",
    "x": ""
   },
   {
-   "t": "Gender bias across LLMs is common and highly heterogenous",
-   "u": "https://arxiv.org/abs/2609.38036v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:11",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "doPlan: A Variable-Horizon Dataset for Multi-Stage Language-Conditioned Planning in Autonomous Driving",
-   "u": "https://arxiv.org/abs/2609.38028v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:08",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "当人工智能智能体流氓时，谁应该承担责任？",
-   "u": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "08:06",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "AI炒作指数：AI喜欢作弊",
-   "u": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "09:00",
+   "t": "面向前沿人工智能培训的安全案例",
+   "u": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+   "s": "外网新声·OpenAI 官方",
+   "d": "19:00",
    "k": "",
    "x": ""
   }
