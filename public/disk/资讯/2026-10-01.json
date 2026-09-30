@@ -1,52 +1,57 @@
 {
  "日期": "2026-10-01",
- "落盘": "2026-10-01 00:10:04",
+ "落盘": "2026-10-01 00:17:46",
  "条数": 14,
  "live": 60,
  "条目": [
   {
-   "title": "LLM服务器内部发生了什么",
-   "url": "https://muhammadraza.me/2026/what-happens-inside-an-llm-server/",
+   "title": "Show HN：AFAW –不信任模型的多代理编码工作流程",
+   "url": "https://github.com/agustindiazcano/afaw-anti-fragile-agentic-workflow",
    "type": "live"
   },
   {
-   "title": "Show HN: Glance –构建、评估和监控AI 智能体",
-   "url": "https://github.com/vpanghal/glance-releases/releases/download/v0.2.0/Glance-0.2.0-arm64.dmg",
+   "title": "anomalyco/opencode：开源编码智能体",
+   "url": "https://github.com/anomalyco/opencode",
    "type": "live"
   },
   {
-   "title": "Show HN：我们如何通过构建缺失的内存层使Web代理速度提高3倍",
-   "url": "https://blog.reduck.ai/browser-action-memory-layer-for-faster-agents/",
+   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "url": "https://github.com/NousResearch/hermes-agent",
    "type": "live"
   },
   {
-   "title": "DoorDash打开AI订购代理和批量订单API的美国候补名单",
-   "url": "https://about.doordash.com/en-us/news/doordash-ordering-connector",
+   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "url": "https://github.com/ggml-org/llama.cpp",
    "type": "live"
   },
   {
-   "title": "预计到2028年，十分之七的企业将放弃供应商构建的代理人工智能",
-   "url": "https://www.theregister.com/ai-and-ml/2026/09/30/7-in-10-enterprises-expected-to-abandon-vendor-built-agentic-ai-by-2028/5300021",
+   "title": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "url": "https://github.com/earendil-works/pi",
    "type": "live"
   },
   {
-   "title": "代理技能：改善企业AI的4种强大方法",
-   "url": "https://devnavigator.com/2026/09/30/agent-skills-contextualized-execution/",
+   "title": "关闭多Agent系统中的破坏倾向",
+   "url": "https://arxiv.org/abs/2609.28274",
    "type": "live"
   },
   {
-   "title": "Show HN: Burning Man for Agents",
-   "url": "https://burning-tokens.transitivebullsh.it/",
+   "title": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "url": "https://github.com/Dao-AILab/flash-attention",
    "type": "live"
   },
   {
-   "title": "Show HN：Tracelane.dev- OSS Rust LLM网关，带有防篡改分类账",
-   "url": "https://github.com/tracelane/tracelane",
+   "title": "JMulti-Agent",
+   "url": "https://developers.openai.com/api/docs/guides/responses-multi-agent",
    "type": "live"
   },
   {
    "title": "今日辑要 · 2026-10-01（前沿 12 条）",
    "url": "a/digest-20261001.html",
+   "type": "article"
+  },
+  {
+   "title": "自治系统的\"慢变量\"",
+   "url": "a/note-20261001-1.html",
    "type": "article"
   },
   {
@@ -67,11 +72,6 @@
   {
    "title": "自治系统的\"慢变量\"",
    "url": "a/note-20260930-1.html",
-   "type": "article"
-  },
-  {
-   "title": "关于\"记忆\"的三种用法",
-   "url": "a/note-20260930-2.html",
    "type": "article"
   }
  ]
