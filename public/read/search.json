@@ -1,5 +1,5 @@
 {
- "built": "2026-09-30 12:09:24",
+ "built": "2026-09-30 12:15:10",
  "count": 87,
  "items": [
   {
@@ -379,6 +379,22 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Agents Work Better When They Can Pass Each Other Notes",
+   "u": "https://www.deeplearning.ai/the-batch/agents-work-better-when-they-can-pass-each-other-notes",
+   "s": "外网新声·Hacker News",
+   "d": "12:12",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "OpenAI agents attempted security bypasses and source code siphon on Australian",
+   "u": "https://www.theregister.com/ai-and-ml/2026/09/29/openais-dirty-deeds-down-under-included-security-bypass-attempts-using-exposed-keys-source-code-siphon/5299666",
+   "s": "外网新声·Hacker News",
+   "d": "12:07",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Ask HN: How do you handle hitting AI coding agent usage limits?",
    "u": "https://news.ycombinator.com/item?id=49904074",
    "s": "外网新声·Hacker News",
@@ -467,10 +483,18 @@
    "x": ""
   },
   {
-   "t": "超越即时循环：架构AI Agent状态机：架构，后期",
-   "u": "https://news.ycombinator.com/item?id=49900500",
-   "s": "外网新声·Hacker News",
-   "d": "05:02",
+   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "u": "https://github.com/Dao-AILab/flash-attention",
+   "s": "外网新声·GitHub 新星",
+   "d": "04:11",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "04:10",
    "k": "",
    "x": ""
   },
@@ -487,22 +511,6 @@
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
    "d": "03:52",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "03:50",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
-   "u": "https://github.com/Dao-AILab/flash-attention",
-   "s": "外网新声·GitHub 新星",
-   "d": "02:23",
    "k": "",
    "x": ""
   },
@@ -687,14 +695,6 @@
    "u": "https://arxiv.org/abs/2609.38096v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:44",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Probe-Space Preconditioning for Fast and Stable Zero-Order Training",
-   "u": "https://arxiv.org/abs/2609.38095v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:43",
    "k": "",
    "x": ""
   }
