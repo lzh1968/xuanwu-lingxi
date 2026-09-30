@@ -1,5 +1,5 @@
 {
- "built": "2026-10-01 01:01:24",
+ "built": "2026-10-01 01:08:14",
  "count": 92,
  "items": [
   {
@@ -419,18 +419,66 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "Show HN：AFAW –不信任模型的多代理编码工作流程",
-   "u": "https://github.com/agustindiazcano/afaw-anti-fragile-agentic-workflow",
+   "t": "AI：LLM、代理、工作和我们–工程师。个人想法",
+   "u": "https://rtfm.co.ua/en/ai-llms-agents-work-and-us-engineers-personal-thoughts/",
    "s": "外网新声·Hacker News",
-   "d": "18:31",
+   "d": "00:55",
    "k": "",
    "x": ""
   },
   {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "16:59",
+   "t": "值：Agentic AI的可验证对齐层",
+   "u": "https://asteris.ai/blog/wiai/value-gives-agents-a-second-opinion-before-they-act",
+   "s": "外网新声·Hacker News",
+   "d": "00:34",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "OpenClaw Enterprise –开放代理平台",
+   "u": "https://openclaw.ai/blog/openclaw-enterprise",
+   "s": "外网新声·Hacker News",
+   "d": "00:29",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：超越“与数据库聊天” –代理数据探索",
+   "u": "https://reportr.com/",
+   "s": "外网新声·Hacker News",
+   "d": "00:16",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN: Glance –构建、评估和监控AI 智能体",
+   "u": "https://github.com/vpanghal/glance-releases/releases/download/v0.2.0/Glance-0.2.0-arm64.dmg",
+   "s": "外网新声·Hacker News",
+   "d": "23:37",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：我们如何通过构建缺失的内存层使Web代理速度提高3倍",
+   "u": "https://blog.reduck.ai/browser-action-memory-layer-for-faster-agents/",
+   "s": "外网新声·Hacker News",
+   "d": "23:20",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "DoorDash打开AI订购代理和批量订单API的美国候补名单",
+   "u": "https://about.doordash.com/en-us/news/doordash-ordering-connector",
+   "s": "外网新声·Hacker News",
+   "d": "23:10",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "预计到2028年，十分之七的企业将放弃供应商构建的代理人工智能",
+   "u": "https://www.theregister.com/ai-and-ml/2026/09/30/7-in-10-enterprises-expected-to-abandon-vendor-built-agentic-ai-by-2028/5300021",
+   "s": "外网新声·Hacker News",
+   "d": "22:58",
    "k": "",
    "x": ""
   },
@@ -451,22 +499,6 @@
    "x": ""
   },
   {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "16:39",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "关闭多Agent系统中的破坏倾向",
-   "u": "https://arxiv.org/abs/2609.28274",
-   "s": "外网新声·Hacker News",
-   "d": "13:55",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "OpenAI首席研究官表示：“我们不会因为黑客攻击而自杀”",
    "u": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
    "s": "外网新声·MIT 科技评论",
@@ -479,30 +511,6 @@
    "u": "https://github.com/Dao-AILab/flash-attention",
    "s": "外网新声·GitHub 新星",
    "d": "08:21",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "JMulti-Agent",
-   "u": "https://developers.openai.com/api/docs/guides/responses-multi-agent",
-   "s": "外网新声·Hacker News",
-   "d": "02:16",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "我构建了唯一的多代理文档智能应用程序。（使用MCP ）",
-   "u": "https://smarterdeck.com/",
-   "s": "外网新声·Hacker News",
-   "d": "01:40",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
-   "u": "https://github.com/affaan-m/ECC",
-   "s": "外网新声·GitHub 新星",
-   "d": "01:24",
    "k": "",
    "x": ""
   },
@@ -587,7 +595,7 @@
    "x": ""
   },
   {
-   "t": "Achieving an $O(1/N)$ Optimality Gap in Average-Reward Weakly-Coupled MDPs",
+   "t": "在平均奖励弱耦合MDP中实现$ O (1/N) $最优性差距",
    "u": "https://arxiv.org/abs/2609.38132v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:53",
@@ -595,7 +603,7 @@
    "x": ""
   },
   {
-   "t": "WUSH-KV: KV Cache Quantization with Data-Adaptive Transforms",
+   "t": "WUSH-KV：基于数据自适应变换的KV缓存量化",
    "u": "https://arxiv.org/abs/2609.38121v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:50",
@@ -603,7 +611,7 @@
    "x": ""
   },
   {
-   "t": "Stochastic World Models for Verifying Vision-Based Neural Feedback Systems",
+   "t": "用于验证基于视觉的神经反馈系统的随机世界模型",
    "u": "https://arxiv.org/abs/2609.38120v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:50",
@@ -611,7 +619,7 @@
    "x": ""
   },
   {
-   "t": "How Local Mixing Encodes Relative Position in Global NoPE Attention",
+   "t": "本地混合如何编码在全球NoPE关注中的相对位置",
    "u": "https://arxiv.org/abs/2609.38109v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:47",
@@ -619,7 +627,7 @@
    "x": ""
   },
   {
-   "t": "Do LLM Agents Execute the Plans They Declare? From Planning-Mode Declaration to Pattern-Specific Execution",
+   "t": "法学硕士代理是否执行他们宣布的计划？从规划模式声明到模式特定执行",
    "u": "https://arxiv.org/abs/2609.38108v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:47",
@@ -627,7 +635,7 @@
    "x": ""
   },
   {
-   "t": "Correct Answers, Invalid Traces: What Verifiable Grade-School Math Reveals About Chain-of-Thought Traces",
+   "t": "正确答案，无效痕迹：可验证的小学数学揭示了有关思想链痕迹的内容",
    "u": "https://arxiv.org/abs/2609.38107v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:46",
@@ -635,7 +643,7 @@
    "x": ""
   },
   {
-   "t": "Explore Broadly, Reason Sharply: Push Small Models toward the Frontier via Sampling",
+   "t": "广泛探索，理性敏锐：通过抽样将小模特推向前沿",
    "u": "https://arxiv.org/abs/2609.38104v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:45",
@@ -727,14 +735,6 @@
    "u": "https://arxiv.org/abs/2609.38028v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:08",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
-   "u": "https://github.com/mattpocock/skills",
-   "s": "外网新声·GitHub 新星",
-   "d": "12:38",
    "k": "",
    "x": ""
   }
