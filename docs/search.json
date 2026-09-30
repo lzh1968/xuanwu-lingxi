@@ -1,5 +1,5 @@
 {
- "built": "2026-09-30 09:57:25",
+ "built": "2026-09-30 10:03:12",
  "count": 87,
  "items": [
   {
@@ -379,6 +379,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Show HN: Moching – AI desktop agent with 219 built-in tools (Rust)",
+   "u": "https://github.com/moching-ai-dev/moching",
+   "s": "外网新声·Hacker News",
+   "d": "10:00",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "超越法学硕士：变革后的世界崛起",
    "u": "https://cacm.acm.org/news/beyond-llms-a-post-transformer-world-emerges/",
    "s": "外网新声·Hacker News",
@@ -467,14 +475,6 @@
    "x": ""
   },
   {
-   "t": "记录不会改变：智能体工作成本的可验证记录",
-   "u": "https://appendonly.ai/",
-   "s": "外网新声·Hacker News",
-   "d": "04:07",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "JMulti-Agent",
    "u": "https://developers.openai.com/api/docs/guides/responses-multi-agent",
    "s": "外网新声·Hacker News",
@@ -486,7 +486,7 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "01:57",
+   "d": "02:02",
    "k": "",
    "x": ""
   },
@@ -494,7 +494,7 @@
    "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
    "u": "https://github.com/Dao-AILab/flash-attention",
    "s": "外网新声·GitHub 新星",
-   "d": "01:55",
+   "d": "02:00",
    "k": "",
    "x": ""
   },
@@ -563,6 +563,22 @@
    "x": ""
   },
   {
+   "t": "Controlled Decoding Attacks on Black-Box LLMs",
+   "u": "https://arxiv.org/abs/2609.36956v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "07:58",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ER-JEPA: Experience Replay Improves Joint-Embedding Predictive Learning in Language Models",
+   "u": "https://arxiv.org/abs/2609.36952v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "07:56",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Scalable Diffusion SBI for Compositional Inference under Simulator Misspecification",
    "u": "https://arxiv.org/abs/2609.36950v1",
    "s": "外网新声·arXiv cs.LG",
@@ -573,8 +589,40 @@
   {
    "t": "Safe-by-Design Learning via Energy-based Neural Networks",
    "u": "https://arxiv.org/abs/2609.36942v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "07:52",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "SCA: Spatial Credit Assignment for Reinforcement Learning of GUI Agents",
+   "u": "https://arxiv.org/abs/2609.36939v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "07:51",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "CoEM: Empowering Long-Context Reasoning with Commit-on-Evidence Memory",
+   "u": "https://arxiv.org/abs/2609.36935v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "07:48",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Neuro-Symbolic Computer Use: Learning Reusable Policies for Reliable and Efficient Execution",
+   "u": "https://arxiv.org/abs/2609.36927v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "07:44",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "PrecogUI: Proactive GUI Agents via Pre-cognitive Simulation and Experience Retrieval",
+   "u": "https://arxiv.org/abs/2609.36923v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "07:41",
    "k": "",
    "x": ""
   },
@@ -647,54 +695,6 @@
    "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
    "s": "外网新声·GitHub 新星",
    "d": "04:56",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "将Deming的持续改进应用于多Agent AI系统",
-   "u": "https://medium.com/@zrkjsy/deming-in-the-machine-running-an-ai-assisted-film-production-on-continuous-improvement-0337a3112111",
-   "s": "外网新声·Hacker News",
-   "d": "19:47",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "面向前沿人工智能培训的安全案例",
-   "u": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-   "s": "外网新声·OpenAI 官方",
-   "d": "19:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "FURE：无动物毛皮数据集的高效实例特异性3D毛皮重建",
-   "u": "https://arxiv.org/abs/2609.35770v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "伸缩语言模型",
-   "u": "https://arxiv.org/abs/2609.35769v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "使用交织强化学习在统一模型中学习原生反思",
-   "u": "https://arxiv.org/abs/2609.35767v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "TokenCast：预测LLM代理执行期间的代币消耗量",
-   "u": "https://arxiv.org/abs/2609.35760v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
    "k": "",
    "x": ""
   }
