@@ -1,5 +1,5 @@
 {
- "built": "2026-10-02 01:59:05",
+ "built": "2026-10-02 02:11:19",
  "count": 97,
  "items": [
   {
@@ -459,6 +459,30 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "询问HN：使用LLM或GrokBot和Muse整理和清理iCloud照片",
+   "u": "https://news.ycombinator.com/item?id=49925054",
+   "s": "外网新声·Hacker News",
+   "d": "02:09",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "智能体现在可以购买真实服务",
+   "u": "https://daski.io/",
+   "s": "外网新声·Hacker News",
+   "d": "02:08",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "研究人员称，人工智能智能体试图入侵加拿大政府网站",
+   "u": "https://www.washingtonpost.com/technology/2026/09/30/openais-ai-agents-attempted-hack-canadian-government-website/",
+   "s": "外网新声·Hacker News",
+   "d": "02:06",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Worktrunk：Git工作树管理的CLI，专为智能体工作流程而设计",
    "u": "https://worktrunk.dev/",
    "s": "外网新声·Hacker News",
@@ -515,34 +539,10 @@
    "x": ""
   },
   {
-   "t": "我的智能体正在让我变得更笨拙",
-   "u": "https://pridesai.substack.com/p/my-ai-agent-is-making-me-lamer",
-   "s": "外网新声·Hacker News",
-   "d": "00:04",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：Call4me，一个为您处理电话的智能体",
-   "u": "https://call4.me/",
-   "s": "外网新声·Hacker News",
-   "d": "00:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
-   "s": "外网新声·GitHub 新星",
-   "d": "17:55",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "17:46",
+   "d": "18:09",
    "k": "",
    "x": ""
   },
@@ -550,7 +550,23 @@
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "17:39",
+   "d": "18:08",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
+   "s": "外网新声·GitHub 新星",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
+   "s": "外网新声·GitHub 新星",
+   "d": "17:59",
    "k": "",
    "x": ""
   },
@@ -567,14 +583,6 @@
    "u": "https://openai.com/index/the-eternal-complement",
    "s": "外网新声·OpenAI 官方",
    "d": "17:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "u": "https://github.com/earendil-works/pi",
-   "s": "外网新声·GitHub 新星",
-   "d": "16:27",
    "k": "",
    "x": ""
   },
@@ -619,14 +627,6 @@
    "x": ""
   },
   {
-   "t": "半事实信用增强政策优化",
-   "u": "https://arxiv.org/abs/2609.40360v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "针对多模式临床诊断的排名感知提示优化",
    "u": "https://arxiv.org/abs/2609.40361v1",
    "s": "外网新声·arXiv cs.LG",
@@ -635,9 +635,9 @@
    "x": ""
   },
   {
-   "t": "ViTeX-Bench：标杆高保真视频场景文本编辑",
-   "u": "https://arxiv.org/abs/2609.40356v1",
-   "s": "外网新声·arXiv cs.AI",
+   "t": "半事实信用增强政策优化",
+   "u": "https://arxiv.org/abs/2609.40360v1",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:59",
    "k": "",
    "x": ""
@@ -651,33 +651,9 @@
    "x": ""
   },
   {
-   "t": "涡轮增压线束：实例自适应线束优化",
-   "u": "https://arxiv.org/abs/2609.40330v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:56",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "WorldAuditBench：使用多式联运代理进行交互式3D世界审计",
-   "u": "https://arxiv.org/abs/2609.40325v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Cogentic：用于自动校验发现的多代理编排",
-   "u": "https://arxiv.org/abs/2609.40324v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:55",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "循环混合专家的缩放定律",
    "u": "https://arxiv.org/abs/2609.40316v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:53",
    "k": "",
    "x": ""
@@ -685,7 +661,7 @@
   {
    "t": "DynaHarness：用于自我进化机器人智能体的动态物理线束",
    "u": "https://arxiv.org/abs/2609.40306v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:52",
    "k": "",
    "x": ""
@@ -699,14 +675,6 @@
    "x": ""
   },
   {
-   "t": "对于自主机器学习工程，强大的智能体需要多少线束？",
-   "u": "https://arxiv.org/abs/2609.40303v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:51",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "使用Green's算子在多任务神经网络中解开计算",
    "u": "https://arxiv.org/abs/2609.40292v1",
    "s": "外网新声·arXiv cs.LG",
@@ -715,34 +683,10 @@
    "x": ""
   },
   {
-   "t": "LLM取消学习的语言漏洞：从174语言基准到覆盖意识取消学习",
-   "u": "https://arxiv.org/abs/2609.40286v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:48",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "PivotOPD：学习从多轮智能体的关键错误中恢复",
-   "u": "https://arxiv.org/abs/2609.40285v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:48",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "cua-speedrun：计算机使用代理速度的标准化基准测试",
    "u": "https://arxiv.org/abs/2609.40284v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:48",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "地图不确定性下的Belief-Aware多Agent路径查找",
-   "u": "https://arxiv.org/abs/2609.40269v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:44",
    "k": "",
    "x": ""
   },
@@ -755,14 +699,6 @@
    "x": ""
   },
   {
-   "t": "ComputerSD：计算机使用智能体的实时反馈在线自我蒸馏",
-   "u": "https://arxiv.org/abs/2609.40253v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:40",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "连续扩散语言模型的分布匹配蒸馏",
    "u": "https://arxiv.org/abs/2609.40235v1",
    "s": "外网新声·arXiv cs.LG",
@@ -771,10 +707,74 @@
    "x": ""
   },
   {
-   "t": "EviRover：强化一目了然的代理感知",
-   "u": "https://arxiv.org/abs/2609.40230v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:30",
+   "t": "PhantomEnvironments：在虚构世界中培训LLM代理",
+   "u": "https://arxiv.org/abs/2609.40221v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:26",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "关闭多Agent系统中的破坏倾向",
+   "u": "https://arxiv.org/abs/2609.28274",
+   "s": "外网新声·Hacker News",
+   "d": "13:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "OpenAI首席研究官表示：“我们不会因为黑客攻击而自杀”",
+   "u": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "10:40",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "扰乱协调的模型蒸馏活动",
+   "u": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+   "s": "外网新声·OpenAI 官方",
+   "d": "10:30",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "JMulti-Agent",
+   "u": "https://developers.openai.com/api/docs/guides/responses-multi-agent",
+   "s": "外网新声·Hacker News",
+   "d": "02:16",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "我构建了唯一的多代理文档智能应用程序。（使用MCP ）",
+   "u": "https://smarterdeck.com/",
+   "s": "外网新声·Hacker News",
+   "d": "01:40",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
+   "u": "https://github.com/mattpocock/skills",
+   "s": "外网新声·GitHub 新星",
+   "d": "12:38",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "GPT-6.1 Sol简介",
+   "u": "https://openai.com/index/introducing-gpt-6-1-sol",
+   "s": "外网新声·OpenAI 官方",
+   "d": "10:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "TauricResearch/TradingAgents — TradingAgents：多代理LLM金融交易框架",
+   "u": "https://github.com/TauricResearch/TradingAgents",
+   "s": "外网新声·GitHub 新星",
+   "d": "06:15",
    "k": "",
    "x": ""
   }
