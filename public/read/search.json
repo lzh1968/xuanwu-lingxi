@@ -1,5 +1,5 @@
 {
- "built": "2026-10-01 18:46:19",
+ "built": "2026-10-01 18:53:00",
  "count": 92,
  "items": [
   {
@@ -443,6 +443,14 @@
    "x": ""
   },
   {
+   "t": "Why Agentic AI Governance Can't Be Bolted On",
+   "u": "https://kimchi.dev/blog/why-agentic-ai-governance-cant-be-bolted-on",
+   "s": "外网新声·Hacker News",
+   "d": "17:54",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "'Torturing' LLMs in a Robot Prison Has Triggered the Dumbest Debate in AI Yet",
    "u": "https://www.404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet/",
    "s": "外网新声·Hacker News",
@@ -459,10 +467,58 @@
    "x": ""
   },
   {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "10:45",
+   "t": "Capitalism Can't Handle AI",
+   "u": "https://news.ycombinator.com/item?id=49919185",
+   "s": "外网新声·Hacker News",
+   "d": "16:27",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "AI Agents Are Now Emailing Me with Their Security Concerns",
+   "u": "https://www.schneier.com/blog/archives/2026/09/ai-agents-are-now-emailing-me-with-their-security-concerns.html",
+   "s": "外网新声·Hacker News",
+   "d": "15:41",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Meta wants people to use 'AI agents' to do daily tasks. Why that's a problem",
+   "u": "https://theconversation.com/meta-wants-people-to-use-ai-agents-to-do-daily-tasks-for-them-heres-why-thats-a-problem-292962",
+   "s": "外网新声·Hacker News",
+   "d": "14:52",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Archestra-AI/OpenAPPA: Deterministic guardrails that don't break agents",
+   "u": "https://github.com/archestra-ai/OpenAPPA",
+   "s": "外网新声·Hacker News",
+   "d": "14:23",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN: Vietnam Tender Intelligence – gov procurement data, AI-agent ready",
+   "u": "https://apify.com/donerightlabs/tender-intelligence",
+   "s": "外网新声·Hacker News",
+   "d": "12:50",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "A local Workday job agent – rule-based resume tailoring, no AI",
+   "u": "https://github.com/daliparthi/personal-job-agent",
+   "s": "外网新声·Hacker News",
+   "d": "11:31",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Polytoken is a local-first AI coding agent daemon",
+   "u": "https://docs.polytoken.dev/introduction/",
+   "s": "外网新声·Hacker News",
+   "d": "11:01",
    "k": "",
    "x": ""
   },
@@ -470,7 +526,15 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "10:45",
+   "d": "10:52",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "10:51",
    "k": "",
    "x": ""
   },
@@ -547,10 +611,26 @@
    "x": ""
   },
   {
+   "t": "Ranking-Aware Prompt Optimization for Multimodal Clinical Diagnosis",
+   "u": "https://arxiv.org/abs/2609.40361v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "ViTeX-Bench: Benchmarking High-Fidelity Video Scene Text Editing",
    "u": "https://arxiv.org/abs/2609.40356v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Is Weight Tying Still Beneficial for Decoder-Only LLMs in Private Settings Under DP-SGD?",
+   "u": "https://arxiv.org/abs/2609.40335v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:57",
    "k": "",
    "x": ""
   },
@@ -595,10 +675,26 @@
    "x": ""
   },
   {
+   "t": "Looped Diffusion Transformer",
+   "u": "https://arxiv.org/abs/2609.40305v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:52",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?",
    "u": "https://arxiv.org/abs/2609.40303v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:51",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Disentangling Computation in Multi-Task Neural Networks with the Green's Operator",
+   "u": "https://arxiv.org/abs/2609.40292v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:49",
    "k": "",
    "x": ""
   },
@@ -635,106 +731,10 @@
    "x": ""
   },
   {
-   "t": "ComputerSD: Online Self-Distillation from Real-Time Feedback for Computer-Use Agents",
-   "u": "https://arxiv.org/abs/2609.40253v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:40",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "EviRover: Reinforcing Agentic Perception Beyond a Glance",
-   "u": "https://arxiv.org/abs/2609.40230v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:30",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "PhantomEnvironments: Training LLM Agents in Fictional Worlds",
-   "u": "https://arxiv.org/abs/2609.40221v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:26",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "SCB: SpeechConversationBench for Evaluating Multi-Turn Reasoning in Speech-to-Speech Models",
-   "u": "https://arxiv.org/abs/2609.40198v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:13",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories",
-   "u": "https://arxiv.org/abs/2609.40195v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:11",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "关闭多Agent系统中的破坏倾向",
-   "u": "https://arxiv.org/abs/2609.28274",
-   "s": "外网新声·Hacker News",
-   "d": "13:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "OpenAI首席研究官表示：“我们不会因为黑客攻击而自杀”",
-   "u": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "10:40",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "扰乱协调的模型蒸馏活动",
-   "u": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-   "s": "外网新声·OpenAI 官方",
-   "d": "10:30",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "JMulti-Agent",
-   "u": "https://developers.openai.com/api/docs/guides/responses-multi-agent",
-   "s": "外网新声·Hacker News",
-   "d": "02:16",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "我构建了唯一的多代理文档智能应用程序。（使用MCP ）",
-   "u": "https://smarterdeck.com/",
-   "s": "外网新声·Hacker News",
-   "d": "01:40",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
-   "u": "https://github.com/mattpocock/skills",
-   "s": "外网新声·GitHub 新星",
-   "d": "12:38",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "GPT-6.1 Sol简介",
-   "u": "https://openai.com/index/introducing-gpt-6-1-sol",
-   "s": "外网新声·OpenAI 官方",
-   "d": "10:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "TauricResearch/TradingAgents — TradingAgents：多代理LLM金融交易框架",
-   "u": "https://github.com/TauricResearch/TradingAgents",
-   "s": "外网新声·GitHub 新星",
-   "d": "06:15",
+   "t": "OpenTSLM TeeMoE: A Unified Time-Series Language Model for Forecasting, Contextual Prediction, and Reasoning",
+   "u": "https://arxiv.org/abs/2609.40265v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:43",
    "k": "",
    "x": ""
   }
