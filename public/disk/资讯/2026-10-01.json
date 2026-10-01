@@ -1,9 +1,19 @@
 {
  "日期": "2026-10-01",
- "落盘": "2026-10-01 23:09:00",
+ "落盘": "2026-10-01 23:22:18",
  "条数": 14,
- "live": 60,
+ "live": 39,
  "条目": [
+  {
+   "title": "OpenID Foundation: Identity Management for Agentic AI [pdf]",
+   "url": "https://openid.net/wp-content/uploads/2025/10/Identity-Management-for-Agentic-AI.pdf",
+   "type": "live"
+  },
+  {
+   "title": "Agentic Front End Refactoring with QBDS, Claude Code, & Figma MCP",
+   "url": "https://medium.com/quantumblack/what-changes-when-your-design-system-can-talk-to-an-ai-0a856b3c40d9",
+   "type": "live"
+  },
   {
    "title": "Gaussian Splat Avatars for Realtime AI Agents",
    "url": "https://github.com/NavodPeiris/gsplat-talkinghead",
@@ -25,23 +35,13 @@
    "type": "live"
   },
   {
-   "title": "AI coding agents leaked 13,000 screenshots, and nobody hacked them",
-   "url": "https://thenewstack.io/coding-agents-leaked-screenshots/",
-   "type": "live"
-  },
-  {
-   "title": "AI agents inadvertently leak 13,000 internal screenshots from 300 organizations",
-   "url": "https://www.tomshardware.com/tech-industry/cyber-security/ai-agents-inadvertently-leak-13-000-internal-screenshots-from-organizations-list-of-companies-includes-fortune-500-and-a-frontier-ai-lab",
-   "type": "live"
-  },
-  {
-   "title": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "url": "https://github.com/earendil-works/pi",
-   "type": "live"
-  },
-  {
    "title": "anomalyco/opencode：开源编码智能体",
    "url": "https://github.com/anomalyco/opencode",
+   "type": "live"
+  },
+  {
+   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "url": "https://github.com/NousResearch/hermes-agent",
    "type": "live"
   },
   {
