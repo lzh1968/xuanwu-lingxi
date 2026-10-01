@@ -1,5 +1,5 @@
 {
- "built": "2026-10-01 17:58:40",
+ "built": "2026-10-01 18:05:33",
  "count": 92,
  "items": [
   {
@@ -499,18 +499,18 @@
    "x": ""
   },
   {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "09:55",
+   "d": "10:02",
    "k": "",
    "x": ""
   },
   {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
-   "d": "09:54",
+   "d": "09:55",
    "k": "",
    "x": ""
   },
@@ -587,10 +587,26 @@
    "x": ""
   },
   {
+   "t": "Ranking-Aware Prompt Optimization for Multimodal Clinical Diagnosis",
+   "u": "https://arxiv.org/abs/2609.40361v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "ViTeX-Bench: Benchmarking High-Fidelity Video Scene Text Editing",
    "u": "https://arxiv.org/abs/2609.40356v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Is Weight Tying Still Beneficial for Decoder-Only LLMs in Private Settings Under DP-SGD?",
+   "u": "https://arxiv.org/abs/2609.40335v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:57",
    "k": "",
    "x": ""
   },
@@ -635,10 +651,26 @@
    "x": ""
   },
   {
+   "t": "Looped Diffusion Transformer",
+   "u": "https://arxiv.org/abs/2609.40305v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:52",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?",
    "u": "https://arxiv.org/abs/2609.40303v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:51",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Disentangling Computation in Multi-Task Neural Networks with the Green's Operator",
+   "u": "https://arxiv.org/abs/2609.40292v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:49",
    "k": "",
    "x": ""
   },
@@ -675,6 +707,14 @@
    "x": ""
   },
   {
+   "t": "OpenTSLM TeeMoE: A Unified Time-Series Language Model for Forecasting, Contextual Prediction, and Reasoning",
+   "u": "https://arxiv.org/abs/2609.40265v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:43",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "ComputerSD: Online Self-Distillation from Real-Time Feedback for Computer-Use Agents",
    "u": "https://arxiv.org/abs/2609.40253v1",
    "s": "外网新声·arXiv cs.AI",
@@ -683,58 +723,18 @@
    "x": ""
   },
   {
+   "t": "Distribution Matching Distillation for Continuous Diffusion Language Models",
+   "u": "https://arxiv.org/abs/2609.40235v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:32",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "EviRover: Reinforcing Agentic Perception Beyond a Glance",
    "u": "https://arxiv.org/abs/2609.40230v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:30",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "PhantomEnvironments: Training LLM Agents in Fictional Worlds",
-   "u": "https://arxiv.org/abs/2609.40221v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:26",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "SCB: SpeechConversationBench for Evaluating Multi-Turn Reasoning in Speech-to-Speech Models",
-   "u": "https://arxiv.org/abs/2609.40198v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:13",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories",
-   "u": "https://arxiv.org/abs/2609.40195v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:11",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "关闭多Agent系统中的破坏倾向",
-   "u": "https://arxiv.org/abs/2609.28274",
-   "s": "外网新声·Hacker News",
-   "d": "13:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "OpenAI首席研究官表示：“我们不会因为黑客攻击而自杀”",
-   "u": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "10:40",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "扰乱协调的模型蒸馏活动",
-   "u": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-   "s": "外网新声·OpenAI 官方",
-   "d": "10:30",
    "k": "",
    "x": ""
   }
