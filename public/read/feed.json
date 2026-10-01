@@ -1,9 +1,17 @@
 {
- "generated": "12:45",
- "built": "2026-10-01 12:45:07",
+ "generated": "12:51",
+ "built": "2026-10-01 12:51:15",
  "count": 52,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN: Vietnam Tender Intelligence – gov procurement data, AI-agent ready",
+   "url": "https://apify.com/donerightlabs/tender-intelligence",
+   "src": "Hacker News",
+   "t": "12:50",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "A local Workday job agent – rule-based resume tailoring, no AI",
@@ -18,7 +26,7 @@
    "url": "https://news.ycombinator.com/item?id=49917321",
    "src": "Hacker News",
    "t": "11:18",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,6 @@
    "url": "https://news.ycombinator.com/item?id=49916751",
    "src": "Hacker News",
    "t": "09:55",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Prompt Injection Firewall for AI APIs and Agent Tool Calls",
-   "url": "https://github.com/rajatrao/jevshield",
-   "src": "Hacker News",
-   "t": "09:33",
    "fresh": false
   },
   {
