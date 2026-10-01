@@ -1,8 +1,8 @@
 {
- "generated": "22:33",
- "built": "2026-10-01 22:33:59",
+ "generated": "22:40",
+ "built": "2026-10-01 22:40:42",
  "count": 52,
- "live_count": 41,
+ "live_count": 60,
  "items": [
   {
    "type": "live",
@@ -10,6 +10,14 @@
    "url": "https://www.techpolicy.press/when-ai-agents-break-in-governments-shouldnt-be-stuck-with-the-cleanup/",
    "src": "Hacker News",
    "t": "22:21",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "LLMs helped me rediscover my love of math",
+   "url": "https://ezzeriesa.notion.site/LLMs-helped-me-rediscover-my-love-of-math-3e61308b42048020bdfefc66453ea34c",
+   "src": "Hacker News",
+   "t": "22:20",
    "fresh": true
   },
   {
@@ -30,6 +38,22 @@
   },
   {
    "type": "live",
+   "title": "Canary Islands live – Large, cool LLM-summarized news feed",
+   "url": "http://canano.live/",
+   "src": "Hacker News",
+   "t": "21:53",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Sriti Core – Local-first LLM router that cascades Ollama to cloud to frontier",
+   "url": "https://github.com/sriti-ai/sriti-core",
+   "src": "Hacker News",
+   "t": "21:46",
+   "fresh": true
+  },
+  {
+   "type": "live",
    "title": "AI Agents Targeted U.S. and Canadian Government Websites",
    "url": "https://transluce.org/us-canada-gov",
    "src": "Hacker News",
@@ -42,30 +66,6 @@
    "url": "https://github.com/rodmontiel/uai",
    "src": "Hacker News",
    "t": "20:53",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "anomalyco/opencode：开源编码智能体",
-   "url": "https://github.com/anomalyco/opencode",
-   "src": "GitHub 新星",
-   "t": "14:30",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "url": "https://github.com/ggml-org/llama.cpp",
-   "src": "GitHub 新星",
-   "t": "14:09",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "url": "https://github.com/NousResearch/hermes-agent",
-   "src": "GitHub 新星",
-   "t": "14:05",
    "fresh": false
   },
   {
