@@ -1,6 +1,6 @@
 {
- "built": "2026-10-01 23:22:40",
- "count": 58,
+ "built": "2026-10-01 23:29:29",
+ "count": 92,
  "items": [
   {
    "t": "今日辑要 · 2026-10-01（前沿 12 条）",
@@ -419,6 +419,94 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Show HN: Fast browser agent (using Jev) with deep reasoning as needed",
+   "u": "https://github.com/ironbee-ai/ironbee-express",
+   "s": "外网新声·Hacker News",
+   "d": "23:15",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "OpenID Foundation: Identity Management for Agentic AI [pdf]",
+   "u": "https://openid.net/wp-content/uploads/2025/10/Identity-Management-for-Agentic-AI.pdf",
+   "s": "外网新声·Hacker News",
+   "d": "23:11",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Agentic Front End Refactoring with QBDS, Claude Code, & Figma MCP",
+   "u": "https://medium.com/quantumblack/what-changes-when-your-design-system-can-talk-to-an-ai-0a856b3c40d9",
+   "s": "外网新声·Hacker News",
+   "d": "23:09",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Gaussian Splat Avatars for Realtime AI Agents",
+   "u": "https://github.com/NavodPeiris/gsplat-talkinghead",
+   "s": "外网新声·Hacker News",
+   "d": "23:01",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Hotpath Record an AI agent once, replay it as a deterministic workflow",
+   "u": "https://github.com/mourad-baazi/hotpath",
+   "s": "外网新声·Hacker News",
+   "d": "22:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "When AI Agents Break In, Governments Shouldn't Be Stuck with the Cleanup",
+   "u": "https://www.techpolicy.press/when-ai-agents-break-in-governments-shouldnt-be-stuck-with-the-cleanup/",
+   "s": "外网新声·Hacker News",
+   "d": "22:21",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "LLMs helped me rediscover my love of math",
+   "u": "https://ezzeriesa.notion.site/LLMs-helped-me-rediscover-my-love-of-math-3e61308b42048020bdfefc66453ea34c",
+   "s": "外网新声·Hacker News",
+   "d": "22:20",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
+   "s": "外网新声·GitHub 新星",
+   "d": "15:26",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
+   "s": "外网新声·GitHub 新星",
+   "d": "15:23",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "rasbt/LLMs-from-scratch：一步步用 PyTorch 从零实现类 ChatGPT 模型",
+   "u": "https://github.com/rasbt/LLMs-from-scratch",
+   "s": "外网新声·GitHub 新星",
+   "d": "14:49",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "非凡的多智能体错觉和人群的疯狂",
+   "u": "https://freesystems.substack.com/p/extraordinary-multi-agent-delusions",
+   "s": "外网新声·Hacker News",
+   "d": "01:24",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
    "u": "https://github.com/Dao-AILab/flash-attention",
    "s": "外网新声·GitHub 新星",
@@ -427,42 +515,226 @@
    "x": ""
   },
   {
-   "t": "TangSengDaoDao/TangSengDaoDaoServer — 高颜值 IM 即时通讯,聊天",
-   "u": "https://github.com/TangSengDaoDao/TangSengDaoDaoServer",
+   "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
+   "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
    "s": "外网新声·GitHub 新星",
-   "d": "08:13",
+   "d": "20:31",
    "k": "",
    "x": ""
   },
   {
-   "t": "nutzam/nutz — Nutz —适用于所有Java开发人员的Web框架（ Mvc/Ioc/Aop/DAO/Json ）",
-   "u": "https://github.com/nutzam/nutz",
-   "s": "外网新声·GitHub 新星",
-   "d": "03:17",
+   "t": "Show HN：AFAW –不信任模型的多代理编码工作流程",
+   "u": "https://github.com/agustindiazcano/afaw-anti-fragile-agentic-workflow",
+   "s": "外网新声·Hacker News",
+   "d": "18:31",
    "k": "",
    "x": ""
   },
   {
-   "t": "Dapp-Learning-DAO/Dapp-Learning —面向所有阶段开发人员的Dapp学习项目。成为和培养主权国家",
-   "u": "https://github.com/Dapp-Learning-DAO/Dapp-Learning",
-   "s": "外网新声·GitHub 新星",
-   "d": "11:30",
+   "t": "Semifactual Credit-Augmented Policy Optimization",
+   "u": "https://arxiv.org/abs/2609.40360v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:59",
    "k": "",
    "x": ""
   },
   {
-   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
-   "u": "https://github.com/IBAX-io/go-ibax",
-   "s": "外网新声·GitHub 新星",
-   "d": "01:23",
+   "t": "Ranking-Aware Prompt Optimization for Multimodal Clinical Diagnosis",
+   "u": "https://arxiv.org/abs/2609.40361v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
    "k": "",
    "x": ""
   },
   {
-   "t": "greenrobot/greenDAO — greenDAO是适用于Android的轻型快速ORM解决方案，可将对象映射到SQLite数据库。",
-   "u": "https://github.com/greenrobot/greenDAO",
-   "s": "外网新声·GitHub 新星",
-   "d": "05:30",
+   "t": "ViTeX-Bench: Benchmarking High-Fidelity Video Scene Text Editing",
+   "u": "https://arxiv.org/abs/2609.40356v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Is Weight Tying Still Beneficial for Decoder-Only LLMs in Private Settings Under DP-SGD?",
+   "u": "https://arxiv.org/abs/2609.40335v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Turbo Harness: Instance-Adaptive Harness Optimization",
+   "u": "https://arxiv.org/abs/2609.40330v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:56",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "WorldAuditBench: Interactive 3D World Auditing with Multimodal Agents",
+   "u": "https://arxiv.org/abs/2609.40325v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Cogentic: Multi-Agent Orchestration for Automated Proof Discovery",
+   "u": "https://arxiv.org/abs/2609.40324v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Scaling Laws for Looped Mixture of Experts",
+   "u": "https://arxiv.org/abs/2609.40316v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:53",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "DynaHarness: A Dynamic Physical Harness for Self-Evolving Robot Agents",
+   "u": "https://arxiv.org/abs/2609.40306v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:52",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Looped Diffusion Transformer",
+   "u": "https://arxiv.org/abs/2609.40305v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:52",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?",
+   "u": "https://arxiv.org/abs/2609.40303v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:51",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Disentangling Computation in Multi-Task Neural Networks with the Green's Operator",
+   "u": "https://arxiv.org/abs/2609.40292v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:49",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Linguistic Loopholes in LLM Unlearning: From a 174-Language Benchmark to Coverage-Aware Unlearning",
+   "u": "https://arxiv.org/abs/2609.40286v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:48",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "PivotOPD: Learning to Recover from Pivotal Mistakes in Multi-Turn Agents",
+   "u": "https://arxiv.org/abs/2609.40285v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:48",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "cua-speedrun: Standardized Benchmarking of the Speed of Computer-Use Agents",
+   "u": "https://arxiv.org/abs/2609.40284v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:48",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Belief-Aware Multi-Agent Path Finding under Map Uncertainty",
+   "u": "https://arxiv.org/abs/2609.40269v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:44",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "OpenTSLM TeeMoE: A Unified Time-Series Language Model for Forecasting, Contextual Prediction, and Reasoning",
+   "u": "https://arxiv.org/abs/2609.40265v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:43",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ComputerSD: Online Self-Distillation from Real-Time Feedback for Computer-Use Agents",
+   "u": "https://arxiv.org/abs/2609.40253v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:40",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Distribution Matching Distillation for Continuous Diffusion Language Models",
+   "u": "https://arxiv.org/abs/2609.40235v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:32",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "EviRover: Reinforcing Agentic Perception Beyond a Glance",
+   "u": "https://arxiv.org/abs/2609.40230v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:30",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "PhantomEnvironments: Training LLM Agents in Fictional Worlds",
+   "u": "https://arxiv.org/abs/2609.40221v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:26",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "SCB: SpeechConversationBench for Evaluating Multi-Turn Reasoning in Speech-to-Speech Models",
+   "u": "https://arxiv.org/abs/2609.40198v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:13",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories",
+   "u": "https://arxiv.org/abs/2609.40195v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:11",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "关闭多Agent系统中的破坏倾向",
+   "u": "https://arxiv.org/abs/2609.28274",
+   "s": "外网新声·Hacker News",
+   "d": "13:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "OpenAI首席研究官表示：“我们不会因为黑客攻击而自杀”",
+   "u": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "10:40",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "扰乱协调的模型蒸馏活动",
+   "u": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+   "s": "外网新声·OpenAI 官方",
+   "d": "10:30",
    "k": "",
    "x": ""
   }
