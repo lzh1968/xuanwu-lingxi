@@ -1,23 +1,15 @@
 {
- "generated": "19:33",
- "built": "2026-10-01 19:33:06",
+ "generated": "19:39",
+ "built": "2026-10-01 19:39:33",
  "count": 52,
- "live_count": 60,
+ "live_count": 55,
  "items": [
   {
    "type": "live",
-   "title": "用于MLSys的代理GPU编程",
-   "url": "https://mlc.ai/agentic-gpu-programming-for-mlsys/index.html",
+   "title": "Ask HN: What landmarks/lighthouses in the era of LLM/AI?",
+   "url": "https://news.ycombinator.com/item?id=49920340",
    "src": "Hacker News",
-   "t": "19:18",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Value: A Verifiable Alignment Layer for Agentic a [pdf]",
-   "url": "https://asteris.ai/pdf/verifiable-alignment-layer-for-agentic-ai.pdf",
-   "src": "Hacker News",
-   "t": "18:52",
+   "t": "19:32",
    "fresh": true
   },
   {
@@ -42,14 +34,6 @@
    "url": "https://f055.net/opinion/we-are-all-just-llms/",
    "src": "Hacker News",
    "t": "18:08",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Why Agentic AI Governance Can't Be Bolted On",
-   "url": "https://kimchi.dev/blog/why-agentic-ai-governance-cant-be-bolted-on",
-   "src": "Hacker News",
-   "t": "17:54",
    "fresh": false
   },
   {
@@ -62,10 +46,26 @@
   },
   {
    "type": "live",
-   "title": "SpeakesQuery – Splunk-style search over local Parquet, with LLM pipes",
-   "url": "https://github.com/13alvone/SpeakesQuery",
-   "src": "Hacker News",
-   "t": "16:51",
+   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "url": "https://github.com/ggml-org/llama.cpp",
+   "src": "GitHub 新星",
+   "t": "11:37",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "url": "https://github.com/earendil-works/pi",
+   "src": "GitHub 新星",
+   "t": "11:36",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "anomalyco/opencode：开源编码智能体",
+   "url": "https://github.com/anomalyco/opencode",
+   "src": "GitHub 新星",
+   "t": "11:29",
    "fresh": false
   },
   {
