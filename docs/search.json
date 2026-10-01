@@ -1,5 +1,5 @@
 {
- "built": "2026-10-01 09:55:14",
+ "built": "2026-10-01 10:01:13",
  "count": 92,
  "items": [
   {
@@ -419,6 +419,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Ask HN: My agent went haywire, does this output mean anything?",
+   "u": "https://news.ycombinator.com/item?id=49916751",
+   "s": "外网新声·Hacker News",
+   "d": "09:55",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Prompt Injection Firewall for AI APIs and Agent Tool Calls",
    "u": "https://github.com/rajatrao/jevshield",
    "s": "外网新声·Hacker News",
@@ -479,22 +487,6 @@
    "u": "https://www.tomasmed.dev/wall",
    "s": "外网新声·Hacker News",
    "d": "04:56",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "用于MLSys的代理GPU编程",
-   "u": "https://mlc.ai/agentic-gpu-programming-for-mlsys/index.html",
-   "s": "外网新声·Hacker News",
-   "d": "04:54",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN: CLI and TUI control for dps150 power supply",
-   "u": "https://github.com/hmldns/dps150ctl",
-   "s": "外网新声·Hacker News",
-   "d": "04:31",
    "k": "",
    "x": ""
   },
@@ -611,10 +603,42 @@
    "x": ""
   },
   {
+   "t": "Low-Discrepancy Dither for Quantized Recurrent State Caches",
+   "u": "https://arxiv.org/abs/2609.39185v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "07:41",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Fiber-Resolved Microstructure Quantification from Multi-Shell Diffusion MRI using Detection Transformers",
+   "u": "https://arxiv.org/abs/2609.39184v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "07:41",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "MEND: Label-Free Detection, Localisation, and Correction of Latent Hallucination in World Models",
    "u": "https://arxiv.org/abs/2609.39182v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "07:38",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Whitening Improves Robustness to Spurious Correlations in Linear Probes",
+   "u": "https://arxiv.org/abs/2609.39177v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "07:34",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "A Width-Matched Comparison of Hybrid Quantum-Classical Self-Supervised Learning for Fingerprint Recognition",
+   "u": "https://arxiv.org/abs/2609.39172v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "07:31",
    "k": "",
    "x": ""
   },
@@ -635,10 +659,26 @@
    "x": ""
   },
   {
+   "t": "Training-Free Affinity Fusion of Neural and Embedding-Based Speaker Diarization",
+   "u": "https://arxiv.org/abs/2609.39162v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "07:25",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "DAGent: Evaluate-then-Grow Planning for Deep Research Agents",
    "u": "https://arxiv.org/abs/2609.39154v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "07:19",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Linear Recurrent Memory Suffices to Distil a World-Model Policy for Robot Air Hockey",
+   "u": "https://arxiv.org/abs/2609.39151v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "07:17",
    "k": "",
    "x": ""
   },
@@ -695,46 +735,6 @@
    "u": "https://arxiv.org/abs/2609.39139v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "07:08",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "T-Router: Learning Thalamic Routing for Reasoning with Parameter-Efficient Reinforcement Learning",
-   "u": "https://arxiv.org/abs/2609.39109v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "06:48",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "MASCRDM: Multi-Agent System for Compliance Risk Detection and Mitigation in Training Process of Large Language Models",
-   "u": "https://arxiv.org/abs/2609.39107v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "06:47",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "False Frontiers: Diagnosing and Mitigating Co-Cheating in Self-Evolving Search Agents",
-   "u": "https://arxiv.org/abs/2609.39102v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "06:41",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Beyond Prediction: Steering VLM Agents with Retrospective World Modeling",
-   "u": "https://arxiv.org/abs/2609.39101v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "06:41",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "SCIC: Scope- and Codebook-Aware Instruction Conditioning for Speaker-Adapted Expressive TTS",
-   "u": "https://arxiv.org/abs/2609.39088v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "06:26",
    "k": "",
    "x": ""
   }
