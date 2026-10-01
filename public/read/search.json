@@ -1,5 +1,5 @@
 {
- "built": "2026-10-02 00:31:17",
+ "built": "2026-10-02 00:37:48",
  "count": 97,
  "items": [
   {
@@ -459,10 +459,10 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "Show HN：多药剂的协调和耐久层",
-   "u": "https://cellaflow.com",
+   "t": "Extract v2.5：在LlamaParse上重建提取剂",
+   "u": "https://www.llamaindex.ai/blog/introducing-extract-v2-5",
    "s": "外网新声·Hacker News",
-   "d": "00:06",
+   "d": "00:20",
    "k": "",
    "x": ""
   },
@@ -515,14 +515,6 @@
    "x": ""
   },
   {
-   "t": "OpenID基金会：Agentic AI的身份管理[pdf] (2025)",
-   "u": "https://openid.net/wp-content/uploads/2025/10/Identity-Management-for-Agentic-AI.pdf",
-   "s": "外网新声·Hacker News",
-   "d": "23:11",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
    "u": "https://github.com/earendil-works/pi",
    "s": "外网新声·GitHub 新星",
@@ -563,14 +555,6 @@
    "x": ""
   },
   {
-   "t": "非凡的多智能体错觉和人群的疯狂",
-   "u": "https://freesystems.substack.com/p/extraordinary-multi-agent-delusions",
-   "s": "外网新声·Hacker News",
-   "d": "01:24",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
    "u": "https://github.com/Dao-AILab/flash-attention",
    "s": "外网新声·GitHub 新星",
@@ -591,14 +575,6 @@
    "u": "https://github.com/affaan-m/ECC",
    "s": "外网新声·GitHub 新星",
    "d": "18:45",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：AFAW –不信任模型的多代理编码工作流程",
-   "u": "https://github.com/agustindiazcano/afaw-anti-fragile-agentic-workflow",
-   "s": "外网新声·Hacker News",
-   "d": "18:31",
    "k": "",
    "x": ""
   },
@@ -659,7 +635,7 @@
    "x": ""
   },
   {
-   "t": "Scaling Laws for Looped Mixture of Experts",
+   "t": "循环混合专家的缩放定律",
    "u": "https://arxiv.org/abs/2609.40316v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:53",
@@ -667,7 +643,7 @@
    "x": ""
   },
   {
-   "t": "DynaHarness: A Dynamic Physical Harness for Self-Evolving Robot Agents",
+   "t": "DynaHarness：用于自我进化机器人智能体的动态物理线束",
    "u": "https://arxiv.org/abs/2609.40306v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:52",
@@ -675,7 +651,7 @@
    "x": ""
   },
   {
-   "t": "Looped Diffusion Transformer",
+   "t": "环形扩散变压器",
    "u": "https://arxiv.org/abs/2609.40305v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:52",
@@ -683,7 +659,7 @@
    "x": ""
   },
   {
-   "t": "How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?",
+   "t": "对于自主机器学习工程，强大的智能体需要多少线束？",
    "u": "https://arxiv.org/abs/2609.40303v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:51",
@@ -691,7 +667,7 @@
    "x": ""
   },
   {
-   "t": "Disentangling Computation in Multi-Task Neural Networks with the Green's Operator",
+   "t": "使用Green's算子在多任务神经网络中解开计算",
    "u": "https://arxiv.org/abs/2609.40292v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:49",
@@ -699,7 +675,7 @@
    "x": ""
   },
   {
-   "t": "Linguistic Loopholes in LLM Unlearning: From a 174-Language Benchmark to Coverage-Aware Unlearning",
+   "t": "LLM取消学习的语言漏洞：从174语言基准到覆盖意识取消学习",
    "u": "https://arxiv.org/abs/2609.40286v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:48",
@@ -707,7 +683,7 @@
    "x": ""
   },
   {
-   "t": "PivotOPD: Learning to Recover from Pivotal Mistakes in Multi-Turn Agents",
+   "t": "PivotOPD：学习从多轮智能体的关键错误中恢复",
    "u": "https://arxiv.org/abs/2609.40285v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:48",
@@ -775,6 +751,30 @@
    "u": "https://arxiv.org/abs/2609.40198v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:13",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories",
+   "u": "https://arxiv.org/abs/2609.40195v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:11",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "扰乱协调的模型蒸馏活动",
+   "u": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+   "s": "外网新声·OpenAI 官方",
+   "d": "10:30",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
+   "u": "https://github.com/mattpocock/skills",
+   "s": "外网新声·GitHub 新星",
+   "d": "12:38",
    "k": "",
    "x": ""
   }
