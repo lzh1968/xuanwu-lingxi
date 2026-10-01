@@ -1,5 +1,5 @@
 {
- "built": "2026-10-01 14:51:19",
+ "built": "2026-10-01 14:54:26",
  "count": 92,
  "items": [
   {
@@ -419,6 +419,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Meta wants people to use 'AI agents' to do daily tasks. Why that's a problem",
+   "u": "https://theconversation.com/meta-wants-people-to-use-ai-agents-to-do-daily-tasks-for-them-heres-why-thats-a-problem-292962",
+   "s": "外网新声·Hacker News",
+   "d": "14:52",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Archestra-AI/OpenAPPA: Deterministic guardrails that don't break agents",
    "u": "https://github.com/archestra-ai/OpenAPPA",
    "s": "外网新声·Hacker News",
@@ -439,14 +447,6 @@
    "u": "https://github.com/daliparthi/personal-job-agent",
    "s": "外网新声·Hacker News",
    "d": "11:31",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Stanislaw Lem quote related to LLMs",
-   "u": "https://news.ycombinator.com/item?id=49917321",
-   "s": "外网新声·Hacker News",
-   "d": "11:18",
    "k": "",
    "x": ""
   },
@@ -483,34 +483,10 @@
    "x": ""
   },
   {
-   "t": "Ask HN: My agent went haywire, does this output mean anything?",
-   "u": "https://news.ycombinator.com/item?id=49916751",
-   "s": "外网新声·Hacker News",
-   "d": "09:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Someone Torturing LLMs in a Robot Prison Has Triggered the Dumbest Debate in AI",
-   "u": "https://www.404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet/",
-   "s": "外网新声·Hacker News",
-   "d": "08:54",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "06:50",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
-   "s": "外网新声·GitHub 新星",
-   "d": "06:48",
+   "d": "06:53",
    "k": "",
    "x": ""
   },
@@ -523,30 +499,6 @@
    "x": ""
   },
   {
-   "t": "非凡的多智能体错觉和人群的疯狂",
-   "u": "https://freesystems.substack.com/p/extraordinary-multi-agent-delusions",
-   "s": "外网新声·Hacker News",
-   "d": "01:24",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "rasbt/LLMs-from-scratch：一步步用 PyTorch 从零实现类 ChatGPT 模型",
-   "u": "https://github.com/rasbt/LLMs-from-scratch",
-   "s": "外网新声·GitHub 新星",
-   "d": "00:25",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "u": "https://github.com/earendil-works/pi",
-   "s": "外网新声·GitHub 新星",
-   "d": "00:06",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
    "u": "https://github.com/Dao-AILab/flash-attention",
    "s": "外网新声·GitHub 新星",
@@ -555,26 +507,10 @@
    "x": ""
   },
   {
-   "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
-   "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-   "s": "外网新声·GitHub 新星",
-   "d": "20:31",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
    "u": "https://github.com/affaan-m/ECC",
    "s": "外网新声·GitHub 新星",
    "d": "18:45",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：AFAW –不信任模型的多代理编码工作流程",
-   "u": "https://github.com/agustindiazcano/afaw-anti-fragile-agentic-workflow",
-   "s": "外网新声·Hacker News",
-   "d": "18:31",
    "k": "",
    "x": ""
   },
@@ -735,6 +671,70 @@
    "u": "https://arxiv.org/abs/2609.40230v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:30",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "PhantomEnvironments: Training LLM Agents in Fictional Worlds",
+   "u": "https://arxiv.org/abs/2609.40221v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:26",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "SCB: SpeechConversationBench for Evaluating Multi-Turn Reasoning in Speech-to-Speech Models",
+   "u": "https://arxiv.org/abs/2609.40198v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:13",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories",
+   "u": "https://arxiv.org/abs/2609.40195v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:11",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "OpenAI首席研究官表示：“我们不会因为黑客攻击而自杀”",
+   "u": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "10:40",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "扰乱协调的模型蒸馏活动",
+   "u": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+   "s": "外网新声·OpenAI 官方",
+   "d": "10:30",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
+   "u": "https://github.com/mattpocock/skills",
+   "s": "外网新声·GitHub 新星",
+   "d": "12:38",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "GPT-6.1 Sol简介",
+   "u": "https://openai.com/index/introducing-gpt-6-1-sol",
+   "s": "外网新声·OpenAI 官方",
+   "d": "10:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "面向前沿人工智能培训的安全案例",
+   "u": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+   "s": "外网新声·OpenAI 官方",
+   "d": "19:00",
    "k": "",
    "x": ""
   }
