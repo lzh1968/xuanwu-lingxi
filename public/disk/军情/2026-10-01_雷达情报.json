@@ -2,20 +2,14 @@
  "日期": "2026-10-01",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-01 16:22:58",
-  "chosen": "FIL short",
+  "updated": "2026-10-01 16:24:01",
+  "chosen": "SOL short",
   "nodes": [
    {
-    "coin": "FIL",
+    "coin": "SOL",
     "side": "short",
     "align": 3,
-    "embryo": 2.2
-   },
-   {
-    "coin": "ARB",
-    "side": "short",
-    "align": 3,
-    "embryo": 1.6
+    "embryo": 2.7
    }
   ]
  }
