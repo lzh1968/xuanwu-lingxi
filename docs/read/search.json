@@ -1,5 +1,5 @@
 {
- "built": "2026-10-01 10:07:52",
+ "built": "2026-10-01 10:14:17",
  "count": 92,
  "items": [
   {
@@ -419,6 +419,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "D2B – Spreadsheets for AI Agents",
+   "u": "https://d2b.dev/developers",
+   "s": "外网新声·Hacker News",
+   "d": "10:08",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Ask HN: My agent went haywire, does this output mean anything?",
    "u": "https://news.ycombinator.com/item?id=49916751",
    "s": "外网新声·Hacker News",
@@ -483,18 +491,10 @@
    "x": ""
   },
   {
-   "t": "Show HN: Made a digital wall for AI Agents to \"tag\"",
-   "u": "https://www.tomasmed.dev/wall",
-   "s": "外网新声·Hacker News",
-   "d": "04:56",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
-   "d": "02:05",
+   "d": "02:11",
    "k": "",
    "x": ""
   },
@@ -571,6 +571,142 @@
    "x": ""
   },
   {
+   "t": "Semifactual Credit-Augmented Policy Optimization",
+   "u": "https://arxiv.org/abs/2609.40360v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ViTeX-Bench: Benchmarking High-Fidelity Video Scene Text Editing",
+   "u": "https://arxiv.org/abs/2609.40356v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Turbo Harness: Instance-Adaptive Harness Optimization",
+   "u": "https://arxiv.org/abs/2609.40330v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:56",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "WorldAuditBench: Interactive 3D World Auditing with Multimodal Agents",
+   "u": "https://arxiv.org/abs/2609.40325v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Cogentic: Multi-Agent Orchestration for Automated Proof Discovery",
+   "u": "https://arxiv.org/abs/2609.40324v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Scaling Laws for Looped Mixture of Experts",
+   "u": "https://arxiv.org/abs/2609.40316v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:53",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "DynaHarness: A Dynamic Physical Harness for Self-Evolving Robot Agents",
+   "u": "https://arxiv.org/abs/2609.40306v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:52",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?",
+   "u": "https://arxiv.org/abs/2609.40303v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:51",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Linguistic Loopholes in LLM Unlearning: From a 174-Language Benchmark to Coverage-Aware Unlearning",
+   "u": "https://arxiv.org/abs/2609.40286v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:48",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "PivotOPD: Learning to Recover from Pivotal Mistakes in Multi-Turn Agents",
+   "u": "https://arxiv.org/abs/2609.40285v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:48",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "cua-speedrun: Standardized Benchmarking of the Speed of Computer-Use Agents",
+   "u": "https://arxiv.org/abs/2609.40284v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:48",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Belief-Aware Multi-Agent Path Finding under Map Uncertainty",
+   "u": "https://arxiv.org/abs/2609.40269v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:44",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ComputerSD: Online Self-Distillation from Real-Time Feedback for Computer-Use Agents",
+   "u": "https://arxiv.org/abs/2609.40253v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:40",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "EviRover: Reinforcing Agentic Perception Beyond a Glance",
+   "u": "https://arxiv.org/abs/2609.40230v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:30",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "PhantomEnvironments: Training LLM Agents in Fictional Worlds",
+   "u": "https://arxiv.org/abs/2609.40221v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:26",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "SCB: SpeechConversationBench for Evaluating Multi-Turn Reasoning in Speech-to-Speech Models",
+   "u": "https://arxiv.org/abs/2609.40198v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:13",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories",
+   "u": "https://arxiv.org/abs/2609.40195v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:11",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "关闭多Agent系统中的破坏倾向",
    "u": "https://arxiv.org/abs/2609.28274",
    "s": "外网新声·Hacker News",
@@ -597,144 +733,8 @@
   {
    "t": "In a Streaming World, Should You Stand Still? A Comprehensive Benchmark of Anomaly Detection in Streams",
    "u": "https://arxiv.org/abs/2609.39215v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "07:56",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Low-Discrepancy Dither for Quantized Recurrent State Caches",
-   "u": "https://arxiv.org/abs/2609.39185v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "07:41",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Fiber-Resolved Microstructure Quantification from Multi-Shell Diffusion MRI using Detection Transformers",
-   "u": "https://arxiv.org/abs/2609.39184v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "07:41",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "MEND: Label-Free Detection, Localisation, and Correction of Latent Hallucination in World Models",
-   "u": "https://arxiv.org/abs/2609.39182v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "07:38",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Whitening Improves Robustness to Spurious Correlations in Linear Probes",
-   "u": "https://arxiv.org/abs/2609.39177v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "07:34",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "A Width-Matched Comparison of Hybrid Quantum-Classical Self-Supervised Learning for Fingerprint Recognition",
-   "u": "https://arxiv.org/abs/2609.39172v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "07:31",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Reinforcing Multimodal Reasoning via Token-Level Perception-Grounded Advantage Estimation",
-   "u": "https://arxiv.org/abs/2609.39168v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "07:29",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Beyond the Remembered World: Predictive 4D Belief for Persistent Navigation in Evolving Worlds",
-   "u": "https://arxiv.org/abs/2609.39166v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "07:26",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Training-Free Affinity Fusion of Neural and Embedding-Based Speaker Diarization",
-   "u": "https://arxiv.org/abs/2609.39162v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "07:25",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "DAGent: Evaluate-then-Grow Planning for Deep Research Agents",
-   "u": "https://arxiv.org/abs/2609.39154v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "07:19",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Linear Recurrent Memory Suffices to Distil a World-Model Policy for Robot Air Hockey",
-   "u": "https://arxiv.org/abs/2609.39151v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "07:17",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Rep2Skill: Representation-Guided Skill Self-Evolution for LLM Agents",
-   "u": "https://arxiv.org/abs/2609.39149v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "07:15",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Do Self-Evolving Skills Generalize to Held-Out Tasks?",
-   "u": "https://arxiv.org/abs/2609.39148v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "07:14",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "MADBench: Benchmarking the Security of Multi-Agent Debate",
-   "u": "https://arxiv.org/abs/2609.39146v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "07:12",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Blackout vs. Freeze: Analyzing Physical Failure Modes of VLAs under Camera Faults",
-   "u": "https://arxiv.org/abs/2609.39145v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "07:11",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "RefCon: Iterative Refinement and Contrastive Memory Extraction for Context-Evolving Agent",
-   "u": "https://arxiv.org/abs/2609.39143v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "07:10",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Schema: Discovering Unknown Environments via Agentic Program Induction",
-   "u": "https://arxiv.org/abs/2609.39140v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "07:08",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "BELIEFRAG: Making Adaptive RAG State-Aware under Evolving Evidence",
-   "u": "https://arxiv.org/abs/2609.39139v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "07:08",
    "k": "",
    "x": ""
   }
