@@ -2,8 +2,8 @@
  "日期": "2026-10-01",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-01 11:15:08",
-  "chosen": "UNI short",
+  "updated": "2026-10-01 11:21:55",
+  "chosen": "SOL short",
   "nodes": [
    {
     "coin": "BTC",
@@ -14,8 +14,8 @@
    {
     "coin": "SOL",
     "side": "short",
-    "align": 2,
-    "embryo": 4.7
+    "align": 3,
+    "embryo": 2.7
    },
    {
     "coin": "XRP",
@@ -26,8 +26,8 @@
    {
     "coin": "UNI",
     "side": "short",
-    "align": 3,
-    "embryo": 2.4
+    "align": 2,
+    "embryo": 4.7
    }
   ]
  }
