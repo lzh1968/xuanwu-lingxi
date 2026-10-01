@@ -1,8 +1,8 @@
 {
- "generated": "19:47",
- "built": "2026-10-01 19:47:02",
+ "generated": "19:54",
+ "built": "2026-10-01 19:54:27",
  "count": 52,
- "live_count": 45,
+ "live_count": 60,
  "items": [
   {
    "type": "live",
@@ -10,6 +10,22 @@
    "url": "https://news.ycombinator.com/item?id=49920340",
    "src": "Hacker News",
    "t": "19:32",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "用于MLSys的代理GPU编程",
+   "url": "https://mlc.ai/agentic-gpu-programming-for-mlsys/index.html",
+   "src": "Hacker News",
+   "t": "19:18",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Value: A Verifiable Alignment Layer for Agentic a [pdf]",
+   "url": "https://asteris.ai/pdf/verifiable-alignment-layer-for-agentic-ai.pdf",
+   "src": "Hacker News",
+   "t": "18:52",
    "fresh": true
   },
   {
@@ -38,34 +54,18 @@
   },
   {
    "type": "live",
+   "title": "Why Agentic AI Governance Can't Be Bolted On",
+   "url": "https://kimchi.dev/blog/why-agentic-ai-governance-cant-be-bolted-on",
+   "src": "Hacker News",
+   "t": "17:54",
+   "fresh": false
+  },
+  {
+   "type": "live",
    "title": "'Torturing' LLMs in a Robot Prison Has Triggered the Dumbest Debate in AI Yet",
    "url": "https://www.404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet/",
    "src": "Hacker News",
    "t": "17:16",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "非凡的多智能体错觉和人群的疯狂",
-   "url": "https://freesystems.substack.com/p/extraordinary-multi-agent-delusions",
-   "src": "Hacker News",
-   "t": "01:24",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Show HN：AFAW –不信任模型的多代理编码工作流程",
-   "url": "https://github.com/agustindiazcano/afaw-anti-fragile-agentic-workflow",
-   "src": "Hacker News",
-   "t": "18:31",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Semifactual Credit-Augmented Policy Optimization",
-   "url": "https://arxiv.org/abs/2609.40360v1",
-   "src": "arXiv cs.AI",
-   "t": "17:59",
    "fresh": false
   },
   {
