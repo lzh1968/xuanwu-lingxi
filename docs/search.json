@@ -1,5 +1,5 @@
 {
- "built": "2026-10-01 21:25:45",
+ "built": "2026-10-01 21:32:35",
  "count": 92,
  "items": [
   {
@@ -483,14 +483,6 @@
    "x": ""
   },
   {
-   "t": "Ask HN: What landmarks/lighthouses in the era of LLM/AI?",
-   "u": "https://news.ycombinator.com/item?id=49920340",
-   "s": "外网新声·Hacker News",
-   "d": "19:32",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "用于MLSys的代理GPU编程",
    "u": "https://mlc.ai/agentic-gpu-programming-for-mlsys/index.html",
    "s": "外网新声·Hacker News",
@@ -518,7 +510,7 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "13:22",
+   "d": "13:26",
    "k": "",
    "x": ""
   },
@@ -543,14 +535,6 @@
    "u": "https://github.com/earendil-works/pi",
    "s": "外网新声·GitHub 新星",
    "d": "13:12",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "非凡的多智能体错觉和人群的疯狂",
-   "u": "https://freesystems.substack.com/p/extraordinary-multi-agent-delusions",
-   "s": "外网新声·Hacker News",
-   "d": "01:24",
    "k": "",
    "x": ""
   },
@@ -587,25 +571,9 @@
    "x": ""
   },
   {
-   "t": "Show HN：AFAW –不信任模型的多代理编码工作流程",
-   "u": "https://github.com/agustindiazcano/afaw-anti-fragile-agentic-workflow",
-   "s": "外网新声·Hacker News",
-   "d": "18:31",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Semifactual Credit-Augmented Policy Optimization",
    "u": "https://arxiv.org/abs/2609.40360v1",
    "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Ranking-Aware Prompt Optimization for Multimodal Clinical Diagnosis",
-   "u": "https://arxiv.org/abs/2609.40361v1",
-   "s": "外网新声·arXiv cs.LG",
    "d": "17:59",
    "k": "",
    "x": ""
@@ -615,14 +583,6 @@
    "u": "https://arxiv.org/abs/2609.40356v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Is Weight Tying Still Beneficial for Decoder-Only LLMs in Private Settings Under DP-SGD?",
-   "u": "https://arxiv.org/abs/2609.40335v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:57",
    "k": "",
    "x": ""
   },
@@ -667,26 +627,10 @@
    "x": ""
   },
   {
-   "t": "Looped Diffusion Transformer",
-   "u": "https://arxiv.org/abs/2609.40305v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:52",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?",
    "u": "https://arxiv.org/abs/2609.40303v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:51",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Disentangling Computation in Multi-Task Neural Networks with the Green's Operator",
-   "u": "https://arxiv.org/abs/2609.40292v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:49",
    "k": "",
    "x": ""
   },
@@ -723,18 +667,74 @@
    "x": ""
   },
   {
-   "t": "OpenTSLM TeeMoE: A Unified Time-Series Language Model for Forecasting, Contextual Prediction, and Reasoning",
-   "u": "https://arxiv.org/abs/2609.40265v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:43",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "ComputerSD: Online Self-Distillation from Real-Time Feedback for Computer-Use Agents",
    "u": "https://arxiv.org/abs/2609.40253v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:40",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "EviRover: Reinforcing Agentic Perception Beyond a Glance",
+   "u": "https://arxiv.org/abs/2609.40230v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:30",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "PhantomEnvironments: Training LLM Agents in Fictional Worlds",
+   "u": "https://arxiv.org/abs/2609.40221v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:26",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "SCB: SpeechConversationBench for Evaluating Multi-Turn Reasoning in Speech-to-Speech Models",
+   "u": "https://arxiv.org/abs/2609.40198v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:13",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "MemLife: Curating and Reasoning over Long-Term Egocentric Video Memories",
+   "u": "https://arxiv.org/abs/2609.40195v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:11",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "OpenAI首席研究官表示：“我们不会因为黑客攻击而自杀”",
+   "u": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "10:40",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
+   "u": "https://github.com/mattpocock/skills",
+   "s": "外网新声·GitHub 新星",
+   "d": "12:38",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "TauricResearch/TradingAgents — TradingAgents：多代理LLM金融交易框架",
+   "u": "https://github.com/TauricResearch/TradingAgents",
+   "s": "外网新声·GitHub 新星",
+   "d": "06:15",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "当人工智能智能体流氓时，谁应该承担责任？",
+   "u": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "08:06",
    "k": "",
    "x": ""
   }
