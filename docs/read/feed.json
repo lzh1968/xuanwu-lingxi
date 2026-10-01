@@ -1,9 +1,17 @@
 {
- "generated": "01:33",
- "built": "2026-10-02 01:33:54",
+ "generated": "01:40",
+ "built": "2026-10-02 01:40:27",
  "count": 57,
- "live_count": 59,
+ "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN：我制作了一个计算机视觉工具来评估死提形式",
+   "url": "https://github.com/jeremyipark/vision-demos/tree/main/deadlift",
+   "src": "Hacker News",
+   "t": "01:07",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "问HN：当您添加第二个客服代表时，出现了什么问题？",
@@ -14,58 +22,50 @@
   },
   {
    "type": "live",
-   "title": "Show HN：多药剂的协调和耐久层",
-   "url": "https://cellaflow.com",
+   "title": "Show HN：Keel –为您的代理提供键入的策略语言，而不是交易帐户",
+   "url": "https://usekeel.io/how-it-works",
    "src": "Hacker News",
-   "t": "00:06",
+   "t": "00:59",
    "fresh": true
   },
   {
    "type": "live",
-   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "url": "https://github.com/NousResearch/hermes-agent",
-   "src": "GitHub 新星",
-   "t": "17:31",
+   "title": "Extract v2.5：在LlamaParse上重建提取剂",
+   "url": "https://www.llamaindex.ai/blog/introducing-extract-v2-5",
+   "src": "Hacker News",
+   "t": "00:20",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN：多药剂的协调和耐久层",
+   "url": "https://cellaflow.com",
+   "src": "Hacker News",
+   "t": "00:06",
    "fresh": false
   },
   {
    "type": "live",
-   "title": "rasbt/LLMs-from-scratch：一步步用 PyTorch 从零实现类 ChatGPT 模型",
-   "url": "https://github.com/rasbt/LLMs-from-scratch",
-   "src": "GitHub 新星",
-   "t": "17:08",
+   "title": "我的智能体正在让我变得更笨拙",
+   "url": "https://pridesai.substack.com/p/my-ai-agent-is-making-me-lamer",
+   "src": "Hacker News",
+   "t": "00:04",
    "fresh": false
   },
   {
    "type": "live",
-   "title": "永恒的补充",
-   "url": "https://openai.com/index/the-eternal-complement",
-   "src": "OpenAI 官方",
-   "t": "17:00",
+   "title": "Show HN：Call4me，一个为您处理电话的智能体",
+   "url": "https://call4.me/",
+   "src": "Hacker News",
+   "t": "00:00",
    "fresh": false
   },
   {
    "type": "live",
-   "title": "anomalyco/opencode：开源编码智能体",
-   "url": "https://github.com/anomalyco/opencode",
-   "src": "GitHub 新星",
-   "t": "16:59",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "url": "https://github.com/ggml-org/llama.cpp",
-   "src": "GitHub 新星",
-   "t": "16:57",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "url": "https://github.com/earendil-works/pi",
-   "src": "GitHub 新星",
-   "t": "16:27",
+   "title": "对价值概念文件的反馈",
+   "url": "https://news.ycombinator.com/item?id=49923140",
+   "src": "Hacker News",
+   "t": "23:38",
    "fresh": false
   },
   {
