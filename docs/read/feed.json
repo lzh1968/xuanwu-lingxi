@@ -1,71 +1,71 @@
 {
- "generated": "00:45",
- "built": "2026-10-02 00:45:26",
+ "generated": "00:52",
+ "built": "2026-10-02 00:52:33",
  "count": 57,
- "live_count": 49,
+ "live_count": 35,
  "items": [
   {
    "type": "live",
-   "title": "Extract v2.5：在LlamaParse上重建提取剂",
-   "url": "https://www.llamaindex.ai/blog/introducing-extract-v2-5",
-   "src": "Hacker News",
-   "t": "00:20",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "我的智能体正在让我变得更笨拙",
-   "url": "https://pridesai.substack.com/p/my-ai-agent-is-making-me-lamer",
-   "src": "Hacker News",
-   "t": "00:04",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Show HN：Call4me，一个为您处理电话的智能体",
-   "url": "https://call4.me/",
-   "src": "Hacker News",
-   "t": "00:00",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "对价值概念文件的反馈",
-   "url": "https://news.ycombinator.com/item?id=49923140",
-   "src": "Hacker News",
-   "t": "23:38",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "人工智能智能体入侵潜水了吗？ Zammad Zero-Days",
-   "url": "https://mrkt30.com/did-an-ai-agent-hack-divd/",
-   "src": "Hacker News",
-   "t": "23:33",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Show HN: BananaSplit CLI –使用AI 智能体管理个人和团体费用",
-   "url": "https://bananasplit.net/en/agents/",
-   "src": "Hacker News",
-   "t": "23:32",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Show HN：快速浏览器代理（使用Jev ），并根据需要进行深入推理",
-   "url": "https://github.com/ironbee-ai/ironbee-express",
-   "src": "Hacker News",
-   "t": "23:15",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "anomalyco/opencode：开源编码智能体",
-   "url": "https://github.com/anomalyco/opencode",
+   "title": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "url": "https://github.com/earendil-works/pi",
    "src": "GitHub 新星",
-   "t": "16:42",
+   "t": "16:27",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "url": "https://github.com/ggml-org/llama.cpp",
+   "src": "GitHub 新星",
+   "t": "15:59",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "rasbt/LLMs-from-scratch：一步步用 PyTorch 从零实现类 ChatGPT 模型",
+   "url": "https://github.com/rasbt/LLMs-from-scratch",
+   "src": "GitHub 新星",
+   "t": "14:49",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
+   "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+   "src": "GitHub 新星",
+   "t": "20:31",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "半事实信用增强政策优化",
+   "url": "https://arxiv.org/abs/2609.40360v1",
+   "src": "arXiv cs.AI",
+   "t": "17:59",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "针对多模式临床诊断的排名感知提示优化",
+   "url": "https://arxiv.org/abs/2609.40361v1",
+   "src": "arXiv cs.LG",
+   "t": "17:59",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "ViTeX-Bench：标杆高保真视频场景文本编辑",
+   "url": "https://arxiv.org/abs/2609.40356v1",
+   "src": "arXiv cs.AI",
+   "t": "17:59",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "在DP-SGD下的私人环境中，体重绑定仍然对仅限解码器的LLM有益吗？",
+   "url": "https://arxiv.org/abs/2609.40335v1",
+   "src": "arXiv cs.LG",
+   "t": "17:57",
    "fresh": false
   },
   {
