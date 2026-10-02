@@ -1,6 +1,6 @@
 {
- "generated": "00:45",
- "built": "2026-10-03 00:45:02",
+ "generated": "00:51",
+ "built": "2026-10-03 00:51:49",
  "count": 62,
  "live_count": 60,
  "items": [
@@ -22,14 +22,6 @@
   },
   {
    "type": "live",
-   "title": "Show HN：呼叫和智能体建议编辑，人们批准的客户端房间",
-   "url": "https://twitter.com/deamosV/status/2105679521240514788",
-   "src": "Hacker News",
-   "t": "00:25",
-   "fresh": true
-  },
-  {
-   "type": "live",
    "title": "Cascadia：在英特尔PC上拆分LLM",
    "url": "https://github.com/labscommunity/cascadia",
    "src": "Hacker News",
@@ -46,27 +38,35 @@
   },
   {
    "type": "live",
-   "title": "OpenAI徘徊的人工智能智能体为它赢得了加利福尼亚州的传票",
-   "url": "https://www.theregister.com/ai-and-ml/2026/10/02/openais-wandering-ai-agents-earn-it-a-california-subpoena/5300850",
-   "src": "Hacker News",
-   "t": "23:28",
-   "fresh": true
-  },
-  {
-   "type": "live",
    "title": "问HN：为什么所有LLM界面看起来都一样？",
    "url": "https://news.ycombinator.com/item?id=49934491",
    "src": "Hacker News",
    "t": "23:18",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
-   "title": "代理任务中LLM推断的功能分类法",
-   "url": "https://jeffauriemma.leaflet.pub/3mv6jnffo6k24",
+   "title": "Show HN: Bise –专为人类打造的多智能体线束",
+   "url": "https://bise.dev/",
    "src": "Hacker News",
-   "t": "23:18",
-   "fresh": true
+   "t": "22:17",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "Show HN：Kodama – Kiro的多药剂包",
+   "url": "https://github.com/amergrgic/kodama",
+   "src": "Hacker News",
+   "t": "18:08",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "url": "https://github.com/ggml-org/llama.cpp",
+   "src": "GitHub 新星",
+   "t": "16:51",
+   "fresh": false
   },
   {
    "type": "article",
