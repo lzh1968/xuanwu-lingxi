@@ -1,9 +1,17 @@
 {
- "generated": "19:32",
- "built": "2026-10-02 19:32:56",
+ "generated": "19:38",
+ "built": "2026-10-02 19:38:56",
  "count": 57,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "A table of 1,200 model benchmarks since 2019, updated daily",
+   "url": "https://mostlyright.md/datasets/llm-benchmark-scores-by-model-since-2019",
+   "src": "Hacker News",
+   "t": "19:36",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Show HN: Yokka – Simple project management for coding agents",
@@ -34,7 +42,7 @@
    "url": "https://github.com/amergrgic/kodama",
    "src": "Hacker News",
    "t": "18:08",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,6 @@
    "url": "https://github.com/routsom/causeval",
    "src": "Hacker News",
    "t": "15:32",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Show HN: AviGPT-250M – Edge SLM with NVMe memory bus (488MB, runs offline)",
-   "url": "https://github.com/Avinashricky211/AviGPT-250M",
-   "src": "Hacker News",
-   "t": "13:42",
    "fresh": false
   },
   {
