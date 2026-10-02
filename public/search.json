@@ -1,5 +1,5 @@
 {
- "built": "2026-10-02 08:29:10",
+ "built": "2026-10-02 08:35:49",
  "count": 97,
  "items": [
   {
@@ -563,18 +563,18 @@
    "x": ""
   },
   {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "00:28",
+   "d": "00:34",
    "k": "",
    "x": ""
   },
   {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "00:24",
+   "d": "00:28",
    "k": "",
    "x": ""
   },
@@ -659,14 +659,6 @@
    "x": ""
   },
   {
-   "t": "半事实信用增强政策优化",
-   "u": "https://arxiv.org/abs/2609.40360v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "针对多模式临床诊断的排名感知提示优化",
    "u": "https://arxiv.org/abs/2609.40361v1",
    "s": "外网新声·arXiv cs.LG",
@@ -675,9 +667,9 @@
    "x": ""
   },
   {
-   "t": "ViTeX-Bench：标杆高保真视频场景文本编辑",
-   "u": "https://arxiv.org/abs/2609.40356v1",
-   "s": "外网新声·arXiv cs.AI",
+   "t": "半事实信用增强政策优化",
+   "u": "https://arxiv.org/abs/2609.40360v1",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:59",
    "k": "",
    "x": ""
@@ -691,33 +683,9 @@
    "x": ""
   },
   {
-   "t": "涡轮增压线束：实例自适应线束优化",
-   "u": "https://arxiv.org/abs/2609.40330v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:56",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "WorldAuditBench：使用多式联运代理进行交互式3D世界审计",
-   "u": "https://arxiv.org/abs/2609.40325v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Cogentic：用于自动校验发现的多代理编排",
-   "u": "https://arxiv.org/abs/2609.40324v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:55",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "循环混合专家的缩放定律",
    "u": "https://arxiv.org/abs/2609.40316v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:53",
    "k": "",
    "x": ""
@@ -725,7 +693,7 @@
   {
    "t": "DynaHarness：用于自我进化机器人智能体的动态物理线束",
    "u": "https://arxiv.org/abs/2609.40306v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:52",
    "k": "",
    "x": ""
@@ -739,14 +707,6 @@
    "x": ""
   },
   {
-   "t": "对于自主机器学习工程，强大的智能体需要多少线束？",
-   "u": "https://arxiv.org/abs/2609.40303v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:51",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "使用Green's算子在多任务神经网络中解开计算",
    "u": "https://arxiv.org/abs/2609.40292v1",
    "s": "外网新声·arXiv cs.LG",
@@ -755,26 +715,66 @@
    "x": ""
   },
   {
-   "t": "LLM取消学习的语言漏洞：从174语言基准到覆盖意识取消学习",
-   "u": "https://arxiv.org/abs/2609.40286v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:48",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "PivotOPD：学习从多轮智能体的关键错误中恢复",
-   "u": "https://arxiv.org/abs/2609.40285v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:48",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "cua-speedrun：计算机使用代理速度的标准化基准测试",
    "u": "https://arxiv.org/abs/2609.40284v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:48",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "OpenTSLM TeeMoE：用于预测、上下文预测和推理的统一时间序列语言模型",
+   "u": "https://arxiv.org/abs/2609.40265v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:43",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "连续扩散语言模型的分布匹配蒸馏",
+   "u": "https://arxiv.org/abs/2609.40235v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:32",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "PhantomEnvironments：在虚构世界中培训LLM代理",
+   "u": "https://arxiv.org/abs/2609.40221v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:26",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "关闭多Agent系统中的破坏倾向",
+   "u": "https://arxiv.org/abs/2609.28274",
+   "s": "外网新声·Hacker News",
+   "d": "13:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "OpenAI首席研究官表示：“我们不会因为黑客攻击而自杀”",
+   "u": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "10:40",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "扰乱协调的模型蒸馏活动",
+   "u": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+   "s": "外网新声·OpenAI 官方",
+   "d": "10:30",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "JMulti-Agent",
+   "u": "https://developers.openai.com/api/docs/guides/responses-multi-agent",
+   "s": "外网新声·Hacker News",
+   "d": "02:16",
    "k": "",
    "x": ""
   }
