@@ -1,8 +1,8 @@
 {
- "generated": "00:06",
- "built": "2026-10-03 00:06:44",
- "count": 59,
- "live_count": 60,
+ "generated": "00:14",
+ "built": "2026-10-03 00:14:20",
+ "count": 60,
+ "live_count": 54,
  "items": [
   {
    "type": "live",
@@ -18,14 +18,6 @@
    "url": "https://openllmrank.io/blog/ai-app-stack-2026",
    "src": "Hacker News",
    "t": "23:32",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "OpenAI徘徊的人工智能智能体为它赢得了加利福尼亚州的传票",
-   "url": "https://www.theregister.com/ai-and-ml/2026/10/02/openais-wandering-ai-agents-earn-it-a-california-subpoena/5300850",
-   "src": "Hacker News",
-   "t": "23:28",
    "fresh": true
   },
   {
@@ -46,27 +38,35 @@
   },
   {
    "type": "live",
-   "title": "由客服代表提供技术支持的知识平台演示",
-   "url": "https://github.com/rajatrao/ai-knowledge-platform",
+   "title": "Show HN: Bise –专为人类打造的多智能体线束",
+   "url": "https://bise.dev/",
    "src": "Hacker News",
-   "t": "23:17",
-   "fresh": true
+   "t": "22:17",
+   "fresh": false
   },
   {
    "type": "live",
-   "title": "人工智能智能体容易受到激进化的影响",
-   "url": "https://arxiv.org/abs/2609.38296",
+   "title": "Show HN：Kodama – Kiro的多药剂包",
+   "url": "https://github.com/amergrgic/kodama",
    "src": "Hacker News",
-   "t": "23:17",
-   "fresh": true
+   "t": "18:08",
+   "fresh": false
   },
   {
    "type": "live",
-   "title": "点选择：OpenAI的代理具有堆栈",
-   "url": "https://amplifying.ai/research/openai-dots-choose",
-   "src": "Hacker News",
-   "t": "23:17",
-   "fresh": true
+   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "url": "https://github.com/NousResearch/hermes-agent",
+   "src": "GitHub 新星",
+   "t": "16:12",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "url": "https://github.com/earendil-works/pi",
+   "src": "GitHub 新星",
+   "t": "16:09",
+   "fresh": false
   },
   {
    "type": "article",
@@ -81,6 +81,14 @@
    "title": "阴阳与反馈环",
    "url": "a/note-20261003-3.html",
    "src": "华夏哲学 · 阴阳五行",
+   "t": "2026-10-03",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "链上机制的可读性",
+   "url": "a/note-20261003-4.html",
+   "src": "Web3 · 链上世界",
    "t": "2026-10-03",
    "fresh": false
   },
@@ -105,14 +113,6 @@
    "title": "关于\"记忆\"的三种用法",
    "url": "a/note-20261002-2.html",
    "src": "Agent 与智能体",
-   "t": "2026-10-02",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "阴阳与反馈环",
-   "url": "a/note-20261002-3.html",
-   "src": "华夏哲学 · 阴阳五行",
    "t": "2026-10-02",
    "fresh": false
   }
