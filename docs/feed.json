@@ -1,12 +1,12 @@
 {
- "generated": "23:58",
- "built": "2026-10-02 23:58:39",
- "count": 57,
+ "generated": "00:05",
+ "built": "2026-10-03 00:05:19",
+ "count": 59,
  "live_count": 60,
  "items": [
   {
    "type": "live",
-   "title": "Cascadia: Split LLMs Across Intel PCs",
+   "title": "Cascadia：在英特尔PC上拆分LLM",
    "url": "https://github.com/labscommunity/cascadia",
    "src": "Hacker News",
    "t": "23:51",
@@ -14,7 +14,7 @@
   },
   {
    "type": "live",
-   "title": "Best app stack of 2026, according to LLMs: Next.js, Supabase, Vercel, Stripe",
+   "title": "根据LLM，2026年最佳应用程序栈：Next.js、Supabase、Vercel、Stripe",
    "url": "https://openllmrank.io/blog/ai-app-stack-2026",
    "src": "Hacker News",
    "t": "23:32",
@@ -22,7 +22,7 @@
   },
   {
    "type": "live",
-   "title": "OpenAI's wandering AI agents earn it a California subpoena",
+   "title": "OpenAI徘徊的人工智能智能体为它赢得了加利福尼亚州的传票",
    "url": "https://www.theregister.com/ai-and-ml/2026/10/02/openais-wandering-ai-agents-earn-it-a-california-subpoena/5300850",
    "src": "Hacker News",
    "t": "23:28",
@@ -30,7 +30,7 @@
   },
   {
    "type": "live",
-   "title": "Ask HN: Why do all LLM interfaces look the same?",
+   "title": "问HN：为什么所有LLM界面看起来都一样？",
    "url": "https://news.ycombinator.com/item?id=49934491",
    "src": "Hacker News",
    "t": "23:18",
@@ -38,7 +38,7 @@
   },
   {
    "type": "live",
-   "title": "A functional taxonomy for LLM inference in agentic tasks",
+   "title": "代理任务中LLM推断的功能分类法",
    "url": "https://jeffauriemma.leaflet.pub/3mv6jnffo6k24",
    "src": "Hacker News",
    "t": "23:18",
@@ -46,7 +46,7 @@
   },
   {
    "type": "live",
-   "title": "Knowledge platform powered by agents demonstration",
+   "title": "由客服代表提供技术支持的知识平台演示",
    "url": "https://github.com/rajatrao/ai-knowledge-platform",
    "src": "Hacker News",
    "t": "23:17",
@@ -54,7 +54,7 @@
   },
   {
    "type": "live",
-   "title": "AI Agents Are Vulnerable to Radicalization",
+   "title": "人工智能智能体容易受到激进化的影响",
    "url": "https://arxiv.org/abs/2609.38296",
    "src": "Hacker News",
    "t": "23:17",
@@ -62,11 +62,27 @@
   },
   {
    "type": "live",
-   "title": "What Dots Choose: OpenAI's Agent Has a Stack",
+   "title": "点选择：OpenAI的代理具有堆栈",
    "url": "https://amplifying.ai/research/openai-dots-choose",
    "src": "Hacker News",
    "t": "23:17",
    "fresh": true
+  },
+  {
+   "type": "article",
+   "title": "今日辑要 · 2026-10-03（前沿 12 条）",
+   "url": "a/digest-20261003.html",
+   "src": "Agent 与智能体",
+   "t": "2026-10-03",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "阴阳与反馈环",
+   "url": "a/note-20261003-3.html",
+   "src": "华夏哲学 · 阴阳五行",
+   "t": "2026-10-03",
+   "fresh": false
   },
   {
    "type": "article",
@@ -98,22 +114,6 @@
    "url": "a/note-20261002-3.html",
    "src": "华夏哲学 · 阴阳五行",
    "t": "2026-10-02",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "链上机制的可读性",
-   "url": "a/note-20261002-4.html",
-   "src": "Web3 · 链上世界",
-   "t": "2026-10-02",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "今日辑要 · 2026-10-01（前沿 12 条）",
-   "url": "a/digest-20261001.html",
-   "src": "Agent 与智能体",
-   "t": "2026-10-01",
    "fresh": false
   }
  ]

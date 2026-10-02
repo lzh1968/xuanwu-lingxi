@@ -1,7 +1,23 @@
 {
- "built": "2026-10-02 23:58:39",
- "count": 97,
+ "built": "2026-10-03 00:05:19",
+ "count": 99,
  "items": [
+  {
+   "t": "今日辑要 · 2026-10-03（前沿 12 条）",
+   "u": "a/digest-20261003.html",
+   "s": "Agent 与智能体",
+   "d": "2026-10-03",
+   "k": "辑要,每日,前沿",
+   "x": "今日从公开源汇得 12 条与人工智能、智能体系统、链上机制与数字经济相关的条目，按方向归拢如下。所有条目均保留来源与原文链接， 只作线索与机制观察 ，不代表任何结论。 Agent 与智能体 OpenAI's wandering AI agents earn it a California subpoena <span class=\"src\" Hacker News · 23:28</span [查看原文](https://www.theregister.com/ai and ml/2026/10/02/openais wandering ai agents earn it a california subpoena/5300850) Knowledge platform powered by agents demonstration <span class=\"src\" Hacker New"
+  },
+  {
+   "t": "阴阳与反馈环",
+   "u": "a/note-20261003-3.html",
+   "s": "华夏哲学 · 阴阳五行",
+   "d": "2026-10-03",
+   "k": "手记,方法论",
+   "x": "把阴阳放进控制系统里看，它更像一对 符号相反的反馈环 ：一个负责扩张，一个负责收敛。 只有扩张的环，系统会在顺境中自我强化直到崩塌；只有收敛的环，系统会在谨慎中失去一切机会。传统讲\"阴阳相生\"，工程讲\"增益平衡\"——说的是同一件事： 别让任一侧单独主导太久。 所以好的自适应并非不断调参，而是在两侧都留出可回退的余地：进要能退，退也要能再进；底线固定，节奏可变。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
   {
    "t": "今日辑要 · 2026-10-02（前沿 12 条）",
    "u": "a/digest-20261002.html",
@@ -459,7 +475,7 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "Cascadia: Split LLMs Across Intel PCs",
+   "t": "Cascadia：在英特尔PC上拆分LLM",
    "u": "https://github.com/labscommunity/cascadia",
    "s": "外网新声·Hacker News",
    "d": "23:51",
@@ -467,7 +483,7 @@
    "x": ""
   },
   {
-   "t": "Best app stack of 2026, according to LLMs: Next.js, Supabase, Vercel, Stripe",
+   "t": "根据LLM，2026年最佳应用程序栈：Next.js、Supabase、Vercel、Stripe",
    "u": "https://openllmrank.io/blog/ai-app-stack-2026",
    "s": "外网新声·Hacker News",
    "d": "23:32",
@@ -475,7 +491,7 @@
    "x": ""
   },
   {
-   "t": "OpenAI's wandering AI agents earn it a California subpoena",
+   "t": "OpenAI徘徊的人工智能智能体为它赢得了加利福尼亚州的传票",
    "u": "https://www.theregister.com/ai-and-ml/2026/10/02/openais-wandering-ai-agents-earn-it-a-california-subpoena/5300850",
    "s": "外网新声·Hacker News",
    "d": "23:28",
@@ -483,7 +499,7 @@
    "x": ""
   },
   {
-   "t": "Ask HN: Why do all LLM interfaces look the same?",
+   "t": "问HN：为什么所有LLM界面看起来都一样？",
    "u": "https://news.ycombinator.com/item?id=49934491",
    "s": "外网新声·Hacker News",
    "d": "23:18",
@@ -491,7 +507,7 @@
    "x": ""
   },
   {
-   "t": "A functional taxonomy for LLM inference in agentic tasks",
+   "t": "代理任务中LLM推断的功能分类法",
    "u": "https://jeffauriemma.leaflet.pub/3mv6jnffo6k24",
    "s": "外网新声·Hacker News",
    "d": "23:18",
@@ -499,7 +515,7 @@
    "x": ""
   },
   {
-   "t": "Knowledge platform powered by agents demonstration",
+   "t": "由客服代表提供技术支持的知识平台演示",
    "u": "https://github.com/rajatrao/ai-knowledge-platform",
    "s": "外网新声·Hacker News",
    "d": "23:17",
@@ -507,7 +523,7 @@
    "x": ""
   },
   {
-   "t": "AI Agents Are Vulnerable to Radicalization",
+   "t": "人工智能智能体容易受到激进化的影响",
    "u": "https://arxiv.org/abs/2609.38296",
    "s": "外网新声·Hacker News",
    "d": "23:17",
@@ -515,7 +531,7 @@
    "x": ""
   },
   {
-   "t": "What Dots Choose: OpenAI's Agent Has a Stack",
+   "t": "点选择：OpenAI的代理具有堆栈",
    "u": "https://amplifying.ai/research/openai-dots-choose",
    "s": "外网新声·Hacker News",
    "d": "23:17",
@@ -574,7 +590,15 @@
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "15:58",
+   "d": "16:04",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "15:59",
    "k": "",
    "x": ""
   },
@@ -583,14 +607,6 @@
    "u": "https://github.com/earendil-works/pi",
    "s": "外网新声·GitHub 新星",
    "d": "15:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "15:49",
    "k": "",
    "x": ""
   },
@@ -683,6 +699,14 @@
    "x": ""
   },
   {
+   "t": "Embedding Prediction Helps Image Generation",
+   "u": "https://arxiv.org/abs/2610.02203v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
    "u": "https://arxiv.org/abs/2610.02202v1",
    "s": "外网新声·arXiv cs.AI",
@@ -707,6 +731,14 @@
    "x": ""
   },
   {
+   "t": "TACO: Ternary Absolute-max Column-wise One-sparse Optimizer for LLM Fine-Tuning",
+   "u": "https://arxiv.org/abs/2610.02199v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "FERPO: Forward Entropy-Regularized Policy Optimization",
    "u": "https://arxiv.org/abs/2610.02198v1",
    "s": "外网新声·arXiv cs.AI",
@@ -723,6 +755,30 @@
    "x": ""
   },
   {
+   "t": "The Missing Primitive: Diagnosing and Repairing Mathematical Reasoning in Large Language Models",
+   "u": "https://arxiv.org/abs/2610.02191v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Trust the Direction, Search the Step: Zero-and-First-Order Methods for LLM Fine-Tuning",
+   "u": "https://arxiv.org/abs/2610.02190v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Generative modeling of intrinsically disordered protein regions by reinforcing sparse autoencoder features",
+   "u": "https://arxiv.org/abs/2610.02189v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "DMAD: Distribution Matching as Adversarial Distillation for Fast Visual Generation",
    "u": "https://arxiv.org/abs/2610.02188v1",
    "s": "外网新声·arXiv cs.AI",
@@ -731,50 +787,10 @@
    "x": ""
   },
   {
-   "t": "Generative Cinematographer: Composing Camera and Object Motion in 3D",
-   "u": "https://arxiv.org/abs/2610.02180v1",
-   "s": "外网新声·arXiv cs.AI",
+   "t": "Decoding Looped Transformers Better for (Almost) Free",
+   "u": "https://arxiv.org/abs/2610.02185v1",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "From Knowledge Access to Source Learning: Developing Source-Specific Competence",
-   "u": "https://arxiv.org/abs/2610.02150v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:50",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Finetuning with Sampling: SFT Learns Better Than You Think",
-   "u": "https://arxiv.org/abs/2610.02140v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:45",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "MIRTO: a registration-gated, multiverse-tested evaluation protocol for unsupervised anomaly segmentation in brain MRI",
-   "u": "https://arxiv.org/abs/2610.02136v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:44",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Argo-Bench: Evaluating Data Agents on Enterprise-Scale Workflows",
-   "u": "https://arxiv.org/abs/2610.02122v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:35",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Where-OPD: Spatially Guided On-Policy Self-Distillation of MLLMs with Synthetic Scenes",
-   "u": "https://arxiv.org/abs/2610.02117v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:34",
    "k": "",
    "x": ""
   }
