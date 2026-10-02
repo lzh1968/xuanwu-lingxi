@@ -1,9 +1,49 @@
 {
- "generated": "22:02",
- "built": "2026-10-02 22:02:28",
+ "generated": "22:08",
+ "built": "2026-10-02 22:08:40",
  "count": 57,
- "live_count": 46,
+ "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Local LLM Won't Stop Talking? It's Not the Model",
+   "url": "https://www.nobodywho.ai/posts/when-chat-templates-go-wrong/",
+   "src": "Hacker News",
+   "t": "22:03",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Llmtobinary – a hypothetical chip \"design\", custom instruction set, might work",
+   "url": "https://llmtobinary.com/",
+   "src": "Hacker News",
+   "t": "21:55",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Decision models like Jev don't beat LLM-as-a-judge or traditional classifiers",
+   "url": "https://developers.redhat.com/articles/2026/10/02/benchmarking-ai-decision-models-against-traditional-guardrails",
+   "src": "Hacker News",
+   "t": "21:47",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Don't be fooled–LLMs don't reason",
+   "url": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
+   "src": "Hacker News",
+   "t": "21:45",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Extracting Tasks from Millions of Agent Runs",
+   "url": "https://laminar.sh/blog/extracting-tasks-from-agent-runs",
+   "src": "Hacker News",
+   "t": "21:40",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Benchmarking retrieval for agents on messy real-world company knowledge",
@@ -27,46 +67,6 @@
    "src": "Hacker News",
    "t": "21:28",
    "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Show HN: Spens sandboxed, observable coding agents",
-   "url": "https://spens.refwd.ai/",
-   "src": "Hacker News",
-   "t": "21:22",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "How to Almost Fry Your AI Agent (and Your Mac Mini)",
-   "url": "https://thoughts.jock.pl/p/almost-fried-ai-agent-mac-mini-mistakes-2026",
-   "src": "Hacker News",
-   "t": "21:07",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "WSP WordPress MCP – Connect AI Agents to WordPress",
-   "url": "https://github.com/bilalnaseer/wsp-wordpress-mcp",
-   "src": "Hacker News",
-   "t": "20:34",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Show HN: Yokka – Simple project management for coding agents",
-   "url": "https://yokka.ai/",
-   "src": "Hacker News",
-   "t": "19:23",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "From Agent to Runtime: What an AI Agent Needs to Reach Production",
-   "url": "https://medium.com/@anismeziani/from-agent-to-runtime-what-an-ai-agent-actually-needs-to-reach-production-1ca123d7b2b6",
-   "src": "Hacker News",
-   "t": "19:19",
-   "fresh": false
   },
   {
    "type": "article",
