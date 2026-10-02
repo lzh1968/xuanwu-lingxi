@@ -2,14 +2,20 @@
  "日期": "2026-10-03",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-03 03:23:25",
-  "chosen": "SUI long",
+  "updated": "2026-10-03 03:26:49",
+  "chosen": "UNI long",
   "nodes": [
    {
     "coin": "SUI",
     "side": "long",
     "align": 3,
     "embryo": 2.1
+   },
+   {
+    "coin": "UNI",
+    "side": "long",
+    "align": 3,
+    "embryo": 1.6
    },
    {
     "coin": "FIL",
