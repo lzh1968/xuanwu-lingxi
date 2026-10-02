@@ -1,9 +1,34 @@
 {
  "日期": "2026-10-02",
- "落盘": "2026-10-02 22:01:44",
+ "落盘": "2026-10-02 22:08:50",
  "条数": 14,
- "live": 42,
+ "live": 60,
  "条目": [
+  {
+   "title": "Local LLM Won't Stop Talking? It's Not the Model",
+   "url": "https://www.nobodywho.ai/posts/when-chat-templates-go-wrong/",
+   "type": "live"
+  },
+  {
+   "title": "Llmtobinary – a hypothetical chip \"design\", custom instruction set, might work",
+   "url": "https://llmtobinary.com/",
+   "type": "live"
+  },
+  {
+   "title": "Decision models like Jev don't beat LLM-as-a-judge or traditional classifiers",
+   "url": "https://developers.redhat.com/articles/2026/10/02/benchmarking-ai-decision-models-against-traditional-guardrails",
+   "type": "live"
+  },
+  {
+   "title": "Don't be fooled–LLMs don't reason",
+   "url": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
+   "type": "live"
+  },
+  {
+   "title": "Extracting Tasks from Millions of Agent Runs",
+   "url": "https://laminar.sh/blog/extracting-tasks-from-agent-runs",
+   "type": "live"
+  },
   {
    "title": "Benchmarking retrieval for agents on messy real-world company knowledge",
    "url": "https://www.kapa.ai/blog/company-knowledge-bench",
@@ -17,31 +42,6 @@
   {
    "title": "Slowly, then all at once: AI agents that know how a company works",
    "url": "https://www.nijho.lt/post/mindroom-at-ionq/",
-   "type": "live"
-  },
-  {
-   "title": "Show HN: Spens sandboxed, observable coding agents",
-   "url": "https://spens.refwd.ai/",
-   "type": "live"
-  },
-  {
-   "title": "How to Almost Fry Your AI Agent (and Your Mac Mini)",
-   "url": "https://thoughts.jock.pl/p/almost-fried-ai-agent-mac-mini-mistakes-2026",
-   "type": "live"
-  },
-  {
-   "title": "WSP WordPress MCP – Connect AI Agents to WordPress",
-   "url": "https://github.com/bilalnaseer/wsp-wordpress-mcp",
-   "type": "live"
-  },
-  {
-   "title": "Show HN: Yokka – Simple project management for coding agents",
-   "url": "https://yokka.ai/",
-   "type": "live"
-  },
-  {
-   "title": "From Agent to Runtime: What an AI Agent Needs to Reach Production",
-   "url": "https://medium.com/@anismeziani/from-agent-to-runtime-what-an-ai-agent-actually-needs-to-reach-production-1ca123d7b2b6",
    "type": "live"
   },
   {

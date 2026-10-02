@@ -2,15 +2,64 @@
  "日期": "2026-10-02",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-02 22:00:43",
-  "chosen": "TIA long",
+  "updated": "2026-10-02 22:08:05",
+  "chosen": "DOGE short",
   "nodes": [
    {
-    "coin": "TIA",
+    "coin": "DOGE",
+    "side": "short",
+    "align": 3,
+    "embryo": 2.4
+   },
+   {
+    "coin": "XRP",
+    "side": "short",
+    "align": 3,
+    "embryo": 0.4
+   },
+   {
+    "coin": "ADA",
+    "side": "short",
+    "align": 3,
+    "embryo": 2.4
+   },
+   {
+    "coin": "NEAR",
+    "side": "short",
+    "align": 0,
+    "embryo": -0.3
+   },
+   {
+    "coin": "SUI",
+    "side": "short",
+    "align": 3,
+    "embryo": 1.9
+   },
+   {
+    "coin": "AVAX",
+    "side": "short",
+    "align": 2,
+    "embryo": 2.7
+   },
+   {
+    "coin": "UNI",
+    "side": "short",
+    "align": 0,
+    "embryo": 0.3
+   },
+   {
+    "coin": "WLD",
     "side": "long",
     "align": 3,
-    "embryo": 1.33
+    "embryo": 2.2
+   },
+   {
+    "coin": "ARB",
+    "side": "short",
+    "align": 2,
+    "embryo": 4.2
    }
-  ]
+  ],
+  "口径": "供数器独立复活(ED-20261002-377)·引擎基因(xwu)·align=e4/e1/t4l·embryo=|score|+对齐加成"
  }
 }
