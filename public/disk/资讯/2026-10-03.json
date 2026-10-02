@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-03",
- "落盘": "2026-10-03 02:58:29",
+ "落盘": "2026-10-03 03:05:05",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "由于智能体的新风险，苹果正在收紧macOS的“全磁盘访问”",
+   "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+   "type": "live"
+  },
   {
    "title": "STT-LLM-TTS语音堆栈已失效",
    "url": "https://www.skeptrune.com/posts/stt-llm-tts-voice-stack-is-dead/",
@@ -37,11 +42,6 @@
   {
    "title": "Show HN：个人AI 智能体的预付款和付款后检查",
    "url": "https://contextiq.trango-compute.com",
-   "type": "live"
-  },
-  {
-   "title": "RAI：纯Rust中仅限CPU的LLM推理引擎",
-   "url": "https://github.com/Classevelabs/rai",
    "type": "live"
   },
   {
