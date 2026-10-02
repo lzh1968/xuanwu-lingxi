@@ -1,9 +1,25 @@
 {
- "generated": "23:32",
- "built": "2026-10-02 23:32:57",
+ "generated": "23:39",
+ "built": "2026-10-02 23:39:16",
  "count": 57,
- "live_count": 51,
+ "live_count": 53,
  "items": [
+  {
+   "type": "live",
+   "title": "Best app stack of 2026, according to LLMs: Next.js, Supabase, Vercel, Stripe",
+   "url": "https://openllmrank.io/blog/ai-app-stack-2026",
+   "src": "Hacker News",
+   "t": "23:32",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "OpenAI's wandering AI agents earn it a California subpoena",
+   "url": "https://www.theregister.com/ai-and-ml/2026/10/02/openais-wandering-ai-agents-earn-it-a-california-subpoena/5300850",
+   "src": "Hacker News",
+   "t": "23:28",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Ask HN: Why do all LLM interfaces look the same?",
@@ -22,51 +38,35 @@
   },
   {
    "type": "live",
-   "title": "Decoding Looped Transformers Better for Almost Free",
-   "url": "https://arxiv.org/abs/2610.02185",
+   "title": "Knowledge platform powered by agents demonstration",
+   "url": "https://github.com/rajatrao/ai-knowledge-platform",
    "src": "Hacker News",
-   "t": "22:32",
+   "t": "23:17",
    "fresh": true
   },
   {
    "type": "live",
-   "title": "Show HN: Bise – a multi-agent harness, made for humans",
-   "url": "https://bise.dev/",
+   "title": "AI Agents Are Vulnerable to Radicalization",
+   "url": "https://arxiv.org/abs/2609.38296",
    "src": "Hacker News",
-   "t": "22:17",
+   "t": "23:17",
    "fresh": true
   },
   {
    "type": "live",
-   "title": "Show HN: Kodama – a multi-agent pack for Kiro",
-   "url": "https://github.com/amergrgic/kodama",
+   "title": "What Dots Choose: OpenAI's Agent Has a Stack",
+   "url": "https://amplifying.ai/research/openai-dots-choose",
    "src": "Hacker News",
-   "t": "18:08",
-   "fresh": false
+   "t": "23:17",
+   "fresh": true
   },
   {
    "type": "live",
-   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "url": "https://github.com/ggml-org/llama.cpp",
-   "src": "GitHub 新星",
-   "t": "15:31",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "url": "https://github.com/earendil-works/pi",
-   "src": "GitHub 新星",
-   "t": "15:16",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "rasbt/LLMs-from-scratch：一步步用 PyTorch 从零实现类 ChatGPT 模型",
-   "url": "https://github.com/rasbt/LLMs-from-scratch",
-   "src": "GitHub 新星",
-   "t": "14:55",
-   "fresh": false
+   "title": "OpenAI notifies 100 orgs about its AI agents bypassing their security controls",
+   "url": "https://www.reuters.com/legal/litigation/openai-alerts-more-than-100-groups-about-rogue-ai-agent-activity-2026-10-01/",
+   "src": "Hacker News",
+   "t": "22:57",
+   "fresh": true
   },
   {
    "type": "article",
