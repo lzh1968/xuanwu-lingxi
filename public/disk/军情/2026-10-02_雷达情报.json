@@ -2,26 +2,26 @@
  "日期": "2026-10-02",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-02 19:06:30",
-  "chosen": "SOL long",
+  "updated": "2026-10-02 19:36:30",
+  "chosen": "BTC long",
   "nodes": [
    {
     "coin": "BTC",
     "side": "long",
     "align": 3,
-    "embryo": 2.1
+    "embryo": 2.7
    },
    {
     "coin": "SOL",
     "side": "long",
     "align": 3,
-    "embryo": 3.2
+    "embryo": 2.7
    },
    {
     "coin": "DOGE",
     "side": "long",
     "align": 3,
-    "embryo": 0.1
+    "embryo": 0.7
    },
    {
     "coin": "XRP",
@@ -33,13 +33,13 @@
     "coin": "ADA",
     "side": "long",
     "align": 3,
-    "embryo": 2.7
+    "embryo": 2.4
    },
    {
     "coin": "LTC",
     "side": "long",
-    "align": 3,
-    "embryo": 0.7
+    "align": 2,
+    "embryo": 2.4
    },
    {
     "coin": "BNB",
@@ -51,7 +51,7 @@
     "coin": "NEAR",
     "side": "short",
     "align": 2,
-    "embryo": 3.8
+    "embryo": 3.3
    },
    {
     "coin": "SUI",
@@ -63,19 +63,19 @@
     "coin": "AVAX",
     "side": "long",
     "align": 2,
-    "embryo": 5.2
+    "embryo": 4.7
    },
    {
     "coin": "UNI",
-    "side": "short",
-    "align": 1,
-    "embryo": 1.7
+    "side": "long",
+    "align": 2,
+    "embryo": 3.9
    },
    {
     "coin": "WLD",
     "side": "long",
     "align": 3,
-    "embryo": 2.1
+    "embryo": 1.2
    },
    {
     "coin": "FIL",
@@ -85,15 +85,15 @@
    },
    {
     "coin": "ARB",
-    "side": "long",
-    "align": 3,
-    "embryo": 0.2
-   },
-   {
-    "coin": "DOT",
     "side": "short",
     "align": 0,
     "embryo": 0.3
+   },
+   {
+    "coin": "DOT",
+    "side": "long",
+    "align": 3,
+    "embryo": 0.7
    }
   ],
   "口径": "供数器独立复活(ED-20261002-377)·引擎基因(xwu)·align=e4/e1/t4l·embryo=|score|+对齐加成"
