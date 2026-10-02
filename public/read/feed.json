@@ -1,9 +1,25 @@
 {
- "generated": "23:18",
- "built": "2026-10-02 23:18:59",
+ "generated": "23:25",
+ "built": "2026-10-02 23:25:33",
  "count": 57,
- "live_count": 35,
+ "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Ask HN: Why do all LLM interfaces look the same?",
+   "url": "https://news.ycombinator.com/item?id=49934491",
+   "src": "Hacker News",
+   "t": "23:18",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "A functional taxonomy for LLM inference in agentic tasks",
+   "url": "https://jeffauriemma.leaflet.pub/3mv6jnffo6k24",
+   "src": "Hacker News",
+   "t": "23:18",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Knowledge platform powered by agents demonstration",
@@ -46,27 +62,11 @@
   },
   {
    "type": "live",
-   "title": "Ask HN: I think the AI terminology needs a reset",
-   "url": "https://news.ycombinator.com/item?id=49933750",
+   "title": "Decoding Looped Transformers Better for Almost Free",
+   "url": "https://arxiv.org/abs/2610.02185",
    "src": "Hacker News",
-   "t": "22:12",
+   "t": "22:32",
    "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "AI Agents Need an Undo Button",
-   "url": "https://cacm.acm.org/blogcacm/ai-agents-need-an-undo-button/",
-   "src": "Hacker News",
-   "t": "22:12",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Benchmarking retrieval for agents on messy real-world company knowledge",
-   "url": "https://www.kapa.ai/blog/company-knowledge-bench",
-   "src": "Hacker News",
-   "t": "21:37",
-   "fresh": false
   },
   {
    "type": "article",
