@@ -1,6 +1,6 @@
 {
- "built": "2026-10-03 00:22:22",
- "count": 101,
+ "built": "2026-10-03 00:29:12",
+ "count": 102,
  "items": [
   {
    "t": "今日辑要 · 2026-10-03（前沿 12 条）",
@@ -17,6 +17,14 @@
    "d": "2026-10-03",
    "k": "手记,方法论",
    "x": "在自治系统里，最难的从来不是把动作写对，而是判断 该不该动 。 快变量是价格、是情绪、是每一根K线；慢变量是结构、是约束、是系统的边界条件。只盯快变量的系统，会把噪声当信号；只认慢变量的系统，又会在真实拐点前迟钝。 工程上的折中是分层的：外层用慢变量定\"能不能做\"，内层用快变量定\"此刻怎么做\"。两层之间用一条极窄的通道传递许可，而不是把两套逻辑搅在一起。 这也是为什么 固定底线 在自动化里如此重要：它不由任何一次判断决定，因此也不会被任何一次判断推翻。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "关于\"记忆\"的三种用法",
+   "u": "a/note-20261003-2.html",
+   "s": "Agent 与智能体",
+   "d": "2026-10-03",
+   "k": "手记,方法论",
+   "x": "智能体的记忆常被误解为\"存得越多越聪明\"。工程上更接近事实的是三种不同用途： 事实记忆 ：发生了什么（可核对、可追溯、可审计） 策略记忆 ：什么条件下做了什么、结果如何（用于校准，不用于信仰） 身份记忆 ：我是谁、我受什么约束（最稳定，最少改动） 把三者混在一个容器里，就会得到\"记得很牢却用不对\"的系统：把偶然当规律，把经验当身份。拆开的代价是结构更复杂；收益是每类记忆可以有自己的过期与校验规则。 一句话： 记忆的价值不在容量，而在校验方式。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "阴阳与反馈环",
@@ -491,106 +499,10 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "Cascadia：在英特尔PC上拆分LLM",
-   "u": "https://github.com/labscommunity/cascadia",
-   "s": "外网新声·Hacker News",
-   "d": "23:51",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "根据LLM，2026年最佳应用程序栈：Next.js、Supabase、Vercel、Stripe",
-   "u": "https://openllmrank.io/blog/ai-app-stack-2026",
-   "s": "外网新声·Hacker News",
-   "d": "23:32",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "OpenAI徘徊的人工智能智能体为它赢得了加利福尼亚州的传票",
-   "u": "https://www.theregister.com/ai-and-ml/2026/10/02/openais-wandering-ai-agents-earn-it-a-california-subpoena/5300850",
-   "s": "外网新声·Hacker News",
-   "d": "23:28",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "问HN：为什么所有LLM界面看起来都一样？",
-   "u": "https://news.ycombinator.com/item?id=49934491",
-   "s": "外网新声·Hacker News",
-   "d": "23:18",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "代理任务中LLM推断的功能分类法",
-   "u": "https://jeffauriemma.leaflet.pub/3mv6jnffo6k24",
-   "s": "外网新声·Hacker News",
-   "d": "23:18",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "由客服代表提供技术支持的知识平台演示",
-   "u": "https://github.com/rajatrao/ai-knowledge-platform",
-   "s": "外网新声·Hacker News",
-   "d": "23:17",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "人工智能智能体容易受到激进化的影响",
-   "u": "https://arxiv.org/abs/2609.38296",
-   "s": "外网新声·Hacker News",
-   "d": "23:17",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "点选择：OpenAI的代理具有堆栈",
-   "u": "https://amplifying.ai/research/openai-dots-choose",
-   "s": "外网新声·Hacker News",
-   "d": "23:17",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "OpenAI notifies 100 orgs about its AI agents bypassing their security controls",
-   "u": "https://www.reuters.com/legal/litigation/openai-alerts-more-than-100-groups-about-rogue-ai-agent-activity-2026-10-01/",
-   "s": "外网新声·Hacker News",
-   "d": "22:57",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Ask HN: Is anybody producing good code with coding agents?",
-   "u": "https://news.ycombinator.com/item?id=49934037",
-   "s": "外网新声·Hacker News",
-   "d": "22:38",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Show HN: Bise –专为人类打造的多智能体线束",
    "u": "https://bise.dev/",
    "s": "外网新声·Hacker News",
    "d": "22:17",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Ask HN: I think the AI terminology needs a reset",
-   "u": "https://news.ycombinator.com/item?id=49933750",
-   "s": "外网新声·Hacker News",
-   "d": "22:12",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "AI Agents Need an Undo Button",
-   "u": "https://cacm.acm.org/blogcacm/ai-agents-need-an-undo-button/",
-   "s": "外网新声·Hacker News",
-   "d": "22:12",
    "k": "",
    "x": ""
   },
@@ -603,26 +515,10 @@
    "x": ""
   },
   {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "16:21",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "A model guide for the GPT-6 family",
-   "u": "https://openai.com/index/practical-guide-building-gpt-6",
-   "s": "外网新声·OpenAI 官方",
-   "d": "16:15",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "16:12",
+   "d": "16:26",
    "k": "",
    "x": ""
   },
@@ -630,7 +526,15 @@
    "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
    "u": "https://github.com/earendil-works/pi",
    "s": "外网新声·GitHub 新星",
-   "d": "16:09",
+   "d": "16:26",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:24",
    "k": "",
    "x": ""
   },
@@ -655,14 +559,6 @@
    "u": "https://arxiv.org/abs/2609.39050",
    "s": "外网新声·Hacker News",
    "d": "11:07",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Don’t be fooled—LLMs don’t reason",
-   "u": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "08:00",
    "k": "",
    "x": ""
   },
@@ -723,14 +619,6 @@
    "x": ""
   },
   {
-   "t": "嵌入预测有助于图像生成",
-   "u": "https://arxiv.org/abs/2610.02203v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "ScholarCatalyst：检索激发新研究的论文的基准",
    "u": "https://arxiv.org/abs/2610.02202v1",
    "s": "外网新声·arXiv cs.AI",
@@ -755,14 +643,6 @@
    "x": ""
   },
   {
-   "t": "TACO: Ternary Absolute-max Column-wise One-sparse Optimizer for LLM Fine-Tuning",
-   "u": "https://arxiv.org/abs/2610.02199v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "FERPO: Forward Entropy-Regularized Policy Optimization",
    "u": "https://arxiv.org/abs/2610.02198v1",
    "s": "外网新声·arXiv cs.AI",
@@ -779,34 +659,162 @@
    "x": ""
   },
   {
-   "t": "The Missing Primitive: Diagnosing and Repairing Mathematical Reasoning in Large Language Models",
-   "u": "https://arxiv.org/abs/2610.02191v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Trust the Direction, Search the Step: Zero-and-First-Order Methods for LLM Fine-Tuning",
-   "u": "https://arxiv.org/abs/2610.02190v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Generative modeling of intrinsically disordered protein regions by reinforcing sparse autoencoder features",
-   "u": "https://arxiv.org/abs/2610.02189v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "DMAD: Distribution Matching as Adversarial Distillation for Fast Visual Generation",
    "u": "https://arxiv.org/abs/2610.02188v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Generative Cinematographer: Composing Camera and Object Motion in 3D",
+   "u": "https://arxiv.org/abs/2610.02180v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:58",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "From Knowledge Access to Source Learning: Developing Source-Specific Competence",
+   "u": "https://arxiv.org/abs/2610.02150v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:50",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Finetuning with Sampling: SFT Learns Better Than You Think",
+   "u": "https://arxiv.org/abs/2610.02140v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:45",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "MIRTO: a registration-gated, multiverse-tested evaluation protocol for unsupervised anomaly segmentation in brain MRI",
+   "u": "https://arxiv.org/abs/2610.02136v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:44",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Argo-Bench: Evaluating Data Agents on Enterprise-Scale Workflows",
+   "u": "https://arxiv.org/abs/2610.02122v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:35",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Where-OPD: Spatially Guided On-Policy Self-Distillation of MLLMs with Synthetic Scenes",
+   "u": "https://arxiv.org/abs/2610.02117v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:34",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "非凡的多智能体错觉和人群的疯狂",
+   "u": "https://freesystems.substack.com/p/extraordinary-multi-agent-delusions",
+   "s": "外网新声·Hacker News",
+   "d": "01:24",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
+   "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+   "s": "外网新声·GitHub 新星",
+   "d": "20:31",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：AFAW –不信任模型的多代理编码工作流程",
+   "u": "https://github.com/agustindiazcano/afaw-anti-fragile-agentic-workflow",
+   "s": "外网新声·Hacker News",
+   "d": "18:31",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "关闭多Agent系统中的破坏倾向",
+   "u": "https://arxiv.org/abs/2609.28274",
+   "s": "外网新声·Hacker News",
+   "d": "13:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
+   "u": "https://github.com/mattpocock/skills",
+   "s": "外网新声·GitHub 新星",
+   "d": "12:38",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "TauricResearch/TradingAgents — TradingAgents：多代理LLM金融交易框架",
+   "u": "https://github.com/TauricResearch/TradingAgents",
+   "s": "外网新声·GitHub 新星",
+   "d": "06:15",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "obra/superpowers —有效的代理技能框架和软件开发方法。",
+   "u": "https://github.com/obra/superpowers",
+   "s": "外网新声·GitHub 新星",
+   "d": "02:37",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "使用安全的服务器端内存推进专用AI计算",
+   "u": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+   "s": "外网新声·DeepMind 官方",
+   "d": "16:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "TangSengDaoDao/TangSengDaoDaoServer — 高颜值 IM 即时通讯,聊天",
+   "u": "https://github.com/TangSengDaoDao/TangSengDaoDaoServer",
+   "s": "外网新声·GitHub 新星",
+   "d": "08:13",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "通过Gemini介绍代理视频理解",
+   "u": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+   "s": "外网新声·DeepMind 官方",
+   "d": "17:08",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "试行全球首个双盲人工智能评估",
+   "u": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+   "s": "外网新声·DeepMind 官方",
+   "d": "12:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ultraworkers/claw-code -代理管理的博物馆展览，使用Gajae-Code/LazyCodex在Rust中建造—开发和",
+   "u": "https://github.com/ultraworkers/claw-code",
+   "s": "外网新声·GitHub 新星",
+   "d": "06:18",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "nutzam/nutz — Nutz —适用于所有Java开发人员的Web框架（ Mvc/Ioc/Aop/DAO/Json ）",
+   "u": "https://github.com/nutzam/nutz",
+   "s": "外网新声·GitHub 新星",
+   "d": "03:17",
    "k": "",
    "x": ""
   }
