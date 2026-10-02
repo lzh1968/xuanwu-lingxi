@@ -1,5 +1,5 @@
 {
- "built": "2026-10-02 21:41:30",
+ "built": "2026-10-02 21:48:06",
  "count": 97,
  "items": [
   {
@@ -459,6 +459,22 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Don't be fooled–LLMs don't reason",
+   "u": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
+   "s": "外网新声·Hacker News",
+   "d": "21:45",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Extracting Tasks from Millions of Agent Runs",
+   "u": "https://laminar.sh/blog/extracting-tasks-from-agent-runs",
+   "s": "外网新声·Hacker News",
+   "d": "21:40",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Benchmarking retrieval for agents on messy real-world company knowledge",
    "u": "https://www.kapa.ai/blog/company-knowledge-bench",
    "s": "外网新声·Hacker News",
@@ -555,18 +571,10 @@
    "x": ""
   },
   {
-   "t": "Show HN: Kodama – a multi-agent pack for Kiro",
-   "u": "https://github.com/amergrgic/kodama",
-   "s": "外网新声·Hacker News",
-   "d": "18:08",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Causeval – statistically rigorous, causal evaluation for LLM apps",
-   "u": "https://github.com/routsom/causeval",
-   "s": "外网新声·Hacker News",
-   "d": "15:32",
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
+   "s": "外网新声·GitHub 新星",
+   "d": "13:47",
    "k": "",
    "x": ""
   },
@@ -574,7 +582,7 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "13:37",
+   "d": "13:47",
    "k": "",
    "x": ""
   },
@@ -591,22 +599,6 @@
    "u": "https://github.com/earendil-works/pi",
    "s": "外网新声·GitHub 新星",
    "d": "13:33",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
-   "s": "外网新声·GitHub 新星",
-   "d": "13:23",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Covert Assistance: Helpful LLM Agents Evade Oversight in Multi-Agent Systems",
-   "u": "https://arxiv.org/abs/2609.39050",
-   "s": "外网新声·Hacker News",
-   "d": "11:07",
    "k": "",
    "x": ""
   },
@@ -635,41 +627,9 @@
    "x": ""
   },
   {
-   "t": "问HN：当您添加第二个客服代表时，出现了什么问题？",
-   "u": "https://news.ycombinator.com/item?id=49924268",
-   "s": "外网新声·Hacker News",
-   "d": "01:03",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：多药剂的协调和耐久层",
-   "u": "https://cellaflow.com",
-   "s": "外网新声·Hacker News",
-   "d": "00:06",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
    "u": "https://arxiv.org/abs/2610.02207v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards",
-   "u": "https://arxiv.org/abs/2610.02206v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents",
-   "u": "https://arxiv.org/abs/2610.02204v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:59",
    "k": "",
    "x": ""
@@ -683,25 +643,9 @@
    "x": ""
   },
   {
-   "t": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
-   "u": "https://arxiv.org/abs/2610.02202v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "SILSA: Sliding-Window Slice Latents for Topology-Preserving High-Resolution 3D Generation",
    "u": "https://arxiv.org/abs/2610.02201v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "VISTA: A Visual Harness for Reasoning in an Interactive World",
-   "u": "https://arxiv.org/abs/2610.02200v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:59",
    "k": "",
    "x": ""
@@ -717,7 +661,7 @@
   {
    "t": "FERPO: Forward Entropy-Regularized Policy Optimization",
    "u": "https://arxiv.org/abs/2610.02198v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:59",
    "k": "",
    "x": ""
@@ -725,7 +669,7 @@
   {
    "t": "Hierarchical Continuous Diffusion Language Models",
    "u": "https://arxiv.org/abs/2610.02193v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:59",
    "k": "",
    "x": ""
@@ -755,14 +699,6 @@
    "x": ""
   },
   {
-   "t": "DMAD: Distribution Matching as Adversarial Distillation for Fast Visual Generation",
-   "u": "https://arxiv.org/abs/2610.02188v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Decoding Looped Transformers Better for (Almost) Free",
    "u": "https://arxiv.org/abs/2610.02185v1",
    "s": "外网新声·arXiv cs.LG",
@@ -771,10 +707,74 @@
    "x": ""
   },
   {
-   "t": "Generative Cinematographer: Composing Camera and Object Motion in 3D",
-   "u": "https://arxiv.org/abs/2610.02180v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:58",
+   "t": "Effective Resistance and Graph Neural Network Reliability in Tissue-Specific Interactomes",
+   "u": "https://arxiv.org/abs/2610.02175v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "When Do Intrinsic Rewards Lead to Exploration?",
+   "u": "https://arxiv.org/abs/2610.02159v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:52",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "From Knowledge Access to Source Learning: Developing Source-Specific Competence",
+   "u": "https://arxiv.org/abs/2610.02150v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:50",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Faynt: Scaling and Optimizing Policies for Competitive Melee",
+   "u": "https://arxiv.org/abs/2610.02144v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:48",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "rasbt/LLMs-from-scratch：一步步用 PyTorch 从零实现类 ChatGPT 模型",
+   "u": "https://github.com/rasbt/LLMs-from-scratch",
+   "s": "外网新声·GitHub 新星",
+   "d": "17:08",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "永恒的补充",
+   "u": "https://openai.com/index/the-eternal-complement",
+   "s": "外网新声·OpenAI 官方",
+   "d": "17:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
+   "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+   "s": "外网新声·GitHub 新星",
+   "d": "20:31",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "OpenAI首席研究官表示：“我们不会因为黑客攻击而自杀”",
+   "u": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "10:40",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "扰乱协调的模型蒸馏活动",
+   "u": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+   "s": "外网新声·OpenAI 官方",
+   "d": "10:30",
    "k": "",
    "x": ""
   }
