@@ -1,27 +1,12 @@
 {
  "日期": "2026-10-02",
- "落盘": "2026-10-02 16:13:53",
+ "落盘": "2026-10-02 16:20:47",
  "条数": 14,
- "live": 60,
+ "live": 59,
  "条目": [
-  {
-   "title": "Causeval – statistically rigorous, causal evaluation for LLM apps",
-   "url": "https://github.com/routsom/causeval",
-   "type": "live"
-  },
-  {
-   "title": "Show HN: AviGPT-250M – Edge SLM with NVMe memory bus (488MB, runs offline)",
-   "url": "https://github.com/Avinashricky211/AviGPT-250M",
-   "type": "live"
-  },
   {
    "title": "Show HN: Run Google DataProc cluster on your local",
    "url": "https://local.cloud/blog/run-dataproc-locally-docker/",
-   "type": "live"
-  },
-  {
-   "title": "LLMario",
-   "url": "https://www.llmario.com",
    "type": "live"
   },
   {
@@ -35,13 +20,28 @@
    "type": "live"
   },
   {
-   "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
-   "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+   "title": "2026年自主智能体安全事件：数据集和专论",
+   "url": "https://zenodo.org/records/22737862",
    "type": "live"
   },
   {
-   "title": "2026年自主智能体安全事件：数据集和专论",
-   "url": "https://zenodo.org/records/22737862",
+   "title": "Agent-harness – A minimal, composable Go library to build AI Agent Harnesses",
+   "url": "https://github.com/lox/agent-harness",
+   "type": "live"
+  },
+  {
+   "title": "Braxis：自动生成和跟踪AI座席准备情况（ 0-100分和历史记录）",
+   "url": "https://github.com/jaykrishna316/braxis",
+   "type": "live"
+  },
+  {
+   "title": "Best-of-Agent-Harnesses – 167个AI Agent线束的排名列表，每周重新评分",
+   "url": "https://github.com/ryanalberts/best-of-agent-harnesses",
+   "type": "live"
+  },
+  {
+   "title": "HarnessTax：线束对编码代理有多重要？",
+   "url": "https://arena.ai/blog/coding-agents-harness-tax",
    "type": "live"
   },
   {
