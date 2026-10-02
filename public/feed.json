@@ -1,8 +1,8 @@
 {
- "generated": "00:55",
- "built": "2026-10-03 00:55:55",
+ "generated": "01:03",
+ "built": "2026-10-03 01:03:35",
  "count": 62,
- "live_count": 60,
+ "live_count": 56,
  "items": [
   {
    "type": "live",
@@ -22,14 +22,6 @@
   },
   {
    "type": "live",
-   "title": "Show HN：呼叫和智能体建议编辑，人们批准的客户端房间",
-   "url": "https://twitter.com/deamosV/status/2105679521240514788",
-   "src": "Hacker News",
-   "t": "00:25",
-   "fresh": true
-  },
-  {
-   "type": "live",
    "title": "Cascadia：在英特尔PC上拆分LLM",
    "url": "https://github.com/labscommunity/cascadia",
    "src": "Hacker News",
@@ -42,15 +34,7 @@
    "url": "https://openllmrank.io/blog/ai-app-stack-2026",
    "src": "Hacker News",
    "t": "23:32",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "OpenAI徘徊的人工智能智能体为它赢得了加利福尼亚州的传票",
-   "url": "https://www.theregister.com/ai-and-ml/2026/10/02/openais-wandering-ai-agents-earn-it-a-california-subpoena/5300850",
-   "src": "Hacker News",
-   "t": "23:28",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -62,10 +46,26 @@
   },
   {
    "type": "live",
-   "title": "由客服代表提供技术支持的知识平台演示",
-   "url": "https://github.com/rajatrao/ai-knowledge-platform",
-   "src": "Hacker News",
-   "t": "23:17",
+   "title": "anomalyco/opencode：开源编码智能体",
+   "url": "https://github.com/anomalyco/opencode",
+   "src": "GitHub 新星",
+   "t": "17:01",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "url": "https://github.com/NousResearch/hermes-agent",
+   "src": "GitHub 新星",
+   "t": "17:01",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "url": "https://github.com/ggml-org/llama.cpp",
+   "src": "GitHub 新星",
+   "t": "17:01",
    "fresh": false
   },
   {
