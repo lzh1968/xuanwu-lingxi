@@ -2,32 +2,20 @@
  "日期": "2026-10-03",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-03 03:11:11",
-  "chosen": "ADA long",
+  "updated": "2026-10-03 03:17:36",
+  "chosen": "FIL long",
   "nodes": [
-   {
-    "coin": "ADA",
-    "side": "long",
-    "align": 3,
-    "embryo": 2.7
-   },
    {
     "coin": "SUI",
     "side": "long",
     "align": 3,
-    "embryo": 2.7
-   },
-   {
-    "coin": "UNI",
-    "side": "long",
-    "align": 3,
-    "embryo": 2.7
+    "embryo": 2.1
    },
    {
     "coin": "FIL",
     "side": "long",
     "align": 3,
-    "embryo": 2.7
+    "embryo": 2.1
    }
   ]
  }
