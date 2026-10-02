@@ -1,5 +1,5 @@
 {
- "built": "2026-10-02 21:28:09",
+ "built": "2026-10-02 21:41:01",
  "count": 97,
  "items": [
   {
@@ -459,10 +459,50 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Benchmarking retrieval for agents on messy real-world company knowledge",
+   "u": "https://www.kapa.ai/blog/company-knowledge-bench",
+   "s": "外网新声·Hacker News",
+   "d": "21:37",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Nvidia/OpenShell: Safe, private runtime for autonomous AI agents",
+   "u": "https://github.com/NVIDIA/OpenShell",
+   "s": "外网新声·Hacker News",
+   "d": "21:31",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Slowly, then all at once: AI agents that know how a company works",
+   "u": "https://www.nijho.lt/post/mindroom-at-ionq/",
+   "s": "外网新声·Hacker News",
+   "d": "21:28",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Show HN: Spens sandboxed, observable coding agents",
    "u": "https://spens.refwd.ai/",
    "s": "外网新声·Hacker News",
    "d": "21:22",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "GPT-6 Astra plays World of Warcraft for the first time with agent-wow",
+   "u": "https://agent-wow.sh/gpt-6-astra-plays-world-of-warcraft-for-the-first-time-with-agent-wow/",
+   "s": "外网新声·Hacker News",
+   "d": "21:19",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Future of PM-Tools",
+   "u": "https://news.ycombinator.com/item?id=49933226",
+   "s": "外网新声·Hacker News",
+   "d": "21:17",
    "k": "",
    "x": ""
   },
@@ -483,6 +523,22 @@
    "x": ""
   },
   {
+   "t": "LLMs Do It by Hand",
+   "u": "https://lqmstudio.com/2026/10/02/llms-do-it-by-hand/",
+   "s": "外网新声·Hacker News",
+   "d": "20:05",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "A table of 1,200 model benchmarks since 2019, updated daily",
+   "u": "https://mostlyright.md/datasets/llm-benchmark-scores-by-model-since-2019",
+   "s": "外网新声·Hacker News",
+   "d": "19:36",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Show HN: Yokka – Simple project management for coding agents",
    "u": "https://yokka.ai/",
    "s": "外网新声·Hacker News",
@@ -499,14 +555,6 @@
    "x": ""
   },
   {
-   "t": "How we built olddogs.ai with lots of agents but zero slop",
-   "u": "https://olddogs.ai/blog/how-we-made-olddogs-ai-with-ai",
-   "s": "外网新声·Hacker News",
-   "d": "19:04",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Show HN: Kodama – a multi-agent pack for Kiro",
    "u": "https://github.com/amergrgic/kodama",
    "s": "外网新声·Hacker News",
@@ -515,10 +563,34 @@
    "x": ""
   },
   {
-   "t": "I built a 3D planet for agents",
-   "u": "https://terrabots.ai",
+   "t": "Causeval – statistically rigorous, causal evaluation for LLM apps",
+   "u": "https://github.com/routsom/causeval",
    "s": "外网新声·Hacker News",
-   "d": "17:18",
+   "d": "15:32",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "13:37",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "13:36",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
+   "s": "外网新声·GitHub 新星",
+   "d": "13:33",
    "k": "",
    "x": ""
   },
@@ -527,30 +599,6 @@
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
    "d": "13:23",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "13:10",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "u": "https://github.com/earendil-works/pi",
-   "s": "外网新声·GitHub 新星",
-   "d": "13:08",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "12:10",
    "k": "",
    "x": ""
   },
@@ -727,54 +775,6 @@
    "u": "https://arxiv.org/abs/2610.02180v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Effective Resistance and Graph Neural Network Reliability in Tissue-Specific Interactomes",
-   "u": "https://arxiv.org/abs/2610.02175v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:57",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "When Do Intrinsic Rewards Lead to Exploration?",
-   "u": "https://arxiv.org/abs/2610.02159v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:52",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "From Knowledge Access to Source Learning: Developing Source-Specific Competence",
-   "u": "https://arxiv.org/abs/2610.02150v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:50",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Faynt: Scaling and Optimizing Policies for Competitive Melee",
-   "u": "https://arxiv.org/abs/2610.02144v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:48",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Finetuning with Sampling: SFT Learns Better Than You Think",
-   "u": "https://arxiv.org/abs/2610.02140v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:45",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "MIRTO: a registration-gated, multiverse-tested evaluation protocol for unsupervised anomaly segmentation in brain MRI",
-   "u": "https://arxiv.org/abs/2610.02136v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:44",
    "k": "",
    "x": ""
   }
