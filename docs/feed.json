@@ -1,15 +1,39 @@
 {
- "generated": "01:24",
- "built": "2026-10-03 01:24:45",
+ "generated": "01:31",
+ "built": "2026-10-03 01:31:13",
  "count": 62,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "RAI：纯Rust中仅限CPU的LLM推理引擎",
+   "url": "https://github.com/Classevelabs/rai",
+   "src": "Hacker News",
+   "t": "01:23",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Nexusyn –智能体（ Go、DiskANN、MCP ）的长期记忆引擎",
    "url": "https://github.com/nexusyn/engine",
    "src": "Hacker News",
    "t": "01:15",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "展示HN：GPT-6 Astra和Claude 5.5 Opus竞赛，创造出最好的星际争霸机器人",
+   "url": "https://starskirmish.com/hillclimb/",
+   "src": "Hacker News",
+   "t": "00:42",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN: One line so LLM workers share a 429 wait and keep jobs an outage stops",
+   "url": "https://github.com/baldurhq/baldur",
+   "src": "Hacker News",
+   "t": "00:40",
    "fresh": true
   },
   {
@@ -22,50 +46,26 @@
   },
   {
    "type": "live",
+   "title": "Cascadia：在英特尔PC上拆分LLM",
+   "url": "https://github.com/labscommunity/cascadia",
+   "src": "Hacker News",
+   "t": "23:51",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "根据LLM，2026年最佳应用程序栈：Next.js、Supabase、Vercel、Stripe",
+   "url": "https://openllmrank.io/blog/ai-app-stack-2026",
+   "src": "Hacker News",
+   "t": "23:32",
+   "fresh": false
+  },
+  {
+   "type": "live",
    "title": "OpenAI徘徊的人工智能智能体为它赢得了加利福尼亚州的传票",
    "url": "https://www.theregister.com/ai-and-ml/2026/10/02/openais-wandering-ai-agents-earn-it-a-california-subpoena/5300850",
    "src": "Hacker News",
    "t": "23:28",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "由客服代表提供技术支持的知识平台演示",
-   "url": "https://github.com/rajatrao/ai-knowledge-platform",
-   "src": "Hacker News",
-   "t": "23:17",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "人工智能智能体容易受到激进化的影响",
-   "url": "https://arxiv.org/abs/2609.38296",
-   "src": "Hacker News",
-   "t": "23:17",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "点选择：OpenAI的代理具有堆栈",
-   "url": "https://amplifying.ai/research/openai-dots-choose",
-   "src": "Hacker News",
-   "t": "23:17",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "OpenAI向100个组织通知其AI 智能体绕过其安全控制",
-   "url": "https://www.reuters.com/legal/litigation/openai-alerts-more-than-100-groups-about-rogue-ai-agent-activity-2026-10-01/",
-   "src": "Hacker News",
-   "t": "22:57",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Show HN: Bise –专为人类打造的多智能体线束",
-   "url": "https://bise.dev/",
-   "src": "Hacker News",
-   "t": "22:17",
    "fresh": false
   },
   {
