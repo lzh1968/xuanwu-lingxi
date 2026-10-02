@@ -2,18 +2,72 @@
  "日期": "2026-10-03",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-03 02:39:16",
-  "chosen": "FIL long",
+  "updated": "2026-10-03 02:44:50",
+  "chosen": "ATOM short",
   "nodes": [
    {
+    "coin": "DOGE",
+    "side": "short",
+    "align": 3,
+    "embryo": 3.2
+   },
+   {
+    "coin": "XRP",
+    "side": "short",
+    "align": 3,
+    "embryo": 3.2
+   },
+   {
+    "coin": "NEAR",
+    "side": "short",
+    "align": 3,
+    "embryo": 3.2
+   },
+   {
+    "coin": "SUI",
+    "side": "short",
+    "align": 3,
+    "embryo": 3.2
+   },
+   {
+    "coin": "AVAX",
+    "side": "short",
+    "align": 3,
+    "embryo": 3.2
+   },
+   {
     "coin": "FIL",
-    "side": "long",
-    "align": 2,
-    "embryo": 6.0
+    "side": "short",
+    "align": 3,
+    "embryo": 4.0
    },
    {
     "coin": "ARB",
-    "side": "long",
+    "side": "short",
+    "align": 3,
+    "embryo": 3.2
+   },
+   {
+    "coin": "DOT",
+    "side": "short",
+    "align": 3,
+    "embryo": 3.2
+   },
+   {
+    "coin": "SEI",
+    "side": "short",
+    "align": 3,
+    "embryo": 3.2
+   },
+   {
+    "coin": "WLFI",
+    "side": "short",
+    "align": 3,
+    "embryo": 3.2
+   },
+   {
+    "coin": "ATOM",
+    "side": "short",
     "align": 3,
     "embryo": 3.2
    }
