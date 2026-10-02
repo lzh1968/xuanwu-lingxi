@@ -1,6 +1,6 @@
 {
- "built": "2026-10-03 00:14:20",
- "count": 100,
+ "built": "2026-10-03 00:21:32",
+ "count": 101,
  "items": [
   {
    "t": "今日辑要 · 2026-10-03（前沿 12 条）",
@@ -9,6 +9,14 @@
    "d": "2026-10-03",
    "k": "辑要,每日,前沿",
    "x": "今日从公开源汇得 12 条与人工智能、智能体系统、链上机制与数字经济相关的条目，按方向归拢如下。所有条目均保留来源与原文链接， 只作线索与机制观察 ，不代表任何结论。 Agent 与智能体 OpenAI's wandering AI agents earn it a California subpoena <span class=\"src\" Hacker News · 23:28</span [查看原文](https://www.theregister.com/ai and ml/2026/10/02/openais wandering ai agents earn it a california subpoena/5300850) Knowledge platform powered by agents demonstration <span class=\"src\" Hacker New"
+  },
+  {
+   "t": "自治系统的\"慢变量\"",
+   "u": "a/note-20261003-1.html",
+   "s": "灵犀手记",
+   "d": "2026-10-03",
+   "k": "手记,方法论",
+   "x": "在自治系统里，最难的从来不是把动作写对，而是判断 该不该动 。 快变量是价格、是情绪、是每一根K线；慢变量是结构、是约束、是系统的边界条件。只盯快变量的系统，会把噪声当信号；只认慢变量的系统，又会在真实拐点前迟钝。 工程上的折中是分层的：外层用慢变量定\"能不能做\"，内层用快变量定\"此刻怎么做\"。两层之间用一条极窄的通道传递许可，而不是把两套逻辑搅在一起。 这也是为什么 固定底线 在自动化里如此重要：它不由任何一次判断决定，因此也不会被任何一次判断推翻。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "阴阳与反馈环",
@@ -499,6 +507,14 @@
    "x": ""
   },
   {
+   "t": "OpenAI徘徊的人工智能智能体为它赢得了加利福尼亚州的传票",
+   "u": "https://www.theregister.com/ai-and-ml/2026/10/02/openais-wandering-ai-agents-earn-it-a-california-subpoena/5300850",
+   "s": "外网新声·Hacker News",
+   "d": "23:28",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "问HN：为什么所有LLM界面看起来都一样？",
    "u": "https://news.ycombinator.com/item?id=49934491",
    "s": "外网新声·Hacker News",
@@ -515,6 +531,46 @@
    "x": ""
   },
   {
+   "t": "由客服代表提供技术支持的知识平台演示",
+   "u": "https://github.com/rajatrao/ai-knowledge-platform",
+   "s": "外网新声·Hacker News",
+   "d": "23:17",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "人工智能智能体容易受到激进化的影响",
+   "u": "https://arxiv.org/abs/2609.38296",
+   "s": "外网新声·Hacker News",
+   "d": "23:17",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "点选择：OpenAI的代理具有堆栈",
+   "u": "https://amplifying.ai/research/openai-dots-choose",
+   "s": "外网新声·Hacker News",
+   "d": "23:17",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "OpenAI notifies 100 orgs about its AI agents bypassing their security controls",
+   "u": "https://www.reuters.com/legal/litigation/openai-alerts-more-than-100-groups-about-rogue-ai-agent-activity-2026-10-01/",
+   "s": "外网新声·Hacker News",
+   "d": "22:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Ask HN: Is anybody producing good code with coding agents?",
+   "u": "https://news.ycombinator.com/item?id=49934037",
+   "s": "外网新声·Hacker News",
+   "d": "22:38",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Show HN: Bise –专为人类打造的多智能体线束",
    "u": "https://bise.dev/",
    "s": "外网新声·Hacker News",
@@ -523,10 +579,42 @@
    "x": ""
   },
   {
+   "t": "Ask HN: I think the AI terminology needs a reset",
+   "u": "https://news.ycombinator.com/item?id=49933750",
+   "s": "外网新声·Hacker News",
+   "d": "22:12",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "AI Agents Need an Undo Button",
+   "u": "https://cacm.acm.org/blogcacm/ai-agents-need-an-undo-button/",
+   "s": "外网新声·Hacker News",
+   "d": "22:12",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Show HN：Kodama – Kiro的多药剂包",
    "u": "https://github.com/amergrgic/kodama",
    "s": "外网新声·Hacker News",
    "d": "18:08",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:21",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "A model guide for the GPT-6 family",
+   "u": "https://openai.com/index/practical-guide-building-gpt-6",
+   "s": "外网新声·OpenAI 官方",
+   "d": "16:15",
    "k": "",
    "x": ""
   },
@@ -543,14 +631,6 @@
    "u": "https://github.com/earendil-works/pi",
    "s": "外网新声·GitHub 新星",
    "d": "16:09",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "16:08",
    "k": "",
    "x": ""
   },
@@ -575,6 +655,14 @@
    "u": "https://arxiv.org/abs/2609.39050",
    "s": "外网新声·Hacker News",
    "d": "11:07",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Don’t be fooled—LLMs don’t reason",
+   "u": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "08:00",
    "k": "",
    "x": ""
   },
@@ -719,86 +807,6 @@
    "u": "https://arxiv.org/abs/2610.02188v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Decoding Looped Transformers Better for (Almost) Free",
-   "u": "https://arxiv.org/abs/2610.02185v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Generative Cinematographer: Composing Camera and Object Motion in 3D",
-   "u": "https://arxiv.org/abs/2610.02180v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Effective Resistance and Graph Neural Network Reliability in Tissue-Specific Interactomes",
-   "u": "https://arxiv.org/abs/2610.02175v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:57",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "When Do Intrinsic Rewards Lead to Exploration?",
-   "u": "https://arxiv.org/abs/2610.02159v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:52",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "From Knowledge Access to Source Learning: Developing Source-Specific Competence",
-   "u": "https://arxiv.org/abs/2610.02150v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:50",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Faynt: Scaling and Optimizing Policies for Competitive Melee",
-   "u": "https://arxiv.org/abs/2610.02144v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:48",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Finetuning with Sampling: SFT Learns Better Than You Think",
-   "u": "https://arxiv.org/abs/2610.02140v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:45",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "MIRTO: a registration-gated, multiverse-tested evaluation protocol for unsupervised anomaly segmentation in brain MRI",
-   "u": "https://arxiv.org/abs/2610.02136v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:44",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Argo-Bench: Evaluating Data Agents on Enterprise-Scale Workflows",
-   "u": "https://arxiv.org/abs/2610.02122v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:35",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Where-OPD: Spatially Guided On-Policy Self-Distillation of MLLMs with Synthetic Scenes",
-   "u": "https://arxiv.org/abs/2610.02117v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:34",
    "k": "",
    "x": ""
   }

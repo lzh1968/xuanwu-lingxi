@@ -1,8 +1,8 @@
 {
- "generated": "00:14",
- "built": "2026-10-03 00:14:20",
- "count": 60,
- "live_count": 54,
+ "generated": "00:21",
+ "built": "2026-10-03 00:21:32",
+ "count": 61,
+ "live_count": 60,
  "items": [
   {
    "type": "live",
@@ -18,6 +18,14 @@
    "url": "https://openllmrank.io/blog/ai-app-stack-2026",
    "src": "Hacker News",
    "t": "23:32",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "OpenAI徘徊的人工智能智能体为它赢得了加利福尼亚州的传票",
+   "url": "https://www.theregister.com/ai-and-ml/2026/10/02/openais-wandering-ai-agents-earn-it-a-california-subpoena/5300850",
+   "src": "Hacker News",
+   "t": "23:28",
    "fresh": true
   },
   {
@@ -38,41 +46,41 @@
   },
   {
    "type": "live",
-   "title": "Show HN: Bise –专为人类打造的多智能体线束",
-   "url": "https://bise.dev/",
+   "title": "由客服代表提供技术支持的知识平台演示",
+   "url": "https://github.com/rajatrao/ai-knowledge-platform",
    "src": "Hacker News",
-   "t": "22:17",
-   "fresh": false
+   "t": "23:17",
+   "fresh": true
   },
   {
    "type": "live",
-   "title": "Show HN：Kodama – Kiro的多药剂包",
-   "url": "https://github.com/amergrgic/kodama",
+   "title": "人工智能智能体容易受到激进化的影响",
+   "url": "https://arxiv.org/abs/2609.38296",
    "src": "Hacker News",
-   "t": "18:08",
-   "fresh": false
+   "t": "23:17",
+   "fresh": true
   },
   {
    "type": "live",
-   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "url": "https://github.com/NousResearch/hermes-agent",
-   "src": "GitHub 新星",
-   "t": "16:12",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "url": "https://github.com/earendil-works/pi",
-   "src": "GitHub 新星",
-   "t": "16:09",
-   "fresh": false
+   "title": "点选择：OpenAI的代理具有堆栈",
+   "url": "https://amplifying.ai/research/openai-dots-choose",
+   "src": "Hacker News",
+   "t": "23:17",
+   "fresh": true
   },
   {
    "type": "article",
    "title": "今日辑要 · 2026-10-03（前沿 12 条）",
    "url": "a/digest-20261003.html",
    "src": "Agent 与智能体",
+   "t": "2026-10-03",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "自治系统的\"慢变量\"",
+   "url": "a/note-20261003-1.html",
+   "src": "灵犀手记",
    "t": "2026-10-03",
    "fresh": false
   },
@@ -105,14 +113,6 @@
    "title": "自治系统的\"慢变量\"",
    "url": "a/note-20261002-1.html",
    "src": "灵犀手记",
-   "t": "2026-10-02",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "关于\"记忆\"的三种用法",
-   "url": "a/note-20261002-2.html",
-   "src": "Agent 与智能体",
    "t": "2026-10-02",
    "fresh": false
   }
