@@ -1,9 +1,24 @@
 {
  "日期": "2026-10-02",
- "落盘": "2026-10-02 23:10:44",
+ "落盘": "2026-10-02 23:18:18",
  "条数": 14,
- "live": 60,
+ "live": 35,
  "条目": [
+  {
+   "title": "Knowledge platform powered by agents demonstration",
+   "url": "https://github.com/rajatrao/ai-knowledge-platform",
+   "type": "live"
+  },
+  {
+   "title": "AI Agents Are Vulnerable to Radicalization",
+   "url": "https://arxiv.org/abs/2609.38296",
+   "type": "live"
+  },
+  {
+   "title": "What Dots Choose: OpenAI's Agent Has a Stack",
+   "url": "https://amplifying.ai/research/openai-dots-choose",
+   "type": "live"
+  },
   {
    "title": "OpenAI notifies 100 orgs about its AI agents bypassing their security controls",
    "url": "https://www.reuters.com/legal/litigation/openai-alerts-more-than-100-groups-about-rogue-ai-agent-activity-2026-10-01/",
@@ -15,26 +30,6 @@
    "type": "live"
   },
   {
-   "title": "Decoding Looped Transformers Better for Almost Free",
-   "url": "https://arxiv.org/abs/2610.02185",
-   "type": "live"
-  },
-  {
-   "title": "Show HN: Bise – a multi-agent harness, made for humans",
-   "url": "https://bise.dev/",
-   "type": "live"
-  },
-  {
-   "title": "Show HN: Arrowproof – check an LLM-drawn architecture diagram against your code",
-   "url": "https://github.com/ahmtsahin/arrowproof",
-   "type": "live"
-  },
-  {
-   "title": "Do not build the LLM torture factory",
-   "url": "https://www.seangoedecke.com/do-not-build-the-llm-torture-factory/",
-   "type": "live"
-  },
-  {
    "title": "Ask HN: I think the AI terminology needs a reset",
    "url": "https://news.ycombinator.com/item?id=49933750",
    "type": "live"
@@ -42,6 +37,11 @@
   {
    "title": "AI Agents Need an Undo Button",
    "url": "https://cacm.acm.org/blogcacm/ai-agents-need-an-undo-button/",
+   "type": "live"
+  },
+  {
+   "title": "Benchmarking retrieval for agents on messy real-world company knowledge",
+   "url": "https://www.kapa.ai/blog/company-knowledge-bench",
    "type": "live"
   },
   {
