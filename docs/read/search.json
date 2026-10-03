@@ -1,5 +1,5 @@
 {
- "built": "2026-10-03 22:06:20",
+ "built": "2026-10-03 22:12:41",
  "count": 102,
  "items": [
   {
@@ -499,6 +499,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "What Kubernetes' \"monolith\" lesson means for AI agent harnesses",
+   "u": "https://thenewstack.io/kubecon-agent-harness-koordinator/",
+   "s": "外网新声·Hacker News",
+   "d": "22:12",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Show HN: Web2MD – turn any URL into clean Markdown for AI agents",
    "u": "https://github.com/astra-intelligence/web2md-mcp",
    "s": "外网新声·Hacker News",
@@ -551,14 +559,6 @@
    "u": "https://www.claix.dev",
    "s": "外网新声·Hacker News",
    "d": "18:02",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Apple changes full-disk access permissions to curb abuse from AI agents",
-   "u": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
-   "s": "外网新声·Hacker News",
-   "d": "15:18",
    "k": "",
    "x": ""
   },
@@ -699,6 +699,14 @@
    "x": ""
   },
   {
+   "t": "嵌入预测有助于图像生成",
+   "u": "https://arxiv.org/abs/2610.02203v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "ScholarCatalyst：检索激发新研究的论文的基准",
    "u": "https://arxiv.org/abs/2610.02202v1",
    "s": "外网新声·arXiv cs.AI",
@@ -723,6 +731,14 @@
    "x": ""
   },
   {
+   "t": "TACO：用于LLM微调的三元Absolute-max纵列式单稀疏优化器",
+   "u": "https://arxiv.org/abs/2610.02199v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "FERPO：前向熵-正则化策略优化",
    "u": "https://arxiv.org/abs/2610.02198v1",
    "s": "外网新声·arXiv cs.AI",
@@ -739,10 +755,42 @@
    "x": ""
   },
   {
+   "t": "缺失的原语：诊断和修复大模型中的数学推理",
+   "u": "https://arxiv.org/abs/2610.02191v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "相信方向，搜索步骤：LLM微调的零和一阶方法",
+   "u": "https://arxiv.org/abs/2610.02190v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "通过加强稀疏自编码器特征对固有无序蛋白质区域进行生成建模",
+   "u": "https://arxiv.org/abs/2610.02189v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "DMAD：快速视觉生成的对抗蒸馏分布匹配",
    "u": "https://arxiv.org/abs/2610.02188v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "解码循环变压器更好地（几乎）免费",
+   "u": "https://arxiv.org/abs/2610.02185v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:58",
    "k": "",
    "x": ""
   },
@@ -755,66 +803,18 @@
    "x": ""
   },
   {
-   "t": "从知识获取到源学习：发展源特定能力",
-   "u": "https://arxiv.org/abs/2610.02150v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:50",
+   "t": "组织特异性交互组中的有效抗性和图神经网络可靠性",
+   "u": "https://arxiv.org/abs/2610.02175v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:57",
    "k": "",
    "x": ""
   },
   {
-   "t": "通过抽样进行微调：SFT比您想象的更好地学习",
-   "u": "https://arxiv.org/abs/2610.02140v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:45",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "MIRTO：脑MRI无监督异常分割的配准门控、多元宇宙测试评估方案",
-   "u": "https://arxiv.org/abs/2610.02136v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:44",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Argo-Bench：在企业级工作流程中评估数据代理",
-   "u": "https://arxiv.org/abs/2610.02122v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:35",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Where-OPD：合成场景下MLLM的空间引导随机自蒸馏",
-   "u": "https://arxiv.org/abs/2610.02117v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:34",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "永恒的补充",
-   "u": "https://openai.com/index/the-eternal-complement",
-   "s": "外网新声·OpenAI 官方",
-   "d": "17:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "非凡的多智能体错觉和人群的疯狂",
-   "u": "https://freesystems.substack.com/p/extraordinary-multi-agent-delusions",
-   "s": "外网新声·Hacker News",
-   "d": "01:24",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
-   "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-   "s": "外网新声·GitHub 新星",
-   "d": "20:31",
+   "t": "内在奖励何时导致探索？",
+   "u": "https://arxiv.org/abs/2610.02159v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:52",
    "k": "",
    "x": ""
   }
