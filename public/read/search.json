@@ -1,5 +1,5 @@
 {
- "built": "2026-10-04 02:51:42",
+ "built": "2026-10-04 02:57:44",
  "count": 107,
  "items": [
   {
@@ -539,6 +539,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "从Claude/Codex （通过MCP ）在您自己的机器上引导代理",
+   "u": "https://remote.phyra.ai/",
+   "s": "外网新声·Hacker News",
+   "d": "02:55",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "我知道你管理LLM。它会启动吗？",
    "u": "https://mondegreens.github.io/apron/blog/2026/10/02/i-know-you-run-models-will-it-boot/",
    "s": "外网新声·Hacker News",
@@ -611,18 +619,26 @@
    "x": ""
   },
   {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "18:51",
+   "d": "18:57",
    "k": "",
    "x": ""
   },
   {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "18:46",
+   "d": "18:53",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "u": "https://github.com/Dao-AILab/flash-attention",
+   "s": "外网新声·GitHub 新星",
+   "d": "18:51",
    "k": "",
    "x": ""
   },
@@ -639,14 +655,6 @@
    "u": "https://github.com/earendil-works/pi",
    "s": "外网新声·GitHub 新星",
    "d": "16:15",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
-   "u": "https://github.com/Dao-AILab/flash-attention",
-   "s": "外网新声·GitHub 新星",
-   "d": "04:11",
    "k": "",
    "x": ""
   },
@@ -847,14 +855,6 @@
    "u": "https://arxiv.org/abs/2610.02180v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "组织特异性交互组中的有效抗性和图神经网络可靠性",
-   "u": "https://arxiv.org/abs/2610.02175v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:57",
    "k": "",
    "x": ""
   }
