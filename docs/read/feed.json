@@ -1,6 +1,6 @@
 {
- "generated": "02:26",
- "built": "2026-10-04 02:26:00",
+ "generated": "02:32",
+ "built": "2026-10-04 02:32:41",
  "count": 67,
  "live_count": 60,
  "items": [
@@ -10,6 +10,14 @@
    "url": "https://aws.amazon.com/blogs/machine-learning/manage-end-user-oauth-consent-for-ai-agents-with-amazon-bedrock-agentcore/",
    "src": "Hacker News",
    "t": "01:50",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "将LLM带回家的案例",
+   "url": "https://www.wwt.com/blog/bringing-your-llms-home",
+   "src": "Hacker News",
+   "t": "01:42",
    "fresh": true
   },
   {
@@ -38,6 +46,14 @@
   },
   {
    "type": "live",
+   "title": "Jabhook -拳击训练（计算机视觉、3D生物力学、本地法学硕士）",
+   "url": "https://jabhook.ai/",
+   "src": "Hacker News",
+   "t": "23:10",
+   "fresh": false
+  },
+  {
+   "type": "live",
    "title": "2027年出货的人工智能芯片上可以运行多少个智能体？",
    "url": "https://epoch.ai/publications/estimating-the-agent-population",
    "src": "Hacker News",
@@ -50,22 +66,6 @@
    "url": "https://thenewstack.io/kubecon-agent-harness-koordinator/",
    "src": "Hacker News",
    "t": "22:12",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "url": "https://github.com/NousResearch/hermes-agent",
-   "src": "GitHub 新星",
-   "t": "18:15",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "anomalyco/opencode：开源编码智能体",
-   "url": "https://github.com/anomalyco/opencode",
-   "src": "GitHub 新星",
-   "t": "18:14",
    "fresh": false
   },
   {

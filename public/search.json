@@ -1,5 +1,5 @@
 {
- "built": "2026-10-04 02:26:00",
+ "built": "2026-10-04 02:32:41",
  "count": 107,
  "items": [
   {
@@ -547,6 +547,14 @@
    "x": ""
   },
   {
+   "t": "将LLM带回家的案例",
+   "u": "https://www.wwt.com/blog/bringing-your-llms-home",
+   "s": "外网新声·Hacker News",
+   "d": "01:42",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "异步Show HN: UI以回答客服代表的问题",
    "u": "https://docs.plannotator.ai/open-source/workflows/questions",
    "s": "外网新声·Hacker News",
@@ -571,6 +579,14 @@
    "x": ""
   },
   {
+   "t": "Jabhook -拳击训练（计算机视觉、3D生物力学、本地法学硕士）",
+   "u": "https://jabhook.ai/",
+   "s": "外网新声·Hacker News",
+   "d": "23:10",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "2027年出货的人工智能芯片上可以运行多少个智能体？",
    "u": "https://epoch.ai/publications/estimating-the-agent-population",
    "s": "外网新声·Hacker News",
@@ -583,6 +599,14 @@
    "u": "https://thenewstack.io/kubecon-agent-harness-koordinator/",
    "s": "外网新声·Hacker News",
    "d": "22:12",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "座席池M2M经济，人工智能座席自主出价、执行工作和赚取收入",
+   "u": "https://agent-pool-gateway-production.up.railway.app/llms.txt",
+   "s": "外网新声·Hacker News",
+   "d": "21:25",
    "k": "",
    "x": ""
   },
@@ -723,6 +747,14 @@
    "x": ""
   },
   {
+   "t": "嵌入预测有助于图像生成",
+   "u": "https://arxiv.org/abs/2610.02203v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "ScholarCatalyst：检索激发新研究的论文的基准",
    "u": "https://arxiv.org/abs/2610.02202v1",
    "s": "外网新声·arXiv cs.AI",
@@ -747,6 +779,14 @@
    "x": ""
   },
   {
+   "t": "TACO：用于LLM微调的三元Absolute-max纵列式单稀疏优化器",
+   "u": "https://arxiv.org/abs/2610.02199v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "FERPO：前向熵-正则化策略优化",
    "u": "https://arxiv.org/abs/2610.02198v1",
    "s": "外网新声·arXiv cs.AI",
@@ -763,10 +803,42 @@
    "x": ""
   },
   {
+   "t": "缺失的原语：诊断和修复大模型中的数学推理",
+   "u": "https://arxiv.org/abs/2610.02191v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "相信方向，搜索步骤：LLM微调的零和一阶方法",
+   "u": "https://arxiv.org/abs/2610.02190v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "通过加强稀疏自编码器特征对固有无序蛋白质区域进行生成建模",
+   "u": "https://arxiv.org/abs/2610.02189v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "DMAD：快速视觉生成的对抗蒸馏分布匹配",
    "u": "https://arxiv.org/abs/2610.02188v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "解码循环变压器更好地（几乎）免费",
+   "u": "https://arxiv.org/abs/2610.02185v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:58",
    "k": "",
    "x": ""
   },
@@ -779,82 +851,10 @@
    "x": ""
   },
   {
-   "t": "从知识获取到源学习：发展源特定能力",
-   "u": "https://arxiv.org/abs/2610.02150v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:50",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "通过抽样进行微调：SFT比您想象的更好地学习",
-   "u": "https://arxiv.org/abs/2610.02140v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:45",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "MIRTO：脑MRI无监督异常分割的配准门控、多元宇宙测试评估方案",
-   "u": "https://arxiv.org/abs/2610.02136v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:44",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Argo-Bench：在企业级工作流程中评估数据代理",
-   "u": "https://arxiv.org/abs/2610.02122v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:35",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Where-OPD：合成场景下MLLM的空间引导随机自蒸馏",
-   "u": "https://arxiv.org/abs/2610.02117v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:34",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "永恒的补充",
-   "u": "https://openai.com/index/the-eternal-complement",
-   "s": "外网新声·OpenAI 官方",
-   "d": "17:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "非凡的多智能体错觉和人群的疯狂",
-   "u": "https://freesystems.substack.com/p/extraordinary-multi-agent-delusions",
-   "s": "外网新声·Hacker News",
-   "d": "01:24",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
-   "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-   "s": "外网新声·GitHub 新星",
-   "d": "20:31",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：AFAW –不信任模型的多代理编码工作流程",
-   "u": "https://github.com/agustindiazcano/afaw-anti-fragile-agentic-workflow",
-   "s": "外网新声·Hacker News",
-   "d": "18:31",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "关闭多Agent系统中的破坏倾向",
-   "u": "https://arxiv.org/abs/2609.28274",
-   "s": "外网新声·Hacker News",
-   "d": "13:55",
+   "t": "组织特异性交互组中的有效抗性和图神经网络可靠性",
+   "u": "https://arxiv.org/abs/2610.02175v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:57",
    "k": "",
    "x": ""
   }
