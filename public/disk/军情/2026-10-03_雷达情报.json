@@ -2,15 +2,52 @@
  "日期": "2026-10-03",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-03 10:37:03",
-  "chosen": "UNI short",
+  "updated": "2026-10-03 10:42:36",
+  "chosen": "WLD long",
   "nodes": [
+   {
+    "coin": "LTC",
+    "side": "long",
+    "align": 0,
+    "embryo": 0.5
+   },
+   {
+    "coin": "SUI",
+    "side": "short",
+    "align": 2,
+    "embryo": 2.7
+   },
+   {
+    "coin": "AVAX",
+    "side": "short",
+    "align": 1,
+    "embryo": 2.5
+   },
    {
     "coin": "UNI",
     "side": "short",
     "align": 2,
-    "embryo": 5.2
+    "embryo": 4.7
+   },
+   {
+    "coin": "WLD",
+    "side": "long",
+    "align": 3,
+    "embryo": 3.5
+   },
+   {
+    "coin": "FIL",
+    "side": "short",
+    "align": 1,
+    "embryo": 3.7
+   },
+   {
+    "coin": "DOT",
+    "side": "short",
+    "align": 2,
+    "embryo": 2.7
    }
-  ]
+  ],
+  "口径": "供数器独立复活(ED-20261002-377)·引擎基因(xwu)·align=e4/e1/t4l·embryo=|score|+对齐加成"
  }
 }
