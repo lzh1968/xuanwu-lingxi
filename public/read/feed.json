@@ -1,15 +1,55 @@
 {
- "generated": "00:50",
- "built": "2026-10-04 00:50:10",
+ "generated": "01:08",
+ "built": "2026-10-04 01:08:58",
  "count": 67,
- "live_count": 47,
+ "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "智能体需要一个记录系统，而不仅仅是一个仪表板",
+   "url": "https://www.anuclei.com/blog/your-ai-agents-need-a-system-of-record",
+   "src": "Hacker News",
+   "t": "01:05",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN：Agentlytics -您的智能体可以阅读并采取行动的无Cookie分析",
+   "url": "https://measuremy.site",
+   "src": "Hacker News",
+   "t": "23:43",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Jabhook -拳击训练（计算机视觉、3D生物力学、本地法学硕士）",
    "url": "https://jabhook.ai/",
    "src": "Hacker News",
    "t": "23:10",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "2027年出货的人工智能芯片上可以运行多少个智能体？",
+   "url": "https://epoch.ai/publications/estimating-the-agent-population",
+   "src": "Hacker News",
+   "t": "22:17",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "Kubernetes的“monolith”课程对智能体利用意味着什么",
+   "url": "https://thenewstack.io/kubecon-agent-harness-koordinator/",
+   "src": "Hacker News",
+   "t": "22:12",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "Show HN：Web2MD -将任何URL转换为AI 智能体的干净Markdown",
+   "url": "https://github.com/astra-intelligence/web2md-mcp",
+   "src": "Hacker News",
+   "t": "21:36",
    "fresh": false
   },
   {
@@ -22,50 +62,10 @@
   },
   {
    "type": "live",
-   "title": "下载：生物退化竞赛以及为什么LLM不推理",
-   "url": "https://www.technologyreview.com/2026/10/02/1145666/the-download-biological-de-aging-ai-reasoning/",
+   "title": "12部AI粘土电影，售价$ 184：代理商的成本高于视频模型",
+   "url": "https://getsweat.ai/blog/twelve-ai-clay-films/",
    "src": "Hacker News",
-   "t": "19:02",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "anomalyco/opencode：开源编码智能体",
-   "url": "https://github.com/anomalyco/opencode",
-   "src": "GitHub 新星",
-   "t": "16:48",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "url": "https://github.com/NousResearch/hermes-agent",
-   "src": "GitHub 新星",
-   "t": "16:47",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "url": "https://github.com/earendil-works/pi",
-   "src": "GitHub 新星",
-   "t": "16:15",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "url": "https://github.com/ggml-org/llama.cpp",
-   "src": "GitHub 新星",
-   "t": "16:09",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
-   "url": "https://github.com/Dao-AILab/flash-attention",
-   "src": "GitHub 新星",
-   "t": "04:11",
+   "t": "20:58",
    "fresh": false
   },
   {
