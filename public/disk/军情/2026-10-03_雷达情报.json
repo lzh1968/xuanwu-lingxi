@@ -2,14 +2,26 @@
  "日期": "2026-10-03",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-03 16:34:40",
-  "chosen": "BNB short",
+  "updated": "2026-10-03 16:35:28",
+  "chosen": "XRP short",
   "nodes": [
    {
-    "coin": "BNB",
+    "coin": "ADA",
     "side": "short",
-    "align": 2,
-    "embryo": 4.7
+    "align": 3,
+    "embryo": 1.89
+   },
+   {
+    "coin": "DOT",
+    "side": "short",
+    "align": 3,
+    "embryo": 2.1
+   },
+   {
+    "coin": "XRP",
+    "side": "short",
+    "align": 3,
+    "embryo": 2.7
    }
   ]
  }
