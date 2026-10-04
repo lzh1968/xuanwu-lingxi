@@ -2,20 +2,14 @@
  "日期": "2026-10-05",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-05 06:46:05",
+  "updated": "2026-10-05 06:51:59",
   "chosen": "ARB short",
   "nodes": [
-   {
-    "coin": "AVAX",
-    "side": "short",
-    "align": 2,
-    "embryo": 4.7
-   },
    {
     "coin": "ARB",
     "side": "short",
     "align": 3,
-    "embryo": 2.7
+    "embryo": 0.4
    }
   ]
  }
