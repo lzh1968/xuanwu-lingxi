@@ -2,9 +2,15 @@
  "日期": "2026-10-05",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-05 06:03:54",
-  "chosen": "ARB short",
+  "updated": "2026-10-05 06:10:01",
+  "chosen": "NEAR short",
   "nodes": [
+   {
+    "coin": "NEAR",
+    "side": "short",
+    "align": 3,
+    "embryo": 1.2
+   },
    {
     "coin": "ARB",
     "side": "short",
