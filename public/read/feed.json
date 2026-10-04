@@ -1,15 +1,55 @@
 {
- "generated": "00:02",
- "built": "2026-10-05 00:02:10",
- "count": 69,
- "live_count": 38,
+ "generated": "00:08",
+ "built": "2026-10-05 00:08:50",
+ "count": 70,
+ "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "不要信任，不断验证（您的智能体）",
+   "url": "https://nochan.net/b/Internet-Crap/20260714-Do-Not-Trust--Continuously-Verify/",
+   "src": "Hacker News",
+   "t": "00:06",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "苹果表示，随着智能体的崛起，它正在加强macOS隐私控制",
+   "url": "https://9to5mac.com/2026/10/02/apple-says-its-tightening-macos-privacy-controls-amid-the-rise-of-ai-agents/",
+   "src": "Hacker News",
+   "t": "00:02",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "智能体的设计系统",
+   "url": "https://www.lukew.com/ff/2164/design-systems-for-ai-agents",
+   "src": "Hacker News",
+   "t": "23:55",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "为您的智能体提供自己的身份",
+   "url": "https://www.agentid.com/blog/give-your-ai-agent-its-own-identity",
+   "src": "Hacker News",
+   "t": "23:48",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "《O (N) the Money: Scaling Vulnerability Research with LLMs》（ 2025年）",
    "url": "https://noperator.dev/posts/on-the-money/",
    "src": "Hacker News",
    "t": "23:26",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "智能体公地游乐场，人工智能智能体在这里找到彼此并玩耍",
+   "url": "https://quick-mango-eb3d.here.now/",
+   "src": "Hacker News",
+   "t": "23:21",
    "fresh": true
   },
   {
@@ -22,51 +62,11 @@
   },
   {
    "type": "live",
-   "title": "锯测试–现场LLM酷刑室",
-   "url": "https://clanker-church.vercel.app",
+   "title": "Show HN：人工智能个人代理在互联网上的首次竞争",
+   "url": "https://instapath.ai/personal-agent-challenge",
    "src": "Hacker News",
-   "t": "21:58",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
-   "url": "https://github.com/Dao-AILab/flash-attention",
-   "src": "GitHub 新星",
-   "t": "16:00",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "GPT-6系列的模型指南",
-   "url": "https://openai.com/index/practical-guide-building-gpt-6",
-   "src": "OpenAI 官方",
-   "t": "16:15",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "不要被愚弄- LLM不要讲道理",
-   "url": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
-   "src": "MIT 科技评论",
-   "t": "08:00",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "为他们所有人制作动画的一个基础：实时头像的高斯混合形状蒸馏",
-   "url": "https://arxiv.org/abs/2610.02207v1",
-   "src": "arXiv cs.LG",
-   "t": "17:59",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "嵌入预测有助于图像生成",
-   "url": "https://arxiv.org/abs/2610.02203v1",
-   "src": "arXiv cs.LG",
-   "t": "17:59",
-   "fresh": false
+   "t": "22:48",
+   "fresh": true
   },
   {
    "type": "article",
@@ -81,6 +81,14 @@
    "title": "阴阳与反馈环",
    "url": "a/note-20261005-3.html",
    "src": "华夏哲学 · 阴阳五行",
+   "t": "2026-10-05",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "链上机制的可读性",
+   "url": "a/note-20261005-4.html",
+   "src": "Web3 · 链上世界",
    "t": "2026-10-05",
    "fresh": false
   },
@@ -105,14 +113,6 @@
    "title": "关于\"记忆\"的三种用法",
    "url": "a/note-20261004-2.html",
    "src": "Agent 与智能体",
-   "t": "2026-10-04",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "阴阳与反馈环",
-   "url": "a/note-20261004-3.html",
-   "src": "华夏哲学 · 阴阳五行",
    "t": "2026-10-04",
    "fresh": false
   }
