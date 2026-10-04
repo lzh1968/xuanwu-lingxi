@@ -2,7 +2,7 @@
  "日期": "2026-10-04",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-04 12:20:54",
+  "updated": "2026-10-04 12:50:51",
   "chosen": "ADA short",
   "nodes": [
    {
@@ -13,9 +13,9 @@
    },
    {
     "coin": "XRP",
-    "side": "short",
-    "align": 1,
-    "embryo": 2.3
+    "side": "long",
+    "align": 0,
+    "embryo": -0.3
    },
    {
     "coin": "ADA",
@@ -27,13 +27,7 @@
     "coin": "LTC",
     "side": "short",
     "align": 3,
-    "embryo": 0.4
-   },
-   {
-    "coin": "BNB",
-    "side": "long",
-    "align": 2,
-    "embryo": 3.0
+    "embryo": 0.7
    },
    {
     "coin": "NEAR",
@@ -51,13 +45,13 @@
     "coin": "UNI",
     "side": "long",
     "align": 0,
-    "embryo": -0.3
+    "embryo": -0.6
    },
    {
     "coin": "WLD",
     "side": "long",
     "align": 1,
-    "embryo": 1.2
+    "embryo": 1.7
    },
    {
     "coin": "FIL",
@@ -69,13 +63,13 @@
     "coin": "ARB",
     "side": "long",
     "align": 2,
-    "embryo": 3.2
+    "embryo": 2.7
    },
    {
     "coin": "DOT",
     "side": "short",
     "align": 3,
-    "embryo": 2.2
+    "embryo": 2.7
    }
   ],
   "口径": "供数器独立复活(ED-20261002-377)·引擎基因(xwu)·align=e4/e1/t4l·embryo=|score|+对齐加成"
