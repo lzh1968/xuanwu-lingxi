@@ -2,20 +2,14 @@
  "日期": "2026-10-04",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-04 22:24:22",
-  "chosen": "LTC short",
+  "updated": "2026-10-04 22:30:43",
+  "chosen": "SUI short",
   "nodes": [
-   {
-    "coin": "LTC",
-    "side": "short",
-    "align": 3,
-    "embryo": 0.4
-   },
    {
     "coin": "SUI",
     "side": "short",
     "align": 3,
-    "embryo": 2.24
+    "embryo": 1.89
    }
   ]
  }
