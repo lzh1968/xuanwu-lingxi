@@ -1,31 +1,15 @@
 {
- "generated": "23:54",
- "built": "2026-10-04 23:54:31",
- "count": 67,
- "live_count": 60,
+ "generated": "00:01",
+ "built": "2026-10-05 00:01:40",
+ "count": 69,
+ "live_count": 38,
  "items": [
-  {
-   "type": "live",
-   "title": "为您的智能体提供自己的身份",
-   "url": "https://www.agentid.com/blog/give-your-ai-agent-its-own-identity",
-   "src": "Hacker News",
-   "t": "23:48",
-   "fresh": true
-  },
   {
    "type": "live",
    "title": "《O (N) the Money: Scaling Vulnerability Research with LLMs》（ 2025年）",
    "url": "https://noperator.dev/posts/on-the-money/",
    "src": "Hacker News",
    "t": "23:26",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "智能体公地游乐场，人工智能智能体在这里找到彼此并玩耍",
-   "url": "https://quick-mango-eb3d.here.now/",
-   "src": "Hacker News",
-   "t": "23:21",
    "fresh": true
   },
   {
@@ -38,34 +22,66 @@
   },
   {
    "type": "live",
-   "title": "Show HN：人工智能个人代理在互联网上的首次竞争",
-   "url": "https://instapath.ai/personal-agent-challenge",
+   "title": "锯测试–现场LLM酷刑室",
+   "url": "https://clanker-church.vercel.app",
    "src": "Hacker News",
-   "t": "22:48",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "运行Osier以跟踪您的AI编码智能体的工作方式",
-   "url": "https://www.npmjs.com/package/osier-dev",
-   "src": "Hacker News",
-   "t": "22:22",
+   "t": "21:58",
    "fresh": false
   },
   {
    "type": "live",
-   "title": "了解Agent Drift",
-   "url": "https://sdarchitect.blog/2026/10/03/ai-risk-a-users-guide-part-iv-understanding-agent-drift/",
-   "src": "Hacker News",
-   "t": "22:14",
+   "title": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "url": "https://github.com/Dao-AILab/flash-attention",
+   "src": "GitHub 新星",
+   "t": "16:00",
    "fresh": false
   },
   {
    "type": "live",
-   "title": "人工智能个人代理在互联网上的首次竞争正在拉开帷幕",
-   "url": "https://twitter.com/ddaniel3141/status/2106748777826529457",
-   "src": "Hacker News",
-   "t": "22:14",
+   "title": "GPT-6系列的模型指南",
+   "url": "https://openai.com/index/practical-guide-building-gpt-6",
+   "src": "OpenAI 官方",
+   "t": "16:15",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "不要被愚弄- LLM不要讲道理",
+   "url": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
+   "src": "MIT 科技评论",
+   "t": "08:00",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "为他们所有人制作动画的一个基础：实时头像的高斯混合形状蒸馏",
+   "url": "https://arxiv.org/abs/2610.02207v1",
+   "src": "arXiv cs.LG",
+   "t": "17:59",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "嵌入预测有助于图像生成",
+   "url": "https://arxiv.org/abs/2610.02203v1",
+   "src": "arXiv cs.LG",
+   "t": "17:59",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "今日辑要 · 2026-10-05（前沿 12 条）",
+   "url": "a/digest-20261005.html",
+   "src": "AI 全球趋势",
+   "t": "2026-10-05",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "阴阳与反馈环",
+   "url": "a/note-20261005-3.html",
+   "src": "华夏哲学 · 阴阳五行",
+   "t": "2026-10-05",
    "fresh": false
   },
   {
@@ -98,22 +114,6 @@
    "url": "a/note-20261004-3.html",
    "src": "华夏哲学 · 阴阳五行",
    "t": "2026-10-04",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "链上机制的可读性",
-   "url": "a/note-20261004-4.html",
-   "src": "Web3 · 链上世界",
-   "t": "2026-10-04",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "今日辑要 · 2026-10-03（前沿 12 条）",
-   "url": "a/digest-20261003.html",
-   "src": "Agent 与智能体",
-   "t": "2026-10-03",
    "fresh": false
   }
  ]
