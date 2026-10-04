@@ -1,5 +1,5 @@
 {
- "built": "2026-10-04 21:37:46",
+ "built": "2026-10-04 21:50:27",
  "count": 107,
  "items": [
   {
@@ -539,7 +539,15 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "Show HN: Untyped – check recorded agent runs against a TLA+ spec",
+   "t": "Show HN：Mistis -用于通话中用户身份验证的解耦E2EE协议",
+   "u": "https://mistis.tech",
+   "s": "外网新声·Hacker News",
+   "d": "21:45",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：未类型化–检查记录的客服代表根据TLA +规范运行",
    "u": "https://github.com/untyped-ai/untyped",
    "s": "外网新声·Hacker News",
    "d": "21:33",
@@ -579,10 +587,42 @@
    "x": ""
   },
   {
+   "t": "机器人监狱中的“折磨” LLM引发了人工智能领域最愚蠢的辩论",
+   "u": "https://www.404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet/",
+   "s": "外网新声·Hacker News",
+   "d": "16:02",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：Solvi 1.0 – LLM提出，检查决定，每个决策重播",
+   "u": "https://github.com/solvi-ai/solvi",
+   "s": "外网新声·Hacker News",
+   "d": "15:50",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Show HN: Artbucket -面向人类和智能体的OSS品牌资产和门户",
    "u": "https://github.com/pwnera/artbucket",
    "s": "外网新声·Hacker News",
    "d": "15:49",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "初创公司TypeSafe AI的Jev模型引发模仿，谈论LLM替代方案",
+   "u": "https://www.wsj.com/tech/ai/startup-typesafe-ais-jev-model-sparks-copycats-talk-of-llm-alternatives-e39ff57d",
+   "s": "外网新声·Hacker News",
+   "d": "15:44",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "问HN：在LLM推断中，独自开发者在哪里仍然可以找到护城河？",
+   "u": "https://news.ycombinator.com/item?id=49951356",
+   "s": "外网新声·Hacker News",
+   "d": "14:56",
    "k": "",
    "x": ""
   },
@@ -595,18 +635,34 @@
    "x": ""
   },
   {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "12:39",
+   "d": "13:49",
    "k": "",
    "x": ""
   },
   {
-   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
-   "u": "https://github.com/Dao-AILab/flash-attention",
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
-   "d": "07:38",
+   "d": "13:48",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "13:45",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
+   "u": "https://github.com/mattpocock/skills",
+   "s": "外网新声·GitHub 新星",
+   "d": "13:44",
    "k": "",
    "x": ""
   },
@@ -643,14 +699,6 @@
    "x": ""
   },
   {
-   "t": "GPT-6系列的模型指南",
-   "u": "https://openai.com/index/practical-guide-building-gpt-6",
-   "s": "外网新声·OpenAI 官方",
-   "d": "16:15",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "rasbt/LLMs-from-scratch：一步步用 PyTorch 从零实现类 ChatGPT 模型",
    "u": "https://github.com/rasbt/LLMs-from-scratch",
    "s": "外网新声·GitHub 新星",
@@ -671,6 +719,14 @@
    "u": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
    "s": "外网新声·MIT 科技评论",
    "d": "08:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
+   "u": "https://github.com/affaan-m/ECC",
+   "s": "外网新声·GitHub 新星",
+   "d": "02:01",
    "k": "",
    "x": ""
   },
@@ -799,62 +855,6 @@
    "u": "https://arxiv.org/abs/2610.02188v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "解码循环变压器更好地（几乎）免费",
-   "u": "https://arxiv.org/abs/2610.02185v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "生成式摄影师：在3D中合成摄像机和物体运动",
-   "u": "https://arxiv.org/abs/2610.02180v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "组织特异性交互组中的有效抗性和图神经网络可靠性",
-   "u": "https://arxiv.org/abs/2610.02175v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:57",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "内在奖励何时导致探索？",
-   "u": "https://arxiv.org/abs/2610.02159v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:52",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "从知识获取到源学习：发展源特定能力",
-   "u": "https://arxiv.org/abs/2610.02150v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:50",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Faynt：扩展和优化竞争性近战策略",
-   "u": "https://arxiv.org/abs/2610.02144v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:48",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "通过抽样进行微调：SFT比您想象的更好地学习",
-   "u": "https://arxiv.org/abs/2610.02140v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:45",
    "k": "",
    "x": ""
   }
