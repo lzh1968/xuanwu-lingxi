@@ -1,5 +1,5 @@
 {
- "built": "2026-10-04 19:14:25",
+ "built": "2026-10-04 19:20:48",
  "count": 107,
  "items": [
   {
@@ -555,50 +555,10 @@
    "x": ""
   },
   {
-   "t": "机器人监狱中的“折磨” LLM引发了人工智能领域最愚蠢的辩论",
-   "u": "https://www.404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet/",
-   "s": "外网新声·Hacker News",
-   "d": "16:02",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：Solvi 1.0 – LLM提出，检查决定，每个决策重播",
-   "u": "https://github.com/solvi-ai/solvi",
-   "s": "外网新声·Hacker News",
-   "d": "15:50",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Show HN: Artbucket -面向人类和智能体的OSS品牌资产和门户",
    "u": "https://github.com/pwnera/artbucket",
    "s": "外网新声·Hacker News",
    "d": "15:49",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "初创公司TypeSafe AI的Jev模型引发模仿，谈论LLM替代方案",
-   "u": "https://www.wsj.com/tech/ai/startup-typesafe-ais-jev-model-sparks-copycats-talk-of-llm-alternatives-e39ff57d",
-   "s": "外网新声·Hacker News",
-   "d": "15:44",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "问HN：在LLM推断中，独自开发者在哪里仍然可以找到护城河？",
-   "u": "https://news.ycombinator.com/item?id=49951356",
-   "s": "外网新声·Hacker News",
-   "d": "14:56",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "An LLM Beat NetHack",
-   "u": "https://kenforthewin.github.io/blog/posts/llm-nethack-ascension/",
-   "s": "外网新声·Hacker News",
-   "d": "14:10",
    "k": "",
    "x": ""
   },
@@ -619,14 +579,6 @@
    "x": ""
   },
   {
-   "t": "更新日志到README：测试LLM更新策略",
-   "u": "https://codecut.ai/readme-update-from-release-notes/",
-   "s": "外网新声·Hacker News",
-   "d": "12:30",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Show HN：SuperLocalMemory 4.0 “智能体的管理内存操作系统”",
    "u": "https://arxiv.org/abs/2608.08253",
    "s": "外网新声·Hacker News",
@@ -635,10 +587,18 @@
    "x": ""
   },
   {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "11:19",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "11:13",
+   "d": "11:14",
    "k": "",
    "x": ""
   },
@@ -647,14 +607,6 @@
    "u": "https://github.com/zohayrslileh/more-space",
    "s": "外网新声·Hacker News",
    "d": "11:09",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "10:40",
    "k": "",
    "x": ""
   },
@@ -855,6 +807,54 @@
    "u": "https://arxiv.org/abs/2610.02190v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "通过加强稀疏自编码器特征对固有无序蛋白质区域进行生成建模",
+   "u": "https://arxiv.org/abs/2610.02189v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "DMAD：快速视觉生成的对抗蒸馏分布匹配",
+   "u": "https://arxiv.org/abs/2610.02188v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "解码循环变压器更好地（几乎）免费",
+   "u": "https://arxiv.org/abs/2610.02185v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:58",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "生成式摄影师：在3D中合成摄像机和物体运动",
+   "u": "https://arxiv.org/abs/2610.02180v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:58",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "组织特异性交互组中的有效抗性和图神经网络可靠性",
+   "u": "https://arxiv.org/abs/2610.02175v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "内在奖励何时导致探索？",
+   "u": "https://arxiv.org/abs/2610.02159v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:52",
    "k": "",
    "x": ""
   }
