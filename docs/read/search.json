@@ -1,5 +1,5 @@
 {
- "built": "2026-10-04 22:45:45",
+ "built": "2026-10-04 22:52:55",
  "count": 107,
  "items": [
   {
@@ -539,6 +539,22 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "让LLM逐字节写入可执行文件（ Hello world to playable Tetris ）",
+   "u": "https://github.com/lusob/nlc",
+   "s": "外网新声·Hacker News",
+   "d": "22:48",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：人工智能个人代理在互联网上的首次竞争",
+   "u": "https://instapath.ai/personal-agent-challenge",
+   "s": "外网新声·Hacker News",
+   "d": "22:48",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "运行Osier以跟踪您的AI编码智能体的工作方式",
    "u": "https://www.npmjs.com/package/osier-dev",
    "s": "外网新声·Hacker News",
@@ -603,14 +619,6 @@
    "x": ""
   },
   {
-   "t": "Aura –具有时间图形内存的自托管AI 智能体，用Go编写",
-   "u": "https://github.com/chetto1983/Aura",
-   "s": "外网新声·Hacker News",
-   "d": "16:42",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "机器人监狱中的“折磨” LLM引发了人工智能领域最愚蠢的辩论",
    "u": "https://www.404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet/",
    "s": "外网新声·Hacker News",
@@ -619,10 +627,10 @@
    "x": ""
   },
   {
-   "t": "Show HN：Solvi 1.0 – LLM提出，检查决定，每个决策重播",
-   "u": "https://github.com/solvi-ai/solvi",
-   "s": "外网新声·Hacker News",
-   "d": "15:50",
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "14:49",
    "k": "",
    "x": ""
   },
@@ -631,14 +639,6 @@
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
    "d": "14:15",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "14:13",
    "k": "",
    "x": ""
   },
@@ -655,6 +655,14 @@
    "u": "https://github.com/mattpocock/skills",
    "s": "外网新声·GitHub 新星",
    "d": "13:44",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "u": "https://github.com/Dao-AILab/flash-attention",
+   "s": "外网新声·GitHub 新星",
+   "d": "07:38",
    "k": "",
    "x": ""
   },
@@ -715,6 +723,14 @@
    "x": ""
   },
   {
+   "t": "不要被愚弄- LLM不要讲道理",
+   "u": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "08:00",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
    "u": "https://github.com/affaan-m/ECC",
    "s": "外网新声·GitHub 新星",
@@ -741,7 +757,23 @@
   {
    "t": "为他们所有人制作动画的一个基础：实时头像的高斯混合形状蒸馏",
    "u": "https://arxiv.org/abs/2610.02207v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "KaliBench：在Kali Linux上使用网络安全工具的细粒度基准，具有无运行时可验证奖励",
+   "u": "https://arxiv.org/abs/2610.02206v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "重建、实践、实现：针对具体代理人的指导性自我提升",
+   "u": "https://arxiv.org/abs/2610.02204v1",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
    "k": "",
    "x": ""
@@ -755,9 +787,25 @@
    "x": ""
   },
   {
+   "t": "ScholarCatalyst：检索激发新研究的论文的基准",
+   "u": "https://arxiv.org/abs/2610.02202v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "SILSA：用于保持拓扑结构的高分辨率3D生成的滑动窗口切片潜伏点",
    "u": "https://arxiv.org/abs/2610.02201v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "VISTA：互动世界中的推理视觉线束",
+   "u": "https://arxiv.org/abs/2610.02200v1",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
    "k": "",
    "x": ""
@@ -773,7 +821,7 @@
   {
    "t": "FERPO：前向熵-正则化策略优化",
    "u": "https://arxiv.org/abs/2610.02198v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
    "k": "",
    "x": ""
@@ -781,7 +829,7 @@
   {
    "t": "分层连续扩散语言模型",
    "u": "https://arxiv.org/abs/2610.02193v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
    "k": "",
    "x": ""
@@ -807,54 +855,6 @@
    "u": "https://arxiv.org/abs/2610.02189v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "解码循环变压器更好地（几乎）免费",
-   "u": "https://arxiv.org/abs/2610.02185v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "组织特异性交互组中的有效抗性和图神经网络可靠性",
-   "u": "https://arxiv.org/abs/2610.02175v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:57",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "内在奖励何时导致探索？",
-   "u": "https://arxiv.org/abs/2610.02159v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:52",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "从知识获取到源学习：发展源特定能力",
-   "u": "https://arxiv.org/abs/2610.02150v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:50",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Faynt：扩展和优化竞争性近战策略",
-   "u": "https://arxiv.org/abs/2610.02144v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:48",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "永恒的补充",
-   "u": "https://openai.com/index/the-eternal-complement",
-   "s": "外网新声·OpenAI 官方",
-   "d": "17:00",
    "k": "",
    "x": ""
   }
