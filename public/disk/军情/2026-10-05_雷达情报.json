@@ -2,15 +2,46 @@
  "日期": "2026-10-05",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-05 21:23:20",
-  "chosen": "ADA long",
+  "updated": "2026-10-05 23:18:40",
+  "chosen": "BNB short",
   "nodes": [
    {
-    "coin": "ADA",
-    "side": "long",
-    "align": 3,
+    "coin": "DOGE",
+    "side": "short",
+    "align": 2,
     "embryo": 2.7
+   },
+   {
+    "coin": "ADA",
+    "side": "short",
+    "align": 1,
+    "embryo": 2.3
+   },
+   {
+    "coin": "BNB",
+    "side": "short",
+    "align": 0,
+    "embryo": 1.7
+   },
+   {
+    "coin": "NEAR",
+    "side": "long",
+    "align": 1,
+    "embryo": 1.7
+   },
+   {
+    "coin": "SUI",
+    "side": "long",
+    "align": 1,
+    "embryo": 1.7
+   },
+   {
+    "coin": "WLD",
+    "side": "short",
+    "align": 2,
+    "embryo": 4.1
    }
-  ]
+  ],
+  "口径": "供数器独立复活(ED-20261002-377)·引擎基因(zls)·align=e4/e1/t4l·embryo=|score|+对齐加成"
  }
 }
