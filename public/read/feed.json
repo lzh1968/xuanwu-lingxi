@@ -1,9 +1,17 @@
 {
- "generated": "00:09",
- "built": "2026-10-06 00:09:11",
- "count": 75,
- "live_count": 54,
+ "generated": "00:16",
+ "built": "2026-10-06 00:16:11",
+ "count": 76,
+ "live_count": 53,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN：剩菜– FOSS macOS应用程序在AI 智能体后进行清理",
+   "url": "https://github.com/arpwal/leftovers",
+   "src": "Hacker News",
+   "t": "00:07",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "询问HN：还有其他人喜欢Cursor的本地（ xAI ）模型吗？",
@@ -38,7 +46,7 @@
   },
   {
    "type": "live",
-   "title": "AgentLedger – a spend cap that refuses the call before it happens",
+   "title": "AgentLedger –在发生通话之前拒绝通话的支出上限",
    "url": "https://aiagentscity.com/",
    "src": "Hacker News",
    "t": "22:56",
@@ -46,7 +54,7 @@
   },
   {
    "type": "live",
-   "title": "When the pentester is a fleet of AI agents: inside an autonomous vuln-hunting",
+   "title": "当pentester是智能体的舰队时：在一个自主的vuln狩猎中",
    "url": "https://huntback.io/blog/ai-agents-running-offensive-security",
    "src": "Hacker News",
    "t": "22:50",
@@ -54,18 +62,10 @@
   },
   {
    "type": "live",
-   "title": "Show HN: Vibivibi – End-to-end encrypted sharing of Coding Agent sessions",
+   "title": "Show HN：Vibivibi –编码代理会话的端到端加密共享",
    "url": "https://vibivibi.com/",
    "src": "Hacker News",
    "t": "22:16",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "自主智能体的BGP启发身份网络",
-   "url": "https://medium.com/ai-advances/a-bgp-inspired-identity-network-for-autonomous-ai-agents-e92ad4f95971",
-   "src": "Hacker News",
-   "t": "22:07",
    "fresh": false
   },
   {
@@ -94,6 +94,14 @@
   },
   {
    "type": "article",
+   "title": "阴阳与反馈环",
+   "url": "a/note-20261006-3.html",
+   "src": "华夏哲学 · 阴阳五行",
+   "t": "2026-10-06",
+   "fresh": false
+  },
+  {
+   "type": "article",
    "title": "今日辑要 · 2026-10-05（前沿 12 条）",
    "url": "a/digest-20261005.html",
    "src": "AI 全球趋势",
@@ -105,14 +113,6 @@
    "title": "自治系统的\"慢变量\"",
    "url": "a/note-20261005-1.html",
    "src": "灵犀手记",
-   "t": "2026-10-05",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "关于\"记忆\"的三种用法",
-   "url": "a/note-20261005-2.html",
-   "src": "Agent 与智能体",
    "t": "2026-10-05",
    "fresh": false
   }

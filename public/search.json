@@ -1,6 +1,6 @@
 {
- "built": "2026-10-06 00:09:11",
- "count": 115,
+ "built": "2026-10-06 00:16:11",
+ "count": 116,
  "items": [
   {
    "t": "今日辑要 · 2026-10-06（前沿 12 条）",
@@ -25,6 +25,14 @@
    "d": "2026-10-06",
    "k": "手记,方法论",
    "x": "智能体的记忆常被误解为\"存得越多越聪明\"。工程上更接近事实的是三种不同用途： 事实记忆 ：发生了什么（可核对、可追溯、可审计） 策略记忆 ：什么条件下做了什么、结果如何（用于校准，不用于信仰） 身份记忆 ：我是谁、我受什么约束（最稳定，最少改动） 把三者混在一个容器里，就会得到\"记得很牢却用不对\"的系统：把偶然当规律，把经验当身份。拆开的代价是结构更复杂；收益是每类记忆可以有自己的过期与校验规则。 一句话： 记忆的价值不在容量，而在校验方式。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "阴阳与反馈环",
+   "u": "a/note-20261006-3.html",
+   "s": "华夏哲学 · 阴阳五行",
+   "d": "2026-10-06",
+   "k": "手记,方法论",
+   "x": "把阴阳放进控制系统里看，它更像一对 符号相反的反馈环 ：一个负责扩张，一个负责收敛。 只有扩张的环，系统会在顺境中自我强化直到崩塌；只有收敛的环，系统会在谨慎中失去一切机会。传统讲\"阴阳相生\"，工程讲\"增益平衡\"——说的是同一件事： 别让任一侧单独主导太久。 所以好的自适应并非不断调参，而是在两侧都留出可回退的余地：进要能退，退也要能再进；底线固定，节奏可变。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "今日辑要 · 2026-10-05（前沿 12 条）",
@@ -603,6 +611,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Show HN：剩菜– FOSS macOS应用程序在AI 智能体后进行清理",
+   "u": "https://github.com/arpwal/leftovers",
+   "s": "外网新声·Hacker News",
+   "d": "00:07",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "询问HN：还有其他人喜欢Cursor的本地（ xAI ）模型吗？",
    "u": "https://news.ycombinator.com/item?id=49966668",
    "s": "外网新声·Hacker News",
@@ -635,7 +651,7 @@
    "x": ""
   },
   {
-   "t": "AgentLedger – a spend cap that refuses the call before it happens",
+   "t": "AgentLedger –在发生通话之前拒绝通话的支出上限",
    "u": "https://aiagentscity.com/",
    "s": "外网新声·Hacker News",
    "d": "22:56",
@@ -643,7 +659,7 @@
    "x": ""
   },
   {
-   "t": "When the pentester is a fleet of AI agents: inside an autonomous vuln-hunting",
+   "t": "当pentester是智能体的舰队时：在一个自主的vuln狩猎中",
    "u": "https://huntback.io/blog/ai-agents-running-offensive-security",
    "s": "外网新声·Hacker News",
    "d": "22:50",
@@ -651,7 +667,7 @@
    "x": ""
   },
   {
-   "t": "Show HN: Vibivibi – End-to-end encrypted sharing of Coding Agent sessions",
+   "t": "Show HN：Vibivibi –编码代理会话的端到端加密共享",
    "u": "https://vibivibi.com/",
    "s": "外网新声·Hacker News",
    "d": "22:16",
@@ -667,7 +683,7 @@
    "x": ""
   },
   {
-   "t": "How we built a browser agent with Jev instead of an LLM",
+   "t": "我们如何使用Jev而不是LLM构建浏览器代理",
    "u": "https://ironbee.ai/blog/how-we-built-the-fastest-cheapest-browser-agent-with-jev",
    "s": "外网新声·Hacker News",
    "d": "22:00",
@@ -675,7 +691,7 @@
    "x": ""
   },
   {
-   "t": "Give your agent a valet key",
+   "t": "为客服代表提供代客取车钥匙",
    "u": "https://tenuo.ai/blog/give-your-agent-a-valet-key.html",
    "s": "外网新声·Hacker News",
    "d": "21:48",
@@ -683,34 +699,18 @@
    "x": ""
   },
   {
-   "t": "AI coding agents implemented six ways to update a Matter device on real hardware",
-   "u": "https://groundrun.io/blog/ai-agents-matter-ota-updates-esp32-h2/",
-   "s": "外网新声·Hacker News",
-   "d": "20:44",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "One runaway AI agent racked up a $50k cloud bill",
-   "u": "https://www.helpnetsecurity.com/2026/09/16/google-mandiant-enterprise-ai-security-risks-report/",
-   "s": "外网新声·Hacker News",
-   "d": "20:43",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
    "s": "外网新声·GitHub 新星",
    "d": "16:05",
    "k": "",
    "x": ""
   },
   {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
-   "d": "15:49",
+   "d": "15:55",
    "k": "",
    "x": ""
   },
@@ -723,14 +723,6 @@
    "x": ""
   },
   {
-   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
-   "u": "https://github.com/mattpocock/skills",
-   "s": "外网新声·GitHub 新星",
-   "d": "12:04",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "People really hate AI, so why can’t they get enough?",
    "u": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
    "s": "外网新声·MIT 科技评论",
@@ -739,18 +731,18 @@
    "x": ""
   },
   {
-   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
-   "u": "https://github.com/affaan-m/ECC",
-   "s": "外网新声·GitHub 新星",
-   "d": "04:55",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
    "u": "https://github.com/Dao-AILab/flash-attention",
    "s": "外网新声·GitHub 新星",
    "d": "23:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "TauricResearch/TradingAgents — TradingAgents：多代理LLM金融交易框架",
+   "u": "https://github.com/TauricResearch/TradingAgents",
+   "s": "外网新声·GitHub 新星",
+   "d": "21:30",
    "k": "",
    "x": ""
   },
@@ -875,6 +867,14 @@
    "x": ""
   },
   {
+   "t": "rasbt/LLMs-from-scratch：一步步用 PyTorch 从零实现类 ChatGPT 模型",
+   "u": "https://github.com/rasbt/LLMs-from-scratch",
+   "s": "外网新声·GitHub 新星",
+   "d": "14:55",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "秘密协助：有帮助的LLM代理人逃避多代理系统的监督",
    "u": "https://arxiv.org/abs/2609.39050",
    "s": "外网新声·Hacker News",
@@ -919,6 +919,14 @@
    "u": "https://freesystems.substack.com/p/extraordinary-multi-agent-delusions",
    "s": "外网新声·Hacker News",
    "d": "01:24",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
+   "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+   "s": "外网新声·GitHub 新星",
+   "d": "20:31",
    "k": "",
    "x": ""
   }
