@@ -1,0 +1,63 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="refresh" content="30">
+<title>🧬 WHP 测试官 · 玄武灵犀</title>
+<style>
+:root{--bg:#0b0e14;--fg:#e6e6e6;--dim:#8b95a5;--ok:#3ddc84;--bad:#ff5c5c;--warn:#ffb020;--gold:#ffd24a;--line:#1e2633;--cy:#5ad1e6}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.6 -apple-system,system-ui,"PingFang SC","Microsoft YaHei",sans-serif;padding:14px}
+.wrap{max-width:820px;margin:0 auto}
+h1{font-size:20px;margin:0 0 4px}h2{font-size:15px;margin:18px 0 8px;color:var(--gold)}
+.sub{color:var(--dim);font-size:12px;margin-bottom:12px}
+.dim{color:var(--dim)}
+.card{background:#111722;border:1px solid var(--line);border-radius:12px;padding:12px;margin:8px 0;overflow-x:auto}
+.hero{background:linear-gradient(135deg,#1a1040,#0b2e3a);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin-bottom:10px}
+.pills{margin-top:10px}
+.pill{display:inline-block;background:rgba(255,255,255,.10);border-radius:18px;padding:4px 12px;font-size:12px;margin:3px 6px 0 0}
+.big{font-size:26px;font-weight:800;color:var(--cy)}
+table{width:100%;border-collapse:collapse}
+th{color:var(--cy);font-size:12px;text-align:left;padding:6px 8px;border-bottom:1px solid var(--line)}
+td{padding:6px 8px;border-bottom:1px solid var(--line);font-size:13px}
+td.v{color:var(--fg);font-weight:600}
+.pos{color:var(--ok);font-weight:600}.neg{color:var(--bad);font-weight:600}
+.ft{color:var(--dim);font-size:12px;margin-top:18px}
+code{background:#151b26;padding:1px 5px;border-radius:5px;font-size:11px}
+.tip{background:#151b26;border-left:3px solid var(--cy);padding:8px 10px;border-radius:6px;font-size:12px;color:var(--dim);margin:8px 0;line-height:1.8}
+</style></head><body><div class="wrap">
+<div class="hero">
+  <h1>🧬 WHP · 测试官</h1>
+  <div class="sub">独立子域门户 · 基因 100% 提取自 DSS 子引擎 · 独立隔离守护</div>
+  <div class="pills">
+    <span class="pill">模式 <b style="color:#a78bfa">模拟</b></span>
+    <span class="pill">状态 <b style="color:#3ddc84">在岗 21310</b></span>
+    <span class="pill">基因 <b>109 条 · DSS 100%</b></span>
+    <span class="pill">独立守护 <b style="color:#3ddc84">在岗 21202</b></span>
+    <span class="pill">🕐 2026-10-06 00:28:39</span>
+  </div>
+</div>
+
+<div class="tip">🔑 <b style="color:#ffb020">待接入 API Key</b> —— 现以<b>模拟</b>运行（内核自检拒真单，绝不会误下真钱单）；老板给 Key → 填入 <code>子引擎/accounts.json</code> 的 whp 条 → 守护自动转实盘。</div>
+
+<div class="card">
+  <h2 style="margin-top:0">📊 战况</h2>
+  <div>已实现：<b style="color:#3ddc84">+0.00</b> ｜ 平仓 <b>0</b> 笔 ｜ 胜率 <b>0%</b></div>
+  <div>当前持仓：<span class="dim">空仓</span></div>
+  <div style="margin-top:6px">资金池：<b class="big">500</b> <span class="dim">（模拟起始池）</span></div>
+</div>
+
+<h2>🧬 基因速览（关键项 · 全 109 条见 _基因_whp.sh）</h2>
+<div class="card"><table><tr><th>基因</th><th>值</th></tr><tr><td><code>SIM_POOL</code></td><td class="v">500</td></tr><tr><td><code>B2_HARD_CAP</code></td><td class="v">0.70</td></tr><tr><td><code>QILIN_LAST_DEFENSE</code></td><td class="v">-0.009</td></tr><tr><td><code>QILIN_EMERGENCY_STOP</code></td><td class="v">-0.02</td></tr><tr><td><code>ZX_ON</code></td><td class="v">1</td></tr><tr><td><code>ZX_PHASE_ON</code></td><td class="v">1</td></tr><tr><td><code>TONG_SHENG_ON</code></td><td class="v">1</td></tr><tr><td><code>TONG_SHENG_MIN</code></td><td class="v">0.4</td></tr><tr><td><code>YIJING_GATE_ON</code></td><td class="v">1</td></tr><tr><td><code>HALFM_ADAPT_ON</code></td><td class="v">1</td></tr><tr><td><code>SIGN_T4_MIN2</code></td><td class="v">0.5</td></tr></table></div>
+
+<h2>🛡 独立隔离</h2>
+<div class="card"><table>
+<tr><th>项</th><th>落点</th></tr>
+<tr><td>内核副本</td><td><code>子引擎/_内核_whp.py</code></td></tr>
+<tr><td>基因档</td><td><code>_基因_whp.sh</code></td></tr>
+<tr><td>账户</td><td><code>子引擎/accounts.json#whp</code></td></tr>
+<tr><td>专属锁</td><td><code>._sub_whp.lock</code></td></tr>
+<tr><td>独立守护</td><td><code>_守护_whp.sh</code>（专属锁/PID/日志 · 只托管 WHP）</td></tr>
+</table></div>
+
+<div class="ft">火印 <code>ED-20261006-465</code> · 老板令「准予执行，与六子并排，独立子域门户」<br>
+数据源 <code>_sub_whp_state.json</code> · 只读看板 · 不改判定链 · 不碰真钱<br>
+玄武灵犀 · 小奈 · 内 <code>sub/sub_whp.html</code> · 外 <code>/whp/</code></div>
+</div></body></html>
