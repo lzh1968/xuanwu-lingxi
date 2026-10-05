@@ -2,14 +2,20 @@
  "日期": "2026-10-05",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-05 14:57:54",
+  "updated": "2026-10-05 15:03:50",
   "chosen": "NEAR short",
   "nodes": [
    {
     "coin": "NEAR",
     "side": "short",
     "align": 3,
-    "embryo": 2.8
+    "embryo": 1.54
+   },
+   {
+    "coin": "ATOM",
+    "side": "long",
+    "align": 3,
+    "embryo": 1.3
    }
   ]
  }
