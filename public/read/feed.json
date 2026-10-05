@@ -1,8 +1,8 @@
 {
- "generated": "03:25",
- "built": "2026-10-06 03:25:26",
+ "generated": "03:32",
+ "built": "2026-10-06 03:32:14",
  "count": 77,
- "live_count": 54,
+ "live_count": 60,
  "items": [
   {
    "type": "live",
@@ -10,6 +10,22 @@
    "url": "https://news.ycombinator.com/item?id=49969181",
    "src": "Hacker News",
    "t": "03:16",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "法学硕士仅从先前的反馈中学会规避潜伏监视器",
+   "url": "https://arxiv.org/abs/2609.36490",
+   "src": "Hacker News",
+   "t": "03:04",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "评估LLM客服代表的记忆结构",
+   "url": "https://arxiv.org/abs/2602.11243",
+   "src": "Hacker News",
+   "t": "02:30",
    "fresh": true
   },
   {
@@ -38,34 +54,18 @@
   },
   {
    "type": "live",
+   "title": "The-engineering-behind-LLM-inference",
+   "url": "https://blog.x504.dev/p/the-engineering-behind-llm-inference",
+   "src": "Hacker News",
+   "t": "02:04",
+   "fresh": true
+  },
+  {
+   "type": "live",
    "title": "Metagente，适用于会说MCP和A2A的智能体的小型语言",
    "url": "https://github.com/cleuton/MetaAgent",
    "src": "Hacker News",
    "t": "01:03",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Show HN: Self-bench -真实世界软件上的基准编码代理",
-   "url": "https://github.com/mupt-ai/self-bench",
-   "src": "Hacker News",
-   "t": "00:58",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Show HN：开源本能",
-   "url": "https://github.com/mariagorskikh/open-instinct",
-   "src": "Hacker News",
-   "t": "00:15",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "anomalyco/opencode：开源编码智能体",
-   "url": "https://github.com/anomalyco/opencode",
-   "src": "GitHub 新星",
-   "t": "19:24",
    "fresh": false
   },
   {
