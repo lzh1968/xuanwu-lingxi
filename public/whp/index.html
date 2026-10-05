@@ -1,52 +1,80 @@
 <!DOCTYPE html>
 <html lang="zh"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
-<meta http-equiv="refresh" content="60">
-<meta name="theme-color" content="#0e1117">
-<title>🧬 WHP · 玄武灵犀</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="refresh" content="5">
+<title>WHP · 实盘门户 (测试官·DSS 100%基因·待Key)</title>
 <style>
-  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  *{box-sizing:border-box}
   html,body{max-width:100%;overflow-x:hidden}
-  body{background:#0e1117;color:#e6edf3;font-family:-apple-system,system-ui,sans-serif;margin:0;padding:16px 14px 40px;-webkit-text-size-adjust:100%}
-  .hd{text-align:center;margin:6px 0 18px}
-  .hd h1{font-size:20px;margin:0;letter-spacing:1px}
-  .hd p{font-size:11px;color:#8a94a3;margin:6px 0 0}
-  .card{background:#161b22;border:1px solid #21262d;border-radius:14px;padding:6px 12px;margin-bottom:14px}
-  .gt{font-size:12px;color:#8a94a3;padding:10px 2px 6px;font-weight:600}
-  .row{display:flex;align-items:center;gap:12px;padding:14px 4px;border-top:1px solid #21262d;text-decoration:none;color:#e6edf3}
-  .row:first-of-type{border-top:none}
-  .row:active{background:#21262d}
-  .ic{font-size:22px;width:30px;text-align:center;flex:none}
-  .tx{flex:1;display:flex;flex-direction:column;gap:2px;min-width:0}
-  .tx b{font-size:15px;font-weight:600}
-  .tx i{font-size:11px;color:#8a94a3;font-style:normal;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  .ar{color:#484f58;font-size:20px;flex:none}
-  .ft{text-align:center;font-size:10px;color:#484f58;margin-top:10px;line-height:1.9}
-  .oc{background:linear-gradient(180deg,#241c05,#161b22);border-color:#6b5316}
-  .ot{font-size:15px;font-weight:700;color:#ffd76a;padding:4px 2px 8px;letter-spacing:.5px}
-  .ol{font-size:12px;color:#cfd6de;line-height:1.7;padding:2px}
-  .of{font-size:10px;color:#8a94a3;padding:8px 2px 6px;border-top:1px solid #2b2410;margin-top:6px}
-  .dc{background:linear-gradient(180deg,#0b1f1c,#161b22);border-color:#1f6b53}
-  .dz{font-size:12px;color:#7ee2c0;line-height:1.7;padding:2px 2px 8px;font-weight:600}
-  .dg{font-size:12px;color:#cfe9e0;padding:6px 2px 0;font-weight:600}
-  .dl{font-size:11px;color:#98a6a1;line-height:1.6;padding:2px 2px 6px}
-  .dm{color:#5f7d74}
-  .tc{background:linear-gradient(180deg,#1a1405,#161b22);border-color:#5c4a12}
-  .tb{display:flex;align-items:center;gap:8px;padding:7px 2px;border-top:1px solid #21262d;font-size:12px}
-  .tb:first-of-type{border-top:none}
-  .tbm{width:16px;flex:none;text-align:center}
-  .tbn{flex:1;color:#cfd6de;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-  .tbv{color:#ffd76a;font-weight:700;font-variant-numeric:tabular-nums}
-  .tbw{color:#ff8080;font-size:10px}
-  .tbr{color:#8fd0ff;font-size:10px;flex:none}
-  .eb{background:#0f1720;border-color:#1f3b4d}
-  .ei{font-size:12px;color:#cfd6de;padding:5px 2px;line-height:1.6;word-break:break-all}
-  .el{color:#6cc7ff;text-decoration:none}
-  .nav{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:2px 0 14px}
-  .nav a{flex:1;min-width:88px;text-align:center;text-decoration:none;color:#cfd6de;font-size:12px;
-         background:#161b22;border:1px solid #21262d;border-radius:10px;padding:9px 6px}
-  .nav a:active{background:#21262d}
-  .bk{display:block;text-align:center;text-decoration:none;color:#6cc7ff;font-size:12px;margin:4px 0 14px}
+  body{background:#0e1117;color:#e6edf3;font-family:-apple-system,system-ui,sans-serif;margin:0;padding:14px;-webkit-text-size-adjust:100%}
+  .card{background:#161b22;border:1px solid #21262d;border-radius:12px;padding:14px;margin-bottom:12px}
+  h1{font-size:17px;margin:0 0 10px;line-height:1.4}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .kpi{background:#0d1117;border-radius:9px;padding:10px;text-align:center;overflow:hidden}
+  .kpi .v{font-size:20px;font-weight:700;word-break:break-all}
+  .kpi .l{font-size:11px;color:#8a94a3;margin-top:2px}
+  .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin-top:8px}
+  table{width:100%;border-collapse:collapse;font-size:12px;min-width:340px}
+  th,td{padding:5px 4px;text-align:left;border-bottom:1px solid #21262d;vertical-align:top}
+  th{color:#8a94a3;font-weight:500;font-size:11px;white-space:nowrap}
+  details>summary{cursor:pointer;font-size:13px;color:#8a94a3;padding:4px 0}
+  @media(max-width:400px){body{padding:10px}table{font-size:11px}th,td{padding:4px 3px}}</style></head><body>
+  .tag{display:inline-block;font-size:10px;padding:1px 7px;border-radius:9px;background:#1f6feb22;color:#58a6ff;margin-left:6px}
 </style></head><body>
-<div class='hd'><h1>🧬 WHP · 测试官</h1><p>DSS 100%基因 · 独立隔离守护</p></div><a class='bk' href='/m.html'>‹ 返回主页</a><div class='card'><div class='gt'>🧬 WHP 测试官 · 独立子域 <span style='color:#58a6ff;font-size:13px'>在岗 1/1</span></div><div class='ei'>基因 100% 提取自 DSS 子引擎 · 独立隔离守护 · 待接入 API Key</div><div class='ei'>外址 <b style='color:#58a6ff'>xuanwulingxi.top/whp/</b> · 只读</div></div><div class='card'><div class='gt'>WHP 明细</div><a class='row' href='/sub/sub_whp.html'><span class='ic'>🧬</span><span class='tx'><b>WHP 测试官</b> <span style='font-size:11px'><span style='color:#16a34a'>●在岗</span></span><i>测试官 · DSS 100%基因 · 独立隔离守护 · 待Key（模拟中）</i><span style='font-size:11px;color:#94a3b8;line-height:1.6'>真实权益 <b style='color:#58a6ff;font-size:14px'>$500 <span style="color:#94a3b8;font-size:11px">（模拟池·待Key）</span></b> · 持仓 空仓<br>净已实现 — <span style='color:#64748b;font-size:10px'>（账本口径）</span></span></span><span class='ar'>›</span></a></div><div class='ft'>更新 2026-10-06 00:37:14 · 每60秒刷新 · 只读看板<br>真钱账户不经本页做任何操作 · 待Key前仅模拟</div>
+
+<div class="card">
+  <h1>🧬 WHP · 实盘门户 (测试官·DSS 100%基因·待Key) <span class="tag">待机</span></h1>
+  <div style="font-size:12px;color:#8a94a3;margin-bottom:8px">独立门户 · 独立结算 · 二十一币(ADA/ARB/ATOM/AVAX/BNB/BTC/DOGE/DOT/ETH/FIL/INJ/LTC/NEAR/SEI/SOL/SUI/TIA/UNI/WLD/WLFI/XRP)多币择强</div>
+  
+  
+  <div class="grid">
+    <div class="kpi"><div class="v" style="color:#26a69a">+0.00</div><div class="l">已结算净盈亏 $</div></div>
+    <div class="kpi"><div class="v" style="color:#ef5350">0%</div><div class="l">🎯 交易胜率</div></div>
+    <div class="kpi"><div class="v">0</div><div class="l">已平仓笔数</div></div>
+    <div class="kpi"><div class="v">0<span style="color:#8a94a3;font-size:14px">/0</span></div><div class="l">盈 / 亏</div></div>
+    <div class="kpi"><div class="v">—</div><div class="l">盈亏比</div></div>
+    <div class="kpi"><div class="v">+0.0</div><div class="l">累计已实现 $</div></div>
+  </div>
+</div>
+
+<div class="card">
+  <div style="font-size:13px;margin-bottom:6px">📌 当前持仓 <span style="color:#f0b90b;font-size:11px">（实盘账本真身 · 数据更新于 00:39:53）</span></div>
+  <div style="color:#8a94a3;font-size:13px;padding:6px 0">空仓 · 等待信号(宁缺毋滥)</div>
+</div>
+
+<div class="card">
+  <details open>
+    <summary>📋 最近交易账本（独立结算 · 最近12笔 · 含成交日期时间）</summary>
+    <div class="tw">
+    <table>
+      <tr><th>时间</th><th>币</th><th>向</th><th>盈亏$</th><th>原因</th></tr>
+      <tr><td colspan='5' style='color:#8a94a3'>暂无平仓交易</td></tr>
+    </table>
+    </div>
+  </details>
+</div>
+
+
+
+<div class="card">
+  <details>
+    <summary>📊 结算明细（毛盈/毛亏）</summary>
+    <div style="font-size:12px;color:#8a94a3;line-height:1.9;margin-top:6px">
+      毛盈利：<span style="color:#26a69a">+0.00</span> $<br>
+      毛亏损：<span style="color:#ef5350">-0.00</span> $<br>
+      净结算：<span style="color:#26a69a">+0.00</span> $<br>
+      胜率：<span style="color:#ef5350">0.0%</span>（0盈 / 0亏 / 共0笔）<br>
+      盈亏比：—
+    </div>
+  </details>
+</div>
+
+<div style="text-align:center;font-size:11px;color:#484f58;margin-top:8px">
+  📊 数据更新于 00:39:53（账本每 60 秒同步一拍）· 页面每5秒自刷(<span id=cd>5</span>s) · 子引擎独立结算
+</div>
+<script>
+// ⏱ 实时倒计时(增强实时同步感): 每5秒自刷
+var _cd=5;var _el=document.getElementById('cd');
+setInterval(function(){_cd--;if(_cd<0)_cd=5;if(_el)_el.textContent=_cd;},1000);
+</script>
 </body></html>
