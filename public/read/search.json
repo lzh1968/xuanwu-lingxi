@@ -1,5 +1,5 @@
 {
- "built": "2026-10-06 00:44:09",
+ "built": "2026-10-06 00:46:41",
  "count": 117,
  "items": [
   {
@@ -819,6 +819,30 @@
    "x": ""
   },
   {
+   "t": "RNADyn：生成和理解RNA动力学的基准",
+   "u": "https://arxiv.org/abs/2610.03712v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:58",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "从混合到撕裂：通过消息传递进行分散优化中的图分解",
+   "u": "https://arxiv.org/abs/2610.03709v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "LESSER：使用输出层梯度进行训练后数据选择",
+   "u": "https://arxiv.org/abs/2610.03702v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:55",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "FrugalEvo：实现成本意识法学硕士指导计划的演变",
    "u": "https://arxiv.org/abs/2610.03675v1",
    "s": "外网新声·arXiv cs.AI",
@@ -827,10 +851,58 @@
    "x": ""
   },
   {
+   "t": "计划学习",
+   "u": "https://arxiv.org/abs/2610.03667v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:38",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Pivot-SD：掩蔽扩散语言模型的高效自蒸馏",
+   "u": "https://arxiv.org/abs/2610.03665v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:37",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "反事实模拟器推出的预测：Sim2Real评估",
+   "u": "https://arxiv.org/abs/2610.03662v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:37",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "MRVQ：维度和速率弹性矢量搜索的一个居民指数",
    "u": "https://arxiv.org/abs/2610.03651v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:33",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "土匪什么时候可以离开锚？非平稳性下的电子过程授权Thompson采样",
+   "u": "https://arxiv.org/abs/2610.03646v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:31",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "IDRF：掩蔽离散扩散模型的反蒸馏奖励微调",
+   "u": "https://arxiv.org/abs/2610.03641v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:29",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "欠完全线性自动编码器中的破碎尺度对称性",
+   "u": "https://arxiv.org/abs/2610.03640v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:29",
    "k": "",
    "x": ""
   },
@@ -863,78 +935,6 @@
    "u": "https://arxiv.org/abs/2610.03626v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:20",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "当正确的奖励不够时：在分析解决的经纪人-交易者博弈中诊断和指导PPO",
-   "u": "https://arxiv.org/abs/2610.03598v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:03",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "HazardWeaver：危害分析试剂的科学路线选择",
-   "u": "https://arxiv.org/abs/2610.03591v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "在客服代表安全基准中保留威胁表示的敏感性",
-   "u": "https://arxiv.org/abs/2610.03585v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "重新思考在几步扩散变压器中缓存的内容：解算器感知的目标选择",
-   "u": "https://arxiv.org/abs/2610.03577v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:51",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "HyperBrowseComp：针对网页浏览智能体的多语言和多模式压力测试",
-   "u": "https://arxiv.org/abs/2610.03574v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:48",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "GPT-6系列的模型指南",
-   "u": "https://openai.com/index/practical-guide-building-gpt-6",
-   "s": "外网新声·OpenAI 官方",
-   "d": "16:15",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "rasbt/LLMs-from-scratch：一步步用 PyTorch 从零实现类 ChatGPT 模型",
-   "u": "https://github.com/rasbt/LLMs-from-scratch",
-   "s": "外网新声·GitHub 新星",
-   "d": "14:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "秘密协助：有帮助的LLM代理人逃避多代理系统的监督",
-   "u": "https://arxiv.org/abs/2609.39050",
-   "s": "外网新声·Hacker News",
-   "d": "11:07",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "不要被愚弄- LLM不要讲道理",
-   "u": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "08:00",
    "k": "",
    "x": ""
   }
