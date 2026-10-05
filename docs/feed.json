@@ -1,9 +1,25 @@
 {
- "generated": "00:23",
- "built": "2026-10-06 00:23:23",
+ "generated": "00:29",
+ "built": "2026-10-06 00:29:56",
  "count": 77,
  "live_count": 54,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN：开源本能",
+   "url": "https://github.com/mariagorskikh/open-instinct",
+   "src": "Hacker News",
+   "t": "00:15",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN：剩菜– FOSS macOS应用程序在AI 智能体后进行清理",
+   "url": "https://github.com/arpwal/leftovers",
+   "src": "Hacker News",
+   "t": "00:07",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "询问HN：还有其他人喜欢Cursor的本地（ xAI ）模型吗？",
@@ -22,6 +38,14 @@
   },
   {
    "type": "live",
+   "title": "什么是智能体–底漆",
+   "url": "https://aweb.ai/blog/what-an-ai-agent-is-a-primer",
+   "src": "Hacker News",
+   "t": "23:14",
+   "fresh": true
+  },
+  {
+   "type": "live",
    "title": "Show HN：Recast，一个实验性的Smalltalk应用程序，使用LLM进行自我修复",
    "url": "https://github.com/rot13maxi/recast",
    "src": "Hacker News",
@@ -30,42 +54,18 @@
   },
   {
    "type": "live",
-   "title": "Show HN：Vibivibi –编码代理会话的端到端加密共享",
-   "url": "https://vibivibi.com/",
+   "title": "AgentLedger –在发生通话之前拒绝通话的支出上限",
+   "url": "https://aiagentscity.com/",
    "src": "Hacker News",
-   "t": "22:16",
+   "t": "22:56",
    "fresh": false
   },
   {
    "type": "live",
-   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "url": "https://github.com/NousResearch/hermes-agent",
-   "src": "GitHub 新星",
-   "t": "16:17",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "anomalyco/opencode：开源编码智能体",
-   "url": "https://github.com/anomalyco/opencode",
-   "src": "GitHub 新星",
-   "t": "16:12",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "url": "https://github.com/earendil-works/pi",
-   "src": "GitHub 新星",
-   "t": "16:05",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "url": "https://github.com/ggml-org/llama.cpp",
-   "src": "GitHub 新星",
-   "t": "15:55",
+   "title": "当pentester是智能体的舰队时：在一个自主的vuln狩猎中",
+   "url": "https://huntback.io/blog/ai-agents-running-offensive-security",
+   "src": "Hacker News",
+   "t": "22:50",
    "fresh": false
   },
   {
