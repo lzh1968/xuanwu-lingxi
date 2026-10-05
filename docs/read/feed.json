@@ -1,8 +1,8 @@
 {
- "generated": "23:54",
- "built": "2026-10-05 23:54:00",
- "count": 72,
- "live_count": 37,
+ "generated": "00:00",
+ "built": "2026-10-06 00:00:33",
+ "count": 74,
+ "live_count": 60,
  "items": [
   {
    "type": "live",
@@ -10,6 +10,14 @@
    "url": "https://aweb.ai/blog/what-an-ai-agent-is-a-primer",
    "src": "Hacker News",
    "t": "23:14",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN: Recast, an experimental Smalltalk app that repairs itself with an LLM",
+   "url": "https://github.com/rot13maxi/recast",
+   "src": "Hacker News",
+   "t": "23:08",
    "fresh": true
   },
   {
@@ -54,18 +62,26 @@
   },
   {
    "type": "live",
-   "title": "AI coding agents implemented six ways to update a Matter device on real hardware",
-   "url": "https://groundrun.io/blog/ai-agents-matter-ota-updates-esp32-h2/",
+   "title": "How to keep learning in the age of LLMs",
+   "url": "https://ogzhanolguncu.com/blog/how-to-keep-learning-in-the-age-of-llms/",
    "src": "Hacker News",
-   "t": "20:44",
+   "t": "21:01",
    "fresh": false
   },
   {
-   "type": "live",
-   "title": "One runaway AI agent racked up a $50k cloud bill",
-   "url": "https://www.helpnetsecurity.com/2026/09/16/google-mandiant-enterprise-ai-security-risks-report/",
-   "src": "Hacker News",
-   "t": "20:43",
+   "type": "article",
+   "title": "今日辑要 · 2026-10-06（前沿 12 条）",
+   "url": "a/digest-20261006.html",
+   "src": "Agent 与智能体",
+   "t": "2026-10-06",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "自治系统的\"慢变量\"",
+   "url": "a/note-20261006-1.html",
+   "src": "灵犀手记",
+   "t": "2026-10-06",
    "fresh": false
   },
   {
@@ -98,22 +114,6 @@
    "url": "a/note-20261005-3.html",
    "src": "华夏哲学 · 阴阳五行",
    "t": "2026-10-05",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "链上机制的可读性",
-   "url": "a/note-20261005-4.html",
-   "src": "Web3 · 链上世界",
-   "t": "2026-10-05",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "今日辑要 · 2026-10-04（前沿 12 条）",
-   "url": "a/digest-20261004.html",
-   "src": "Agent 与智能体",
-   "t": "2026-10-04",
    "fresh": false
   }
  ]
