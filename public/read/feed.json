@@ -1,12 +1,28 @@
 {
- "generated": "00:01",
- "built": "2026-10-06 00:01:16",
- "count": 74,
- "live_count": 60,
+ "generated": "00:08",
+ "built": "2026-10-06 00:08:18",
+ "count": 75,
+ "live_count": 54,
  "items": [
   {
    "type": "live",
-   "title": "What an AI agent is – a primer",
+   "title": "询问HN：还有其他人喜欢Cursor的本地（ xAI ）模型吗？",
+   "url": "https://news.ycombinator.com/item?id=49966668",
+   "src": "Hacker News",
+   "t": "00:03",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN: REI: ~ 370k参数LM生活在Game Boy颜色中",
+   "url": "https://github.com/crashtheuniverse/chatgbc",
+   "src": "Hacker News",
+   "t": "23:31",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "什么是智能体–底漆",
    "url": "https://aweb.ai/blog/what-an-ai-agent-is-a-primer",
    "src": "Hacker News",
    "t": "23:14",
@@ -14,7 +30,7 @@
   },
   {
    "type": "live",
-   "title": "Show HN: Recast, an experimental Smalltalk app that repairs itself with an LLM",
+   "title": "Show HN：Recast，一个实验性的Smalltalk应用程序，使用LLM进行自我修复",
    "url": "https://github.com/rot13maxi/recast",
    "src": "Hacker News",
    "t": "23:08",
@@ -38,34 +54,18 @@
   },
   {
    "type": "live",
+   "title": "Show HN: Vibivibi – End-to-end encrypted sharing of Coding Agent sessions",
+   "url": "https://vibivibi.com/",
+   "src": "Hacker News",
+   "t": "22:16",
+   "fresh": false
+  },
+  {
+   "type": "live",
    "title": "自主智能体的BGP启发身份网络",
    "url": "https://medium.com/ai-advances/a-bgp-inspired-identity-network-for-autonomous-ai-agents-e92ad4f95971",
    "src": "Hacker News",
    "t": "22:07",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "How we built a browser agent with Jev instead of an LLM",
-   "url": "https://ironbee.ai/blog/how-we-built-the-fastest-cheapest-browser-agent-with-jev",
-   "src": "Hacker News",
-   "t": "22:00",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Give your agent a valet key",
-   "url": "https://tenuo.ai/blog/give-your-agent-a-valet-key.html",
-   "src": "Hacker News",
-   "t": "21:48",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "How to keep learning in the age of LLMs",
-   "url": "https://ogzhanolguncu.com/blog/how-to-keep-learning-in-the-age-of-llms/",
-   "src": "Hacker News",
-   "t": "21:01",
    "fresh": false
   },
   {
@@ -81,6 +81,14 @@
    "title": "自治系统的\"慢变量\"",
    "url": "a/note-20261006-1.html",
    "src": "灵犀手记",
+   "t": "2026-10-06",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "关于\"记忆\"的三种用法",
+   "url": "a/note-20261006-2.html",
+   "src": "Agent 与智能体",
    "t": "2026-10-06",
    "fresh": false
   },
@@ -105,14 +113,6 @@
    "title": "关于\"记忆\"的三种用法",
    "url": "a/note-20261005-2.html",
    "src": "Agent 与智能体",
-   "t": "2026-10-05",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "阴阳与反馈环",
-   "url": "a/note-20261005-3.html",
-   "src": "华夏哲学 · 阴阳五行",
    "t": "2026-10-05",
    "fresh": false
   }
