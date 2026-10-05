@@ -1,16 +1,26 @@
 {
  "日期": "2026-10-06",
- "落盘": "2026-10-06 00:00:39",
+ "落盘": "2026-10-06 00:08:33",
  "条数": 14,
- "live": 60,
+ "live": 54,
  "条目": [
   {
-   "title": "What an AI agent is – a primer",
+   "title": "询问HN：还有其他人喜欢Cursor的本地（ xAI ）模型吗？",
+   "url": "https://news.ycombinator.com/item?id=49966668",
+   "type": "live"
+  },
+  {
+   "title": "Show HN: REI: ~ 370k参数LM生活在Game Boy颜色中",
+   "url": "https://github.com/crashtheuniverse/chatgbc",
+   "type": "live"
+  },
+  {
+   "title": "什么是智能体–底漆",
    "url": "https://aweb.ai/blog/what-an-ai-agent-is-a-primer",
    "type": "live"
   },
   {
-   "title": "Show HN: Recast, an experimental Smalltalk app that repairs itself with an LLM",
+   "title": "Show HN：Recast，一个实验性的Smalltalk应用程序，使用LLM进行自我修复",
    "url": "https://github.com/rot13maxi/recast",
    "type": "live"
   },
@@ -25,23 +35,13 @@
    "type": "live"
   },
   {
+   "title": "Show HN: Vibivibi – End-to-end encrypted sharing of Coding Agent sessions",
+   "url": "https://vibivibi.com/",
+   "type": "live"
+  },
+  {
    "title": "自主智能体的BGP启发身份网络",
    "url": "https://medium.com/ai-advances/a-bgp-inspired-identity-network-for-autonomous-ai-agents-e92ad4f95971",
-   "type": "live"
-  },
-  {
-   "title": "How we built a browser agent with Jev instead of an LLM",
-   "url": "https://ironbee.ai/blog/how-we-built-the-fastest-cheapest-browser-agent-with-jev",
-   "type": "live"
-  },
-  {
-   "title": "Give your agent a valet key",
-   "url": "https://tenuo.ai/blog/give-your-agent-a-valet-key.html",
-   "type": "live"
-  },
-  {
-   "title": "How to keep learning in the age of LLMs",
-   "url": "https://ogzhanolguncu.com/blog/how-to-keep-learning-in-the-age-of-llms/",
    "type": "live"
   },
   {
@@ -52,6 +52,11 @@
   {
    "title": "自治系统的\"慢变量\"",
    "url": "a/note-20261006-1.html",
+   "type": "article"
+  },
+  {
+   "title": "关于\"记忆\"的三种用法",
+   "url": "a/note-20261006-2.html",
    "type": "article"
   },
   {
@@ -67,11 +72,6 @@
   {
    "title": "关于\"记忆\"的三种用法",
    "url": "a/note-20261005-2.html",
-   "type": "article"
-  },
-  {
-   "title": "阴阳与反馈环",
-   "url": "a/note-20261005-3.html",
    "type": "article"
   }
  ]
