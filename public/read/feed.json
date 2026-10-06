@@ -1,9 +1,17 @@
 {
- "generated": "23:54",
- "built": "2026-10-06 23:54:20",
- "count": 79,
- "live_count": 60,
+ "generated": "00:01",
+ "built": "2026-10-07 00:01:22",
+ "count": 81,
+ "live_count": 50,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN：AI断路器–反向代理以停止代理无限循环",
+   "url": "https://circuit-breaker-sage.vercel.app/",
+   "src": "Hacker News",
+   "t": "23:59",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Show HN: OpenChart – OSS TradingView alternative with your own AI agent",
@@ -50,7 +58,7 @@
    "url": "https://github.com/alexellis/rigmark",
    "src": "Hacker News",
    "t": "22:25",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,22 @@
    "url": "https://orbtile.com/?s=hn",
    "src": "Hacker News",
    "t": "22:24",
-   "fresh": true
+   "fresh": false
   },
   {
-   "type": "live",
-   "title": "Show HN: Tinyhat, per-specialist memory for multi-agent Muse (open source)",
-   "url": "https://github.com/tinyhat-ai/muse-office",
-   "src": "Hacker News",
-   "t": "22:11",
+   "type": "article",
+   "title": "今日辑要 · 2026-10-07（前沿 12 条）",
+   "url": "a/digest-20261007.html",
+   "src": "Agent 与智能体",
+   "t": "2026-10-07",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "自治系统的\"慢变量\"",
+   "url": "a/note-20261007-1.html",
+   "src": "灵犀手记",
+   "t": "2026-10-07",
    "fresh": false
   },
   {
@@ -97,22 +113,6 @@
    "title": "自治系统的\"慢变量\"",
    "url": "a/note-20261006-1.html",
    "src": "灵犀手记",
-   "t": "2026-10-06",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "关于\"记忆\"的三种用法",
-   "url": "a/note-20261006-2.html",
-   "src": "Agent 与智能体",
-   "t": "2026-10-06",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "阴阳与反馈环",
-   "url": "a/note-20261006-3.html",
-   "src": "华夏哲学 · 阴阳五行",
    "t": "2026-10-06",
    "fresh": false
   }
