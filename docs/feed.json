@@ -1,8 +1,8 @@
 {
- "generated": "13:18",
- "built": "2026-10-06 13:18:08",
+ "generated": "13:24",
+ "built": "2026-10-06 13:24:34",
  "count": 77,
- "live_count": 37,
+ "live_count": 60,
  "items": [
   {
    "type": "live",
@@ -10,6 +10,22 @@
    "url": "https://www.abc.net.au/news/2026-10-06/inside-the-life-of-chinese-gig-workers/107209244",
    "src": "Hacker News",
    "t": "13:11",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Ask HN: What brings you back to personal AI agents like Instinct and Muse?",
+   "url": "https://news.ycombinator.com/item?id=49974436",
+   "src": "Hacker News",
+   "t": "13:10",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "How LiteLLM Lens finds repeated failures across 1,000s of agent traces",
+   "url": "https://docs.litellm.ai/blog/lens-failure-patterns",
+   "src": "Hacker News",
+   "t": "12:11",
    "fresh": true
   },
   {
@@ -30,42 +46,26 @@
   },
   {
    "type": "live",
-   "title": "2026年法学硕士搜索引擎优化工具：每个工具跟踪的内容",
-   "url": "https://picked.so/blog/llm-seo-tools",
+   "title": "Show HN：Moching -具有219个内置工具的AI桌面代理（ Rust ）",
+   "url": "https://github.com/moching-ai-dev/moching",
    "src": "Hacker News",
-   "t": "07:24",
+   "t": "10:00",
    "fresh": false
   },
   {
    "type": "live",
-   "title": "Base Models Can Reason By Taking a Cue From Training Data",
-   "url": "https://arxiv.org/abs/2610.06851v1",
-   "src": "arXiv cs.LG",
-   "t": "17:59",
+   "title": "Show HN: AI Agents: Zero to Hero –在纯Python中从头开始学习AI Agents",
+   "url": "https://github.com/tradertanmay/ai-agents-zero-to-hero",
+   "src": "Hacker News",
+   "t": "09:49",
    "fresh": false
   },
   {
    "type": "live",
-   "title": "Learning to Read the Contextual Tokens in Diffusion Transformers",
-   "url": "https://arxiv.org/abs/2610.06844v1",
-   "src": "arXiv cs.LG",
-   "t": "17:59",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Direct Intermediate Initialization for Tilted Diffusion Samplers",
-   "url": "https://arxiv.org/abs/2610.06834v1",
-   "src": "arXiv cs.LG",
-   "t": "17:58",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Towards Looped Models Done Right, Part II: Rethinking at Fixed Points",
-   "url": "https://arxiv.org/abs/2610.06833v1",
-   "src": "arXiv cs.LG",
-   "t": "17:58",
+   "title": "Schema-guard，阻止AI 智能体在SQL中发明列名",
+   "url": "https://github.com/idk-arsh/schema-guard",
+   "src": "Hacker News",
+   "t": "08:46",
    "fresh": false
   },
   {
