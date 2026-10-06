@@ -1,5 +1,5 @@
 {
- "built": "2026-10-06 23:31:53",
+ "built": "2026-10-06 23:54:20",
  "count": 119,
  "items": [
   {
@@ -643,6 +643,22 @@
    "x": ""
   },
   {
+   "t": "What agent traces can tell you without an LLM judge",
+   "u": "https://arize.com/blog/agent-traces-without-llm-judge/",
+   "s": "外网新声·Hacker News",
+   "d": "23:10",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Remove revenue tax on Kotlin, Swift, TypeScript and Go based apps",
+   "u": "https://news.ycombinator.com/item?id=49979536",
+   "s": "外网新声·Hacker News",
+   "d": "23:01",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Show HN: Aether: Check and fix web accessibility issues from your coding agent",
    "u": "https://github.com/allchemylabs/aether-wcag-scanner",
    "s": "外网新声·Hacker News",
@@ -691,10 +707,26 @@
    "x": ""
   },
   {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "15:29",
+   "t": "Show HN: I turned Andrej Karpathy's tips on understanding LLM output into Skill",
+   "u": "https://github.com/ajithraghavan/make-it-click",
+   "s": "外网新声·Hacker News",
+   "d": "22:03",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Split-boundary leaks in streaming LLM guardrails",
+   "u": "https://llmshieldproxy.com/docs/split-boundary-leaks/",
+   "s": "外网新声·Hacker News",
+   "d": "21:24",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Thirteen LLMs asked the same 76 sourced questions, with and without web search",
+   "u": "https://llmquorum.aidataforager.com",
+   "s": "外网新声·Hacker News",
+   "d": "21:07",
    "k": "",
    "x": ""
   },
@@ -702,7 +734,7 @@
    "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
    "u": "https://github.com/earendil-works/pi",
    "s": "外网新声·GitHub 新星",
-   "d": "15:27",
+   "d": "15:53",
    "k": "",
    "x": ""
   },
@@ -710,7 +742,23 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "15:26",
+   "d": "15:52",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "15:49",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "obra/superpowers —有效的代理技能框架和软件开发方法。",
+   "u": "https://github.com/obra/superpowers",
+   "s": "外网新声·GitHub 新星",
+   "d": "15:47",
    "k": "",
    "x": ""
   },
@@ -731,25 +779,25 @@
    "x": ""
   },
   {
-   "t": "obra/superpowers —有效的代理技能框架和软件开发方法。",
-   "u": "https://github.com/obra/superpowers",
+   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "u": "https://github.com/Dao-AILab/flash-attention",
    "s": "外网新声·GitHub 新星",
-   "d": "05:15",
+   "d": "02:42",
    "k": "",
    "x": ""
   },
   {
-   "t": "Show HN：Kiro的多代理包",
-   "u": "https://github.com/amergrgic/kodama",
-   "s": "外网新声·Hacker News",
-   "d": "02:18",
+   "t": "One Figure, Every Canvas: Editable Flowchart Relayout via Agentic Pipeline",
+   "u": "https://arxiv.org/abs/2610.06852v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:59",
    "k": "",
    "x": ""
   },
   {
    "t": "Base Models Can Reason By Taking a Cue From Training Data",
    "u": "https://arxiv.org/abs/2610.06851v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
    "k": "",
    "x": ""
@@ -757,7 +805,15 @@
   {
    "t": "Learning to Read the Contextual Tokens in Diffusion Transformers",
    "u": "https://arxiv.org/abs/2610.06844v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Recursive Video In-Context Learning for Agentic Robot",
+   "u": "https://arxiv.org/abs/2610.06843v1",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
    "k": "",
    "x": ""
@@ -781,7 +837,7 @@
   {
    "t": "MemPilot: Orchestrating On-Demand Multimodal Memory Curation for LLM Agents",
    "u": "https://arxiv.org/abs/2610.06830v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:58",
    "k": "",
    "x": ""
@@ -789,7 +845,15 @@
   {
    "t": "CLIFT: Conformal Self-Verification for Web Agent Training and Test-Time Scaling",
    "u": "https://arxiv.org/abs/2610.06829v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "TasteVal: Measuring the Experimental Research Taste of AI Systems Against Human Experts",
+   "u": "https://arxiv.org/abs/2610.06824v1",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:57",
    "k": "",
    "x": ""
@@ -799,6 +863,22 @@
    "u": "https://arxiv.org/abs/2610.06805v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:53",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "MC-Sparse: Deconstructing and Closing the Dense-Sparse Attention Gap in Diffusion Transformers",
+   "u": "https://arxiv.org/abs/2610.06801v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:51",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification",
+   "u": "https://arxiv.org/abs/2610.06790v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:48",
    "k": "",
    "x": ""
   },
@@ -823,6 +903,22 @@
    "u": "https://arxiv.org/abs/2610.06770v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:40",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Balancing Memory Pathways: Analyzing and Improving Memory Utilization in Hybrid LMs",
+   "u": "https://arxiv.org/abs/2610.06750v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:27",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "BazaarBench: Delegation Safety in Decentralized C2C Marketplaces Run by LLM Agents",
+   "u": "https://arxiv.org/abs/2610.06748v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:26",
    "k": "",
    "x": ""
   },
@@ -855,102 +951,6 @@
    "u": "https://github.com/affaan-m/ECC",
    "s": "外网新声·GitHub 新星",
    "d": "04:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "TauricResearch/TradingAgents — TradingAgents：多代理LLM金融交易框架",
-   "u": "https://github.com/TauricResearch/TradingAgents",
-   "s": "外网新声·GitHub 新星",
-   "d": "21:30",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN: Bise –专为人类打造的多智能体线束",
-   "u": "https://bise.dev/",
-   "s": "外网新声·Hacker News",
-   "d": "22:17",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：Kodama – Kiro的多药剂包",
-   "u": "https://github.com/amergrgic/kodama",
-   "s": "外网新声·Hacker News",
-   "d": "18:08",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "GPT-6系列的模型指南",
-   "u": "https://openai.com/index/practical-guide-building-gpt-6",
-   "s": "外网新声·OpenAI 官方",
-   "d": "16:15",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "rasbt/LLMs-from-scratch：一步步用 PyTorch 从零实现类 ChatGPT 模型",
-   "u": "https://github.com/rasbt/LLMs-from-scratch",
-   "s": "外网新声·GitHub 新星",
-   "d": "14:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "秘密协助：有帮助的LLM代理人逃避多代理系统的监督",
-   "u": "https://arxiv.org/abs/2609.39050",
-   "s": "外网新声·Hacker News",
-   "d": "11:07",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "不要被愚弄- LLM不要讲道理",
-   "u": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "08:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "问HN：当您添加第二个客服代表时，出现了什么问题？",
-   "u": "https://news.ycombinator.com/item?id=49924268",
-   "s": "外网新声·Hacker News",
-   "d": "01:03",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：多药剂的协调和耐久层",
-   "u": "https://cellaflow.com",
-   "s": "外网新声·Hacker News",
-   "d": "00:06",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "永恒的补充",
-   "u": "https://openai.com/index/the-eternal-complement",
-   "s": "外网新声·OpenAI 官方",
-   "d": "17:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "非凡的多智能体错觉和人群的疯狂",
-   "u": "https://freesystems.substack.com/p/extraordinary-multi-agent-delusions",
-   "s": "外网新声·Hacker News",
-   "d": "01:24",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
-   "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-   "s": "外网新声·GitHub 新星",
-   "d": "20:31",
    "k": "",
    "x": ""
   }
