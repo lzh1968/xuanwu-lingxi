@@ -2,14 +2,26 @@
  "日期": "2026-10-06",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-06 17:32:10",
-  "chosen": "ADA long",
+  "updated": "2026-10-06 17:38:57",
+  "chosen": "ETH long",
   "nodes": [
    {
-    "coin": "ADA",
+    "coin": "ETH",
+    "side": "long",
+    "align": 2,
+    "embryo": 3.3
+   },
+   {
+    "coin": "INJ",
     "side": "long",
     "align": 3,
-    "embryo": 3.5
+    "embryo": 2.9
+   },
+   {
+    "coin": "WLFI",
+    "side": "long",
+    "align": 3,
+    "embryo": 2.7
    }
   ]
  }
