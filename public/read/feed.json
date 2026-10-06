@@ -1,23 +1,63 @@
 {
- "generated": "21:01",
- "built": "2026-10-06 21:01:13",
+ "generated": "21:08",
+ "built": "2026-10-06 21:08:14",
  "count": 77,
- "live_count": 54,
+ "live_count": 53,
  "items": [
   {
    "type": "live",
-   "title": "KI-LLM Has Reached the Pareto Frontier of Recklessness",
-   "url": "https://killm.pixlw.com/",
+   "title": "VMPal – Virtual Machines for Apple Silicon and AI Agents",
+   "url": "https://vmpal.com/",
    "src": "Hacker News",
-   "t": "18:02",
+   "t": "20:30",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Hermes Agent on Kubernetes: no Helm chart, and the image needs root at init",
+   "url": "https://www.revos.ai/blog/hermes-agent-kubernetes",
+   "src": "Hacker News",
+   "t": "20:26",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Monitoring an AI agent trains it to evade the monitor (100-day simulation)",
+   "url": "https://aixiv.science/abs/aixiv.261005.000003",
+   "src": "Hacker News",
+   "t": "20:06",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN: Golem – Zero-dependency, type-safe AI agent framework in pure Go",
+   "url": "https://github.com/abubakarsiddik31/golem",
+   "src": "Hacker News",
+   "t": "19:55",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN: Tofu – let your agent deploy full-stack apps",
+   "url": "https://trytofu.ai",
+   "src": "Hacker News",
+   "t": "19:12",
    "fresh": false
   },
   {
    "type": "live",
-   "title": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
-   "url": "https://github.com/mattpocock/skills",
-   "src": "GitHub 新星",
-   "t": "12:56",
+   "title": "两种类型的人工智能智能体",
+   "url": "https://matthiasplappert.com/blog/2026/two-agent-types/",
+   "src": "Hacker News",
+   "t": "16:05",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "Show HN: Manage Skills, Memories, and Agents.md Files Across Tools and Projects",
+   "url": "https://github.com/mjalalimanesh/skillhub-local",
+   "src": "Hacker News",
+   "t": "15:35",
    "fresh": false
   },
   {
@@ -25,47 +65,7 @@
    "title": "NousResearch/hermes-agent：与你一起成长的智能体",
    "url": "https://github.com/NousResearch/hermes-agent",
    "src": "GitHub 新星",
-   "t": "12:50",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "url": "https://github.com/ggml-org/llama.cpp",
-   "src": "GitHub 新星",
-   "t": "12:42",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "anomalyco/opencode：开源编码智能体",
-   "url": "https://github.com/anomalyco/opencode",
-   "src": "GitHub 新星",
-   "t": "12:32",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "url": "https://github.com/earendil-works/pi",
-   "src": "GitHub 新星",
-   "t": "11:51",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "obra/superpowers —有效的代理技能框架和软件开发方法。",
-   "url": "https://github.com/obra/superpowers",
-   "src": "GitHub 新星",
-   "t": "05:15",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
-   "url": "https://github.com/Dao-AILab/flash-attention",
-   "src": "GitHub 新星",
-   "t": "02:42",
+   "t": "13:01",
    "fresh": false
   },
   {
