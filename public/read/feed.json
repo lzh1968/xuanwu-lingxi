@@ -1,9 +1,17 @@
 {
- "generated": "00:02",
- "built": "2026-10-07 00:02:37",
- "count": 81,
- "live_count": 50,
+ "generated": "00:09",
+ "built": "2026-10-07 00:09:03",
+ "count": 82,
+ "live_count": 58,
  "items": [
+  {
+   "type": "live",
+   "title": "问HN：为什么每个人都是LLM专家？",
+   "url": "https://news.ycombinator.com/item?id=49980529",
+   "src": "Hacker News",
+   "t": "00:07",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Show HN：AI断路器–反向代理以停止代理无限循环",
@@ -61,14 +69,6 @@
    "fresh": false
   },
   {
-   "type": "live",
-   "title": "Show HN: Orbtile – See which AI coding agent needs you, on a Logitech keypad",
-   "url": "https://orbtile.com/?s=hn",
-   "src": "Hacker News",
-   "t": "22:24",
-   "fresh": false
-  },
-  {
    "type": "article",
    "title": "今日辑要 · 2026-10-07（前沿 12 条）",
    "url": "a/digest-20261007.html",
@@ -81,6 +81,14 @@
    "title": "自治系统的\"慢变量\"",
    "url": "a/note-20261007-1.html",
    "src": "灵犀手记",
+   "t": "2026-10-07",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "关于\"记忆\"的三种用法",
+   "url": "a/note-20261007-2.html",
+   "src": "Agent 与智能体",
    "t": "2026-10-07",
    "fresh": false
   },
@@ -105,14 +113,6 @@
    "title": "读经三卷 · 心得汇编",
    "url": "a/jingdian-xinde-20261006.html",
    "src": "华夏哲学 · 阴阳五行",
-   "t": "2026-10-06",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "自治系统的\"慢变量\"",
-   "url": "a/note-20261006-1.html",
-   "src": "灵犀手记",
    "t": "2026-10-06",
    "fresh": false
   }
