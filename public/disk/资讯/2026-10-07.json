@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-07",
- "落盘": "2026-10-07 00:43:12",
+ "落盘": "2026-10-07 00:51:08",
  "条数": 14,
- "live": 60,
+ "live": 8,
  "条目": [
+  {
+   "title": "We built the sandboxes our agents run in",
+   "url": "https://www.qawolf.com/blog/every-ai-agent-its-own-computer",
+   "type": "live"
+  },
   {
    "title": "我给了一个智能体一个bug 11次。6次提交有它从来不知道的文件",
    "url": "https://junayed.com/blog/same-bug-eleven-times/",
@@ -20,11 +25,6 @@
    "type": "live"
   },
   {
-   "title": "问HN：为什么每个人都是LLM专家？",
-   "url": "https://news.ycombinator.com/item?id=49980529",
-   "type": "live"
-  },
-  {
    "title": "Show HN：AI断路器–反向代理以停止代理无限循环",
    "url": "https://circuit-breaker-sage.vercel.app/",
    "type": "live"
@@ -35,13 +35,13 @@
    "type": "live"
   },
   {
-   "title": "在没有LLM评委的情况下，客服代表可以告诉您哪些信息",
-   "url": "https://arize.com/blog/agent-traces-without-llm-judge/",
+   "title": "Show HN: Aether：从您的编码代理检查并修复网络可访问性问题",
+   "url": "https://github.com/allchemylabs/aether-wcag-scanner",
    "type": "live"
   },
   {
-   "title": "免除基于Kotlin、Swift、TypeScript和Go的应用程序的收入税",
-   "url": "https://news.ycombinator.com/item?id=49979536",
+   "title": "Show HN: Langgraph-harness - GitLab合并请求的自托管AI 智能体",
+   "url": "https://github.com/vrajpal-jhala/langgraph-harness",
    "type": "live"
   },
   {
