@@ -1,23 +1,31 @@
 {
- "generated": "22:01",
- "built": "2026-10-06 22:01:18",
+ "generated": "22:07",
+ "built": "2026-10-06 22:07:39",
  "count": 77,
- "live_count": 51,
+ "live_count": 19,
  "items": [
+  {
+   "type": "live",
+   "title": "The WarGames problem: AI agents don't go rogue",
+   "url": "https://mappingignorance.org/2026/10/06/the-wargames-problem-ai-agents-dont-go-rogue/",
+   "src": "Hacker News",
+   "t": "22:05",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN: I turned Andrej Karpathy's tips on understanding LLM output into Skill",
+   "url": "https://github.com/ajithraghavan/make-it-click",
+   "src": "Hacker News",
+   "t": "22:03",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Show HN: Strava for AI agents, they train for trust instead of fitness",
    "url": "https://sealkeeper.run",
    "src": "Hacker News",
    "t": "21:55",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Split-boundary leaks in streaming LLM guardrails",
-   "url": "https://llmshieldproxy.com/docs/split-boundary-leaks/",
-   "src": "Hacker News",
-   "t": "21:24",
    "fresh": true
   },
   {
@@ -30,19 +38,11 @@
   },
   {
    "type": "live",
-   "title": "Thirteen LLMs asked the same 76 sourced questions, with and without web search",
-   "url": "https://llmquorum.aidataforager.com",
-   "src": "Hacker News",
-   "t": "21:07",
-   "fresh": true
-  },
-  {
-   "type": "live",
    "title": "VMPal – Virtual Machines for Apple Silicon and AI Agents",
    "url": "https://vmpal.com/",
    "src": "Hacker News",
    "t": "20:30",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",

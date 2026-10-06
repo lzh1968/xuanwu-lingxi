@@ -1,6 +1,6 @@
 {
- "built": "2026-10-06 22:01:18",
- "count": 117,
+ "built": "2026-10-06 22:07:39",
+ "count": 96,
  "items": [
   {
    "t": "今日辑要 · 2026-10-06（前沿 12 条）",
@@ -619,6 +619,22 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "The WarGames problem: AI agents don't go rogue",
+   "u": "https://mappingignorance.org/2026/10/06/the-wargames-problem-ai-agents-dont-go-rogue/",
+   "s": "外网新声·Hacker News",
+   "d": "22:05",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN: I turned Andrej Karpathy's tips on understanding LLM output into Skill",
+   "u": "https://github.com/ajithraghavan/make-it-click",
+   "s": "外网新声·Hacker News",
+   "d": "22:03",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Show HN: Strava for AI agents, they train for trust instead of fitness",
    "u": "https://sealkeeper.run",
    "s": "外网新声·Hacker News",
@@ -627,26 +643,10 @@
    "x": ""
   },
   {
-   "t": "Split-boundary leaks in streaming LLM guardrails",
-   "u": "https://llmshieldproxy.com/docs/split-boundary-leaks/",
-   "s": "外网新声·Hacker News",
-   "d": "21:24",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Agy-ppt – agent skill for PowerPoint decks without the AI-slop look",
    "u": "https://github.com/sujunmin/agy-ppt",
    "s": "外网新声·Hacker News",
    "d": "21:12",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Thirteen LLMs asked the same 76 sourced questions, with and without web search",
-   "u": "https://llmquorum.aidataforager.com",
-   "s": "外网新声·Hacker News",
-   "d": "21:07",
    "k": "",
    "x": ""
   },
@@ -679,54 +679,6 @@
    "u": "https://github.com/abubakarsiddik31/golem",
    "s": "外网新声·Hacker News",
    "d": "19:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN: Tofu – let your agent deploy full-stack apps",
-   "u": "https://trytofu.ai",
-   "s": "外网新声·Hacker News",
-   "d": "19:12",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "两种类型的人工智能智能体",
-   "u": "https://matthiasplappert.com/blog/2026/two-agent-types/",
-   "s": "外网新声·Hacker News",
-   "d": "16:05",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "u": "https://github.com/earendil-works/pi",
-   "s": "外网新声·GitHub 新星",
-   "d": "13:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
-   "s": "外网新声·GitHub 新星",
-   "d": "13:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
-   "u": "https://github.com/Dao-AILab/flash-attention",
-   "s": "外网新声·GitHub 新星",
-   "d": "02:42",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：Kiro的多代理包",
-   "u": "https://github.com/amergrgic/kodama",
-   "s": "外网新声·Hacker News",
-   "d": "02:18",
    "k": "",
    "x": ""
   },
@@ -815,126 +767,6 @@
    "u": "https://arxiv.org/abs/2610.06748v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:26",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "将智能体与企业知识联系起来",
-   "u": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "15:47",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "将预测分析引入代理人工智能时代",
-   "u": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "13:29",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "人们真的很讨厌人工智能，为什么他们得不到足够的呢？",
-   "u": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "08:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "TauricResearch/TradingAgents — TradingAgents：多代理LLM金融交易框架",
-   "u": "https://github.com/TauricResearch/TradingAgents",
-   "s": "外网新声·GitHub 新星",
-   "d": "21:30",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN: Bise –专为人类打造的多智能体线束",
-   "u": "https://bise.dev/",
-   "s": "外网新声·Hacker News",
-   "d": "22:17",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：Kodama – Kiro的多药剂包",
-   "u": "https://github.com/amergrgic/kodama",
-   "s": "外网新声·Hacker News",
-   "d": "18:08",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "GPT-6系列的模型指南",
-   "u": "https://openai.com/index/practical-guide-building-gpt-6",
-   "s": "外网新声·OpenAI 官方",
-   "d": "16:15",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "rasbt/LLMs-from-scratch：一步步用 PyTorch 从零实现类 ChatGPT 模型",
-   "u": "https://github.com/rasbt/LLMs-from-scratch",
-   "s": "外网新声·GitHub 新星",
-   "d": "14:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "秘密协助：有帮助的LLM代理人逃避多代理系统的监督",
-   "u": "https://arxiv.org/abs/2609.39050",
-   "s": "外网新声·Hacker News",
-   "d": "11:07",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "不要被愚弄- LLM不要讲道理",
-   "u": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "08:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "问HN：当您添加第二个客服代表时，出现了什么问题？",
-   "u": "https://news.ycombinator.com/item?id=49924268",
-   "s": "外网新声·Hacker News",
-   "d": "01:03",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：多药剂的协调和耐久层",
-   "u": "https://cellaflow.com",
-   "s": "外网新声·Hacker News",
-   "d": "00:06",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "永恒的补充",
-   "u": "https://openai.com/index/the-eternal-complement",
-   "s": "外网新声·OpenAI 官方",
-   "d": "17:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "非凡的多智能体错觉和人群的疯狂",
-   "u": "https://freesystems.substack.com/p/extraordinary-multi-agent-delusions",
-   "s": "外网新声·Hacker News",
-   "d": "01:24",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
-   "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-   "s": "外网新声·GitHub 新星",
-   "d": "20:31",
    "k": "",
    "x": ""
   }
