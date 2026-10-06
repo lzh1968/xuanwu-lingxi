@@ -1,6 +1,6 @@
 {
- "built": "2026-10-07 05:13:21",
- "count": 124,
+ "built": "2026-10-07 05:27:00",
+ "count": 97,
  "items": [
   {
    "t": "今日辑要 · 2026-10-07（前沿 12 条）",
@@ -683,14 +683,6 @@
    "x": ""
   },
   {
-   "t": "ALoDLM：自适应循环扩散语言模型",
-   "u": "https://alo-dlm.github.io/",
-   "s": "外网新声·Hacker News",
-   "d": "04:28",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Meta的Muse AI 智能体正在为您构建档案",
    "u": "https://time.com/article/2026/10/06/meta-muse-ai-agent-privacy/",
    "s": "外网新声·Hacker News",
@@ -715,34 +707,10 @@
    "x": ""
   },
   {
-   "t": "Show HN：GridCore -一个调度程序，允许多个本地LLM共享一个GPU",
-   "u": "https://blokhin.us/notes/gridcore-gpu-scheduler/",
-   "s": "外网新声·Hacker News",
-   "d": "03:39",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Show HN：MCP服务器，可查找代理读取的文本，但您看不到",
    "u": "https://hiddencontent.ai/start/",
    "s": "外网新声·Hacker News",
    "d": "03:21",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "自法学硕士以来人工智能领域的最大进步",
-   "u": "https://garymarcus.substack.com/p/the-biggest-advance-in-ai-since-the",
-   "s": "外网新声·Hacker News",
-   "d": "03:20",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "在国际象棋中击败前沿模特的法学硕士",
-   "u": "https://www.aidancooper.co.uk/the-2023-llm-that-beat-frontier-models-at-chess/",
-   "s": "外网新声·Hacker News",
-   "d": "03:19",
    "k": "",
    "x": ""
   },
@@ -763,86 +731,6 @@
    "x": ""
   },
   {
-   "t": "问问HN：您希望在新的人工智能技术发布中看到什么？",
-   "u": "https://news.ycombinator.com/item?id=49982033",
-   "s": "外网新声·Hacker News",
-   "d": "02:13",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：Tinyhat，多代理Muse的每位专家内存（开源）",
-   "u": "https://github.com/tinyhat-ai/muse-office",
-   "s": "外网新声·Hacker News",
-   "d": "22:11",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "21:12",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
-   "s": "外网新声·GitHub 新星",
-   "d": "21:06",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "20:54",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "EmbeddingGemma 2：开放、轻量级的多模态嵌入模型",
-   "u": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "19:57",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "u": "https://github.com/earendil-works/pi",
-   "s": "外网新声·GitHub 新星",
-   "d": "19:10",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
-   "u": "https://github.com/Dao-AILab/flash-attention",
-   "s": "外网新声·GitHub 新星",
-   "d": "19:09",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
-   "u": "https://github.com/mattpocock/skills",
-   "s": "外网新声·GitHub 新星",
-   "d": "19:04",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "obra/superpowers —有效的代理技能框架和软件开发方法。",
-   "u": "https://github.com/obra/superpowers",
-   "s": "外网新声·GitHub 新星",
-   "d": "15:47",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "使用Ironclad推进计算机使用",
    "u": "https://openai.com/index/advancing-computer-use-with-ironclad",
    "s": "外网新声·OpenAI 官方",
@@ -851,146 +739,42 @@
    "x": ""
   },
   {
-   "t": "Show HN：Kiro的多代理包",
-   "u": "https://github.com/amergrgic/kodama",
-   "s": "外网新声·Hacker News",
-   "d": "02:18",
+   "t": "GPT-6系列的模型指南",
+   "u": "https://openai.com/index/practical-guide-building-gpt-6",
+   "s": "外网新声·OpenAI 官方",
+   "d": "16:15",
    "k": "",
    "x": ""
   },
   {
-   "t": "每个画布一张图：通过Agent流水线进行可编辑的流程图中继",
-   "u": "https://arxiv.org/abs/2610.06852v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
+   "t": "永恒的补充",
+   "u": "https://openai.com/index/the-eternal-complement",
+   "s": "外网新声·OpenAI 官方",
+   "d": "17:00",
    "k": "",
    "x": ""
   },
   {
-   "t": "基本模型可以通过从培训数据中获取线索进行推理",
-   "u": "https://arxiv.org/abs/2610.06851v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
+   "t": "扰乱协调的模型蒸馏活动",
+   "u": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+   "s": "外网新声·OpenAI 官方",
+   "d": "10:30",
    "k": "",
    "x": ""
   },
   {
-   "t": "学习读取扩散变压器中的上下文令牌",
-   "u": "https://arxiv.org/abs/2610.06844v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
+   "t": "GPT-6.1 Sol简介",
+   "u": "https://openai.com/index/introducing-gpt-6-1-sol",
+   "s": "外网新声·OpenAI 官方",
+   "d": "10:00",
    "k": "",
    "x": ""
   },
   {
-   "t": "Agentic机器人的递归视频上下文学习",
-   "u": "https://arxiv.org/abs/2610.06843v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "倾斜扩散采样器的直接中间初始化",
-   "u": "https://arxiv.org/abs/2610.06834v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "朝向正确的循环模型，第二部分：在固定点上重新思考",
-   "u": "https://arxiv.org/abs/2610.06833v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "MemPilot：为LLM代理协调按需多模式内存管理",
-   "u": "https://arxiv.org/abs/2610.06830v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "CLIFT：Web Agent培训和测试时间扩展的适形自我验证",
-   "u": "https://arxiv.org/abs/2610.06829v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:57",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "TasteVal：衡量人工智能系统对人类专家的实验研究品味",
-   "u": "https://arxiv.org/abs/2610.06824v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:57",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "H-JEPA：视觉规划层次世界模型的端到端学习",
-   "u": "https://arxiv.org/abs/2610.06805v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:53",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "MC-Sparse：解构并缩小扩散变压器中的密集稀疏注意力差距",
-   "u": "https://arxiv.org/abs/2610.06801v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:51",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "回到未来：重新思考芯片设计验证中代理系统的EDA基础设施",
-   "u": "https://arxiv.org/abs/2610.06790v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:48",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "如何扩展您的HEP ML模型：大规模稳健架构比较的秘诀",
-   "u": "https://arxiv.org/abs/2610.06784v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:44",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "论正交部分可观测合作卫士美术馆中的学习最优角",
-   "u": "https://arxiv.org/abs/2610.06777v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:42",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "神经PDE求解器中的奇异参数和缺失极限",
-   "u": "https://arxiv.org/abs/2610.06770v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:40",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "平衡内存路径：分析和提高混合LM中的内存利用率",
-   "u": "https://arxiv.org/abs/2610.06750v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:27",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "BazaarBench：LLM代理运营的去中心化C2C市场中的委派安全",
-   "u": "https://arxiv.org/abs/2610.06748v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:26",
+   "t": "面向前沿人工智能培训的安全案例",
+   "u": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+   "s": "外网新声·OpenAI 官方",
+   "d": "19:00",
    "k": "",
    "x": ""
   }

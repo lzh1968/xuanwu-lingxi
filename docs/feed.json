@@ -1,8 +1,8 @@
 {
- "generated": "05:13",
- "built": "2026-10-07 05:13:21",
+ "generated": "05:27",
+ "built": "2026-10-07 05:27:00",
  "count": 84,
- "live_count": 60,
+ "live_count": 13,
  "items": [
   {
    "type": "live",
@@ -10,14 +10,6 @@
    "url": "https://www.modeloptic.com/blog/give-your-ai-agent-a-dsl",
    "src": "Hacker News",
    "t": "04:57",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "ALoDLM：自适应循环扩散语言模型",
-   "url": "https://alo-dlm.github.io/",
-   "src": "Hacker News",
-   "t": "04:28",
    "fresh": true
   },
   {
@@ -42,14 +34,6 @@
    "url": "https://www.techempower.com/blog/2026/09/11/hiring-in-the-age-of-agentic-ai/",
    "src": "Hacker News",
    "t": "03:52",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Show HN：GridCore -一个调度程序，允许多个本地LLM共享一个GPU",
-   "url": "https://blokhin.us/notes/gridcore-gpu-scheduler/",
-   "src": "Hacker News",
-   "t": "03:39",
    "fresh": false
   },
   {
@@ -62,10 +46,26 @@
   },
   {
    "type": "live",
-   "title": "自法学硕士以来人工智能领域的最大进步",
-   "url": "https://garymarcus.substack.com/p/the-biggest-advance-in-ai-since-the",
+   "title": "为什么我们的代理操作系统运行在Gleam和Zig上，而不是Python或Rust",
+   "url": "https://pentad.ai/blog/why-our-agent-os-runs-on-gleam-and-zig/",
    "src": "Hacker News",
-   "t": "03:20",
+   "t": "03:16",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "Jev for Voice Agents",
+   "url": "https://veris.ai/blog/jev-turn-detection",
+   "src": "Hacker News",
+   "t": "02:52",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "使用Ironclad推进计算机使用",
+   "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+   "src": "OpenAI 官方",
+   "t": "10:00",
    "fresh": false
   },
   {
