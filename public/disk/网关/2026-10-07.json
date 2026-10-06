@@ -1,41 +1,41 @@
 {
  "日期": "2026-10-07",
- "落盘": "2026-10-07 03:46:26",
+ "落盘": "2026-10-07 03:52:52",
  "内存报表": {
-  "时间": "2026-10-07 03:46:26",
-  "受托进程数": 33,
+  "时间": "2026-10-07 03:52:52",
+  "受托进程数": 27,
   "网关": {
    "进程号": "9990",
-   "内存MB": 528.0,
+   "内存MB": 427.9,
    "线程": 11,
    "堆上限": "512"
   },
   "实例数": 1,
   "全机MemTotal": "11469MB",
-  "全机MemAvailable": "6768MB",
+  "全机MemAvailable": "6791MB",
   "全机SwapTotal": "7110MB",
-  "全机SwapFree": "5098MB",
-  "探活": "000"
+  "全机SwapFree": "5086MB",
+  "探活": "200"
  },
  "断线统计": {
-  "今日断线次数": 10,
+  "今日断线次数": 12,
   "今日最长断线秒": 113,
   "近2小时真停摆(≥90秒)": 0,
   "维护窗口": 4
  },
  "日志体量KB": {
-  "gateway_guard.log": 599.7,
-  "gateway_outage.jsonl": 16.5,
-  "gw_boot.out": 4526.5,
+  "gateway_guard.log": 600.2,
+  "gateway_outage.jsonl": 16.6,
+  "gw_boot.out": 4527.6,
   "gw_run.out": 71.8,
-  "网关停摆取证.log": 129.0
+  "网关停摆取证.log": 129.9
  },
  "会话索引(不含正文)": [
   {
    "档": "9ef880c6-4fc1-47ad-9a64-38e2b5a6310b.jsonl",
-   "大小KB": 4176.0,
-   "行数": 1829,
-   "最后改动": "2026-10-07 03:31:10"
+   "大小KB": 4190.4,
+   "行数": 1840,
+   "最后改动": "2026-10-07 03:48:55"
   },
   {
    "档": "efb8f754-429d-4fe2-a641-a9ad77bac39f.jsonl",
@@ -105,24 +105,6 @@
   }
  ],
  "停摆取证(近段)": [
-  "  CPU    56.8s python3 -u _子引擎.py lbh --mode live --consent 奈工复开实盘·分身独立测试(2",
-  "── 停摆取证 2026-10-06 22:37:52 (取码 000) ──",
-  "  网关 VmRSS:\t  533324 kB",
-  "  网关 VmSwap:\t       0 kB",
-  "  网关 Threads:\t11",
-  "  Mem:           11469        5712         262          85        5493        5535",
-  "  Swap:           7110        2307        4803",
-  "  CPU   102.7s openclaw-gateway",
-  "  CPU    36.7s openclaw-gateway",
-  "  CPU    19.2s python3 -u _子引擎.py xwu --mode live --consent 奈工复开实盘·分身独立测试(2",
-  "── 停摆取证 2026-10-06 22:39:06 (取码 000) ──",
-  "  网关 VmRSS:\t  540044 kB",
-  "  网关 VmSwap:\t       0 kB",
-  "  网关 Threads:\t11",
-  "  Mem:           11469        5343         799          85        5326        5855",
-  "  Swap:           7110        2307        4803",
-  "  CPU   182.4s openclaw-gateway",
-  "  CPU    19.7s python3 -u _子引擎.py xwu --mode live --consent 奈工复开实盘·分身独立测试(2",
   "  CPU    17.2s bash _守护总管.sh",
   "── 停摆取证 2026-10-06 22:40:56 (取码 000) ──",
   "  网关 VmRSS:\t  734104 kB",
@@ -264,6 +246,24 @@
   "  Swap:           7110        2014        5096",
   "  CPU   183.1s python3 -u _子引擎.py rui --mode paper",
   "  CPU    84.6s openclaw-gateway",
-  "  CPU    70.4s python3 -u _子引擎.py whp --mode live --consent 奈工复开实盘·分身独立测试(2"
+  "  CPU    70.4s python3 -u _子引擎.py whp --mode live --consent 奈工复开实盘·分身独立测试(2",
+  "── 停摆取证 2026-10-07 03:47:18 (取码 000) ──",
+  "  网关 VmRSS:\t  549160 kB",
+  "  网关 VmSwap:\t       0 kB",
+  "  网关 Threads:\t11",
+  "  Mem:           11469        4317        1017          27        6133        6775",
+  "  Swap:           7110        1969        5141",
+  "  CPU   188.8s python3 -u _子引擎.py rui --mode paper",
+  "  CPU   176.1s openclaw-gateway",
+  "  CPU    75.8s python3 -u _子引擎.py whp --mode live --consent 奈工复开实盘·分身独立测试(2",
+  "── 停摆取证 2026-10-07 03:47:51 (取码 000) ──",
+  "  网关 VmRSS:\t  551500 kB",
+  "  网关 VmSwap:\t       0 kB",
+  "  网关 Threads:\t11",
+  "  Mem:           11469        4362         971          27        6135        6730",
+  "  Swap:           7110        1967        5143",
+  "  CPU   211.0s openclaw-gateway",
+  "  CPU   193.2s python3 -u _子引擎.py rui --mode paper",
+  "  CPU    79.4s python3 -u _子引擎.py whp --mode live --consent 奈工复开实盘·分身独立测试(2"
  ]
 }
