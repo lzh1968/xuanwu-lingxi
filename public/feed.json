@@ -1,9 +1,41 @@
 {
- "generated": "00:58",
- "built": "2026-10-07 00:58:47",
+ "generated": "01:02",
+ "built": "2026-10-07 01:02:02",
  "count": 84,
- "live_count": 56,
+ "live_count": 50,
  "items": [
+  {
+   "type": "live",
+   "title": "我们从构建代理运行的沙箱中学到了什么",
+   "url": "https://www.qawolf.com/blog/every-ai-agent-its-own-computer",
+   "src": "Hacker News",
+   "t": "00:50",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "我给了一个智能体一个bug 11次。6次提交有它从来不知道的文件",
+   "url": "https://junayed.com/blog/same-bug-eleven-times/",
+   "src": "Hacker News",
+   "t": "00:22",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Docusign的代理平台为工程师节省了数千小时的时间",
+   "url": "https://www.docusign.com/blog/every-team-deserves-a-krew-the-platform-behind-docusigns-220-ai-teammates",
+   "src": "Hacker News",
+   "t": "00:12",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "在操作员停止其权限后，AI 智能体是否仍然可以采取行动？",
+   "url": "https://github.com/GlobalSushrut/connector-oss",
+   "src": "Hacker News",
+   "t": "00:09",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "问HN：为什么每个人都是LLM专家？",
@@ -14,58 +46,26 @@
   },
   {
    "type": "live",
+   "title": "Show HN：AI断路器–反向代理以停止代理无限循环",
+   "url": "https://circuit-breaker-sage.vercel.app/",
+   "src": "Hacker News",
+   "t": "23:59",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN：OpenChart -使用您自己的AI 智能体的OSS TradingView替代方案",
+   "url": "https://github.com/longsurf-ai/openchart",
+   "src": "Hacker News",
+   "t": "23:16",
+   "fresh": false
+  },
+  {
+   "type": "live",
    "title": "在没有LLM评委的情况下，客服代表可以告诉您哪些信息",
    "url": "https://arize.com/blog/agent-traces-without-llm-judge/",
    "src": "Hacker News",
    "t": "23:10",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "免除基于Kotlin、Swift、TypeScript和Go的应用程序的收入税",
-   "url": "https://news.ycombinator.com/item?id=49979536",
-   "src": "Hacker News",
-   "t": "23:01",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Show HN：Tinyhat，多代理Muse的每位专家内存（开源）",
-   "url": "https://github.com/tinyhat-ai/muse-office",
-   "src": "Hacker News",
-   "t": "22:11",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Show HN：我将Andrej Karpathy关于理解LLM输出的技巧转化为技能",
-   "url": "https://github.com/ajithraghavan/make-it-click",
-   "src": "Hacker News",
-   "t": "22:03",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "流式LLM护栏的分界泄漏",
-   "url": "https://llmshieldproxy.com/docs/split-boundary-leaks/",
-   "src": "Hacker News",
-   "t": "21:24",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "url": "https://github.com/ggml-org/llama.cpp",
-   "src": "GitHub 新星",
-   "t": "16:48",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
-   "url": "https://github.com/Dao-AILab/flash-attention",
-   "src": "GitHub 新星",
-   "t": "16:44",
    "fresh": false
   },
   {
