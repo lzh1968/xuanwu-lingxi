@@ -1,5 +1,5 @@
 {
- "built": "2026-10-06 18:17:35",
+ "built": "2026-10-06 18:24:51",
  "count": 117,
  "items": [
   {
@@ -723,14 +723,6 @@
    "x": ""
   },
   {
-   "t": "Show HN：Kiro的多代理包",
-   "u": "https://github.com/amergrgic/kodama",
-   "s": "外网新声·Hacker News",
-   "d": "02:18",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "One Figure, Every Canvas: Editable Flowchart Relayout via Agentic Pipeline",
    "u": "https://arxiv.org/abs/2610.06852v1",
    "s": "外网新声·arXiv cs.AI",
@@ -763,22 +755,6 @@
    "x": ""
   },
   {
-   "t": "Direct Intermediate Initialization for Tilted Diffusion Samplers",
-   "u": "https://arxiv.org/abs/2610.06834v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Towards Looped Models Done Right, Part II: Rethinking at Fixed Points",
-   "u": "https://arxiv.org/abs/2610.06833v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:58",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "MemPilot: Orchestrating On-Demand Multimodal Memory Curation for LLM Agents",
    "u": "https://arxiv.org/abs/2610.06830v1",
    "s": "外网新声·arXiv cs.AI",
@@ -803,14 +779,6 @@
    "x": ""
   },
   {
-   "t": "H-JEPA: End-to-End Learning of Hierarchical World Models for Visual Planning",
-   "u": "https://arxiv.org/abs/2610.06805v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:53",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "MC-Sparse: Deconstructing and Closing the Dense-Sparse Attention Gap in Diffusion Transformers",
    "u": "https://arxiv.org/abs/2610.06801v1",
    "s": "外网新声·arXiv cs.AI",
@@ -823,30 +791,6 @@
    "u": "https://arxiv.org/abs/2610.06790v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:48",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "How to scale your HEP ML models: A recipe for robust architecture comparisons at scale",
-   "u": "https://arxiv.org/abs/2610.06784v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:44",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "On Learning Optimal Corners in Orthogonal Partially Observable Cooperative Guard Art Galleries",
-   "u": "https://arxiv.org/abs/2610.06777v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:42",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Singular parameters and missing limits in neural PDE solvers",
-   "u": "https://arxiv.org/abs/2610.06770v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:40",
    "k": "",
    "x": ""
   },
@@ -915,26 +859,82 @@
    "x": ""
   },
   {
-   "t": "Show HN: Bise –专为人类打造的多智能体线束",
-   "u": "https://bise.dev/",
-   "s": "外网新声·Hacker News",
-   "d": "22:17",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：Kodama – Kiro的多药剂包",
-   "u": "https://github.com/amergrgic/kodama",
-   "s": "外网新声·Hacker News",
-   "d": "18:08",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "GPT-6系列的模型指南",
    "u": "https://openai.com/index/practical-guide-building-gpt-6",
    "s": "外网新声·OpenAI 官方",
    "d": "16:15",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "rasbt/LLMs-from-scratch：一步步用 PyTorch 从零实现类 ChatGPT 模型",
+   "u": "https://github.com/rasbt/LLMs-from-scratch",
+   "s": "外网新声·GitHub 新星",
+   "d": "14:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "不要被愚弄- LLM不要讲道理",
+   "u": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "08:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "永恒的补充",
+   "u": "https://openai.com/index/the-eternal-complement",
+   "s": "外网新声·OpenAI 官方",
+   "d": "17:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
+   "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+   "s": "外网新声·GitHub 新星",
+   "d": "20:31",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "OpenAI首席研究官表示：“我们不会因为黑客攻击而自杀”",
+   "u": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "10:40",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "扰乱协调的模型蒸馏活动",
+   "u": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+   "s": "外网新声·OpenAI 官方",
+   "d": "10:30",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "GPT-6.1 Sol简介",
+   "u": "https://openai.com/index/introducing-gpt-6-1-sol",
+   "s": "外网新声·OpenAI 官方",
+   "d": "10:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "面向前沿人工智能培训的安全案例",
+   "u": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+   "s": "外网新声·OpenAI 官方",
+   "d": "19:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "TangSengDaoDao/TangSengDaoDaoServer — 高颜值 IM 即时通讯,聊天",
+   "u": "https://github.com/TangSengDaoDao/TangSengDaoDaoServer",
+   "s": "外网新声·GitHub 新星",
+   "d": "08:13",
    "k": "",
    "x": ""
   }
