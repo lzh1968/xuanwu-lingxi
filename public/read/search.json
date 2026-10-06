@@ -1,5 +1,5 @@
 {
- "built": "2026-10-06 10:20:31",
+ "built": "2026-10-06 10:27:00",
  "count": 117,
  "items": [
   {
@@ -699,17 +699,17 @@
    "x": ""
   },
   {
-   "t": "Show HN：Kiro的多代理包",
-   "u": "https://github.com/amergrgic/kodama",
-   "s": "外网新声·Hacker News",
-   "d": "02:18",
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "02:22",
    "k": "",
    "x": ""
   },
   {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
+   "t": "Show HN：Kiro的多代理包",
+   "u": "https://github.com/amergrgic/kodama",
+   "s": "外网新声·Hacker News",
    "d": "02:18",
    "k": "",
    "x": ""
@@ -795,9 +795,17 @@
    "x": ""
   },
   {
+   "t": "面向本地部署的代理共同科学家：早期药物发现的小型规划",
+   "u": "https://arxiv.org/abs/2610.04740v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "20:09",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "PyINE：通过代码执行实现可扩展引发和监督的框架",
    "u": "https://arxiv.org/abs/2610.04737v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "20:03",
    "k": "",
    "x": ""
@@ -811,10 +819,58 @@
    "x": ""
   },
   {
+   "t": "Knossos和Ariadne：使用视觉语言模型进行基准测试和学习完整的图形拓扑提取",
+   "u": "https://arxiv.org/abs/2610.04721v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "19:20",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "使用编码代理自动修剪日志记录代码：我们还有多远？",
+   "u": "https://arxiv.org/abs/2610.04716v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "19:11",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "组织语言模型代理保证的轨迹证据：碎片、方法和残留物",
+   "u": "https://arxiv.org/abs/2610.04710v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "18:51",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "VoCa：为基于语音的会话代理设计语音画布交互",
+   "u": "https://arxiv.org/abs/2610.04706v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "18:39",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "用于神经发育评估的神经多样性感知多模态情感计算：从规范引用分类到情境敏感决策支持",
+   "u": "https://arxiv.org/abs/2610.04705v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "18:38",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "学习漂移模型的判别几何",
    "u": "https://arxiv.org/abs/2610.04703v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "18:36",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "不可自行决定：LLM无法划分代理验证者可以检查的范围",
+   "u": "https://arxiv.org/abs/2610.04699v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "18:25",
    "k": "",
    "x": ""
   },
@@ -835,106 +891,50 @@
    "x": ""
   },
   {
+   "t": "半影：监管义务的样本高效对抗性搜索",
+   "u": "https://arxiv.org/abs/2610.04693v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "18:11",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "RAGStress: A controlled benchmark for evaluating retrieval-augmented generation under knowledge-base degradation",
+   "u": "https://arxiv.org/abs/2610.04691v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "18:07",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "辩论有何帮助：多代理推理中的提案提供和验证感知读数",
    "u": "https://arxiv.org/abs/2610.04686v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
    "k": "",
    "x": ""
   },
   {
-   "t": "GS-Codec：神经音频编码的高斯斑点瓶颈",
-   "u": "https://arxiv.org/abs/2610.04651v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "16:49",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "重新审视神经图的泛化编辑距离模型",
-   "u": "https://arxiv.org/abs/2610.04644v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "16:35",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "政策即数据：通过优势回归进行基于重播的政策双重平均",
-   "u": "https://arxiv.org/abs/2610.04638v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "16:29",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "神经复杂性是否改善了健康错误信息检测？泄漏控制交叉Corpus基准",
-   "u": "https://arxiv.org/abs/2610.04636v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "16:26",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "大模型的数值线性代数",
-   "u": "https://arxiv.org/abs/2610.04631v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "16:16",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "稀疏观测PDE逆问题的向一致扩散采样",
-   "u": "https://arxiv.org/abs/2610.04624v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "16:12",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN: Bise –专为人类打造的多智能体线束",
-   "u": "https://bise.dev/",
-   "s": "外网新声·Hacker News",
-   "d": "22:17",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：Kodama – Kiro的多药剂包",
-   "u": "https://github.com/amergrgic/kodama",
-   "s": "外网新声·Hacker News",
-   "d": "18:08",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "4DCodeBench：动态场景反向图形的基准代理",
-   "u": "https://arxiv.org/abs/2610.03715v1",
+   "t": "Extracting Persona Subspaces Through Iterative Nullspace Projection For Modulation",
+   "u": "https://arxiv.org/abs/2610.04676v1",
    "s": "外网新声·arXiv cs.AI",
-   "d": "17:58",
+   "d": "17:45",
    "k": "",
    "x": ""
   },
   {
-   "t": "FrugalEvo：实现成本意识法学硕士指导计划的演变",
-   "u": "https://arxiv.org/abs/2610.03675v1",
+   "t": "MASBench: Benchmarking LLM-based Multi-Agent Collaboration under Partial Observability",
+   "u": "https://arxiv.org/abs/2610.04672v1",
    "s": "外网新声·arXiv cs.AI",
-   "d": "17:44",
+   "d": "17:40",
    "k": "",
    "x": ""
   },
   {
-   "t": "MRVQ：维度和速率弹性矢量搜索的一个居民指数",
-   "u": "https://arxiv.org/abs/2610.03651v1",
+   "t": "Efficient Neural Surrogates for Linear Radiation Transport on the Lattice and Hohlraum benchmarks",
+   "u": "https://arxiv.org/abs/2610.04665v1",
    "s": "外网新声·arXiv cs.AI",
-   "d": "17:33",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "大模型是否了解哥伦比亚法律？哥伦比亚法律制度的可靠性基准",
-   "u": "https://arxiv.org/abs/2610.03639v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:27",
+   "d": "17:26",
    "k": "",
    "x": ""
   }
