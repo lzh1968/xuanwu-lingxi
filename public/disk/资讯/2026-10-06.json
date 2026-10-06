@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-06",
- "落盘": "2026-10-06 14:54:15",
+ "落盘": "2026-10-06 15:00:55",
  "条数": 14,
- "live": 57,
+ "live": 60,
  "条目": [
+  {
+   "title": "Autolith: A self-modifiable general purpose Lisp AI agent",
+   "url": "https://github.com/lambda-symbolics/autolith",
+   "type": "live"
+  },
   {
    "title": "Sentry: Learning to Recover from LLM Agent Failures at Test Time",
    "url": "https://github.com/nuglifeleoji/Sentry",
@@ -37,11 +42,6 @@
   {
    "title": "How LiteLLM Lens finds repeated failures across 1,000s of agent traces",
    "url": "https://docs.litellm.ai/blog/lens-failure-patterns",
-   "type": "live"
-  },
-  {
-   "title": "LLMs may have immensely helped my RSI",
-   "url": "https://vaughanhilts.me/2026/10/05/llms-immensely-helped-my-rsi.html",
    "type": "live"
   },
   {
