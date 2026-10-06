@@ -1,12 +1,20 @@
 {
- "generated": "01:34",
- "built": "2026-10-07 01:34:42",
+ "generated": "01:41",
+ "built": "2026-10-07 01:41:16",
  "count": 84,
  "live_count": 60,
  "items": [
   {
    "type": "live",
-   "title": "Long-horizon agents at half the cost",
+   "title": "沉默之声：智能体不会告诉你的事情",
+   "url": "https://albertoarena.it/posts/the-sound-of-silence/",
+   "src": "Hacker News",
+   "t": "01:36",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "一半成本的长期客服代表",
    "url": "https://unreallabs.ai/blog/long-horizon-agents-at-half-the-cost/",
    "src": "Hacker News",
    "t": "01:30",
@@ -14,7 +22,7 @@
   },
   {
    "type": "live",
-   "title": "The 85.B2 Challenge: Does This Earlier AI-Agent Map to Meta Muse",
+   "title": "85.B2挑战：早期的AI-Agent是否映射到Meta Muse",
    "url": "https://zenodo.org/records/23191871",
    "src": "Hacker News",
    "t": "01:16",
@@ -22,7 +30,23 @@
   },
   {
    "type": "live",
-   "title": "Ask HN: How to deal with AI \"true believer\" leadership at work",
+   "title": "Show HN：Kcc，一个C编译器，使用LLM构建，每月$ 100启动Linux内核",
+   "url": "https://github.com/LiterateDrivenDevelopment/kcc",
+   "src": "Hacker News",
+   "t": "01:10",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "展示HN：TOD，一种基于任务导向设计的通用决策模型",
+   "url": "https://parseclab.ai/tod/",
+   "src": "Hacker News",
+   "t": "01:07",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "询问HN：如何处理工作中的人工智能“真信徒”领导力",
    "url": "https://news.ycombinator.com/item?id=49981268",
    "src": "Hacker News",
    "t": "01:07",
@@ -43,30 +67,6 @@
    "src": "Hacker News",
    "t": "00:22",
    "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Docusign的代理平台为工程师节省了数千小时的时间",
-   "url": "https://www.docusign.com/blog/every-team-deserves-a-krew-the-platform-behind-docusigns-220-ai-teammates",
-   "src": "Hacker News",
-   "t": "00:12",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "在操作员停止其权限后，AI 智能体是否仍然可以采取行动？",
-   "url": "https://github.com/GlobalSushrut/connector-oss",
-   "src": "Hacker News",
-   "t": "00:09",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Show HN：Tinyhat，多代理Muse的每位专家内存（开源）",
-   "url": "https://github.com/tinyhat-ai/muse-office",
-   "src": "Hacker News",
-   "t": "22:11",
-   "fresh": false
   },
   {
    "type": "article",
