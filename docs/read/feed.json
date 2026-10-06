@@ -1,15 +1,39 @@
 {
- "generated": "22:22",
- "built": "2026-10-06 22:22:02",
+ "generated": "22:28",
+ "built": "2026-10-06 22:28:43",
  "count": 77,
- "live_count": 51,
+ "live_count": 57,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN: RigMark benchmarks local AI the way coding agents use it",
+   "url": "https://github.com/alexellis/rigmark",
+   "src": "Hacker News",
+   "t": "22:25",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN: Orbtile – See which AI coding agent needs you, on a Logitech keypad",
+   "url": "https://orbtile.com/?s=hn",
+   "src": "Hacker News",
+   "t": "22:24",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Show HN: Tinyhat, per-specialist memory for multi-agent Muse (open source)",
    "url": "https://github.com/tinyhat-ai/muse-office",
    "src": "Hacker News",
    "t": "22:11",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "The WarGames problem: AI agents don't go rogue",
+   "url": "https://mappingignorance.org/2026/10/06/the-wargames-problem-ai-agents-dont-go-rogue/",
+   "src": "Hacker News",
+   "t": "22:05",
    "fresh": true
   },
   {
@@ -22,6 +46,14 @@
   },
   {
    "type": "live",
+   "title": "Show HN: Strava for AI agents, they train for trust instead of fitness",
+   "url": "https://sealkeeper.run",
+   "src": "Hacker News",
+   "t": "21:55",
+   "fresh": true
+  },
+  {
+   "type": "live",
    "title": "Split-boundary leaks in streaming LLM guardrails",
    "url": "https://llmshieldproxy.com/docs/split-boundary-leaks/",
    "src": "Hacker News",
@@ -30,43 +62,11 @@
   },
   {
    "type": "live",
-   "title": "Thirteen LLMs asked the same 76 sourced questions, with and without web search",
-   "url": "https://llmquorum.aidataforager.com",
+   "title": "Agy-ppt – agent skill for PowerPoint decks without the AI-slop look",
+   "url": "https://github.com/sujunmin/agy-ppt",
    "src": "Hacker News",
-   "t": "21:07",
+   "t": "21:12",
    "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "anomalyco/opencode：开源编码智能体",
-   "url": "https://github.com/anomalyco/opencode",
-   "src": "GitHub 新星",
-   "t": "14:18",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "url": "https://github.com/ggml-org/llama.cpp",
-   "src": "GitHub 新星",
-   "t": "14:18",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "url": "https://github.com/NousResearch/hermes-agent",
-   "src": "GitHub 新星",
-   "t": "14:11",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "url": "https://github.com/earendil-works/pi",
-   "src": "GitHub 新星",
-   "t": "13:59",
-   "fresh": false
   },
   {
    "type": "article",
