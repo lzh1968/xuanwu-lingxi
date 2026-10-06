@@ -1,5 +1,5 @@
 {
- "built": "2026-10-06 20:47:12",
+ "built": "2026-10-06 21:01:13",
  "count": 117,
  "items": [
   {
@@ -619,46 +619,6 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "VMPal – Virtual Machines for Apple Silicon and AI Agents",
-   "u": "https://vmpal.com/",
-   "s": "外网新声·Hacker News",
-   "d": "20:30",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Hermes Agent on Kubernetes: no Helm chart, and the image needs root at init",
-   "u": "https://www.revos.ai/blog/hermes-agent-kubernetes",
-   "s": "外网新声·Hacker News",
-   "d": "20:26",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Monitoring an AI agent trains it to evade the monitor (100-day simulation)",
-   "u": "https://aixiv.science/abs/aixiv.261005.000003",
-   "s": "外网新声·Hacker News",
-   "d": "20:06",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN: Golem – Zero-dependency, type-safe AI agent framework in pure Go",
-   "u": "https://github.com/abubakarsiddik31/golem",
-   "s": "外网新声·Hacker News",
-   "d": "19:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN: Tofu – let your agent deploy full-stack apps",
-   "u": "https://trytofu.ai",
-   "s": "外网新声·Hacker News",
-   "d": "19:12",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "KI-LLM Has Reached the Pareto Frontier of Recklessness",
    "u": "https://killm.pixlw.com/",
    "s": "外网新声·Hacker News",
@@ -667,26 +627,10 @@
    "x": ""
   },
   {
-   "t": "两种类型的人工智能智能体",
-   "u": "https://matthiasplappert.com/blog/2026/two-agent-types/",
-   "s": "外网新声·Hacker News",
-   "d": "16:05",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN: Manage Skills, Memories, and Agents.md Files Across Tools and Projects",
-   "u": "https://github.com/mjalalimanesh/skillhub-local",
-   "s": "外网新声·Hacker News",
-   "d": "15:35",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
    "u": "https://github.com/mattpocock/skills",
    "s": "外网新声·GitHub 新星",
-   "d": "12:45",
+   "d": "12:56",
    "k": "",
    "x": ""
   },
@@ -694,7 +638,7 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "12:44",
+   "d": "12:50",
    "k": "",
    "x": ""
   },
@@ -727,6 +671,14 @@
    "u": "https://github.com/obra/superpowers",
    "s": "外网新声·GitHub 新星",
    "d": "05:15",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "u": "https://github.com/Dao-AILab/flash-attention",
+   "s": "外网新声·GitHub 新星",
+   "d": "02:42",
    "k": "",
    "x": ""
   },
@@ -935,6 +887,54 @@
    "u": "https://openai.com/index/practical-guide-building-gpt-6",
    "s": "外网新声·OpenAI 官方",
    "d": "16:15",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "rasbt/LLMs-from-scratch：一步步用 PyTorch 从零实现类 ChatGPT 模型",
+   "u": "https://github.com/rasbt/LLMs-from-scratch",
+   "s": "外网新声·GitHub 新星",
+   "d": "14:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "秘密协助：有帮助的LLM代理人逃避多代理系统的监督",
+   "u": "https://arxiv.org/abs/2609.39050",
+   "s": "外网新声·Hacker News",
+   "d": "11:07",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "不要被愚弄- LLM不要讲道理",
+   "u": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "08:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "问HN：当您添加第二个客服代表时，出现了什么问题？",
+   "u": "https://news.ycombinator.com/item?id=49924268",
+   "s": "外网新声·Hacker News",
+   "d": "01:03",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：多药剂的协调和耐久层",
+   "u": "https://cellaflow.com",
+   "s": "外网新声·Hacker News",
+   "d": "00:06",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "永恒的补充",
+   "u": "https://openai.com/index/the-eternal-complement",
+   "s": "外网新声·OpenAI 官方",
+   "d": "17:00",
    "k": "",
    "x": ""
   }
