@@ -1,5 +1,5 @@
 {
- "built": "2026-10-07 01:09:45",
+ "built": "2026-10-07 01:34:07",
  "count": 124,
  "items": [
   {
@@ -675,10 +675,18 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "Show HN: TOD,a universal Decision model based on Task Oriented Design",
-   "u": "https://parseclab.ai/tod/",
+   "t": "Long-horizon agents at half the cost",
+   "u": "https://unreallabs.ai/blog/long-horizon-agents-at-half-the-cost/",
    "s": "外网新声·Hacker News",
-   "d": "01:07",
+   "d": "01:30",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "The 85.B2 Challenge: Does This Earlier AI-Agent Map to Meta Muse",
+   "u": "https://zenodo.org/records/23191871",
+   "s": "外网新声·Hacker News",
+   "d": "01:16",
    "k": "",
    "x": ""
   },
@@ -723,50 +731,10 @@
    "x": ""
   },
   {
-   "t": "问HN：为什么每个人都是LLM专家？",
-   "u": "https://news.ycombinator.com/item?id=49980529",
+   "t": "Show HN：Tinyhat，多代理Muse的每位专家内存（开源）",
+   "u": "https://github.com/tinyhat-ai/muse-office",
    "s": "外网新声·Hacker News",
-   "d": "00:07",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：AI断路器–反向代理以停止代理无限循环",
-   "u": "https://circuit-breaker-sage.vercel.app/",
-   "s": "外网新声·Hacker News",
-   "d": "23:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：OpenChart -使用您自己的AI 智能体的OSS TradingView替代方案",
-   "u": "https://github.com/longsurf-ai/openchart",
-   "s": "外网新声·Hacker News",
-   "d": "23:16",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "在没有LLM评委的情况下，客服代表可以告诉您哪些信息",
-   "u": "https://arize.com/blog/agent-traces-without-llm-judge/",
-   "s": "外网新声·Hacker News",
-   "d": "23:10",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "免除基于Kotlin、Swift、TypeScript和Go的应用程序的收入税",
-   "u": "https://news.ycombinator.com/item?id=49979536",
-   "s": "外网新声·Hacker News",
-   "d": "23:01",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：我将Andrej Karpathy关于理解LLM输出的技巧转化为技能",
-   "u": "https://github.com/ajithraghavan/make-it-click",
-   "s": "外网新声·Hacker News",
-   "d": "22:03",
+   "d": "22:11",
    "k": "",
    "x": ""
   },
@@ -774,7 +742,23 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "17:08",
+   "d": "17:32",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
+   "s": "外网新声·GitHub 新星",
+   "d": "17:28",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "17:20",
    "k": "",
    "x": ""
   },
@@ -787,18 +771,10 @@
    "x": ""
   },
   {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
+   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "u": "https://github.com/Dao-AILab/flash-attention",
    "s": "外网新声·GitHub 新星",
-   "d": "17:07",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "u": "https://github.com/earendil-works/pi",
-   "s": "外网新声·GitHub 新星",
-   "d": "16:12",
+   "d": "16:44",
    "k": "",
    "x": ""
   },
@@ -815,6 +791,14 @@
    "u": "https://github.com/mattpocock/skills",
    "s": "外网新声·GitHub 新星",
    "d": "13:41",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：Kiro的多代理包",
+   "u": "https://github.com/amergrgic/kodama",
+   "s": "外网新声·Hacker News",
+   "d": "02:18",
    "k": "",
    "x": ""
   },
@@ -991,6 +975,22 @@
    "u": "https://github.com/TauricResearch/TradingAgents",
    "s": "外网新声·GitHub 新星",
    "d": "21:30",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN: Bise –专为人类打造的多智能体线束",
+   "u": "https://bise.dev/",
+   "s": "外网新声·Hacker News",
+   "d": "22:17",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：Kodama – Kiro的多药剂包",
+   "u": "https://github.com/amergrgic/kodama",
+   "s": "外网新声·Hacker News",
+   "d": "18:08",
    "k": "",
    "x": ""
   }

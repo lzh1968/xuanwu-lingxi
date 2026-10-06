@@ -1,15 +1,23 @@
 {
- "generated": "01:09",
- "built": "2026-10-07 01:09:45",
+ "generated": "01:34",
+ "built": "2026-10-07 01:34:07",
  "count": 84,
- "live_count": 55,
+ "live_count": 60,
  "items": [
   {
    "type": "live",
-   "title": "Show HN: TOD,a universal Decision model based on Task Oriented Design",
-   "url": "https://parseclab.ai/tod/",
+   "title": "Long-horizon agents at half the cost",
+   "url": "https://unreallabs.ai/blog/long-horizon-agents-at-half-the-cost/",
    "src": "Hacker News",
-   "t": "01:07",
+   "t": "01:30",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "The 85.B2 Challenge: Does This Earlier AI-Agent Map to Meta Muse",
+   "url": "https://zenodo.org/records/23191871",
+   "src": "Hacker News",
+   "t": "01:16",
    "fresh": true
   },
   {
@@ -54,19 +62,11 @@
   },
   {
    "type": "live",
-   "title": "问HN：为什么每个人都是LLM专家？",
-   "url": "https://news.ycombinator.com/item?id=49980529",
+   "title": "Show HN：Tinyhat，多代理Muse的每位专家内存（开源）",
+   "url": "https://github.com/tinyhat-ai/muse-office",
    "src": "Hacker News",
-   "t": "00:07",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Show HN：AI断路器–反向代理以停止代理无限循环",
-   "url": "https://circuit-breaker-sage.vercel.app/",
-   "src": "Hacker News",
-   "t": "23:59",
-   "fresh": true
+   "t": "22:11",
+   "fresh": false
   },
   {
    "type": "article",
