@@ -1,9 +1,17 @@
 {
- "generated": "10:14",
- "built": "2026-10-06 10:14:04",
+ "generated": "10:20",
+ "built": "2026-10-06 10:20:10",
  "count": 77,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "问HN：您对人工智能生成的会议幻灯片有何看法？",
+   "url": "https://news.ycombinator.com/item?id=49973382",
+   "src": "Hacker News",
+   "t": "10:16",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Show HN：Moching -具有219个内置工具的AI桌面代理（ Rust ）",
@@ -26,7 +34,7 @@
    "url": "https://github.com/idk-arsh/schema-guard",
    "src": "Hacker News",
    "t": "08:46",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -56,14 +64,6 @@
    "type": "live",
    "title": "这是一个计划–问题跟踪器，人员和智能体一起出货",
    "url": "https://itsaplan.dev",
-   "src": "Hacker News",
-   "t": "06:05",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "为您的智能体提供特定于领域的语言",
-   "url": "https://www.modeloptic.com/blog/give-your-ai-agent-a-dsl",
    "src": "Hacker News",
    "t": "06:05",
    "fresh": false
