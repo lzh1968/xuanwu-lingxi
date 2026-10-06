@@ -1,5 +1,5 @@
 {
- "built": "2026-10-07 01:41:45",
+ "built": "2026-10-07 01:47:59",
  "count": 124,
  "items": [
   {
@@ -675,6 +675,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "未披露法学硕士学位的论文会引起怀疑[pdf]",
+   "u": "https://pmaronow.github.io/llm-disclosure.pdf",
+   "s": "外网新声·Hacker News",
+   "d": "01:41",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "沉默之声：智能体不会告诉你的事情",
    "u": "https://albertoarena.it/posts/the-sound-of-silence/",
    "s": "外网新声·Hacker News",
@@ -739,14 +747,6 @@
    "x": ""
   },
   {
-   "t": "Docusign的代理平台为工程师节省了数千小时的时间",
-   "u": "https://www.docusign.com/blog/every-team-deserves-a-krew-the-platform-behind-docusigns-220-ai-teammates",
-   "s": "外网新声·Hacker News",
-   "d": "00:12",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "问HN：为什么每个人都是LLM专家？",
    "u": "https://news.ycombinator.com/item?id=49980529",
    "s": "外网新声·Hacker News",
@@ -779,10 +779,18 @@
    "x": ""
   },
   {
-   "t": "Show HN：我将Andrej Karpathy关于理解LLM输出的技巧转化为技能",
-   "u": "https://github.com/ajithraghavan/make-it-click",
-   "s": "外网新声·Hacker News",
-   "d": "22:03",
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "17:47",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
+   "s": "外网新声·GitHub 新星",
+   "d": "17:46",
    "k": "",
    "x": ""
   },
@@ -791,22 +799,6 @@
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
    "d": "17:38",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "17:37",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "u": "https://github.com/earendil-works/pi",
-   "s": "外网新声·GitHub 新星",
-   "d": "17:28",
    "k": "",
    "x": ""
   },
@@ -939,7 +931,7 @@
    "x": ""
   },
   {
-   "t": "Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification",
+   "t": "回到未来：重新思考芯片设计验证中代理系统的EDA基础设施",
    "u": "https://arxiv.org/abs/2610.06790v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:48",
@@ -947,7 +939,7 @@
    "x": ""
   },
   {
-   "t": "How to scale your HEP ML models: A recipe for robust architecture comparisons at scale",
+   "t": "如何扩展您的HEP ML模型：大规模稳健架构比较的秘诀",
    "u": "https://arxiv.org/abs/2610.06784v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:44",
@@ -955,7 +947,7 @@
    "x": ""
   },
   {
-   "t": "On Learning Optimal Corners in Orthogonal Partially Observable Cooperative Guard Art Galleries",
+   "t": "论正交部分可观测合作卫士美术馆中的学习最优角",
    "u": "https://arxiv.org/abs/2610.06777v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:42",
@@ -963,7 +955,7 @@
    "x": ""
   },
   {
-   "t": "Singular parameters and missing limits in neural PDE solvers",
+   "t": "神经PDE求解器中的奇异参数和缺失极限",
    "u": "https://arxiv.org/abs/2610.06770v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:40",
@@ -971,7 +963,7 @@
    "x": ""
   },
   {
-   "t": "Balancing Memory Pathways: Analyzing and Improving Memory Utilization in Hybrid LMs",
+   "t": "平衡内存路径：分析和提高混合LM中的内存利用率",
    "u": "https://arxiv.org/abs/2610.06750v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:27",
@@ -979,7 +971,7 @@
    "x": ""
   },
   {
-   "t": "BazaarBench: Delegation Safety in Decentralized C2C Marketplaces Run by LLM Agents",
+   "t": "BazaarBench：LLM代理运营的去中心化C2C市场中的委派安全",
    "u": "https://arxiv.org/abs/2610.06748v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:26",
@@ -991,6 +983,14 @@
    "u": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
    "s": "外网新声·MIT 科技评论",
    "d": "15:47",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "将预测分析引入代理人工智能时代",
+   "u": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "13:29",
    "k": "",
    "x": ""
   }
