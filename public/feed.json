@@ -1,9 +1,25 @@
 {
- "generated": "01:03",
- "built": "2026-10-07 01:03:00",
+ "generated": "01:09",
+ "built": "2026-10-07 01:09:45",
  "count": 84,
- "live_count": 50,
+ "live_count": 55,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN: TOD,a universal Decision model based on Task Oriented Design",
+   "url": "https://parseclab.ai/tod/",
+   "src": "Hacker News",
+   "t": "01:07",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Ask HN: How to deal with AI \"true believer\" leadership at work",
+   "url": "https://news.ycombinator.com/item?id=49981268",
+   "src": "Hacker News",
+   "t": "01:07",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "我们从构建代理运行的沙箱中学到了什么",
@@ -51,22 +67,6 @@
    "src": "Hacker News",
    "t": "23:59",
    "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Show HN：OpenChart -使用您自己的AI 智能体的OSS TradingView替代方案",
-   "url": "https://github.com/longsurf-ai/openchart",
-   "src": "Hacker News",
-   "t": "23:16",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "在没有LLM评委的情况下，客服代表可以告诉您哪些信息",
-   "url": "https://arize.com/blog/agent-traces-without-llm-judge/",
-   "src": "Hacker News",
-   "t": "23:10",
-   "fresh": false
   },
   {
    "type": "article",
