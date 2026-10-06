@@ -1,5 +1,5 @@
 {
- "时间": "2026-10-07 02:15:22",
+ "时间": "2026-10-07 02:21:32",
  "会话档数": 12,
  "会话": [
   {
@@ -70,20 +70,12 @@
   },
   {
    "档": "9ef880c6-4fc1-47ad-9a64-38e2b5a6310b.jsonl",
-   "字节": 3925476,
-   "行": 1673,
-   "改": "2026-10-07 02:15:13"
+   "字节": 3935231,
+   "行": 1682,
+   "改": "2026-10-07 02:21:31"
   }
  ],
  "近段摘要": [
-  {
-   "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Wed 2026-10-07 01:44 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
   {
    "角色": "小奈",
    "文": ""
@@ -211,6 +203,14 @@
   {
    "角色": "老板",
    "文": "System (untrusted): [2026-10-07 02:02:22 GMT+8] Exec completed (brisk-sl, code 0) :: xwu ✅ SIGN_PHASE_ADAPT_ON=1 GATES_STRIP_ON=1 zls ✅ GATES_STRIP_ON=1 SIGN_PHASE_ADAPT_ON=1 lbh ✅ GATES_STRIP_ON=1 SIGN_PHASE_ADAPT_ON=1 dss ✅ GATES_STRIP_ON=1 SIGN_PHASE_ADAPT_ON=1…\nSystem (untrusted): [2026-10-07 02"
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
   },
   {
    "角色": "小奈",
