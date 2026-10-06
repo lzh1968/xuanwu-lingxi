@@ -1,5 +1,5 @@
 {
- "built": "2026-10-07 02:09:23",
+ "built": "2026-10-07 02:15:17",
  "count": 124,
  "items": [
   {
@@ -675,6 +675,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "问问HN：您希望在新的人工智能技术发布中看到什么？",
+   "u": "https://news.ycombinator.com/item?id=49982033",
+   "s": "外网新声·Hacker News",
+   "d": "02:13",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "个人代理协议",
    "u": "https://sierra.ai/blog/introducing-personal-agent-protocol",
    "s": "外网新声·Hacker News",
@@ -755,26 +763,26 @@
    "x": ""
   },
   {
-   "t": "问HN：为什么每个人都是LLM专家？",
-   "u": "https://news.ycombinator.com/item?id=49980529",
-   "s": "外网新声·Hacker News",
-   "d": "00:07",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "在没有LLM评委的情况下，客服代表可以告诉您哪些信息",
-   "u": "https://arize.com/blog/agent-traces-without-llm-judge/",
-   "s": "外网新声·Hacker News",
-   "d": "23:10",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Show HN：Tinyhat，多代理Muse的每位专家内存（开源）",
    "u": "https://github.com/tinyhat-ai/muse-office",
    "s": "外网新声·Hacker News",
    "d": "22:11",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "18:13",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
+   "s": "外网新声·GitHub 新星",
+   "d": "18:13",
    "k": "",
    "x": ""
   },
@@ -791,22 +799,6 @@
    "u": "https://github.com/mattpocock/skills",
    "s": "外网新声·GitHub 新星",
    "d": "18:07",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "18:07",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
-   "s": "外网新声·GitHub 新星",
-   "d": "17:38",
    "k": "",
    "x": ""
   },
@@ -991,6 +983,14 @@
    "u": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
    "s": "外网新声·MIT 科技评论",
    "d": "13:29",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "人们真的很讨厌人工智能，为什么他们得不到足够的呢？",
+   "u": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "08:00",
    "k": "",
    "x": ""
   }
