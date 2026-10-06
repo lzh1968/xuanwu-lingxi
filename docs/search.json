@@ -1,5 +1,5 @@
 {
- "built": "2026-10-06 16:45:45",
+ "built": "2026-10-06 16:52:39",
  "count": 117,
  "items": [
   {
@@ -619,6 +619,46 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Speck – Making small local LLMs more capable with cognitive architecture",
+   "u": "https://github.com/doctarock/Speck",
+   "s": "外网新声·Hacker News",
+   "d": "16:50",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "两种类型的人工智能智能体",
+   "u": "https://matthiasplappert.com/blog/2026/two-agent-types/",
+   "s": "外网新声·Hacker News",
+   "d": "16:05",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN: Manage Skills, Memories, and Agents.md Files Across Tools and Projects",
+   "u": "https://github.com/mjalalimanesh/skillhub-local",
+   "s": "外网新声·Hacker News",
+   "d": "15:35",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "将预测分析引入代理人工智能时代",
+   "u": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
+   "s": "外网新声·Hacker News",
+   "d": "15:20",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Ask HN: Would you pay for saving AI cost?",
+   "u": "https://news.ycombinator.com/item?id=49975157",
+   "s": "外网新声·Hacker News",
+   "d": "15:01",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Autolith: A self-modifiable general purpose Lisp AI agent",
    "u": "https://github.com/lambda-symbolics/autolith",
    "s": "外网新声·Hacker News",
@@ -635,10 +675,10 @@
    "x": ""
   },
   {
-   "t": "Almost half of China's workforce is now in the gig economy",
-   "u": "https://www.abc.net.au/news/2026-10-06/inside-the-life-of-chinese-gig-workers/107209244",
+   "t": "Autonomous AI Agent Security Incidents of 2026 (Dataset and Defense Harness)",
+   "u": "https://github.com/mars2021y-gif/autonomous-ai-agent-security-incidents-2026",
    "s": "外网新声·Hacker News",
-   "d": "13:11",
+   "d": "14:03",
    "k": "",
    "x": ""
   },
@@ -647,22 +687,6 @@
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
    "d": "08:41",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
-   "s": "外网新声·GitHub 新星",
-   "d": "08:41",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "u": "https://github.com/earendil-works/pi",
-   "s": "外网新声·GitHub 新星",
-   "d": "08:18",
    "k": "",
    "x": ""
   },
@@ -699,18 +723,138 @@
    "x": ""
   },
   {
-   "t": "将智能体与企业知识联系起来",
-   "u": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "15:47",
+   "t": "One Figure, Every Canvas: Editable Flowchart Relayout via Agentic Pipeline",
+   "u": "https://arxiv.org/abs/2610.06852v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:59",
    "k": "",
    "x": ""
   },
   {
-   "t": "将预测分析引入代理人工智能时代",
-   "u": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "13:29",
+   "t": "Base Models Can Reason By Taking a Cue From Training Data",
+   "u": "https://arxiv.org/abs/2610.06851v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Learning to Read the Contextual Tokens in Diffusion Transformers",
+   "u": "https://arxiv.org/abs/2610.06844v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Recursive Video In-Context Learning for Agentic Robot",
+   "u": "https://arxiv.org/abs/2610.06843v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Direct Intermediate Initialization for Tilted Diffusion Samplers",
+   "u": "https://arxiv.org/abs/2610.06834v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:58",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Towards Looped Models Done Right, Part II: Rethinking at Fixed Points",
+   "u": "https://arxiv.org/abs/2610.06833v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:58",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "MemPilot: Orchestrating On-Demand Multimodal Memory Curation for LLM Agents",
+   "u": "https://arxiv.org/abs/2610.06830v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:58",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "CLIFT: Conformal Self-Verification for Web Agent Training and Test-Time Scaling",
+   "u": "https://arxiv.org/abs/2610.06829v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "TasteVal: Measuring the Experimental Research Taste of AI Systems Against Human Experts",
+   "u": "https://arxiv.org/abs/2610.06824v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "H-JEPA: End-to-End Learning of Hierarchical World Models for Visual Planning",
+   "u": "https://arxiv.org/abs/2610.06805v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:53",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "MC-Sparse: Deconstructing and Closing the Dense-Sparse Attention Gap in Diffusion Transformers",
+   "u": "https://arxiv.org/abs/2610.06801v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:51",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification",
+   "u": "https://arxiv.org/abs/2610.06790v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:48",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "How to scale your HEP ML models: A recipe for robust architecture comparisons at scale",
+   "u": "https://arxiv.org/abs/2610.06784v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:44",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "On Learning Optimal Corners in Orthogonal Partially Observable Cooperative Guard Art Galleries",
+   "u": "https://arxiv.org/abs/2610.06777v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:42",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Singular parameters and missing limits in neural PDE solvers",
+   "u": "https://arxiv.org/abs/2610.06770v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:40",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Balancing Memory Pathways: Analyzing and Improving Memory Utilization in Hybrid LMs",
+   "u": "https://arxiv.org/abs/2610.06750v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:27",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "BazaarBench: Delegation Safety in Decentralized C2C Marketplaces Run by LLM Agents",
+   "u": "https://arxiv.org/abs/2610.06748v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:26",
    "k": "",
    "x": ""
   },
@@ -723,26 +867,10 @@
    "x": ""
   },
   {
-   "t": "人们真的很讨厌人工智能，为什么他们得不到足够的呢？",
-   "u": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "08:00",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
    "u": "https://github.com/affaan-m/ECC",
    "s": "外网新声·GitHub 新星",
    "d": "04:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "TauricResearch/TradingAgents — TradingAgents：多代理LLM金融交易框架",
-   "u": "https://github.com/TauricResearch/TradingAgents",
-   "s": "外网新声·GitHub 新星",
-   "d": "21:30",
    "k": "",
    "x": ""
   },
@@ -763,34 +891,10 @@
    "x": ""
   },
   {
-   "t": "GPT-6系列的模型指南",
-   "u": "https://openai.com/index/practical-guide-building-gpt-6",
-   "s": "外网新声·OpenAI 官方",
-   "d": "16:15",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "rasbt/LLMs-from-scratch：一步步用 PyTorch 从零实现类 ChatGPT 模型",
-   "u": "https://github.com/rasbt/LLMs-from-scratch",
-   "s": "外网新声·GitHub 新星",
-   "d": "14:55",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "秘密协助：有帮助的LLM代理人逃避多代理系统的监督",
    "u": "https://arxiv.org/abs/2609.39050",
    "s": "外网新声·Hacker News",
    "d": "11:07",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "不要被愚弄- LLM不要讲道理",
-   "u": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "08:00",
    "k": "",
    "x": ""
   },
@@ -811,26 +915,10 @@
    "x": ""
   },
   {
-   "t": "永恒的补充",
-   "u": "https://openai.com/index/the-eternal-complement",
-   "s": "外网新声·OpenAI 官方",
-   "d": "17:00",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "非凡的多智能体错觉和人群的疯狂",
    "u": "https://freesystems.substack.com/p/extraordinary-multi-agent-delusions",
    "s": "外网新声·Hacker News",
    "d": "01:24",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
-   "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-   "s": "外网新声·GitHub 新星",
-   "d": "20:31",
    "k": "",
    "x": ""
   },
@@ -843,98 +931,10 @@
    "x": ""
   },
   {
-   "t": "OpenAI首席研究官表示：“我们不会因为黑客攻击而自杀”",
-   "u": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "10:40",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "扰乱协调的模型蒸馏活动",
-   "u": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-   "s": "外网新声·OpenAI 官方",
-   "d": "10:30",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "GPT-6.1 Sol简介",
-   "u": "https://openai.com/index/introducing-gpt-6-1-sol",
-   "s": "外网新声·OpenAI 官方",
-   "d": "10:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "面向前沿人工智能培训的安全案例",
-   "u": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-   "s": "外网新声·OpenAI 官方",
-   "d": "19:00",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "使用安全的服务器端内存推进专用AI计算",
    "u": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
    "s": "外网新声·DeepMind 官方",
    "d": "16:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "TangSengDaoDao/TangSengDaoDaoServer — 高颜值 IM 即时通讯,聊天",
-   "u": "https://github.com/TangSengDaoDao/TangSengDaoDaoServer",
-   "s": "外网新声·GitHub 新星",
-   "d": "08:13",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "通过Gemini介绍代理视频理解",
-   "u": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "17:08",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "试行全球首个双盲人工智能评估",
-   "u": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "12:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ultraworkers/claw-code -代理管理的博物馆展览，使用Gajae-Code/LazyCodex在Rust中建造—开发和",
-   "u": "https://github.com/ultraworkers/claw-code",
-   "s": "外网新声·GitHub 新星",
-   "d": "06:18",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "nutzam/nutz — Nutz —适用于所有Java开发人员的Web框架（ Mvc/Ioc/Aop/DAO/Json ）",
-   "u": "https://github.com/nutzam/nutz",
-   "s": "外网新声·GitHub 新星",
-   "d": "03:17",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Gemini Robotics ER 2：通过视频理解、任务编排和多机器人协作为机器人技术提供动力",
-   "u": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "15:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "multica-ai/andrej-karpathy-skills —用于改进Claude Code行为的单个CLAUDE.md文件，源自Andrej Karpathy的ob",
-   "u": "https://github.com/multica-ai/andrej-karpathy-skills",
-   "s": "外网新声·GitHub 新星",
-   "d": "10:05",
    "k": "",
    "x": ""
   }
