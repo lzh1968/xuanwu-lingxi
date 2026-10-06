@@ -2,15 +2,40 @@
  "日期": "2026-10-06",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-06 19:25:56",
-  "chosen": "NEAR short",
+  "updated": "2026-10-06 19:28:44",
+  "chosen": "SUI short",
   "nodes": [
+   {
+    "coin": "ADA",
+    "side": "long",
+    "align": 3,
+    "embryo": 1.2
+   },
    {
     "coin": "NEAR",
     "side": "short",
     "align": 2,
-    "embryo": 3.0
+    "embryo": 3.3
+   },
+   {
+    "coin": "SUI",
+    "side": "short",
+    "align": 1,
+    "embryo": 2.5
+   },
+   {
+    "coin": "WLD",
+    "side": "long",
+    "align": 2,
+    "embryo": 2.7
+   },
+   {
+    "coin": "FIL",
+    "side": "short",
+    "align": 2,
+    "embryo": 3.3
    }
-  ]
+  ],
+  "口径": "供数器独立复活(ED-20261002-377)·引擎基因(xwu)·align=e4/e1/t4l·embryo=|score|+对齐加成"
  }
 }
