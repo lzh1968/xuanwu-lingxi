@@ -2,15 +2,122 @@
  "日期": "2026-10-06",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-06 21:42:13",
-  "chosen": "AVAX long",
+  "updated": "2026-10-06 21:59:51",
+  "chosen": "ARB short",
   "nodes": [
+   {
+    "coin": "ADA",
+    "side": "long",
+    "align": 3,
+    "embryo": 0.7
+   },
+   {
+    "coin": "SUI",
+    "side": "long",
+    "align": 1,
+    "embryo": 2.0
+   },
+   {
+    "coin": "ETH",
+    "side": "long",
+    "align": 2,
+    "embryo": 4.7
+   },
+   {
+    "coin": "UNI",
+    "side": "short",
+    "align": 2,
+    "embryo": 3.2
+   },
+   {
+    "coin": "WLD",
+    "side": "short",
+    "align": 0,
+    "embryo": -0.8
+   },
+   {
+    "coin": "FIL",
+    "side": "long",
+    "align": 1,
+    "embryo": 1.7
+   },
+   {
+    "coin": "LINK",
+    "side": "short",
+    "align": 0,
+    "embryo": 0.3
+   },
+   {
+    "coin": "BTC",
+    "side": "long",
+    "align": 3,
+    "embryo": 0.7,
+    "相位关": true
+   },
+   {
+    "coin": "LTC",
+    "side": "short",
+    "align": 0,
+    "embryo": 0.3,
+    "相位关": true
+   },
+   {
+    "coin": "DOGE",
+    "side": "long",
+    "align": 3,
+    "embryo": 2.7,
+    "相位关": true
+   },
+   {
+    "coin": "XRP",
+    "side": "long",
+    "align": 2,
+    "embryo": 2.7,
+    "相位关": true
+   },
+   {
+    "coin": "SOL",
+    "side": "long",
+    "align": 2,
+    "embryo": 2.7,
+    "相位关": true
+   },
+   {
+    "coin": "ARB",
+    "side": "short",
+    "align": 3,
+    "embryo": 3.2,
+    "相位关": true
+   },
    {
     "coin": "AVAX",
     "side": "long",
     "align": 3,
-    "embryo": 0.4
+    "embryo": 0.4,
+    "相位关": true
+   },
+   {
+    "coin": "NEAR",
+    "side": "short",
+    "align": 1,
+    "embryo": 2.2,
+    "相位关": true
+   },
+   {
+    "coin": "BNB",
+    "side": "long",
+    "align": 2,
+    "embryo": 2.7,
+    "相位关": true
+   },
+   {
+    "coin": "DOT",
+    "side": "short",
+    "align": 1,
+    "embryo": 4.2,
+    "相位关": true
    }
-  ]
+  ],
+  "口径": "供数器独立复活(ED-20261002-377)·引擎基因(xwu)·align=e4/e1/t4l·embryo=|score|+对齐加成"
  }
 }
