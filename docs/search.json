@@ -1,5 +1,5 @@
 {
- "built": "2026-10-07 16:51:22",
+ "built": "2026-10-07 16:58:04",
  "count": 124,
  "items": [
   {
@@ -755,10 +755,10 @@
    "x": ""
   },
   {
-   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
-   "u": "https://github.com/mattpocock/skills",
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "08:45",
+   "d": "08:56",
    "k": "",
    "x": ""
   },
@@ -766,15 +766,23 @@
    "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
    "u": "https://github.com/earendil-works/pi",
    "s": "外网新声·GitHub 新星",
-   "d": "08:45",
+   "d": "08:54",
    "k": "",
    "x": ""
   },
   {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
-   "d": "08:43",
+   "d": "08:54",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
+   "u": "https://github.com/mattpocock/skills",
+   "s": "外网新声·GitHub 新星",
+   "d": "08:45",
    "k": "",
    "x": ""
   },
@@ -799,14 +807,6 @@
    "u": "https://github.com/Dao-AILab/flash-attention",
    "s": "外网新声·GitHub 新星",
    "d": "08:22",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
-   "s": "外网新声·GitHub 新星",
-   "d": "07:56",
    "k": "",
    "x": ""
   },
@@ -859,41 +859,9 @@
    "x": ""
   },
   {
-   "t": "IdeaAnchor：教授法学硕士将文学转化为研究理念",
-   "u": "https://arxiv.org/abs/2610.08781v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "DepthWorld：机器人操纵的3D世界模型",
-   "u": "https://arxiv.org/abs/2610.08780v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "夏尔巴语：教授LLM自适应教学",
-   "u": "https://arxiv.org/abs/2610.08778v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "瓶中代理：LLM代理能否将其能力转化为廉价、可扩展的制品？",
-   "u": "https://arxiv.org/abs/2610.08775v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:57",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "AdvSim2Real：在Web世界模型中针对自适应提示注入对Web代理进行培训",
    "u": "https://arxiv.org/abs/2610.08773v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:56",
    "k": "",
    "x": ""
@@ -902,14 +870,6 @@
    "t": "Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion",
    "u": "https://arxiv.org/abs/2610.08764v1",
    "s": "外网新声·arXiv cs.LG",
-   "d": "17:50",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "VeriFine：在具体化推理中进行自我完善的扩展验证",
-   "u": "https://arxiv.org/abs/2610.08761v1",
-   "s": "外网新声·arXiv cs.AI",
    "d": "17:50",
    "k": "",
    "x": ""
@@ -925,7 +885,7 @@
   {
    "t": "Reinforcement Learning with Conformal Action Sets: An Application to Sequential Recommendation",
    "u": "https://arxiv.org/abs/2610.08743v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:40",
    "k": "",
    "x": ""
@@ -939,25 +899,9 @@
    "x": ""
   },
   {
-   "t": "EgoLAP: Learning from Egocentric Human Data through Language-Action Reasoning",
-   "u": "https://arxiv.org/abs/2610.08726v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:30",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Does an Agent's History Tell You When Compaction Will Hurt? A Modest, Bounded Effect on the TRACE Paired-Replay Corpus",
    "u": "https://arxiv.org/abs/2610.08722v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:26",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "WorldSolver: Can LLM Agents Simulate the Physical Dynamics via Solver Generation?",
-   "u": "https://arxiv.org/abs/2610.08720v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:26",
    "k": "",
    "x": ""
@@ -971,26 +915,82 @@
    "x": ""
   },
   {
-   "t": "nanoMuse: An Open-Source Personal Agent for Every Device You Own",
-   "u": "https://arxiv.org/abs/2610.08699v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:13",
+   "t": "A Systematic Study of Small Language Models on Abstract Reasoning Tasks",
+   "u": "https://arxiv.org/abs/2610.08680v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:01",
    "k": "",
    "x": ""
   },
   {
-   "t": "ScienceClaw: Benchmarking Continual Self-Evolution of AI-for-Science Agents Across the Natural and Social Sciences",
-   "u": "https://arxiv.org/abs/2610.08691v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:08",
+   "t": "Secure Speculative Decoding for Large Language Models",
+   "u": "https://arxiv.org/abs/2610.08678v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:59",
    "k": "",
    "x": ""
   },
   {
-   "t": "Coupled but Late: Turn-Taking Between Full-Duplex Speech Models in Unscripted Dialogue",
-   "u": "https://arxiv.org/abs/2610.08683v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:03",
+   "t": "Variance-Optimal Off-Policy Evaluation with Conjunct Effect Modeling",
+   "u": "https://arxiv.org/abs/2610.08677v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:58",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Principled Under Pressure: Post-Training Decides Whether LLMs Act on Their Own Moral Judgment",
+   "u": "https://arxiv.org/abs/2610.08670v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:52",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "使用Ironclad推进计算机使用",
+   "u": "https://openai.com/index/advancing-computer-use-with-ironclad",
+   "s": "外网新声·OpenAI 官方",
+   "d": "10:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：Kiro的多代理包",
+   "u": "https://github.com/amergrgic/kodama",
+   "s": "外网新声·Hacker News",
+   "d": "02:18",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "将智能体与企业知识联系起来",
+   "u": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "15:47",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "将预测分析引入代理人工智能时代",
+   "u": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "13:29",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "人们真的很讨厌人工智能，为什么他们得不到足够的呢？",
+   "u": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "08:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
+   "u": "https://github.com/affaan-m/ECC",
+   "s": "外网新声·GitHub 新星",
+   "d": "04:55",
    "k": "",
    "x": ""
   }
