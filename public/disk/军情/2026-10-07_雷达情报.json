@@ -2,21 +2,119 @@
  "日期": "2026-10-07",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-07 06:57:52",
-  "chosen": "ARB long",
+  "updated": "2026-10-07 11:38:01",
+  "chosen": "ETH short",
   "nodes": [
    {
-    "coin": "WLD",
-    "side": "long",
-    "align": 3,
-    "embryo": 0.1
+    "coin": "ADA",
+    "side": "short",
+    "align": 2,
+    "embryo": 3.6
    },
    {
     "coin": "ARB",
     "side": "long",
     "align": 3,
-    "embryo": 2.45
+    "embryo": 2.1
+   },
+   {
+    "coin": "SUI",
+    "side": "long",
+    "align": 3,
+    "embryo": 1.9
+   },
+   {
+    "coin": "ETH",
+    "side": "short",
+    "align": 3,
+    "embryo": 2.7
+   },
+   {
+    "coin": "AVAX",
+    "side": "short",
+    "align": 2,
+    "embryo": 4.1
+   },
+   {
+    "coin": "NEAR",
+    "side": "long",
+    "align": 2,
+    "embryo": 3.6
+   },
+   {
+    "coin": "WLD",
+    "side": "long",
+    "align": 3,
+    "embryo": 2.2
+   },
+   {
+    "coin": "DOT",
+    "side": "long",
+    "align": 3,
+    "embryo": 1.6
+   },
+   {
+    "coin": "FIL",
+    "side": "long",
+    "align": 2,
+    "embryo": 2.7
+   },
+   {
+    "coin": "LINK",
+    "side": "short",
+    "align": 3,
+    "embryo": 2.4
+   },
+   {
+    "coin": "BTC",
+    "side": "short",
+    "align": 3,
+    "embryo": 2.1,
+    "相位关": true
+   },
+   {
+    "coin": "LTC",
+    "side": "short",
+    "align": 3,
+    "embryo": 2.1,
+    "相位关": true
+   },
+   {
+    "coin": "DOGE",
+    "side": "short",
+    "align": 3,
+    "embryo": 2.1,
+    "相位关": true
+   },
+   {
+    "coin": "XRP",
+    "side": "short",
+    "align": 3,
+    "embryo": 2.1,
+    "相位关": true
+   },
+   {
+    "coin": "SOL",
+    "side": "short",
+    "align": 3,
+    "embryo": 2.1,
+    "相位关": true
+   },
+   {
+    "coin": "UNI",
+    "side": "short",
+    "align": 3,
+    "embryo": 1.6,
+    "相位关": true
+   },
+   {
+    "coin": "BNB",
+    "side": "short",
+    "align": 3,
+    "embryo": 2.4,
+    "相位关": true
    }
-  ]
+  ],
+  "口径": "供数器独立复活(ED-20261002-377)·引擎基因(xwu)·align=e4/e1/t4l·embryo=|score|+对齐加成"
  }
 }
