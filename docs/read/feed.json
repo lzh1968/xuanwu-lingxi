@@ -1,9 +1,17 @@
 {
- "generated": "17:20",
- "built": "2026-10-07 17:20:16",
+ "generated": "17:33",
+ "built": "2026-10-07 17:33:03",
  "count": 84,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Creating interactive slides with LLMs, Slidev and Rough.js",
+   "url": "https://svrnm.com/blog/creating-interactive-slides-with-llms-slidev-and-roughjs/",
+   "src": "Hacker News",
+   "t": "17:30",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Streaming an LLM chat across a TypeScript/Python boundary: the details that bite",
@@ -38,14 +46,6 @@
   },
   {
    "type": "live",
-   "title": "Show HN: KORA Doctor – find LLM calls your agent may not have needed",
-   "url": "https://github.com/Krako-Labs/kora-doctor",
-   "src": "Hacker News",
-   "t": "12:55",
-   "fresh": false
-  },
-  {
-   "type": "live",
    "title": "Show HN：NanoMuse –适用于您的手机和计算机的开源AI 智能体",
    "url": "https://github.com/nano-muse/nanoMuse",
    "src": "Hacker News",
@@ -54,18 +54,18 @@
   },
   {
    "type": "live",
-   "title": "Show HN：类似Vim，超高效，LLM电动工具– 20-80k代币，而不是350k +",
-   "url": "https://easiest.ai/",
-   "src": "Hacker News",
-   "t": "11:29",
-   "fresh": false
-  },
-  {
-   "type": "live",
    "title": "适用于团队和座席的多人AI编码工作区",
    "url": "https://www.tryfridaywork.com",
    "src": "Hacker News",
    "t": "11:28",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "生物学、佛教和人工智能：柏拉图空间模型和流氓智能体群体",
+   "url": "https://okossa.com/biology-buddhism-and-ai-ff213a852eb4",
+   "src": "Hacker News",
+   "t": "11:26",
    "fresh": false
   },
   {
