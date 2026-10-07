@@ -1,34 +1,27 @@
 {
  "日期": "2026-10-07",
- "落盘": "2026-10-07 23:43:24",
+ "落盘": "2026-10-07 23:43:51",
  "内存报表": {
-  "时间": "2026-10-07 23:43:24",
-  "网关": {
-   "进程号": "4473",
-   "内存MB": 388.5,
-   "线程": 11,
-   "堆上限": "2048"
-  },
-  "实例数": 1,
-  "受托进程数": 30,
+  "时间": "2026-10-07 23:43:51",
+  "受托进程数": 24,
   "全机MemTotal": "11469MB",
-  "全机MemAvailable": "6818MB",
+  "全机MemAvailable": "6906MB",
   "全机SwapTotal": "7110MB",
-  "全机SwapFree": "6742MB",
-  "探活": "200"
+  "全机SwapFree": "6723MB",
+  "探活": "000"
  },
  "断线统计": {
-  "今日断线次数": 58,
+  "今日断线次数": 59,
   "今日最长断线秒": 323,
   "近2小时真停摆(≥90秒)": 3,
   "维护窗口": 19
  },
  "日志体量KB": {
-  "gateway_guard.log": 645.9,
+  "gateway_guard.log": 646.0,
   "gateway_outage.jsonl": 18.7,
   "gw_boot.out": 4866.1,
   "gw_run.out": 71.8,
-  "网关停摆取证.log": 152.9
+  "网关停摆取证.log": 153.3
  },
  "会话索引(不含正文)": [
   {
@@ -105,12 +98,6 @@
   }
  ],
  "停摆取证(近段)": [
-  "  CPU    57.4s python3 -u _子引擎.py xwu --mode live --consent 奈工复开实盘·分身独立测试(2",
-  "── 停摆取证 2026-10-07 22:17:12 (取码 000) ──",
-  "  网关 VmRSS:\t  545696 kB",
-  "  网关 VmSwap:\t       0 kB",
-  "  网关 Threads:\t11",
-  "  Mem:           11469        5192         699          36        5576        6045",
   "  Swap:           7110        1873        5237",
   "  CPU   168.6s openclaw-gateway",
   "  CPU    69.7s python3 -u _子引擎.py dss --mode live --consent 奈工复开实盘·分身独立测试(2",
@@ -264,6 +251,12 @@
   "  Swap:           7110        1849        5261",
   "  CPU   145.1s openclaw-gateway",
   "  CPU    23.7s openclaw-gateway",
-  "  CPU    14.9s python3 -u _子引擎.py dss --mode live --consent 奈工复开实盘·分身独立测试(2"
+  "  CPU    14.9s python3 -u _子引擎.py dss --mode live --consent 奈工复开实盘·分身独立测试(2",
+  "── 停摆取证 2026-10-07 23:43:46 (取码 000) ──",
+  "  Mem:           11469        4363         148          14        6957        6856",
+  "  Swap:           7110         281        6829",
+  "  CPU    16.2s python3 /data/data/com.termux/files/home/.openclaw/workspace",
+  "  CPU     3.7s openclaw",
+  "  CPU     3.5s python3 -u _子引擎.py zxy --mode live --consent 奈工复开实盘·分身独立测试(2"
  ]
 }
