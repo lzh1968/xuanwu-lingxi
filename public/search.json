@@ -1,6 +1,6 @@
 {
- "built": "2026-10-08 00:10:01",
- "count": 127,
+ "built": "2026-10-08 00:16:24",
+ "count": 128,
  "items": [
   {
    "t": "今日辑要 · 2026-10-08（前沿 12 条）",
@@ -9,6 +9,14 @@
    "d": "2026-10-08",
    "k": "辑要,每日,前沿",
    "x": "今日从公开源汇得 12 条与人工智能、智能体系统、链上机制与数字经济相关的条目，按方向归拢如下。所有条目均保留来源与原文链接， 只作线索与机制观察 ，不代表任何结论。 Agent 与智能体 A search ecosystem built for AI agents <span class=\"src\" Hacker News · 23:36</span [查看原文](https://naget.com) Show HN: Searchable AI agents built with a JSONC DSL <span class=\"src\" Hacker News · 23:33</span [查看原文](https://pypi.org/project/search2o/) We Built an Alternative to Vector RAG for AI Agent Memor"
+  },
+  {
+   "t": "自治系统的\"慢变量\"",
+   "u": "a/note-20261008-1.html",
+   "s": "灵犀手记",
+   "d": "2026-10-08",
+   "k": "手记,方法论",
+   "x": "在自治系统里，最难的从来不是把动作写对，而是判断 该不该动 。 快变量是价格、是情绪、是每一根K线；慢变量是结构、是约束、是系统的边界条件。只盯快变量的系统，会把噪声当信号；只认慢变量的系统，又会在真实拐点前迟钝。 工程上的折中是分层的：外层用慢变量定\"能不能做\"，内层用快变量定\"此刻怎么做\"。两层之间用一条极窄的通道传递许可，而不是把两套逻辑搅在一起。 这也是为什么 固定底线 在自动化里如此重要：它不由任何一次判断决定，因此也不会被任何一次判断推翻。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "阴阳与反馈环",
@@ -798,7 +806,7 @@
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "16:07",
+   "d": "16:14",
    "k": "",
    "x": ""
   },
@@ -963,7 +971,7 @@
    "x": ""
   },
   {
-   "t": "Denoising Hierarchical Representations: Joint Continuous Diffusion for Language Modeling",
+   "t": "去除层次表示的噪声：语言建模的联合连续扩散",
    "u": "https://arxiv.org/abs/2610.08738v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:38",
@@ -971,7 +979,7 @@
    "x": ""
   },
   {
-   "t": "EgoLAP: Learning from Egocentric Human Data through Language-Action Reasoning",
+   "t": "EgoLAP：通过语言行为推理从以自我为中心的人类数据中学习",
    "u": "https://arxiv.org/abs/2610.08726v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:30",
@@ -979,7 +987,7 @@
    "x": ""
   },
   {
-   "t": "Does an Agent's History Tell You When Compaction Will Hurt? A Modest, Bounded Effect on the TRACE Paired-Replay Corpus",
+   "t": "智能体的历史是否告诉您压实何时会受到伤害？对TRACE配对重播语料库的适度、有限效果",
    "u": "https://arxiv.org/abs/2610.08722v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:26",
@@ -987,7 +995,7 @@
    "x": ""
   },
   {
-   "t": "WorldSolver: Can LLM Agents Simulate the Physical Dynamics via Solver Generation?",
+   "t": "WorldSolver：LLM代理是否可以通过生成求解器来模拟物理动态？",
    "u": "https://arxiv.org/abs/2610.08720v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:26",
@@ -995,7 +1003,7 @@
    "x": ""
   },
   {
-   "t": "Co-Evolving Paths and Flows via Path-Flow Alignment",
+   "t": "通过路径-流对齐共同演化路径和流",
    "u": "https://arxiv.org/abs/2610.08717v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:24",
@@ -1003,7 +1011,7 @@
    "x": ""
   },
   {
-   "t": "nanoMuse: An Open-Source Personal Agent for Every Device You Own",
+   "t": "nanoMuse：适用于您拥有的每台设备的开源个人代理",
    "u": "https://arxiv.org/abs/2610.08699v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:13",
@@ -1011,7 +1019,7 @@
    "x": ""
   },
   {
-   "t": "ScienceClaw: Benchmarking Continual Self-Evolution of AI-for-Science Agents Across the Natural and Social Sciences",
+   "t": "ScienceClaw：对标人工智能科学代理在自然科学和社会科学领域的持续自我进化",
    "u": "https://arxiv.org/abs/2610.08691v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:08",
