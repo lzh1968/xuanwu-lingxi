@@ -1,5 +1,5 @@
 {
- "built": "2026-10-07 11:32:01",
+ "built": "2026-10-07 11:39:05",
  "count": 124,
  "items": [
   {
@@ -675,6 +675,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Show HN：NanoMuse –适用于您的手机和计算机的开源AI 智能体",
+   "u": "https://github.com/nano-muse/nanoMuse",
+   "s": "外网新声·Hacker News",
+   "d": "11:30",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Show HN：类似Vim，超高效，LLM电动工具– 20-80k代币，而不是350k +",
    "u": "https://easiest.ai/",
    "s": "外网新声·Hacker News",
@@ -739,24 +747,16 @@
    "x": ""
   },
   {
-   "t": "沟–观察和控制AI智能体运行时",
-   "u": "https://sulcus.dev/",
-   "s": "外网新声·Hacker News",
-   "d": "05:51",
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "03:35",
    "k": "",
    "x": ""
   },
   {
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "03:26",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
    "d": "03:26",
    "k": "",
@@ -795,14 +795,6 @@
    "x": ""
   },
   {
-   "t": "EmbeddingGemma 2：开放、轻量级的多模态嵌入模型",
-   "u": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "19:57",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
    "u": "https://github.com/Dao-AILab/flash-attention",
    "s": "外网新声·GitHub 新星",
@@ -835,7 +827,7 @@
    "x": ""
   },
   {
-   "t": "IdeaAnchor: Teaching LLMs to Turn Literature into Research Ideas",
+   "t": "IdeaAnchor：教授法学硕士将文学转化为研究理念",
    "u": "https://arxiv.org/abs/2610.08781v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
@@ -843,7 +835,7 @@
    "x": ""
   },
   {
-   "t": "DepthWorld: 3D World Model for Robot Manipulation",
+   "t": "DepthWorld：机器人操纵的3D世界模型",
    "u": "https://arxiv.org/abs/2610.08780v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
@@ -851,7 +843,7 @@
    "x": ""
   },
   {
-   "t": "Sherpa: Teaching LLMs to Teach Adaptively",
+   "t": "夏尔巴语：教授LLM自适应教学",
    "u": "https://arxiv.org/abs/2610.08778v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:58",
@@ -859,7 +851,7 @@
    "x": ""
   },
   {
-   "t": "Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?",
+   "t": "瓶中代理：LLM代理能否将其能力转化为廉价、可扩展的制品？",
    "u": "https://arxiv.org/abs/2610.08775v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:57",
@@ -867,7 +859,7 @@
    "x": ""
   },
   {
-   "t": "AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model",
+   "t": "AdvSim2Real：在Web世界模型中针对自适应提示注入对Web代理进行培训",
    "u": "https://arxiv.org/abs/2610.08773v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:56",
@@ -883,7 +875,7 @@
    "x": ""
   },
   {
-   "t": "VeriFine: Scaling Verification for Self-Improvement in Embodied Reasoning",
+   "t": "VeriFine：在具体化推理中进行自我完善的扩展验证",
    "u": "https://arxiv.org/abs/2610.08761v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:50",
@@ -991,6 +983,14 @@
    "u": "https://arxiv.org/abs/2610.08677v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "16:58",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Principled Under Pressure: Post-Training Decides Whether LLMs Act on Their Own Moral Judgment",
+   "u": "https://arxiv.org/abs/2610.08670v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:52",
    "k": "",
    "x": ""
   }
