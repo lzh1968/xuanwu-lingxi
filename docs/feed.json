@@ -1,8 +1,8 @@
 {
- "generated": "12:48",
- "built": "2026-10-07 12:48:43",
+ "generated": "13:02",
+ "built": "2026-10-07 13:02:52",
  "count": 84,
- "live_count": 60,
+ "live_count": 12,
  "items": [
   {
    "type": "live",
@@ -10,15 +10,7 @@
    "url": "https://github.com/nano-muse/nanoMuse",
    "src": "Hacker News",
    "t": "11:30",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Show HN：类似Vim，超高效，LLM电动工具– 20-80k代币，而不是350k +",
-   "url": "https://easiest.ai/",
-   "src": "Hacker News",
-   "t": "11:29",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -26,7 +18,7 @@
    "url": "https://www.tryfridaywork.com",
    "src": "Hacker News",
    "t": "11:28",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -34,7 +26,7 @@
    "url": "https://okossa.com/biology-buddhism-and-ai-ff213a852eb4",
    "src": "Hacker News",
    "t": "11:26",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -42,14 +34,6 @@
    "url": "https://academy.dair.ai/resources/jev-as-a-judge",
    "src": "Hacker News",
    "t": "09:07",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Llama.cpp和WebGPU =客户端LLM [视频]",
-   "url": "https://www.youtube.com/watch?v=TvVhzroY72E",
-   "src": "Hacker News",
-   "t": "09:02",
    "fresh": false
   },
   {
@@ -66,6 +50,22 @@
    "url": "https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/",
    "src": "Hacker News",
    "t": "07:50",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "url": "https://github.com/ggml-org/llama.cpp",
+   "src": "GitHub 新星",
+   "t": "04:30",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "url": "https://github.com/earendil-works/pi",
+   "src": "GitHub 新星",
+   "t": "22:14",
    "fresh": false
   },
   {
