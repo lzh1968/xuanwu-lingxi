@@ -1,15 +1,31 @@
 {
- "generated": "13:02",
- "built": "2026-10-07 13:02:52",
+ "generated": "13:08",
+ "built": "2026-10-07 13:08:51",
  "count": 84,
- "live_count": 12,
+ "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN: KORA Doctor – find LLM calls your agent may not have needed",
+   "url": "https://github.com/Krako-Labs/kora-doctor",
+   "src": "Hacker News",
+   "t": "12:55",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Show HN：NanoMuse –适用于您的手机和计算机的开源AI 智能体",
    "url": "https://github.com/nano-muse/nanoMuse",
    "src": "Hacker News",
    "t": "11:30",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "Show HN：类似Vim，超高效，LLM电动工具– 20-80k代币，而不是350k +",
+   "url": "https://easiest.ai/",
+   "src": "Hacker News",
+   "t": "11:29",
    "fresh": false
   },
   {
@@ -38,34 +54,18 @@
   },
   {
    "type": "live",
+   "title": "Llama.cpp和WebGPU =客户端LLM [视频]",
+   "url": "https://www.youtube.com/watch?v=TvVhzroY72E",
+   "src": "Hacker News",
+   "t": "09:02",
+   "fresh": false
+  },
+  {
+   "type": "live",
    "title": "研究人员通过后门打开人工智能模型窃取编码智能体的凭证",
    "url": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned",
    "src": "Hacker News",
    "t": "08:40",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "韩国称人工智能智能体似乎被用来入侵该国的银行",
-   "url": "https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/",
-   "src": "Hacker News",
-   "t": "07:50",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "url": "https://github.com/ggml-org/llama.cpp",
-   "src": "GitHub 新星",
-   "t": "04:30",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "url": "https://github.com/earendil-works/pi",
-   "src": "GitHub 新星",
-   "t": "22:14",
    "fresh": false
   },
   {
