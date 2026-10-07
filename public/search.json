@@ -1,5 +1,5 @@
 {
- "built": "2026-10-07 23:27:07",
+ "built": "2026-10-07 23:43:43",
  "count": 124,
  "items": [
   {
@@ -675,6 +675,22 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "A search ecosystem built for AI agents",
+   "u": "https://naget.com",
+   "s": "外网新声·Hacker News",
+   "d": "23:36",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN: Searchable AI agents built with a JSONC DSL",
+   "u": "https://pypi.org/project/search2o/",
+   "s": "外网新声·Hacker News",
+   "d": "23:33",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "LLM Running in Factorio",
    "u": "https://github.com/RomOSTiny/factorio-transformer",
    "s": "外网新声·Hacker News",
@@ -747,14 +763,6 @@
    "x": ""
   },
   {
-   "t": "Show HN: InBrief – open-source AI news aggregator with LLM filtering",
-   "u": "https://github.com/frankzch/ai-news-brief",
-   "s": "外网新声·Hacker News",
-   "d": "22:23",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Show HN: Keel – Build, backtest, and deploy trading strategies on Hyperliquid",
    "u": "https://usekeel.io",
    "s": "外网新声·Hacker News",
@@ -763,18 +771,10 @@
    "x": ""
   },
   {
-   "t": "Show HN: Open model that checks stablecoin payments before an AI agent pays",
-   "u": "https://huggingface.co/sriram1983007/SRA-RiskGate-4B",
-   "s": "外网新声·Hacker News",
-   "d": "20:49",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN: Leaks.md – anonymous, encrypted whistleblowing for AI agents",
-   "u": "https://leaks.md/",
-   "s": "外网新声·Hacker News",
-   "d": "20:35",
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "15:41",
    "k": "",
    "x": ""
   },
@@ -782,15 +782,23 @@
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "15:26",
+   "d": "15:40",
    "k": "",
    "x": ""
   },
   {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
-   "d": "15:24",
+   "d": "14:54",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
+   "s": "外网新声·GitHub 新星",
+   "d": "14:18",
    "k": "",
    "x": ""
   },
@@ -799,6 +807,22 @@
    "u": "https://github.com/mattpocock/skills",
    "s": "外网新声·GitHub 新星",
    "d": "10:23",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "u": "https://github.com/Dao-AILab/flash-attention",
+   "s": "外网新声·GitHub 新星",
+   "d": "08:22",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
+   "u": "https://github.com/IBAX-io/go-ibax",
+   "s": "外网新声·GitHub 新星",
+   "d": "07:20",
    "k": "",
    "x": ""
   },
@@ -967,30 +991,6 @@
    "u": "https://arxiv.org/abs/2610.08683v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:03",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "A Systematic Study of Small Language Models on Abstract Reasoning Tasks",
-   "u": "https://arxiv.org/abs/2610.08680v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:01",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Secure Speculative Decoding for Large Language Models",
-   "u": "https://arxiv.org/abs/2610.08678v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Variance-Optimal Off-Policy Evaluation with Conjunct Effect Modeling",
-   "u": "https://arxiv.org/abs/2610.08677v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "16:58",
    "k": "",
    "x": ""
   }
