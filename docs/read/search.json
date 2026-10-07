@@ -1,5 +1,5 @@
 {
- "built": "2026-10-08 07:23:04",
+ "built": "2026-10-08 07:29:22",
  "count": 129,
  "items": [
   {
@@ -715,6 +715,22 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "在使用智能体时，何时以及为何仍需要原型设计",
+   "u": "https://emmflow.com/blog/when-and-why-prototyping-is-still-needed-when-working-with-ai-agents",
+   "s": "外网新声·Hacker News",
+   "d": "07:27",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "智能体商推销Lit Mags以保持活力",
+   "u": "https://bookgossip.substack.com/p/the-ai-agents-pitching-lit-mags-to",
+   "s": "外网新声·Hacker News",
+   "d": "07:23",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "问HN：IDE的未来黯淡吗？",
    "u": "https://news.ycombinator.com/item?id=49999930",
    "s": "外网新声·Hacker News",
@@ -727,6 +743,14 @@
    "u": "https://infini-ai-lab.github.io/ServeLearnBench/",
    "s": "外网新声·Hacker News",
    "d": "06:54",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "如何使用Claude Code子代理延长Claude Pro限制的使用寿命",
+   "u": "https://www.andreagrandi.it/posts/claude-code-subagents-to-save-usage/",
+   "s": "外网新声·Hacker News",
+   "d": "06:04",
    "k": "",
    "x": ""
   },
@@ -763,18 +787,10 @@
    "x": ""
   },
   {
-   "t": "在TryMuse上发现您的AI 智能体连接器或集成",
-   "u": "https://trymuse.com/",
-   "s": "外网新声·Hacker News",
-   "d": "02:45",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "23:21",
+   "d": "23:28",
    "k": "",
    "x": ""
   },
@@ -827,14 +843,6 @@
    "x": ""
   },
   {
-   "t": "丽笙酒店集团将酒店探索引入ChatGPT",
-   "u": "https://openai.com/index/radisson",
-   "s": "外网新声·OpenAI 官方",
-   "d": "07:00",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "obra/superpowers —有效的代理技能框架和软件开发方法。",
    "u": "https://github.com/obra/superpowers",
    "s": "外网新声·GitHub 新星",
@@ -843,18 +851,10 @@
    "x": ""
   },
   {
-   "t": "QF3：带滤波Q梯度的快速流动RL",
-   "u": "https://arxiv.org/abs/2610.08789v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "共形预测集量化信息增益：理论视角",
-   "u": "https://arxiv.org/abs/2610.08785v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:59",
+   "t": "Show HN：Tinyhat，多代理Muse的每位专家内存（开源）",
+   "u": "https://github.com/tinyhat-ai/muse-office",
+   "s": "外网新声·Hacker News",
+   "d": "22:11",
    "k": "",
    "x": ""
   },
@@ -899,14 +899,6 @@
    "x": ""
   },
   {
-   "t": "Kuramoto的快速Fredholm稳定--Sivashinsky方程与无限制、空间变化的抗扩散",
-   "u": "https://arxiv.org/abs/2610.08764v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:50",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "VeriFine：在具体化推理中进行自我完善的扩展验证",
    "u": "https://arxiv.org/abs/2610.08761v1",
    "s": "外网新声·arXiv cs.AI",
@@ -915,26 +907,10 @@
    "x": ""
   },
   {
-   "t": "用于化学反应的神经Petri流",
-   "u": "https://arxiv.org/abs/2610.08750v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:44",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "使用Conformal Action Sets的强化学习：顺序推荐的应用",
    "u": "https://arxiv.org/abs/2610.08743v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:40",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "去除层次表示的噪声：语言建模的联合连续扩散",
-   "u": "https://arxiv.org/abs/2610.08738v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:38",
    "k": "",
    "x": ""
   },
@@ -963,14 +939,6 @@
    "x": ""
   },
   {
-   "t": "通过路径-流对齐共同演化路径和流",
-   "u": "https://arxiv.org/abs/2610.08717v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:24",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "nanoMuse：适用于您拥有的每台设备的开源个人代理",
    "u": "https://arxiv.org/abs/2610.08699v1",
    "s": "外网新声·arXiv cs.AI",
@@ -995,26 +963,10 @@
    "x": ""
   },
   {
-   "t": "抽象推理任务小语言模型的系统研究",
-   "u": "https://arxiv.org/abs/2610.08680v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:01",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "大模型的安全推测解码",
    "u": "https://arxiv.org/abs/2610.08678v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "16:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "使用连结效应建模的方差-最优偏离策略评估",
-   "u": "https://arxiv.org/abs/2610.08677v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "16:58",
    "k": "",
    "x": ""
   },
@@ -1031,6 +983,54 @@
    "u": "https://arxiv.org/abs/2610.08669v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "16:51",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "语义行为水印：法学硕士代理商的释义-顽固和防伪来源",
+   "u": "https://arxiv.org/abs/2610.08668v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:50",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "偏执评估：在Agentic编码中对不必要的防御性工作进行基准测试",
+   "u": "https://arxiv.org/abs/2610.08662v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:46",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：Kiro的多代理包",
+   "u": "https://github.com/amergrgic/kodama",
+   "s": "外网新声·Hacker News",
+   "d": "02:18",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "将智能体与企业知识联系起来",
+   "u": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "15:47",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "将预测分析引入代理人工智能时代",
+   "u": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "13:29",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "人们真的很讨厌人工智能，为什么他们得不到足够的呢？",
+   "u": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "08:00",
    "k": "",
    "x": ""
   }
