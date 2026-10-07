@@ -1,9 +1,17 @@
 {
- "generated": "18:50",
- "built": "2026-10-07 18:50:44",
+ "generated": "18:56",
+ "built": "2026-10-07 18:56:48",
  "count": 84,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "We tried to reproduce LLM judge position bias",
+   "url": "https://github.com/ViridianAIQualityAssurance/viridian-assurance-research/tree/main/studies/001-position-sensitivity",
+   "src": "Hacker News",
+   "t": "18:51",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Creating interactive slides with LLMs, Slidev and Rough.js",
@@ -18,14 +26,6 @@
    "url": "https://chimerai.dev/blog",
    "src": "Hacker News",
    "t": "16:29",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Latent space bias directions in LLMs capture confidence, not fairness",
-   "url": "https://arxiv.org/abs/2610.08559",
-   "src": "Hacker News",
-   "t": "16:07",
    "fresh": false
   },
   {
