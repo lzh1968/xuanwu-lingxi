@@ -1,5 +1,5 @@
 {
- "built": "2026-10-08 02:51:35",
+ "built": "2026-10-08 02:57:54",
  "count": 129,
  "items": [
   {
@@ -731,6 +731,14 @@
    "x": ""
   },
   {
+   "t": "Docker Agent：Docker的AI Agent Builder和Runtime",
+   "u": "https://github.com/docker/docker-agent",
+   "s": "外网新声·Hacker News",
+   "d": "01:48",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Show HN：SkanQRCode - URL和IP安全API在< 500毫秒内返回判决",
    "u": "https://skanqrcode.com/",
    "s": "外网新声·Hacker News",
@@ -743,14 +751,6 @@
    "u": "https://voicegremlin.com/",
    "s": "外网新声·Hacker News",
    "d": "01:16",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "询问HN：是否有人仍在使用dLLM",
-   "u": "https://news.ycombinator.com/item?id=49995709",
-   "s": "外网新声·Hacker News",
-   "d": "01:09",
    "k": "",
    "x": ""
   },
@@ -787,10 +787,26 @@
    "x": ""
   },
   {
-   "t": "英伟达研究发现，智能体在使用工具时变得不那么安全",
-   "u": "https://www.unite.ai/nvidia-research-finds-ai-agents-become-less-safe-when-using-tools/",
-   "s": "外网新声·Hacker News",
-   "d": "00:34",
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
+   "s": "外网新声·GitHub 新星",
+   "d": "18:56",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "18:56",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
+   "u": "https://github.com/mattpocock/skills",
+   "s": "外网新声·GitHub 新星",
+   "d": "18:55",
    "k": "",
    "x": ""
   },
@@ -803,34 +819,10 @@
    "x": ""
   },
   {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "18:48",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
-   "s": "外网新声·GitHub 新星",
-   "d": "18:46",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
    "u": "https://github.com/earendil-works/pi",
    "s": "外网新声·GitHub 新星",
    "d": "14:18",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
-   "u": "https://github.com/mattpocock/skills",
-   "s": "外网新声·GitHub 新星",
-   "d": "10:23",
    "k": "",
    "x": ""
   },
@@ -871,14 +863,6 @@
    "u": "https://github.com/tinyhat-ai/muse-office",
    "s": "外网新声·Hacker News",
    "d": "22:11",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "EmbeddingGemma 2：开放、轻量级的多模态嵌入模型",
-   "u": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "19:57",
    "k": "",
    "x": ""
   },
@@ -1031,6 +1015,22 @@
    "u": "https://arxiv.org/abs/2610.08683v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:03",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "抽象推理任务小语言模型的系统研究",
+   "u": "https://arxiv.org/abs/2610.08680v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:01",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "大模型的安全推测解码",
+   "u": "https://arxiv.org/abs/2610.08678v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:59",
    "k": "",
    "x": ""
   }
