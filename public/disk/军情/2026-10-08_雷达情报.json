@@ -2,27 +2,120 @@
  "日期": "2026-10-08",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-08 00:08:03",
-  "chosen": "UNI short",
+  "updated": "2026-10-08 00:16:21",
+  "chosen": "LTC short",
   "nodes": [
    {
     "coin": "LTC",
     "side": "short",
     "align": 3,
-    "embryo": 1.6
+    "embryo": 2.1
+   },
+   {
+    "coin": "ADA",
+    "side": "long",
+    "align": 1,
+    "embryo": 2.3
+   },
+   {
+    "coin": "ETH",
+    "side": "short",
+    "align": 3,
+    "embryo": 0.1
+   },
+   {
+    "coin": "AVAX",
+    "side": "short",
+    "align": 2,
+    "embryo": 3.5
+   },
+   {
+    "coin": "NEAR",
+    "side": "short",
+    "align": 1,
+    "embryo": 1.7
    },
    {
     "coin": "UNI",
     "side": "short",
     "align": 3,
-    "embryo": 1.6
+    "embryo": 2.1
+   },
+   {
+    "coin": "WLD",
+    "side": "short",
+    "align": 0,
+    "embryo": 1.1
    },
    {
     "coin": "FIL",
+    "side": "long",
+    "align": 3,
+    "embryo": 2.1
+   },
+   {
+    "coin": "LINK",
     "side": "short",
     "align": 3,
-    "embryo": 1.12
+    "embryo": 0.4
+   },
+   {
+    "coin": "BTC",
+    "side": "short",
+    "align": 3,
+    "embryo": 0.4,
+    "相位关": true
+   },
+   {
+    "coin": "DOGE",
+    "side": "short",
+    "align": 3,
+    "embryo": 0.4,
+    "相位关": true
+   },
+   {
+    "coin": "XRP",
+    "side": "short",
+    "align": 3,
+    "embryo": 0.4,
+    "相位关": true
+   },
+   {
+    "coin": "SOL",
+    "side": "short",
+    "align": 3,
+    "embryo": 0.4,
+    "相位关": true
+   },
+   {
+    "coin": "ARB",
+    "side": "long",
+    "align": 0,
+    "embryo": -0.9,
+    "相位关": true
+   },
+   {
+    "coin": "SUI",
+    "side": "long",
+    "align": 0,
+    "embryo": 1.1,
+    "相位关": true
+   },
+   {
+    "coin": "BNB",
+    "side": "long",
+    "align": 0,
+    "embryo": -0.3,
+    "相位关": true
+   },
+   {
+    "coin": "DOT",
+    "side": "short",
+    "align": 3,
+    "embryo": 0.1,
+    "相位关": true
    }
-  ]
+  ],
+  "口径": "供数器独立复活(ED-20261002-377)·引擎基因(xwu)·align=e4/e1/t4l·embryo=|score|+对齐加成"
  }
 }
