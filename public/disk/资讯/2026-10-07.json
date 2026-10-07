@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-07",
- "落盘": "2026-10-07 21:04:34",
+ "落盘": "2026-10-07 21:11:21",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "We ran 5 LLMs 100 times each against tool calls that time out after the write",
+   "url": "https://github.com/0xguenther/agent-write-path-runs",
+   "type": "live"
+  },
   {
    "title": "Show HN: Open model that checks stablecoin payments before an AI agent pays",
    "url": "https://huggingface.co/sriram1983007/SRA-RiskGate-4B",
@@ -37,11 +42,6 @@
   {
    "title": "Ask HN: Whats the future of marketplaces going to be like",
    "url": "https://news.ycombinator.com/item?id=49991528",
-   "type": "live"
-  },
-  {
-   "title": "Show HN: Every number in a tiny GPT, from one forward pass to one step of RLHF",
-   "url": "https://llm.manogya.dev",
    "type": "live"
   },
   {
