@@ -1,5 +1,5 @@
 {
- "built": "2026-10-07 23:05:26",
+ "built": "2026-10-07 23:13:04",
  "count": 124,
  "items": [
   {
@@ -675,6 +675,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "LLM Running in Factorio",
+   "u": "https://github.com/RomOSTiny/factorio-transformer",
+   "s": "外网新声·Hacker News",
+   "d": "23:06",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "We Built an Alternative to Vector RAG for AI Agent Memory",
    "u": "https://www.claix.dev/blog/rag-for-ai-agents-agentic-retrieval",
    "s": "外网新声·Hacker News",
@@ -774,7 +782,7 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "15:04",
+   "d": "15:06",
    "k": "",
    "x": ""
   },
@@ -851,22 +859,6 @@
    "x": ""
   },
   {
-   "t": "QF3：带滤波Q梯度的快速流动RL",
-   "u": "https://arxiv.org/abs/2610.08789v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Conformal Prediction Sets Quantify Information Gain: A Theoretical Perspective",
-   "u": "https://arxiv.org/abs/2610.08785v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "IdeaAnchor：教授法学硕士将文学转化为研究理念",
    "u": "https://arxiv.org/abs/2610.08781v1",
    "s": "外网新声·arXiv cs.AI",
@@ -907,14 +899,6 @@
    "x": ""
   },
   {
-   "t": "Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion",
-   "u": "https://arxiv.org/abs/2610.08764v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:50",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "VeriFine：在具体化推理中进行自我完善的扩展验证",
    "u": "https://arxiv.org/abs/2610.08761v1",
    "s": "外网新声·arXiv cs.AI",
@@ -923,26 +907,10 @@
    "x": ""
   },
   {
-   "t": "Neural Petri flows for chemical reactions",
-   "u": "https://arxiv.org/abs/2610.08750v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:44",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Reinforcement Learning with Conformal Action Sets: An Application to Sequential Recommendation",
    "u": "https://arxiv.org/abs/2610.08743v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:40",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Denoising Hierarchical Representations: Joint Continuous Diffusion for Language Modeling",
-   "u": "https://arxiv.org/abs/2610.08738v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:38",
    "k": "",
    "x": ""
   },
@@ -971,14 +939,6 @@
    "x": ""
   },
   {
-   "t": "Co-Evolving Paths and Flows via Path-Flow Alignment",
-   "u": "https://arxiv.org/abs/2610.08717v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:24",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "nanoMuse: An Open-Source Personal Agent for Every Device You Own",
    "u": "https://arxiv.org/abs/2610.08699v1",
    "s": "外网新声·arXiv cs.AI",
@@ -991,6 +951,46 @@
    "u": "https://arxiv.org/abs/2610.08691v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:08",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Coupled but Late: Turn-Taking Between Full-Duplex Speech Models in Unscripted Dialogue",
+   "u": "https://arxiv.org/abs/2610.08683v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:03",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Secure Speculative Decoding for Large Language Models",
+   "u": "https://arxiv.org/abs/2610.08678v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Principled Under Pressure: Post-Training Decides Whether LLMs Act on Their Own Moral Judgment",
+   "u": "https://arxiv.org/abs/2610.08670v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:52",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "MemFLoRA: Memory-Floor LoRA for CNN Adaptation at the Edge",
+   "u": "https://arxiv.org/abs/2610.08669v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:51",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Semantic Behavioral Watermarking: Paraphrase-Robust and Forgery-Resistant Provenance for LLM Agents",
+   "u": "https://arxiv.org/abs/2610.08668v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:50",
    "k": "",
    "x": ""
   }
