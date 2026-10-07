@@ -1,5 +1,5 @@
 {
- "built": "2026-10-07 22:44:09",
+ "built": "2026-10-07 22:57:11",
  "count": 124,
  "items": [
   {
@@ -675,6 +675,22 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Flux – Compile an LLM to your hardware, then serve it",
+   "u": "https://github.com/cyqlelabs/flux",
+   "s": "外网新声·Hacker News",
+   "d": "22:49",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Ask HN: Is this the beginning of the end of open source?",
+   "u": "https://news.ycombinator.com/item?id=49993551",
+   "s": "外网新声·Hacker News",
+   "d": "22:42",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Human Friction Makes Agentic AI Safer and Smarter",
    "u": "https://spectrum.ieee.org/agentic-ai-humans-in-loop",
    "s": "外网新声·Hacker News",
@@ -695,14 +711,6 @@
    "u": "https://usekeel.io",
    "s": "外网新声·Hacker News",
    "d": "21:19",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "We ran 5 LLMs 100 times each against tool calls that time out after the write",
-   "u": "https://github.com/0xguenther/agent-write-path-runs",
-   "s": "外网新声·Hacker News",
-   "d": "21:04",
    "k": "",
    "x": ""
   },
@@ -739,18 +747,10 @@
    "x": ""
   },
   {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "14:39",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "14:31",
+   "d": "14:54",
    "k": "",
    "x": ""
   },
@@ -758,7 +758,15 @@
    "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
-   "d": "14:30",
+   "d": "14:54",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "14:43",
    "k": "",
    "x": ""
   },
@@ -799,6 +807,14 @@
    "u": "https://github.com/obra/superpowers",
    "s": "外网新声·GitHub 新星",
    "d": "23:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：Tinyhat，多代理Muse的每位专家内存（开源）",
+   "u": "https://github.com/tinyhat-ai/muse-office",
+   "s": "外网新声·Hacker News",
+   "d": "22:11",
    "k": "",
    "x": ""
   },
@@ -975,22 +991,6 @@
    "u": "https://arxiv.org/abs/2610.08678v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "16:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Variance-Optimal Off-Policy Evaluation with Conjunct Effect Modeling",
-   "u": "https://arxiv.org/abs/2610.08677v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "16:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Principled Under Pressure: Post-Training Decides Whether LLMs Act on Their Own Moral Judgment",
-   "u": "https://arxiv.org/abs/2610.08670v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:52",
    "k": "",
    "x": ""
   }
