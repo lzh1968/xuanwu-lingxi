@@ -1,6 +1,6 @@
 {
- "built": "2026-10-08 00:03:17",
- "count": 126,
+ "built": "2026-10-08 00:09:35",
+ "count": 127,
  "items": [
   {
    "t": "今日辑要 · 2026-10-08（前沿 12 条）",
@@ -17,6 +17,14 @@
    "d": "2026-10-08",
    "k": "手记,方法论",
    "x": "把阴阳放进控制系统里看，它更像一对 符号相反的反馈环 ：一个负责扩张，一个负责收敛。 只有扩张的环，系统会在顺境中自我强化直到崩塌；只有收敛的环，系统会在谨慎中失去一切机会。传统讲\"阴阳相生\"，工程讲\"增益平衡\"——说的是同一件事： 别让任一侧单独主导太久。 所以好的自适应并非不断调参，而是在两侧都留出可回退的余地：进要能退，退也要能再进；底线固定，节奏可变。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "链上机制的可读性",
+   "u": "a/note-20261008-4.html",
+   "s": "Web3 · 链上世界",
+   "d": "2026-10-08",
+   "k": "手记,方法论",
+   "x": "评价一条链上机制，可以先问三个可读性问题： 1. 谁承担最后风险？ （收益来自哪里，亏损落到谁头上） 2. 信息何时公开？ （先看到的人是否天然占优） 3. 退出是否顺畅？ （极端情形下能不能有序离场） 这三个问题不涉及任何价格判断，却能筛掉绝大部分\"看起来精巧\"的设计。机制研究的价值也正在于此： 把不可读的风险变成可讨论的条款。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "今日辑要 · 2026-10-07（前沿 12 条）",
@@ -723,6 +731,22 @@
    "x": ""
   },
   {
+   "t": "Show HN：3D打印双足机器人，具有8伺服极限，用于教授机器人技术",
+   "u": "https://nixrobot.pages.dev/",
+   "s": "外网新声·Hacker News",
+   "d": "23:01",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：“真实世界”数据工作的长期记忆代理",
+   "u": "https://github.com/Jad1908/portia",
+   "s": "外网新声·Hacker News",
+   "d": "23:00",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Show HN：Planlock –批准AI 智能体的计划一次，代码强制执行每次通话",
    "u": "https://github.com/JosephCurwin/planlock",
    "s": "外网新声·Hacker News",
@@ -755,7 +779,7 @@
    "x": ""
   },
   {
-   "t": "Human Friction Makes Agentic AI Safer and Smarter",
+   "t": "Human Friction让智能体AI更安全、更智能",
    "u": "https://spectrum.ieee.org/agentic-ai-humans-in-loop",
    "s": "外网新声·Hacker News",
    "d": "22:27",
@@ -763,15 +787,7 @@
    "x": ""
   },
   {
-   "t": "Show HN: InBrief – open-source AI news aggregator with LLM filtering",
-   "u": "https://github.com/frankzch/ai-news-brief",
-   "s": "外网新声·Hacker News",
-   "d": "22:23",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN: Keel – Build, backtest, and deploy trading strategies on Hyperliquid",
+   "t": "Show HN: Keel –在Hyperliquid上构建、回测和部署交易策略",
    "u": "https://usekeel.io",
    "s": "外网新声·Hacker News",
    "d": "21:19",
@@ -779,18 +795,18 @@
    "x": ""
   },
   {
-   "t": "We ran 5 LLMs 100 times each against tool calls that time out after the write",
-   "u": "https://github.com/0xguenther/agent-write-path-runs",
-   "s": "外网新声·Hacker News",
-   "d": "21:04",
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:07",
    "k": "",
    "x": ""
   },
   {
-   "t": "Write Like It's 1866: LLMs Relearn Telegraphese",
-   "u": "https://fiveminutesforward.com/post/2026-10-04-telegraph-test/",
-   "s": "外网新声·Hacker News",
-   "d": "20:04",
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "15:48",
    "k": "",
    "x": ""
   },
@@ -811,6 +827,14 @@
    "x": ""
   },
   {
+   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
+   "u": "https://github.com/mattpocock/skills",
+   "s": "外网新声·GitHub 新星",
+   "d": "10:23",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
    "u": "https://github.com/Dao-AILab/flash-attention",
    "s": "外网新声·GitHub 新星",
@@ -823,6 +847,14 @@
    "u": "https://github.com/IBAX-io/go-ibax",
    "s": "外网新声·GitHub 新星",
    "d": "07:20",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "obra/superpowers —有效的代理技能框架和软件开发方法。",
+   "u": "https://github.com/obra/superpowers",
+   "s": "外网新声·GitHub 新星",
+   "d": "23:57",
    "k": "",
    "x": ""
   },
@@ -851,7 +883,7 @@
    "x": ""
   },
   {
-   "t": "Conformal Prediction Sets Quantify Information Gain: A Theoretical Perspective",
+   "t": "共形预测集量化信息增益：理论视角",
    "u": "https://arxiv.org/abs/2610.08785v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:59",
@@ -899,7 +931,7 @@
    "x": ""
   },
   {
-   "t": "Rapid Fredholm stabilization of the Kuramoto--Sivashinsky equation with unrestricted, spatially-varying anti-diffusion",
+   "t": "Kuramoto的快速Fredholm稳定--Sivashinsky方程与无限制、空间变化的抗扩散",
    "u": "https://arxiv.org/abs/2610.08764v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:50",
@@ -915,7 +947,7 @@
    "x": ""
   },
   {
-   "t": "Neural Petri flows for chemical reactions",
+   "t": "用于化学反应的神经Petri流",
    "u": "https://arxiv.org/abs/2610.08750v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:44",
@@ -923,7 +955,7 @@
    "x": ""
   },
   {
-   "t": "Reinforcement Learning with Conformal Action Sets: An Application to Sequential Recommendation",
+   "t": "使用Conformal Action Sets的强化学习：顺序推荐的应用",
    "u": "https://arxiv.org/abs/2610.08743v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:40",
@@ -983,30 +1015,6 @@
    "u": "https://arxiv.org/abs/2610.08691v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:08",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Coupled but Late: Turn-Taking Between Full-Duplex Speech Models in Unscripted Dialogue",
-   "u": "https://arxiv.org/abs/2610.08683v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:03",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "A Systematic Study of Small Language Models on Abstract Reasoning Tasks",
-   "u": "https://arxiv.org/abs/2610.08680v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:01",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Secure Speculative Decoding for Large Language Models",
-   "u": "https://arxiv.org/abs/2610.08678v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:59",
    "k": "",
    "x": ""
   }

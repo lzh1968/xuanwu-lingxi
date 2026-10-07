@@ -1,7 +1,7 @@
 {
- "generated": "00:03",
- "built": "2026-10-08 00:03:17",
- "count": 86,
+ "generated": "00:09",
+ "built": "2026-10-08 00:09:35",
+ "count": 87,
  "live_count": 60,
  "items": [
   {
@@ -38,6 +38,22 @@
   },
   {
    "type": "live",
+   "title": "Show HN：3D打印双足机器人，具有8伺服极限，用于教授机器人技术",
+   "url": "https://nixrobot.pages.dev/",
+   "src": "Hacker News",
+   "t": "23:01",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN：“真实世界”数据工作的长期记忆代理",
+   "url": "https://github.com/Jad1908/portia",
+   "src": "Hacker News",
+   "t": "23:00",
+   "fresh": true
+  },
+  {
+   "type": "live",
    "title": "Show HN：Planlock –批准AI 智能体的计划一次，代码强制执行每次通话",
    "url": "https://github.com/JosephCurwin/planlock",
    "src": "Hacker News",
@@ -53,22 +69,6 @@
    "fresh": true
   },
   {
-   "type": "live",
-   "title": "Flux –将LLM编译到您的硬件，然后提供",
-   "url": "https://github.com/cyqlelabs/flux",
-   "src": "Hacker News",
-   "t": "22:49",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "问问HN：这是开源结束的开始吗？",
-   "url": "https://news.ycombinator.com/item?id=49993551",
-   "src": "Hacker News",
-   "t": "22:42",
-   "fresh": true
-  },
-  {
    "type": "article",
    "title": "今日辑要 · 2026-10-08（前沿 12 条）",
    "url": "a/digest-20261008.html",
@@ -81,6 +81,14 @@
    "title": "阴阳与反馈环",
    "url": "a/note-20261008-3.html",
    "src": "华夏哲学 · 阴阳五行",
+   "t": "2026-10-08",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "链上机制的可读性",
+   "url": "a/note-20261008-4.html",
+   "src": "Web3 · 链上世界",
    "t": "2026-10-08",
    "fresh": false
   },
@@ -105,14 +113,6 @@
    "title": "关于\"记忆\"的三种用法",
    "url": "a/note-20261007-2.html",
    "src": "Agent 与智能体",
-   "t": "2026-10-07",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "阴阳与反馈环",
-   "url": "a/note-20261007-3.html",
-   "src": "华夏哲学 · 阴阳五行",
    "t": "2026-10-07",
    "fresh": false
   }
