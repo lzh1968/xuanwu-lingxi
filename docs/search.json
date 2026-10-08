@@ -1,6 +1,6 @@
 {
- "built": "2026-10-09 00:06:30",
- "count": 132,
+ "built": "2026-10-09 00:13:45",
+ "count": 133,
  "items": [
   {
    "t": "今日辑要 · 2026-10-09（前沿 12 条）",
@@ -25,6 +25,14 @@
    "d": "2026-10-09",
    "k": "手记,方法论",
    "x": "智能体的记忆常被误解为\"存得越多越聪明\"。工程上更接近事实的是三种不同用途： 事实记忆 ：发生了什么（可核对、可追溯、可审计） 策略记忆 ：什么条件下做了什么、结果如何（用于校准，不用于信仰） 身份记忆 ：我是谁、我受什么约束（最稳定，最少改动） 把三者混在一个容器里，就会得到\"记得很牢却用不对\"的系统：把偶然当规律，把经验当身份。拆开的代价是结构更复杂；收益是每类记忆可以有自己的过期与校验规则。 一句话： 记忆的价值不在容量，而在校验方式。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "阴阳与反馈环",
+   "u": "a/note-20261009-3.html",
+   "s": "华夏哲学 · 阴阳五行",
+   "d": "2026-10-09",
+   "k": "手记,方法论",
+   "x": "把阴阳放进控制系统里看，它更像一对 符号相反的反馈环 ：一个负责扩张，一个负责收敛。 只有扩张的环，系统会在顺境中自我强化直到崩塌；只有收敛的环，系统会在谨慎中失去一切机会。传统讲\"阴阳相生\"，工程讲\"增益平衡\"——说的是同一件事： 别让任一侧单独主导太久。 所以好的自适应并非不断调参，而是在两侧都留出可回退的余地：进要能退，退也要能再进；底线固定，节奏可变。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "今日辑要 · 2026-10-08（前沿 12 条）",
@@ -739,6 +747,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "智能爆炸",
+   "u": "https://news.ycombinator.com/item?id=50007606",
+   "s": "外网新声·Hacker News",
+   "d": "00:09",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "智能体缺少真正的数据和内存层–我们构建了一个",
    "u": "https://www.claix.dev",
    "s": "外网新声·Hacker News",
@@ -771,6 +787,30 @@
    "x": ""
   },
   {
+   "t": "Show HN：一个LLM无法解决的简单视觉游戏",
+   "u": "https://image-shift.xyz/",
+   "s": "外网新声·Hacker News",
+   "d": "23:06",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "无限战争：五角大楼将马斯克置于其战争计划的中心",
+   "u": "https://mronline.org/2026/10/07/pentagon-puts-musk-at-the-center-of-its-war-planning/",
+   "s": "外网新声·Hacker News",
+   "d": "23:03",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：教授30ms本地模型，使用LLM书面规则玩浏览器游戏",
+   "u": "https://github.com/ironbee-ai/ironbee-gamer",
+   "s": "外网新声·Hacker News",
+   "d": "22:56",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "嵌入式代理沙箱应该是一个库，而不是一个服务",
    "u": "https://blog.boxlite.ai/embedded-sandbox-no-linux-vm",
    "s": "外网新声·Hacker News",
@@ -798,7 +838,7 @@
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "16:03",
+   "d": "16:11",
    "k": "",
    "x": ""
   },
@@ -806,7 +846,7 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "16:01",
+   "d": "16:11",
    "k": "",
    "x": ""
   },
@@ -859,7 +899,7 @@
    "x": ""
   },
   {
-   "t": "Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos",
+   "t": "永不回头：从以自我为中心的视频中了解3D对象记忆中的持久性",
    "u": "https://arxiv.org/abs/2610.10538v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
@@ -867,7 +907,7 @@
    "x": ""
   },
   {
-   "t": "Decoupling Exploration from Optimization in RLVR",
+   "t": "RLVR中的优化解耦探索",
    "u": "https://arxiv.org/abs/2610.10536v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
@@ -875,7 +915,7 @@
    "x": ""
   },
   {
-   "t": "SciExam for ENSO: Can AI Agents Build Climate Models?",
+   "t": "ENSO的SciExam：智能体可以构建气候模型吗？",
    "u": "https://arxiv.org/abs/2610.10513v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:52",
@@ -883,7 +923,7 @@
    "x": ""
   },
   {
-   "t": "RECAST: Learning to Compute the Right Context through Adaptive Evidence Routing",
+   "t": "重塑：通过自适应证据路由学习计算正确的上下文",
    "u": "https://arxiv.org/abs/2610.10507v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:51",
@@ -1023,38 +1063,6 @@
    "u": "https://openai.com/index/advancing-computer-use-with-ironclad",
    "s": "外网新声·OpenAI 官方",
    "d": "10:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：Kiro的多代理包",
-   "u": "https://github.com/amergrgic/kodama",
-   "s": "外网新声·Hacker News",
-   "d": "02:18",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
-   "u": "https://github.com/affaan-m/ECC",
-   "s": "外网新声·GitHub 新星",
-   "d": "04:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "TauricResearch/TradingAgents — TradingAgents：多代理LLM金融交易框架",
-   "u": "https://github.com/TauricResearch/TradingAgents",
-   "s": "外网新声·GitHub 新星",
-   "d": "21:30",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN: Bise –专为人类打造的多智能体线束",
-   "u": "https://bise.dev/",
-   "s": "外网新声·Hacker News",
-   "d": "22:17",
    "k": "",
    "x": ""
   }

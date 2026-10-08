@@ -1,9 +1,17 @@
 {
- "generated": "00:06",
- "built": "2026-10-09 00:06:30",
- "count": 92,
- "live_count": 56,
+ "generated": "00:13",
+ "built": "2026-10-09 00:13:45",
+ "count": 93,
+ "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "智能爆炸",
+   "url": "https://news.ycombinator.com/item?id=50007606",
+   "src": "Hacker News",
+   "t": "00:09",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "智能体缺少真正的数据和内存层–我们构建了一个",
@@ -38,35 +46,27 @@
   },
   {
    "type": "live",
-   "title": "嵌入式代理沙箱应该是一个库，而不是一个服务",
-   "url": "https://blog.boxlite.ai/embedded-sandbox-no-linux-vm",
+   "title": "Show HN：一个LLM无法解决的简单视觉游戏",
+   "url": "https://image-shift.xyz/",
    "src": "Hacker News",
-   "t": "22:48",
+   "t": "23:06",
    "fresh": true
   },
   {
    "type": "live",
-   "title": "谷歌正在为您的工作任务推出一站式Gemini代理",
-   "url": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
+   "title": "无限战争：五角大楼将马斯克置于其战争计划的中心",
+   "url": "https://mronline.org/2026/10/07/pentagon-puts-musk-at-the-center-of-its-war-planning/",
    "src": "Hacker News",
-   "t": "22:39",
+   "t": "23:03",
    "fresh": true
   },
   {
    "type": "live",
-   "title": "Show HN：Llmll - AI 智能体填写打字漏洞，SMT求解器拒绝错误填写",
-   "url": "https://github.com/machunter/llmll",
+   "title": "Show HN：教授30ms本地模型，使用LLM书面规则玩浏览器游戏",
+   "url": "https://github.com/ironbee-ai/ironbee-gamer",
    "src": "Hacker News",
-   "t": "22:25",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "anomalyco/opencode：开源编码智能体",
-   "url": "https://github.com/anomalyco/opencode",
-   "src": "GitHub 新星",
-   "t": "16:03",
-   "fresh": false
+   "t": "22:56",
+   "fresh": true
   },
   {
    "type": "article",
@@ -94,6 +94,14 @@
   },
   {
    "type": "article",
+   "title": "阴阳与反馈环",
+   "url": "a/note-20261009-3.html",
+   "src": "华夏哲学 · 阴阳五行",
+   "t": "2026-10-09",
+   "fresh": false
+  },
+  {
+   "type": "article",
    "title": "今日辑要 · 2026-10-08（前沿 12 条）",
    "url": "a/digest-20261008.html",
    "src": "Agent 与智能体",
@@ -105,14 +113,6 @@
    "title": "自治系统的\"慢变量\"",
    "url": "a/note-20261008-1.html",
    "src": "灵犀手记",
-   "t": "2026-10-08",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "关于\"记忆\"的三种用法",
-   "url": "a/note-20261008-2.html",
-   "src": "Agent 与智能体",
    "t": "2026-10-08",
    "fresh": false
   }
