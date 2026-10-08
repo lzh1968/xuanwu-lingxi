@@ -1,5 +1,5 @@
 {
- "built": "2026-10-09 01:19:07",
+ "built": "2026-10-09 01:29:24",
  "count": 134,
  "items": [
   {
@@ -755,6 +755,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "ATLAS：评估搜索密集型任务的代理",
+   "u": "https://exa.ai/blog/atlas-benchmark",
+   "s": "外网新声·Hacker News",
+   "d": "01:26",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "展示HN：AI SRE Arena，Kubernetes上AI SRE智能体的开放基准",
    "u": "https://github.com/edgedelta/project-arena",
    "s": "外网新声·Hacker News",
@@ -835,18 +843,10 @@
    "x": ""
   },
   {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "17:10",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "16:51",
+   "d": "17:27",
    "k": "",
    "x": ""
   },
@@ -854,7 +854,15 @@
    "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
-   "d": "16:34",
+   "d": "17:22",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "17:10",
    "k": "",
    "x": ""
   },
@@ -955,14 +963,6 @@
    "x": ""
   },
   {
-   "t": "使用Sentinel-2在湖泊中寻找叶绿素的进化建筑- $ a $预测",
-   "u": "https://arxiv.org/abs/2610.10496v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:47",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "在他们能够解决之前：从基本模型预测训练后的编码代理性能",
    "u": "https://arxiv.org/abs/2610.10478v1",
    "s": "外网新声·arXiv cs.AI",
@@ -975,14 +975,6 @@
    "u": "https://arxiv.org/abs/2610.10468v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:30",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NeuralBES：用于可扩展建筑能耗建模的可区分、控制感知仿真器",
-   "u": "https://arxiv.org/abs/2610.10459v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:27",
    "k": "",
    "x": ""
   },
@@ -1007,22 +999,6 @@
    "u": "https://arxiv.org/abs/2610.10444v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:16",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Seq-Flow：具有自滚动错误控制的高效概率预测",
-   "u": "https://arxiv.org/abs/2610.10440v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:15",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "哪次推出教会了这一点？ BehaviorTrace和培训的局限性-在线强化学习中的数据归因",
-   "u": "https://arxiv.org/abs/2610.10422v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:01",
    "k": "",
    "x": ""
   },
@@ -1059,18 +1035,42 @@
    "x": ""
   },
   {
-   "t": "丽笙酒店集团将酒店探索引入ChatGPT",
-   "u": "https://openai.com/index/radisson",
-   "s": "外网新声·OpenAI 官方",
-   "d": "07:00",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Show HN：Tinyhat，多代理Muse的每位专家内存（开源）",
    "u": "https://github.com/tinyhat-ai/muse-office",
    "s": "外网新声·Hacker News",
    "d": "22:11",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：Kiro的多代理包",
+   "u": "https://github.com/amergrgic/kodama",
+   "s": "外网新声·Hacker News",
+   "d": "02:18",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "将智能体与企业知识联系起来",
+   "u": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "15:47",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "将预测分析引入代理人工智能时代",
+   "u": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "13:29",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "人们真的很讨厌人工智能，为什么他们得不到足够的呢？",
+   "u": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "08:00",
    "k": "",
    "x": ""
   }
