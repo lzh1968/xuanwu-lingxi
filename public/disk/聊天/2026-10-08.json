@@ -1,5 +1,5 @@
 {
- "时间": "2026-10-08 20:09:37",
+ "时间": "2026-10-08 20:21:10",
  "会话档数": 12,
  "会话": [
   {
@@ -70,52 +70,12 @@
   },
   {
    "档": "9ef880c6-4fc1-47ad-9a64-38e2b5a6310b.jsonl",
-   "字节": 604229,
-   "行": 131,
-   "改": "2026-10-08 19:57:01"
+   "字节": 650737,
+   "行": 159,
+   "改": "2026-10-08 20:21:07"
   }
  ],
  "近段摘要": [
-  {
-   "角色": "小奈",
-   "文": "Engines are being brought up by the guardian (lbh/zls just started 19:25). Let me re-check current engine roster."
-  },
-  {
-   "角色": "小奈",
-   "文": "Missing 模拟户 `wuxing`. Let me check the paper guardian roster and logs."
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "Missing `wuxing` is expected (retired 2026-10-01). Now let me check the gateway heap drift origin and run the account reconciliation (step 4)."
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "账实一致 ✅. Let me inspect the graceful-restart script before deciding whether to heal the heap drift."
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
   {
    "角色": "小奈",
    "文": "开机自检完成，向老板简要回报（全中文）：\n\n🦞 **玄武灵犀·开机自检（10-08 19:2x）**\n\n**网关：⚠️乙·需治（非故障，可自愈）**\n- PID 28202 · 内存 453MB · 实例1 · 探活200(31ms) · 看护在岗(1)\n- 唯一未过项：**堆上限=2048（旧病根值，应为1536）**。自检起跑那一刻看护曾为0（丙），随即自动归位。此堆值须重启才生效；现内存仅453MB、且自检期间有活跃会话，**空闲窗口未到暂不重启** —— 守护会在空闲窗自动拨正（自适应·免印），无需人工介入。\n\n**引擎（真钱六户 ✅）**：LBH/DSS/ZXY/ZLS/XWU/WH"
@@ -235,6 +195,46 @@
   {
    "角色": "小奈",
    "文": "All checks green this boot:\n\n- **网关**：✅ 甲·稳（进程号5431 · 408MB · 实例1 · 探活200）——堆上限已归位1536\n- **引擎**：真钱七户全在岗（LBH/DSS/ZXY/ZLS/XWU/WHP/YHB）+ 模拟「锐」(rui)；稳/衢/五行退役属预期\n- **守护**：七员 7/7 单实例（门面看护曾瞬时双实例，已自行归单）\n- **账实**：✅ 一致（7 户）\n\n一切正常，无需人工介入。\n\nNO_REPLY"
+  },
+  {
+   "角色": "老板",
+   "文": "You are running a boot check. Follow BOOT.md instructions exactly.\n\nBOOT.md:\n# 🚀 开机自检 · 玄武灵犀交易系统 (BOOT.md)\n\n> 手机/网关机启动后，网关会自动跑这份清单。**这是真钱生命线，务必执行。**\n> 🐉 2026-09-23 17:4x 同步老板令(火印 ED-20260923-143): 统一目标=**盈利第一** · 择向精准 · 三军统一指挥(🐉烛龙终审→执行长🐍腾蛇调度→三军 LBH/ZLS/ZXY + 母体 GTAE + DSS) · 诸君各尽其责。\n\n## 第 0 步：确认\n工作目"
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "丙·危 (网关看护 missing) + 3 守护缺口. Running the idempotent autostart to fill gaps."
+  },
+  {
+   "角色": "老板",
+   "文": "You are running a boot check. Follow BOOT.md instructions exactly.\n\nBOOT.md:\n# 🚀 开机自检 · 玄武灵犀交易系统 (BOOT.md)\n\n> 手机/网关机启动后，网关会自动跑这份清单。**这是真钱生命线，务必执行。**\n> 🐉 2026-09-23 17:4x 同步老板令(火印 ED-20260923-143): 统一目标=**盈利第一** · 择向精准 · 三军统一指挥(🐉烛龙终审→执行长🐍腾蛇调度→三军 LBH/ZLS/ZXY + 母体 GTAE + DSS) · 诸君各尽其责。\n\n## 第 0 步：确认\n工作目"
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "System is mid-startup (engines/guards still coming up). Waiting per BOOT step 3, then re-checking."
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "守护 7/7 ✅. But `whp` engine is missing (others present). Checking."
+  },
+  {
+   "角色": "小奈",
+   "文": "whp is up (just started, has its own guard). Final consolidated verification."
+  },
+  {
+   "角色": "小奈",
+   "文": ""
   }
  ],
  "本地全量归档": [
