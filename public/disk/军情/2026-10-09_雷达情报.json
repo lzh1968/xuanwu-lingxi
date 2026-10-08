@@ -2,7 +2,7 @@
  "日期": "2026-10-09",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-09 04:23:13",
+  "updated": "2026-10-09 04:30:53",
   "chosen": "NEAR short",
   "nodes": [
    {
@@ -12,16 +12,16 @@
     "embryo": 0.7
    },
    {
-    "coin": "XRP",
+    "coin": "DOGE",
     "side": "short",
-    "align": 2,
-    "embryo": 2.7
+    "align": 3,
+    "embryo": 0.7
    },
    {
     "coin": "ADA",
     "side": "short",
     "align": 3,
-    "embryo": 0.7
+    "embryo": 0.2
    },
    {
     "coin": "LTC",
@@ -39,7 +39,7 @@
     "coin": "NEAR",
     "side": "short",
     "align": 3,
-    "embryo": 0.4
+    "embryo": 1.2
    },
    {
     "coin": "SUI",
@@ -72,7 +72,7 @@
     "embryo": 0.0
    },
    {
-    "coin": "DOGE",
+    "coin": "XRP",
     "side": "",
     "align": 0,
     "embryo": 0.0
