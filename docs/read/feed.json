@@ -1,8 +1,8 @@
 {
- "generated": "06:43",
- "built": "2026-10-09 06:43:11",
+ "generated": "06:50",
+ "built": "2026-10-09 06:50:14",
  "count": 94,
- "live_count": 53,
+ "live_count": 60,
  "items": [
   {
    "type": "live",
@@ -10,6 +10,22 @@
    "url": "https://www.the-independent.com/tech/ai-gender-pay-gap-study-b3061881.html",
    "src": "Hacker News",
    "t": "06:32",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "在计划工作站(CPU)上从头开始构建和训练25米参数LLM",
+   "url": "https://www.freecodecamp.org/news/build-and-train-a-25m-parameter-llm-from-scratch-on-your-cpu/",
+   "src": "Hacker News",
+   "t": "06:13",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "3JSBench：LLM生成的3D对象的基准",
+   "url": "https://twitter.com/generalcontext_/status/2108313483293147292",
+   "src": "Hacker News",
+   "t": "05:56",
    "fresh": true
   },
   {
@@ -22,50 +38,34 @@
   },
   {
    "type": "live",
+   "title": "VOSTI：确定性LLM推断的指定、实施和验证",
+   "url": "https://arxiv.org/abs/2609.38981",
+   "src": "Hacker News",
+   "t": "05:11",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "Show HN：Anvil、离线LLM聊天和iPhone上的SDXL图像生成",
+   "url": "https://testflight.apple.com/join/5JGCZpxt",
+   "src": "Hacker News",
+   "t": "04:49",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "Show HN：LLM运动图形基准",
+   "url": "https://cliphou.se/benchmark/",
+   "src": "Hacker News",
+   "t": "04:34",
+   "fresh": false
+  },
+  {
+   "type": "live",
    "title": "预订的多代理竞争条件",
    "url": "https://pub.towardsai.net/the-dual-booked-operating-room-why-autonomous-ai-schedulers-cause-race-conditions-175ee8435c51",
    "src": "Hacker News",
    "t": "04:25",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "隐私、全磁盘访问和智能体",
-   "url": "https://eclecticlight.co/2026/10/06/privacy-full-disk-access-and-ai-agents/",
-   "src": "Hacker News",
-   "t": "03:40",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Andy Pavlo：当数十亿智能体攻击您的数据库时会发生什么[视频]",
-   "url": "https://www.youtube.com/watch?v=74X0DJOVEc8",
-   "src": "Hacker News",
-   "t": "03:32",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "通过电子邮件、语音和短信传递上下文的AI 智能体",
-   "url": "https://github.com/team-telnyx/telnyx-code-examples/tree/main/omnichannel-context-carrying-python",
-   "src": "Hacker News",
-   "t": "03:03",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "url": "https://github.com/NousResearch/hermes-agent",
-   "src": "GitHub 新星",
-   "t": "22:37",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "anomalyco/opencode：开源编码智能体",
-   "url": "https://github.com/anomalyco/opencode",
-   "src": "GitHub 新星",
-   "t": "22:25",
    "fresh": false
   },
   {
