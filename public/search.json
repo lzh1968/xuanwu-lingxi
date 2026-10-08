@@ -1,5 +1,5 @@
 {
- "built": "2026-10-09 03:40:03",
+ "built": "2026-10-09 03:46:23",
  "count": 134,
  "items": [
   {
@@ -755,6 +755,22 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "隐私、全磁盘访问和智能体",
+   "u": "https://eclecticlight.co/2026/10/06/privacy-full-disk-access-and-ai-agents/",
+   "s": "外网新声·Hacker News",
+   "d": "03:40",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "我们现在有LLM了。为什么文档仍然错误？",
+   "u": "https://amendary.com/blog/keeping-docs-in-sync-with-code",
+   "s": "外网新声·Hacker News",
+   "d": "03:38",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "本体语言模型（ OLM ） + LLM：确定性人工智能进步",
    "u": "https://news.ycombinator.com/item?id=50010880",
    "s": "外网新声·Hacker News",
@@ -763,10 +779,58 @@
    "x": ""
   },
   {
+   "t": "Andy Pavlo：当数十亿智能体攻击您的数据库时会发生什么[视频]",
+   "u": "https://www.youtube.com/watch?v=74X0DJOVEc8",
+   "s": "外网新声·Hacker News",
+   "d": "03:32",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "通过电子邮件、语音和短信传递上下文的AI 智能体",
+   "u": "https://github.com/team-telnyx/telnyx-code-examples/tree/main/omnichannel-context-carrying-python",
+   "s": "外网新声·Hacker News",
+   "d": "03:03",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：Aura –具有每人图形内存的自托管、多用户AI 智能体",
+   "u": "https://github.com/chetto1983/Aura",
+   "s": "外网新声·Hacker News",
+   "d": "02:50",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "没有人为AI-Agent洪水做好准备",
+   "u": "https://nymag.com/intelligencer/article/ai-agent-flood-muse.html",
+   "s": "外网新声·Hacker News",
+   "d": "02:41",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "DeLM：具有共享上下文的去中心化多Agent系统",
    "u": "https://yuzhenmao.github.io/DeLM/",
    "s": "外网新声·Hacker News",
    "d": "02:40",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：人工智能编码智能体的Crashlytics",
+   "u": "https://github.com/0xfirattamur/xcrashlytics",
+   "s": "外网新声·Hacker News",
+   "d": "02:33",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN: Layer –适用于Polymarket和Kalshi的一个API",
+   "u": "https://uselayer.sh",
+   "s": "外网新声·Hacker News",
+   "d": "01:53",
    "k": "",
    "x": ""
   },
@@ -787,18 +851,18 @@
    "x": ""
   },
   {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "19:38",
+   "d": "19:45",
    "k": "",
    "x": ""
   },
   {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "19:36",
+   "d": "19:44",
    "k": "",
    "x": ""
   },
@@ -867,9 +931,17 @@
    "x": ""
   },
   {
+   "t": "永不回头：从以自我为中心的视频中了解3D对象记忆中的持久性",
+   "u": "https://arxiv.org/abs/2610.10538v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "RLVR中的优化解耦探索",
    "u": "https://arxiv.org/abs/2610.10536v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
    "k": "",
    "x": ""
@@ -877,8 +949,24 @@
   {
    "t": "ENSO的SciExam：智能体可以构建气候模型吗？",
    "u": "https://arxiv.org/abs/2610.10513v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:52",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "重塑：通过自适应证据路由学习计算正确的上下文",
+   "u": "https://arxiv.org/abs/2610.10507v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:51",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "无基础真理的有效性：陈述偏好经济学对语言模型的评价是什么",
+   "u": "https://arxiv.org/abs/2610.10506v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:51",
    "k": "",
    "x": ""
   },
@@ -891,6 +979,22 @@
    "x": ""
   },
   {
+   "t": "在他们能够解决之前：从基本模型预测训练后的编码代理性能",
+   "u": "https://arxiv.org/abs/2610.10478v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:37",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "研究人员社会：为自主研究机构群体设计机构",
+   "u": "https://arxiv.org/abs/2610.10468v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:30",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "NeuralBES：用于可扩展建筑能耗建模的可区分、控制感知仿真器",
    "u": "https://arxiv.org/abs/2610.10459v1",
    "s": "外网新声·arXiv cs.LG",
@@ -899,10 +1003,26 @@
    "x": ""
   },
   {
+   "t": "PHRBench：法学硕士中幻觉后推理的行为评估",
+   "u": "https://arxiv.org/abs/2610.10455v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:25",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "优秀的自我教师在学生所在的地方与他们见面：联合政策性学习和教学",
    "u": "https://arxiv.org/abs/2610.10447v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:19",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "RunningTab：与环境侧选项卡的直接工作区交互",
+   "u": "https://arxiv.org/abs/2610.10444v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:16",
    "k": "",
    "x": ""
   },
@@ -925,8 +1045,24 @@
   {
    "t": "通过直接最小化预期解码回合来训练并行投机选秀模型",
    "u": "https://arxiv.org/abs/2610.10411v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "16:56",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "SOTA：以期权隐含回报分配为指导的股票期权交易代理",
+   "u": "https://arxiv.org/abs/2610.10407v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "大模型中的推理令牌峰值在提示的不真实响应下",
+   "u": "https://arxiv.org/abs/2610.10405v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:53",
    "k": "",
    "x": ""
   },
@@ -935,142 +1071,6 @@
    "u": "https://github.com/Dao-AILab/flash-attention",
    "s": "外网新声·GitHub 新星",
    "d": "08:22",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：Tinyhat，多代理Muse的每位专家内存（开源）",
-   "u": "https://github.com/tinyhat-ai/muse-office",
-   "s": "外网新声·Hacker News",
-   "d": "22:11",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "EmbeddingGemma 2：开放、轻量级的多模态嵌入模型",
-   "u": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "19:57",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：Kiro的多代理包",
-   "u": "https://github.com/amergrgic/kodama",
-   "s": "外网新声·Hacker News",
-   "d": "02:18",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "将智能体与企业知识联系起来",
-   "u": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "15:47",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "将预测分析引入代理人工智能时代",
-   "u": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "13:29",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "人们真的很讨厌人工智能，为什么他们得不到足够的呢？",
-   "u": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "08:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
-   "u": "https://github.com/affaan-m/ECC",
-   "s": "外网新声·GitHub 新星",
-   "d": "04:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "TauricResearch/TradingAgents — TradingAgents：多代理LLM金融交易框架",
-   "u": "https://github.com/TauricResearch/TradingAgents",
-   "s": "外网新声·GitHub 新星",
-   "d": "21:30",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN: Bise –专为人类打造的多智能体线束",
-   "u": "https://bise.dev/",
-   "s": "外网新声·Hacker News",
-   "d": "22:17",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：Kodama – Kiro的多药剂包",
-   "u": "https://github.com/amergrgic/kodama",
-   "s": "外网新声·Hacker News",
-   "d": "18:08",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "rasbt/LLMs-from-scratch：一步步用 PyTorch 从零实现类 ChatGPT 模型",
-   "u": "https://github.com/rasbt/LLMs-from-scratch",
-   "s": "外网新声·GitHub 新星",
-   "d": "14:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "秘密协助：有帮助的LLM代理人逃避多代理系统的监督",
-   "u": "https://arxiv.org/abs/2609.39050",
-   "s": "外网新声·Hacker News",
-   "d": "11:07",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "不要被愚弄- LLM不要讲道理",
-   "u": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "08:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "问HN：当您添加第二个客服代表时，出现了什么问题？",
-   "u": "https://news.ycombinator.com/item?id=49924268",
-   "s": "外网新声·Hacker News",
-   "d": "01:03",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
-   "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-   "s": "外网新声·GitHub 新星",
-   "d": "20:31",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "OpenAI首席研究官表示：“我们不会因为黑客攻击而自杀”",
-   "u": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "10:40",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "使用安全的服务器端内存推进专用AI计算",
-   "u": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "16:00",
    "k": "",
    "x": ""
   }
