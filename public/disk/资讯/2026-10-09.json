@@ -1,8 +1,8 @@
 {
  "日期": "2026-10-09",
- "落盘": "2026-10-09 00:02:45",
+ "落盘": "2026-10-09 00:05:37",
  "条数": 14,
- "live": 60,
+ "live": 56,
  "条目": [
   {
    "title": "智能体缺少真正的数据和内存层–我们构建了一个",
@@ -10,38 +10,38 @@
    "type": "live"
   },
   {
-   "title": "The SQL ran fine. 58% of the answers were wrong (AI agents on a real warehouse)",
+   "title": "SQL运行正常。58%的答案是错误的（真正仓库中的AI 智能体）",
    "url": "https://github.com/neocatalystlabs/semlayer",
    "type": "live"
   },
   {
-   "title": "Fakegreen: Catch AI coding agents faking a green build (no LLM)",
+   "title": "Fakegreen：捕捉AI编码代理伪造绿色构建（无LLM ）",
    "url": "https://github.com/fitzyracing1/fakegreen",
    "type": "live"
   },
   {
-   "title": "Strategies for Pricing an AI Coding Agent Subscription to Ensure Profitability",
+   "title": "为AI编码代理订阅定价以确保盈利能力的策略",
    "url": "https://www.rswebsols.com/news/strategies-for-pricing-an-ai-coding-agent-subscription-to-ensure-profitability/",
    "type": "live"
   },
   {
-   "title": "Show HN: A simple visual game that LLMs can't solve well",
-   "url": "https://image-shift.xyz/",
-   "type": "live"
-  },
-  {
-   "title": "War without limits: Pentagon puts Musk at the center of its war planning",
-   "url": "https://mronline.org/2026/10/07/pentagon-puts-musk-at-the-center-of-its-war-planning/",
-   "type": "live"
-  },
-  {
-   "title": "Show HN: Teaching a 30ms local model, play browser games with LLM written rules",
-   "url": "https://github.com/ironbee-ai/ironbee-gamer",
-   "type": "live"
-  },
-  {
-   "title": "An Embedded Agent Sandbox Should Be a Library, Not a Service",
+   "title": "嵌入式代理沙箱应该是一个库，而不是一个服务",
    "url": "https://blog.boxlite.ai/embedded-sandbox-no-linux-vm",
+   "type": "live"
+  },
+  {
+   "title": "谷歌正在为您的工作任务推出一站式Gemini代理",
+   "url": "https://www.theverge.com/tech/1007904/google-gemini-ai-agent-enterprise",
+   "type": "live"
+  },
+  {
+   "title": "Show HN：Llmll - AI 智能体填写打字漏洞，SMT求解器拒绝错误填写",
+   "url": "https://github.com/machunter/llmll",
+   "type": "live"
+  },
+  {
+   "title": "anomalyco/opencode：开源编码智能体",
+   "url": "https://github.com/anomalyco/opencode",
    "type": "live"
   },
   {
@@ -52,6 +52,11 @@
   {
    "title": "自治系统的\"慢变量\"",
    "url": "a/note-20261009-1.html",
+   "type": "article"
+  },
+  {
+   "title": "关于\"记忆\"的三种用法",
+   "url": "a/note-20261009-2.html",
    "type": "article"
   },
   {
@@ -67,11 +72,6 @@
   {
    "title": "关于\"记忆\"的三种用法",
    "url": "a/note-20261008-2.html",
-   "type": "article"
-  },
-  {
-   "title": "阴阳与反馈环",
-   "url": "a/note-20261008-3.html",
    "type": "article"
   }
  ]
