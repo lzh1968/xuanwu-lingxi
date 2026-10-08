@@ -1,5 +1,5 @@
 {
- "时间": "2026-10-08 19:25:23",
+ "时间": "2026-10-08 19:32:43",
  "会话档数": 12,
  "会话": [
   {
@@ -51,18 +51,6 @@
    "改": "2026-10-08 19:18:20"
   },
   {
-   "档": "560c4752-8ba9-4325-b7a5-c292d32e5a36.jsonl",
-   "字节": 644649,
-   "行": 305,
-   "改": "2026-10-08 19:23:26"
-  },
-  {
-   "档": "fce2f3c2-7ffb-44a2-90cf-db07cd739ea9.jsonl",
-   "字节": 285380,
-   "行": 300,
-   "改": "2026-10-08 19:23:26"
-  },
-  {
    "档": "efb8f754-429d-4fe2-a641-a9ad77bac39f.jsonl",
    "字节": 338955,
    "行": 300,
@@ -70,43 +58,27 @@
   },
   {
    "档": "9ef880c6-4fc1-47ad-9a64-38e2b5a6310b.jsonl",
-   "字节": 80529,
-   "行": 32,
-   "改": "2026-10-08 19:25:22"
+   "字节": 467565,
+   "行": 62,
+   "改": "2026-10-08 19:27:20"
+  },
+  {
+   "档": "fce2f3c2-7ffb-44a2-90cf-db07cd739ea9.jsonl",
+   "字节": 372559,
+   "行": 67,
+   "改": "2026-10-08 19:30:29"
+  },
+  {
+   "档": "560c4752-8ba9-4325-b7a5-c292d32e5a36.jsonl",
+   "字节": 50436,
+   "行": 24,
+   "改": "2026-10-08 19:31:23"
   }
  ],
  "近段摘要": [
   {
    "角色": "老板",
-   "文": "You are running a boot check. Follow BOOT.md instructions exactly.\n\nBOOT.md:\n# 🚀 开机自检 · 玄武灵犀交易系统 (BOOT.md)\n\n> 手机/网关机启动后，网关会自动跑这份清单。**这是真钱生命线，务必执行。**\n> 🐉 2026-09-23 17:4x 同步老板令(火印 ED-20260923-143): 统一目标=**盈利第一** · 择向精准 · 三军统一指挥(🐉烛龙终审→执行长🐍腾蛇调度→三军 LBH/ZLS/ZXY + 母体 GTAE + DSS) · 诸君各尽其责。\n\n## 第 0 步：确认\n工作目"
-  },
-  {
-   "角色": "小奈",
-   "文": "I'll run the boot check now. Starting with the gateway gate (第一性原理)."
-  },
-  {
-   "角色": "小奈",
-   "文": "Gateway is 丙·危 (危). Let me inspect and heal."
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "Gateway is 丙·危: 看护实例=0 and 堆上限非1536. Let me inspect the guardian and heap setup before acting."
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "Gateway 看护 is down and the gateway booted with the old heap. Let me complete steps 1–2 (engines + guards) before fixing."
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -123,6 +95,18 @@
   {
    "角色": "小奈",
    "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "Found two dead guardians and a pending 白泽 flag. Relaunching per HEARTBEAT instructions."
   },
   {
    "角色": "小奈",
@@ -171,6 +155,6 @@
    "MB": 20.62
   }
  ],
- "摘要档": "9ef880c6-4fc1-47ad-9a64-38e2b5a6310b.jsonl",
+ "摘要档": "560c4752-8ba9-4325-b7a5-c292d32e5a36.jsonl",
  "注": "本分区=索引+近段摘要；聊天全文存于本机 data_v2/archive/聊天记录_* 与加密密包(封存分区)"
 }

@@ -1,9 +1,17 @@
 {
- "generated": "19:32",
- "built": "2026-10-08 19:32:37",
+ "generated": "19:39",
+ "built": "2026-10-08 19:39:04",
  "count": 89,
- "live_count": 52,
+ "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
+   "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+   "src": "Hacker News",
+   "t": "19:33",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Dear LLM, or how I stopped getting generic advice",
@@ -22,10 +30,26 @@
   },
   {
    "type": "live",
+   "title": "Show HN: Coding Agent with Cost Saving Built-In",
+   "url": "https://www.wiyomi.com/",
+   "src": "Hacker News",
+   "t": "18:46",
+   "fresh": true
+  },
+  {
+   "type": "live",
    "title": "The Pain Axis: LLMs Represent Self-Directed Harm and Act on It",
    "url": "https://arxiv.org/abs/2609.16247",
    "src": "Hacker News",
    "t": "18:37",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "RSS-A – signed RSS/Atom feeds and groups for AI agents",
+   "url": "https://github.com/getvda-ai/rssa",
+   "src": "Hacker News",
+   "t": "18:36",
    "fresh": true
   },
   {
@@ -43,30 +67,6 @@
    "src": "Hacker News",
    "t": "18:10",
    "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Ask HN: Are we trading model capacity for compute?",
-   "url": "https://news.ycombinator.com/item?id=50003575",
-   "src": "Hacker News",
-   "t": "17:15",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Show HN: LLMSchema – Dump your database schema as compact Markdown for AI agents",
-   "url": "https://github.com/tordrt/LLMSchema",
-   "src": "Hacker News",
-   "t": "17:13",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Java vLLM-like framework claim 90% perfomance of llamacpp inference on Nvidia HW",
-   "url": "https://www.reddit.com/r/Vllm/comments/1x0lppn/java_vllmlike_framwork_claims_90_of_perfomance_of/",
-   "src": "Hacker News",
-   "t": "16:58",
-   "fresh": false
   },
   {
    "type": "article",
