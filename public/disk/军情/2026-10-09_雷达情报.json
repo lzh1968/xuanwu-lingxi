@@ -2,14 +2,68 @@
  "日期": "2026-10-09",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-09 04:04:53",
-  "chosen": "ADA long",
+  "updated": "2026-10-09 04:09:53",
+  "chosen": "DOT short",
   "nodes": [
    {
-    "coin": "ADA",
-    "side": "long",
+    "coin": "SOL",
+    "side": "short",
+    "align": 3,
+    "embryo": 0.7
+   },
+   {
+    "coin": "DOGE",
+    "side": "short",
+    "align": 3,
+    "embryo": 0.7
+   },
+   {
+    "coin": "XRP",
+    "side": "short",
     "align": 2,
-    "embryo": 2.91
+    "embryo": 2.7
+   },
+   {
+    "coin": "LTC",
+    "side": "short",
+    "align": 3,
+    "embryo": 0.2
+   },
+   {
+    "coin": "SUI",
+    "side": "short",
+    "align": 3,
+    "embryo": 0.2
+   },
+   {
+    "coin": "AVAX",
+    "side": "long",
+    "align": 3,
+    "embryo": 0.2
+   },
+   {
+    "coin": "UNI",
+    "side": "short",
+    "align": 3,
+    "embryo": 0.2
+   },
+   {
+    "coin": "WLD",
+    "side": "short",
+    "align": 3,
+    "embryo": 0.2
+   },
+   {
+    "coin": "ARB",
+    "side": "short",
+    "align": 3,
+    "embryo": 0.2
+   },
+   {
+    "coin": "DOT",
+    "side": "short",
+    "align": 3,
+    "embryo": 0.2
    },
    {
     "coin": "BTC",
@@ -18,25 +72,7 @@
     "embryo": 0.0
    },
    {
-    "coin": "SOL",
-    "side": "",
-    "align": 0,
-    "embryo": 0.0
-   },
-   {
-    "coin": "DOGE",
-    "side": "",
-    "align": 0,
-    "embryo": 0.0
-   },
-   {
-    "coin": "XRP",
-    "side": "",
-    "align": 0,
-    "embryo": 0.0
-   },
-   {
-    "coin": "LTC",
+    "coin": "ADA",
     "side": "",
     "align": 0,
     "embryo": 0.0
@@ -54,43 +90,7 @@
     "embryo": 0.0
    },
    {
-    "coin": "SUI",
-    "side": "",
-    "align": 0,
-    "embryo": 0.0
-   },
-   {
-    "coin": "AVAX",
-    "side": "",
-    "align": 0,
-    "embryo": 0.0
-   },
-   {
-    "coin": "UNI",
-    "side": "",
-    "align": 0,
-    "embryo": 0.0
-   },
-   {
-    "coin": "WLD",
-    "side": "",
-    "align": 0,
-    "embryo": 0.0
-   },
-   {
     "coin": "FIL",
-    "side": "",
-    "align": 0,
-    "embryo": 0.0
-   },
-   {
-    "coin": "ARB",
-    "side": "",
-    "align": 0,
-    "embryo": 0.0
-   },
-   {
-    "coin": "DOT",
     "side": "",
     "align": 0,
     "embryo": 0.0
