@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-08",
- "落盘": "2026-10-08 19:32:43",
+ "落盘": "2026-10-08 19:39:17",
  "条数": 14,
- "live": 52,
+ "live": 60,
  "条目": [
+  {
+   "title": "Show HN: Let your AI agents paint big arrows, boxes and text on your screen",
+   "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+   "type": "live"
+  },
   {
    "title": "Dear LLM, or how I stopped getting generic advice",
    "url": "https://kol3x.com/blog/dear-llm-or-how-i-stopped-getting-generic-advice/",
@@ -15,8 +20,18 @@
    "type": "live"
   },
   {
+   "title": "Show HN: Coding Agent with Cost Saving Built-In",
+   "url": "https://www.wiyomi.com/",
+   "type": "live"
+  },
+  {
    "title": "The Pain Axis: LLMs Represent Self-Directed Harm and Act on It",
    "url": "https://arxiv.org/abs/2609.16247",
+   "type": "live"
+  },
+  {
+   "title": "RSS-A – signed RSS/Atom feeds and groups for AI agents",
+   "url": "https://github.com/getvda-ai/rssa",
    "type": "live"
   },
   {
@@ -27,21 +42,6 @@
   {
    "title": "Show HN: Runbook and scripts for Claude to edit raw footage in DaVinci Resolve",
    "url": "https://blog.simbastack.com/claude-edited-my-youtube-videos-davinci-resolve/",
-   "type": "live"
-  },
-  {
-   "title": "Ask HN: Are we trading model capacity for compute?",
-   "url": "https://news.ycombinator.com/item?id=50003575",
-   "type": "live"
-  },
-  {
-   "title": "Show HN: LLMSchema – Dump your database schema as compact Markdown for AI agents",
-   "url": "https://github.com/tordrt/LLMSchema",
-   "type": "live"
-  },
-  {
-   "title": "Java vLLM-like framework claim 90% perfomance of llamacpp inference on Nvidia HW",
-   "url": "https://www.reddit.com/r/Vllm/comments/1x0lppn/java_vllmlike_framwork_claims_90_of_perfomance_of/",
    "type": "live"
   },
   {
