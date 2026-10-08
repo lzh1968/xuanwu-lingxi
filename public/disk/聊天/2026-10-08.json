@@ -1,5 +1,5 @@
 {
- "时间": "2026-10-08 14:00:53",
+ "时间": "2026-10-08 14:07:10",
  "会话档数": 12,
  "会话": [
   {
@@ -57,34 +57,26 @@
    "改": "2026-09-29 00:10:46"
   },
   {
-   "档": "560c4752-8ba9-4325-b7a5-c292d32e5a36.jsonl",
-   "字节": 3405510,
-   "行": 1458,
-   "改": "2026-10-08 05:44:11"
+   "档": "9ef880c6-4fc1-47ad-9a64-38e2b5a6310b.jsonl",
+   "字节": 1531736,
+   "行": 808,
+   "改": "2026-10-08 14:03:09"
   },
   {
    "档": "fce2f3c2-7ffb-44a2-90cf-db07cd739ea9.jsonl",
-   "字节": 3489983,
-   "行": 2485,
-   "改": "2026-10-08 13:53:10"
+   "字节": 3503987,
+   "行": 2497,
+   "改": "2026-10-08 14:04:05"
   },
   {
-   "档": "9ef880c6-4fc1-47ad-9a64-38e2b5a6310b.jsonl",
-   "字节": 1500034,
-   "行": 783,
-   "改": "2026-10-08 14:00:21"
+   "档": "560c4752-8ba9-4325-b7a5-c292d32e5a36.jsonl",
+   "字节": 3422515,
+   "行": 1466,
+   "改": "2026-10-08 14:05:26"
   }
  ],
  "近段摘要": [
   {
-   "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Thu 2026-10-08 13:49 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
-  },
-  {
-   "角色": "小奈",
-   "文": "[[reply_to_current]]先网关：**甲·稳**。这就查「多空信号源」哪些币缺岗。"
-  },
-  {
    "角色": "小奈",
    "文": ""
   },
@@ -102,83 +94,11 @@
   },
   {
    "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "发现「缺岗」根因：多空源表里 **🦉开明雷达** 一列全币皆「缺岗」。查它的数据源。"
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "查明「缺岗」根因了。\n\n**诊断**：多空信号源页上满屏的「缺岗」**全在 🦉开明雷达 这一列**——它本轮只照见了 **2 个币（NEAR、AVAX）**，其余 16 币全显「缺岗」。白虎触突、腾蛇择强、烛龙判决三列正常。\n\n**根因**（实据）：开明雷达的情报档 `_雷达情报.json` 现在只有 2 条（NEAR 空 / AVAX 多）。\n它写的是**「本轮择强候选池」**——被相位刀、共振等收窄之后的池子；池子小，覆盖就少。而且**七户跑器共写同一档，谁后写谁覆盖**，所以看着像\"大面积缺岗\"。\n\n**治法（请印）**：\n- **甲·治本（真钱内核）**：让 `_雷达_feed` **"
+   "文": "🩺 **心跳报告（10-06 19:03）—— 机器端批量杀进程风暴（负载 23+）：模拟臂与真钱户反复重启；已复起**\n\n**🩹 一、复起结果**：模拟 **锐/稳/衡 三支全部换新 PID**（19:01:31 起：rui 30280 · wen 18360 · heng 19327）⇒ **模拟 3/3 恢复** ✓（此前 16:50 起的 13495/32515/1785 也已被杀，可见**连锐也死过**）。\n\n**🔴 二、根因迹象（不是单个引擎的问题，是**机器级批量杀**）**\n- **健康自检 18:43→18:58 的 5 分钟内清僵尸锁 270 把**，其中 18:58 那批"
   },
   {
    "角色": "老板",
-   "文": "System (untrusted): [2026-10-08 13:50:56 GMT+8] Exec completed (sharp-or, code 0) :: [2026-10-08 13:50:56] 全亮 ｜ 神兽 6/6 ｜ 网关 甲·稳 ｜ 隧道 在岗 ｜ 门户 亮(29页·外网200) ｜ 官网 xuanwulingxi.top ｜ 硬盘 1.42MB/8MB ｜ 守护 9/9 ｜ 僵尸锁 2 ｜ 内存5556MB ｜ 自愈 0 ｜ 无\n\nSender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (opencla"
-  },
-  {
-   "角色": "小奈",
-   "文": "印已得（甲+乙）。先看候选池的构建处，才能让雷达写全池。"
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -190,23 +110,11 @@
   },
   {
    "角色": "小奈",
-   "文": ""
+   "文": "🩹 **一句话报备（10-06 19:58）**：模拟「稳」又被批量杀（11 分钟前），已用 `_起_三新子引擎.sh` 幂等拉回 ⇒ **模拟 3/3 在岗**（锐 11767 · 稳 18123 · 衡 19323；真钱仍 7/7，护身符 0 ✓，体检OK，站体 200）。\n\n📣 顺报**强共识 3 个**（只报不动）：**ADA 多**（3多/1空·王者 long）· **NEAR 空**（1多/3空·王者 short）· **WLD 多**（3多/0空·王者 hold）。\n\n（待您点头的老账不变：稳/衡 补哨 · 火印超限 · 评分门 45 · FIL 幽灵仓。）"
   },
   {
-   "角色": "小奈",
-   "文": "印已得。开工：先备份，再改（甲）雷达写全池 +（乙）扫描器在岗判据。"
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -225,8 +133,8 @@
    "文": ""
   },
   {
-   "角色": "小奈",
-   "文": "乙已见效（页面 0 缺岗）。现在重启引擎让「甲」生效。"
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -235,6 +143,98 @@
   {
    "角色": "小奈",
    "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "🚨 **心跳报告（10-07 17:45）—— 真钱持仓名义最高 23.7 倍权益（爆仓风险）＋ 日报 ＋ 强共识 8 币齐空**\n\n**📋 一、每日回本日报（10-07）**\n- **五户今日已实现 = −121.12**；五户权益合计 **2,539.29**（分户累计：xwu −375.50 · lbh +312.99 · dss +177.04 · zls −212.64 · zxy +35.42 · yhb −49.39）\n- 现有持仓：**XWU ARB 空** · **LBH XRP 空** · **DSS SUI 多**（其余空仓）\n\n**🚨 二、真钱「名义 / 权益」严重超配"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "🩹 **一句话报备（10-08 00:27）**：模拟「稳/衡」再被批杀（账本停 4.8 小时），已复起 ⇒ **模拟 3/3**（锐 23257 · 稳 16467 · 衡 17063）；**生命线看护已在岗（1 个）· `_生命线.alert` 无旗＝安康** ✓；真钱 **7/7**、护身符 0、体检OK、网关 19/20。\n\n📣 顺报**强共识 5 个**（只报不动）：**空**＝LTC · UNI · WLD（1多/3空·王者 short）；**多**＝FIL · SUI（3多/0空·王者 long）。\n\n（老账不变：稳/衡 补哨 · 火印超限 · 真钱名义 23.7× · 评分门 "
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "🩹 **一句话报备（10-08 03:52·深夜仅报缺员）**：模拟「稳/衡」又被杀（账本停 3.2 小时），已幂等拉回 ⇒ **模拟 3/3**（锐 8292 · 稳 28787 · 衡 29792）；真钱 **7/7** · 护身符 0 ✓ · **生命线安康**（看护在岗 1）· 体检OK（复起后）。\n\n（病仍在：**复起后 10–25 分钟即被批杀**，稳/衡无哨 ⇒ 仍候您准「补哨」。）"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "🩹 **一句话报备（10-08 05:44·深夜仅报缺员）**：模拟「稳/衡」又被批杀（停 1.65h·已是今夜第 3 轮），已拉回 ⇒ **模拟 3/3**（锐 6591 · 稳 13847 · 衡 14512）；真钱 7/7 · 护身符 0 ✓ · **生命线安康** · 夜推演 04:05 正常收工（退出码 0）。"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "📋 **心跳报告（10-08 14:06）—— 今日日报 ＋ 强共识 9 币 ＋ 模拟臂再修**\n\n**📋 一、每日回本日报（10-08）**\n- **五户今日已实现 = +21.57**；五户权益合计 **1,870.85**\n- 现持仓（六户皆有仓，名义已回正常区间）：XWU **AVAX 多** 502 ｜ LBH **BNB 空** 1,263 ｜ DSS **AVAX 多** 884 ｜ ZLS **ADA 空** 357 ｜ ZXY **DOT 空** 842 ｜ YHB **DOT 空** 855\n- 备注：昨日那笔**23.7× 的 XWU ARB 超大名义**已了结，当前最大"
   }
  ],
  "本地全量归档": [
@@ -279,6 +279,6 @@
    "MB": 20.62
   }
  ],
- "摘要档": "9ef880c6-4fc1-47ad-9a64-38e2b5a6310b.jsonl",
+ "摘要档": "560c4752-8ba9-4325-b7a5-c292d32e5a36.jsonl",
  "注": "本分区=索引+近段摘要；聊天全文存于本机 data_v2/archive/聊天记录_* 与加密密包(封存分区)"
 }
