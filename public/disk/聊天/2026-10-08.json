@@ -1,5 +1,5 @@
 {
- "时间": "2026-10-08 19:54:05",
+ "时间": "2026-10-08 20:02:41",
  "会话档数": 12,
  "会话": [
   {
@@ -63,22 +63,26 @@
    "改": "2026-10-08 19:31:23"
   },
   {
-   "档": "9ef880c6-4fc1-47ad-9a64-38e2b5a6310b.jsonl",
-   "字节": 574436,
-   "行": 117,
-   "改": "2026-10-08 19:51:42"
-  },
-  {
    "档": "fce2f3c2-7ffb-44a2-90cf-db07cd739ea9.jsonl",
    "字节": 444594,
    "行": 82,
    "改": "2026-10-08 19:52:47"
+  },
+  {
+   "档": "9ef880c6-4fc1-47ad-9a64-38e2b5a6310b.jsonl",
+   "字节": 604229,
+   "行": 131,
+   "改": "2026-10-08 19:57:01"
   }
  ],
  "近段摘要": [
   {
-   "角色": "老板",
-   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+   "角色": "小奈",
+   "文": "Engines are being brought up by the guardian (lbh/zls just started 19:25). Let me re-check current engine roster."
+  },
+  {
+   "角色": "小奈",
+   "文": "Missing 模拟户 `wuxing`. Let me check the paper guardian roster and logs."
   },
   {
    "角色": "小奈",
@@ -94,7 +98,15 @@
   },
   {
    "角色": "小奈",
+   "文": "Missing `wuxing` is expected (retired 2026-10-01). Now let me check the gateway heap drift origin and run the account reconciliation (step 4)."
+  },
+  {
+   "角色": "小奈",
    "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "账实一致 ✅. Let me inspect the graceful-restart script before deciding whether to heal the heap drift."
   },
   {
    "角色": "小奈",
@@ -106,75 +118,67 @@
   },
   {
    "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "[[reply_to_current]] 🫀 心跳 19:27 · 两处提请注意\n\n**1️⃣ 已清退的模拟臂 wen/heng 又在岗**（异常）\n- 19:16 起 `_子引擎.py wen/heng --mode paper` 在跑，日志活跃（wen 19:24 刚平 XRP +0.75$）\n- 但名册 `子引擎/_纸面户名.txt` **仅 rui**，`_子引擎_super.sh` 已摘其基因行（ED-61006「完全删除清楚」）⇒ 属**名册外拉起点**（ppid=1，非 super 拉起）\n- 若为老板今日新令要留则无碍；否则请一句话，我再清退（**按铁律我不擅动进程**）\n\n*"
+   "文": "开机自检完成，向老板简要回报（全中文）：\n\n🦞 **玄武灵犀·开机自检（10-08 19:2x）**\n\n**网关：⚠️乙·需治（非故障，可自愈）**\n- PID 28202 · 内存 453MB · 实例1 · 探活200(31ms) · 看护在岗(1)\n- 唯一未过项：**堆上限=2048（旧病根值，应为1536）**。自检起跑那一刻看护曾为0（丙），随即自动归位。此堆值须重启才生效；现内存仅453MB、且自检期间有活跃会话，**空闲窗口未到暂不重启** —— 守护会在空闲窗自动拨正（自适应·免印），无需人工介入。\n\n**引擎（真钱六户 ✅）**：LBH/DSS/ZXY/ZLS/XWU/WH"
   },
   {
    "角色": "老板",
-   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+   "文": "You are running a boot check. Follow BOOT.md instructions exactly.\n\nBOOT.md:\n# 🚀 开机自检 · 玄武灵犀交易系统 (BOOT.md)\n\n> 手机/网关机启动后，网关会自动跑这份清单。**这是真钱生命线，务必执行。**\n> 🐉 2026-09-23 17:4x 同步老板令(火印 ED-20260923-143): 统一目标=**盈利第一** · 择向精准 · 三军统一指挥(🐉烛龙终审→执行长🐍腾蛇调度→三军 LBH/ZLS/ZXY + 母体 GTAE + DSS) · 诸君各尽其责。\n\n## 第 0 步：确认\n工作目"
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "Gateway is now 甲·稳 (restarted, heap aligned). But engine roster changed: `yhb` appeared, and `wen`/`heng` are gone. Let me investigate."
+  },
+  {
+   "角色": "小奈",
+   "文": "Logs show `wen`/`heng` active at 19:31 — timing skew. Let me do a clean fresh scan."
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "`wen`/`heng` are down (stopped 19:24–19:31); only `rui` runs. Let me find who manages the paper engines and check recent notes."
+  },
+  {
+   "角色": "小奈",
+   "文": "`wen`/`heng` retirement is expected (清退令 2026-10-06). Roster now correct. Let me finish with the account reconciliation and a check for any retired-mothership residue."
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "All checks pass this boot:\n\n- **网关**：✅ 甲·稳（进程号25673 · 773MB · 实例1 · 探活200）——上一轮遗留的堆上限偏差已随受控重启归位至1536。\n- **引擎**：真钱七户全在岗（dss/whp/zls/lbh/xwu/yhb/zxy）；模拟仅锐（rui）——稳态/衢/五行均已按清退令退役，缺席属预期。\n- **守护**：七员 7/7 单实例（网关看护真身=1）。\n- **账实**：✅ 一致（7 户）。\n- 无老母体残留踪迹。\n\n一切正常，无需人工介入。\n\nNO_REPLY"
+  },
+  {
+   "角色": "老板",
+   "文": "You are running a boot check. Follow BOOT.md instructions exactly.\n\nBOOT.md:\n# 🚀 开机自检 · 玄武灵犀交易系统 (BOOT.md)\n\n> 手机/网关机启动后，网关会自动跑这份清单。**这是真钱生命线，务必执行。**\n> 🐉 2026-09-23 17:4x 同步老板令(火印 ED-20260923-143): 统一目标=**盈利第一** · 择向精准 · 三军统一指挥(🐉烛龙终审→执行长🐍腾蛇调度→三军 LBH/ZLS/ZXY + 母体 GTAE + DSS) · 诸君各尽其责。\n\n## 第 0 步：确认\n工作目"
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "Fresh boot: 健康自检_loop missing, 门面_看护 duplicated, gateway heap drifted again (2048). Running the idempotent autostart as BOOT step 3 prescribes."
   },
   {
    "角色": "小奈",
@@ -195,6 +199,42 @@
   {
    "角色": "小奈",
    "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "开机自检完成（10-08 19:5x），向老板回报：\n\n🦞 **玄武灵犀·开机自检**\n\n**已处置（本轮确有缺口，已补）**\n- `健康自检_loop` 缺失 → 已补起（守护总管亦于 19:49 自行补位一次）✅\n- `门面_看护` 曾出现双实例 → 已归单实例 ✅\n\n**守护：七员 7/7 ✅**（单实例达标）\n\n**引擎 ✅**\n- 真钱七户在岗：LBH/DSS/ZXY/ZLS/XWU/WHP/YHB\n- 模拟仅「锐」(rui)——稳/衢/五行已按清退令退役，缺席属预期\n\n**账实：✅ 一致**\n\n**网关：⚠️乙·需治**\n- 进程号 17489 · 内存 405MB · 实例1 ·"
+  },
+  {
+   "角色": "老板",
+   "文": "You are running a boot check. Follow BOOT.md instructions exactly.\n\nBOOT.md:\n# 🚀 开机自检 · 玄武灵犀交易系统 (BOOT.md)\n\n> 手机/网关机启动后，网关会自动跑这份清单。**这是真钱生命线，务必执行。**\n> 🐉 2026-09-23 17:4x 同步老板令(火印 ED-20260923-143): 统一目标=**盈利第一** · 择向精准 · 三军统一指挥(🐉烛龙终审→执行长🐍腾蛇调度→三军 LBH/ZLS/ZXY + 母体 GTAE + DSS) · 诸君各尽其责。\n\n## 第 0 步：确认\n工作目"
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "Gateway 甲·稳 now. But `_门面_看护.sh` is duplicated (6/7). Let me inspect the two instances."
+  },
+  {
+   "角色": "小奈",
+   "文": "PID 28772 already exited (transient). Re-checking."
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "All checks green this boot:\n\n- **网关**：✅ 甲·稳（进程号5431 · 408MB · 实例1 · 探活200）——堆上限已归位1536\n- **引擎**：真钱七户全在岗（LBH/DSS/ZXY/ZLS/XWU/WHP/YHB）+ 模拟「锐」(rui)；稳/衢/五行退役属预期\n- **守护**：七员 7/7 单实例（门面看护曾瞬时双实例，已自行归单）\n- **账实**：✅ 一致（7 户）\n\n一切正常，无需人工介入。\n\nNO_REPLY"
   }
  ],
  "本地全量归档": [
@@ -239,6 +279,6 @@
    "MB": 20.62
   }
  ],
- "摘要档": "fce2f3c2-7ffb-44a2-90cf-db07cd739ea9.jsonl",
+ "摘要档": "9ef880c6-4fc1-47ad-9a64-38e2b5a6310b.jsonl",
  "注": "本分区=索引+近段摘要；聊天全文存于本机 data_v2/archive/聊天记录_* 与加密密包(封存分区)"
 }
