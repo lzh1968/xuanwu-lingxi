@@ -1,9 +1,17 @@
 {
- "generated": "16:40",
- "built": "2026-10-08 16:40:00",
+ "generated": "16:46",
+ "built": "2026-10-08 16:46:25",
  "count": 89,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "AI coding agents and a rerun of the operating-system wars",
+   "url": "https://gaseri.org/en/blog/2026-10-08-ai-coding-agents-and-a-rerun-of-the-operating-system-wars/",
+   "src": "Hacker News",
+   "t": "16:39",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "AI agent designs a complete RISC-V CPU from a 219-word spec sheet in 12 hours",
@@ -58,14 +66,6 @@
    "url": "https://withruntime.com/",
    "src": "Hacker News",
    "t": "10:04",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Show HN: agentc: <1mb static/no-libc, minimal, embeddable agent with Rust/C API",
-   "url": "https://github.com/abird-ai/agentc",
-   "src": "Hacker News",
-   "t": "09:53",
    "fresh": false
   },
   {
