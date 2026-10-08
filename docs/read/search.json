@@ -1,6 +1,6 @@
 {
- "built": "2026-10-09 00:13:45",
- "count": 133,
+ "built": "2026-10-09 00:22:19",
+ "count": 134,
  "items": [
   {
    "t": "今日辑要 · 2026-10-09（前沿 12 条）",
@@ -33,6 +33,14 @@
    "d": "2026-10-09",
    "k": "手记,方法论",
    "x": "把阴阳放进控制系统里看，它更像一对 符号相反的反馈环 ：一个负责扩张，一个负责收敛。 只有扩张的环，系统会在顺境中自我强化直到崩塌；只有收敛的环，系统会在谨慎中失去一切机会。传统讲\"阴阳相生\"，工程讲\"增益平衡\"——说的是同一件事： 别让任一侧单独主导太久。 所以好的自适应并非不断调参，而是在两侧都留出可回退的余地：进要能退，退也要能再进；底线固定，节奏可变。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "链上机制的可读性",
+   "u": "a/note-20261009-4.html",
+   "s": "Web3 · 链上世界",
+   "d": "2026-10-09",
+   "k": "手记,方法论",
+   "x": "评价一条链上机制，可以先问三个可读性问题： 1. 谁承担最后风险？ （收益来自哪里，亏损落到谁头上） 2. 信息何时公开？ （先看到的人是否天然占优） 3. 退出是否顺畅？ （极端情形下能不能有序离场） 这三个问题不涉及任何价格判断，却能筛掉绝大部分\"看起来精巧\"的设计。机制研究的价值也正在于此： 把不可读的风险变成可讨论的条款。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "今日辑要 · 2026-10-08（前沿 12 条）",
@@ -835,18 +843,18 @@
    "x": ""
   },
   {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "16:11",
+   "d": "16:19",
    "k": "",
    "x": ""
   },
   {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "16:11",
+   "d": "16:16",
    "k": "",
    "x": ""
   },
@@ -854,7 +862,7 @@
    "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
-   "d": "15:53",
+   "d": "16:14",
    "k": "",
    "x": ""
   },
@@ -875,10 +883,10 @@
    "x": ""
   },
   {
-   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
-   "u": "https://github.com/IBAX-io/go-ibax",
-   "s": "外网新声·GitHub 新星",
-   "d": "12:07",
+   "t": "机器人领域的人工智能突破不会很快改变你的生活",
+   "u": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "09:00",
    "k": "",
    "x": ""
   },
@@ -887,6 +895,14 @@
    "u": "https://github.com/mattpocock/skills",
    "s": "外网新声·GitHub 新星",
    "d": "08:49",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Building a safer path to autonomous industrial AI",
+   "u": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "08:17",
    "k": "",
    "x": ""
   },
@@ -1035,14 +1051,6 @@
    "x": ""
   },
   {
-   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
-   "u": "https://github.com/Dao-AILab/flash-attention",
-   "s": "外网新声·GitHub 新星",
-   "d": "08:22",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "丽笙酒店集团将酒店探索引入ChatGPT",
    "u": "https://openai.com/index/radisson",
    "s": "外网新声·OpenAI 官方",
@@ -1059,10 +1067,10 @@
    "x": ""
   },
   {
-   "t": "使用Ironclad推进计算机使用",
-   "u": "https://openai.com/index/advancing-computer-use-with-ironclad",
-   "s": "外网新声·OpenAI 官方",
-   "d": "10:00",
+   "t": "EmbeddingGemma 2：开放、轻量级的多模态嵌入模型",
+   "u": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+   "s": "外网新声·DeepMind 官方",
+   "d": "19:57",
    "k": "",
    "x": ""
   }
