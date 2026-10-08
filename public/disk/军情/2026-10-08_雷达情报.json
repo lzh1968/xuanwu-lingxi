@@ -2,20 +2,14 @@
  "日期": "2026-10-08",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-08 11:21:25",
-  "chosen": "AVAX long",
+  "updated": "2026-10-08 11:27:58",
+  "chosen": "NEAR short",
   "nodes": [
    {
-    "coin": "AVAX",
-    "side": "long",
-    "align": 3,
-    "embryo": 1.89
-   },
-   {
-    "coin": "DOT",
+    "coin": "NEAR",
     "side": "short",
-    "align": 2,
-    "embryo": 3.3
+    "align": 3,
+    "embryo": 2.6
    }
   ]
  }
