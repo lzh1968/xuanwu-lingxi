@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-08",
- "落盘": "2026-10-08 16:39:38",
+ "落盘": "2026-10-08 16:46:30",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "AI coding agents and a rerun of the operating-system wars",
+   "url": "https://gaseri.org/en/blog/2026-10-08-ai-coding-agents-and-a-rerun-of-the-operating-system-wars/",
+   "type": "live"
+  },
   {
    "title": "AI agent designs a complete RISC-V CPU from a 219-word spec sheet in 12 hours",
    "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-designs-a-complete-risc-v-cpu-from-a-219-word-spec-in-just-12-hours",
@@ -37,11 +42,6 @@
   {
    "title": "运行时–您的智能体拥有一个家",
    "url": "https://withruntime.com/",
-   "type": "live"
-  },
-  {
-   "title": "Show HN: agentc: <1mb static/no-libc, minimal, embeddable agent with Rust/C API",
-   "url": "https://github.com/abird-ai/agentc",
    "type": "live"
   },
   {
