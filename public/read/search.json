@@ -1,5 +1,5 @@
 {
- "built": "2026-10-08 21:12:01",
+ "built": "2026-10-08 21:19:13",
  "count": 129,
  "items": [
   {
@@ -715,6 +715,22 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Show HN: Phobos – a tiny kernel language that now runs LLMs on a 2019 GPU",
+   "u": "https://www.joa-ebert.com/posts/2026-10-06-phobos-inference/",
+   "s": "外网新声·Hacker News",
+   "d": "20:56",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN: Gauze fixes (some) open-weight LLM deficiencies",
+   "u": "https://github.com/ggeorgovassilis/llm-gauze",
+   "s": "外网新声·Hacker News",
+   "d": "20:51",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Mellum2.1 Gets to Work: A Fast Open Model for Coding Agents",
    "u": "https://blog.jetbrains.com/ai/2026/10/mellum2-1-gets-to-work-a-fast-open-model-for-coding-agents/",
    "s": "外网新声·Hacker News",
@@ -723,10 +739,26 @@
    "x": ""
   },
   {
+   "t": "Show HN: Bot Bowl Bench – Benchmarking LLMs with Blood Bowl",
+   "u": "https://botbowlbench.com/",
+   "s": "外网新声·Hacker News",
+   "d": "20:31",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "SpacetimeDB Ax Audit: A Review for AI Agents",
    "u": "https://techstackups.com/articles/spacetimedb-ax-audit/",
    "s": "外网新声·Hacker News",
    "d": "20:21",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：LLM Fuzz CI",
+   "u": "https://tiime-software.github.io/blog/llm-fuzz-ci/",
+   "s": "外网新声·Hacker News",
+   "d": "20:09",
    "k": "",
    "x": ""
   },
@@ -751,6 +783,22 @@
    "u": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
    "s": "外网新声·Hacker News",
    "d": "19:33",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Dear LLM, or how I stopped getting generic advice",
+   "u": "https://kol3x.com/blog/dear-llm-or-how-i-stopped-getting-generic-advice/",
+   "s": "外网新声·Hacker News",
+   "d": "19:29",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN: Control swarm with dynamic code insertions",
+   "u": "https://nohope.io",
+   "s": "外网新声·Hacker News",
+   "d": "19:29",
    "k": "",
    "x": ""
   },
@@ -782,7 +830,7 @@
    "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
-   "d": "13:08",
+   "d": "13:12",
    "k": "",
    "x": ""
   },
@@ -983,54 +1031,6 @@
    "u": "https://arxiv.org/abs/2610.10405v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "16:53",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
-   "u": "https://github.com/Dao-AILab/flash-attention",
-   "s": "外网新声·GitHub 新星",
-   "d": "08:22",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "丽笙酒店集团将酒店探索引入ChatGPT",
-   "u": "https://openai.com/index/radisson",
-   "s": "外网新声·OpenAI 官方",
-   "d": "07:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：Tinyhat，多代理Muse的每位专家内存（开源）",
-   "u": "https://github.com/tinyhat-ai/muse-office",
-   "s": "外网新声·Hacker News",
-   "d": "22:11",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "EmbeddingGemma 2：开放、轻量级的多模态嵌入模型",
-   "u": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "19:57",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "使用Ironclad推进计算机使用",
-   "u": "https://openai.com/index/advancing-computer-use-with-ironclad",
-   "s": "外网新声·OpenAI 官方",
-   "d": "10:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：Kiro的多代理包",
-   "u": "https://github.com/amergrgic/kodama",
-   "s": "外网新声·Hacker News",
-   "d": "02:18",
    "k": "",
    "x": ""
   }
