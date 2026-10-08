@@ -1,5 +1,5 @@
 {
- "built": "2026-10-08 16:54:14",
+ "built": "2026-10-08 16:58:45",
  "count": 129,
  "items": [
   {
@@ -715,6 +715,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Java vLLM-like framework claim 90% perfomance of llamacpp inference on Nvidia HW",
+   "u": "https://www.reddit.com/r/Vllm/comments/1x0lppn/java_vllmlike_framwork_claims_90_of_perfomance_of/",
+   "s": "外网新声·Hacker News",
+   "d": "16:58",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "AI coding agents and a rerun of the operating-system wars",
    "u": "https://gaseri.org/en/blog/2026-10-08-ai-coding-agents-and-a-rerun-of-the-operating-system-wars/",
    "s": "外网新声·Hacker News",
@@ -763,14 +771,6 @@
    "x": ""
   },
   {
-   "t": "Show HN: Rhyven – A marketplace for agents",
-   "u": "https://rhyvenai.com",
-   "s": "外网新声·Hacker News",
-   "d": "10:44",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "运行时–您的智能体拥有一个家",
    "u": "https://withruntime.com/",
    "s": "外网新声·Hacker News",
@@ -783,6 +783,22 @@
    "u": "https://github.com/abird-ai/agentc",
    "s": "外网新声·Hacker News",
    "d": "09:53",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
+   "s": "外网新声·GitHub 新星",
+   "d": "08:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
+   "u": "https://github.com/IBAX-io/go-ibax",
+   "s": "外网新声·GitHub 新星",
+   "d": "08:55",
    "k": "",
    "x": ""
   },
@@ -811,14 +827,6 @@
    "x": ""
   },
   {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
-   "s": "外网新声·GitHub 新星",
-   "d": "08:48",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Building a safer path to autonomous industrial AI",
    "u": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/",
    "s": "外网新声·MIT 科技评论",
@@ -831,14 +839,6 @@
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
    "d": "08:08",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
-   "u": "https://github.com/IBAX-io/go-ibax",
-   "s": "外网新声·GitHub 新星",
-   "d": "07:57",
    "k": "",
    "x": ""
   },
@@ -1027,10 +1027,10 @@
    "x": ""
   },
   {
-   "t": "EmbeddingGemma 2：开放、轻量级的多模态嵌入模型",
-   "u": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "19:57",
+   "t": "使用Ironclad推进计算机使用",
+   "u": "https://openai.com/index/advancing-computer-use-with-ironclad",
+   "s": "外网新声·OpenAI 官方",
+   "d": "10:00",
    "k": "",
    "x": ""
   }
