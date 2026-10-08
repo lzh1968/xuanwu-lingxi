@@ -1,55 +1,15 @@
 {
- "generated": "01:37",
- "built": "2026-10-09 01:37:25",
+ "generated": "01:44",
+ "built": "2026-10-09 01:44:23",
  "count": 94,
- "live_count": 57,
+ "live_count": 59,
  "items": [
   {
    "type": "live",
-   "title": "ATLAS：评估搜索密集型任务的代理",
-   "url": "https://exa.ai/blog/atlas-benchmark",
+   "title": "智能爆炸",
+   "url": "https://news.ycombinator.com/item?id=50007606",
    "src": "Hacker News",
-   "t": "01:26",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "展示HN：AI SRE Arena，Kubernetes上AI SRE智能体的开放基准",
-   "url": "https://github.com/edgedelta/project-arena",
-   "src": "Hacker News",
-   "t": "01:13",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "在您购买AI SRE之前为您的代理提供背景信息",
-   "url": "https://radarhq.io/blog/ai-sre-give-your-agent-context-first",
-   "src": "Hacker News",
-   "t": "00:56",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Natura推出面向AI 智能体和应用的$ 99 Interface智能戒指",
-   "url": "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger/",
-   "src": "Hacker News",
-   "t": "00:27",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "智能体缺少真正的数据和内存层–我们构建了一个",
-   "url": "https://www.claix.dev",
-   "src": "Hacker News",
-   "t": "23:37",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "SQL运行正常。58%的答案是错误的（真正仓库中的AI 智能体）",
-   "url": "https://github.com/neocatalystlabs/semlayer",
-   "src": "Hacker News",
-   "t": "23:27",
+   "t": "00:09",
    "fresh": false
   },
   {
@@ -62,10 +22,50 @@
   },
   {
    "type": "live",
-   "title": "为AI编码代理订阅定价以确保盈利能力的策略",
-   "url": "https://www.rswebsols.com/news/strategies-for-pricing-an-ai-coding-agent-subscription-to-ensure-profitability/",
+   "title": "无限战争：五角大楼将马斯克置于其战争计划的中心",
+   "url": "https://mronline.org/2026/10/07/pentagon-puts-musk-at-the-center-of-its-war-planning/",
    "src": "Hacker News",
-   "t": "23:25",
+   "t": "23:03",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "Show HN：教授30ms本地模型，使用LLM书面规则玩浏览器游戏",
+   "url": "https://github.com/ironbee-ai/ironbee-gamer",
+   "src": "Hacker News",
+   "t": "22:56",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "url": "https://github.com/NousResearch/hermes-agent",
+   "src": "GitHub 新星",
+   "t": "17:40",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "url": "https://github.com/ggml-org/llama.cpp",
+   "src": "GitHub 新星",
+   "t": "17:39",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "anomalyco/opencode：开源编码智能体",
+   "url": "https://github.com/anomalyco/opencode",
+   "src": "GitHub 新星",
+   "t": "17:33",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "url": "https://github.com/earendil-works/pi",
+   "src": "GitHub 新星",
+   "t": "15:26",
    "fresh": false
   },
   {

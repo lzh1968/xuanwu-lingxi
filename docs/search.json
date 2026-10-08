@@ -1,5 +1,5 @@
 {
- "built": "2026-10-09 01:37:25",
+ "built": "2026-10-09 01:44:23",
  "count": 134,
  "items": [
   {
@@ -755,50 +755,10 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "ATLAS：评估搜索密集型任务的代理",
-   "u": "https://exa.ai/blog/atlas-benchmark",
+   "t": "智能爆炸",
+   "u": "https://news.ycombinator.com/item?id=50007606",
    "s": "外网新声·Hacker News",
-   "d": "01:26",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "展示HN：AI SRE Arena，Kubernetes上AI SRE智能体的开放基准",
-   "u": "https://github.com/edgedelta/project-arena",
-   "s": "外网新声·Hacker News",
-   "d": "01:13",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "在您购买AI SRE之前为您的代理提供背景信息",
-   "u": "https://radarhq.io/blog/ai-sre-give-your-agent-context-first",
-   "s": "外网新声·Hacker News",
-   "d": "00:56",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Natura推出面向AI 智能体和应用的$ 99 Interface智能戒指",
-   "u": "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger/",
-   "s": "外网新声·Hacker News",
-   "d": "00:27",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "智能体缺少真正的数据和内存层–我们构建了一个",
-   "u": "https://www.claix.dev",
-   "s": "外网新声·Hacker News",
-   "d": "23:37",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "SQL运行正常。58%的答案是错误的（真正仓库中的AI 智能体）",
-   "u": "https://github.com/neocatalystlabs/semlayer",
-   "s": "外网新声·Hacker News",
-   "d": "23:27",
+   "d": "00:09",
    "k": "",
    "x": ""
   },
@@ -811,10 +771,34 @@
    "x": ""
   },
   {
-   "t": "为AI编码代理订阅定价以确保盈利能力的策略",
-   "u": "https://www.rswebsols.com/news/strategies-for-pricing-an-ai-coding-agent-subscription-to-ensure-profitability/",
+   "t": "无限战争：五角大楼将马斯克置于其战争计划的中心",
+   "u": "https://mronline.org/2026/10/07/pentagon-puts-musk-at-the-center-of-its-war-planning/",
    "s": "外网新声·Hacker News",
-   "d": "23:25",
+   "d": "23:03",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：教授30ms本地模型，使用LLM书面规则玩浏览器游戏",
+   "u": "https://github.com/ironbee-ai/ironbee-gamer",
+   "s": "外网新声·Hacker News",
+   "d": "22:56",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "17:40",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
+   "s": "外网新声·GitHub 新星",
+   "d": "17:39",
    "k": "",
    "x": ""
   },
@@ -827,10 +811,10 @@
    "x": ""
   },
   {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
    "s": "外网新声·GitHub 新星",
-   "d": "17:31",
+   "d": "15:26",
    "k": "",
    "x": ""
   },
@@ -1027,6 +1011,14 @@
    "x": ""
   },
   {
+   "t": "丽笙酒店集团将酒店探索引入ChatGPT",
+   "u": "https://openai.com/index/radisson",
+   "s": "外网新声·OpenAI 官方",
+   "d": "07:00",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Show HN：Tinyhat，多代理Muse的每位专家内存（开源）",
    "u": "https://github.com/tinyhat-ai/muse-office",
    "s": "外网新声·Hacker News",
@@ -1035,10 +1027,10 @@
    "x": ""
   },
   {
-   "t": "EmbeddingGemma 2：开放、轻量级的多模态嵌入模型",
-   "u": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "19:57",
+   "t": "使用Ironclad推进计算机使用",
+   "u": "https://openai.com/index/advancing-computer-use-with-ironclad",
+   "s": "外网新声·OpenAI 官方",
+   "d": "10:00",
    "k": "",
    "x": ""
   },
@@ -1071,6 +1063,14 @@
    "u": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
    "s": "外网新声·MIT 科技评论",
    "d": "08:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
+   "u": "https://github.com/affaan-m/ECC",
+   "s": "外网新声·GitHub 新星",
+   "d": "04:55",
    "k": "",
    "x": ""
   }
