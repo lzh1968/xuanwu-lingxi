@@ -1,5 +1,5 @@
 {
- "时间": "2026-10-09 02:42:32",
+ "时间": "2026-10-09 02:49:46",
  "会话档数": 18,
  "会话": [
   {
@@ -93,30 +93,26 @@
    "改": "2026-10-09 01:14:19"
   },
   {
-   "档": "560c4752-8ba9-4325-b7a5-c292d32e5a36.jsonl",
-   "字节": 507597,
-   "行": 219,
-   "改": "2026-10-09 01:57:06"
+   "档": "9ef880c6-4fc1-47ad-9a64-38e2b5a6310b.jsonl",
+   "字节": 556547,
+   "行": 110,
+   "改": "2026-10-09 02:47:28"
   },
   {
    "档": "fce2f3c2-7ffb-44a2-90cf-db07cd739ea9.jsonl",
-   "字节": 884881,
-   "行": 292,
-   "改": "2026-10-09 02:10:13"
+   "字节": 891427,
+   "行": 300,
+   "改": "2026-10-09 02:48:05"
   },
   {
-   "档": "9ef880c6-4fc1-47ad-9a64-38e2b5a6310b.jsonl",
-   "字节": 352257,
-   "行": 75,
-   "改": "2026-10-09 02:42:32"
+   "档": "560c4752-8ba9-4325-b7a5-c292d32e5a36.jsonl",
+   "字节": 512509,
+   "行": 225,
+   "改": "2026-10-09 02:48:27"
   }
  ],
  "近段摘要": [
   {
-   "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Fri 2026-10-09 02:34 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
-  },
-  {
    "角色": "小奈",
    "文": ""
   },
@@ -130,91 +126,151 @@
   },
   {
    "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "I've found the key data. Now let me test the core question empirically: if it's \"same system, same signal source,\" do the accounts actually pick the same directions?"
-  },
-  {
-   "角色": "小奈",
-   "文": "100% direction agreement across every pair — this is decisive. Let me zoom into the divergent same-direction cases to pinpoint where the difference actually lives."
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "Let me check the gateway status (per the iron rule) and verify the account-override file."
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "I have a complete, evidence-backed picture now. Let me record the findings as a research note, then report."
-  },
-  {
-   "角色": "小奈",
-   "文": "[[reply_to_current]]查完了，老板。先给结论：\n\n**LBH 在「择向」这一层没有任何独门开关——七户逐笔方向 100% 一模一样，同一个信号源确实同一条道。真正跟别户不一样的那个开关，是「风控」类的，而且方向还反过来：LBH 是唯一**没有**开「免制动」的一户。**\n\n网关先报：**✅甲·稳**（进程 27901·515MB·单实例），已可开工。\n\n下面是硬证据（手机上表格看着费劲，我口头讲重点）：\n\n**一、逐键比对七个实盘户的运行开关（只读 /proc 环境变量）——全表只有两处不同：**\n- `GATELOCK`：只是锁文件名，没行为差异；\n- `ZHU_BRAKE"
+   "文": "🫀 **生命线旗再现**（22:14）——**同一网关根因，未治本且反复**\n\n- 旗因：**网关近 30 分钟断线 3 次**；快照见**实例数峰值 5**、堆上限 **1536**；22:03 网关守望记「探活 **0/3**」（连本机都不通）\n- 近 1 小时三度立旗：20:47 → 21:58（引擎缺员 lbh/xwu/yhb）→ 22:14，**显系同一「网关拉锯」未解**\n- 引擎已复原 **6/6**；生命线看护/扩币相位常转 又掉线，**已再拉回在岗**（pid 32257/32258）\n- 电量 **12%（充电中·plug=2）**\n\n**⏳ 建议尽快定夺**（不擅动）：网"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Fri 2026-10-09 02:42 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "🔔 **主动来报 · 10-08 23:07**\n\n🔴 **真钱在岗数异常：真钱户 2 支（应6：lbh/dss/zxy/zls/xwu/yhb）**\n\n**如实补正**：此刻已复原 **6/6**。但**近 1 小时引擎崩-拉明显加频**——`_实盘守护.sh` 22:52→23:09 连拉 dss/zxy/zls/lbh/xwu/yhb（且 23:07:56 守护自身亦重启一次），23:07 那一刻只剩 2 支在岗。\n\n**判因**：与网关「拉锯/堆上限 1536/多实例」同源的**整机资源抖动**——今日引擎、实盘守护、生命线看护、扩币相位常转**均反复自崩后被拉回**。非单一户故障。\n"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "System (untrusted): [2026-10-08 23:45:25 GMT+8] Exec completed (tide-ced, code 0) :: rot=31797 bat:\n\nRead HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, u"
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "🫀 **生命线旗 + 主动来报**（2026-10-09 00:26）\n\n**🔔 主动来报 · 00:07**\n🟡 **启动对账·池外真仓 `wn`**：2026-10-08 23:48:33 交易所真仓 **[ETH_USDT, 400 张]** 不在池内·账本不认 → **待人工处置**\n\n**详情（`wn` 户）**\n- 依老板今令（火印 **ED-20261009-661**「撤退WN稳正通·稳-正通直接接入」）**稳(wen) 已转实盘**、挂实盘钥；\n- 该户**权益 $203.82**（量程 $815/$2038·日亏熔断 $8.15）；\n- ⚠️ **交易所真仓 ETH_USD"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
   }
  ],
  "本地全量归档": [
@@ -259,6 +315,6 @@
    "MB": 20.62
   }
  ],
- "摘要档": "9ef880c6-4fc1-47ad-9a64-38e2b5a6310b.jsonl",
+ "摘要档": "560c4752-8ba9-4325-b7a5-c292d32e5a36.jsonl",
  "注": "本分区=索引+近段摘要；聊天全文存于本机 data_v2/archive/聊天记录_* 与加密密包(封存分区)"
 }
