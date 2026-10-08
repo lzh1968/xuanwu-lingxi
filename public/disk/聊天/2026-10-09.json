@@ -1,6 +1,6 @@
 {
- "时间": "2026-10-09 01:04:58",
- "会话档数": 15,
+ "时间": "2026-10-09 01:11:45",
+ "会话档数": 17,
  "会话": [
   {
    "档": "ad8e6b04-bd3c-44e5-b096-8e71aa6ac777.jsonl",
@@ -57,18 +57,6 @@
    "改": "2026-10-09 00:26:25"
   },
   {
-   "档": "560c4752-8ba9-4325-b7a5-c292d32e5a36.jsonl",
-   "字节": 492354,
-   "行": 203,
-   "改": "2026-10-09 00:29:10"
-  },
-  {
-   "档": "fce2f3c2-7ffb-44a2-90cf-db07cd739ea9.jsonl",
-   "字节": 862976,
-   "行": 268,
-   "改": "2026-10-09 00:29:36"
-  },
-  {
    "档": "d90eb6f5-5972-4e66-8f69-21fd7942393a.jsonl",
    "字节": 210436,
    "行": 63,
@@ -88,75 +76,59 @@
   },
   {
    "档": "9ef880c6-4fc1-47ad-9a64-38e2b5a6310b.jsonl",
-   "字节": 1026045,
-   "行": 255,
-   "改": "2026-10-09 01:04:58"
+   "字节": 1064269,
+   "行": 264,
+   "改": "2026-10-09 01:06:00"
+  },
+  {
+   "档": "13db4330-86ca-451b-bfa9-e2fd486c8b78.jsonl",
+   "字节": 229486,
+   "行": 42,
+   "改": "2026-10-09 01:08:07"
+  },
+  {
+   "档": "fce2f3c2-7ffb-44a2-90cf-db07cd739ea9.jsonl",
+   "字节": 871053,
+   "行": 276,
+   "改": "2026-10-09 01:08:44"
+  },
+  {
+   "档": "8623e339-b71a-4423-9118-b91495e5d7b3.jsonl",
+   "字节": 221274,
+   "行": 50,
+   "改": "2026-10-09 01:11:22"
+  },
+  {
+   "档": "560c4752-8ba9-4325-b7a5-c292d32e5a36.jsonl",
+   "字节": 497404,
+   "行": 208,
+   "改": "2026-10-09 01:11:44"
   }
  ],
  "近段摘要": [
   {
    "角色": "小奈",
-   "文": "Starting the cold start — restarting the live-supervisor so it launches 稳·正通 live (position untouched):"
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "wen is live and the ETH position is being left alone (\"不擅动\"). Let me confirm whether the 单仓强锁 blocks new opens while a real position is held:"
-  },
-  {
-   "角色": "小奈",
-   "文": "单仓锁 confirms it: while the real ETH position exists, 稳·正通's engine will **拒开新币** — so it's live but dormant (won't trade until ETH is gone), exactly matching \"不动持仓\". Now restarting 守护总管 to activate the page-refresh hook:"
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "wen is live & dormant (safe). Now verifying: acceptance gate + account integrity + page refresh."
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "[[reply_to_current]]办好了，但有一条**要紧告警**，先看这个：\n\n⚠️ **稳·正通的 ETH 距强平只剩 0.25%**（00:53 实测）：持仓 ETH 50 张、开仓 2442.58、标记价 **2419.56**、强平价 **2413.55**、浮亏 −11.51、可用 **0**、权益 19.05。只要 ETH 再跌约 6 美元就被强平，账户基本清零。而且该仓**没有挂止损（裸奔）**。要处理就一句话——按你之前的「不动持仓」，我**没动**。\n\n下面是你要的三件事（火印 ED-20261009-664）：\n\n**① 稳·正通子域已直接显示真身（实盘）**\n新建"
+   "文": "🔔 **主动来报 · 10-08 21:32（含每日日报）**\n\n🔴 **真钱在岗数异常**：真钱户 5 支（应6：lbh/dss/zxy/zls/xwu/yhb）\n→ **如实补正**：此为 21:27–21:29 的一次瞬断（`_实盘守护.sh` 自身 21:28:45 重启连累 lbh/xwu/yhb 掉了约 2 分钟），守护已自动拉回；**此刻 6/6 全在岗**（xwu/zls/lbh/dss/zxy/yhb，whp 亦在），非持续故障。\n\n🔴 **择向监督（白虎/开明）**：精准度（达峰≥1%）**21.3%** · 均 +0.094%/笔 · 胜 52.9% · **最大连亏 4"
   },
   {
    "角色": "老板",
-   "文": "System (untrusted): [2026-10-09 00:50:23 GMT+8] Exec completed (brisk-ke, code 0) :: =$190 (权益$19.05×10x) 🛡 [wen]日亏熔断线(ED-321·按权益): $0.76 = 权益$19.05 × 4% 🛡 [wen]调仓量程自检: 满分顺势→$38 / 弱单→$38 | ✅通过 🛡 [wen]错单轻仓闸(新令): 方向不清/逆势 ⇒ 量程上限 0.50×BASE_MAX(治'亏单更重仓') ✅ [wen]真单钩子…\nSystem (untrusted): [2026-10-09 00:51"
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
-   "文": "明白。先按铁律跑网关第一性原理，再顺藤摸瓜查「烛龙大脑」实况。"
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "🫀 **生命线告警**（2026-10-08 21:58 立旗）\n\n**旗因：引擎缺员 —— lbh、xwu、yhb（3/6）**\n- 同时刻快照：网关双实例、堆上限 1536、近 30 分断线 2 次、电量 **13%（充电中·plug=2）**\n- **现已自动恢复**：`_实盘守护.sh` 21:59:28 拉回 yhb，此刻 **6/6 全在岗**（+whp）\n\n**⚠️ 反复性**：今日已成模式 —— 21:27、21:58 两次「实盘守护自崩→重拉⇒ lbh/xwu/yhb 瞬断约 2 分钟」。**疑与网关拉锯同源（资源压力：自启以 1536MB 反复拉起网关、看护去重互杀，殃及守"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -176,23 +148,15 @@
   },
   {
    "角色": "小奈",
-   "文": "CPU 采样脚本有 bug（>100% 不可信）。重写一个可靠的采样器再测："
+   "文": ""
   },
   {
    "角色": "小奈",
-   "文": "实测出来了：**10 个引擎 + 大脑 + 网关总 CPU 需求≈987%，而本机只有 800%（8 核）→ CPU 供不应求**，这就是卡顿主因。再核实几项："
+   "文": "🫀 **生命线旗再现**（22:14）——**同一网关根因，未治本且反复**\n\n- 旗因：**网关近 30 分钟断线 3 次**；快照见**实例数峰值 5**、堆上限 **1536**；22:03 网关守望记「探活 **0/3**」（连本机都不通）\n- 近 1 小时三度立旗：20:47 → 21:58（引擎缺员 lbh/xwu/yhb）→ 22:14，**显系同一「网关拉锯」未解**\n- 引擎已复原 **6/6**；生命线看护/扩币相位常转 又掉线，**已再拉回在岗**（pid 32257/32258）\n- 电量 **12%（充电中·plug=2）**\n\n**⏳ 建议尽快定夺**（不擅动）：网"
   },
   {
-   "角色": "小奈",
-   "文": "/proc/stat 被安卓禁用（算不了整机利用率）。改用 30 秒长窗口采样，看是真持续占用还是突发："
-  },
-  {
-   "角色": "小奈",
-   "文": "采样器数字偏高（>800% 不可能），与 top 的「800%idle」矛盾——需交叉验证。改用 top 的两轮均值 + ps 交叉核对："
-  },
-  {
-   "角色": "小奈",
-   "文": "我的采样器数字与 top 打架（都不可信）。查根因：怀疑安卓对每个线程返回了整进程时间。做个探针验证："
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -200,35 +164,19 @@
   },
   {
    "角色": "小奈",
-   "文": ""
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
-   "文": "探针证实：网关此刻仅 ~0.4% CPU（几乎空闲）——之前的采样器有 bug。做一次**固定进程、60 秒窗口**的可靠测量："
+   "文": "HEARTBEAT_OK"
   },
   {
-   "角色": "小奈",
-   "文": "采样仍 >800%，说明计时单位/核数假设有误。核实 HZ 与核数："
-  },
-  {
-   "角色": "小奈",
-   "文": "HZ=100、8 核确认。用「已知忙等进程」标定采样口径："
-  },
-  {
-   "角色": "小奈",
-   "文": "忙等标定=99%（口径正确）。做一次**全局合计**测量（存活进程 CPU 秒 vs 8核上限），这是决定性数据："
-  },
-  {
-   "角色": "小奈",
-   "文": "决定性数据：**整机 CPU 利用率仅 4.1%**（20 秒窗口）——CPU 根本不是瓶颈，之前的百分比是采样器串号伪值。转向查内存/交换与网关自身："
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "CPU/内存都不是瓶颈（整机 4%、可用 5.8GB）。查网关自身：健康线（内存<600MB）趋势 + 定时作业负荷："
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -244,11 +192,75 @@
   },
   {
    "角色": "小奈",
+   "文": "🔔 **主动来报 · 10-08 23:07**\n\n🔴 **真钱在岗数异常：真钱户 2 支（应6：lbh/dss/zxy/zls/xwu/yhb）**\n\n**如实补正**：此刻已复原 **6/6**。但**近 1 小时引擎崩-拉明显加频**——`_实盘守护.sh` 22:52→23:09 连拉 dss/zxy/zls/lbh/xwu/yhb（且 23:07:56 守护自身亦重启一次），23:07 那一刻只剩 2 支在岗。\n\n**判因**：与网关「拉锯/堆上限 1536/多实例」同源的**整机资源抖动**——今日引擎、实盘守护、生命线看护、扩币相位常转**均反复自崩后被拉回**。非单一户故障。\n"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
    "文": ""
   },
   {
    "角色": "小奈",
-   "文": "发现关键线索！`_网关巡航.alert` 存在，且巡航每 2 分钟都在「交看护执法重启」。立即细看："
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "System (untrusted): [2026-10-08 23:45:25 GMT+8] Exec completed (tide-ced, code 0) :: rot=31797 bat:\n\nRead HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, u"
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "🫀 **生命线旗 + 主动来报**（2026-10-09 00:26）\n\n**🔔 主动来报 · 00:07**\n🟡 **启动对账·池外真仓 `wn`**：2026-10-08 23:48:33 交易所真仓 **[ETH_USDT, 400 张]** 不在池内·账本不认 → **待人工处置**\n\n**详情（`wn` 户）**\n- 依老板今令（火印 **ED-20261009-661**「撤退WN稳正通·稳-正通直接接入」）**稳(wen) 已转实盘**、挂实盘钥；\n- 该户**权益 $203.82**（量程 $815/$2038·日亏熔断 $8.15）；\n- ⚠️ **交易所真仓 ETH_USD"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": ""
   },
   {
    "角色": "小奈",
@@ -297,6 +309,6 @@
    "MB": 20.62
   }
  ],
- "摘要档": "9ef880c6-4fc1-47ad-9a64-38e2b5a6310b.jsonl",
+ "摘要档": "560c4752-8ba9-4325-b7a5-c292d32e5a36.jsonl",
  "注": "本分区=索引+近段摘要；聊天全文存于本机 data_v2/archive/聊天记录_* 与加密密包(封存分区)"
 }
