@@ -1,9 +1,17 @@
 {
- "generated": "15:13",
- "built": "2026-10-09 15:13:56",
+ "generated": "15:20",
+ "built": "2026-10-09 15:20:04",
  "count": 99,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "--help on your CLI is all you need for LLM context until you don't",
+   "url": "https://ghuntley.com/tier/",
+   "src": "Hacker News",
+   "t": "15:13",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Ask HN: Are you a subscribed LLM or a locally deployed open-source model?",
@@ -46,26 +54,18 @@
   },
   {
    "type": "live",
+   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "url": "https://github.com/NousResearch/hermes-agent",
+   "src": "GitHub 新星",
+   "t": "07:17",
+   "fresh": false
+  },
+  {
+   "type": "live",
    "title": "anomalyco/opencode：开源编码智能体",
    "url": "https://github.com/anomalyco/opencode",
    "src": "GitHub 新星",
    "t": "07:12",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "url": "https://github.com/NousResearch/hermes-agent",
-   "src": "GitHub 新星",
-   "t": "07:10",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "url": "https://github.com/ggml-org/llama.cpp",
-   "src": "GitHub 新星",
-   "t": "07:02",
    "fresh": false
   },
   {
