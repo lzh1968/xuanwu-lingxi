@@ -1,5 +1,5 @@
 {
- "built": "2026-10-09 18:22:05",
+ "built": "2026-10-09 18:36:28",
  "count": 139,
  "items": [
   {
@@ -795,22 +795,6 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "Docsy for AI Agents, Oh, and People Too",
-   "u": "https://devops.com/docsy-for-ai-agents-oh-and-people-too/",
-   "s": "外网新声·Hacker News",
-   "d": "18:17",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Stop Looking for the Best Way to Retrieve Context for AI Agents. Build a Router",
-   "u": "https://manveerc.substack.com/p/context-retrieval-ai-agent",
-   "s": "外网新声·Hacker News",
-   "d": "18:16",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Show HN: Long term Memory and 50M token window for LLM",
    "u": "https://huggingface.co/papers/2610.10845",
    "s": "外网新声·Hacker News",
@@ -819,42 +803,10 @@
    "x": ""
   },
   {
-   "t": "Show HN: VendIQ – AI agent for vendor follow-ups and ops automation",
-   "u": "https://vendiq.rishailabs.com/",
-   "s": "外网新声·Hacker News",
-   "d": "17:33",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "TokenRouter: A serving engine for token-level LLM routing",
    "u": "https://fuvty.github.io/thinking_yard_project_page/projects/tokenrouter/",
    "s": "外网新声·Hacker News",
    "d": "17:10",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Kubernetes for AI agents: when code is cheap, proof matters",
-   "u": "https://kubedex.com/kubernetes-ai-agentic-development/",
-   "s": "外网新声·Hacker News",
-   "d": "16:34",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Welcome to Gemini at Work 2026: Introducing the Gemini Agent",
-   "u": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
-   "s": "外网新声·Hacker News",
-   "d": "16:22",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Wikipedia says rogue OpenAI agents edited private wikis and hammered servers",
-   "u": "https://www.techspot.com/news/114131-wikimedia-foundation-openai-rogue-ai-agents-caught-making.html",
-   "s": "外网新声·Hacker News",
-   "d": "15:59",
    "k": "",
    "x": ""
   },
@@ -870,7 +822,15 @@
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "10:20",
+   "d": "10:34",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
+   "s": "外网新声·GitHub 新星",
+   "d": "10:31",
    "k": "",
    "x": ""
   },
@@ -878,7 +838,15 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "10:07",
+   "d": "10:29",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
+   "s": "外网新声·GitHub 新星",
+   "d": "10:25",
    "k": "",
    "x": ""
   },
@@ -891,26 +859,10 @@
    "x": ""
   },
   {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
-   "s": "外网新声·GitHub 新星",
-   "d": "09:30",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
    "u": "https://github.com/mattpocock/skills",
    "s": "外网新声·GitHub 新星",
    "d": "09:22",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "u": "https://github.com/earendil-works/pi",
-   "s": "外网新声·GitHub 新星",
-   "d": "07:40",
    "k": "",
    "x": ""
   },
@@ -1111,6 +1063,54 @@
    "u": "https://arxiv.org/abs/2610.12375v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:32",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "HANS: A Handwritten Answer Sheet Dataset for Noisy Hybrid Document Parsing",
+   "u": "https://arxiv.org/abs/2610.12363v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:27",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Cited but Not Consulted: A Counterfactual Audit of Legal Chain-of-Thought Faithfulness",
+   "u": "https://arxiv.org/abs/2610.12361v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:26",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Accurate but Not Humble: Evaluating Epistemic Humility in LLM Agents under Knowledge Conflict",
+   "u": "https://arxiv.org/abs/2610.12360v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:25",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Distilling Routed 3D Privilege for Spatial Reasoning in Vision-Language Models",
+   "u": "https://arxiv.org/abs/2610.12355v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:22",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "将Codex配置为您自己的多代理开发团队",
+   "u": "https://unnecessarythoughts.substack.com/p/configure-codex-into-your-own-multi",
+   "s": "外网新声·Hacker News",
+   "d": "15:19",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "u": "https://github.com/Dao-AILab/flash-attention",
+   "s": "外网新声·GitHub 新星",
+   "d": "08:22",
    "k": "",
    "x": ""
   }
