@@ -1,7 +1,23 @@
 {
- "built": "2026-10-09 20:25:34",
- "count": 139,
+ "built": "2026-10-10 00:39:58",
+ "count": 141,
  "items": [
+  {
+   "t": "今日辑要 · 2026-10-10（前沿 12 条）",
+   "u": "a/digest-20261010.html",
+   "s": "Agent 与智能体",
+   "d": "2026-10-10",
+   "k": "辑要,每日,前沿",
+   "x": "今日从公开源汇得 12 条与人工智能、智能体系统、链上机制与数字经济相关的条目，按方向归拢如下。所有条目均保留来源与原文链接， 只作线索与机制观察 ，不代表任何结论。 Agent 与智能体 Show HN: This hotel is hella AI ready. Book directly from AI without MCPs <span class=\"src\" Hacker News · 00:27</span [查看原文](https://cadent.studio/) Agent Swarm: OSS multiplayer AI for your company <span class=\"src\" Hacker News · 23:11</span [查看原文](https://github.com/desplega ai/agent swarm/releases) Doe"
+  },
+  {
+   "t": "蚁群没有总指挥",
+   "u": "a/note-20261010-6.html",
+   "s": "灵犀手记",
+   "d": "2026-10-10",
+   "k": "手记,方法论",
+   "x": "蚁群里没有\"总工程师\"。每一只蚂蚁只做极简单的事：碰到什么，留一点信息素，跟着浓的那条走。可整群却能修路、筑巢、搬运比自身重百倍的东西。 这叫 涌现 ：整体表现出的智慧，不在任何一个个体身上，而在它们之间的 规则与反馈 里。关键有两条：一是规则要足够简单（单只能执行），二是反馈要足够快（走对了路，信息素立刻变浓）。 一个系统的能力上限，往往不取决于最强的那个成员，而取决于 成员之间传递信号的方式 。把信号通道修好，比把单点做强，收益大得多。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
   {
    "t": "创造神",
    "u": "a/creator-01.html",
@@ -795,58 +811,106 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "Let your AI agents paint big arrows, boxes and text on your screen",
-   "u": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+   "t": "Show HN：这家酒店已做好人工智能准备。无需MCP即可直接从人工智能预订",
+   "u": "https://cadent.studio/",
    "s": "外网新声·Hacker News",
-   "d": "19:03",
+   "d": "00:27",
    "k": "",
    "x": ""
   },
   {
-   "t": "Docsy for AI Agents, Oh, and People Too",
-   "u": "https://devops.com/docsy-for-ai-agents-oh-and-people-too/",
+   "t": "开放代号：对LLM进行基准测试的新方法",
+   "u": "https://github.com/attilatorda/open-codenames",
    "s": "外网新声·Hacker News",
-   "d": "18:17",
+   "d": "00:27",
    "k": "",
    "x": ""
   },
   {
-   "t": "Stop Looking for the Best Way to Retrieve Context for AI Agents. Build a Router",
-   "u": "https://manveerc.substack.com/p/context-retrieval-ai-agent",
+   "t": "Agent Swarm：适用于您公司的OSS多人AI",
+   "u": "https://github.com/desplega-ai/agent-swarm/releases",
    "s": "外网新声·Hacker News",
-   "d": "18:16",
+   "d": "23:11",
    "k": "",
    "x": ""
   },
   {
-   "t": "Show HN: VendIQ – AI agent for vendor follow-ups and ops automation",
-   "u": "https://vendiq.rishailabs.com/",
+   "t": "Show HN：液体推理–自动路由到竞争激烈的LLM市场",
+   "u": "https://liquidinference.ai/",
    "s": "外网新声·Hacker News",
-   "d": "17:33",
+   "d": "22:52",
    "k": "",
    "x": ""
   },
   {
-   "t": "Kubernetes for AI agents: when code is cheap, proof matters",
-   "u": "https://kubedex.com/kubernetes-ai-agentic-development/",
+   "t": "代理错位是否预示着存在风险？",
+   "u": "https://paris.pias.science/article/three-or-maybe-four-ways-of-thinking-ai-philosophically/",
    "s": "外网新声·Hacker News",
-   "d": "16:34",
+   "d": "22:43",
    "k": "",
    "x": ""
   },
   {
-   "t": "Welcome to Gemini at Work 2026: Introducing the Gemini Agent",
-   "u": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+   "t": "在MySQL的4k仓库中，LSM存储引擎在TPC-C上击败InnoDB",
+   "u": "https://tidesdb.com/articles/large-tpc-c-analysis-with-mysql-v26-7-0-on-innodb-and-tidesdb/",
    "s": "外网新声·Hacker News",
-   "d": "16:22",
+   "d": "22:02",
    "k": "",
    "x": ""
   },
   {
-   "t": "Wikipedia says rogue OpenAI agents edited private wikis and hammered servers",
-   "u": "https://www.techspot.com/news/114131-wikimedia-foundation-openai-rogue-ai-agents-caught-making.html",
+   "t": "Safeguard agents in plain English with decision models",
+   "u": "https://berget.ai/en/blog/guardrails-md-launch",
    "s": "外网新声·Hacker News",
-   "d": "15:59",
+   "d": "21:58",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN: CircleIt – Circle something on a web page, your coding agent fixes it",
+   "u": "https://circleit.ai",
+   "s": "外网新声·Hacker News",
+   "d": "21:50",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "AI coding agents have a Mythical Man-Month problem",
+   "u": "https://www.youtube.com/watch?v=92dMxu3wcGI",
+   "s": "外网新声·Hacker News",
+   "d": "21:46",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "AI Agents at Retail Brokerages",
+   "u": "https://www.condorcapital.com/digital-advice-report/reports/ai-agents-at-retail-brokerages-2q-2026/",
+   "s": "外网新声·Hacker News",
+   "d": "21:27",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:30",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:23",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:15",
    "k": "",
    "x": ""
   },
@@ -854,7 +918,7 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "11:06",
+   "d": "15:34",
    "k": "",
    "x": ""
   },
@@ -863,30 +927,6 @@
    "u": "https://github.com/mattpocock/skills",
    "s": "外网新声·GitHub 新星",
    "d": "10:57",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
-   "s": "外网新声·GitHub 新星",
-   "d": "10:56",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "10:34",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "u": "https://github.com/earendil-works/pi",
-   "s": "外网新声·GitHub 新星",
-   "d": "10:25",
    "k": "",
    "x": ""
   },
@@ -915,6 +955,22 @@
    "x": ""
   },
   {
+   "t": "CSF：运动发生器的上下文安全过滤",
+   "u": "https://arxiv.org/abs/2610.12467v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
+   "u": "https://arxiv.org/abs/2610.12465v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
    "u": "https://arxiv.org/abs/2610.12463v1",
    "s": "外网新声·arXiv cs.AI",
@@ -931,9 +987,25 @@
    "x": ""
   },
   {
+   "t": "One Block, Multiple Depths: Recurrent Vision Transformers with Depth-Programmed Experts",
+   "u": "https://arxiv.org/abs/2610.12448v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:58",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception",
    "u": "https://arxiv.org/abs/2610.12445v1",
    "s": "外网新声·arXiv cs.AI",
+   "d": "17:58",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Rounding in Preconditioner Space: Redesigning 4-bit AdamW Optimizer-State Quantization",
+   "u": "https://arxiv.org/abs/2610.12444v1",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:58",
    "k": "",
    "x": ""
@@ -947,10 +1019,34 @@
    "x": ""
   },
   {
+   "t": "FAITH: Feasibility-Aware Safety-Filtered RL for High-Dimensional Systems",
+   "u": "https://arxiv.org/abs/2610.12432v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:57",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "RoboRSI: Stable, efficient, and reusable robot self-evolution in complex real-world environments",
    "u": "https://arxiv.org/abs/2610.12424v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "A Unified Bellman Operator for Safety-Critical Reinforcement Learning",
+   "u": "https://arxiv.org/abs/2610.12420v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:53",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "WOVEN: Weaving Visual World Modeling into Multimodal LLMs",
+   "u": "https://arxiv.org/abs/2610.12417v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:52",
    "k": "",
    "x": ""
   },
@@ -987,6 +1083,14 @@
    "x": ""
   },
   {
+   "t": "Learning Kilometer-Scale Weather Prediction with Global-Regional Alignment",
+   "u": "https://arxiv.org/abs/2610.12401v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:43",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "HRIL: Learning Multimodal Synergy via Higher-Order Tensor Modeling",
    "u": "https://arxiv.org/abs/2610.12393v1",
    "s": "外网新声·arXiv cs.AI",
@@ -1003,6 +1107,14 @@
    "x": ""
   },
   {
+   "t": "Long Text to Predictive Features: LLM-Guided Blockwise Feature Engineering via Executable Program Search",
+   "u": "https://arxiv.org/abs/2610.12390v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:39",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "ARC: A Reasoning Recipe for Robot Foundation Models",
    "u": "https://arxiv.org/abs/2610.12386v1",
    "s": "外网新声·arXiv cs.AI",
@@ -1011,106 +1123,10 @@
    "x": ""
   },
   {
-   "t": "OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories via Streaming Structure-Aware Optimal Transport",
-   "u": "https://arxiv.org/abs/2610.12375v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:32",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "HANS: A Handwritten Answer Sheet Dataset for Noisy Hybrid Document Parsing",
-   "u": "https://arxiv.org/abs/2610.12363v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:27",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Cited but Not Consulted: A Counterfactual Audit of Legal Chain-of-Thought Faithfulness",
-   "u": "https://arxiv.org/abs/2610.12361v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:26",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Accurate but Not Humble: Evaluating Epistemic Humility in LLM Agents under Knowledge Conflict",
-   "u": "https://arxiv.org/abs/2610.12360v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:25",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Distilling Routed 3D Privilege for Spatial Reasoning in Vision-Language Models",
-   "u": "https://arxiv.org/abs/2610.12355v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:22",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "将Codex配置为您自己的多代理开发团队",
-   "u": "https://unnecessarythoughts.substack.com/p/configure-codex-into-your-own-multi",
-   "s": "外网新声·Hacker News",
-   "d": "15:19",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "机器人领域的人工智能突破不会很快改变你的生活",
-   "u": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "09:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "构建一条更安全的自主工业人工智能之路",
-   "u": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "08:17",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
-   "u": "https://github.com/Dao-AILab/flash-attention",
-   "s": "外网新声·GitHub 新星",
-   "d": "08:22",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "丽笙酒店集团将酒店探索引入ChatGPT",
-   "u": "https://openai.com/index/radisson",
-   "s": "外网新声·OpenAI 官方",
-   "d": "07:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：Tinyhat，多代理Muse的每位专家内存（开源）",
-   "u": "https://github.com/tinyhat-ai/muse-office",
-   "s": "外网新声·Hacker News",
-   "d": "22:11",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "使用Ironclad推进计算机使用",
-   "u": "https://openai.com/index/advancing-computer-use-with-ironclad",
-   "s": "外网新声·OpenAI 官方",
-   "d": "10:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：Kiro的多代理包",
-   "u": "https://github.com/amergrgic/kodama",
-   "s": "外网新声·Hacker News",
-   "d": "02:18",
+   "t": "Marformer: A Transformer for Predicting Missing Data Distributions",
+   "u": "https://arxiv.org/abs/2610.12379v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:33",
    "k": "",
    "x": ""
   }

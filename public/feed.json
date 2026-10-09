@@ -1,71 +1,87 @@
 {
- "generated": "20:25",
- "built": "2026-10-09 20:25:34",
- "count": 99,
+ "generated": "00:39",
+ "built": "2026-10-10 00:39:58",
+ "count": 101,
  "live_count": 60,
  "items": [
   {
    "type": "live",
-   "title": "Let your AI agents paint big arrows, boxes and text on your screen",
-   "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+   "title": "Show HN：这家酒店已做好人工智能准备。无需MCP即可直接从人工智能预订",
+   "url": "https://cadent.studio/",
    "src": "Hacker News",
-   "t": "19:03",
+   "t": "00:27",
    "fresh": true
   },
   {
    "type": "live",
-   "title": "Docsy for AI Agents, Oh, and People Too",
-   "url": "https://devops.com/docsy-for-ai-agents-oh-and-people-too/",
+   "title": "开放代号：对LLM进行基准测试的新方法",
+   "url": "https://github.com/attilatorda/open-codenames",
    "src": "Hacker News",
-   "t": "18:17",
+   "t": "00:27",
    "fresh": true
   },
   {
    "type": "live",
-   "title": "Stop Looking for the Best Way to Retrieve Context for AI Agents. Build a Router",
-   "url": "https://manveerc.substack.com/p/context-retrieval-ai-agent",
+   "title": "Agent Swarm：适用于您公司的OSS多人AI",
+   "url": "https://github.com/desplega-ai/agent-swarm/releases",
    "src": "Hacker News",
-   "t": "18:16",
+   "t": "23:11",
    "fresh": true
   },
   {
    "type": "live",
-   "title": "Show HN: VendIQ – AI agent for vendor follow-ups and ops automation",
-   "url": "https://vendiq.rishailabs.com/",
+   "title": "Show HN：液体推理–自动路由到竞争激烈的LLM市场",
+   "url": "https://liquidinference.ai/",
    "src": "Hacker News",
-   "t": "17:33",
+   "t": "22:52",
    "fresh": false
   },
   {
    "type": "live",
-   "title": "Kubernetes for AI agents: when code is cheap, proof matters",
-   "url": "https://kubedex.com/kubernetes-ai-agentic-development/",
+   "title": "代理错位是否预示着存在风险？",
+   "url": "https://paris.pias.science/article/three-or-maybe-four-ways-of-thinking-ai-philosophically/",
    "src": "Hacker News",
-   "t": "16:34",
+   "t": "22:43",
    "fresh": false
   },
   {
    "type": "live",
-   "title": "Welcome to Gemini at Work 2026: Introducing the Gemini Agent",
-   "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+   "title": "在MySQL的4k仓库中，LSM存储引擎在TPC-C上击败InnoDB",
+   "url": "https://tidesdb.com/articles/large-tpc-c-analysis-with-mysql-v26-7-0-on-innodb-and-tidesdb/",
    "src": "Hacker News",
-   "t": "16:22",
+   "t": "22:02",
    "fresh": false
   },
   {
    "type": "live",
-   "title": "Wikipedia says rogue OpenAI agents edited private wikis and hammered servers",
-   "url": "https://www.techspot.com/news/114131-wikimedia-foundation-openai-rogue-ai-agents-caught-making.html",
+   "title": "Safeguard agents in plain English with decision models",
+   "url": "https://berget.ai/en/blog/guardrails-md-launch",
    "src": "Hacker News",
-   "t": "15:59",
+   "t": "21:58",
    "fresh": false
   },
   {
    "type": "live",
-   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "url": "https://github.com/NousResearch/hermes-agent",
-   "src": "GitHub 新星",
-   "t": "11:06",
+   "title": "Show HN: CircleIt – Circle something on a web page, your coding agent fixes it",
+   "url": "https://circleit.ai",
+   "src": "Hacker News",
+   "t": "21:50",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "今日辑要 · 2026-10-10（前沿 12 条）",
+   "url": "a/digest-20261010.html",
+   "src": "Agent 与智能体",
+   "t": "2026-10-10",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "蚁群没有总指挥",
+   "url": "a/note-20261010-6.html",
+   "src": "灵犀手记",
+   "t": "2026-10-10",
    "fresh": false
   },
   {
@@ -97,22 +113,6 @@
    "title": "今日辑要 · 2026-10-09（前沿 12 条）",
    "url": "a/digest-20261009.html",
    "src": "Agent 与智能体",
-   "t": "2026-10-09",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "自治系统的\"慢变量\"",
-   "url": "a/note-20261009-1.html",
-   "src": "灵犀手记",
-   "t": "2026-10-09",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "珊瑚：动物、植物，还是别的？",
-   "url": "a/note-20261009-13.html",
-   "src": "灵犀手记",
    "t": "2026-10-09",
    "fresh": false
   }
