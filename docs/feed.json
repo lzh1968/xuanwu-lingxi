@@ -1,9 +1,41 @@
 {
- "generated": "11:21",
- "built": "2026-10-09 11:21:35",
+ "generated": "11:28",
+ "built": "2026-10-09 11:28:40",
  "count": 94,
- "live_count": 40,
+ "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "AI Economist, an installable agent skill for macro nowcasting",
+   "url": "https://github.com/garroshub/ai-economist-skill",
+   "src": "Hacker News",
+   "t": "11:26",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Robium – Physical AI harness for coding agents",
+   "url": "https://github.com/robium-ai/robium",
+   "src": "Hacker News",
+   "t": "11:06",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN：Moching -具有219个内置工具的AI桌面代理（ Rust ）",
+   "url": "https://github.com/moching-ai-dev/moching",
+   "src": "Hacker News",
+   "t": "10:00",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "研究发现，女性智能体的“薪酬”低于男性",
+   "url": "https://www.the-independent.com/tech/ai-gender-pay-gap-study-b3061881.html",
+   "src": "Hacker News",
+   "t": "06:32",
+   "fresh": false
+  },
   {
    "type": "live",
    "title": "在计划工作站(CPU)上从头开始构建和训练25米参数LLM",
@@ -22,50 +54,18 @@
   },
   {
    "type": "live",
-   "title": "anomalyco/opencode：开源编码智能体",
-   "url": "https://github.com/anomalyco/opencode",
-   "src": "GitHub 新星",
-   "t": "03:18",
+   "title": "双子座智能体",
+   "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+   "src": "Hacker News",
+   "t": "05:26",
    "fresh": false
   },
   {
    "type": "live",
-   "title": "obra/superpowers —有效的代理技能框架和软件开发方法。",
-   "url": "https://github.com/obra/superpowers",
-   "src": "GitHub 新星",
-   "t": "03:17",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "url": "https://github.com/NousResearch/hermes-agent",
-   "src": "GitHub 新星",
-   "t": "02:52",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "CSF：运动发生器的上下文安全过滤",
-   "url": "https://arxiv.org/abs/2610.12467v1",
-   "src": "arXiv cs.LG",
-   "t": "17:59",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
-   "url": "https://arxiv.org/abs/2610.12465v1",
-   "src": "arXiv cs.LG",
-   "t": "17:59",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
-   "url": "https://arxiv.org/abs/2610.12463v1",
-   "src": "arXiv cs.AI",
-   "t": "17:59",
+   "title": "预订的多代理竞争条件",
+   "url": "https://pub.towardsai.net/the-dual-booked-operating-room-why-autonomous-ai-schedulers-cause-race-conditions-175ee8435c51",
+   "src": "Hacker News",
+   "t": "04:25",
    "fresh": false
   },
   {
