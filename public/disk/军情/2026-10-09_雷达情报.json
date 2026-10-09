@@ -2,26 +2,20 @@
  "日期": "2026-10-09",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-09 18:57:21",
-  "chosen": "UNI short",
+  "updated": "2026-10-09 19:05:36",
+  "chosen": "LTC short",
   "nodes": [
    {
-    "coin": "SOL",
+    "coin": "XRP",
     "side": "short",
     "align": 2,
-    "embryo": 3.3
+    "embryo": 3.9
    },
    {
-    "coin": "DOGE",
-    "side": "short",
-    "align": 3,
-    "embryo": 1.3
-   },
-   {
-    "coin": "UNI",
+    "coin": "LTC",
     "side": "short",
     "align": 2,
-    "embryo": 3.3
+    "embryo": 3.9
    },
    {
     "coin": "BTC",
@@ -30,19 +24,19 @@
     "embryo": 0.0
    },
    {
-    "coin": "XRP",
+    "coin": "SOL",
+    "side": "",
+    "align": 0,
+    "embryo": 0.0
+   },
+   {
+    "coin": "DOGE",
     "side": "",
     "align": 0,
     "embryo": 0.0
    },
    {
     "coin": "ADA",
-    "side": "",
-    "align": 0,
-    "embryo": 0.0
-   },
-   {
-    "coin": "LTC",
     "side": "",
     "align": 0,
     "embryo": 0.0
@@ -67,6 +61,12 @@
    },
    {
     "coin": "AVAX",
+    "side": "",
+    "align": 0,
+    "embryo": 0.0
+   },
+   {
+    "coin": "UNI",
     "side": "",
     "align": 0,
     "embryo": 0.0
