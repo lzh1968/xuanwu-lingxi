@@ -1,12 +1,32 @@
 {
  "日期": "2026-10-09",
- "落盘": "2026-10-09 18:49:51",
+ "落盘": "2026-10-09 18:58:18",
  "条数": 14,
- "live": 60,
+ "live": 48,
  "条目": [
+  {
+   "title": "Show HN: Spectra – A drop-in optimizer that cuts LLM training VRAM by 50%",
+   "url": "https://github.com/SpectraSI/SpectraAdamw",
+   "type": "live"
+  },
+  {
+   "title": "Docsy for AI Agents, Oh, and People Too",
+   "url": "https://devops.com/docsy-for-ai-agents-oh-and-people-too/",
+   "type": "live"
+  },
+  {
+   "title": "Stop Looking for the Best Way to Retrieve Context for AI Agents. Build a Router",
+   "url": "https://manveerc.substack.com/p/context-retrieval-ai-agent",
+   "type": "live"
+  },
   {
    "title": "Show HN: Long term Memory and 50M token window for LLM",
    "url": "https://huggingface.co/papers/2610.10845",
+   "type": "live"
+  },
+  {
+   "title": "Show HN: VendIQ – AI agent for vendor follow-ups and ops automation",
+   "url": "https://vendiq.rishailabs.com/",
    "type": "live"
   },
   {
@@ -15,33 +35,13 @@
    "type": "live"
   },
   {
-   "title": "--help on your CLI is all you need for LLM context until you don't",
-   "url": "https://ghuntley.com/tier/",
+   "title": "Kubernetes for AI agents: when code is cheap, proof matters",
+   "url": "https://kubedex.com/kubernetes-ai-agentic-development/",
    "type": "live"
   },
   {
-   "title": "anomalyco/opencode：开源编码智能体",
-   "url": "https://github.com/anomalyco/opencode",
-   "type": "live"
-  },
-  {
-   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "url": "https://github.com/ggml-org/llama.cpp",
-   "type": "live"
-  },
-  {
-   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "url": "https://github.com/NousResearch/hermes-agent",
-   "type": "live"
-  },
-  {
-   "title": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "url": "https://github.com/earendil-works/pi",
-   "type": "live"
-  },
-  {
-   "title": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
-   "url": "https://github.com/IBAX-io/go-ibax",
+   "title": "Welcome to Gemini at Work 2026: Introducing the Gemini Agent",
+   "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
    "type": "live"
   },
   {
