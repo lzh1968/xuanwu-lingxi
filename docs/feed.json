@@ -1,15 +1,31 @@
 {
- "generated": "17:57",
- "built": "2026-10-09 17:57:24",
+ "generated": "18:04",
+ "built": "2026-10-09 18:04:48",
  "count": 99,
- "live_count": 60,
+ "live_count": 45,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN: Long term Memory and 50M token window for LLM",
+   "url": "https://huggingface.co/papers/2610.10845",
+   "src": "Hacker News",
+   "t": "17:35",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Show HN: VendIQ – AI agent for vendor follow-ups and ops automation",
    "url": "https://vendiq.rishailabs.com/",
    "src": "Hacker News",
    "t": "17:33",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "TokenRouter: A serving engine for token-level LLM routing",
+   "url": "https://fuvty.github.io/thinking_yard_project_page/projects/tokenrouter/",
+   "src": "Hacker News",
+   "t": "17:10",
    "fresh": true
   },
   {
@@ -38,34 +54,18 @@
   },
   {
    "type": "live",
+   "title": "--help on your CLI is all you need for LLM context until you don't",
+   "url": "https://ghuntley.com/tier/",
+   "src": "Hacker News",
+   "t": "15:13",
+   "fresh": false
+  },
+  {
+   "type": "live",
    "title": "Show HN: Wy – a Rust terminal tool for understanding AI-generated code",
    "url": "https://github.com/grandimam/wy",
    "src": "Hacker News",
    "t": "13:21",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "anomalyco/opencode：开源编码智能体",
-   "url": "https://github.com/anomalyco/opencode",
-   "src": "GitHub 新星",
-   "t": "09:55",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "url": "https://github.com/NousResearch/hermes-agent",
-   "src": "GitHub 新星",
-   "t": "09:52",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
-   "url": "https://github.com/IBAX-io/go-ibax",
-   "src": "GitHub 新星",
-   "t": "09:33",
    "fresh": false
   },
   {
