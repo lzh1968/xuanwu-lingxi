@@ -1,9 +1,33 @@
 {
- "generated": "17:32",
- "built": "2026-10-09 17:32:17",
+ "generated": "17:38",
+ "built": "2026-10-09 17:38:55",
  "count": 99,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN: Long term Memory and 50M token window for LLM",
+   "url": "https://huggingface.co/papers/2610.10845",
+   "src": "Hacker News",
+   "t": "17:35",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN: VendIQ – AI agent for vendor follow-ups and ops automation",
+   "url": "https://vendiq.rishailabs.com/",
+   "src": "Hacker News",
+   "t": "17:33",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "TokenRouter: A serving engine for token-level LLM routing",
+   "url": "https://fuvty.github.io/thinking_yard_project_page/projects/tokenrouter/",
+   "src": "Hacker News",
+   "t": "17:10",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Kubernetes for AI agents: when code is cheap, proof matters",
@@ -30,42 +54,18 @@
   },
   {
    "type": "live",
+   "title": "--help on your CLI is all you need for LLM context until you don't",
+   "url": "https://ghuntley.com/tier/",
+   "src": "Hacker News",
+   "t": "15:13",
+   "fresh": false
+  },
+  {
+   "type": "live",
    "title": "Show HN: Wy – a Rust terminal tool for understanding AI-generated code",
    "url": "https://github.com/grandimam/wy",
    "src": "Hacker News",
    "t": "13:21",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "AI Economist, an installable agent skill for macro nowcasting",
-   "url": "https://github.com/garroshub/ai-economist-skill",
-   "src": "Hacker News",
-   "t": "11:26",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "url": "https://github.com/ggml-org/llama.cpp",
-   "src": "GitHub 新星",
-   "t": "09:30",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
-   "url": "https://github.com/IBAX-io/go-ibax",
-   "src": "GitHub 新星",
-   "t": "09:02",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "url": "https://github.com/earendil-works/pi",
-   "src": "GitHub 新星",
-   "t": "07:40",
    "fresh": false
   },
   {
