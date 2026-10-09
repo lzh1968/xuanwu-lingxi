@@ -2,14 +2,14 @@
  "日期": "2026-10-10",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-10 00:39:59",
-  "chosen": "NEAR short",
+  "updated": "2026-10-10 05:44:40",
+  "chosen": "DOT long",
   "nodes": [
    {
-    "coin": "NEAR",
-    "side": "short",
+    "coin": "DOT",
+    "side": "long",
     "align": 3,
-    "embryo": 1.8
+    "embryo": 2.24
    },
    {
     "coin": "BTC",
@@ -54,6 +54,12 @@
     "embryo": 0.0
    },
    {
+    "coin": "NEAR",
+    "side": "",
+    "align": 0,
+    "embryo": 0.0
+   },
+   {
     "coin": "SUI",
     "side": "",
     "align": 0,
@@ -85,12 +91,6 @@
    },
    {
     "coin": "ARB",
-    "side": "",
-    "align": 0,
-    "embryo": 0.0
-   },
-   {
-    "coin": "DOT",
     "side": "",
     "align": 0,
     "embryo": 0.0
