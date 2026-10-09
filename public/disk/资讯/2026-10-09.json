@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-09",
- "落盘": "2026-10-09 09:25:28",
+ "落盘": "2026-10-09 09:33:55",
  "条数": 14,
- "live": 52,
+ "live": 60,
  "条目": [
+  {
+   "title": "研究发现，女性智能体的“薪酬”低于男性",
+   "url": "https://www.the-independent.com/tech/ai-gender-pay-gap-study-b3061881.html",
+   "type": "live"
+  },
   {
    "title": "在计划工作站(CPU)上从头开始构建和训练25米参数LLM",
    "url": "https://www.freecodecamp.org/news/build-and-train-a-25m-parameter-llm-from-scratch-on-your-cpu/",
@@ -12,6 +17,11 @@
   {
    "title": "3JSBench：LLM生成的3D对象的基准",
    "url": "https://twitter.com/generalcontext_/status/2108313483293147292",
+   "type": "live"
+  },
+  {
+   "title": "双子座智能体",
+   "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
    "type": "live"
   },
   {
@@ -25,23 +35,13 @@
    "type": "live"
   },
   {
-   "title": "DeLM：具有共享上下文的去中心化多Agent系统",
-   "url": "https://yuzhenmao.github.io/DeLM/",
+   "title": "预订的多代理竞争条件",
+   "url": "https://pub.towardsai.net/the-dual-booked-operating-room-why-autonomous-ai-schedulers-cause-race-conditions-175ee8435c51",
    "type": "live"
   },
   {
-   "title": "anomalyco/opencode：开源编码智能体",
-   "url": "https://github.com/anomalyco/opencode",
-   "type": "live"
-  },
-  {
-   "title": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
-   "url": "https://github.com/IBAX-io/go-ibax",
-   "type": "live"
-  },
-  {
-   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "url": "https://github.com/NousResearch/hermes-agent",
+   "title": "隐私、全磁盘访问和智能体",
+   "url": "https://eclecticlight.co/2026/10/06/privacy-full-disk-access-and-ai-agents/",
    "type": "live"
   },
   {
