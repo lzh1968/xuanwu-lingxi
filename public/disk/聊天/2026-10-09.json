@@ -1,5 +1,5 @@
 {
- "时间": "2026-10-09 14:00:55",
+ "时间": "2026-10-09 14:13:47",
  "会话档数": 18,
  "会话": [
   {
@@ -99,22 +99,26 @@
    "改": "2026-10-09 10:11:12"
   },
   {
-   "档": "fce2f3c2-7ffb-44a2-90cf-db07cd739ea9.jsonl",
-   "字节": 514758,
-   "行": 218,
-   "改": "2026-10-09 13:41:00"
+   "档": "24c01097-be3c-4765-bf35-b8e74cf9b6a5.jsonl",
+   "字节": 685583,
+   "行": 208,
+   "改": "2026-10-09 14:11:02"
   },
   {
-   "档": "24c01097-be3c-4765-bf35-b8e74cf9b6a5.jsonl",
-   "字节": 542105,
-   "行": 133,
-   "改": "2026-10-09 14:00:52"
+   "档": "fce2f3c2-7ffb-44a2-90cf-db07cd739ea9.jsonl",
+   "字节": 533130,
+   "行": 228,
+   "改": "2026-10-09 14:11:19"
   }
  ],
  "近段摘要": [
   {
    "角色": "小奈",
-   "文": ""
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -122,35 +126,11 @@
   },
   {
    "角色": "小奈",
-   "文": ""
+   "文": "HEARTBEAT_OK"
   },
   {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "I found what \"它\" is — the 13:42 request that got cut off by a 网关冷启. Let me first run the mandatory gateway check, then continue."
-  },
-  {
-   "角色": "小奈",
-   "文": "Gateway 甲·稳（PID 21000 · 466MB · 单实例 · 探活 30ms），可开工。现在接着把 13:42 那两件办完：①网站加「创造神」栏目；②网关内存压力根治之招。先摸清现状。"
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "Now let me measure where the gateway's memory actually goes (task B) and check session/config knobs."
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -166,7 +146,11 @@
   },
   {
    "角色": "小奈",
-   "文": ""
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -174,27 +158,11 @@
   },
   {
    "角色": "小奈",
-   "文": ""
+   "文": "🔔 盯单报（ED-390·新成交）：**真钱六户同频开仓 SOL 多** —— 约 10:43–10:45 陆续进场（相隔数分钟即全到齐）：\n\n| 户 | 方向 | entry | 名义$ |\n|---|---|---|---|\n| xwu | SOL 多 | 109.68 | 4,426 |\n| lbh | SOL 多 | 109.71 | 2,595 |\n| zxy | SOL 多 | 109.65 | 1,450 |\n| dss | SOL 多 | 109.69 | 1,168 |\n| yhb | SOL 多 | 109.61 | 819 |\n| zls | SOL 多 | 109.67"
   },
   {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "Good — I have the full picture now. Two tasks from 13:42: ①网站加「创造神」栏目；②网关内存压力根治之招。Let me implement task ① (website), backing up first."
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -206,7 +174,47 @@
   },
   {
    "角色": "小奈",
-   "文": "Now rebuild the site and verify."
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "🔔 盯单报（ED-390）：\n\n- **六户再次同频开仓 SOL 多**（12:27–12:29 陆续）· entry≈**110.2**（较上轮 109.6 抬升）· 名义合计 **≈$6.14k** · `regime_at_open=chop`·score0.7·金叉(tp UP)·conf0.303 · 现**微浮盈**（peak_pct +0.35%~0.39%）。\n- 回补上轮结果：**上一轮 SOL 多已于 11:0x 全平，六户合计 ≈ +$74（全绿小赚）**。\n\n结构面：引擎 10/10 · 生命线无旗（安康）· 护身符 0。继续只报不动，盯兜底（−0.9%）。"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -218,7 +226,11 @@
   },
   {
    "角色": "小奈",
-   "文": ""
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -230,27 +242,11 @@
   },
   {
    "角色": "小奈",
-   "文": ""
+   "文": "HEARTBEAT_OK"
   },
   {
-   "角色": "小奈",
-   "文": "Task ① is live. Now task ② — the gateway memory \"招\". Let me examine the existing slimming tool and current session sizes."
-  },
-  {
-   "角色": "小奈",
-   "文": "Let me check whether the gateway is actually under pressure (restart frequency / memory trend) before prescribing."
-  },
-  {
-   "角色": "小奈",
-   "文": "The gateway IS under real pressure — I can see RSS spiking to 780MB with a 45s freeze (13:44–13:45), then a self-heal restart. Let me quantify the durable consumers."
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "Now I have a clear diagnosis. Let me implement the safe \"轻装\" measure (archive bloat cap) and write up the gateway-memory plan. First the archive-capping tool."
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -262,7 +258,11 @@
   },
   {
    "角色": "小奈",
-   "文": "The archive grows ~150MB/day, so age-7 won't bite. Let me tighten to keep 3 days raw + compress older + drop beyond 30 days."
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -270,7 +270,7 @@
   },
   {
    "角色": "小奈",
-   "文": "The archive cap adds little (existing cold-volume compression already runs). The real gateway lever is the launch tuning. Let me look at the exact launch lines and stage a low-risk memory flag."
+   "文": "HEARTBEAT_OK"
   }
  ],
  "本地全量归档": [
@@ -315,6 +315,6 @@
    "MB": 15.68
   }
  ],
- "摘要档": "24c01097-be3c-4765-bf35-b8e74cf9b6a5.jsonl",
+ "摘要档": "fce2f3c2-7ffb-44a2-90cf-db07cd739ea9.jsonl",
  "注": "本分区=索引+近段摘要；聊天全文存于本机 data_v2/archive/聊天记录_* 与加密密包(封存分区)"
 }
