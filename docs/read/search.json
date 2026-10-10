@@ -1,6 +1,6 @@
 {
- "built": "2026-10-10 17:27:14",
- "count": 142,
+ "built": "2026-10-10 17:33:22",
+ "count": 143,
  "items": [
   {
    "t": "今日辑要 · 2026-10-10（前沿 12 条）",
@@ -25,6 +25,14 @@
    "d": "2026-10-10",
    "k": "手记,方法论",
    "x": "蓝鲸的叫声可以低到十几赫兹——接近人耳的下限。低频在海水中衰减极慢，一头鲸的歌声，理论上能跨越 上千公里 的海域被另一头听见。 这带来一个反直觉的结论： \"喊得响\"不如\"选对频率\"。 低频穿透力强，代价是携带的信息量低（听不细，但传得远）；高频传得清，却出了不了多远。通信的设计，永远是在\"传多远\"和\"说多清\"之间做取舍。 今天人类面对的问题也一样： 不是信息不够多，而是不知道该用哪个频段，去说给谁听。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "三千年前的蜂蜜",
+   "u": "a/note-20261010-8.html",
+   "s": "灵犀手记",
+   "d": "2026-10-10",
+   "k": "手记,方法论",
+   "x": "考古学家在古埃及墓里挖出过罐装蜂蜜，三千多年过去， 居然还能吃 。原因朴素得近乎优雅：蜂蜜含水极少、酸度极高、且自带过氧化氢——三样条件把微生物能活的余地全部堵死。 它给我们的启发不是\"蜂蜜很厉害\"，而是： 最好的保存方式，往往不是加固外壳，而是让腐坏的条件根本不存在。 系统设计里也一样。与其事后层层设防，不如一开始就让坏事情 没有发生的土壤 。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "创造神",
@@ -891,10 +899,18 @@
    "x": ""
   },
   {
-   "t": "Anthropic Agents Tried to Fill Out Visa Forms on State Dept. Website",
+   "t": "人类智能体试图在国务院网站上填写签证表格",
    "u": "https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html",
    "s": "外网新声·Hacker News",
    "d": "11:42",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "09:32",
    "k": "",
    "x": ""
   },
@@ -903,14 +919,6 @@
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
    "d": "09:22",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "09:19",
    "k": "",
    "x": ""
   },
@@ -963,7 +971,7 @@
    "x": ""
   },
   {
-   "t": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+   "t": "Asana使用GPT-6.1 Sol将浏览器测试中的模型成本降低了76倍",
    "u": "https://openai.com/index/asana-browser-agent",
    "s": "外网新声·OpenAI 官方",
    "d": "07:00",
@@ -987,7 +995,7 @@
    "x": ""
   },
   {
-   "t": "A Balanced Data Diet: Addressing the Exploration Bottleneck in Mega-Scale RL for Robot Control",
+   "t": "平衡的数据饮食：解决Mega-Scale RL用于机器人控制的探索瓶颈",
    "u": "https://arxiv.org/abs/2610.12465v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:59",
@@ -995,7 +1003,7 @@
    "x": ""
   },
   {
-   "t": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
+   "t": "从被动遏制到主动保障：OpenAI、Anthropic和Google Agent安全事件的经验教训",
    "u": "https://arxiv.org/abs/2610.12463v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
@@ -1003,7 +1011,7 @@
    "x": ""
   },
   {
-   "t": "BrickBench: Evaluating Agentic Brick Design",
+   "t": "BrickBench：评估Agentic Brick设计",
    "u": "https://arxiv.org/abs/2610.12452v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:58",
@@ -1011,7 +1019,7 @@
    "x": ""
   },
   {
-   "t": "One Block, Multiple Depths: Recurrent Vision Transformers with Depth-Programmed Experts",
+   "t": "一个区块，多个深度：具有深度编程专家的循环视觉变压器",
    "u": "https://arxiv.org/abs/2610.12448v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:58",
@@ -1019,7 +1027,7 @@
    "x": ""
   },
   {
-   "t": "Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception",
+   "t": "陷入困境：探测器有效地检测破坏并捕捉未言语的欺骗",
    "u": "https://arxiv.org/abs/2610.12445v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:58",
@@ -1027,7 +1035,7 @@
    "x": ""
   },
   {
-   "t": "Rounding in Preconditioner Space: Redesigning 4-bit AdamW Optimizer-State Quantization",
+   "t": "预处理器空间的舍入：重新设计4位AdamW优化器-状态量化",
    "u": "https://arxiv.org/abs/2610.12444v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:58",
