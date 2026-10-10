@@ -1,5 +1,5 @@
 {
- "built": "2026-10-11 06:43:51",
+ "built": "2026-10-11 06:51:07",
  "count": 177,
  "items": [
   {
@@ -1099,6 +1099,22 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Show HN：我构建了一个对AI编码代理做出反应的macOS屏幕保护程序",
+   "u": "https://www.ascendaflow.com/waterline",
+   "s": "外网新声·Hacker News",
+   "d": "05:39",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "在macOS菜单栏中Show HN: prx –自动公关审核",
+   "u": "https://github.com/vs4vijay/prx",
+   "s": "外网新声·Hacker News",
+   "d": "04:27",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Show HN: Tutor，自主托管的LLM导师，教授您的书籍或文档",
    "u": "https://github.com/demetrius-edelin/tutor",
    "s": "外网新声·Hacker News",
@@ -1107,10 +1123,42 @@
    "x": ""
   },
   {
+   "t": "人工智能浏览器代理：2026年搜索引擎优化、安全和实施攻略",
+   "u": "https://phpscientist.com/blog/ai-browser-agents-seo-security-implementation-playbook-2026/",
+   "s": "外网新声·Hacker News",
+   "d": "04:17",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "CAVEWOMAN：LLM在语言输入和输出压缩下的行为",
    "u": "https://arxiv.org/abs/2606.24083",
    "s": "外网新声·Hacker News",
    "d": "03:31",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Phonebox –适用于智能体的云端安卓手机",
+   "u": "https://phonebox.dev/",
+   "s": "外网新声·Hacker News",
+   "d": "02:51",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：自动改进客服代表的评估技能",
+   "u": "https://github.com/confident-ai/eval-skills",
+   "s": "外网新声·Hacker News",
+   "d": "02:46",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ShareBox –分享您的AI 智能体构建的网络工具，如Google文档",
+   "u": "https://github.com/zalaso/sharebox",
+   "s": "外网新声·Hacker News",
+   "d": "02:27",
    "k": "",
    "x": ""
   },
@@ -1127,6 +1175,14 @@
    "u": "https://vivekhaldar.com/articles/llms-do-too-much-offload-to-decision-models/",
    "s": "外网新声·Hacker News",
    "d": "01:53",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "500B代币：让AI智能体反编译第一人称射击游戏",
+   "u": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+   "s": "外网新声·Hacker News",
+   "d": "01:00",
    "k": "",
    "x": ""
   },
@@ -1219,22 +1275,6 @@
    "x": ""
   },
   {
-   "t": "CSF：运动发生器的上下文安全过滤",
-   "u": "https://arxiv.org/abs/2610.12467v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "平衡的数据饮食：解决Mega-Scale RL用于机器人控制的探索瓶颈",
-   "u": "https://arxiv.org/abs/2610.12465v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "从被动遏制到主动保障：OpenAI、Anthropic和Google Agent安全事件的经验教训",
    "u": "https://arxiv.org/abs/2610.12463v1",
    "s": "外网新声·arXiv cs.AI",
@@ -1251,25 +1291,9 @@
    "x": ""
   },
   {
-   "t": "一个区块，多个深度：具有深度编程专家的循环视觉变压器",
-   "u": "https://arxiv.org/abs/2610.12448v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:58",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "陷入困境：探测器有效地检测破坏并捕捉未言语的欺骗",
    "u": "https://arxiv.org/abs/2610.12445v1",
    "s": "外网新声·arXiv cs.AI",
-   "d": "17:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "预处理器空间的舍入：重新设计4位AdamW优化器-状态量化",
-   "u": "https://arxiv.org/abs/2610.12444v1",
-   "s": "外网新声·arXiv cs.LG",
    "d": "17:58",
    "k": "",
    "x": ""
@@ -1283,34 +1307,10 @@
    "x": ""
   },
   {
-   "t": "信念：高维系统的可行性感知安全过滤RL",
-   "u": "https://arxiv.org/abs/2610.12432v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:57",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "RoboRSI：在复杂的现实环境中实现稳定、高效和可重复使用的机器人自我进化",
    "u": "https://arxiv.org/abs/2610.12424v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "安全关键强化学习的统一Bellman运算符",
-   "u": "https://arxiv.org/abs/2610.12420v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:53",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "编织：将视觉世界建模编织成多模态LLM",
-   "u": "https://arxiv.org/abs/2610.12417v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:52",
    "k": "",
    "x": ""
   },
@@ -1347,14 +1347,6 @@
    "x": ""
   },
   {
-   "t": "具有全球-区域对齐的学习公里级天气预测",
-   "u": "https://arxiv.org/abs/2610.12401v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:43",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "HRIL：通过高阶张量建模学习多模态协同",
    "u": "https://arxiv.org/abs/2610.12393v1",
    "s": "外网新声·arXiv cs.AI",
@@ -1371,26 +1363,10 @@
    "x": ""
   },
   {
-   "t": "长文本到预测功能：通过可执行程序搜索进行LLM引导的分块特征工程",
-   "u": "https://arxiv.org/abs/2610.12390v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:39",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "ARC：机器人基础模型的推理配方",
    "u": "https://arxiv.org/abs/2610.12386v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:38",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Marformer：预测缺失数据分布的变压器",
-   "u": "https://arxiv.org/abs/2610.12379v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:33",
    "k": "",
    "x": ""
   },
@@ -1415,6 +1391,30 @@
    "u": "https://arxiv.org/abs/2610.12361v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:26",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "准确但不谦逊：评估LLM客服代表在知识冲突中的认知谦逊",
+   "u": "https://arxiv.org/abs/2610.12360v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:25",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "提取路由的3D特权，用于视觉语言模型中的空间推理",
+   "u": "https://arxiv.org/abs/2610.12355v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:22",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "将Codex配置为您自己的多代理开发团队",
+   "u": "https://unnecessarythoughts.substack.com/p/configure-codex-into-your-own-multi",
+   "s": "外网新声·Hacker News",
+   "d": "15:19",
    "k": "",
    "x": ""
   }
