@@ -1,6 +1,6 @@
 {
  "日期": "2026-10-10",
- "落盘": "2026-10-10 22:28:20",
+ "落盘": "2026-10-10 22:34:54",
  "条数": 14,
  "live": 60,
  "条目": [
@@ -12,6 +12,11 @@
   {
    "title": "Show HN: Tessary -查找您的抽样EVALS遗漏的AI 智能体故障",
    "url": "https://github.com/tessaryai/tessary",
+   "type": "live"
+  },
+  {
+   "title": "使用vLLM进行大规模的本地LLM推断",
+   "url": "https://data4sci.com/blog/local-llm-inference-at-scale-with",
    "type": "live"
   },
   {
@@ -30,18 +35,13 @@
    "type": "live"
   },
   {
-   "title": "Talorys – Cloudflare免费套餐上的自托管个人AI 智能体",
-   "url": "https://github.com/rociiu/talorys",
+   "title": "LLM并非不可避免",
+   "url": "https://deadsimpletech.com/blog/llms-arent-inevitable",
    "type": "live"
   },
   {
-   "title": "Claude客服代表现在可以编写自己的多客服代表工作流程",
-   "url": "https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration",
-   "type": "live"
-  },
-  {
-   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "url": "https://github.com/NousResearch/hermes-agent",
+   "title": "如果LLM可以在不进行微调的情况下做出决定，我们是否仍然需要像Jev这样的模特？",
+   "url": "https://itsodeleo.github.io/posts/local-decision-workflow/",
    "type": "live"
   },
   {
