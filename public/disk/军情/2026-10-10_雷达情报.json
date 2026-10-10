@@ -2,9 +2,15 @@
  "日期": "2026-10-10",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-10 20:47:33",
-  "chosen": "AVAX long",
+  "updated": "2026-10-10 20:53:29",
+  "chosen": "LTC long",
   "nodes": [
+   {
+    "coin": "XRP",
+    "side": "short",
+    "align": 1,
+    "embryo": 2.5
+   },
    {
     "coin": "LTC",
     "side": "long",
@@ -31,12 +37,6 @@
    },
    {
     "coin": "DOGE",
-    "side": "",
-    "align": 0,
-    "embryo": 0.0
-   },
-   {
-    "coin": "XRP",
     "side": "",
     "align": 0,
     "embryo": 0.0
