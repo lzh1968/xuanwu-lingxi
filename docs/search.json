@@ -1,5 +1,5 @@
 {
- "built": "2026-10-10 22:09:04",
+ "built": "2026-10-10 22:15:09",
  "count": 158,
  "items": [
   {
@@ -947,6 +947,22 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "智能体安全：来自九个真实事件的六个控制",
+   "u": "https://blog.gitguardian.com/ai-agent-security-six-controls/",
+   "s": "外网新声·Hacker News",
+   "d": "22:09",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN: Tessary -查找您的抽样EVALS遗漏的AI 智能体故障",
+   "u": "https://github.com/tessaryai/tessary",
+   "s": "外网新声·Hacker News",
+   "d": "22:09",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "使用vLLM进行大规模的本地LLM推断",
    "u": "https://data4sci.com/blog/local-llm-inference-at-scale-with",
    "s": "外网新声·Hacker News",
@@ -1011,14 +1027,6 @@
    "x": ""
   },
   {
-   "t": "YC是否使用智能体来审查您的推销？",
-   "u": "https://news.ycombinator.com/item?id=50031461",
-   "s": "外网新声·Hacker News",
-   "d": "18:27",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Claude客服代表现在可以编写自己的多客服代表工作流程",
    "u": "https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration",
    "s": "外网新声·Hacker News",
@@ -1031,6 +1039,22 @@
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
    "d": "14:08",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
+   "s": "外网新声·GitHub 新星",
+   "d": "13:35",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
+   "s": "外网新声·GitHub 新星",
+   "d": "12:44",
    "k": "",
    "x": ""
   },
@@ -1239,30 +1263,6 @@
    "u": "https://arxiv.org/abs/2610.12391v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:39",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "长文本到预测功能：通过可执行程序搜索进行LLM引导的分块特征工程",
-   "u": "https://arxiv.org/abs/2610.12390v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:39",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ARC：机器人基础模型的推理配方",
-   "u": "https://arxiv.org/abs/2610.12386v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:38",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Marformer：预测缺失数据分布的变压器",
-   "u": "https://arxiv.org/abs/2610.12379v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:33",
    "k": "",
    "x": ""
   }
