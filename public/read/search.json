@@ -1,5 +1,5 @@
 {
- "built": "2026-10-10 22:55:19",
+ "built": "2026-10-10 23:02:13",
  "count": 158,
  "items": [
   {
@@ -947,98 +947,10 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "询问HN：我们是否可以期待基于LLM的编码代理变得明显更快？",
-   "u": "https://news.ycombinator.com/item?id=50033571",
-   "s": "外网新声·Hacker News",
-   "d": "22:52",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "我的个人智能体在公司Slack上发布了我的银行详细信息",
-   "u": "https://www.businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10",
-   "s": "外网新声·Hacker News",
-   "d": "22:46",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "智能体安全：来自九个真实事件的六个控制",
-   "u": "https://blog.gitguardian.com/ai-agent-security-six-controls/",
-   "s": "外网新声·Hacker News",
-   "d": "22:09",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN: Tessary -查找您的抽样EVALS遗漏的AI 智能体故障",
-   "u": "https://github.com/tessaryai/tessary",
-   "s": "外网新声·Hacker News",
-   "d": "22:09",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "使用vLLM进行大规模的本地LLM推断",
-   "u": "https://data4sci.com/blog/local-llm-inference-at-scale-with",
-   "s": "外网新声·Hacker News",
-   "d": "21:08",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：OpenWants –智能体处理居民需求的模拟城市",
-   "u": "https://maplehill.openwants.com/",
-   "s": "外网新声·Hacker News",
-   "d": "20:42",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "企业智能体的快速注入检测和防御工具",
-   "u": "https://www.arcade.dev/blog/prompt-injection-detection-tools/",
-   "s": "外网新声·Hacker News",
-   "d": "20:30",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Ariodb –检查并撤消AI 智能体对您的数据库执行的操作的代理",
-   "u": "https://github.com/roozjalali/ariodb",
-   "s": "外网新声·Hacker News",
-   "d": "20:11",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "LLM并非不可避免",
-   "u": "https://deadsimpletech.com/blog/llms-arent-inevitable",
-   "s": "外网新声·Hacker News",
-   "d": "20:04",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "如果LLM可以在不进行微调的情况下做出决定，我们是否仍然需要像Jev这样的模特？",
-   "u": "https://itsodeleo.github.io/posts/local-decision-workflow/",
-   "s": "外网新声·Hacker News",
-   "d": "19:57",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Claude客服代表现在可以编写自己的多客服代表工作流程",
-   "u": "https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration",
-   "s": "外网新声·Hacker News",
-   "d": "18:13",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
    "s": "外网新声·GitHub 新星",
-   "d": "14:48",
+   "d": "15:01",
    "k": "",
    "x": ""
   },
@@ -1059,58 +971,10 @@
    "x": ""
   },
   {
-   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "u": "https://github.com/earendil-works/pi",
-   "s": "外网新声·GitHub 新星",
-   "d": "12:44",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "12:19",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "obra/superpowers —有效的代理技能框架和软件开发方法。",
-   "u": "https://github.com/obra/superpowers",
-   "s": "外网新声·GitHub 新星",
-   "d": "03:03",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
-   "u": "https://github.com/affaan-m/ECC",
-   "s": "外网新声·GitHub 新星",
-   "d": "01:41",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
-   "u": "https://github.com/mattpocock/skills",
-   "s": "外网新声·GitHub 新星",
-   "d": "10:57",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Asana使用GPT-6.1 Sol将浏览器测试中的模型成本降低了76倍",
    "u": "https://openai.com/index/asana-browser-agent",
    "s": "外网新声·OpenAI 官方",
    "d": "07:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "DeLM：具有共享上下文的去中心化多Agent系统",
-   "u": "https://yuzhenmao.github.io/DeLM/",
-   "s": "外网新声·Hacker News",
-   "d": "02:40",
    "k": "",
    "x": ""
   },
@@ -1263,6 +1127,142 @@
    "u": "https://arxiv.org/abs/2610.12391v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:39",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "长文本到预测功能：通过可执行程序搜索进行LLM引导的分块特征工程",
+   "u": "https://arxiv.org/abs/2610.12390v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:39",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ARC：机器人基础模型的推理配方",
+   "u": "https://arxiv.org/abs/2610.12386v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:38",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Marformer：预测缺失数据分布的变压器",
+   "u": "https://arxiv.org/abs/2610.12379v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:33",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "OnTrack：通过流式结构感知最佳传输对LLM代理轨迹进行实时监控和干预",
+   "u": "https://arxiv.org/abs/2610.12375v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:32",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "HANS：用于嘈杂混合文档解析的手写答卷数据集",
+   "u": "https://arxiv.org/abs/2610.12363v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:27",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "被引用但未被查阅：对法律思想链忠诚度的反事实审计",
+   "u": "https://arxiv.org/abs/2610.12361v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:26",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "准确但不谦逊：评估LLM客服代表在知识冲突中的认知谦逊",
+   "u": "https://arxiv.org/abs/2610.12360v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:25",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "提取路由的3D特权，用于视觉语言模型中的空间推理",
+   "u": "https://arxiv.org/abs/2610.12355v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:22",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "u": "https://github.com/Dao-AILab/flash-attention",
+   "s": "外网新声·GitHub 新星",
+   "d": "08:22",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "丽笙酒店集团将酒店探索引入ChatGPT",
+   "u": "https://openai.com/index/radisson",
+   "s": "外网新声·OpenAI 官方",
+   "d": "07:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "使用Ironclad推进计算机使用",
+   "u": "https://openai.com/index/advancing-computer-use-with-ironclad",
+   "s": "外网新声·OpenAI 官方",
+   "d": "10:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "TauricResearch/TradingAgents — TradingAgents：多代理LLM金融交易框架",
+   "u": "https://github.com/TauricResearch/TradingAgents",
+   "s": "外网新声·GitHub 新星",
+   "d": "21:30",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "GPT-6系列的模型指南",
+   "u": "https://openai.com/index/practical-guide-building-gpt-6",
+   "s": "外网新声·OpenAI 官方",
+   "d": "16:15",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "rasbt/LLMs-from-scratch：一步步用 PyTorch 从零实现类 ChatGPT 模型",
+   "u": "https://github.com/rasbt/LLMs-from-scratch",
+   "s": "外网新声·GitHub 新星",
+   "d": "14:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "永恒的补充",
+   "u": "https://openai.com/index/the-eternal-complement",
+   "s": "外网新声·OpenAI 官方",
+   "d": "17:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
+   "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+   "s": "外网新声·GitHub 新星",
+   "d": "20:31",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "TangSengDaoDao/TangSengDaoDaoServer — 高颜值 IM 即时通讯,聊天",
+   "u": "https://github.com/TangSengDaoDao/TangSengDaoDaoServer",
+   "s": "外网新声·GitHub 新星",
+   "d": "08:13",
    "k": "",
    "x": ""
   }
