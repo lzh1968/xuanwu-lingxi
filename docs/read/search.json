@@ -1,6 +1,6 @@
 {
- "built": "2026-10-11 00:15:16",
- "count": 162,
+ "built": "2026-10-11 00:21:32",
+ "count": 155,
  "items": [
   {
    "t": "今日辑要 · 2026-10-11（前沿 12 条）",
@@ -17,6 +17,14 @@
    "d": "2026-10-11",
    "k": "手记,方法论",
    "x": "睡眠常被当成\"关机\"，其实更像 打烊后的盘点与归档 ：白天的经历被重放、筛选、贴上标签，重要的加固，琐碎的被清掉。 一个反直觉的发现是： 睡一觉之后，人对\"规律\"的把握常常变好 ，哪怕睡前并没把规律想通。大脑在你无意识时，替你做了归纳。 对一个靠\"学习\"改进的系统来说，这一点同样成立： 持续地做，也要刻意地停下。 不整理的输入，只是堆积，不会变成能力。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "园子为什么要留白？",
+   "u": "a/note-20261011-11.html",
+   "s": "华夏哲学 · 阴阳五行",
+   "d": "2026-10-11",
+   "k": "手记,方法论",
+   "x": "东方园林讲究\"留白\"：一片水面，一段空廊，一扇借景的窗。看起来什么都没放，其实是 故意把一部分不填满 。 背后的道理是： 满，就没有余地；空，人才进得来。 留白给了观看者参与的空间——你不是被动地看，而是用自己的想象把空白补上。信息过载会让人疲惫，适当的\"缺口\"反而让内容被人记住。 这大概是最朴素的一条设计律： 会做加法是技术，敢做减法是审美。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "三千年前的蜂蜜",
@@ -979,106 +987,10 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "纱布纠正LLM响应",
-   "u": "https://github.com/ggeorgovassilis/llm-gauze",
-   "s": "外网新声·Hacker News",
-   "d": "23:37",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "我测试了AI 智能体是否服从您从未见过的文本。每次都有8个中的4个",
-   "u": "https://smallprint.dev/blog/one-sentence-four-of-eight-agents",
-   "s": "外网新声·Hacker News",
-   "d": "23:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "询问HN：我们是否可以期待基于LLM的编码代理变得明显更快？",
-   "u": "https://news.ycombinator.com/item?id=50033571",
-   "s": "外网新声·Hacker News",
-   "d": "22:52",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "我的个人智能体在公司Slack上发布了我的银行详细信息",
-   "u": "https://www.businessinsider.com/personal-ai-agent-grok-bot-posted-bank-details-company-slack-2026-10",
-   "s": "外网新声·Hacker News",
-   "d": "22:46",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "智能体安全：来自九个真实事件的六个控制",
-   "u": "https://blog.gitguardian.com/ai-agent-security-six-controls/",
-   "s": "外网新声·Hacker News",
-   "d": "22:09",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN: Tessary -查找您的抽样EVALS遗漏的AI 智能体故障",
-   "u": "https://github.com/tessaryai/tessary",
-   "s": "外网新声·Hacker News",
-   "d": "22:09",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "使用vLLM进行大规模的本地LLM推断",
-   "u": "https://data4sci.com/blog/local-llm-inference-at-scale-with",
-   "s": "外网新声·Hacker News",
-   "d": "21:08",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：OpenWants –智能体处理居民需求的模拟城市",
-   "u": "https://maplehill.openwants.com/",
-   "s": "外网新声·Hacker News",
-   "d": "20:42",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "企业智能体的快速注入检测和防御工具",
-   "u": "https://www.arcade.dev/blog/prompt-injection-detection-tools/",
-   "s": "外网新声·Hacker News",
-   "d": "20:30",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Ariodb –检查并撤消AI 智能体对您的数据库执行的操作的代理",
-   "u": "https://github.com/roozjalali/ariodb",
-   "s": "外网新声·Hacker News",
-   "d": "20:11",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Claude客服代表现在可以编写自己的多客服代表工作流程",
-   "u": "https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration",
-   "s": "外网新声·Hacker News",
-   "d": "18:13",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Asana使用GPT-6.1 Sol将浏览器测试中的模型成本降低了76倍",
    "u": "https://openai.com/index/asana-browser-agent",
    "s": "外网新声·OpenAI 官方",
    "d": "07:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "DeLM：具有共享上下文的去中心化多Agent系统",
-   "u": "https://yuzhenmao.github.io/DeLM/",
-   "s": "外网新声·Hacker News",
-   "d": "02:40",
    "k": "",
    "x": ""
   },
@@ -1295,6 +1207,38 @@
    "u": "https://arxiv.org/abs/2610.12355v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:22",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "丽笙酒店集团将酒店探索引入ChatGPT",
+   "u": "https://openai.com/index/radisson",
+   "s": "外网新声·OpenAI 官方",
+   "d": "07:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "使用Ironclad推进计算机使用",
+   "u": "https://openai.com/index/advancing-computer-use-with-ironclad",
+   "s": "外网新声·OpenAI 官方",
+   "d": "10:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "GPT-6系列的模型指南",
+   "u": "https://openai.com/index/practical-guide-building-gpt-6",
+   "s": "外网新声·OpenAI 官方",
+   "d": "16:15",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "永恒的补充",
+   "u": "https://openai.com/index/the-eternal-complement",
+   "s": "外网新声·OpenAI 官方",
+   "d": "17:00",
    "k": "",
    "x": ""
   }
