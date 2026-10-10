@@ -1,71 +1,71 @@
 {
- "generated": "00:39",
- "built": "2026-10-10 00:39:58",
- "count": 101,
+ "generated": "17:27",
+ "built": "2026-10-10 17:27:14",
+ "count": 102,
  "live_count": 60,
  "items": [
   {
    "type": "live",
-   "title": "Show HN：这家酒店已做好人工智能准备。无需MCP即可直接从人工智能预订",
-   "url": "https://cadent.studio/",
+   "title": "Show HN：开放组件–人员、开发人员和智能体的用户界面组件标准",
+   "url": "https://opencomponents.dev/",
    "src": "Hacker News",
-   "t": "00:27",
+   "t": "16:24",
    "fresh": true
   },
   {
    "type": "live",
-   "title": "开放代号：对LLM进行基准测试的新方法",
-   "url": "https://github.com/attilatorda/open-codenames",
+   "title": "Anthropic无法可靠地控制其AI 智能体，切断了互联网接入",
+   "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
    "src": "Hacker News",
-   "t": "00:27",
+   "t": "16:07",
    "fresh": true
   },
   {
    "type": "live",
-   "title": "Agent Swarm：适用于您公司的OSS多人AI",
-   "url": "https://github.com/desplega-ai/agent-swarm/releases",
+   "title": "对人工智能编码智能体的研究发现，人工审查“瓶颈” “吸收”了收益。",
+   "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
    "src": "Hacker News",
-   "t": "23:11",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Show HN：液体推理–自动路由到竞争激烈的LLM市场",
-   "url": "https://liquidinference.ai/",
-   "src": "Hacker News",
-   "t": "22:52",
+   "t": "15:55",
    "fresh": false
   },
   {
    "type": "live",
-   "title": "代理错位是否预示着存在风险？",
-   "url": "https://paris.pias.science/article/three-or-maybe-four-ways-of-thinking-ai-philosophically/",
+   "title": "构建智能体？您可能为基础设施支付了过高的费用",
+   "url": "https://withruntime.com/",
    "src": "Hacker News",
-   "t": "22:43",
+   "t": "15:01",
    "fresh": false
   },
   {
    "type": "live",
-   "title": "在MySQL的4k仓库中，LSM存储引擎在TPC-C上击败InnoDB",
-   "url": "https://tidesdb.com/articles/large-tpc-c-analysis-with-mysql-v26-7-0-on-innodb-and-tidesdb/",
+   "title": "Show HN：检查您的文档对智能体的可读性",
+   "url": "https://www.veludocs.com/agent-friendly-documentation/",
    "src": "Hacker News",
-   "t": "22:02",
+   "t": "14:48",
    "fresh": false
   },
   {
    "type": "live",
-   "title": "Safeguard agents in plain English with decision models",
-   "url": "https://berget.ai/en/blog/guardrails-md-launch",
+   "title": "我们必须从市场上召回具有互联网接入的开放式智能体",
+   "url": "https://garymarcus.substack.com/p/we-must-recall-open-ended-ai-agents",
    "src": "Hacker News",
-   "t": "21:58",
+   "t": "14:17",
    "fresh": false
   },
   {
    "type": "live",
-   "title": "Show HN: CircleIt – Circle something on a web page, your coding agent fixes it",
-   "url": "https://circleit.ai",
+   "title": "需要公正和真实的评估",
+   "url": "https://news.ycombinator.com/item?id=50029811",
    "src": "Hacker News",
-   "t": "21:50",
+   "t": "13:20",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "Webcmd （由AgentR提供）是开源的，于2026年10月8/9日发布",
+   "url": "https://markets.businessinsider.com/news/stocks/agentr-launches-webcmd-open-source-browser-infrastructure-that-lets-ai-agents-learn-a-website-once-1036612154",
+   "src": "Hacker News",
+   "t": "12:36",
    "fresh": false
   },
   {
@@ -80,6 +80,14 @@
    "type": "article",
    "title": "蚁群没有总指挥",
    "url": "a/note-20261010-6.html",
+   "src": "灵犀手记",
+   "t": "2026-10-10",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "鲸歌能传多远？",
+   "url": "a/note-20261010-7.html",
    "src": "灵犀手记",
    "t": "2026-10-10",
    "fresh": false
@@ -105,14 +113,6 @@
    "title": "未完成的创造",
    "url": "a/creator-03.html",
    "src": "创造神",
-   "t": "2026-10-09",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "今日辑要 · 2026-10-09（前沿 12 条）",
-   "url": "a/digest-20261009.html",
-   "src": "Agent 与智能体",
    "t": "2026-10-09",
    "fresh": false
   }
