@@ -1,6 +1,6 @@
 {
- "generated": "22:22",
- "built": "2026-10-10 22:22:11",
+ "generated": "22:28",
+ "built": "2026-10-10 22:28:43",
  "count": 118,
  "live_count": 60,
  "items": [
@@ -18,6 +18,14 @@
    "url": "https://github.com/tessaryai/tessary",
    "src": "Hacker News",
    "t": "22:09",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "使用vLLM进行大规模的本地LLM推断",
+   "url": "https://data4sci.com/blog/local-llm-inference-at-scale-with",
+   "src": "Hacker News",
+   "t": "21:08",
    "fresh": true
   },
   {
@@ -46,26 +54,18 @@
   },
   {
    "type": "live",
-   "title": "Talorys – Cloudflare免费套餐上的自托管个人AI 智能体",
-   "url": "https://github.com/rociiu/talorys",
+   "title": "LLM并非不可避免",
+   "url": "https://deadsimpletech.com/blog/llms-arent-inevitable",
    "src": "Hacker News",
-   "t": "18:52",
+   "t": "20:04",
    "fresh": false
   },
   {
    "type": "live",
-   "title": "Claude客服代表现在可以编写自己的多客服代表工作流程",
-   "url": "https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration",
+   "title": "如果LLM可以在不进行微调的情况下做出决定，我们是否仍然需要像Jev这样的模特？",
+   "url": "https://itsodeleo.github.io/posts/local-decision-workflow/",
    "src": "Hacker News",
-   "t": "18:13",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "url": "https://github.com/NousResearch/hermes-agent",
-   "src": "GitHub 新星",
-   "t": "14:18",
+   "t": "19:57",
    "fresh": false
   },
   {
