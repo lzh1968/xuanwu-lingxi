@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-11",
- "落盘": "2026-10-11 00:41:25",
+ "落盘": "2026-10-11 00:48:07",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "在GGUF上Show HN：LoRA –在40G VRAM中训练Qwen3.8-Flash-Next",
+   "url": "https://github.com/woct0rdho/transformers5-qwen3.5-recipe",
+   "type": "live"
+  },
   {
    "title": "人类智能体试图在国务院网站上填写签证表格",
    "url": "https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.htm",
@@ -37,11 +42,6 @@
   {
    "title": "Show HN: Tessary -查找您的抽样EVALS遗漏的AI 智能体故障",
    "url": "https://github.com/tessaryai/tessary",
-   "type": "live"
-  },
-  {
-   "title": "使用vLLM进行大规模的本地LLM推断",
-   "url": "https://data4sci.com/blog/local-llm-inference-at-scale-with",
    "type": "live"
   },
   {
