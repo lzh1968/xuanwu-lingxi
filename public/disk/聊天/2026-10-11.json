@@ -1,5 +1,5 @@
 {
- "时间": "2026-10-11 07:05:14",
+ "时间": "2026-10-11 07:45:22",
  "会话档数": 19,
  "会话": [
   {
@@ -105,130 +105,66 @@
    "改": "2026-10-11 03:41:45"
   },
   {
-   "档": "fce2f3c2-7ffb-44a2-90cf-db07cd739ea9.jsonl",
-   "字节": 468550,
-   "行": 220,
-   "改": "2026-10-11 07:01:40"
+   "档": "eebbf47b-38be-424c-9fb9-a006302c1ee4.jsonl",
+   "字节": 921800,
+   "行": 228,
+   "改": "2026-10-11 07:40:40"
   },
   {
-   "档": "eebbf47b-38be-424c-9fb9-a006302c1ee4.jsonl",
-   "字节": 318788,
-   "行": 72,
-   "改": "2026-10-11 07:04:28"
+   "档": "fce2f3c2-7ffb-44a2-90cf-db07cd739ea9.jsonl",
+   "字节": 483040,
+   "行": 232,
+   "改": "2026-10-11 07:40:55"
   }
  ],
  "近段摘要": [
   {
-   "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Sun 2026-10-11 06:58 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
-  },
-  {
    "角色": "小奈",
    "文": ""
   },
   {
    "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "Gateway 报警了（丙·危），先救网关，再办铸印。"
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "网关的看护进程掉了（守护链断），先按既有件把看护拉回来。"
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "网关已救回：**甲·稳**（看护进程掉线→已按既有件拉起，探活200）。现在办火印归档。"
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "网关已稳。现在铸印归档（道统铭文·只读）。"
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "[[reply_to_current]]老板，两件事都办好了。\n\n**一、先报网关（按规矩开工前必报）**\n开工前体检发现**丙·危**——网关的看护进程掉线了（守护链断）。我按既有件把它拉回来了，复测已恢复 **甲·稳**（网关 510 兆、单实例、探活 200 毫秒、看护在岗）。属守护层自愈，没动引擎和真钱。\n\n**二、火印已铸印归档（只读）**\n- **印名**：甲盾点亮·轮回律印\n- **老板御定编号**：ED-202610-865 ｜ **链式火印**：ED-20261011-909（hash 0de412…）\n- **甲盾点亮铭文**：外攻内守，内养外护；内外兼修，文武同德。\n- "
+   "文": "📈 心跳·两事报您（其余安康：引擎 10/10 · 网关 541MB · 账实一致 · **电量已充满回升 73%**）\n\n**① 真钱有新成交**\n- **xwu**：ADA 空已平，**新开 LTC 多**（entry 63.77·21:20·信 0.52）。\n- **zls**：ADA 空已平，**新开 LTC 多**（entry 63.40·约16:45）。\n- 其余持仓未动：**AVAX 多** ×4（lbh/dss/zxy/yhb，peak 约 +0.8%）。相位 LTC/AVAX 皆「顺」，**无逆势**。\n- 今日累计：xwu −311.6 / lbh +236.8 / dss"
   },
   {
    "角色": "老板",
-   "文": "System (untrusted): [2026-10-11 06:59:11 GMT+8] Exec completed (mellow-n, code 0) :: skills/sniper-engine/_战部内核_加载部署.py skills/sniper-engine/_回执_磨道固本_20261010.json skills/sniper-engine/_回执_磨道固本_20261010.md\n\nSender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"ope"
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -241,6 +177,106 @@
   {
    "角色": "小奈",
    "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "System (untrusted): [2026-10-11 03:38:57 GMT+8] Exec completed (crisp-wh, code 0) :: IME_GATE_ON=0 SIGN_TREND_ALIGN_ON=0 SIGN_POS_BAND_ON=0 SIGN_TOP_BAN_ON=0 SANT_GATE_ON=0 SANT_YIN_ON=0 YIJING_GATE_ON=0 WU_PING_BU_KAI_ON=0 WUXING_VETO_ON=0 zhizhi_check_enable=0 Q…\n\nRead HEARTBEAT.md if it exists (w"
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
   }
  ],
  "本地全量归档": [
@@ -285,6 +321,6 @@
    "MB": 16.76
   }
  ],
- "摘要档": "eebbf47b-38be-424c-9fb9-a006302c1ee4.jsonl",
+ "摘要档": "fce2f3c2-7ffb-44a2-90cf-db07cd739ea9.jsonl",
  "注": "本分区=索引+近段摘要；聊天全文存于本机 data_v2/archive/聊天记录_* 与加密密包(封存分区)"
 }
