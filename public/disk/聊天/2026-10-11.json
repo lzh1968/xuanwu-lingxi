@@ -1,5 +1,5 @@
 {
- "时间": "2026-10-11 11:48:41",
+ "时间": "2026-10-11 12:11:07",
  "会话档数": 19,
  "会话": [
   {
@@ -106,34 +106,18 @@
   },
   {
    "档": "eebbf47b-38be-424c-9fb9-a006302c1ee4.jsonl",
-   "字节": 421866,
-   "行": 125,
-   "改": "2026-10-11 11:43:15"
+   "字节": 541302,
+   "行": 168,
+   "改": "2026-10-11 11:53:12"
   },
   {
    "档": "fce2f3c2-7ffb-44a2-90cf-db07cd739ea9.jsonl",
-   "字节": 561749,
-   "行": 264,
-   "改": "2026-10-11 11:43:55"
+   "字节": 567528,
+   "行": 270,
+   "改": "2026-10-11 11:53:37"
   }
  ],
  "近段摘要": [
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "HEARTBEAT_OK"
-  },
-  {
-   "角色": "老板",
-   "文": "System (untrusted): [2026-10-11 03:38:57 GMT+8] Exec completed (crisp-wh, code 0) :: IME_GATE_ON=0 SIGN_TREND_ALIGN_ON=0 SIGN_POS_BAND_ON=0 SIGN_TOP_BAN_ON=0 SANT_GATE_ON=0 SANT_YIN_ON=0 YIJING_GATE_ON=0 WU_PING_BU_KAI_ON=0 WUXING_VETO_ON=0 zhizhi_check_enable=0 Q…\n\nRead HEARTBEAT.md if it exists (w"
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
   {
    "角色": "小奈",
    "文": ""
@@ -277,6 +261,22 @@
   {
    "角色": "小奈",
    "文": "✅ **新令核验（阅您清晨数道令·皆达标）**\n- 👑 币王令强化三键：真钱 8 户**各 3/3** ✅\n- 🛡🦁 麒麟收紧＋貔貅三键：8 户**各 3/3** ✅\n- 👑🐸🦁 金蟾↔貔貅无漏：八内核**各 7/7** ✅\n- 👑 `_核_币王令`：ADA 空 · 同向 1/需求4/4（反1）· 源过/精准/达标 **皆 False** ⇒ **未执令**（宁缺毋滥·正常）\n\n⚠️ **11:34 一波清杀**：**lbh、zls、xwu、yhb 四户同时掉线**（生命线抓到「引擎 2/6」）——数分钟内由守护**自愈**（现 10/10）。仍是内存压力周期性清杀之老病。\n\n📡 信号准确率仍"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
   }
  ],
  "本地全量归档": [
