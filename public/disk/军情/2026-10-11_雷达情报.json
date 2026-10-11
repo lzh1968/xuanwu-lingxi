@@ -2,14 +2,14 @@
  "日期": "2026-10-11",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-11 15:29:52",
-  "chosen": "DOT long",
+  "updated": "2026-10-11 15:35:00",
+  "chosen": "ARB long",
   "nodes": [
    {
-    "coin": "DOT",
+    "coin": "ARB",
     "side": "long",
-    "align": 2,
-    "embryo": 3.3
+    "align": 3,
+    "embryo": 2.9
    },
    {
     "coin": "BTC",
@@ -90,7 +90,7 @@
     "embryo": 0.0
    },
    {
-    "coin": "ARB",
+    "coin": "DOT",
     "side": "",
     "align": 0,
     "embryo": 0.0
