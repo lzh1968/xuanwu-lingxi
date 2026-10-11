@@ -1,9 +1,17 @@
 {
- "generated": "00:42",
- "built": "2026-10-12 00:42:34",
- "count": 141,
+ "generated": "00:48",
+ "built": "2026-10-12 00:48:48",
+ "count": 142,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "通过激活补丁测量法学硕士课程的学习深度",
+   "url": "https://gnueaj.github.io/unlearning-depth-score/",
+   "src": "Hacker News",
+   "t": "00:42",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "使用OpenCode和共享内存自托管AI 智能体环境",
@@ -38,14 +46,6 @@
   },
   {
    "type": "live",
-   "title": "Show HN：编写自己的多代理工作流程的免费编码代理",
-   "url": "https://kolega.ai/code",
-   "src": "Hacker News",
-   "t": "19:01",
-   "fresh": false
-  },
-  {
-   "type": "live",
    "title": "培训LLM编写超越自我使用的工具",
    "url": "https://tool-use-smith.github.io/",
    "src": "Hacker News",
@@ -54,10 +54,10 @@
   },
   {
    "type": "live",
-   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "url": "https://github.com/ggml-org/llama.cpp",
-   "src": "GitHub 新星",
-   "t": "16:41",
+   "title": "问问HN：您会如何进行域名变更并在域名中找到工作？",
+   "url": "https://news.ycombinator.com/item?id=50041008",
+   "src": "Hacker News",
+   "t": "16:46",
    "fresh": false
   },
   {
@@ -65,7 +65,7 @@
    "title": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
    "url": "https://github.com/affaan-m/ECC",
    "src": "GitHub 新星",
-   "t": "16:38",
+   "t": "16:45",
    "fresh": false
   },
   {
@@ -102,17 +102,17 @@
   },
   {
    "type": "article",
-   "title": "今日辑要 · 2026-10-11（前沿 12 条）",
-   "url": "a/digest-20261011.html",
-   "src": "Agent 与智能体",
-   "t": "2026-10-11",
+   "title": "珊瑚：动物、植物，还是别的？",
+   "url": "a/note-20261012-13.html",
+   "src": "灵犀手记",
+   "t": "2026-10-12",
    "fresh": false
   },
   {
    "type": "article",
-   "title": "自治系统的\"慢变量\"",
-   "url": "a/note-20261011-1.html",
-   "src": "灵犀手记",
+   "title": "今日辑要 · 2026-10-11（前沿 12 条）",
+   "url": "a/digest-20261011.html",
+   "src": "Agent 与智能体",
    "t": "2026-10-11",
    "fresh": false
   }
