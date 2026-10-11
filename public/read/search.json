@@ -1,5 +1,5 @@
 {
- "built": "2026-10-12 04:07:40",
+ "built": "2026-10-12 04:32:41",
  "count": 196,
  "items": [
   {
@@ -1251,6 +1251,38 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "管道中的幽灵：让智能体直接访问实时Smalltalk图像",
+   "u": "https://medium.com/@paul_93782/the-ghost-in-the-pipe-e6643e2f08a4",
+   "s": "外网新声·Hacker News",
+   "d": "04:30",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "LLM记忆库中的驾驶路线",
+   "u": "https://fig.blue/posts/directions-from-memory/",
+   "s": "外网新声·Hacker News",
+   "d": "04:11",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "问HN：成群的人工智能智能体是如何工作的？",
+   "u": "https://news.ycombinator.com/item?id=50047180",
+   "s": "外网新声·Hacker News",
+   "d": "03:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "客服代表航班",
+   "u": "https://www.flyskye.ai/partners",
+   "s": "外网新声·Hacker News",
+   "d": "03:54",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "自由职业者可以通过加密货币获得报酬：分步指南",
    "u": "https://news.ycombinator.com/item?id=50046855",
    "s": "外网新声·Hacker News",
@@ -1275,34 +1307,10 @@
    "x": ""
   },
   {
-   "t": "询问HN：是否有针对基于LLM的逆向工程的防御措施？",
-   "u": "https://news.ycombinator.com/item?id=50045579",
-   "s": "外网新声·Hacker News",
-   "d": "01:27",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "法学硕士阅读9000页德国选举计划时出现了什么问题",
-   "u": "https://parteiprogramm.com/en",
-   "s": "外网新声·Hacker News",
-   "d": "01:01",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "使用OpenCode和共享内存自托管AI 智能体环境",
    "u": "https://smalldata.tech/blog/2026/10/11/self-hosting-an-ai-agent-environment-with-opencode-and-shared-memory",
    "s": "外网新声·Hacker News",
    "d": "00:25",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "智能体为Love is Blind模拟创建自己的背景故事",
-   "u": "https://unyxfly.substack.com/p/12-ai-love-is-blind",
-   "s": "外网新声·Hacker News",
-   "d": "22:24",
    "k": "",
    "x": ""
   },
@@ -1315,18 +1323,10 @@
    "x": ""
   },
   {
-   "t": "Show HN：智能体以自己的名义承认的MCP服务器",
-   "u": "https://ai.confess.online",
-   "s": "外网新声·Hacker News",
-   "d": "21:35",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
-   "u": "https://github.com/affaan-m/ECC",
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "19:49",
+   "d": "20:31",
    "k": "",
    "x": ""
   },
@@ -1334,7 +1334,15 @@
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "19:48",
+   "d": "20:28",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
+   "u": "https://github.com/affaan-m/ECC",
+   "s": "外网新声·GitHub 新星",
+   "d": "20:22",
    "k": "",
    "x": ""
   },
@@ -1342,7 +1350,15 @@
    "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
    "u": "https://github.com/earendil-works/pi",
    "s": "外网新声·GitHub 新星",
-   "d": "19:46",
+   "d": "20:19",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ultraworkers/claw-code -代理管理的博物馆展览，使用Gajae-Code/LazyCodex在Rust中建造—开发和",
+   "u": "https://github.com/ultraworkers/claw-code",
+   "s": "外网新声·GitHub 新星",
+   "d": "20:12",
    "k": "",
    "x": ""
   },
@@ -1351,14 +1367,6 @@
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
    "d": "19:44",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "19:33",
    "k": "",
    "x": ""
   },
@@ -1557,14 +1565,6 @@
   {
    "t": "HRIL：通过高阶张量建模学习多模态协同",
    "u": "https://arxiv.org/abs/2610.12393v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:39",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "GeoReform：用于解决多模态几何问题的反射形式化演变",
-   "u": "https://arxiv.org/abs/2610.12391v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:39",
    "k": "",
