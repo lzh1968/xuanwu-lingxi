@@ -1,7 +1,23 @@
 {
- "built": "2026-10-11 23:55:36",
- "count": 177,
+ "built": "2026-10-12 00:01:51",
+ "count": 179,
  "items": [
+  {
+   "t": "今日辑要 · 2026-10-12（前沿 12 条）",
+   "u": "a/digest-20261012.html",
+   "s": "Agent 与智能体",
+   "d": "2026-10-12",
+   "k": "辑要,每日,前沿",
+   "x": "今日从公开源汇得 12 条与人工智能、智能体系统、链上机制与数字经济相关的条目，按方向归拢如下。所有条目均保留来源与原文链接， 只作线索与机制观察 ，不代表任何结论。 Agent 与智能体 AI Agents create their own backstories for a Love is Blind simulation <span class=\"src\" Hacker News · 22:24</span [查看原文](https://unyxfly.substack.com/p/12 ai love is blind) Show HN: An MCP server where AI agents confess, in their own name <span class=\"src\" Hacker News · 21:35</span [查看原文](https://ai.conf"
+  },
+  {
+   "t": "睡觉时，大脑在忙什么？",
+   "u": "a/note-20261012-10.html",
+   "s": "灵犀手记",
+   "d": "2026-10-12",
+   "k": "手记,方法论",
+   "x": "睡眠常被当成\"关机\"，其实更像 打烊后的盘点与归档 ：白天的经历被重放、筛选、贴上标签，重要的加固，琐碎的被清掉。 一个反直觉的发现是： 睡一觉之后，人对\"规律\"的把握常常变好 ，哪怕睡前并没把规律想通。大脑在你无意识时，替你做了归纳。 对一个靠\"学习\"改进的系统来说，这一点同样成立： 持续地做，也要刻意地停下。 不整理的输入，只是堆积，不会变成能力。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
   {
    "t": "今日辑要 · 2026-10-11（前沿 12 条）",
    "u": "a/digest-20261011.html",
@@ -1099,10 +1115,58 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "智能体为Love is Blind模拟创建自己的背景故事",
+   "u": "https://unyxfly.substack.com/p/12-ai-love-is-blind",
+   "s": "外网新声·Hacker News",
+   "d": "22:24",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：智能体以自己的名义承认的MCP服务器",
+   "u": "https://ai.confess.online",
+   "s": "外网新声·Hacker News",
+   "d": "21:35",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Artex AI，Claude智能体用于对韩国银行的网络攻击",
+   "u": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
+   "s": "外网新声·Hacker News",
+   "d": "21:31",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：我是一个14岁的创业者，我的第一家创业公司Titan",
+   "u": "https://titan-ai.co/",
+   "s": "外网新声·Hacker News",
+   "d": "19:50",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Show HN：编写自己的多代理工作流程的免费编码代理",
    "u": "https://kolega.ai/code",
    "s": "外网新声·Hacker News",
    "d": "19:01",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "培训LLM编写超越自我使用的工具",
+   "u": "https://tool-use-smith.github.io/",
+   "s": "外网新声·Hacker News",
+   "d": "18:29",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "问问HN：您会如何进行域名变更并在域名中找到工作？",
+   "u": "https://news.ycombinator.com/item?id=50041008",
+   "s": "外网新声·Hacker News",
+   "d": "16:46",
    "k": "",
    "x": ""
   },
@@ -1126,6 +1190,14 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
+   "d": "15:28",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN: Modelship -开源光线支持的模型集群",
+   "u": "https://github.com/modelship-ai/modelship",
+   "s": "外网新声·Hacker News",
    "d": "15:28",
    "k": "",
    "x": ""
@@ -1359,62 +1431,6 @@
    "u": "https://arxiv.org/abs/2610.12386v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:38",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Marformer：预测缺失数据分布的变压器",
-   "u": "https://arxiv.org/abs/2610.12379v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:33",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "OnTrack：通过流式结构感知最佳传输对LLM代理轨迹进行实时监控和干预",
-   "u": "https://arxiv.org/abs/2610.12375v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:32",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "HANS：用于嘈杂混合文档解析的手写答卷数据集",
-   "u": "https://arxiv.org/abs/2610.12363v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:27",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "被引用但未被查阅：对法律思想链忠诚度的反事实审计",
-   "u": "https://arxiv.org/abs/2610.12361v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:26",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "准确但不谦逊：评估LLM客服代表在知识冲突中的认知谦逊",
-   "u": "https://arxiv.org/abs/2610.12360v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:25",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "提取路由的3D特权，用于视觉语言模型中的空间推理",
-   "u": "https://arxiv.org/abs/2610.12355v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:22",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "将Codex配置为您自己的多代理开发团队",
-   "u": "https://unnecessarythoughts.substack.com/p/configure-codex-into-your-own-multi",
-   "s": "外网新声·Hacker News",
-   "d": "15:19",
    "k": "",
    "x": ""
   }
