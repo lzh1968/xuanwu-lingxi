@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-12",
- "落盘": "2026-10-12 04:54:43",
+ "落盘": "2026-10-12 05:12:26",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "通用LLM服务器",
+   "url": "https://zml.ai/llmd/",
+   "type": "live"
+  },
   {
    "title": "多代理线束需要单独的消息通道",
    "url": "https://harshalgajjar.com/blog/multi-agent-harnesses-need-separate-message-channels",
@@ -12,6 +17,11 @@
   {
    "title": "管道中的幽灵：让智能体直接访问实时Smalltalk图像",
    "url": "https://medium.com/@paul_93782/the-ghost-in-the-pipe-e6643e2f08a4",
+   "type": "live"
+  },
+  {
+   "title": "LLM记忆库中的驾驶路线",
+   "url": "https://fig.blue/posts/directions-from-memory/",
    "type": "live"
   },
   {
@@ -25,23 +35,13 @@
    "type": "live"
   },
   {
+   "title": "自由职业者可以通过加密货币获得报酬：分步指南",
+   "url": "https://news.ycombinator.com/item?id=50046855",
+   "type": "live"
+  },
+  {
    "title": "自我改进的RLM代理，用于编码工作流程和长期运行的自主任务",
    "url": "https://github.com/PrimeIntellect-ai/prime-agent",
-   "type": "live"
-  },
-  {
-   "title": "使用OpenCode和共享内存自托管AI 智能体环境",
-   "url": "https://smalldata.tech/blog/2026/10/11/self-hosting-an-ai-agent-environment-with-opencode-and-shared-memory",
-   "type": "live"
-  },
-  {
-   "title": "Show HN: Guilds –开源可检验多代理协作框架",
-   "url": "https://github.com/CigaleAI/guilds",
-   "type": "live"
-  },
-  {
-   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "url": "https://github.com/ggml-org/llama.cpp",
    "type": "live"
   },
   {
