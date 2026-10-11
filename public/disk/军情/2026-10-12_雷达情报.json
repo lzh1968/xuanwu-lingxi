@@ -2,8 +2,8 @@
  "日期": "2026-10-12",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-12 03:05:32",
-  "chosen": "TIA short",
+  "updated": "2026-10-12 03:08:32",
+  "chosen": "WLD short",
   "nodes": [
    {
     "coin": "XRP",
@@ -20,14 +20,14 @@
    {
     "coin": "ARB",
     "side": "short",
-    "align": 0,
-    "embryo": 0.3
+    "align": 1,
+    "embryo": 1.7
    },
    {
     "coin": "TIA",
     "side": "short",
     "align": 1,
-    "embryo": 1.1
+    "embryo": 1.7
    },
    {
     "coin": "WLFI",
