@@ -2,20 +2,14 @@
  "日期": "2026-10-12",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-12 06:22:54",
-  "chosen": "INJ short",
+  "updated": "2026-10-12 06:30:34",
+  "chosen": "TIA short",
   "nodes": [
    {
     "coin": "WLD",
     "side": "short",
     "align": 1,
-    "embryo": 1.7
-   },
-   {
-    "coin": "INJ",
-    "side": "short",
-    "align": 1,
-    "embryo": 1.7
+    "embryo": 1.4
    },
    {
     "coin": "TIA",
@@ -115,6 +109,12 @@
    },
    {
     "coin": "SEI",
+    "side": "",
+    "align": 0,
+    "embryo": 0.0
+   },
+   {
+    "coin": "INJ",
     "side": "",
     "align": 0,
     "embryo": 0.0
