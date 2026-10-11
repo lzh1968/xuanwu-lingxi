@@ -1,5 +1,5 @@
 {
- "时间": "2026-10-11 17:52:22",
+ "时间": "2026-10-11 18:05:06",
  "会话档数": 19,
  "会话": [
   {
@@ -105,46 +105,26 @@
    "改": "2026-10-11 03:41:45"
   },
   {
-   "档": "fce2f3c2-7ffb-44a2-90cf-db07cd739ea9.jsonl",
-   "字节": 317546,
-   "行": 96,
-   "改": "2026-10-11 16:06:11"
+   "档": "eebbf47b-38be-424c-9fb9-a006302c1ee4.jsonl",
+   "字节": 278662,
+   "行": 78,
+   "改": "2026-10-11 18:04:02"
   },
   {
-   "档": "eebbf47b-38be-424c-9fb9-a006302c1ee4.jsonl",
-   "字节": 162601,
-   "行": 52,
-   "改": "2026-10-11 16:59:39"
+   "档": "fce2f3c2-7ffb-44a2-90cf-db07cd739ea9.jsonl",
+   "字节": 363511,
+   "行": 111,
+   "改": "2026-10-11 18:05:05"
   }
  ],
  "近段摘要": [
   {
-   "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Sun 2026-10-11 16:51 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
-  },
-  {
    "角色": "小奈",
    "文": ""
   },
   {
    "角色": "小奈",
    "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "[[reply_to_current]]好的老板，记下了——**明天/后天电脑到位，就把 adb 那套（乙档）装上**，从根上治住安卓对咱进程的强制收割。\n\n到电脑那步要备三样：\n① 电脑装 **adb**（Android 平台工具）；\n② 数据线连手机 + 手机开「**USB 调试**」并授权；\n③ 连上后我这边给命令，做后台/杀进程白名单豁免。\n\n**验收标尺**（电脑一到我就照这个核）：\n- 甲盾**代次不再涨**（今天基准 **111 代**）\n- 「外部看门人」由 **fail 转 ok**\n- 八守护不再缺员/重复\n- 进程数稳在**软线 29 以内**\n\n电脑装好喊我一声就行，我"
-  },
-  {
-   "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Sun 2026-10-11 16:54 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
   },
   {
    "角色": "小奈",
@@ -176,11 +156,23 @@
   },
   {
    "角色": "小奈",
-   "文": "[[reply_to_current]]老板，一句话结论：**今天大盘横盘偏弱、主流微涨、山寨普跌；系统判「无王之地、群雄并起」，走宁缺毋滥，方向偏空。**\n\n**大盘（刚查，24小时涨跌）**\n-  BTC 约 83020，+0.27%；ETH 约 2500，+0.21% —— 主流基本平。\n-  山寨普遍走弱：ADA −3.36%、AVAX −2.32%、SUI −2.08%、DOGE −1.00%、XRP −0.84%。\n\n**咱系统怎么读（相位表 16:47）**\n-  17 个币里 **16 个「混沌/观望」**，只有 **5 个币相位顺、可做**：ADA（偏多）、WLD / SUI"
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "🫀 心跳巡检·有异动上报（10-11 15:45）\n\n**① 15:40 一波重启后已回稳**\n15:40 前后疑遭安卓批量清杀 → `_实盘守护` 重启并逐户带仓冷启。现况：真钱七户(lbh/dss/zxy/zls/xwu/yhb/whp)＋模拟(rui/heng) 全部在岗；账实巡回复验 **✅ 一致**（含 whp）。\n→ 由此引发的两条瞬时告警（见下②），系重启窗口所致，非故障。\n\n**② 🚨 生命线告警（瞬时，现已消）**\n`_生命线.alert`：`15:40:34 引擎缺员：lbh、yhb` —— 正是重启窗口那一刻抓到的空档；两户 15:40-15:41 已复岗。下轮看护应自清"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Sun 2026-10-11 16:57 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -192,11 +184,27 @@
   },
   {
    "角色": "小奈",
-   "文": "[[reply_to_current]]老板，我的实话：**现在不急扩容，时机不对；真要加，也建议等电脑装好、算力松下来再加。**\n\n先说清现在池子有多大（事实）：\n- **可交易池 = 15 个币**：BTC / SOL / DOGE / XRP / ADA / LTC / BNB / NEAR / SUI / AVAX / UNI / WLD / FIL / ARB / DOT。\n- **ETH 和 LINK 是老板您明令踢出去的**（ETH「怪币有毒」，LINK 各系统移出），所以不在池内。\n- 另外雷达/中枢另照见约 **20 来个**（含 TIA、ATOM、SEI、INJ、WLFI、"
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "🫀 心跳巡检·15:52（本轮较平静）\n\n**✅ 好转**：上轮 `_生命线.alert`（lbh/yhb 缺员）已**自清**；真钱七户＋模拟三户 **10 支全在岗**；无新「主动来报」。\n\n**🔎 新查明·`_巡航_资金雷` 假警报之根因**（供老板知悉，待示下是否修）\n该巡雷反复报「交易所N张/账本0张·仓账不一致」，实为**脚本字段名写错**：\n`_巡航_查雷_资金.py` 第 45-50 行读本地账本时取 `p.get('size')`，而账本实际字段是 **`size_ct`** → 永远读到 0 → 只要有仓必误报（实则账实一致，漂移器复验 ✅）。\n一处字改（`size`→`s"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Sun 2026-10-11 16:59 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -204,7 +212,71 @@
   },
   {
    "角色": "小奈",
-   "文": "[[reply_to_current]]好的老板，**按甲案：暂不扩容**，维持宁缺毋滥，池子就保持现在的 15 个币。\n\n已记入今日记忆存档。等电脑装好、算力松下来，您哪天想扩了，我再走「先印后工作、小步验证、留回退」那套流程，只挑优质低相关的币来加。\n\n现在系统照常跑着 —— 网关甲·稳、四正常、真钱八户在岗，您不用管，有情况我盯着。"
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "🫀 心跳巡检·16:03-16:05 · ⚠️ 一波掉线（已自愈）\n\n**事件**：16:03-16:04 又遭一波批量清杀（疑安卓内存压力）——\n- 补齐器报「⚠️已补 `_子引擎_super`/`_停摆看护`/`_网关看护`/`_门面_看护` · 仍缺 3 员」；引擎瞬时掉 **zls、xwu**（`_生命线.alert`：`16:04:08 引擎缺员：zls、xwu`）。\n- 连跑两轮补齐后**已全部拉回**：现况 **10 支引擎全在岗**（真钱七户 lbh/dss/zxy/zls/xwu/yhb/whp ＋ 模拟 rui/wen/heng）＋ 七守护各 1 实例 · 补齐器现「OK "
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
   }
  ],
  "本地全量归档": [
@@ -249,6 +321,6 @@
    "MB": 16.23
   }
  ],
- "摘要档": "eebbf47b-38be-424c-9fb9-a006302c1ee4.jsonl",
+ "摘要档": "fce2f3c2-7ffb-44a2-90cf-db07cd739ea9.jsonl",
  "注": "本分区=索引+近段摘要；聊天全文存于本机 data_v2/archive/聊天记录_* 与加密密包(封存分区)"
 }
