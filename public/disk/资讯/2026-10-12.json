@@ -1,9 +1,19 @@
 {
  "日期": "2026-10-12",
- "落盘": "2026-10-12 19:37:28",
+ "落盘": "2026-10-12 19:44:17",
  "条数": 14,
- "live": 25,
+ "live": 60,
  "条目": [
+  {
+   "title": "(Linus Torvalds) I did what I preach: use LLMs to help make sense of the code",
+   "url": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tag/?h=assoc-array-fixes",
+   "type": "live"
+  },
+  {
+   "title": "How to Prepare Your Agentic AI System for an EU AI Act Audit with ZizkaDB",
+   "url": "https://medium.com/@MirArshadTalpur/how-to-prepare-your-agentic-ai-system-for-an-eu-ai-act-audit-with-zizkadb-7d7eb9d4c9f0",
+   "type": "live"
+  },
   {
    "title": "Show HN: I built Airlock, to sandbox your AI agent and know what it's doing",
    "url": "https://airlock.sorrel.systems",
@@ -32,16 +42,6 @@
   {
    "title": "使用OpenCode和共享内存自托管AI 智能体环境",
    "url": "https://smalldata.tech/blog/2026/10/11/self-hosting-an-ai-agent-environment-with-opencode-and-shared-memory",
-   "type": "live"
-  },
-  {
-   "title": "Fetch transformers, HF download etc. via Torrent with uv run pirateface",
-   "url": "https://github.com/pirateface/pirateface_hub",
-   "type": "live"
-  },
-  {
-   "title": "AI agents broke into 27 online retailers for $25 a company",
-   "url": "https://trustboundarystudio.com/posts/ai-agents-retail-2026/",
    "type": "live"
   },
   {
