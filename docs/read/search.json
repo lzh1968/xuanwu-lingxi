@@ -1,5 +1,5 @@
 {
- "built": "2026-10-12 20:19:56",
+ "built": "2026-10-12 20:58:41",
  "count": 196,
  "items": [
   {
@@ -1251,6 +1251,38 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Salt – Introducing Agent Surfaces",
+   "u": "https://saltapp.ai/surfaces",
+   "s": "外网新声·Hacker News",
+   "d": "20:32",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "OpenStocks, a public earnings forecasting benchmark for AI agents",
+   "u": "https://openstocks.com/",
+   "s": "外网新声·Hacker News",
+   "d": "20:28",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN: Ctxvitals – a vitals check for your AI agent stack (npx ctxvitals)",
+   "u": "https://github.com/princejain756/ctxvitals",
+   "s": "外网新声·Hacker News",
+   "d": "20:08",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Dont Observe – Audit Your AI Agent",
+   "u": "https://db.zizka.ai/",
+   "s": "外网新声·Hacker News",
+   "d": "20:08",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "(Linus Torvalds) I did what I preach: use LLMs to help make sense of the code",
    "u": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tag/?h=assoc-array-fixes",
    "s": "外网新声·Hacker News",
@@ -1283,14 +1315,6 @@
    "x": ""
   },
   {
-   "t": "Show HN: DBJoy – An open-source AI-first PostgreSQL client for macOS",
-   "u": "https://github.com/agustind/dbjoy",
-   "s": "外网新声·Hacker News",
-   "d": "18:32",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Show HN: EpochGo – Local-first multi-agent AutoML on Ollama ($0 API costs)",
    "u": "https://github.com/AryanDinakaran/EpochGo",
    "s": "外网新声·Hacker News",
@@ -1307,34 +1331,34 @@
    "x": ""
   },
   {
-   "t": "使用OpenCode和共享内存自托管AI 智能体环境",
-   "u": "https://smalldata.tech/blog/2026/10/11/self-hosting-an-ai-agent-environment-with-opencode-and-shared-memory",
-   "s": "外网新声·Hacker News",
-   "d": "15:45",
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "12:56",
    "k": "",
    "x": ""
   },
   {
-   "t": "Fetch transformers, HF download etc. via Torrent with uv run pirateface",
-   "u": "https://github.com/pirateface/pirateface_hub",
-   "s": "外网新声·Hacker News",
-   "d": "15:18",
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
+   "s": "外网新声·GitHub 新星",
+   "d": "12:53",
    "k": "",
    "x": ""
   },
   {
-   "t": "AI agents broke into 27 online retailers for $25 a company",
-   "u": "https://trustboundarystudio.com/posts/ai-agents-retail-2026/",
-   "s": "外网新声·Hacker News",
-   "d": "13:48",
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "12:35",
    "k": "",
    "x": ""
   },
   {
-   "t": "Decision 3.0: open, multimodal SOTA decision models from 0.6B to 27B",
-   "u": "https://huggingface.co/collections/vllm-sr/decision-30",
-   "s": "外网新声·Hacker News",
-   "d": "13:33",
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
+   "s": "外网新声·GitHub 新星",
+   "d": "12:22",
    "k": "",
    "x": ""
   },
@@ -1343,38 +1367,6 @@
    "u": "https://github.com/Mininglamp-OSS",
    "s": "外网新声·Hacker News",
    "d": "12:05",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "11:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
-   "s": "外网新声·GitHub 新星",
-   "d": "11:44",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "11:43",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "u": "https://github.com/earendil-works/pi",
-   "s": "外网新声·GitHub 新星",
-   "d": "11:00",
    "k": "",
    "x": ""
   },
@@ -1567,6 +1559,14 @@
    "u": "https://arxiv.org/abs/2610.13832v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "16:39",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "MC-EvoBench：Minecraft智能体的审计体验驱动自我提升",
+   "u": "https://arxiv.org/abs/2610.13829v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:37",
    "k": "",
    "x": ""
   }
