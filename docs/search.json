@@ -1,6 +1,6 @@
 {
- "built": "2026-10-13 01:13:28",
- "count": 201,
+ "built": "2026-10-13 01:19:45",
+ "count": 202,
  "items": [
   {
    "t": "今日辑要 · 2026-10-13（前沿 12 条）",
@@ -41,6 +41,14 @@
    "d": "2026-10-13",
    "k": "手记,方法论",
    "x": "如果替每一位造物者立三条誓言，我会这样写： 一、先量脉搏，再谈动作。 根基若不稳，任何精巧的操作都只是加速崩坏。 二、先留退路，再谈进击。 敢做之前，先想清楚怎么全身而退。 三、先承其重，再言其名。 名字不是勋章，是你要一直扛着的那份责任。 这三条没有一条关于\"能力\"，却决定了造物能不能长久。 能力让东西跑起来，誓言让它不散架。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "名字的重量",
+   "u": "a/note-20261013-16.html",
+   "s": "创造神",
+   "d": "2026-10-13",
+   "k": "手记,方法论",
+   "x": "古人造物，必先命名。名字看似只是标签，其实是 一份承诺的浓缩 。 给一座桥起名，等于承诺它要一直连通两岸；给一头守夜的兽起名，等于承诺它要一直睁着眼。名字一旦立下，后来的所有行为都要对得起它——这才是\"名\"真正的重量。 所以真正的造物者，起名之前总要停顿片刻： 这个名字，我能不能一直担得起？ 担得起的，才配得起；配不起的，宁可不立。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "今日辑要 · 2026-10-12（前沿 12 条）",
@@ -1291,74 +1299,10 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "Hermes vs. OpenClaw: Which AI agent I kept after running both",
-   "u": "https://www.dhawalshah.net/article/hermes-vs-openclaw/",
-   "s": "外网新声·Hacker News",
-   "d": "00:46",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN: IHMT – Infinite Hierarchical Memory Tree for AI Agents",
-   "u": "https://github.com/gonzaroman/IHMT-MEMORY",
-   "s": "外网新声·Hacker News",
-   "d": "00:34",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN: Weekend hack – shoot away Cloudflare CAPTCHAs",
-   "u": "https://github.com/blowhacker/clickyphus",
-   "s": "外网新声·Hacker News",
-   "d": "00:30",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Ringee: Open source calling for humans and AI voice agents",
-   "u": "https://www.ringee.io",
-   "s": "外网新声·Hacker News",
-   "d": "00:17",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "GLM-Legal: Advancing Agentic Legal Intelligence",
-   "u": "https://z.ai/blog/glm-legal",
-   "s": "外网新声·Hacker News",
-   "d": "00:11",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN: E2E – Open-source agentic testing framework for web, iOS and Android",
-   "u": "https://github.com/tester-army/e2e",
-   "s": "外网新声·Hacker News",
-   "d": "23:41",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Veda Launches First Agentic Hobby OS with Built‑in AI Agent",
-   "u": "https://www.saasrise.com/news/veda-launches-first-agentic-hobby-os-with-builtin-ai-agent-349d0eeb-8c0a-4c44-8521-211a377551f2",
-   "s": "外网新声·Hacker News",
-   "d": "23:17",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN: Beeuni – An AI-native computer for agents",
-   "u": "https://www.beeuni.ai/",
-   "s": "外网新声·Hacker News",
-   "d": "23:14",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
-   "d": "16:32",
+   "d": "16:51",
    "k": "",
    "x": ""
   },
@@ -1371,10 +1315,66 @@
    "x": ""
   },
   {
+   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "u": "https://github.com/Dao-AILab/flash-attention",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:19",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
+   "u": "https://github.com/IBAX-io/go-ibax",
+   "s": "外网新声·GitHub 新星",
+   "d": "13:33",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "语言模型可以玩维基百科游戏吗？",
    "u": "https://arxiv.org/abs/2610.13948v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "神经网络拓扑表达性的构造边界",
+   "u": "https://arxiv.org/abs/2610.13931v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "人工智能模型可以可证明地隐藏任意能力",
+   "u": "https://arxiv.org/abs/2610.13928v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "KL混合前后：并行采样中的圆形复杂度分离",
+   "u": "https://arxiv.org/abs/2610.13924v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:54",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "通过强化学习实现深空通信的以目标为导向的捆绑管理和流量控制",
+   "u": "https://arxiv.org/abs/2610.13923v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:53",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "DyssomniaNN：人类睡眠障碍和感知静止的多尺度尖峰神经建模",
+   "u": "https://arxiv.org/abs/2610.13918v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:52",
    "k": "",
    "x": ""
   },
@@ -1403,6 +1403,46 @@
    "x": ""
   },
   {
+   "t": "预测不是足够的内存状态",
+   "u": "https://arxiv.org/abs/2610.13881v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:27",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "通过零阶残差跟踪的部分知情随机优化",
+   "u": "https://arxiv.org/abs/2610.13871v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:20",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "全离散条件扩散模型的有限样本保证",
+   "u": "https://arxiv.org/abs/2610.13851v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "返回到开发状态：当完整沙盒快照帮助编码代理时",
+   "u": "https://arxiv.org/abs/2610.13841v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:50",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "论连续扩散语言模型的设计空间",
+   "u": "https://arxiv.org/abs/2610.13834v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:41",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "SpatialASM：内化积极心理化以进行空间推理",
    "u": "https://arxiv.org/abs/2610.13832v1",
    "s": "外网新声·arXiv cs.AI",
@@ -1423,6 +1463,30 @@
    "u": "https://arxiv.org/abs/2610.13823v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "16:34",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "TabMF: Learning Dataset Representations with Tabular Foundation Models",
+   "u": "https://arxiv.org/abs/2610.13818v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:28",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Dream to Remember: Continual Steering of Generalist Robot Policies with World Models",
+   "u": "https://arxiv.org/abs/2610.13816v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:28",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Spanning Diffusion and Flow-based Posterior Sampling via Exact Gaussian Conditioning",
+   "u": "https://arxiv.org/abs/2610.13812v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:24",
    "k": "",
    "x": ""
   },
@@ -1515,14 +1579,6 @@
    "x": ""
   },
   {
-   "t": "EmbeddingGemma 2：开放、轻量级的多模态嵌入模型",
-   "u": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "19:57",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "使用Ironclad推进计算机使用",
    "u": "https://openai.com/index/advancing-computer-use-with-ironclad",
    "s": "外网新声·OpenAI 官方",
@@ -1559,54 +1615,6 @@
    "u": "https://openai.com/index/the-eternal-complement",
    "s": "外网新声·OpenAI 官方",
    "d": "17:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
-   "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-   "s": "外网新声·GitHub 新星",
-   "d": "20:31",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "使用安全的服务器端内存推进专用AI计算",
-   "u": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "16:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "通过Gemini介绍代理视频理解",
-   "u": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "17:08",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "试行全球首个双盲人工智能评估",
-   "u": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "12:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Gemini Robotics ER 2：通过视频理解、任务编排和多机器人协作为机器人技术提供动力",
-   "u": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "15:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "multica-ai/andrej-karpathy-skills —用于改进Claude Code行为的单个CLAUDE.md文件，源自Andrej Karpathy的ob",
-   "u": "https://github.com/multica-ai/andrej-karpathy-skills",
-   "s": "外网新声·GitHub 新星",
-   "d": "10:05",
    "k": "",
    "x": ""
   }
