@@ -1,5 +1,5 @@
 {
- "built": "2026-10-12 14:31:36",
+ "built": "2026-10-12 14:41:28",
  "count": 196,
  "items": [
   {
@@ -1275,14 +1275,6 @@
    "x": ""
   },
   {
-   "t": "Multi-Agent Bug Fix Pipeline: Architecture of Role Separation",
-   "u": "https://github.com/Mininglamp-OSS",
-   "s": "外网新声·Hacker News",
-   "d": "12:05",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Show HN：Skills Hub，用于管理AI 智能体技能的桌面应用程序",
    "u": "https://github.com/qufei1993/skills-hub",
    "s": "外网新声·Hacker News",
@@ -1350,7 +1342,7 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "06:29",
+   "d": "06:39",
    "k": "",
    "x": ""
   },
@@ -1359,14 +1351,6 @@
    "u": "https://github.com/affaan-m/ECC",
    "s": "外网新声·GitHub 新星",
    "d": "06:22",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
-   "s": "外网新声·GitHub 新星",
-   "d": "06:10",
    "k": "",
    "x": ""
   },
@@ -1403,14 +1387,6 @@
    "x": ""
   },
   {
-   "t": "多代理线束需要单独的消息通道",
-   "u": "https://harshalgajjar.com/blog/multi-agent-harnesses-need-separate-message-channels",
-   "s": "外网新声·Hacker News",
-   "d": "04:34",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "对法学硕士能力的共同理解的差距正在扩大",
    "u": "https://twitter.com/karpathy/status/2109361546505966046",
    "s": "外网新声·Hacker News",
@@ -1427,22 +1403,6 @@
    "x": ""
   },
   {
-   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "u": "https://github.com/earendil-works/pi",
-   "s": "外网新声·GitHub 新星",
-   "d": "00:23",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN: Guilds –开源可检验多代理协作框架",
-   "u": "https://github.com/CigaleAI/guilds",
-   "s": "外网新声·Hacker News",
-   "d": "22:11",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "ultraworkers/claw-code -代理管理的博物馆展览，使用Gajae-Code/LazyCodex在Rust中建造—开发和",
    "u": "https://github.com/ultraworkers/claw-code",
    "s": "外网新声·GitHub 新星",
@@ -1451,26 +1411,10 @@
    "x": ""
   },
   {
-   "t": "Show HN：编写自己的多代理工作流程的免费编码代理",
-   "u": "https://kolega.ai/code",
-   "s": "外网新声·Hacker News",
-   "d": "19:01",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
    "u": "https://github.com/IBAX-io/go-ibax",
    "s": "外网新声·GitHub 新星",
    "d": "13:33",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Claude客服代表现在可以编写自己的多客服代表工作流程",
-   "u": "https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration",
-   "s": "外网新声·Hacker News",
-   "d": "18:13",
    "k": "",
    "x": ""
   },
@@ -1567,6 +1511,62 @@
    "u": "https://arxiv.org/abs/2610.13871v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:20",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "全离散条件扩散模型的有限样本保证",
+   "u": "https://arxiv.org/abs/2610.13851v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "返回到开发状态：当完整沙盒快照帮助编码代理时",
+   "u": "https://arxiv.org/abs/2610.13841v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:50",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "论连续扩散语言模型的设计空间",
+   "u": "https://arxiv.org/abs/2610.13834v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:41",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "SpatialASM：内化积极心理化以进行空间推理",
+   "u": "https://arxiv.org/abs/2610.13832v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:39",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "MC-EvoBench：Minecraft智能体的审计体验驱动自我提升",
+   "u": "https://arxiv.org/abs/2610.13829v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:37",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Same Query, Different Answer: Run-to-Run Variance in Semantic Query Processing",
+   "u": "https://arxiv.org/abs/2610.13823v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:34",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "TabMF: Learning Dataset Representations with Tabular Foundation Models",
+   "u": "https://arxiv.org/abs/2610.13818v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:28",
    "k": "",
    "x": ""
   }
