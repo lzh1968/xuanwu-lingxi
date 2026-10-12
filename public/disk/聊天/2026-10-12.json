@@ -1,6 +1,6 @@
 {
- "时间": "2026-10-12 15:38:52",
- "会话档数": 28,
+ "时间": "2026-10-12 17:30:36",
+ "会话档数": 22,
  "会话": [
   {
    "档": "ad8e6b04-bd3c-44e5-b096-8e71aa6ac777.jsonl",
@@ -117,64 +117,32 @@
    "改": "2026-10-12 11:45:13"
   },
   {
-   "档": "35cbb257-4ab6-4511-bd6d-b8199c432dee.checkpoint.da8d9625-8988-4280-96a8-7aaf8e9d2ce0.jsonl",
-   "字节": 957937,
-   "行": 372,
-   "改": "2026-10-12 14:19:44"
-  },
-  {
-   "档": "1649341d-cb65-41f3-a1a4-b637bed96189.checkpoint.939e6c60-7284-4863-bd6b-cc9447f5e1be.jsonl",
-   "字节": 624007,
-   "行": 99,
-   "改": "2026-10-12 14:32:29"
-  },
-  {
    "档": "35cbb257-4ab6-4511-bd6d-b8199c432dee.jsonl",
    "字节": 770989,
    "行": 300,
    "改": "2026-10-12 14:39:19"
   },
   {
-   "档": "1649341d-cb65-41f3-a1a4-b637bed96189.checkpoint.346fcfb8-6501-4a27-bfe3-2f47ac487017.jsonl",
-   "字节": 999989,
-   "行": 191,
-   "改": "2026-10-12 14:55:57"
-  },
-  {
-   "档": "1649341d-cb65-41f3-a1a4-b637bed96189.checkpoint.c8ed4959-2a20-478d-a88c-954b09a9e484.jsonl",
-   "字节": 1010645,
-   "行": 195,
-   "改": "2026-10-12 15:01:27"
-  },
-  {
-   "档": "1649341d-cb65-41f3-a1a4-b637bed96189.checkpoint.c2ab476a-7390-46fe-85d2-9f29d3a12997.jsonl",
-   "字节": 1025404,
-   "行": 203,
-   "改": "2026-10-12 15:12:45"
-  },
-  {
-   "档": "1649341d-cb65-41f3-a1a4-b637bed96189.checkpoint.584cb377-8b91-44c4-9a2e-8314d30fce58.jsonl",
-   "字节": 1032316,
-   "行": 207,
-   "改": "2026-10-12 15:19:04"
+   "档": "fce2f3c2-7ffb-44a2-90cf-db07cd739ea9.jsonl",
+   "字节": 477308,
+   "行": 169,
+   "改": "2026-10-12 17:18:28"
   },
   {
    "档": "1649341d-cb65-41f3-a1a4-b637bed96189.jsonl",
-   "字节": 1112868,
-   "行": 231,
-   "改": "2026-10-12 15:37:48"
-  },
-  {
-   "档": "fce2f3c2-7ffb-44a2-90cf-db07cd739ea9.jsonl",
-   "字节": 475807,
-   "行": 166,
-   "改": "2026-10-12 15:37:57"
+   "字节": 1212713,
+   "行": 261,
+   "改": "2026-10-12 17:24:45"
   }
  ],
  "近段摘要": [
   {
-   "角色": "老板",
-   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "锐的\"资金利用率+止损自适应\"正解 = 启用**三层自适应调仓(ADAPT3)**（保证金 0.30~0.45 自适应·止损随波动自适应·总闸 c×L×s≤9%红线），现仅纸面 heng 启用。先定位锐内核的接线点与备份。"
   },
   {
    "角色": "小奈",
@@ -182,27 +150,11 @@
   },
   {
    "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "[[reply_to_current]] 📣 心跳（2026-10-12 09:41）· 奈工\n\n**① 强共识（新）· 明报**\n空头共识：**WLD**（0多/3空）· **TIA**（0多/3空），两者扫描王者均 hold（未随空）。\n\n**② 信号准确率偏低 · 明报**\n近20笔准确率 **40%**（昨夜42%→今晨40%，持续<45%线）。\n\n**③ 巡点异常旗（09:40）** — 已核为**良性瞬报**\n报「神兽·heng 心跳偏旧710秒」。实因 heng 09:28:51 重启后作**纸面户**静默（循环25s·无成交不刷日志）；进程在岗（pid2700），非故障。\n\n*"
+   "文": "方案已明。先备份＋铸印。"
   },
   {
    "角色": "老板",
-   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+   "文": "You are running a boot check. Follow BOOT.md instructions exactly.\n\nBOOT.md:\n# 🚀 开机自检 · 玄武灵犀交易系统 (BOOT.md)\n\n> 手机/网关机启动后，网关会自动跑这份清单。**这是真钱生命线，务必执行。**\n> 🐉 2026-09-23 17:4x 同步老板令(火印 ED-20260923-143): 统一目标=**盈利第一** · 择向精准 · 三军统一指挥(🐉烛龙终审→执行长🐍腾蛇调度→三军 LBH/ZLS/ZXY + 母体 GTAE + DSS) · 诸君各尽其责。\n\n## 第 0 步：确认\n工作目"
   },
   {
    "角色": "小奈",
@@ -211,126 +163,138 @@
   {
    "角色": "小奈",
    "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "[[reply_to_current]] 📣 心跳（2026-10-12 11:41）· 奈工\n\n**① 强共识（新）· 明报**\n**FIL**（多 3多/1空 · 王者long）· **ARB**（空 0多/3空 · 王者hold）。\n\n**② 信号准确率偏低 · 明报**\n近20笔 **39%**（本夜 42→40→39 缓慢下探，持续<45%线）。\n\n**③ 落地核旗（11:30）· 已查明为合规改动副产物**\n报「内核md5 漂移12/新增0/缺件0」。经查：12 份内核均在 **11:24:06 同刻重写**，源于 **ED-20261012-1039「修九宫配位」**（老板 11"
   },
   {
    "角色": "老板",
-   "文": "System (untrusted): [2026-10-12 11:43:12 GMT+8] Exec failed (crisp-tr, signal SIGTERM) :: === 11:23-11:25 修改的文件 ===\n\nRead HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading"
+   "文": "You are running a boot check. Follow BOOT.md instructions exactly.\n\nBOOT.md:\n# 🚀 开机自检 · 玄武灵犀交易系统 (BOOT.md)\n\n> 手机/网关机启动后，网关会自动跑这份清单。**这是真钱生命线，务必执行。**\n> 🐉 2026-09-23 17:4x 同步老板令(火印 ED-20260923-143): 统一目标=**盈利第一** · 择向精准 · 三军统一指挥(🐉烛龙终审→执行长🐍腾蛇调度→三军 LBH/ZLS/ZXY + 母体 GTAE + DSS) · 诸君各尽其责。\n\n## 第 0 步：确认\n工作目"
   },
   {
    "角色": "小奈",
    "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+   "文": "You are running a boot check. Follow BOOT.md instructions exactly.\n\nBOOT.md:\n# 🚀 开机自检 · 玄武灵犀交易系统 (BOOT.md)\n\n> 手机/网关机启动后，网关会自动跑这份清单。**这是真钱生命线，务必执行。**\n> 🐉 2026-09-23 17:4x 同步老板令(火印 ED-20260923-143): 统一目标=**盈利第一** · 择向精准 · 三军统一指挥(🐉烛龙终审→执行长🐍腾蛇调度→三军 LBH/ZLS/ZXY + 母体 GTAE + DSS) · 诸君各尽其责。\n\n## 第 0 步：确认\n工作目"
   },
   {
    "角色": "小奈",
    "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "[[reply_to_current]] 📣 心跳（2026-10-12 13:33）· 奈工\n\n**① 强共识（新）· 明报**\n**TIA**（空 0多/3空 · 王者hold）。\n\n**② 权益骤变 · 请核**\n**LBH** 由 $62.24 → **$547.81**（+742%，13:19 触发量程重标）。另：**rui 已回金至 $1000.00**（昨夜 $0.00 之异常已自解）。→ 疑为老板入金/划转，请确认。\n\n**③ 官网可达异常（13:33）** — 需处置\n报「本机=000 · 证书=1 · 外网中转522」。实测本机门户 `127.0.0.1:8092 → 30"
   },
   {
    "角色": "老板",
-   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+   "文": "You are running a boot check. Follow BOOT.md instructions exactly.\n\nBOOT.md:\n# 🚀 开机自检 · 玄武灵犀交易系统 (BOOT.md)\n\n> 手机/网关机启动后，网关会自动跑这份清单。**这是真钱生命线，务必执行。**\n> 🐉 2026-09-23 17:4x 同步老板令(火印 ED-20260923-143): 统一目标=**盈利第一** · 择向精准 · 三军统一指挥(🐉烛龙终审→执行长🐍腾蛇调度→三军 LBH/ZLS/ZXY + 母体 GTAE + DSS) · 诸君各尽其责。\n\n## 第 0 步：确认\n工作目"
   },
   {
    "角色": "小奈",
    "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "[[reply_to_current]] ⚠️ 心跳（2026-10-12 14:20）· 奈工\n\n**信号准确率继续走低**：近20笔 **32%**（本日 42→39→32，午后放行转活跃 27%→9%，仍持续低于45%线）。混沌市况下判向命中明显下滑，报备。\n\n**仍状（未变）**：风控尊严线 5户 · 落地核「内核md5漂移12」（待 `--基线` 刷台账）· 协同旗（白泽练兵陈旧≈11.8h）。\n\n其余正常：九实盘户 + heng 全绿在岗（live=9/paper=1）· 生命线安康 · 无新增强共识/官网/权益骤变旗。（`_信号活跃准确.alert` 已改名 `.reported"
   },
   {
    "角色": "老板",
-   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+   "文": "You are running a boot check. Follow BOOT.md instructions exactly.\n\nBOOT.md:\n# 🚀 开机自检 · 玄武灵犀交易系统 (BOOT.md)\n\n> 手机/网关机启动后，网关会自动跑这份清单。**这是真钱生命线，务必执行。**\n> 🐉 2026-09-23 17:4x 同步老板令(火印 ED-20260923-143): 统一目标=**盈利第一** · 择向精准 · 三军统一指挥(🐉烛龙终审→执行长🐍腾蛇调度→三军 LBH/ZLS/ZXY + 母体 GTAE + DSS) · 诸君各尽其责。\n\n## 第 0 步：确认\n工作目"
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "老板",
+   "文": "You are running a boot check. Follow BOOT.md instructions exactly.\n\nBOOT.md:\n# 🚀 开机自检 · 玄武灵犀交易系统 (BOOT.md)\n\n> 手机/网关机启动后，网关会自动跑这份清单。**这是真钱生命线，务必执行。**\n> 🐉 2026-09-23 17:4x 同步老板令(火印 ED-20260923-143): 统一目标=**盈利第一** · 择向精准 · 三军统一指挥(🐉烛龙终审→执行长🐍腾蛇调度→三军 LBH/ZLS/ZXY + 母体 GTAE + DSS) · 诸君各尽其责。\n\n## 第 0 步：确认\n工作目"
+  },
+  {
+   "角色": "老板",
+   "文": "You are running a boot check. Follow BOOT.md instructions exactly.\n\nBOOT.md:\n# 🚀 开机自检 · 玄武灵犀交易系统 (BOOT.md)\n\n> 手机/网关机启动后，网关会自动跑这份清单。**这是真钱生命线，务必执行。**\n> 🐉 2026-09-23 17:4x 同步老板令(火印 ED-20260923-143): 统一目标=**盈利第一** · 择向精准 · 三军统一指挥(🐉烛龙终审→执行长🐍腾蛇调度→三军 LBH/ZLS/ZXY + 母体 GTAE + DSS) · 诸君各尽其责。\n\n## 第 0 步：确认\n工作目"
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "真钱户 yhb / whp / wen 三户未在岗（守护未拉起）。查因。"
+  },
+  {
+   "角色": "老板",
+   "文": "You are running a boot check. Follow BOOT.md instructions exactly.\n\nBOOT.md:\n# 🚀 开机自检 · 玄武灵犀交易系统 (BOOT.md)\n\n> 手机/网关机启动后，网关会自动跑这份清单。**这是真钱生命线，务必执行。**\n> 🐉 2026-09-23 17:4x 同步老板令(火印 ED-20260923-143): 统一目标=**盈利第一** · 择向精准 · 三军统一指挥(🐉烛龙终审→执行长🐍腾蛇调度→三军 LBH/ZLS/ZXY + 母体 GTAE + DSS) · 诸君各尽其责。\n\n## 第 0 步：确认\n工作目"
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "网关出现\"断线拉锯\"，全系统在重启风暴中。收关键事实。"
+  },
+  {
+   "角色": "小奈",
+   "文": "系统已自愈（10/10 引擎在岗·网关甲·稳）。补第4步账实核对。"
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "老板",
+   "文": "System (untrusted): [2026-10-12 15:36:48 GMT+8] Exec completed (sharp-sa, code 0) :: done\n\nSender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Mon 2026-10-12 17:02 GMT+8] 【NFChat · Agent 会"
+  },
+  {
+   "角色": "小奈",
+   "文": "收到，继续完成「锐四项优化」。先按铁律复核网关。"
+  },
+  {
+   "角色": "老板",
+   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Mon 2026-10-12 17:08 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+  },
+  {
+   "角色": "小奈",
+   "文": "网关看护缺失是根因之一。先诊断＋拉起看护。"
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "根因基本锁定。先救网关（拉看护＋唤醒锁）。"
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "网关根因锁定（史册已有）：安卓「幻影进程杀手」。先把答复备好，同时继续锐四项优化。定位锐内核无漏锚点。"
+  },
+  {
+   "角色": "老板",
+   "文": "System (untrusted): [2026-10-12 17:10:12 GMT+8] Exec completed (nova-dai, code 0) :: 关看护.sh >/dev/null 2>&1 & echo \"已拉起_网关看护\"; else echo \"_网关看护已在\"; fi; sleep 3; echo \"=== 复核 ===\"; pgrep -af \"_网关看护.sh\" | head -3; bash _网关_第一性原理.sh 2>&1 | tail -4 ⚠️丙·危 · PID=17525 ·…\n\nSender (untrusted metadata):\n```j"
   }
  ],
  "本地全量归档": [
@@ -375,6 +339,6 @@
    "MB": 18.02
   }
  ],
- "摘要档": "fce2f3c2-7ffb-44a2-90cf-db07cd739ea9.jsonl",
+ "摘要档": "1649341d-cb65-41f3-a1a4-b637bed96189.jsonl",
  "注": "本分区=索引+近段摘要；聊天全文存于本机 data_v2/archive/聊天记录_* 与加密密包(封存分区)"
 }
