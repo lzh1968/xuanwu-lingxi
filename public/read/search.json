@@ -1,5 +1,5 @@
 {
- "built": "2026-10-12 09:22:08",
+ "built": "2026-10-12 09:28:42",
  "count": 196,
  "items": [
   {
@@ -1275,6 +1275,30 @@
    "x": ""
   },
   {
+   "t": "Show HN：Plimsoll，用于AI 智能体编写代码的自托管沙箱",
+   "u": "https://github.com/plimsollmark/plimsoll",
+   "s": "外网新声·Hacker News",
+   "d": "07:47",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：Seodata.dev (1.1) AI 智能体的免费搜索数据",
+   "u": "https://www.seodata.dev/",
+   "s": "外网新声·Hacker News",
+   "d": "06:56",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Botmail：每个AI 智能体的邮箱",
+   "u": "https://botmail.pro/",
+   "s": "外网新声·Hacker News",
+   "d": "05:47",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "展示HN：LLMxRay一个面向LLM的开源可观测性工具",
    "u": "https://github.com/LogneBudo/llmxray",
    "s": "外网新声·Hacker News",
@@ -1299,6 +1323,14 @@
    "x": ""
   },
   {
+   "t": "管道中的幽灵：让智能体直接访问实时Smalltalk图像",
+   "u": "https://medium.com/@paul_93782/the-ghost-in-the-pipe-e6643e2f08a4",
+   "s": "外网新声·Hacker News",
+   "d": "04:30",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "对法学硕士能力的共同理解的差距正在扩大",
    "u": "https://twitter.com/karpathy/status/2109361546505966046",
    "s": "外网新声·Hacker News",
@@ -1307,10 +1339,26 @@
    "x": ""
   },
   {
-   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
-   "u": "https://github.com/affaan-m/ECC",
-   "s": "外网新声·GitHub 新星",
-   "d": "00:49",
+   "t": "问HN：成群的人工智能智能体是如何工作的？",
+   "u": "https://news.ycombinator.com/item?id=50047180",
+   "s": "外网新声·Hacker News",
+   "d": "03:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "客服代表航班",
+   "u": "https://www.flyskye.ai/partners",
+   "s": "外网新声·Hacker News",
+   "d": "03:54",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "自我改进的RLM代理，用于编码工作流程和长期运行的自主任务",
+   "u": "https://github.com/PrimeIntellect-ai/prime-agent",
+   "s": "外网新声·Hacker News",
+   "d": "02:44",
    "k": "",
    "x": ""
   },
@@ -1318,7 +1366,15 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "00:33",
+   "d": "01:26",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
+   "u": "https://github.com/affaan-m/ECC",
+   "s": "外网新声·GitHub 新星",
+   "d": "00:49",
    "k": "",
    "x": ""
   },
@@ -1371,14 +1427,6 @@
    "x": ""
   },
   {
-   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
-   "u": "https://github.com/IBAX-io/go-ibax",
-   "s": "外网新声·GitHub 新星",
-   "d": "13:33",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Claude客服代表现在可以编写自己的多客服代表工作流程",
    "u": "https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration",
    "s": "外网新声·Hacker News",
@@ -1395,10 +1443,106 @@
    "x": ""
   },
   {
+   "t": "FedPCD：优先级约束的联合聚合",
+   "u": "https://arxiv.org/abs/2610.13508v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "12:34",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "超越时间接近：强化学习中学分分配的解释性世界模型",
+   "u": "https://arxiv.org/abs/2610.13504v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "12:30",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "SqueezeBench: Saturation-Resilient Evaluation of Mathematical Capability",
+   "u": "https://arxiv.org/abs/2610.13461v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "11:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Revisiting Accent Classification with DistilHuBERT: Speaker-Disjoint Evaluation and Cross-Corpus Generalization",
+   "u": "https://arxiv.org/abs/2610.13440v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "11:38",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "PPG-Bench: A Unified Benchmark for PPG Foundation Models",
+   "u": "https://arxiv.org/abs/2610.13435v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "11:34",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "In-Context Learning for System Identification: Probabilistic Formulation, Long-Sequence Handling, and Benchmark Validation",
+   "u": "https://arxiv.org/abs/2610.13411v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "11:21",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Accelerating Linear Bandits with Persistent Candidate Sets",
+   "u": "https://arxiv.org/abs/2610.13407v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "11:20",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Model-free Bayesian Clustering and Multimodal Posterior Summarisation",
+   "u": "https://arxiv.org/abs/2610.13397v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "11:10",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "BLOKS: Scaling Kernel Solvers with Sketched Block Preconditioning",
+   "u": "https://arxiv.org/abs/2610.13382v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "10:57",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
    "u": "https://github.com/mattpocock/skills",
    "s": "外网新声·GitHub 新星",
    "d": "10:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Overcoming Data Imbalances with Expert Selection Biases",
+   "u": "https://arxiv.org/abs/2610.13370v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "10:45",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Opening the Black Box of Classifier-Free Guidance via Information Bottleneck",
+   "u": "https://arxiv.org/abs/2610.13369v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "10:44",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "AgentSWE: Can Coding Agents Build the Agent You Actually Want?",
+   "u": "https://arxiv.org/abs/2610.13361v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "10:35",
    "k": "",
    "x": ""
   },
@@ -1419,154 +1563,10 @@
    "x": ""
   },
   {
-   "t": "CSF：运动发生器的上下文安全过滤",
-   "u": "https://arxiv.org/abs/2610.12467v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "平衡的数据饮食：解决Mega-Scale RL用于机器人控制的探索瓶颈",
-   "u": "https://arxiv.org/abs/2610.12465v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "从被动遏制到主动保障：OpenAI、Anthropic和Google Agent安全事件的经验教训",
    "u": "https://arxiv.org/abs/2610.12463v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "BrickBench：评估Agentic Brick设计",
-   "u": "https://arxiv.org/abs/2610.12452v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "一个区块，多个深度：具有深度编程专家的循环视觉变压器",
-   "u": "https://arxiv.org/abs/2610.12448v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "陷入困境：探测器有效地检测破坏并捕捉未言语的欺骗",
-   "u": "https://arxiv.org/abs/2610.12445v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "预处理器空间的舍入：重新设计4位AdamW优化器-状态量化",
-   "u": "https://arxiv.org/abs/2610.12444v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "智能体生态：合作为起飞创造人口阈值",
-   "u": "https://arxiv.org/abs/2610.12436v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:57",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "信念：高维系统的可行性感知安全过滤RL",
-   "u": "https://arxiv.org/abs/2610.12432v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:57",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "RoboRSI：在复杂的现实环境中实现稳定、高效和可重复使用的机器人自我进化",
-   "u": "https://arxiv.org/abs/2610.12424v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "安全关键强化学习的统一Bellman运算符",
-   "u": "https://arxiv.org/abs/2610.12420v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:53",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "编织：将视觉世界建模编织成多模态LLM",
-   "u": "https://arxiv.org/abs/2610.12417v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:52",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "MAMHOI：通过Affordances分解场景感知人物交互",
-   "u": "https://arxiv.org/abs/2610.12416v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:52",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "使用值表示预测对齐泛化",
-   "u": "https://arxiv.org/abs/2610.12410v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:47",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "搜索“有害拒绝”：人工智能安全基准的心理测量审计",
-   "u": "https://arxiv.org/abs/2610.12409v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:46",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "LeWAM：基于扩散转向的MPC的JEPA世界行动模型",
-   "u": "https://arxiv.org/abs/2610.12407v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:46",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "具有全球-区域对齐的学习公里级天气预测",
-   "u": "https://arxiv.org/abs/2610.12401v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:43",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "HRIL：通过高阶张量建模学习多模态协同",
-   "u": "https://arxiv.org/abs/2610.12393v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:39",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "GeoReform：用于解决多模态几何问题的反射形式化演变",
-   "u": "https://arxiv.org/abs/2610.12391v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:39",
    "k": "",
    "x": ""
   }
