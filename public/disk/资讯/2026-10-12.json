@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-12",
- "落盘": "2026-10-12 13:29:21",
+ "落盘": "2026-10-12 13:35:58",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "Decision 3.0: open, multimodal SOTA decision models from 0.6B to 27B",
+   "url": "https://huggingface.co/collections/vllm-sr/decision-30",
+   "type": "live"
+  },
   {
    "title": "Show HN: Gen-system, parser facts about source code for local LLMs",
    "url": "https://github.com/hpdkhoa/gen-system",
@@ -37,11 +42,6 @@
   {
    "title": "是的，我了解LLM的工作原理",
    "url": "https://kemendo.com/yes-i-understand-how-llms-work.html",
-   "type": "live"
-  },
-  {
-   "title": "MASS：通过多代理自我监督实现递归自我提升",
-   "url": "https://pub.sakana.ai/mass/?href=",
    "type": "live"
   },
   {
