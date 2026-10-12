@@ -1,5 +1,5 @@
 {
- "built": "2026-10-12 10:09:59",
+ "built": "2026-10-12 10:16:20",
  "count": 196,
  "items": [
   {
@@ -1251,6 +1251,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "AI编码代理生成更多代码，但不会生成更多软件",
+   "u": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+   "s": "外网新声·Hacker News",
+   "d": "10:10",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "问HN：我们是否可以阻止向HN展示“运送初稿”",
    "u": "https://news.ycombinator.com/item?id=50049991",
    "s": "外网新声·Hacker News",
@@ -1355,10 +1363,34 @@
    "x": ""
   },
   {
-   "t": "自我改进的RLM代理，用于编码工作流程和长期运行的自主任务",
-   "u": "https://github.com/PrimeIntellect-ai/prime-agent",
-   "s": "外网新声·Hacker News",
-   "d": "02:44",
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "02:03",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
+   "u": "https://github.com/affaan-m/ECC",
+   "s": "外网新声·GitHub 新星",
+   "d": "02:02",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "01:35",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
+   "s": "外网新声·GitHub 新星",
+   "d": "00:23",
    "k": "",
    "x": ""
   },
@@ -1367,6 +1399,22 @@
    "u": "https://github.com/CigaleAI/guilds",
    "s": "外网新声·Hacker News",
    "d": "22:11",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
+   "s": "外网新声·GitHub 新星",
+   "d": "21:31",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ultraworkers/claw-code -代理管理的博物馆展览，使用Gajae-Code/LazyCodex在Rust中建造—开发和",
+   "u": "https://github.com/ultraworkers/claw-code",
+   "s": "外网新声·GitHub 新星",
+   "d": "20:40",
    "k": "",
    "x": ""
   },
@@ -1395,6 +1443,30 @@
    "x": ""
   },
   {
+   "t": "obra/superpowers —有效的代理技能框架和软件开发方法。",
+   "u": "https://github.com/obra/superpowers",
+   "s": "外网新声·GitHub 新星",
+   "d": "03:03",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "救援：此警报是否值得采取行动？ VLA运行时监视器的反事实评估",
+   "u": "https://arxiv.org/abs/2610.13516v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "12:38",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "具有异质性证据集成用于临床预后的检索增强多模式语言模型",
+   "u": "https://arxiv.org/abs/2610.13510v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "12:35",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "FedPCD：优先级约束的联合聚合",
    "u": "https://arxiv.org/abs/2610.13508v1",
    "s": "外网新声·arXiv cs.LG",
@@ -1405,16 +1477,56 @@
   {
    "t": "超越时间接近：强化学习中学分分配的解释性世界模型",
    "u": "https://arxiv.org/abs/2610.13504v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "12:30",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "人性化MLE代理：超越单代理限制的多代理会话交替",
+   "u": "https://arxiv.org/abs/2610.13494v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "12:26",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "分支随机蒸馏",
+   "u": "https://arxiv.org/abs/2610.13481v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "12:13",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "为安全保证生成边缘案例场景的本地代理AI框架",
+   "u": "https://arxiv.org/abs/2610.13479v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "12:13",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "当传销错过人类阅读的内容时：诊断和学习阅读斜视文本",
+   "u": "https://arxiv.org/abs/2610.13465v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "12:02",
    "k": "",
    "x": ""
   },
   {
    "t": "SqueezeBench：数学能力的饱和弹性评估",
    "u": "https://arxiv.org/abs/2610.13461v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "11:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "代理大模型",
+   "u": "https://arxiv.org/abs/2610.13455v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "11:57",
    "k": "",
    "x": ""
   },
@@ -1427,6 +1539,14 @@
    "x": ""
   },
   {
+   "t": "推出时间干预：超越政策限制解锁客服强化学习",
+   "u": "https://arxiv.org/abs/2610.13438v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "11:37",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "PPG-Bench：PPG基础模型的统一基准",
    "u": "https://arxiv.org/abs/2610.13435v1",
    "s": "外网新声·arXiv cs.LG",
@@ -1435,138 +1555,18 @@
    "x": ""
   },
   {
-   "t": "系统识别的上下文学习：概率公式、长序列处理和基准验证",
-   "u": "https://arxiv.org/abs/2610.13411v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "11:21",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "通过持续的候选人集合加速线性强盗",
-   "u": "https://arxiv.org/abs/2610.13407v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "11:20",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "无模型贝叶斯聚类和多模态后验总结",
-   "u": "https://arxiv.org/abs/2610.13397v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "11:10",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "BLOKS：使用草图块预处理扩展内核求解器",
-   "u": "https://arxiv.org/abs/2610.13382v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "10:57",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "利用专家选择偏差克服数据不平衡",
-   "u": "https://arxiv.org/abs/2610.13370v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "10:45",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "通过信息瓶颈打开无分类器指导的黑匣子",
-   "u": "https://arxiv.org/abs/2610.13369v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "10:44",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "AgentSWE：编码代理可以构建您真正想要的代理吗？",
-   "u": "https://arxiv.org/abs/2610.13361v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "10:35",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Asana使用GPT-6.1 Sol将浏览器测试中的模型成本降低了76倍",
-   "u": "https://openai.com/index/asana-browser-agent",
-   "s": "外网新声·OpenAI 官方",
-   "d": "07:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "DeLM：具有共享上下文的去中心化多Agent系统",
-   "u": "https://yuzhenmao.github.io/DeLM/",
-   "s": "外网新声·Hacker News",
-   "d": "02:40",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "从被动遏制到主动保障：OpenAI、Anthropic和Google Agent安全事件的经验教训",
-   "u": "https://arxiv.org/abs/2610.12463v1",
+   "t": "用于高分辨率子度DOA估计的带有S形标记的CNN变压器",
+   "u": "https://arxiv.org/abs/2610.13433v1",
    "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
+   "d": "11:34",
    "k": "",
    "x": ""
   },
   {
-   "t": "BrickBench：评估Agentic Brick设计",
-   "u": "https://arxiv.org/abs/2610.12452v1",
+   "t": "Web $ hell：Agentic Web Access的统一界面",
+   "u": "https://arxiv.org/abs/2610.13416v1",
    "s": "外网新声·arXiv cs.AI",
-   "d": "17:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "陷入困境：探测器有效地检测破坏并捕捉未言语的欺骗",
-   "u": "https://arxiv.org/abs/2610.12445v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "智能体生态：合作为起飞创造人口阈值",
-   "u": "https://arxiv.org/abs/2610.12436v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:57",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "RoboRSI：在复杂的现实环境中实现稳定、高效和可重复使用的机器人自我进化",
-   "u": "https://arxiv.org/abs/2610.12424v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "MAMHOI：通过Affordances分解场景感知人物交互",
-   "u": "https://arxiv.org/abs/2610.12416v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:52",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "使用值表示预测对齐泛化",
-   "u": "https://arxiv.org/abs/2610.12410v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:47",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "搜索“有害拒绝”：人工智能安全基准的心理测量审计",
-   "u": "https://arxiv.org/abs/2610.12409v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:46",
+   "d": "11:23",
    "k": "",
    "x": ""
   }
