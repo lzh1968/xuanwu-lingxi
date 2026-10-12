@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-12",
- "落盘": "2026-10-12 10:16:26",
+ "落盘": "2026-10-12 10:31:35",
  "条数": 14,
- "live": 60,
+ "live": 47,
  "条目": [
+  {
+   "title": "英伟达、微软推出搭载RTX Spark和智能体的Windows PC",
+   "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+   "type": "live"
+  },
   {
    "title": "AI编码代理生成更多代码，但不会生成更多软件",
    "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
@@ -37,11 +42,6 @@
   {
    "title": "Botmail：每个AI 智能体的邮箱",
    "url": "https://botmail.pro/",
-   "type": "live"
-  },
-  {
-   "title": "展示HN：LLMxRay一个面向LLM的开源可观测性工具",
-   "url": "https://github.com/LogneBudo/llmxray",
    "type": "live"
   },
   {
