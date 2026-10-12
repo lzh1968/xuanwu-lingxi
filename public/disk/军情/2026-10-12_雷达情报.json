@@ -2,15 +2,9 @@
  "日期": "2026-10-12",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-12 21:46:57",
+  "updated": "2026-10-12 22:04:59",
   "chosen": "FIL short",
   "nodes": [
-   {
-    "coin": "ADA",
-    "side": "short",
-    "align": 1,
-    "embryo": 3.7
-   },
    {
     "coin": "AVAX",
     "side": "short",
@@ -21,7 +15,7 @@
     "coin": "FIL",
     "side": "short",
     "align": 1,
-    "embryo": 1.2
+    "embryo": 1.7
    },
    {
     "coin": "BTC",
@@ -43,6 +37,12 @@
    },
    {
     "coin": "XRP",
+    "side": "",
+    "align": 0,
+    "embryo": 0.0
+   },
+   {
+    "coin": "ADA",
     "side": "",
     "align": 0,
     "embryo": 0.0
