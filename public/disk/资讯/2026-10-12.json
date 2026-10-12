@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-12",
- "落盘": "2026-10-12 14:10:39",
+ "落盘": "2026-10-12 14:17:03",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "AI agents broke into 27 online retailers for $25 a company",
+   "url": "https://trustboundarystudio.com/posts/ai-agents-retail-2026/",
+   "type": "live"
+  },
   {
    "title": "Decision 3.0: open, multimodal SOTA decision models from 0.6B to 27B",
    "url": "https://huggingface.co/collections/vllm-sr/decision-30",
@@ -20,28 +25,23 @@
    "type": "live"
   },
   {
+   "title": "Show HN：Skills Hub，用于管理AI 智能体技能的桌面应用程序",
+   "url": "https://github.com/qufei1993/skills-hub",
+   "type": "live"
+  },
+  {
+   "title": "英伟达、微软推出搭载RTX Spark和智能体的Windows PC",
+   "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+   "type": "live"
+  },
+  {
+   "title": "AI编码代理生成更多代码，但不会生成更多软件",
+   "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+   "type": "live"
+  },
+  {
    "title": "问HN：我们是否可以阻止向HN展示“运送初稿”",
    "url": "https://news.ycombinator.com/item?id=50049991",
-   "type": "live"
-  },
-  {
-   "title": "是的，我了解LLM的工作原理",
-   "url": "https://kemendo.com/yes-i-understand-how-llms-work.html",
-   "type": "live"
-  },
-  {
-   "title": "MASS：通过多代理自我监督实现递归自我提升",
-   "url": "https://pub.sakana.ai/mass/?href=",
-   "type": "live"
-  },
-  {
-   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "url": "https://github.com/ggml-org/llama.cpp",
-   "type": "live"
-  },
-  {
-   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "url": "https://github.com/NousResearch/hermes-agent",
    "type": "live"
   },
   {
