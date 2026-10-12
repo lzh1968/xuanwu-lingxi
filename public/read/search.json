@@ -1,5 +1,5 @@
 {
- "built": "2026-10-12 15:29:34",
+ "built": "2026-10-12 15:40:29",
  "count": 196,
  "items": [
   {
@@ -1251,34 +1251,10 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "Fetch transformers, HF download etc. via Torrent with uv run pirateface",
-   "u": "https://github.com/pirateface/pirateface_hub",
-   "s": "外网新声·Hacker News",
-   "d": "15:18",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "AI agents broke into 27 online retailers for $25 a company",
    "u": "https://trustboundarystudio.com/posts/ai-agents-retail-2026/",
    "s": "外网新声·Hacker News",
    "d": "13:48",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Decision 3.0: open, multimodal SOTA decision models from 0.6B to 27B",
-   "u": "https://huggingface.co/collections/vllm-sr/decision-30",
-   "s": "外网新声·Hacker News",
-   "d": "13:33",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN: Gen-system, parser facts about source code for local LLMs",
-   "u": "https://github.com/hpdkhoa/gen-system",
-   "s": "外网新声·Hacker News",
-   "d": "13:25",
    "k": "",
    "x": ""
   },
@@ -1315,22 +1291,6 @@
    "x": ""
   },
   {
-   "t": "问HN：我们是否可以阻止向HN展示“运送初稿”",
-   "u": "https://news.ycombinator.com/item?id=50049991",
-   "s": "外网新声·Hacker News",
-   "d": "09:03",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "是的，我了解LLM的工作原理",
-   "u": "https://kemendo.com/yes-i-understand-how-llms-work.html",
-   "s": "外网新声·Hacker News",
-   "d": "08:16",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "MASS：通过多代理自我监督实现递归自我提升",
    "u": "https://pub.sakana.ai/mass/?href=",
    "s": "外网新声·Hacker News",
@@ -1343,22 +1303,6 @@
    "u": "https://github.com/plimsollmark/plimsoll",
    "s": "外网新声·Hacker News",
    "d": "07:47",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "u": "https://github.com/earendil-works/pi",
-   "s": "外网新声·GitHub 新星",
-   "d": "07:21",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
-   "s": "外网新声·GitHub 新星",
-   "d": "07:16",
    "k": "",
    "x": ""
   },
@@ -1379,34 +1323,10 @@
    "x": ""
   },
   {
-   "t": "展示HN：LLMxRay一个面向LLM的开源可观测性工具",
-   "u": "https://github.com/LogneBudo/llmxray",
-   "s": "外网新声·Hacker News",
-   "d": "05:17",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "通用LLM服务器",
-   "u": "https://zml.ai/llmd/",
-   "s": "外网新声·Hacker News",
-   "d": "05:03",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "多代理线束需要单独的消息通道",
    "u": "https://harshalgajjar.com/blog/multi-agent-harnesses-need-separate-message-channels",
    "s": "外网新声·Hacker News",
    "d": "04:34",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "对法学硕士能力的共同理解的差距正在扩大",
-   "u": "https://twitter.com/karpathy/status/2109361546505966046",
-   "s": "外网新声·Hacker News",
-   "d": "04:20",
    "k": "",
    "x": ""
   },
@@ -1423,14 +1343,6 @@
    "u": "https://kolega.ai/code",
    "s": "外网新声·Hacker News",
    "d": "19:01",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
-   "u": "https://github.com/IBAX-io/go-ibax",
-   "s": "外网新声·GitHub 新星",
-   "d": "13:33",
    "k": "",
    "x": ""
   },
@@ -1567,6 +1479,94 @@
    "u": "https://arxiv.org/abs/2610.13829v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "16:37",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Same Query, Different Answer: Run-to-Run Variance in Semantic Query Processing",
+   "u": "https://arxiv.org/abs/2610.13823v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:34",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "TabMF: Learning Dataset Representations with Tabular Foundation Models",
+   "u": "https://arxiv.org/abs/2610.13818v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:28",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Dream to Remember: Continual Steering of Generalist Robot Policies with World Models",
+   "u": "https://arxiv.org/abs/2610.13816v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:28",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Spanning Diffusion and Flow-based Posterior Sampling via Exact Gaussian Conditioning",
+   "u": "https://arxiv.org/abs/2610.13812v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:24",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "FORTE: A Production Framework for Feature Evaluation and Deprecation in Industrial Recommender Systems",
+   "u": "https://arxiv.org/abs/2610.13806v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:18",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Your Discrete Graph Diffusion Model is Secretly Memorizing",
+   "u": "https://arxiv.org/abs/2610.13786v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:04",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "UkrMeme: Multimodal Explainable Persuasion Detection in Ukrainian Memes",
+   "u": "https://arxiv.org/abs/2610.13783v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:03",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "DualQuant: Dual-scale Calibration-free Weight-and-Activation Quantization for LLMs",
+   "u": "https://arxiv.org/abs/2610.13767v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "15:51",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "When Edge Independence Fails: Joint Graph Diffusion with Latent Sociability Priors",
+   "u": "https://arxiv.org/abs/2610.13765v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "15:50",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Matched-Context Group Policy Optimization for LLM Agent Training",
+   "u": "https://arxiv.org/abs/2610.13755v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "15:41",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "A Privileged Teacher That Only Scores Cannot Search: Critique-Conditioned On-Policy Self-Distillation for Reasoning",
+   "u": "https://arxiv.org/abs/2610.13744v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "15:36",
    "k": "",
    "x": ""
   }
