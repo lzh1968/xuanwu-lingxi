@@ -2,32 +2,20 @@
  "日期": "2026-10-12",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-12 12:39:54",
-  "chosen": "SEI long",
+  "updated": "2026-10-12 12:56:54",
+  "chosen": "INJ long",
   "nodes": [
    {
-    "coin": "FIL",
+    "coin": "SUI",
     "side": "long",
     "align": 3,
-    "embryo": 3.2
-   },
-   {
-    "coin": "SEI",
-    "side": "long",
-    "align": 3,
-    "embryo": 1.8
+    "embryo": 3.5
    },
    {
     "coin": "INJ",
     "side": "long",
     "align": 3,
     "embryo": 1.8
-   },
-   {
-    "coin": "ADA",
-    "side": "short",
-    "align": 0,
-    "embryo": -0.8
    },
    {
     "coin": "BTC",
@@ -54,6 +42,12 @@
     "embryo": 0.0
    },
    {
+    "coin": "ADA",
+    "side": "",
+    "align": 0,
+    "embryo": 0.0
+   },
+   {
     "coin": "LTC",
     "side": "",
     "align": 0,
@@ -67,12 +61,6 @@
    },
    {
     "coin": "NEAR",
-    "side": "",
-    "align": 0,
-    "embryo": 0.0
-   },
-   {
-    "coin": "SUI",
     "side": "",
     "align": 0,
     "embryo": 0.0
@@ -96,6 +84,12 @@
     "embryo": 0.0
    },
    {
+    "coin": "FIL",
+    "side": "",
+    "align": 0,
+    "embryo": 0.0
+   },
+   {
     "coin": "ARB",
     "side": "",
     "align": 0,
@@ -109,6 +103,12 @@
    },
    {
     "coin": "ETH",
+    "side": "",
+    "align": 0,
+    "embryo": 0.0
+   },
+   {
+    "coin": "SEI",
     "side": "",
     "align": 0,
     "embryo": 0.0
