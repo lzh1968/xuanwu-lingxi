@@ -1,5 +1,5 @@
 {
- "时间": "2026-10-12 11:46:59",
+ "时间": "2026-10-12 11:54:03",
  "会话档数": 21,
  "会话": [
   {
@@ -105,12 +105,6 @@
    "改": "2026-10-12 03:04:06"
   },
   {
-   "档": "35cbb257-4ab6-4511-bd6d-b8199c432dee.jsonl",
-   "字节": 905121,
-   "行": 263,
-   "改": "2026-10-12 11:38:46"
-  },
-  {
    "档": "fce2f3c2-7ffb-44a2-90cf-db07cd739ea9.jsonl",
    "字节": 411528,
    "行": 133,
@@ -127,14 +121,16 @@
    "字节": 257838,
    "行": 64,
    "改": "2026-10-12 11:45:13"
+  },
+  {
+   "档": "35cbb257-4ab6-4511-bd6d-b8199c432dee.jsonl",
+   "字节": 991133,
+   "行": 285,
+   "改": "2026-10-12 11:53:59"
   }
  ],
  "近段摘要": [
   {
-   "角色": "老板",
-   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
-  },
-  {
    "角色": "小奈",
    "文": ""
   },
@@ -152,59 +148,11 @@
   },
   {
    "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "HEARTBEAT_OK"
+   "文": "[[reply_to_current]] 推演完了，老板。归位后**腾蛇＝执令开仓**，其择向应\"**唯令是从**\"——现状链**骨架已具备**，但有**三处漏点**会让它\"执行不到位\"。\n\n**一、现有链（已具备）**\n`观星台五贼选王 → 核币王令(四源共振+精准定位+敏感度) → 达标才出名 → 腾蛇·依币王令写王上手谕(全户) → 内核「王令至上」把王令币置顶且只从王令币择 → 「一票之闸」无同向令不开 → 腾蛇择向收敛到币王`\n（两器 `_核_币王令`、`_腾蛇_依币王令` 均已挂总管·每300秒，执令旗在位 ✅）\n\n**二、三处漏点（执行不到位）**\n1. **当轮常\"无王\"（最大"
   },
   {
    "角色": "老板",
-   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+   "文": "Pre-compaction memory flush. Store durable memories only in memory/2026-10-12.md (create memory/ if needed). Treat workspace bootstrap/reference files such as MEMORY.md, DREAMS.md, SOUL.md, TOOLS.md, and AGENTS.md as read-only during this flush; never overwrite, replace, or edit them. If memory/2026"
   },
   {
    "角色": "小奈",
@@ -216,23 +164,15 @@
   },
   {
    "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "Fresh items need attention this round (官网可达 fresh flag + rui 权益归零). Handling:"
-  },
-  {
-   "角色": "小奈",
-   "文": "🫀 心跳巡检·03:34 · 两条需禀报\n\n**① 🌐 官网可达告警（03:25）· 已自愈**\n- 旗文：`🚨 站点异常(本机000 证书1)` —— 本机探活取码 000、证书异常。\n- **现刻复验**：`https://xuanwulingxi.top/` → **HTTP/2 200**、页面含「观天下」✅。\n- 判为**瞬时网络路不通**（非站点坏），已恢复；旗已改 `.reported`。若再反复，另禀。\n\n**② 🔴 rui(锐) 权益读作 $0.00 —— 量程归零、恐无法开仓**\n- 日志：`03:08:27 🚨 权益骤变 100% → 已按新权益重标` ，其后各次自检皆为"
+   "文": "NO_REPLY"
   },
   {
    "角色": "老板",
-   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Mon 2026-10-12 11:33 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+  },
+  {
+   "角色": "小奈",
+   "文": "老板准了——**全办**，且**不动择向精准**、**腾蛇执火印加敏**、**链路畅通**。先过网关，再摸清要动的代码。"
   },
   {
    "角色": "小奈",
@@ -244,11 +184,79 @@
   },
   {
    "角色": "小奈",
-   "文": "HEARTBEAT_OK"
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "老板令重，我稳着来。先摸清三处要动的代码是否同源、谁在读，再设计最小改动。"
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "明白了。为**守住择向精准**，我不动 `_pick`/内核择向，只做**咽喉层加敏 + 手谕档币王优先 + 防脱令**。先备份再改。"
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "改动落地、语法全过。铸印 + 自证："
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "自证通过 ✅（火速开触发、\"无王从圣裁\"通报均现）。留档："
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "[[reply_to_current]] 全办妥了，老板。四项都落地，**择向精准一毫未碰**。\n\n**① 甲·币王优先权** — `_腾蛇_依币王令.py` 币王手谕**置顶**＋标「优先=币王」，同币时**币王压过大脑手谕**（不被覆盖）。\n**② 乙·无王从圣裁** — `_开仓归序.judge` 里：无达标币王且无手谕 ⇒ **明确回落烛龙圣裁**（只通报、零行为变化）。\n**③ 丙·防脱令** — 火速开时效 120分 → **180分**，令未刷新期间不脱令。\n**④ 腾蛇执火印·加敏** — 令出火速开**重开**（`EDICT_FAST_FIRE_ON=1`）＋ `EDICT_"
   },
   {
    "角色": "老板",
-   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Mon 2026-10-12 11:51 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+  },
+  {
+   "角色": "小奈",
+   "文": "老板明示，明白：**自然重启**（不冷启，保核心基因）＋ **天眼降幅重调**。先只读排查「天眼降幅」在哪、怎么生出蚊子仓。"
   },
   {
    "角色": "小奈",
@@ -264,7 +272,23 @@
   },
   {
    "角色": "小奈",
-   "文": "HEARTBEAT_OK"
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
   }
  ],
  "本地全量归档": [
@@ -309,6 +333,6 @@
    "MB": 18.02
   }
  ],
- "摘要档": "0e3257a4-3782-4065-b38a-81cdbdebf7ef.jsonl",
+ "摘要档": "35cbb257-4ab6-4511-bd6d-b8199c432dee.jsonl",
  "注": "本分区=索引+近段摘要；聊天全文存于本机 data_v2/archive/聊天记录_* 与加密密包(封存分区)"
 }
