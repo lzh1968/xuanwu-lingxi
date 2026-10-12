@@ -1,6 +1,6 @@
 {
- "时间": "2026-10-13 01:46:19",
- "会话档数": 26,
+ "时间": "2026-10-13 04:11:41",
+ "会话档数": 25,
  "会话": [
   {
    "档": "ad8e6b04-bd3c-44e5-b096-8e71aa6ac777.jsonl",
@@ -123,22 +123,10 @@
    "改": "2026-10-12 19:55:50"
   },
   {
-   "档": "fce2f3c2-7ffb-44a2-90cf-db07cd739ea9.checkpoint.bf1e73f0-cb25-4d72-9d87-f41bda5dd1af.jsonl",
-   "字节": 720509,
-   "行": 293,
-   "改": "2026-10-13 00:25:16"
-  },
-  {
    "档": "fce2f3c2-7ffb-44a2-90cf-db07cd739ea9.jsonl",
    "字节": 732051,
    "行": 296,
    "改": "2026-10-13 00:26:54"
-  },
-  {
-   "档": "560c4752-8ba9-4325-b7a5-c292d32e5a36.checkpoint.31083e60-e50c-442a-a3cb-b201247e51dd.jsonl",
-   "字节": 582711,
-   "行": 236,
-   "改": "2026-10-13 00:41:08"
   },
   {
    "档": "560c4752-8ba9-4325-b7a5-c292d32e5a36.jsonl",
@@ -148,21 +136,59 @@
   },
   {
    "档": "3bbc3825-7dc6-4bdb-ad34-69f7533e5c54.jsonl",
-   "字节": 447408,
-   "行": 132,
-   "改": "2026-10-13 01:44:38"
+   "字节": 456562,
+   "行": 140,
+   "改": "2026-10-13 03:28:21"
   },
   {
    "档": "1b867855-1a99-4fc2-8e7c-625531a9d121.jsonl",
-   "字节": 77624,
-   "行": 14,
-   "改": "2026-10-13 01:46:14"
+   "字节": 296120,
+   "行": 100,
+   "改": "2026-10-13 04:08:35"
+  },
+  {
+   "档": "68cfe458-8e40-425d-96da-23693b5957a5.jsonl",
+   "字节": 148524,
+   "行": 29,
+   "改": "2026-10-13 04:11:20"
   }
  ],
  "近段摘要": [
   {
    "角色": "老板",
    "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
   },
   {
    "角色": "小奈",
@@ -223,6 +249,6 @@
    "MB": 18.02
   }
  ],
- "摘要档": "1b867855-1a99-4fc2-8e7c-625531a9d121.jsonl",
+ "摘要档": "68cfe458-8e40-425d-96da-23693b5957a5.jsonl",
  "注": "本分区=索引+近段摘要；聊天全文存于本机 data_v2/archive/聊天记录_* 与加密密包(封存分区)"
 }
