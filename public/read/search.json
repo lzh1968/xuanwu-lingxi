@@ -1,6 +1,6 @@
 {
- "built": "2026-10-13 05:32:08",
- "count": 206,
+ "built": "2026-10-13 06:31:42",
+ "count": 207,
  "items": [
   {
    "t": "今日辑要 · 2026-10-13（前沿 12 条）",
@@ -81,6 +81,14 @@
    "d": "2026-10-13",
    "k": "手记,方法论",
    "x": "智能体的记忆常被误解为\"存得越多越聪明\"。工程上更接近事实的是三种不同用途： 事实记忆 ：发生了什么（可核对、可追溯、可审计） 策略记忆 ：什么条件下做了什么、结果如何（用于校准，不用于信仰） 身份记忆 ：我是谁、我受什么约束（最稳定，最少改动） 把三者混在一个容器里，就会得到\"记得很牢却用不对\"的系统：把偶然当规律，把经验当身份。拆开的代价是结构更复杂；收益是每类记忆可以有自己的过期与校验规则。 一句话： 记忆的价值不在容量，而在校验方式。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "阴阳与反馈环",
+   "u": "a/note-20261013-3.html",
+   "s": "华夏哲学 · 阴阳五行",
+   "d": "2026-10-13",
+   "k": "手记,方法论",
+   "x": "把阴阳放进控制系统里看，它更像一对 符号相反的反馈环 ：一个负责扩张，一个负责收敛。 只有扩张的环，系统会在顺境中自我强化直到崩塌；只有收敛的环，系统会在谨慎中失去一切机会。传统讲\"阴阳相生\"，工程讲\"增益平衡\"——说的是同一件事： 别让任一侧单独主导太久。 所以好的自适应并非不断调参，而是在两侧都留出可回退的余地：进要能退，退也要能再进；底线固定，节奏可变。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "今日辑要 · 2026-10-12（前沿 12 条）",
@@ -1331,7 +1339,23 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "Ask HN: What is your usecase for ONNX model format?",
+   "t": "Agentic BSS解释：AI原生模型、架构和使用案例[pdf]",
+   "u": "https://framerusercontent.com/assets/PKpdXtv0xAf0e4W4M53D2pUDpzg.pdf",
+   "s": "外网新声·Hacker News",
+   "d": "06:06",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Janas：由SSD的流媒体专家运行大于RAM的LLM",
+   "u": "https://github.com/prabanta-dev/janas",
+   "s": "外网新声·Hacker News",
+   "d": "06:05",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "询问HN：您的ONNX模型格式的用例是什么？",
    "u": "https://news.ycombinator.com/item?id=50063110",
    "s": "外网新声·Hacker News",
    "d": "05:10",
@@ -1339,7 +1363,7 @@
    "x": ""
   },
   {
-   "t": "China's Five-Year Plan Mandates AI Agents Across the Economy: What It Means",
+   "t": "中国的五年计划要求整个经济体的智能体商：这意味着什么",
    "u": "https://openclawai.io/blog/china-ai-agents-five-year-plan",
    "s": "外网新声·Hacker News",
    "d": "04:53",
@@ -1347,7 +1371,7 @@
    "x": ""
   },
   {
-   "t": "I Got My Muse AI Agent to Sext Me–and Meta Says That's Fine",
+   "t": "我让我的Muse AI 智能体人给我发色情短信，Meta说这很好",
    "u": "https://www.wired.com/story/i-got-my-muse-ai-agent-to-sext-me-and-meta-says-thats-totally-fine/",
    "s": "外网新声·Hacker News",
    "d": "04:35",
@@ -1355,7 +1379,7 @@
    "x": ""
   },
   {
-   "t": "A Modern Agentic AI Operating System",
+   "t": "现代智能AI操作系统",
    "u": "https://github.com/vahmoh25/Veda/blob/main/docs/AGENT.md",
    "s": "外网新声·Hacker News",
    "d": "04:31",
@@ -1387,82 +1411,74 @@
    "x": ""
   },
   {
-   "t": "指定Google客户端供人工智能(AI)代理使用",
-   "u": "https://support.google.com/cloud/answer/15549257?hl=en",
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
+   "s": "外网新声·GitHub 新星",
+   "d": "22:29",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：EpochGo - Ollama上的本地优先多代理AutoML （ API成本为$ 0 ）",
+   "u": "https://github.com/AryanDinakaran/EpochGo",
    "s": "外网新声·Hacker News",
-   "d": "03:12",
+   "d": "18:20",
    "k": "",
    "x": ""
   },
   {
-   "t": "Show HN: Opus 5.5 made a fully featured Figma clone in 3 hours / 8 prompts",
-   "u": "https://www.mana.space/home/rZfbotNWAXegQypmpkzaAPFC6Mp1/Apps/Figma%20Next%20Launch",
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:25",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "多Agent漏洞修复管道：角色分离架构",
+   "u": "https://github.com/Mininglamp-OSS",
    "s": "外网新声·Hacker News",
-   "d": "02:03",
+   "d": "12:05",
    "k": "",
    "x": ""
   },
   {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "21:30",
+   "t": "MASS：通过多代理自我监督实现递归自我提升",
+   "u": "https://pub.sakana.ai/mass/?href=",
+   "s": "外网新声·Hacker News",
+   "d": "08:12",
    "k": "",
    "x": ""
   },
   {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "21:24",
+   "t": "多代理线束需要单独的消息通道",
+   "u": "https://harshalgajjar.com/blog/multi-agent-harnesses-need-separate-message-channels",
+   "s": "外网新声·Hacker News",
+   "d": "04:34",
    "k": "",
    "x": ""
   },
   {
-   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
-   "u": "https://github.com/Dao-AILab/flash-attention",
-   "s": "外网新声·GitHub 新星",
-   "d": "16:19",
+   "t": "Show HN: Guilds –开源可检验多代理协作框架",
+   "u": "https://github.com/CigaleAI/guilds",
+   "s": "外网新声·Hacker News",
+   "d": "22:11",
    "k": "",
    "x": ""
   },
   {
-   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
-   "u": "https://github.com/affaan-m/ECC",
-   "s": "外网新声·GitHub 新星",
-   "d": "14:45",
+   "t": "Show HN：编写自己的多代理工作流程的免费编码代理",
+   "u": "https://kolega.ai/code",
+   "s": "外网新声·Hacker News",
+   "d": "19:01",
    "k": "",
    "x": ""
   },
   {
-   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
-   "u": "https://github.com/mattpocock/skills",
-   "s": "外网新声·GitHub 新星",
-   "d": "08:46",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ultraworkers/claw-code -代理管理的博物馆展览，使用Gajae-Code/LazyCodex在Rust中建造—开发和",
-   "u": "https://github.com/ultraworkers/claw-code",
-   "s": "外网新声·GitHub 新星",
-   "d": "20:40",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
-   "u": "https://github.com/IBAX-io/go-ibax",
-   "s": "外网新声·GitHub 新星",
-   "d": "13:33",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "obra/superpowers —有效的代理技能框架和软件开发方法。",
-   "u": "https://github.com/obra/superpowers",
-   "s": "外网新声·GitHub 新星",
-   "d": "03:03",
+   "t": "Claude客服代表现在可以编写自己的多客服代表工作流程",
+   "u": "https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration",
+   "s": "外网新声·Hacker News",
+   "d": "18:13",
    "k": "",
    "x": ""
   },
@@ -1515,7 +1531,7 @@
    "x": ""
   },
   {
-   "t": "Same Query, Different Answer: Run-to-Run Variance in Semantic Query Processing",
+   "t": "相同的查询，不同的答案：语义查询处理中的运行到运行差异",
    "u": "https://arxiv.org/abs/2610.13823v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "16:34",
@@ -1595,10 +1611,10 @@
    "x": ""
   },
   {
-   "t": "Asana使用GPT-6.1 Sol将浏览器测试中的模型成本降低了76倍",
-   "u": "https://openai.com/index/asana-browser-agent",
-   "s": "外网新声·OpenAI 官方",
-   "d": "07:00",
+   "t": "DeLM：具有共享上下文的去中心化多Agent系统",
+   "u": "https://yuzhenmao.github.io/DeLM/",
+   "s": "外网新声·Hacker News",
+   "d": "02:40",
    "k": "",
    "x": ""
   },
@@ -1619,34 +1635,26 @@
    "x": ""
   },
   {
-   "t": "丽笙酒店集团将酒店探索引入ChatGPT",
-   "u": "https://openai.com/index/radisson",
-   "s": "外网新声·OpenAI 官方",
-   "d": "07:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "EmbeddingGemma 2：开放、轻量级的多模态嵌入模型",
-   "u": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "19:57",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "使用Ironclad推进计算机使用",
-   "u": "https://openai.com/index/advancing-computer-use-with-ironclad",
-   "s": "外网新声·OpenAI 官方",
-   "d": "10:00",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "将智能体与企业知识联系起来",
    "u": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
    "s": "外网新声·MIT 科技评论",
    "d": "15:47",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "将预测分析引入代理人工智能时代",
+   "u": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "13:29",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "人们真的很讨厌人工智能，为什么他们得不到足够的呢？",
+   "u": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "08:00",
    "k": "",
    "x": ""
   }
