@@ -61,7 +61,7 @@
     var q=document.getElementById('q_wuzei');
     if(q && q.getAttribute('href')==='/wuzei/' && location.pathname.indexOf('/read/')===0){ q.href='../wuzei/'; }
   }catch(e){}
-  var RAW='https://raw.githubusercontent.com/lzh1968/xuanwu-lingxi/main/url.json';
+  var RAW='https://raw.githubusercontent.com/lzh1968/xuanwu-lingxi/main/docs/url.json';
   var last=null; try{last=localStorage.getItem('lx_last')}catch(e){}
   function show(u,msg){
     ue.textContent=u; btn.href=u; btn.classList.remove('off');

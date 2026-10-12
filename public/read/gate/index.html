@@ -61,7 +61,7 @@
     var q=document.getElementById('q_wuzei');
     if(q && q.getAttribute('href')==='/wuzei/' && location.pathname.indexOf('/read/')===0){ q.href='../wuzei/'; }
   }catch(e){}
-  var RAW='https://raw.githubusercontent.com/lzh1968/xuanwu-lingxi/main/url.json';
+  var RAW='https://raw.githubusercontent.com/lzh1968/xuanwu-lingxi/main/docs/url.json';
   var last=null; try{last=localStorage.getItem('lx_last')}catch(e){}
   function show(u,msg){
     ue.textContent=u; btn.href=u; btn.classList.remove('off');
@@ -94,7 +94,7 @@
   function load(){
     st.innerHTML='<span class="ring"></span><span class="dim">正在读取并校验最新入口…</span>';
     // 双源并行：本站(url.json 随 Pages 构建) + raw(推送后约1分钟即刷新) → 取 updated 最新那条
-    Promise.allSettled([ get('../url.json'), get(RAW) ]).then(function(rs){
+    Promise.allSettled([ get('../../url.json'), get(RAW) ]).then(function(rs){
       var c=[]; rs.forEach(function(x){ if(x.status==='fulfilled'&&x.value&&x.value.url) c.push(x.value); });
       if(!c.length) throw 0;
       c.sort(function(a,b){ return String(b.updated||'').localeCompare(String(a.updated||'')); });
