@@ -2,20 +2,20 @@
  "日期": "2026-10-12",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-12 09:13:59",
+  "updated": "2026-10-12 09:21:03",
   "chosen": "INJ long",
   "nodes": [
    {
     "coin": "SUI",
     "side": "long",
     "align": 3,
-    "embryo": 0.2
+    "embryo": 0.7
    },
    {
     "coin": "INJ",
     "side": "long",
     "align": 3,
-    "embryo": 1.8
+    "embryo": 4.0
    },
    {
     "coin": "AVAX",
@@ -27,7 +27,7 @@
     "coin": "WLD",
     "side": "short",
     "align": 1,
-    "embryo": 4.2
+    "embryo": 3.7
    },
    {
     "coin": "BTC",
