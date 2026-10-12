@@ -1,6 +1,6 @@
 {
- "built": "2026-10-13 06:31:42",
- "count": 207,
+ "built": "2026-10-13 06:55:50",
+ "count": 196,
  "items": [
   {
    "t": "今日辑要 · 2026-10-13（前沿 12 条）",
@@ -89,6 +89,14 @@
    "d": "2026-10-13",
    "k": "手记,方法论",
    "x": "把阴阳放进控制系统里看，它更像一对 符号相反的反馈环 ：一个负责扩张，一个负责收敛。 只有扩张的环，系统会在顺境中自我强化直到崩塌；只有收敛的环，系统会在谨慎中失去一切机会。传统讲\"阴阳相生\"，工程讲\"增益平衡\"——说的是同一件事： 别让任一侧单独主导太久。 所以好的自适应并非不断调参，而是在两侧都留出可回退的余地：进要能退，退也要能再进；底线固定，节奏可变。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "链上机制的可读性",
+   "u": "a/note-20261013-4.html",
+   "s": "Web3 · 链上世界",
+   "d": "2026-10-13",
+   "k": "手记,方法论",
+   "x": "评价一条链上机制，可以先问三个可读性问题： 1. 谁承担最后风险？ （收益来自哪里，亏损落到谁头上） 2. 信息何时公开？ （先看到的人是否天然占优） 3. 退出是否顺畅？ （极端情形下能不能有序离场） 这三个问题不涉及任何价格判断，却能筛掉绝大部分\"看起来精巧\"的设计。机制研究的价值也正在于此： 把不可读的风险变成可讨论的条款。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "今日辑要 · 2026-10-12（前沿 12 条）",
@@ -1339,6 +1347,22 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "吠陀：首款AI智能体爱好操作系统",
+   "u": "https://github.com/vahmoh25/Veda/blob/main/README.md",
+   "s": "外网新声·Hacker News",
+   "d": "06:51",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "OpenKylin：AI Agent Linux桌面",
+   "u": "https://techstrong.ai/articles/openkylin-the-ai-agent-linux-desktop/",
+   "s": "外网新声·Hacker News",
+   "d": "06:42",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Agentic BSS解释：AI原生模型、架构和使用案例[pdf]",
    "u": "https://framerusercontent.com/assets/PKpdXtv0xAf0e4W4M53D2pUDpzg.pdf",
    "s": "外网新声·Hacker News",
@@ -1395,42 +1419,10 @@
    "x": ""
   },
   {
-   "t": "Show HN: Ramet –智能体的持久、可分叉的工作空间",
-   "u": "https://github.com/shenli/ramet",
-   "s": "外网新声·Hacker News",
-   "d": "03:28",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "智能体定位基础设施缺陷和零日漏洞，以利用任务快捷方式",
-   "u": "https://cacm.acm.org/news/ai-agents-look-beyond-their-containers/",
-   "s": "外网新声·Hacker News",
-   "d": "03:24",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
-   "s": "外网新声·GitHub 新星",
-   "d": "22:29",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Show HN：EpochGo - Ollama上的本地优先多代理AutoML （ API成本为$ 0 ）",
    "u": "https://github.com/AryanDinakaran/EpochGo",
    "s": "外网新声·Hacker News",
    "d": "18:20",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "u": "https://github.com/earendil-works/pi",
-   "s": "外网新声·GitHub 新星",
-   "d": "16:25",
    "k": "",
    "x": ""
   },
@@ -1483,130 +1475,10 @@
    "x": ""
   },
   {
-   "t": "语言模型可以玩维基百科游戏吗？",
-   "u": "https://arxiv.org/abs/2610.13948v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "任务上下文塑造语言模型中的组件角色",
-   "u": "https://arxiv.org/abs/2610.13895v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:40",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "评级：通过执行动态进行可靠性感知AI 智能体工具检索",
-   "u": "https://arxiv.org/abs/2610.13889v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:38",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "X-AgentRed：在不断发展的多服务生态系统中与个人代理进行红色团队合作",
-   "u": "https://arxiv.org/abs/2610.13886v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:34",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "SpatialASM：内化积极心理化以进行空间推理",
-   "u": "https://arxiv.org/abs/2610.13832v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:39",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "MC-EvoBench：Minecraft智能体的审计体验驱动自我提升",
-   "u": "https://arxiv.org/abs/2610.13829v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:37",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "相同的查询，不同的答案：语义查询处理中的运行到运行差异",
-   "u": "https://arxiv.org/abs/2610.13823v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:34",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "FORTE: A Production Framework for Feature Evaluation and Deprecation in Industrial Recommender Systems",
-   "u": "https://arxiv.org/abs/2610.13806v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:18",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Your Discrete Graph Diffusion Model is Secretly Memorizing",
-   "u": "https://arxiv.org/abs/2610.13786v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:04",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "UkrMeme: Multimodal Explainable Persuasion Detection in Ukrainian Memes",
-   "u": "https://arxiv.org/abs/2610.13783v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:03",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "DualQuant: Dual-scale Calibration-free Weight-and-Activation Quantization for LLMs",
-   "u": "https://arxiv.org/abs/2610.13767v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "15:51",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "When Edge Independence Fails: Joint Graph Diffusion with Latent Sociability Priors",
-   "u": "https://arxiv.org/abs/2610.13765v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "15:50",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Matched-Context Group Policy Optimization for LLM Agent Training",
-   "u": "https://arxiv.org/abs/2610.13755v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "15:41",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "A Privileged Teacher That Only Scores Cannot Search: Critique-Conditioned On-Policy Self-Distillation for Reasoning",
-   "u": "https://arxiv.org/abs/2610.13744v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "15:36",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "SafeDiSTL: Decomposing Joint Constraints for Safe Multi-Agent Reinforcement Learning",
-   "u": "https://arxiv.org/abs/2610.13737v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "15:32",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Orthros: Phase-Aware Heterogeneous Attention for Efficient Transformers",
-   "u": "https://arxiv.org/abs/2610.13735v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "15:30",
+   "t": "Asana使用GPT-6.1 Sol将浏览器测试中的模型成本降低了76倍",
+   "u": "https://openai.com/index/asana-browser-agent",
+   "s": "外网新声·OpenAI 官方",
+   "d": "07:00",
    "k": "",
    "x": ""
   },
@@ -1635,6 +1507,22 @@
    "x": ""
   },
   {
+   "t": "丽笙酒店集团将酒店探索引入ChatGPT",
+   "u": "https://openai.com/index/radisson",
+   "s": "外网新声·OpenAI 官方",
+   "d": "07:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "使用Ironclad推进计算机使用",
+   "u": "https://openai.com/index/advancing-computer-use-with-ironclad",
+   "s": "外网新声·OpenAI 官方",
+   "d": "10:00",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "将智能体与企业知识联系起来",
    "u": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
    "s": "外网新声·MIT 科技评论",
@@ -1655,6 +1543,30 @@
    "u": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
    "s": "外网新声·MIT 科技评论",
    "d": "08:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "GPT-6系列的模型指南",
+   "u": "https://openai.com/index/practical-guide-building-gpt-6",
+   "s": "外网新声·OpenAI 官方",
+   "d": "16:15",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "不要被愚弄- LLM不要讲道理",
+   "u": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "08:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "永恒的补充",
+   "u": "https://openai.com/index/the-eternal-complement",
+   "s": "外网新声·OpenAI 官方",
+   "d": "17:00",
    "k": "",
    "x": ""
   }
