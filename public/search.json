@@ -1,6 +1,6 @@
 {
- "built": "2026-10-12 19:34:04",
- "count": 181,
+ "built": "2026-10-12 19:44:11",
+ "count": 196,
  "items": [
   {
    "t": "今日辑要 · 2026-10-12（前沿 12 条）",
@@ -1251,6 +1251,22 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "(Linus Torvalds) I did what I preach: use LLMs to help make sense of the code",
+   "u": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tag/?h=assoc-array-fixes",
+   "s": "外网新声·Hacker News",
+   "d": "19:42",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "How to Prepare Your Agentic AI System for an EU AI Act Audit with ZizkaDB",
+   "u": "https://medium.com/@MirArshadTalpur/how-to-prepare-your-agentic-ai-system-for-an-eu-ai-act-audit-with-zizkadb-7d7eb9d4c9f0",
+   "s": "外网新声·Hacker News",
+   "d": "19:40",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Show HN: I built Airlock, to sandbox your AI agent and know what it's doing",
    "u": "https://airlock.sorrel.systems",
    "s": "外网新声·Hacker News",
@@ -1323,14 +1339,6 @@
    "x": ""
   },
   {
-   "t": "Show HN: Gen-system, parser facts about source code for local LLMs",
-   "u": "https://github.com/hpdkhoa/gen-system",
-   "s": "外网新声·Hacker News",
-   "d": "13:25",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Multi-Agent Bug Fix Pipeline: Architecture of Role Separation",
    "u": "https://github.com/Mininglamp-OSS",
    "s": "外网新声·Hacker News",
@@ -1339,10 +1347,34 @@
    "x": ""
   },
   {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "11:43",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "11:25",
+   "d": "11:41",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
+   "s": "外网新声·GitHub 新星",
+   "d": "11:39",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
+   "s": "外网新声·GitHub 新星",
+   "d": "11:00",
    "k": "",
    "x": ""
   },
@@ -1351,22 +1383,6 @@
    "u": "https://github.com/qufei1993/skills-hub",
    "s": "外网新声·Hacker News",
    "d": "10:48",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "10:28",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "英伟达、微软推出搭载RTX Spark和智能体的Windows PC",
-   "u": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
-   "s": "外网新声·Hacker News",
-   "d": "10:20",
    "k": "",
    "x": ""
   },
@@ -1443,10 +1459,114 @@
    "x": ""
   },
   {
-   "t": "DeLM：具有共享上下文的去中心化多Agent系统",
-   "u": "https://yuzhenmao.github.io/DeLM/",
-   "s": "外网新声·Hacker News",
-   "d": "02:40",
+   "t": "语言模型可以玩维基百科游戏吗？",
+   "u": "https://arxiv.org/abs/2610.13948v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "神经网络拓扑表达性的构造边界",
+   "u": "https://arxiv.org/abs/2610.13931v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "人工智能模型可以可证明地隐藏任意能力",
+   "u": "https://arxiv.org/abs/2610.13928v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "KL混合前后：并行采样中的圆形复杂度分离",
+   "u": "https://arxiv.org/abs/2610.13924v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:54",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "通过强化学习实现深空通信的以目标为导向的捆绑管理和流量控制",
+   "u": "https://arxiv.org/abs/2610.13923v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:53",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "DyssomniaNN：人类睡眠障碍和感知静止的多尺度尖峰神经建模",
+   "u": "https://arxiv.org/abs/2610.13918v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:52",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "任务上下文塑造语言模型中的组件角色",
+   "u": "https://arxiv.org/abs/2610.13895v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:40",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "评级：通过执行动态进行可靠性感知AI 智能体工具检索",
+   "u": "https://arxiv.org/abs/2610.13889v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:38",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "X-AgentRed：在不断发展的多服务生态系统中与个人代理进行红色团队合作",
+   "u": "https://arxiv.org/abs/2610.13886v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:34",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "预测不是足够的内存状态",
+   "u": "https://arxiv.org/abs/2610.13881v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:27",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "通过零阶残差跟踪的部分知情随机优化",
+   "u": "https://arxiv.org/abs/2610.13871v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:20",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "全离散条件扩散模型的有限样本保证",
+   "u": "https://arxiv.org/abs/2610.13851v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "返回到开发状态：当完整沙盒快照帮助编码代理时",
+   "u": "https://arxiv.org/abs/2610.13841v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:50",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "论连续扩散语言模型的设计空间",
+   "u": "https://arxiv.org/abs/2610.13834v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:41",
    "k": "",
    "x": ""
   }
