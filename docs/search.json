@@ -1,7 +1,23 @@
 {
- "built": "2026-10-13 23:55:01",
- "count": 215,
+ "built": "2026-10-14 00:01:15",
+ "count": 217,
  "items": [
+  {
+   "t": "今日辑要 · 2026-10-14（前沿 12 条）",
+   "u": "a/digest-20261014.html",
+   "s": "Agent 与智能体",
+   "d": "2026-10-14",
+   "k": "辑要,每日,前沿",
+   "x": "今日从公开源汇得 12 条与人工智能、智能体系统、链上机制与数字经济相关的条目，按方向归拢如下。所有条目均保留来源与原文链接， 只作线索与机制观察 ，不代表任何结论。 Agent 与智能体 Perplexity's AI agents helped build a database with Rust <span class=\"src\" Hacker News · 23:40</span [查看原文](https://thenewstack.io/perplexity cobbledb ai database/) Show HN: Agor, multiplayer AI – stop running agents alone <span class=\"src\" Hacker News · 23:19</span [查看原文](https://github.com/preset io/ag"
+  },
+  {
+   "t": "桥与门",
+   "u": "a/note-20261014-14.html",
+   "s": "华夏哲学 · 阴阳五行",
+   "d": "2026-10-14",
+   "k": "手记,方法论",
+   "x": "门和桥都是\"连接\"，但方向相反： 门在墙上开口，桥在水上架通。 门决定谁能进来，桥决定能不能过去。 一个系统也总在这两者之间权衡： 门 是边界与权限， 桥 是流通与协作。门太少，什么都能进；桥太少，内部各过各的。两种病都致命，只是死法不同。 成熟的做法是先想清楚： 这一段到底是院墙，还是河道？ 该设门的地方设门，该架桥的地方架桥——别用修建围墙的思路，去堵一条本该畅通的河。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
   {
    "t": "今日辑要 · 2026-10-13（前沿 12 条）",
    "u": "a/digest-20261013.html",
@@ -1403,7 +1419,7 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "Launch HN: Consus (YC F24) – LLM gateway for companies handling sensitive data",
+   "t": "推出HN：Consus (YC F24) –适用于处理敏感数据的公司的LLM网关",
    "u": "https://news.ycombinator.com/item?id=50073471",
    "s": "外网新声·Hacker News",
    "d": "23:41",
@@ -1494,7 +1510,7 @@
    "t": "morluto/rea — Reverse engineer anything with agents, from app behavior down to native binaries.",
    "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
-   "d": "15:53",
+   "d": "15:59",
    "k": "",
    "x": ""
   },
@@ -1502,7 +1518,7 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "15:47",
+   "d": "15:56",
    "k": "",
    "x": ""
   },
@@ -1510,7 +1526,7 @@
    "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
-   "d": "15:44",
+   "d": "15:56",
    "k": "",
    "x": ""
   },
@@ -1619,14 +1635,6 @@
    "x": ""
   },
   {
-   "t": "Claude客服代表现在可以编写自己的多客服代表工作流程",
-   "u": "https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration",
-   "s": "外网新声·Hacker News",
-   "d": "18:13",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "obra/superpowers —有效的代理技能框架和软件开发方法。",
    "u": "https://github.com/obra/superpowers",
    "s": "外网新声·GitHub 新星",
@@ -1719,6 +1727,14 @@
    "u": "https://arxiv.org/abs/2610.13871v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:20",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "全离散条件扩散模型的有限样本保证",
+   "u": "https://arxiv.org/abs/2610.13851v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:59",
    "k": "",
    "x": ""
   }
