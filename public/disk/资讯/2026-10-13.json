@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-13",
- "落盘": "2026-10-13 23:11:01",
+ "落盘": "2026-10-13 23:18:43",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "Deny rules don't stop coding agents from seeing keys your program prints",
+   "url": "https://fidelius.blisslabs.dev/research/ai-coding-agents-api-keys-env/",
+   "type": "live"
+  },
   {
    "title": "在LLM时代发展ZAP",
    "url": "https://www.zaproxy.org/blog/2026-10-13-developing-zap-in-the-llm-age/",
@@ -37,11 +42,6 @@
   {
    "title": "当LLM的分类失败时",
    "url": "https://jeffyclassify.com/blog/when-llms-fail-at-classification/",
-   "type": "live"
-  },
-  {
-   "title": "FastAPI流租赁– FastAPI SSE/LLM流的Redis租赁管理器",
-   "url": "https://github.com/agustin18/fastapi-stream-lease",
    "type": "live"
   },
   {

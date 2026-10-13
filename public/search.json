@@ -1,5 +1,5 @@
 {
- "built": "2026-10-13 23:18:37",
+ "built": "2026-10-13 23:20:40",
  "count": 215,
  "items": [
   {
@@ -1403,6 +1403,22 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Improving 25 square packing upper bounds through evolutionary LLM program search",
+   "u": "https://slightlysupervised.substack.com/p/improving-25-square-packing-upper",
+   "s": "外网新声·Hacker News",
+   "d": "23:20",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Agor, multiplayer AI – stop running agents alone",
+   "u": "https://github.com/preset-io/agor",
+   "s": "外网新声·Hacker News",
+   "d": "23:19",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Deny rules don't stop coding agents from seeing keys your program prints",
    "u": "https://fidelius.blisslabs.dev/research/ai-coding-agents-api-keys-env/",
    "s": "外网新声·Hacker News",
@@ -1491,18 +1507,10 @@
    "x": ""
   },
   {
-   "t": "Show HN: MemorySync –智能体的内存",
-   "u": "https://memorysync.io/try",
-   "s": "外网新声·Hacker News",
-   "d": "20:35",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "15:18",
+   "d": "15:20",
    "k": "",
    "x": ""
   },
@@ -1651,6 +1659,46 @@
    "x": ""
   },
   {
+   "t": "神经网络拓扑表达性的构造边界",
+   "u": "https://arxiv.org/abs/2610.13931v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "人工智能模型可以可证明地隐藏任意能力",
+   "u": "https://arxiv.org/abs/2610.13928v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "KL混合前后：并行采样中的圆形复杂度分离",
+   "u": "https://arxiv.org/abs/2610.13924v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:54",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "通过强化学习实现深空通信的以目标为导向的捆绑管理和流量控制",
+   "u": "https://arxiv.org/abs/2610.13923v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:53",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "DyssomniaNN：人类睡眠障碍和感知静止的多尺度尖峰神经建模",
+   "u": "https://arxiv.org/abs/2610.13918v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:52",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "任务上下文塑造语言模型中的组件角色",
    "u": "https://arxiv.org/abs/2610.13895v1",
    "s": "外网新声·arXiv cs.AI",
@@ -1671,54 +1719,6 @@
    "u": "https://arxiv.org/abs/2610.13886v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:34",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "SpatialASM：内化积极心理化以进行空间推理",
-   "u": "https://arxiv.org/abs/2610.13832v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:39",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "MC-EvoBench：Minecraft智能体的审计体验驱动自我提升",
-   "u": "https://arxiv.org/abs/2610.13829v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:37",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "相同的查询，不同的答案：语义查询处理中的运行到运行差异",
-   "u": "https://arxiv.org/abs/2610.13823v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:34",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "FORTE：工业推荐系统功能评估和弃用的生产框架",
-   "u": "https://arxiv.org/abs/2610.13806v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:18",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "您的离散图扩散模型正在秘密记忆",
-   "u": "https://arxiv.org/abs/2610.13786v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:04",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "UkrMeme：乌克兰模因中的多模式可解释说服检测",
-   "u": "https://arxiv.org/abs/2610.13783v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:03",
    "k": "",
    "x": ""
   }
