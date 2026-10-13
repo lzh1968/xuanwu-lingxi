@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-14",
- "落盘": "2026-10-14 00:09:26",
+ "落盘": "2026-10-14 00:14:55",
  "条数": 14,
- "live": 54,
+ "live": 60,
  "条目": [
+  {
+   "title": "如何杀死语音代理",
+   "url": "https://veris.ai/blog/vamos-pro-findings-tv-in-the-room",
+   "type": "live"
+  },
   {
    "title": "推出HN：Consus (YC F24) –适用于处理敏感数据的公司的LLM网关",
    "url": "https://news.ycombinator.com/item?id=50073471",
@@ -12,6 +17,11 @@
   {
    "title": "Perplexity的AI 智能体帮助使用Rust构建数据库",
    "url": "https://thenewstack.io/perplexity-cobbledb-ai-database/",
+   "type": "live"
+  },
+  {
+   "title": "通过进化LLM程序搜索改进25平方填料上限",
+   "url": "https://slightlysupervised.substack.com/p/improving-25-square-packing-upper",
    "type": "live"
   },
   {
@@ -25,23 +35,13 @@
    "type": "live"
   },
   {
+   "title": "在LLM时代发展ZAP",
+   "url": "https://www.zaproxy.org/blog/2026-10-13-developing-zap-in-the-llm-age/",
+   "type": "live"
+  },
+  {
    "title": "移动隧道：让智能体控制Android以驾驶无人机和物联网",
    "url": "https://sealgate.ai/blog/mobile-tunnel-agents-control-android-devices",
-   "type": "live"
-  },
-  {
-   "title": "Anthropic在智能体热潮期间为伦敦个人助理提供14.5万美元£",
-   "url": "https://www.cityam.com/anthropic-offers-145k-for-london-personal-assistant-amid-ai-agent-boom/",
-   "type": "live"
-  },
-  {
-   "title": "发布：Assury跨平台代理生命周期管理",
-   "url": "https://news.ycombinator.com/item?id=50072334",
-   "type": "live"
-  },
-  {
-   "title": "Show HN：召回– AI 智能体的长期记忆，当事实发生变化时会注意到",
-   "url": "https://github.com/recallmem/recall",
    "type": "live"
   },
   {
@@ -60,6 +60,11 @@
    "type": "article"
   },
   {
+   "title": "名字的重量",
+   "url": "a/note-20261014-16.html",
+   "type": "article"
+  },
+  {
    "title": "今日辑要 · 2026-10-13（前沿 12 条）",
    "url": "a/digest-20261013.html",
    "type": "article"
@@ -67,11 +72,6 @@
   {
    "title": "自治系统的\"慢变量\"",
    "url": "a/note-20261013-1.html",
-   "type": "article"
-  },
-  {
-   "title": "睡觉时，大脑在忙什么？",
-   "url": "a/note-20261013-10.html",
    "type": "article"
   }
  ]
