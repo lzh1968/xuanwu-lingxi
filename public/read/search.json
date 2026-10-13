@@ -1,5 +1,5 @@
 {
- "built": "2026-10-13 16:22:51",
+ "built": "2026-10-13 16:30:10",
  "count": 215,
  "items": [
   {
@@ -1483,6 +1483,22 @@
    "x": ""
   },
   {
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
+   "s": "外网新声·GitHub 新星",
+   "d": "08:29",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "08:26",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
@@ -1495,22 +1511,6 @@
    "u": "https://github.com/polymodality/agentic-polymodality/tree/main/ai-guidance",
    "s": "外网新声·Hacker News",
    "d": "08:14",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "08:07",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
-   "s": "外网新声·GitHub 新星",
-   "d": "07:58",
    "k": "",
    "x": ""
   },
@@ -1555,6 +1555,14 @@
    "x": ""
   },
   {
+   "t": "Show HN：EpochGo - Ollama上的本地优先多代理AutoML （ API成本为$ 0 ）",
+   "u": "https://github.com/AryanDinakaran/EpochGo",
+   "s": "外网新声·Hacker News",
+   "d": "18:20",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
    "u": "https://github.com/affaan-m/ECC",
    "s": "外网新声·GitHub 新星",
@@ -1563,10 +1571,58 @@
    "x": ""
   },
   {
+   "t": "多Agent漏洞修复管道：角色分离架构",
+   "u": "https://github.com/Mininglamp-OSS",
+   "s": "外网新声·Hacker News",
+   "d": "12:05",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
    "u": "https://github.com/mattpocock/skills",
    "s": "外网新声·GitHub 新星",
    "d": "08:46",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "MASS：通过多代理自我监督实现递归自我提升",
+   "u": "https://pub.sakana.ai/mass/?href=",
+   "s": "外网新声·Hacker News",
+   "d": "08:12",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "多代理线束需要单独的消息通道",
+   "u": "https://harshalgajjar.com/blog/multi-agent-harnesses-need-separate-message-channels",
+   "s": "外网新声·Hacker News",
+   "d": "04:34",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN: Guilds –开源可检验多代理协作框架",
+   "u": "https://github.com/CigaleAI/guilds",
+   "s": "外网新声·Hacker News",
+   "d": "22:11",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：编写自己的多代理工作流程的免费编码代理",
+   "u": "https://kolega.ai/code",
+   "s": "外网新声·Hacker News",
+   "d": "19:01",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Claude客服代表现在可以编写自己的多客服代表工作流程",
+   "u": "https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration",
+   "s": "外网新声·Hacker News",
+   "d": "18:13",
    "k": "",
    "x": ""
   },
@@ -1663,62 +1719,6 @@
    "u": "https://arxiv.org/abs/2610.13871v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:20",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "全离散条件扩散模型的有限样本保证",
-   "u": "https://arxiv.org/abs/2610.13851v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "16:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "返回到开发状态：当完整沙盒快照帮助编码代理时",
-   "u": "https://arxiv.org/abs/2610.13841v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "16:50",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "论连续扩散语言模型的设计空间",
-   "u": "https://arxiv.org/abs/2610.13834v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "16:41",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "SpatialASM：内化积极心理化以进行空间推理",
-   "u": "https://arxiv.org/abs/2610.13832v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:39",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "MC-EvoBench：Minecraft智能体的审计体验驱动自我提升",
-   "u": "https://arxiv.org/abs/2610.13829v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:37",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "相同的查询，不同的答案：语义查询处理中的运行到运行差异",
-   "u": "https://arxiv.org/abs/2610.13823v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:34",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "TabMF：使用表格基础模型学习数据集表示",
-   "u": "https://arxiv.org/abs/2610.13818v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "16:28",
    "k": "",
    "x": ""
   }
