@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-13",
- "落盘": "2026-10-13 21:39:16",
+ "落盘": "2026-10-13 21:46:42",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "当LLM的分类失败时",
+   "url": "https://jeffyclassify.com/blog/when-llms-fail-at-classification/",
+   "type": "live"
+  },
   {
    "title": "FastAPI流租赁– FastAPI SSE/LLM流的Redis租赁管理器",
    "url": "https://github.com/agustin18/fastapi-stream-lease",
@@ -37,11 +42,6 @@
   {
    "title": "MDMA：开源联合LLM推理引擎",
    "url": "https://github.com/seuros/mdma",
-   "type": "live"
-  },
-  {
-   "title": "Show HN：AI Crimes，一个你发现AI写的bug的游戏",
-   "url": "https://solveaicrimes.com",
    "type": "live"
   },
   {
