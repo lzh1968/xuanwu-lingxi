@@ -1,9 +1,17 @@
 {
- "generated": "23:11",
- "built": "2026-10-13 23:11:46",
+ "generated": "23:18",
+ "built": "2026-10-13 23:18:37",
  "count": 175,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Deny rules don't stop coding agents from seeing keys your program prints",
+   "url": "https://fidelius.blisslabs.dev/research/ai-coding-agents-api-keys-env/",
+   "src": "Hacker News",
+   "t": "23:16",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "在LLM时代发展ZAP",
@@ -58,14 +66,6 @@
    "url": "https://jeffyclassify.com/blog/when-llms-fail-at-classification/",
    "src": "Hacker News",
    "t": "21:41",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "FastAPI流租赁– FastAPI SSE/LLM流的Redis租赁管理器",
-   "url": "https://github.com/agustin18/fastapi-stream-lease",
-   "src": "Hacker News",
-   "t": "21:37",
    "fresh": false
   },
   {
