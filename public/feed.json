@@ -1,9 +1,17 @@
 {
- "generated": "00:32",
- "built": "2026-10-14 00:32:03",
- "count": 181,
+ "generated": "00:38",
+ "built": "2026-10-14 00:38:12",
+ "count": 182,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "中国廉价的LLM可能会引发万亿美元的人工智能基础设施重置",
+   "url": "https://www.theregister.com/paas-and-iaas/2026/10/13/cheap-chinese-and-open-source-llms-could-trigger-trillion-dollar-ai-infrastructure-reset/5302774",
+   "src": "Hacker News",
+   "t": "00:32",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "用于网络事件响应的代理人工智能",
@@ -61,18 +69,18 @@
    "fresh": true
   },
   {
-   "type": "live",
-   "title": "拒绝规则不会阻止编码代理看到您的程序打印的密钥",
-   "url": "https://fidelius.blisslabs.dev/research/ai-coding-agents-api-keys-env/",
-   "src": "Hacker News",
-   "t": "23:16",
-   "fresh": true
-  },
-  {
    "type": "article",
    "title": "今日辑要 · 2026-10-14（前沿 12 条）",
    "url": "a/digest-20261014.html",
    "src": "Agent 与智能体",
+   "t": "2026-10-14",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "自治系统的\"慢变量\"",
+   "url": "a/note-20261014-1.html",
+   "src": "灵犀手记",
    "t": "2026-10-14",
    "fresh": false
   },
@@ -104,14 +112,6 @@
    "type": "article",
    "title": "从无到有，只需一条线",
    "url": "a/note-20261014-17.html",
-   "src": "创造神",
-   "t": "2026-10-14",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "创造神的一天",
-   "url": "a/note-20261014-18.html",
    "src": "创造神",
    "t": "2026-10-14",
    "fresh": false
