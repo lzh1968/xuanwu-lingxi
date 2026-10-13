@@ -1,9 +1,17 @@
 {
- "generated": "21:40",
- "built": "2026-10-13 21:40:02",
+ "generated": "21:46",
+ "built": "2026-10-13 21:46:37",
  "count": 175,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "当LLM的分类失败时",
+   "url": "https://jeffyclassify.com/blog/when-llms-fail-at-classification/",
+   "src": "Hacker News",
+   "t": "21:41",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "FastAPI流租赁– FastAPI SSE/LLM流的Redis租赁管理器",
@@ -42,7 +50,7 @@
    "url": "https://agent-conversion-coral.vercel.app/en/research/d001",
    "src": "Hacker News",
    "t": "20:13",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,6 @@
    "url": "https://github.com/seuros/mdma",
    "src": "Hacker News",
    "t": "19:59",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Show HN：AI Crimes，一个你发现AI写的bug的游戏",
-   "url": "https://solveaicrimes.com",
-   "src": "Hacker News",
-   "t": "19:57",
    "fresh": false
   },
   {
