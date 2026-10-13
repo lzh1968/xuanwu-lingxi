@@ -1,9 +1,19 @@
 {
  "日期": "2026-10-13",
- "落盘": "2026-10-13 22:41:54",
+ "落盘": "2026-10-13 22:59:51",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "在LLM时代发展ZAP",
+   "url": "https://www.zaproxy.org/blog/2026-10-13-developing-zap-in-the-llm-age/",
+   "type": "live"
+  },
+  {
+   "title": "Mobile Tunnel: Giving AI agents control of Android to drive drones and IoT",
+   "url": "https://sealgate.ai/blog/mobile-tunnel-agents-control-android-devices",
+   "type": "live"
+  },
   {
    "title": "Anthropic在智能体热潮期间为伦敦个人助理提供14.5万美元£",
    "url": "https://www.cityam.com/anthropic-offers-145k-for-london-personal-assistant-amid-ai-agent-boom/",
@@ -32,16 +42,6 @@
   {
    "title": "FastAPI流租赁– FastAPI SSE/LLM流的Redis租赁管理器",
    "url": "https://github.com/agustin18/fastapi-stream-lease",
-   "type": "live"
-  },
-  {
-   "title": "Nvidia Nemotron 3.5螺栓：在RTX Spark上为本地代理打开74B MoE",
-   "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
-   "type": "live"
-  },
-  {
-   "title": "Forcefield：超快、轻量、本地首创的AI Agent线束",
-   "url": "https://github.com/fabledruns/forcefield",
    "type": "live"
   },
   {
