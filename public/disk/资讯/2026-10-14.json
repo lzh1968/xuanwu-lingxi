@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-14",
- "落盘": "2026-10-14 00:31:05",
+ "落盘": "2026-10-14 00:38:17",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "中国廉价的LLM可能会引发万亿美元的人工智能基础设施重置",
+   "url": "https://www.theregister.com/paas-and-iaas/2026/10/13/cheap-chinese-and-open-source-llms-could-trigger-trillion-dollar-ai-infrastructure-reset/5302774",
+   "type": "live"
+  },
   {
    "title": "用于网络事件响应的代理人工智能",
    "url": "https://commandline.microsoft.com/ai-agent-copilot-autopilot-layered-model-production-network-incidents-on-call-engineers/",
@@ -40,13 +45,13 @@
    "type": "live"
   },
   {
-   "title": "拒绝规则不会阻止编码代理看到您的程序打印的密钥",
-   "url": "https://fidelius.blisslabs.dev/research/ai-coding-agents-api-keys-env/",
-   "type": "live"
-  },
-  {
    "title": "今日辑要 · 2026-10-14（前沿 12 条）",
    "url": "a/digest-20261014.html",
+   "type": "article"
+  },
+  {
+   "title": "自治系统的\"慢变量\"",
+   "url": "a/note-20261014-1.html",
    "type": "article"
   },
   {
@@ -67,11 +72,6 @@
   {
    "title": "从无到有，只需一条线",
    "url": "a/note-20261014-17.html",
-   "type": "article"
-  },
-  {
-   "title": "创造神的一天",
-   "url": "a/note-20261014-18.html",
    "type": "article"
   }
  ]
