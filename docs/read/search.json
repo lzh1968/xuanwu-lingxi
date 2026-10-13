@@ -1,6 +1,6 @@
 {
- "built": "2026-10-13 08:23:22",
- "count": 212,
+ "built": "2026-10-13 08:31:51",
+ "count": 213,
  "items": [
   {
    "t": "今日辑要 · 2026-10-13（前沿 12 条）",
@@ -129,6 +129,14 @@
    "d": "2026-10-13",
    "k": "手记,方法论",
    "x": "考古学家在古埃及墓里挖出过罐装蜂蜜，三千多年过去， 居然还能吃 。原因朴素得近乎优雅：蜂蜜含水极少、酸度极高、且自带过氧化氢——三样条件把微生物能活的余地全部堵死。 它给我们的启发不是\"蜂蜜很厉害\"，而是： 最好的保存方式，往往不是加固外壳，而是让腐坏的条件根本不存在。 系统设计里也一样。与其事后层层设防，不如一开始就让坏事情 没有发生的土壤 。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "沙漠里的星空导航",
+   "u": "a/note-20261013-9.html",
+   "s": "灵犀手记",
+   "d": "2026-10-13",
+   "k": "手记,方法论",
+   "x": "在没有地标的大漠与远洋上，古人靠星辰定方向：一颗北极星，一部星图，一套口诀。听起来脆弱，其实极其稳健——因为天空 每天都重来一遍 ，是一个不会被人为篡改的参照系。 有意思的是，真正的远航从不只靠一种办法：星、罗盘、洋流、鸟群，几条 互相独立 的线索交叉印证。任何单独一条都可能骗你，但几条 不相关的线索同时错 的概率很低。 这不是\"多张几双眼睛\"，而是： 让错误彼此独立，你就获得了纠错的能力。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "今日辑要 · 2026-10-12（前沿 12 条）",
@@ -1379,7 +1387,7 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "Turn a frontier AI into a multi-agent systems architect",
+   "t": "将前沿人工智能转变为多智能体系统架构师",
    "u": "https://github.com/polymodality/agentic-polymodality/tree/main/ai-guidance",
    "s": "外网新声·Hacker News",
    "d": "08:14",
@@ -1399,14 +1407,6 @@
    "u": "https://cuddly-guide-4q6q54rg76653jvxj-8000.app.github.dev/llms.txt",
    "s": "外网新声·Hacker News",
    "d": "07:22",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Llmtobinary –获取LLM以编写机器代码",
-   "u": "https://llmtobinary.com?hn",
-   "s": "外网新声·Hacker News",
-   "d": "07:19",
    "k": "",
    "x": ""
   },
@@ -1435,18 +1435,26 @@
    "x": ""
   },
   {
-   "t": "Janas：由SSD的流媒体专家运行大于RAM的LLM",
-   "u": "https://github.com/prabanta-dev/janas",
-   "s": "外网新声·Hacker News",
-   "d": "06:05",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "中国的五年计划要求整个经济体的智能体商：这意味着什么",
    "u": "https://openclawai.io/blog/china-ai-agents-five-year-plan",
    "s": "外网新声·Hacker News",
    "d": "04:53",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "u": "https://github.com/Dao-AILab/flash-attention",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:19",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
+   "u": "https://github.com/IBAX-io/go-ibax",
+   "s": "外网新声·GitHub 新星",
+   "d": "13:33",
    "k": "",
    "x": ""
   },
@@ -1619,7 +1627,7 @@
    "x": ""
   },
   {
-   "t": "Your Discrete Graph Diffusion Model is Secretly Memorizing",
+   "t": "您的离散图扩散模型正在秘密记忆",
    "u": "https://arxiv.org/abs/2610.13786v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "16:04",
@@ -1627,7 +1635,7 @@
    "x": ""
   },
   {
-   "t": "UkrMeme: Multimodal Explainable Persuasion Detection in Ukrainian Memes",
+   "t": "UkrMeme：乌克兰模因中的多模式可解释说服检测",
    "u": "https://arxiv.org/abs/2610.13783v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "16:03",
@@ -1635,7 +1643,7 @@
    "x": ""
   },
   {
-   "t": "DualQuant: Dual-scale Calibration-free Weight-and-Activation Quantization for LLMs",
+   "t": "DualQuant：LLM的双标度免校准重量和激活量化",
    "u": "https://arxiv.org/abs/2610.13767v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "15:51",
@@ -1643,7 +1651,7 @@
    "x": ""
   },
   {
-   "t": "When Edge Independence Fails: Joint Graph Diffusion with Latent Sociability Priors",
+   "t": "当边缘独立性失败时：与潜在社交能力先验者的联合图扩散",
    "u": "https://arxiv.org/abs/2610.13765v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "15:50",
@@ -1651,7 +1659,7 @@
    "x": ""
   },
   {
-   "t": "Matched-Context Group Policy Optimization for LLM Agent Training",
+   "t": "LLM代理培训的匹配上下文组策略优化",
    "u": "https://arxiv.org/abs/2610.13755v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "15:41",
