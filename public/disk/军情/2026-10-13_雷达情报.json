@@ -2,14 +2,14 @@
  "日期": "2026-10-13",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-13 13:37:18",
-  "chosen": "SEI short",
+  "updated": "2026-10-13 14:13:44",
+  "chosen": "AVAX long",
   "nodes": [
    {
-    "coin": "SEI",
-    "side": "short",
+    "coin": "AVAX",
+    "side": "long",
     "align": 2,
-    "embryo": 3.2
+    "embryo": 4.7
    },
    {
     "coin": "BTC",
@@ -66,12 +66,6 @@
     "embryo": 0.0
    },
    {
-    "coin": "AVAX",
-    "side": "",
-    "align": 0,
-    "embryo": 0.0
-   },
-   {
     "coin": "UNI",
     "side": "",
     "align": 0,
@@ -103,6 +97,12 @@
    },
    {
     "coin": "ETH",
+    "side": "",
+    "align": 0,
+    "embryo": 0.0
+   },
+   {
+    "coin": "SEI",
     "side": "",
     "align": 0,
     "embryo": 0.0
