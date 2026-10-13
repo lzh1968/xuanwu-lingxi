@@ -2,38 +2,14 @@
  "日期": "2026-10-13",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-13 11:54:21",
-  "chosen": "XRP long",
+  "updated": "2026-10-13 12:20:15",
+  "chosen": "TIA long",
   "nodes": [
    {
-    "coin": "INJ",
+    "coin": "TIA",
     "side": "long",
-    "align": 2,
-    "embryo": 3.8
-   },
-   {
-    "coin": "XRP",
-    "side": "long",
-    "align": 1,
-    "embryo": 2.5
-   },
-   {
-    "coin": "ADA",
-    "side": "long",
-    "align": 0,
-    "embryo": -0.3
-   },
-   {
-    "coin": "LTC",
-    "side": "long",
-    "align": 0,
-    "embryo": -0.3
-   },
-   {
-    "coin": "FIL",
-    "side": "long",
-    "align": 2,
-    "embryo": 3.8
+    "align": 3,
+    "embryo": 2.7
    },
    {
     "coin": "BTC",
@@ -49,6 +25,24 @@
    },
    {
     "coin": "DOGE",
+    "side": "",
+    "align": 0,
+    "embryo": 0.0
+   },
+   {
+    "coin": "XRP",
+    "side": "",
+    "align": 0,
+    "embryo": 0.0
+   },
+   {
+    "coin": "ADA",
+    "side": "",
+    "align": 0,
+    "embryo": 0.0
+   },
+   {
+    "coin": "LTC",
     "side": "",
     "align": 0,
     "embryo": 0.0
@@ -90,6 +84,12 @@
     "embryo": 0.0
    },
    {
+    "coin": "FIL",
+    "side": "",
+    "align": 0,
+    "embryo": 0.0
+   },
+   {
     "coin": "ARB",
     "side": "",
     "align": 0,
@@ -114,7 +114,7 @@
     "embryo": 0.0
    },
    {
-    "coin": "TIA",
+    "coin": "INJ",
     "side": "",
     "align": 0,
     "embryo": 0.0
