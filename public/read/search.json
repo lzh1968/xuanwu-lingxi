@@ -1,6 +1,6 @@
 {
- "built": "2026-10-13 11:50:14",
- "count": 215,
+ "built": "2026-10-13 11:59:17",
+ "count": 213,
  "items": [
   {
    "t": "今日辑要 · 2026-10-13（前沿 12 条）",
@@ -1403,6 +1403,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Show HN：可根据您的工作流程进行调整的可扩展视频编辑器",
+   "u": "https://github.com/iterative-computer/powermove",
+   "s": "外网新声·Hacker News",
+   "d": "11:54",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "我使用AI QA代理来测试Hacker News",
    "u": "https://hitest.ai/blog/demo-hacker-news",
    "s": "外网新声·Hacker News",
@@ -1415,22 +1423,6 @@
    "u": "https://twitter.com/levie/status/1986620885592113218",
    "s": "外网新声·Hacker News",
    "d": "11:12",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：MEF LLM Studio –了解LLM如何按令牌生成文本和令牌",
-   "u": "https://www.mef-llm-studio.com/en/",
-   "s": "外网新声·Hacker News",
-   "d": "10:24",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "LLM中断了开发人员教育",
-   "u": "https://www.augmentedswe.com/p/ai-is-changing-developer-education",
-   "s": "外网新声·Hacker News",
-   "d": "09:15",
    "k": "",
    "x": ""
   },
@@ -1459,14 +1451,6 @@
    "x": ""
   },
   {
-   "t": "Llmtobinary –获取LLM以编写机器代码",
-   "u": "https://llmtobinary.com?hn",
-   "s": "外网新声·Hacker News",
-   "d": "07:19",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "吠陀：首款AI智能体爱好操作系统",
    "u": "https://github.com/vahmoh25/Veda/blob/main/README.md",
    "s": "外网新声·Hacker News",
@@ -1483,18 +1467,34 @@
    "x": ""
   },
   {
-   "t": "Agentic BSS解释：AI原生模型、架构和使用案例[pdf]",
-   "u": "https://framerusercontent.com/assets/PKpdXtv0xAf0e4W4M53D2pUDpzg.pdf",
-   "s": "外网新声·Hacker News",
-   "d": "06:06",
+   "t": "ultraworkers/claw-code -代理管理的博物馆展览，使用Gajae-Code/LazyCodex在Rust中建造—开发和",
+   "u": "https://github.com/ultraworkers/claw-code",
+   "s": "外网新声·GitHub 新星",
+   "d": "03:54",
    "k": "",
    "x": ""
   },
   {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
+   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
+   "u": "https://github.com/IBAX-io/go-ibax",
    "s": "外网新声·GitHub 新星",
-   "d": "03:37",
+   "d": "03:54",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "03:41",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "03:38",
    "k": "",
    "x": ""
   },
@@ -1507,14 +1507,6 @@
    "x": ""
   },
   {
-   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "u": "https://github.com/earendil-works/pi",
-   "s": "外网新声·GitHub 新星",
-   "d": "23:37",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Show HN：EpochGo - Ollama上的本地优先多代理AutoML （ API成本为$ 0 ）",
    "u": "https://github.com/AryanDinakaran/EpochGo",
    "s": "外网新声·Hacker News",
@@ -1523,10 +1515,26 @@
    "x": ""
   },
   {
+   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
+   "u": "https://github.com/affaan-m/ECC",
+   "s": "外网新声·GitHub 新星",
+   "d": "14:45",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "多Agent漏洞修复管道：角色分离架构",
    "u": "https://github.com/Mininglamp-OSS",
    "s": "外网新声·Hacker News",
    "d": "12:05",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
+   "u": "https://github.com/mattpocock/skills",
+   "s": "外网新声·GitHub 新星",
+   "d": "08:46",
    "k": "",
    "x": ""
   },
@@ -1563,14 +1571,6 @@
    "x": ""
   },
   {
-   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
-   "u": "https://github.com/IBAX-io/go-ibax",
-   "s": "外网新声·GitHub 新星",
-   "d": "13:33",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Claude客服代表现在可以编写自己的多客服代表工作流程",
    "u": "https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration",
    "s": "外网新声·Hacker News",
@@ -1579,106 +1579,10 @@
    "x": ""
   },
   {
-   "t": "神经网络拓扑表达性的构造边界",
-   "u": "https://arxiv.org/abs/2610.13931v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "人工智能模型可以可证明地隐藏任意能力",
-   "u": "https://arxiv.org/abs/2610.13928v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "KL混合前后：并行采样中的圆形复杂度分离",
-   "u": "https://arxiv.org/abs/2610.13924v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:54",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "通过强化学习实现深空通信的以目标为导向的捆绑管理和流量控制",
-   "u": "https://arxiv.org/abs/2610.13923v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:53",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "DyssomniaNN：人类睡眠障碍和感知静止的多尺度尖峰神经建模",
-   "u": "https://arxiv.org/abs/2610.13918v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:52",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "预测不是足够的内存状态",
-   "u": "https://arxiv.org/abs/2610.13881v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:27",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "通过零阶残差跟踪的部分知情随机优化",
-   "u": "https://arxiv.org/abs/2610.13871v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:20",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "全离散条件扩散模型的有限样本保证",
-   "u": "https://arxiv.org/abs/2610.13851v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "16:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "返回到开发状态：当完整沙盒快照帮助编码代理时",
-   "u": "https://arxiv.org/abs/2610.13841v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "16:50",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "论连续扩散语言模型的设计空间",
-   "u": "https://arxiv.org/abs/2610.13834v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "16:41",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "TabMF：使用表格基础模型学习数据集表示",
-   "u": "https://arxiv.org/abs/2610.13818v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "16:28",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "梦想记住：用世界模型持续指导通才机器人政策",
-   "u": "https://arxiv.org/abs/2610.13816v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "16:28",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "通过精确高斯调节进行跨越扩散和基于流的后验采样",
-   "u": "https://arxiv.org/abs/2610.13812v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "16:24",
+   "t": "obra/superpowers —有效的代理技能框架和软件开发方法。",
+   "u": "https://github.com/obra/superpowers",
+   "s": "外网新声·GitHub 新星",
+   "d": "03:03",
    "k": "",
    "x": ""
   },
@@ -1715,10 +1619,90 @@
    "x": ""
   },
   {
-   "t": "EmbeddingGemma 2：开放、轻量级的多模态嵌入模型",
-   "u": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "19:57",
+   "t": "使用Ironclad推进计算机使用",
+   "u": "https://openai.com/index/advancing-computer-use-with-ironclad",
+   "s": "外网新声·OpenAI 官方",
+   "d": "10:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "将智能体与企业知识联系起来",
+   "u": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "15:47",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "将预测分析引入代理人工智能时代",
+   "u": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "13:29",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "人们真的很讨厌人工智能，为什么他们得不到足够的呢？",
+   "u": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "08:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "GPT-6系列的模型指南",
+   "u": "https://openai.com/index/practical-guide-building-gpt-6",
+   "s": "外网新声·OpenAI 官方",
+   "d": "16:15",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "不要被愚弄- LLM不要讲道理",
+   "u": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "08:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "永恒的补充",
+   "u": "https://openai.com/index/the-eternal-complement",
+   "s": "外网新声·OpenAI 官方",
+   "d": "17:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "TangSengDaoDao/TangSengDaoDaoServer — 高颜值 IM 即时通讯,聊天",
+   "u": "https://github.com/TangSengDaoDao/TangSengDaoDaoServer",
+   "s": "外网新声·GitHub 新星",
+   "d": "08:13",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "nutzam/nutz — Nutz —适用于所有Java开发人员的Web框架（ Mvc/Ioc/Aop/DAO/Json ）",
+   "u": "https://github.com/nutzam/nutz",
+   "s": "外网新声·GitHub 新星",
+   "d": "03:17",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Dapp-Learning-DAO/Dapp-Learning —面向所有阶段开发人员的Dapp学习项目。成为和培养主权国家",
+   "u": "https://github.com/Dapp-Learning-DAO/Dapp-Learning",
+   "s": "外网新声·GitHub 新星",
+   "d": "11:30",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "greenrobot/greenDAO — greenDAO是适用于Android的轻型快速ORM解决方案，可将对象映射到SQLite数据库。",
+   "u": "https://github.com/greenrobot/greenDAO",
+   "s": "外网新声·GitHub 新星",
+   "d": "05:30",
    "k": "",
    "x": ""
   }
