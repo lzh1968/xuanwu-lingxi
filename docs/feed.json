@@ -1,16 +1,32 @@
 {
- "generated": "04:03",
- "built": "2026-10-14 04:03:43",
+ "generated": "06:37",
+ "built": "2026-10-14 06:37:11",
  "count": 194,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN: Sugabots –您的团队和智能体一起工作的群聊",
+   "url": "https://sugabots.ai/",
+   "src": "Hacker News",
+   "t": "06:27",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN：Enki LLM带有实时GPU/CPU大脑迁移的纯生锈（甚至内核）",
+   "url": "https://github.com/enkiruntime/enki_llm",
+   "src": "Hacker News",
+   "t": "06:23",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Show HN：BitRun –在CPU上以98T/s的速度运行1位LLM，无需编译",
    "url": "https://github.com/IshekKhal/bitrun",
    "src": "Hacker News",
    "t": "03:28",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -18,38 +34,6 @@
    "url": "https://heybono.ai",
    "src": "Hacker News",
    "t": "02:52",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "工具减少了LLM拒绝请求的可能性",
-   "url": "https://arxiv.org/abs/2610.03938",
-   "src": "Hacker News",
-   "t": "02:49",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "询问HN：签名网址预览是否可行？",
-   "url": "https://news.ycombinator.com/item?id=50076558",
-   "src": "Hacker News",
-   "t": "02:40",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Show HN：Commit-Aware Router，围绕您的AI/云承诺路由LLM流量",
-   "url": "https://github.com/tejaspruthi/CommitAwareRouter",
-   "src": "Hacker News",
-   "t": "02:34",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Show HN：一般确定性任务的第一个开放权重模型",
-   "url": "https://huggingface.co/interfaze-ai/interfaze-1-lite",
-   "src": "Hacker News",
-   "t": "01:06",
    "fresh": false
   },
   {
@@ -66,6 +50,22 @@
    "url": "https://unreallabs.ai/blog/what-we-learned-from-building-cloud-agents/",
    "src": "Hacker News",
    "t": "00:47",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "为您的AI 智能体Show HN：Mac Markdown阅读器",
+   "url": "https://news.ycombinator.com/item?id=50074607",
+   "src": "Hacker News",
+   "t": "00:40",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "用于网络事件响应的代理人工智能",
+   "url": "https://commandline.microsoft.com/ai-agent-copilot-autopilot-layered-model-production-network-incidents-on-call-engineers/",
+   "src": "Hacker News",
+   "t": "00:30",
    "fresh": false
   },
   {
