@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-14",
- "落盘": "2026-10-14 10:33:57",
+ "落盘": "2026-10-14 10:40:00",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "膜–本地LLM的结构化持久内存",
+   "url": "https://github.com/chedim/membrane",
+   "type": "live"
+  },
   {
    "title": "OCP 2026：Agentic AI将数据中心从芯片推向电网",
    "url": "https://www.datacenterfrontier.com/hyperscale/article/55411534/ocp-2026-agentic-ai-pushes-the-data-center-from-chip-to-grid",
@@ -32,11 +37,6 @@
   {
    "title": "Show HN: Sugabots –您的团队和智能体一起工作的群聊",
    "url": "https://sugabots.ai/",
-   "type": "live"
-  },
-  {
-   "title": "Show HN：Enki LLM带有实时GPU/CPU大脑迁移的纯生锈（甚至内核）",
-   "url": "https://github.com/enkiruntime/enki_llm",
    "type": "live"
   },
   {
