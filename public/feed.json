@@ -1,16 +1,24 @@
 {
- "generated": "13:46",
- "built": "2026-10-14 13:46:59",
+ "generated": "13:53",
+ "built": "2026-10-14 13:53:28",
  "count": 194,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "LeanLLM: An LLM SDK for applications written in Lean 4",
+   "url": "https://github.com/theoriclabs/leanllm",
+   "src": "Hacker News",
+   "t": "13:46",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Show HN: AgentGate – Fast authorization gateway for AI agent tools",
    "url": "https://github.com/mohitdebian/AgentGate",
    "src": "Hacker News",
    "t": "12:16",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,6 @@
    "url": "https://github.com/cloudishai/ai-deploy-bench",
    "src": "Hacker News",
    "t": "08:07",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Show HN: Jevcrawl –用于AI 智能体的网络爬虫，在爬虫循环中没有LLM",
-   "url": "https://github.com/RayenMlayeh/jevcrawl",
-   "src": "Hacker News",
-   "t": "07:35",
    "fresh": false
   },
   {
