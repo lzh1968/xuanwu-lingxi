@@ -1,5 +1,5 @@
 {
- "built": "2026-10-14 13:13:36",
+ "built": "2026-10-14 13:15:30",
  "count": 234,
  "items": [
   {
@@ -1579,26 +1579,10 @@
    "x": ""
   },
   {
-   "t": "膜–本地LLM的结构化持久内存",
-   "u": "https://github.com/chedim/membrane",
-   "s": "外网新声·Hacker News",
-   "d": "10:33",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "OCP 2026：Agentic AI将数据中心从芯片推向电网",
    "u": "https://www.datacenterfrontier.com/hyperscale/article/55411534/ocp-2026-agentic-ai-pushes-the-data-center-from-chip-to-grid",
    "s": "外网新声·Hacker News",
    "d": "10:19",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "苹果到苹果：在基于LLM的代码转换中正确实现类型映射",
-   "u": "https://www.codemetal.ai/research/apples-to-apples-getting-type-mappings-right-in-llm-based-code-translation",
-   "s": "外网新声·Hacker News",
-   "d": "09:19",
    "k": "",
    "x": ""
   },
@@ -1659,6 +1643,86 @@
    "x": ""
   },
   {
+   "t": "What Matters in Quality-Aware VLA Pretraining: A Benchmark and Empirical Study",
+   "u": "https://arxiv.org/abs/2610.18869v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards",
+   "u": "https://arxiv.org/abs/2610.18868v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Data Free Training of Diffusion Models for Lattice Field Theories",
+   "u": "https://arxiv.org/abs/2610.18863v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "DoubtLess: Training-Free Contrastive Decoding for Efficient Reasoning",
+   "u": "https://arxiv.org/abs/2610.18862v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Hybrid Reasoning Agents",
+   "u": "https://arxiv.org/abs/2610.18861v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Two Clocks: Why Larger Rollout Batches Learn Slower but Fail on Schedule in Reinforcement Learning with Verifiable Rewards",
+   "u": "https://arxiv.org/abs/2610.18853v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:58",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Joint Neural Posterior Estimation and Model Selection for Chemical Reaction Networks",
+   "u": "https://arxiv.org/abs/2610.18825v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:52",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Depth Memory",
+   "u": "https://arxiv.org/abs/2610.18809v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:46",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "SkillScaffold: Scaffolding Agentic Reinforcement Learning with Policy-Adaptive Skill Credit Assignment and Selective Injection",
+   "u": "https://arxiv.org/abs/2610.18807v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:46",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Emergent Loop Geometry in Gauge-Equivariant Graph Neural Networks",
+   "u": "https://arxiv.org/abs/2610.18742v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:10",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
    "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
    "s": "外网新声·GitHub 新星",
@@ -1691,14 +1755,6 @@
    "x": ""
   },
   {
-   "t": "Two For The Price Of One: Curvature-Aware Pruning Preserves Influence Functions Too",
-   "u": "https://arxiv.org/abs/2610.18516v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "15:09",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "A Global View of How LLMs Value Human Time",
    "u": "https://arxiv.org/abs/2610.18515v1",
    "s": "外网新声·arXiv cs.AI",
@@ -1711,22 +1767,6 @@
    "u": "https://arxiv.org/abs/2610.18511v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "15:06",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Towards Safe Autonomy for Computer Use",
-   "u": "https://arxiv.org/abs/2610.18508v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "15:03",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "How Low Can You Go: Fine-Tuning LLMs with Bayesian Optimization (LlMBO)",
-   "u": "https://arxiv.org/abs/2610.18504v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "14:58",
    "k": "",
    "x": ""
   },
@@ -1750,14 +1790,6 @@
    "t": "Judges Follow the Reference: The Derivation Gap in Verifying Tool-Call Arguments",
    "u": "https://arxiv.org/abs/2610.18497v1",
    "s": "外网新声·arXiv cs.AI",
-   "d": "14:52",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Steering the Fidelity in State Preparation on Noisy Bosonic Systems with Risk-Seeking Optimization",
-   "u": "https://arxiv.org/abs/2610.18495v1",
-   "s": "外网新声·arXiv cs.LG",
    "d": "14:52",
    "k": "",
    "x": ""
@@ -1787,42 +1819,10 @@
    "x": ""
   },
   {
-   "t": "Simplifying and Improving On-Policy Distillation for Few-Step Diffusion",
-   "u": "https://arxiv.org/abs/2610.18472v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "14:35",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Graph Metanetworks for Transformer Based Language Models",
-   "u": "https://arxiv.org/abs/2610.18471v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "14:34",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Kairos: Transactional Security Enforcement at the System Boundary for LLM Agents",
-   "u": "https://arxiv.org/abs/2610.18457v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "14:24",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Learning Perturbation-Specific Representations through Conditional Energy Prior for Cellular Response Prediction",
    "u": "https://arxiv.org/abs/2610.18456v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "14:24",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "FastEEP: Fast Intra-Instance Elastic Scaling for Expert-Parallel MoE Serving",
-   "u": "https://arxiv.org/abs/2610.18451v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "14:22",
    "k": "",
    "x": ""
   },
@@ -1867,10 +1867,10 @@
    "x": ""
   },
   {
-   "t": "Not All Drift Is a Mechanism: Tracing Prompt Adaptation in LLMs",
-   "u": "https://arxiv.org/abs/2610.18412v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "13:52",
+   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
+   "u": "https://github.com/mattpocock/skills",
+   "s": "外网新声·GitHub 新星",
+   "d": "08:46",
    "k": "",
    "x": ""
   }
