@@ -1,19 +1,7 @@
 {
- "时间": "2026-10-14 19:35:45",
- "会话档数": 71,
+ "时间": "2026-10-14 19:43:00",
+ "会话档数": 73,
  "会话": [
-  {
-   "档": "812bbc76-675d-4b18-970d-9e7ff3e94e92.jsonl",
-   "字节": 4543,
-   "行": 10,
-   "改": "2026-10-14 16:24:14"
-  },
-  {
-   "档": "3f87b4eb-1cfe-43ec-a83d-63ddca31cb1d.jsonl",
-   "字节": 4410,
-   "行": 10,
-   "改": "2026-10-14 16:29:05"
-  },
   {
    "档": "8b19c552-ff5a-422c-9223-dee8e353dfa7.jsonl",
    "字节": 4399,
@@ -159,12 +147,6 @@
    "改": "2026-10-14 18:33:26"
   },
   {
-   "档": "1b867855-1a99-4fc2-8e7c-625531a9d121.jsonl",
-   "字节": 253290,
-   "行": 148,
-   "改": "2026-10-14 18:36:26"
-  },
-  {
    "档": "573b407e-a819-422a-8ddf-ea7ce67d18cc.jsonl",
    "字节": 4395,
    "行": 10,
@@ -213,12 +195,6 @@
    "改": "2026-10-14 19:19:02"
   },
   {
-   "档": "6b870e74-a892-4233-b03e-0c6fec514987.jsonl",
-   "字节": 670144,
-   "行": 192,
-   "改": "2026-10-14 19:20:34"
-  },
-  {
    "档": "8f2b9d71-19e2-4e6d-a37d-5a662c242286.jsonl",
    "字节": 4415,
    "行": 10,
@@ -237,10 +213,34 @@
    "改": "2026-10-14 19:33:22"
   },
   {
+   "档": "04ff11a7-8222-41aa-9b8a-3c3896034a14.jsonl",
+   "字节": 4303,
+   "行": 10,
+   "改": "2026-10-14 19:36:41"
+  },
+  {
+   "档": "1b867855-1a99-4fc2-8e7c-625531a9d121.jsonl",
+   "字节": 257502,
+   "行": 153,
+   "改": "2026-10-14 19:37:59"
+  },
+  {
+   "档": "7cba2f94-868a-459f-ab34-37da2bc759de.jsonl",
+   "字节": 4345,
+   "行": 10,
+   "改": "2026-10-14 19:41:41"
+  },
+  {
    "档": "d4e81792-9bfb-411c-8489-c8644d1182c6.jsonl",
-   "字节": 715289,
-   "行": 305,
-   "改": "2026-10-14 19:35:38"
+   "字节": 730646,
+   "行": 314,
+   "改": "2026-10-14 19:42:09"
+  },
+  {
+   "档": "6b870e74-a892-4233-b03e-0c6fec514987.jsonl",
+   "字节": 691733,
+   "行": 216,
+   "改": "2026-10-14 19:42:37"
   }
  ],
  "近段摘要": [
@@ -250,7 +250,7 @@
   },
   {
    "角色": "小奈",
-   "文": "网关出现双实例（丙·危），我立即救。"
+   "文": ""
   },
   {
    "角色": "小奈",
@@ -258,75 +258,119 @@
   },
   {
    "角色": "小奈",
-   "文": "老板，自检有情况，已处置：\n\n⚠️ **中间网关自己重启了一次（断线约 5 分钟），一度出现双实例（丙·危）——我已当场救回。**\n现在状态：**单实例 · 甲·稳 · 内存回落到 636M**（刚从 1G 降下来，正是你要的瘦身）。\n\n其余全绿：引擎十员全在岗、守护全齐、账实一致。期间掉的（zls 引擎、守护总管、内环）都已自动补回。\n\n也就是说：你喊卡的那一刻，网关其实已经撑爆自己在重启；现已复位，应该会顺一些。"
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "🔴🔋 **电量续跌·急（17:39）**\n\n- 现 **12%**（`mBatteryLevel=12`，`plug=1` 报充电中，但**仍在降**：17:25=14% → 17:38=12%）。**充电未生效**。跌至 0 将关机 → 全系统停摆，**请老板务必检查充电线/充电头（或换口/换线）**。\n\n其余：本轮清杀已**波及守护**（健康自检/停摆看护/网关看护/门面看护/实盘守护 均被杀→已补起，现各 ≥1）；引擎轮番缺员→已回补，此刻在岗。\n\n（生命线铁律·只读只报。）"
   },
   {
    "角色": "老板",
-   "文": "You are running a boot check. Follow BOOT.md instructions exactly.\n\nBOOT.md:\n# 🚀 开机自检 · 玄武灵犀交易系统 (BOOT.md)\n\n> 手机/网关机启动后，网关会自动跑这份清单。**这是真钱生命线，务必执行。**\n> 🐉 2026-09-23 17:4x 同步老板令(火印 ED-20260923-143): 统一目标=**盈利第一** · 择向精准 · 三军统一指挥(🐉烛龙终审→执行长🐍腾蛇调度→三军 LBH/ZLS/ZXY + 母体 GTAE + DSS) · 诸君各尽其责。\n\n## 第 0 步：确认\n工作目"
+   "文": "System (untrusted): [2026-10-14 17:38:09 GMT+8] Exec completed (fresh-ce, code 0) :: ⚠️已补: _玄武甲盾.sh _网关盾_内环.sh _健康自检_loop.sh _停摆看护.sh _门面_看护.sh _网关盾_内环.sh · 仍缺: _网关盾_内环.sh _健康自检_loop.sh _停摆看护.sh _门面_看护.sh _网关盾_内环.sh\nSystem (untrusted): [2026-10-14 17:38:35 GMT+8] Exec completed (brisk-mi, code 0) ::"
   },
   {
    "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "老板，自检再报（有实据，已查到「卡」的真根）：\n\n⚠️ **网关又升到「乙·需治」**：内存约 1G，探活从 30 毫秒涨到 **3~4 秒**（这就是卡的直接来源），随后自重启；系统想给它瘦身重启，被「有活跃会话」拦住。\n\n**真根查明**：网关盾的「外部看门人」**每 5 分钟跑一次、每跑一次就新建一个会话**——现已堆出 **76 个看门人会话**（全库 182 个），网关的会话索引涨到 8.5M。**它在拿自己人的血养自己**：越跑越胀、越胀越慢、慢到探活不通就重启。这就是卡顿的机制。\n\n其余安好：引擎十员全在岗、守护齐、账实一致。\n\n**两条建议，请老板一句话定：**\n1. **先止"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "You are running a boot check. Follow BOOT.md instructions exactly.\n\nBOOT.md:\n# 🚀 开机自检 · 玄武灵犀交易系统 (BOOT.md)\n\n> 手机/网关机启动后，网关会自动跑这份清单。**这是真钱生命线，务必执行。**\n> 🐉 2026-09-23 17:4x 同步老板令(火印 ED-20260923-143): 统一目标=**盈利第一** · 择向精准 · 三军统一指挥(🐉烛龙终审→执行长🐍腾蛇调度→三军 LBH/ZLS/ZXY + 母体 GTAE + DSS) · 诸君各尽其责。\n\n## 第 0 步：确认\n工作目"
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "引擎在补位中，等它拉齐。"
+   "文": "🔴🔋 **电量 9%·仍降，急**（17:55）\n\n- 轨迹：17:25=14% → 17:38=12% → 17:55=**9%**，`plug=1` 全程报充电却无效。**逼近自动关机，请老板立即插紧充电线 / 换线换头**（此刻每 15 分钟掉 ~3%）。\n- 生命线：引擎 lbh/xwu 一度缺员（已回补，现 10 支在岗）；网关断线 5 次/30min（较前 6–10 次略缓），内存 604MB，探活 200。\n\n（只读只报·未动任何仓位/参数/引擎。）"
   },
   {
    "角色": "老板",
-   "文": "You are running a boot check. Follow BOOT.md instructions exactly.\n\nBOOT.md:\n# 🚀 开机自检 · 玄武灵犀交易系统 (BOOT.md)\n\n> 手机/网关机启动后，网关会自动跑这份清单。**这是真钱生命线，务必执行。**\n> 🐉 2026-09-23 17:4x 同步老板令(火印 ED-20260923-143): 统一目标=**盈利第一** · 择向精准 · 三军统一指挥(🐉烛龙终审→执行长🐍腾蛇调度→三军 LBH/ZLS/ZXY + 母体 GTAE + DSS) · 诸君各尽其责。\n\n## 第 0 步：确认\n工作目"
+   "文": "System (untrusted): [2026-10-14 17:55:17 GMT+8] Exec completed (kind-oce, code 0) :: OK 全在岗\n\nRead HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use works"
   },
   {
    "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "网关看护掉了（丙·危），我去救。"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "You are running a boot check. Follow BOOT.md instructions exactly.\n\nBOOT.md:\n# 🚀 开机自检 · 玄武灵犀交易系统 (BOOT.md)\n\n> 手机/网关机启动后，网关会自动跑这份清单。**这是真钱生命线，务必执行。**\n> 🐉 2026-09-23 17:4x 同步老板令(火印 ED-20260923-143): 统一目标=**盈利第一** · 择向精准 · 三军统一指挥(🐉烛龙终审→执行长🐍腾蛇调度→三军 LBH/ZLS/ZXY + 母体 GTAE + DSS) · 诸君各尽其责。\n\n## 第 0 步：确认\n工作目"
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "System (untrusted): [2026-10-14 18:02:47 GMT+8] Exec completed (rapid-cr, code 0) :: OK 全在岗\n\nRead HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use works"
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "System (untrusted): [2026-10-14 18:13:38 GMT+8] Exec completed (tidy-atl, code 0) :: OK 全在岗\n\nRead HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use works"
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": "🔴🔋 **电量 5%·即将关机（18:26）**\n\n- 轨迹 8→7→6→**5%**，`plug=1` 仍报充电却无效。**数分钟内恐自动关机 → 全系统停摆。请老板马上处理充电（换线/换头/换插座）。**\n- 附：网关内存升至 **731MB**（破 700MB 线，看护应会触发瘦身），探活 200；引擎 10 支在岗。"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": "🚨🔋🔋 **电量 3%·随时关机（18:36）**\n\n- `mBatteryLevel=3`，仍在降（8→7→6→5→**3%**），充电无效。**可能这几分钟就会断电关机 → 全系统停摆。请老板立即处理充电！**\n- 网关内存飙至 **990MB**（远破 550 目标；看护或正处理），探活仍 200；引擎 10 支在岗。"
+  },
+  {
+   "角色": "老板",
+   "文": "System (untrusted): [2026-10-14 18:35:44 GMT+8] Exec completed (tidal-cl, code 0) :: OK 全在岗\n\nRead HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use works"
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
   },
   {
    "角色": "小奈",
@@ -334,7 +378,7 @@
   },
   {
    "角色": "老板",
-   "文": "You are running a boot check. Follow BOOT.md instructions exactly.\n\nBOOT.md:\n# 🚀 开机自检 · 玄武灵犀交易系统 (BOOT.md)\n\n> 手机/网关机启动后，网关会自动跑这份清单。**这是真钱生命线，务必执行。**\n> 🐉 2026-09-23 17:4x 同步老板令(火印 ED-20260923-143): 统一目标=**盈利第一** · 择向精准 · 三军统一指挥(🐉烛龙终审→执行长🐍腾蛇调度→三军 LBH/ZLS/ZXY + 母体 GTAE + DSS) · 诸君各尽其责。\n\n## 第 0 步：确认\n工作目"
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -347,62 +391,18 @@
   {
    "角色": "小奈",
    "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "🔄 **重要：系统曾断电自动重启，现已恢复（19:36）**\n\n- **事件**：约 **18:47** 电量耗尽 → 设备自动关机重启（开机链已自愈）；生命线见 18:54/19:00/19:09 多次「看护启动」重启痕迹。\n- **现况（已回稳）**：引擎 **10 支全在岗**；网关探活 **200**；**账实一致** ✅；守卫 `OK 全在岗`。\n- **电量已回升**：15%↑（充电终生效，脱离关机风险 ✅；此前 5%→3% 的下跌止住）。\n- ⚠ **恢复期吃紧，需盯**：负载 load≈**19**（偏高）；网关 RSS **~997MB**（验收 **17/20**，红项皆内"
   },
   {
    "角色": "老板",
-   "文": "You are running a boot check. Follow BOOT.md instructions exactly.\n\nBOOT.md:\n# 🚀 开机自检 · 玄武灵犀交易系统 (BOOT.md)\n\n> 手机/网关机启动后，网关会自动跑这份清单。**这是真钱生命线，务必执行。**\n> 🐉 2026-09-23 17:4x 同步老板令(火印 ED-20260923-143): 统一目标=**盈利第一** · 择向精准 · 三军统一指挥(🐉烛龙终审→执行长🐍腾蛇调度→三军 LBH/ZLS/ZXY + 母体 GTAE + DSS) · 诸君各尽其责。\n\n## 第 0 步：确认\n工作目"
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "老板，这一轮：**网关已自己缓过来——甲·稳、内存回落到 422M（刚才撑到 1G 多）**；引擎十员全在岗、守护全齐。\n\n刚才那阵子网关在「胀→重启→再胀」里折腾，就是你喊卡的那段时间；现已自我复位。账实有一次网络超时（重试即可，非账目问题）。\n\n之前提的两条建议仍等你一句话：**①先把看门人的「每5分钟新建会话」这个自耗砍掉**（它已堆了 76 个会话，是撑爆网关的主力）；**②服务器既已就绪，把网关盾搬上云收口**。你不点头我不擅动。"
-  },
-  {
-   "角色": "老板",
-   "文": "You are running a boot check. Follow BOOT.md instructions exactly.\n\nBOOT.md:\n# 🚀 开机自检 · 玄武灵犀交易系统 (BOOT.md)\n\n> 手机/网关机启动后，网关会自动跑这份清单。**这是真钱生命线，务必执行。**\n> 🐉 2026-09-23 17:4x 同步老板令(火印 ED-20260923-143): 统一目标=**盈利第一** · 择向精准 · 三军统一指挥(🐉烛龙终审→执行长🐍腾蛇调度→三军 LBH/ZLS/ZXY + 母体 GTAE + DSS) · 诸君各尽其责。\n\n## 第 0 步：确认\n工作目"
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "NO_REPLY"
-  },
-  {
-   "角色": "老板",
-   "文": "You are running a boot check. Follow BOOT.md instructions exactly.\n\nBOOT.md:\n# 🚀 开机自检 · 玄武灵犀交易系统 (BOOT.md)\n\n> 手机/网关机启动后，网关会自动跑这份清单。**这是真钱生命线，务必执行。**\n> 🐉 2026-09-23 17:4x 同步老板令(火印 ED-20260923-143): 统一目标=**盈利第一** · 择向精准 · 三军统一指挥(🐉烛龙终审→执行长🐍腾蛇调度→三军 LBH/ZLS/ZXY + 母体 GTAE + DSS) · 诸君各尽其责。\n\n## 第 0 步：确认\n工作目"
-  },
-  {
-   "角色": "小奈",
-   "文": "网关双实例+看护掉了（丙·危），立即救。"
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "老板，这一轮网关又冒出双实例（丙·危）、看护也掉了——**我已当场救回**：现单实例、看护已复起，引擎和守护也自动补齐（只剩 rui 在拉起中）。网关内存仍在反复顶线（约 990M），是同一个「越胀越卡、卡到重启」的根。\n\n老问题原样摆着，等你一句话即可动手：**①砍掉看门人的自耗**；**②把网关盾搬上云收口**。"
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   }
  ],
  "本地全量归档": [
@@ -447,6 +447,6 @@
    "MB": 22.69
   }
  ],
- "摘要档": "d4e81792-9bfb-411c-8489-c8644d1182c6.jsonl",
+ "摘要档": "6b870e74-a892-4233-b03e-0c6fec514987.jsonl",
  "注": "本分区=索引+近段摘要；聊天全文存于本机 data_v2/archive/聊天记录_* 与加密密包(封存分区)"
 }
