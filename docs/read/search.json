@@ -1,5 +1,5 @@
 {
- "built": "2026-10-14 20:33:58",
+ "built": "2026-10-14 20:38:48",
  "count": 234,
  "items": [
   {
@@ -1555,6 +1555,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Show HN: Llms.py – Lightweight, self-hosted ChatGPT alternative to OpenWebUI",
+   "u": "https://llmspy.org",
+   "s": "外网新声·Hacker News",
+   "d": "20:35",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Show HN: My AI agent kept quoting undated market numbers, so I built PreReason",
    "u": "https://www.prereason.com/",
    "s": "外网新声·Hacker News",
@@ -1627,10 +1635,18 @@
    "x": ""
   },
   {
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
+   "s": "外网新声·GitHub 新星",
+   "d": "12:37",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
    "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
-   "d": "12:32",
+   "d": "12:34",
    "k": "",
    "x": ""
   },
@@ -1647,14 +1663,6 @@
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
    "d": "12:18",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "u": "https://github.com/earendil-works/pi",
-   "s": "外网新声·GitHub 新星",
-   "d": "11:55",
    "k": "",
    "x": ""
   },
@@ -1707,6 +1715,14 @@
    "x": ""
   },
   {
+   "t": "Data Free Training of Diffusion Models for Lattice Field Theories",
+   "u": "https://arxiv.org/abs/2610.18863v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "DoubtLess: Training-Free Contrastive Decoding for Efficient Reasoning",
    "u": "https://arxiv.org/abs/2610.18862v1",
    "s": "外网新声·arXiv cs.AI",
@@ -1739,6 +1755,14 @@
    "x": ""
   },
   {
+   "t": "Joint Neural Posterior Estimation and Model Selection for Chemical Reaction Networks",
+   "u": "https://arxiv.org/abs/2610.18825v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:52",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Read the Room Before Your Model Generates",
    "u": "https://arxiv.org/abs/2610.18820v1",
    "s": "外网新声·arXiv cs.AI",
@@ -1763,9 +1787,25 @@
    "x": ""
   },
   {
+   "t": "Depth Memory",
+   "u": "https://arxiv.org/abs/2610.18809v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:46",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Optimizing Team Behavior via Extremum-seeking Control in Multi-agent Reinforcement Learning",
    "u": "https://arxiv.org/abs/2610.18808v1",
    "s": "外网新声·arXiv cs.AI",
+   "d": "17:46",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "SkillScaffold: Scaffolding Agentic Reinforcement Learning with Policy-Adaptive Skill Credit Assignment and Selective Injection",
+   "u": "https://arxiv.org/abs/2610.18807v1",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:46",
    "k": "",
    "x": ""
@@ -1803,6 +1843,14 @@
    "x": ""
   },
   {
+   "t": "Emergent Loop Geometry in Gauge-Equivariant Graph Neural Networks",
+   "u": "https://arxiv.org/abs/2610.18742v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:10",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
    "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
    "s": "外网新声·GitHub 新星",
@@ -1823,54 +1871,6 @@
    "u": "https://github.com/polymodality/agentic-polymodality/tree/main/ai-guidance",
    "s": "外网新声·Hacker News",
    "d": "08:14",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
-   "u": "https://github.com/IBAX-io/go-ibax",
-   "s": "外网新声·GitHub 新星",
-   "d": "06:42",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：EpochGo - Ollama上的本地优先多代理AutoML （ API成本为$ 0 ）",
-   "u": "https://github.com/AryanDinakaran/EpochGo",
-   "s": "外网新声·Hacker News",
-   "d": "18:20",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
-   "u": "https://github.com/affaan-m/ECC",
-   "s": "外网新声·GitHub 新星",
-   "d": "14:45",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "多Agent漏洞修复管道：角色分离架构",
-   "u": "https://github.com/Mininglamp-OSS",
-   "s": "外网新声·Hacker News",
-   "d": "12:05",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "MASS：通过多代理自我监督实现递归自我提升",
-   "u": "https://pub.sakana.ai/mass/?href=",
-   "s": "外网新声·Hacker News",
-   "d": "08:12",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "多代理线束需要单独的消息通道",
-   "u": "https://harshalgajjar.com/blog/multi-agent-harnesses-need-separate-message-channels",
-   "s": "外网新声·Hacker News",
-   "d": "04:34",
    "k": "",
    "x": ""
   }
