@@ -1,5 +1,5 @@
 {
- "built": "2026-10-14 13:16:27",
+ "built": "2026-10-14 13:22:51",
  "count": 234,
  "items": [
   {
@@ -1579,10 +1579,26 @@
    "x": ""
   },
   {
+   "t": "膜–本地LLM的结构化持久内存",
+   "u": "https://github.com/chedim/membrane",
+   "s": "外网新声·Hacker News",
+   "d": "10:33",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "OCP 2026：Agentic AI将数据中心从芯片推向电网",
    "u": "https://www.datacenterfrontier.com/hyperscale/article/55411534/ocp-2026-agentic-ai-pushes-the-data-center-from-chip-to-grid",
    "s": "外网新声·Hacker News",
    "d": "10:19",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "苹果到苹果：在基于LLM的代码转换中正确实现类型映射",
+   "u": "https://www.codemetal.ai/research/apples-to-apples-getting-type-mappings-right-in-llm-based-code-translation",
+   "s": "外网新声·Hacker News",
+   "d": "09:19",
    "k": "",
    "x": ""
   },
@@ -1603,18 +1619,18 @@
    "x": ""
   },
   {
-   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
-   "u": "https://github.com/morluto/rea",
-   "s": "外网新声·GitHub 新星",
-   "d": "05:10",
+   "t": "Show HN：Enki LLM带有实时GPU/CPU大脑迁移的纯生锈（甚至内核）",
+   "u": "https://github.com/enkiruntime/enki_llm",
+   "s": "外网新声·Hacker News",
+   "d": "06:23",
    "k": "",
    "x": ""
   },
   {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
+   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
+   "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
-   "d": "05:04",
+   "d": "05:17",
    "k": "",
    "x": ""
   },
@@ -1622,7 +1638,15 @@
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "04:31",
+   "d": "05:17",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "05:17",
    "k": "",
    "x": ""
   },
@@ -1739,138 +1763,114 @@
    "x": ""
   },
   {
-   "t": "APTree: Extended Behavior Trees for Adaptive and Scalable Automated Robotic Task Planning in Construction",
-   "u": "https://arxiv.org/abs/2610.18523v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "15:12",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Lost in Implicit Routing: How LLM Agents Fail to Load Relevant Skills at Scale",
-   "u": "https://arxiv.org/abs/2610.18522v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "15:12",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "A Global View of How LLMs Value Human Time",
-   "u": "https://arxiv.org/abs/2610.18515v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "15:08",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "The Smart Buildings Challenge: Learning Foundation Models for Real-World Optimization at Scale",
-   "u": "https://arxiv.org/abs/2610.18511v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "15:06",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "EgoOmniWorld: Unifying Egocentric Understanding via Ego-Action-World Interactions",
-   "u": "https://arxiv.org/abs/2610.18499v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "14:53",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Aligning Faithfulness for Theory-Scale Autoformalization",
-   "u": "https://arxiv.org/abs/2610.18498v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "14:53",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Judges Follow the Reference: The Derivation Gap in Verifying Tool-Call Arguments",
-   "u": "https://arxiv.org/abs/2610.18497v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "14:52",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Task-evoked eye movements as candidate digital biomarkers of depression severity in adolescents and young adults",
-   "u": "https://arxiv.org/abs/2610.18494v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "14:51",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ReTerm: Recovery Training for Self-Improving Terminal Agents",
-   "u": "https://arxiv.org/abs/2610.18484v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "14:44",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "MemoryVLN: From Ego-Aware Memory Representation to Cross-Context Memory Reuse in Vision-Language Navigation",
-   "u": "https://arxiv.org/abs/2610.18478v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "14:40",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Learning Perturbation-Specific Representations through Conditional Energy Prior for Cellular Response Prediction",
-   "u": "https://arxiv.org/abs/2610.18456v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "14:24",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Autonomous Science Bench: Evaluating AI Agents for Autonomous Scientific Discovery",
-   "u": "https://arxiv.org/abs/2610.18449v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "14:18",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Thinker-WM: A Unified World Model with Shared Multimodal Representations for Embodied Intelligence",
-   "u": "https://arxiv.org/abs/2610.18447v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "14:18",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "STAMP as a topology-aware molecular language for fragment-level learning and editing",
-   "u": "https://arxiv.org/abs/2610.18438v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "14:13",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "How Well Do LLMs Perform in Peer Review? Evidence from Finance and Accounting",
-   "u": "https://arxiv.org/abs/2610.18435v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "14:11",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "FedGraph: Defending Federated Large Language Model Fine-Tuning Against Backdoor Attacks via Graph-Based Aggregation",
-   "u": "https://arxiv.org/abs/2610.18430v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "14:08",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
    "u": "https://github.com/mattpocock/skills",
    "s": "外网新声·GitHub 新星",
    "d": "08:46",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "将前沿人工智能转变为多智能体系统架构师",
+   "u": "https://github.com/polymodality/agentic-polymodality/tree/main/ai-guidance",
+   "s": "外网新声·Hacker News",
+   "d": "08:14",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
+   "u": "https://github.com/IBAX-io/go-ibax",
+   "s": "外网新声·GitHub 新星",
+   "d": "06:42",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "u": "https://github.com/Dao-AILab/flash-attention",
+   "s": "外网新声·GitHub 新星",
+   "d": "05:41",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：EpochGo - Ollama上的本地优先多代理AutoML （ API成本为$ 0 ）",
+   "u": "https://github.com/AryanDinakaran/EpochGo",
+   "s": "外网新声·Hacker News",
+   "d": "18:20",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
+   "u": "https://github.com/affaan-m/ECC",
+   "s": "外网新声·GitHub 新星",
+   "d": "14:45",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "多Agent漏洞修复管道：角色分离架构",
+   "u": "https://github.com/Mininglamp-OSS",
+   "s": "外网新声·Hacker News",
+   "d": "12:05",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "MASS：通过多代理自我监督实现递归自我提升",
+   "u": "https://pub.sakana.ai/mass/?href=",
+   "s": "外网新声·Hacker News",
+   "d": "08:12",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "多代理线束需要单独的消息通道",
+   "u": "https://harshalgajjar.com/blog/multi-agent-harnesses-need-separate-message-channels",
+   "s": "外网新声·Hacker News",
+   "d": "04:34",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN: Guilds –开源可检验多代理协作框架",
+   "u": "https://github.com/CigaleAI/guilds",
+   "s": "外网新声·Hacker News",
+   "d": "22:11",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：编写自己的多代理工作流程的免费编码代理",
+   "u": "https://kolega.ai/code",
+   "s": "外网新声·Hacker News",
+   "d": "19:01",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Claude客服代表现在可以编写自己的多客服代表工作流程",
+   "u": "https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration",
+   "s": "外网新声·Hacker News",
+   "d": "18:13",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "obra/superpowers —有效的代理技能框架和软件开发方法。",
+   "u": "https://github.com/obra/superpowers",
+   "s": "外网新声·GitHub 新星",
+   "d": "03:03",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Asana使用GPT-6.1 Sol将浏览器测试中的模型成本降低了76倍",
+   "u": "https://openai.com/index/asana-browser-agent",
+   "s": "外网新声·OpenAI 官方",
+   "d": "07:00",
    "k": "",
    "x": ""
   }
