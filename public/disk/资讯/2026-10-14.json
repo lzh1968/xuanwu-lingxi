@@ -1,6 +1,6 @@
 {
  "日期": "2026-10-14",
- "落盘": "2026-10-14 13:09:40",
+ "落盘": "2026-10-14 13:12:52",
  "条数": 14,
  "live": 60,
  "条目": [
@@ -20,8 +20,18 @@
    "type": "live"
   },
   {
+   "title": "膜–本地LLM的结构化持久内存",
+   "url": "https://github.com/chedim/membrane",
+   "type": "live"
+  },
+  {
    "title": "OCP 2026：Agentic AI将数据中心从芯片推向电网",
    "url": "https://www.datacenterfrontier.com/hyperscale/article/55411534/ocp-2026-agentic-ai-pushes-the-data-center-from-chip-to-grid",
+   "type": "live"
+  },
+  {
+   "title": "苹果到苹果：在基于LLM的代码转换中正确实现类型映射",
+   "url": "https://www.codemetal.ai/research/apples-to-apples-getting-type-mappings-right-in-llm-based-code-translation",
    "type": "live"
   },
   {
@@ -32,16 +42,6 @@
   {
    "title": "Show HN: Jevcrawl –用于AI 智能体的网络爬虫，在爬虫循环中没有LLM",
    "url": "https://github.com/RayenMlayeh/jevcrawl",
-   "type": "live"
-  },
-  {
-   "title": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
-   "url": "https://github.com/morluto/rea",
-   "type": "live"
-  },
-  {
-   "title": "anomalyco/opencode：开源编码智能体",
-   "url": "https://github.com/anomalyco/opencode",
    "type": "live"
   },
   {
