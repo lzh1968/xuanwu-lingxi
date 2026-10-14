@@ -2,14 +2,20 @@
  "日期": "2026-10-14",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-14 20:17:28",
+  "updated": "2026-10-14 20:22:11",
   "chosen": "SEI short",
   "nodes": [
+   {
+    "coin": "NEAR",
+    "side": "long",
+    "align": 1,
+    "embryo": 1.2
+   },
    {
     "coin": "SEI",
     "side": "short",
     "align": 2,
-    "embryo": 2.7
+    "embryo": 2.2
    },
    {
     "coin": "BTC",
@@ -49,12 +55,6 @@
    },
    {
     "coin": "BNB",
-    "side": "",
-    "align": 0,
-    "embryo": 0.0
-   },
-   {
-    "coin": "NEAR",
     "side": "",
     "align": 0,
     "embryo": 0.0
