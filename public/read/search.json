@@ -1,5 +1,5 @@
 {
- "built": "2026-10-14 09:49:08",
+ "built": "2026-10-14 09:56:18",
  "count": 234,
  "items": [
   {
@@ -1611,34 +1611,10 @@
    "x": ""
   },
   {
-   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
-   "u": "https://github.com/morluto/rea",
-   "s": "外网新声·GitHub 新星",
-   "d": "01:42",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "01:28",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "01:25",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
    "u": "https://github.com/earendil-works/pi",
    "s": "外网新声·GitHub 新星",
-   "d": "01:19",
+   "d": "01:51",
    "k": "",
    "x": ""
   },
@@ -1663,14 +1639,6 @@
    "u": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
    "s": "外网新声·DeepMind 官方",
    "d": "16:01",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
-   "u": "https://github.com/mattpocock/skills",
-   "s": "外网新声·GitHub 新星",
-   "d": "08:46",
    "k": "",
    "x": ""
   },
@@ -1703,14 +1671,6 @@
    "u": "https://github.com/AryanDinakaran/EpochGo",
    "s": "外网新声·Hacker News",
    "d": "18:20",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
-   "u": "https://github.com/affaan-m/ECC",
-   "s": "外网新声·GitHub 新星",
-   "d": "14:45",
    "k": "",
    "x": ""
   },
@@ -1755,6 +1715,30 @@
    "x": ""
   },
   {
+   "t": "结构思维链：使用可执行计算图进行推理",
+   "u": "https://arxiv.org/abs/2610.15107v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "18:29",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "RELAGRAM：电容式车辆路径问题的递归潜图模型",
+   "u": "https://arxiv.org/abs/2610.15106v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "18:29",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "锚点增强了扩散语言模型的可控性和推理能力",
+   "u": "https://arxiv.org/abs/2610.15097v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "18:14",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Claude客服代表现在可以编写自己的多客服代表工作流程",
    "u": "https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration",
    "s": "外网新声·Hacker News",
@@ -1763,114 +1747,130 @@
    "x": ""
   },
   {
-   "t": "obra/superpowers —有效的代理技能框架和软件开发方法。",
-   "u": "https://github.com/obra/superpowers",
-   "s": "外网新声·GitHub 新星",
-   "d": "03:03",
+   "t": "Swarm Telepathy：跨家庭的无预填充KV缓存传输",
+   "u": "https://arxiv.org/abs/2610.15095v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "18:09",
    "k": "",
    "x": ""
   },
   {
-   "t": "语言模型可以玩维基百科游戏吗？",
-   "u": "https://arxiv.org/abs/2610.13948v1",
+   "t": "TurnCost：转弯，而不是观察：针对编码智能体的缓存感知循环工程",
+   "u": "https://arxiv.org/abs/2610.15093v1",
    "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
+   "d": "18:03",
    "k": "",
    "x": ""
   },
   {
-   "t": "神经网络拓扑表达性的构造边界",
-   "u": "https://arxiv.org/abs/2610.13931v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "人工智能模型可以可证明地隐藏任意能力",
-   "u": "https://arxiv.org/abs/2610.13928v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "KL混合前后：并行采样中的圆形复杂度分离",
-   "u": "https://arxiv.org/abs/2610.13924v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:54",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "通过强化学习实现深空通信的以目标为导向的捆绑管理和流量控制",
-   "u": "https://arxiv.org/abs/2610.13923v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:53",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "DyssomniaNN：人类睡眠障碍和感知静止的多尺度尖峰神经建模",
-   "u": "https://arxiv.org/abs/2610.13918v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:52",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "任务上下文塑造语言模型中的组件角色",
-   "u": "https://arxiv.org/abs/2610.13895v1",
+   "t": "VLCQ：使用可变长度编码的深度神经网络的训练后量化",
+   "u": "https://arxiv.org/abs/2610.15092v1",
    "s": "外网新声·arXiv cs.AI",
-   "d": "17:40",
+   "d": "18:02",
    "k": "",
    "x": ""
   },
   {
-   "t": "评级：通过执行动态进行可靠性感知AI 智能体工具检索",
-   "u": "https://arxiv.org/abs/2610.13889v1",
+   "t": "你被说服了吗？一种在ChangeMyView讨论中检测说服力的神经符号论证推理方法",
+   "u": "https://arxiv.org/abs/2610.15091v1",
    "s": "外网新声·arXiv cs.AI",
-   "d": "17:38",
+   "d": "18:00",
    "k": "",
    "x": ""
   },
   {
-   "t": "X-AgentRed：在不断发展的多服务生态系统中与个人代理进行红色团队合作",
-   "u": "https://arxiv.org/abs/2610.13886v1",
+   "t": "通过保证金奖励实现自我进化的可视化代理",
+   "u": "https://arxiv.org/abs/2610.15084v1",
    "s": "外网新声·arXiv cs.AI",
-   "d": "17:34",
+   "d": "17:33",
    "k": "",
    "x": ""
   },
   {
-   "t": "预测不是足够的内存状态",
-   "u": "https://arxiv.org/abs/2610.13881v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:27",
+   "t": "Knowledge transfer between simple discrete worlds",
+   "u": "https://arxiv.org/abs/2610.15081v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:28",
    "k": "",
    "x": ""
   },
   {
-   "t": "通过零阶残差跟踪的部分知情随机优化",
-   "u": "https://arxiv.org/abs/2610.13871v1",
+   "t": "Toward a Multimodal Foundation Model for Plasma State Reconstruction",
+   "u": "https://arxiv.org/abs/2610.15076v1",
    "s": "外网新声·arXiv cs.LG",
-   "d": "17:20",
+   "d": "17:18",
    "k": "",
    "x": ""
   },
   {
-   "t": "全离散条件扩散模型的有限样本保证",
-   "u": "https://arxiv.org/abs/2610.13851v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "16:59",
+   "t": "Deep Learning-based Semantic Segmentation of Dental Radiographs: Comparative Evaluation of PSPNet, DeepLabv3, UNet, and UNet++",
+   "u": "https://arxiv.org/abs/2610.15061v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:53",
    "k": "",
    "x": ""
   },
   {
-   "t": "返回到开发状态：当完整沙盒快照帮助编码代理时",
-   "u": "https://arxiv.org/abs/2610.13841v1",
+   "t": "The Optimal Decoder is Tilted Temperature",
+   "u": "https://arxiv.org/abs/2610.15058v1",
    "s": "外网新声·arXiv cs.LG",
-   "d": "16:50",
+   "d": "16:49",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Select or Rewrite: Oracle-Guided Fine-Tuning for Generative ASR Post-Editing from N-Best Hypotheses",
+   "u": "https://arxiv.org/abs/2610.15056v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:48",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Trace Evolution Bench: Measuring Whether Agents Improve from Their Own Environment Traces",
+   "u": "https://arxiv.org/abs/2610.15055v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:45",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Belief Embedding Tree Search",
+   "u": "https://arxiv.org/abs/2610.15046v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:36",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Information-Theoretic Foundations of Online Temperature Sampling",
+   "u": "https://arxiv.org/abs/2610.15043v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:29",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Sparsity Saves Compute, Not Samples: Oracle Inequalities for Dense and Sparse Mixture of Experts",
+   "u": "https://arxiv.org/abs/2610.15039v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:24",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "What Drives AI Citations? Content, Retrieval and Model Knowledge in Generative Engine Optimization (GEO)",
+   "u": "https://arxiv.org/abs/2610.15033v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:18",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "InCLAD: A Continual Learning Benchmark for Industrial Visual Anomaly Detection",
+   "u": "https://arxiv.org/abs/2610.15032v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:18",
    "k": "",
    "x": ""
   }
