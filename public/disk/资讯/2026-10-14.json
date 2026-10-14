@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-14",
- "落盘": "2026-10-14 09:18:31",
+ "落盘": "2026-10-14 09:25:24",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "苹果到苹果：在基于LLM的代码转换中正确实现类型映射",
+   "url": "https://www.codemetal.ai/research/apples-to-apples-getting-type-mappings-right-in-llm-based-code-translation",
+   "type": "live"
+  },
   {
    "title": "Show HN: Benchmark coding agents on deploying apps",
    "url": "https://github.com/cloudishai/ai-deploy-bench",
@@ -27,11 +32,6 @@
   {
    "title": "Show HN：Enki LLM带有实时GPU/CPU大脑迁移的纯生锈（甚至内核）",
    "url": "https://github.com/enkiruntime/enki_llm",
-   "type": "live"
-  },
-  {
-   "title": "Show HN：BitRun –在CPU上以98T/s的速度运行1位LLM，无需编译",
-   "url": "https://github.com/IshekKhal/bitrun",
    "type": "live"
   },
   {
