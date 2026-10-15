@@ -2,38 +2,14 @@
  "日期": "2026-10-16",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-16 06:03:35",
-  "chosen": "SEI short",
+  "updated": "2026-10-16 06:09:41",
+  "chosen": "DOGE long",
   "nodes": [
-   {
-    "coin": "INJ",
-    "side": "long",
-    "align": 3,
-    "embryo": 2.7
-   },
    {
     "coin": "DOGE",
     "side": "long",
-    "align": 1,
-    "embryo": 1.1
-   },
-   {
-    "coin": "LTC",
-    "side": "long",
-    "align": 2,
-    "embryo": 2.7
-   },
-   {
-    "coin": "ETH",
-    "side": "long",
-    "align": 2,
-    "embryo": 2.7
-   },
-   {
-    "coin": "SEI",
-    "side": "short",
-    "align": 1,
-    "embryo": 2.3
+    "align": 3,
+    "embryo": 0.7
    },
    {
     "coin": "BTC",
@@ -55,6 +31,12 @@
    },
    {
     "coin": "ADA",
+    "side": "",
+    "align": 0,
+    "embryo": 0.0
+   },
+   {
+    "coin": "LTC",
     "side": "",
     "align": 0,
     "embryo": 0.0
@@ -109,24 +91,6 @@
    },
    {
     "coin": "DOT",
-    "side": "",
-    "align": 0,
-    "embryo": 0.0
-   },
-   {
-    "coin": "TIA",
-    "side": "",
-    "align": 0,
-    "embryo": 0.0
-   },
-   {
-    "coin": "WLFI",
-    "side": "",
-    "align": 0,
-    "embryo": 0.0
-   },
-   {
-    "coin": "ATOM",
     "side": "",
     "align": 0,
     "embryo": 0.0
