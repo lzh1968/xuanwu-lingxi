@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-16",
- "落盘": "2026-10-16 02:40:35",
+ "落盘": "2026-10-16 02:47:07",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "基于推送的KV传输，以改善vLLM中用于分解推理的TTFT、TPOT",
+   "url": "https://vllm.ai/blog/2026-10-14-nixl-push-connector",
+   "type": "live"
+  },
   {
    "title": "1,866个流行的GitHub项目告诉他们的AI编码代理",
    "url": "https://secondtimeisabug.com/blog/what-projects-tell-ai-coding-agents/",
@@ -37,11 +42,6 @@
   {
    "title": "工具策略：AI 智能体调用的每个工具都有一个策略引擎",
    "url": "https://www.stackone.com/blog/tool-policies-launch/",
-   "type": "live"
-  },
-  {
-   "title": "Show HN：人工智能工具的精选目录",
-   "url": "https://github.com/QAInsights/awesome-ai-tools",
    "type": "live"
   },
   {
