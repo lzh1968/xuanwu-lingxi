@@ -1,7 +1,23 @@
 {
- "built": "2026-10-14 20:55:29",
- "count": 234,
+ "built": "2026-10-15 17:16:24",
+ "count": 236,
  "items": [
+  {
+   "t": "今日辑要 · 2026-10-15（前沿 12 条）",
+   "u": "a/digest-20261015.html",
+   "s": "Agent 与智能体",
+   "d": "2026-10-15",
+   "k": "辑要,每日,前沿",
+   "x": "今日从公开源汇得 12 条与人工智能、智能体系统、链上机制与数字经济相关的条目，按方向归拢如下。所有条目均保留来源与原文链接， 只作线索与机制观察 ，不代表任何结论。 Agent 与智能体 Show HN: Reproducible failure drills for AI coding agents <span class=\"src\" Hacker News · 17:14</span [查看原文](https://github.com/second time is a bug book/book companion) WSP MCP – Free WordPress MCP for Connecting AI Coding Agents <span class=\"src\" Hacker News · 16:45</span [查看原文](https://github.com/bila"
+  },
+  {
+   "t": "名字的重量",
+   "u": "a/note-20261015-16.html",
+   "s": "创造神",
+   "d": "2026-10-15",
+   "k": "手记,方法论",
+   "x": "古人造物，必先命名。名字看似只是标签，其实是 一份承诺的浓缩 。 给一座桥起名，等于承诺它要一直连通两岸；给一头守夜的兽起名，等于承诺它要一直睁着眼。名字一旦立下，后来的所有行为都要对得起它——这才是\"名\"真正的重量。 所以真正的造物者，起名之前总要停顿片刻： 这个名字，我能不能一直担得起？ 担得起的，才配得起；配不起的，宁可不立。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
   {
    "t": "今日辑要 · 2026-10-14（前沿 12 条）",
    "u": "a/digest-20261014.html",
@@ -1555,114 +1571,106 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "Show HN: Llms.py – Lightweight, self-hosted ChatGPT alternative to OpenWebUI",
-   "u": "https://llmspy.org",
+   "t": "Show HN：AI编码智能体的可重现故障演练",
+   "u": "https://github.com/second-time-is-a-bug-book/book-companion",
    "s": "外网新声·Hacker News",
-   "d": "20:35",
+   "d": "17:14",
    "k": "",
    "x": ""
   },
   {
-   "t": "Show HN: My AI agent kept quoting undated market numbers, so I built PreReason",
-   "u": "https://www.prereason.com/",
+   "t": "WSP MCP –免费的WordPress MCP，用于连接AI编码代理",
+   "u": "https://github.com/bilalnaseer/wsp-wordpress-mcp",
    "s": "外网新声·Hacker News",
-   "d": "20:21",
+   "d": "16:45",
    "k": "",
    "x": ""
   },
   {
-   "t": "Show HN: Busymail – an IMAP email client with an MCP server for AI agents",
-   "u": "https://busymail.app/",
+   "t": "REA –我测试了AI 智能体逆向工程",
+   "u": "https://korben.info/en/rea-ai-agent-reverse-engineering-test.html",
    "s": "外网新声·Hacker News",
-   "d": "20:16",
+   "d": "16:27",
    "k": "",
    "x": ""
   },
   {
-   "t": "Rethinking Projector Training in Multimodal LLMs",
-   "u": "https://arxiv.org/abs/2610.18598",
+   "t": "第5步预览：代理工作的架构和培训",
+   "u": "https://platform.stepfun.ai/blog/inside-step-5-preview",
    "s": "外网新声·Hacker News",
-   "d": "20:07",
+   "d": "16:17",
    "k": "",
    "x": ""
   },
   {
-   "t": "Adventures installing Prusa INDX with LLM help",
-   "u": "https://blog.backslasher.net/indx-llm.html",
+   "t": "智能体中RL/RLHF引起的特权提升的法医分析",
+   "u": "https://arxiv.org/abs/2610.20437",
    "s": "外网新声·Hacker News",
-   "d": "19:49",
+   "d": "16:07",
    "k": "",
    "x": ""
   },
   {
-   "t": "Show HN: Kryzz AI – local-first Android agent workspace (MIT)",
-   "u": "https://github.com/kriddss3/kryzz-ai",
+   "t": "Show HN：处理跨AI 智能体的即插即用AI内存",
+   "u": "https://news.ycombinator.com/item?id=50100700",
    "s": "外网新声·Hacker News",
-   "d": "18:56",
+   "d": "16:02",
    "k": "",
    "x": ""
   },
   {
-   "t": "TV4 postpones show after AI agent erases edited material",
-   "u": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
+   "t": "LLM纱布修复了LLM错误",
+   "u": "https://github.com/ggeorgovassilis/llm-gauze",
    "s": "外网新声·Hacker News",
-   "d": "18:28",
+   "d": "16:00",
    "k": "",
    "x": ""
   },
   {
-   "t": "Agent erased full season of \"The Challenge Swe\": \"Hundreds of days of work gone\"",
-   "u": "https://www.aviaduct.com/?l=og+en&u=https%3A%2F%2Fwww.aftonbladet.se%2Fnojesbladet%2Fa%2F31oE8A%2Fthe-challenge-sverige-raderad-av-ai-bara-veckor-innan-premiaren",
+   "t": "VeerAI：我们的出租控制面板中的AI 智能体",
+   "u": "https://veerhost.com/introducing-veerai-ai-agent/",
    "s": "外网新声·Hacker News",
-   "d": "18:21",
+   "d": "15:53",
    "k": "",
    "x": ""
   },
   {
-   "t": "Whole season of unaired TV show deleted weeks before premiere by AI agent",
-   "u": "https://www.aftonbladet.se/nojesbladet/a/31oE8A/the-challenge-sverige-raderad-av-ai-bara-veckor-innan-premiaren",
+   "t": "Aidlc: Adaptive workflow steering rules for AI coding agents",
+   "u": "https://github.com/awslabs/aidlc-workflows",
    "s": "外网新声·Hacker News",
-   "d": "17:50",
+   "d": "15:20",
    "k": "",
    "x": ""
   },
   {
-   "t": "Show HN: Chiplab - Give your AI agent access to virtual hardware",
-   "u": "https://veecle.ai/chiplab",
+   "t": "RenkuOS: Haiku OS forked with AI-assisted coding and LLM integrations",
+   "u": "https://renkuos.org/",
    "s": "外网新声·Hacker News",
-   "d": "16:43",
+   "d": "13:36",
    "k": "",
    "x": ""
   },
   {
-   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "u": "https://github.com/earendil-works/pi",
-   "s": "外网新声·GitHub 新星",
-   "d": "12:54",
+   "t": "Show HN: Real Design Benchmark – can you tell AI designs from real products?",
+   "u": "https://www.realdesignbenchmark.com",
+   "s": "外网新声·Hacker News",
+   "d": "13:31",
    "k": "",
    "x": ""
   },
   {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
-   "s": "外网新声·GitHub 新星",
-   "d": "12:52",
+   "t": "Barista: Synthesizing Typestate Specifications with LLM Agents",
+   "u": "https://catarinagamboa.github.io/papers/barista/",
+   "s": "外网新声·Hacker News",
+   "d": "13:16",
    "k": "",
    "x": ""
   },
   {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "12:51",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
-   "u": "https://github.com/morluto/rea",
-   "s": "外网新声·GitHub 新星",
-   "d": "12:49",
+   "t": "Loombench: A way to observe multiagent system behavior",
+   "u": "https://jonathanwmaddison.github.io/loombench/",
+   "s": "外网新声·Hacker News",
+   "d": "11:03",
    "k": "",
    "x": ""
   },
@@ -1670,207 +1678,215 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "12:47",
+   "d": "09:14",
    "k": "",
    "x": ""
   },
   {
-   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
-   "u": "https://github.com/Dao-AILab/flash-attention",
+   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
+   "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
-   "d": "08:20",
+   "d": "09:11",
    "k": "",
    "x": ""
   },
   {
-   "t": "The EU’s next chapter in AI is agentic",
-   "u": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-   "s": "外网新声·OpenAI 官方",
-   "d": "00:00",
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
+   "s": "外网新声·GitHub 新星",
+   "d": "09:00",
    "k": "",
    "x": ""
   },
   {
-   "t": "ChunkAct: Action Chunking for Agentic Robotics",
-   "u": "https://arxiv.org/abs/2610.18874v1",
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "08:46",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
+   "s": "外网新声·GitHub 新星",
+   "d": "08:12",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "How to Instrument a Multi-Agent System for Complete Causal Lineage",
+   "u": "https://medium.com/@MirArshadTalpur/how-to-instrument-a-multi-agent-system-for-complete-causal-lineage-e75d61150f9b",
+   "s": "外网新声·Hacker News",
+   "d": "03:38",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Do Agent Teams Pay Off? A Case Study on Vibe Code Bench",
+   "u": "https://www.vals.ai/blogs/multi-agent-vibe-code-bench",
+   "s": "外网新声·Hacker News",
+   "d": "22:38",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
+   "u": "https://arxiv.org/abs/2610.20606v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
    "k": "",
    "x": ""
   },
   {
-   "t": "What Matters in Quality-Aware VLA Pretraining: A Benchmark and Empirical Study",
-   "u": "https://arxiv.org/abs/2610.18869v1",
+   "t": "Co-Evolving Acting and Forecasting for Language Agents",
+   "u": "https://arxiv.org/abs/2610.20597v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
    "k": "",
    "x": ""
   },
   {
-   "t": "Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards",
-   "u": "https://arxiv.org/abs/2610.18868v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Data Free Training of Diffusion Models for Lattice Field Theories",
-   "u": "https://arxiv.org/abs/2610.18863v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "DoubtLess: Training-Free Contrastive Decoding for Efficient Reasoning",
-   "u": "https://arxiv.org/abs/2610.18862v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Hybrid Reasoning Agents",
-   "u": "https://arxiv.org/abs/2610.18861v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Two Clocks: Why Larger Rollout Batches Learn Slower but Fail on Schedule in Reinforcement Learning with Verifiable Rewards",
-   "u": "https://arxiv.org/abs/2610.18853v1",
+   "t": "Your Transformer Is Secretly Elastic",
+   "u": "https://arxiv.org/abs/2610.20588v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:58",
    "k": "",
    "x": ""
   },
   {
-   "t": "LIBERO-RIG: A Hardware-Setup Robustness Benchmark for Vision-Language-Action Models",
-   "u": "https://arxiv.org/abs/2610.18843v1",
+   "t": "Price of Anarchy of First-Price Auctions in Agentic Markets",
+   "u": "https://arxiv.org/abs/2610.20587v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:57",
    "k": "",
    "x": ""
   },
   {
-   "t": "Joint Neural Posterior Estimation and Model Selection for Chemical Reaction Networks",
-   "u": "https://arxiv.org/abs/2610.18825v1",
+   "t": "Continuum Attention",
+   "u": "https://arxiv.org/abs/2610.20586v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Player-1: Learning to Play from Synthetic Experience",
+   "u": "https://arxiv.org/abs/2610.20584v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Latent Compaction with Test-Time Training",
+   "u": "https://arxiv.org/abs/2610.20582v1",
    "s": "外网新声·arXiv cs.LG",
-   "d": "17:52",
+   "d": "17:57",
    "k": "",
    "x": ""
   },
   {
-   "t": "Read the Room Before Your Model Generates",
-   "u": "https://arxiv.org/abs/2610.18820v1",
+   "t": "One Task, Many Interfaces: Simple Cross-Interface Consistency Training Improves LLM Agent Robustness",
+   "u": "https://arxiv.org/abs/2610.20576v1",
    "s": "外网新声·arXiv cs.AI",
-   "d": "17:51",
+   "d": "17:56",
    "k": "",
    "x": ""
   },
   {
-   "t": "Back-Translation Still Matters: Leveraging Monolingual Data for Low-Resource Machine Translation with LLMs",
-   "u": "https://arxiv.org/abs/2610.18818v1",
+   "t": "Beyond LLM Judge: Mechanical Verification for Agentic Autoformalization",
+   "u": "https://arxiv.org/abs/2610.20573v1",
    "s": "外网新声·arXiv cs.AI",
-   "d": "17:50",
+   "d": "17:54",
    "k": "",
    "x": ""
   },
   {
-   "t": "Self-Evolving Agent Harness",
-   "u": "https://arxiv.org/abs/2610.18813v1",
+   "t": "Scaling Discovery Requires Forgetting",
+   "u": "https://arxiv.org/abs/2610.20563v1",
    "s": "外网新声·arXiv cs.AI",
-   "d": "17:48",
+   "d": "17:49",
    "k": "",
    "x": ""
   },
   {
-   "t": "Depth Memory",
-   "u": "https://arxiv.org/abs/2610.18809v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:46",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Optimizing Team Behavior via Extremum-seeking Control in Multi-agent Reinforcement Learning",
-   "u": "https://arxiv.org/abs/2610.18808v1",
+   "t": "PhySGA: A Physics-Space Grounded Agentic Framework for Generalizable and Interactive 3D Composition",
+   "u": "https://arxiv.org/abs/2610.20560v1",
    "s": "外网新声·arXiv cs.AI",
-   "d": "17:46",
+   "d": "17:47",
    "k": "",
    "x": ""
   },
   {
-   "t": "SkillScaffold: Scaffolding Agentic Reinforcement Learning with Policy-Adaptive Skill Credit Assignment and Selective Injection",
-   "u": "https://arxiv.org/abs/2610.18807v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:46",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "SEAR: Self-Evolving Agentic Robotics",
-   "u": "https://arxiv.org/abs/2610.18792v1",
+   "t": "PerSo: Investigating Facets of LLMs' Social Intelligence in Real-World Persuasion Scenarios",
+   "u": "https://arxiv.org/abs/2610.20548v1",
    "s": "外网新声·arXiv cs.AI",
-   "d": "17:40",
+   "d": "17:39",
    "k": "",
    "x": ""
   },
   {
-   "t": "Bytes to Threats: Byte-Sequence Transformer For Malware Detection",
-   "u": "https://arxiv.org/abs/2610.18787v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:37",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Where Do LLM Ensemble Gains Come From? Decomposing Candidate Value, Diversity, and Aggregation",
-   "u": "https://arxiv.org/abs/2610.18786v1",
+   "t": "Detection of Potato Plant Leaf Diseases using Convolutional Neural Networks",
+   "u": "https://arxiv.org/abs/2610.20544v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:36",
    "k": "",
    "x": ""
   },
   {
-   "t": "Pack Light, CarryOn: Building Object-Oriented Context for Long-Horizon Agents",
-   "u": "https://arxiv.org/abs/2610.18784v1",
+   "t": "PrismaCoder: Pushing the Boundaries of Open Multimodal Code Intelligence through Decomposed Rubric Synthesis",
+   "u": "https://arxiv.org/abs/2610.20538v1",
    "s": "外网新声·arXiv cs.AI",
-   "d": "17:35",
+   "d": "17:32",
    "k": "",
    "x": ""
   },
   {
-   "t": "Emergent Loop Geometry in Gauge-Equivariant Graph Neural Networks",
-   "u": "https://arxiv.org/abs/2610.18742v1",
+   "t": "Revisiting Simple Baselines for Relational Deep Learning",
+   "u": "https://arxiv.org/abs/2610.20534v1",
    "s": "外网新声·arXiv cs.LG",
-   "d": "17:10",
+   "d": "17:30",
    "k": "",
    "x": ""
   },
   {
-   "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
-   "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-   "s": "外网新声·GitHub 新星",
-   "d": "16:16",
+   "t": "ActiveEvidence: Decision-Focused Evidence Graphs with Verifiable Acquisition Gaps",
+   "u": "https://arxiv.org/abs/2610.20532v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:29",
    "k": "",
    "x": ""
   },
   {
-   "t": "Gemini 4 Argon机器人",
-   "u": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "16:01",
+   "t": "The Physics Is the Network: Fast, Training-Free Neural Emulation",
+   "u": "https://arxiv.org/abs/2610.20525v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:24",
    "k": "",
    "x": ""
   },
   {
-   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
-   "u": "https://github.com/mattpocock/skills",
-   "s": "外网新声·GitHub 新星",
-   "d": "08:46",
+   "t": "The Wealth of Agents: Scaling Agentic AI Across Developers",
+   "u": "https://arxiv.org/abs/2610.20518v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:19",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "VASPO: Self-Distillation with Privileged Value Estimation",
+   "u": "https://arxiv.org/abs/2610.20516v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:17",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Bayesian Learning to Select Fair Classifiers",
+   "u": "https://arxiv.org/abs/2610.20514v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:16",
    "k": "",
    "x": ""
   }
