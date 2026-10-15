@@ -1,6 +1,6 @@
 {
- "built": "2026-10-15 17:16:24",
- "count": 236,
+ "built": "2026-10-15 17:20:32",
+ "count": 237,
  "items": [
   {
    "t": "今日辑要 · 2026-10-15（前沿 12 条）",
@@ -17,6 +17,14 @@
    "d": "2026-10-15",
    "k": "手记,方法论",
    "x": "古人造物，必先命名。名字看似只是标签，其实是 一份承诺的浓缩 。 给一座桥起名，等于承诺它要一直连通两岸；给一头守夜的兽起名，等于承诺它要一直睁着眼。名字一旦立下，后来的所有行为都要对得起它——这才是\"名\"真正的重量。 所以真正的造物者，起名之前总要停顿片刻： 这个名字，我能不能一直担得起？ 担得起的，才配得起；配不起的，宁可不立。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "从无到有，只需一条线",
+   "u": "a/note-20261015-17.html",
+   "s": "创造神",
+   "d": "2026-10-15",
+   "k": "手记,方法论",
+   "x": "把一张白纸对折，你得到了一条线。再折几次，线便织成了网。 从无到有的秘密，从来不是一开始就想清楚全部，而是 先落下第一条 ——一条足够简单、能被下一次继承的线。第一条立得住，第二条才有地方生长；前面留了余地，后面才敢尽情展开。 这就是造物最迷人的地方： 你不需要预见整座宫殿，只需要先砌一块经得起时间的砖。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "今日辑要 · 2026-10-14（前沿 12 条）",
@@ -1635,7 +1643,7 @@
    "x": ""
   },
   {
-   "t": "Aidlc: Adaptive workflow steering rules for AI coding agents",
+   "t": "Aidlc：AI编码智能体的自适应工作流程引导规则",
    "u": "https://github.com/awslabs/aidlc-workflows",
    "s": "外网新声·Hacker News",
    "d": "15:20",
@@ -1643,7 +1651,7 @@
    "x": ""
   },
   {
-   "t": "RenkuOS: Haiku OS forked with AI-assisted coding and LLM integrations",
+   "t": "RenkuOS：采用AI辅助编码和LLM集成的Haiku OS",
    "u": "https://renkuos.org/",
    "s": "外网新声·Hacker News",
    "d": "13:36",
@@ -1651,7 +1659,7 @@
    "x": ""
   },
   {
-   "t": "Show HN: Real Design Benchmark – can you tell AI designs from real products?",
+   "t": "Show HN：真实设计基准–你能从真实产品中分辨出人工智能设计吗？",
    "u": "https://www.realdesignbenchmark.com",
    "s": "外网新声·Hacker News",
    "d": "13:31",
@@ -1659,7 +1667,7 @@
    "x": ""
   },
   {
-   "t": "Barista: Synthesizing Typestate Specifications with LLM Agents",
+   "t": "咖啡师：与LLM代理商合成Typestate规格",
    "u": "https://catarinagamboa.github.io/papers/barista/",
    "s": "外网新声·Hacker News",
    "d": "13:16",
@@ -1667,7 +1675,7 @@
    "x": ""
   },
   {
-   "t": "Loombench: A way to observe multiagent system behavior",
+   "t": "Loombench：一种观察多Agent系统行为的方法",
    "u": "https://jonathanwmaddison.github.io/loombench/",
    "s": "外网新声·Hacker News",
    "d": "11:03",
@@ -1675,18 +1683,10 @@
    "x": ""
   },
   {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "09:14",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
    "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
-   "d": "09:11",
+   "d": "09:19",
    "k": "",
    "x": ""
   },
@@ -1694,7 +1694,15 @@
    "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
-   "d": "09:00",
+   "d": "09:18",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "09:16",
    "k": "",
    "x": ""
   },
@@ -1715,7 +1723,7 @@
    "x": ""
   },
   {
-   "t": "How to Instrument a Multi-Agent System for Complete Causal Lineage",
+   "t": "如何对多Agent系统进行仪表化以实现完整的因果关系谱系",
    "u": "https://medium.com/@MirArshadTalpur/how-to-instrument-a-multi-agent-system-for-complete-causal-lineage-e75d61150f9b",
    "s": "外网新声·Hacker News",
    "d": "03:38",
@@ -1723,7 +1731,7 @@
    "x": ""
   },
   {
-   "t": "Do Agent Teams Pay Off? A Case Study on Vibe Code Bench",
+   "t": "客服代表团队有回报吗？ Vibe Code Bench案例研究",
    "u": "https://www.vals.ai/blogs/multi-agent-vibe-code-bench",
    "s": "外网新声·Hacker News",
    "d": "22:38",
@@ -1731,7 +1739,7 @@
    "x": ""
   },
   {
-   "t": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
+   "t": "使用扩散技术建模和理解人形策略的神经权重",
    "u": "https://arxiv.org/abs/2610.20606v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
