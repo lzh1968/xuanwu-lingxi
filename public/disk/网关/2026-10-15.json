@@ -1,34 +1,34 @@
 {
  "日期": "2026-10-15",
- "落盘": "2026-10-15 18:18:39",
+ "落盘": "2026-10-15 18:20:57",
  "内存报表": {
-  "时间": "2026-10-15 18:18:39",
-  "受托进程数": 36,
+  "时间": "2026-10-15 18:20:57",
+  "受托进程数": 31,
   "网关": {
-   "进程号": "15929",
-   "内存MB": 462.5,
+   "进程号": "32219",
+   "内存MB": 629.3,
    "线程": 11,
    "堆上限": "1536"
   },
   "实例数": 2,
   "全机MemTotal": "11469MB",
-  "全机MemAvailable": "4995MB",
+  "全机MemAvailable": "4675MB",
   "全机SwapTotal": "7110MB",
-  "全机SwapFree": "4442MB",
+  "全机SwapFree": "4715MB",
   "探活": "000"
  },
  "断线统计": {
-  "今日断线次数": 27,
+  "今日断线次数": 28,
   "今日最长断线秒": 186,
   "近2小时真停摆(≥90秒)": 3,
   "维护窗口": 0
  },
  "日志体量KB": {
-  "gateway_guard.log": 1343.8,
+  "gateway_guard.log": 1345.3,
   "gateway_outage.jsonl": 37.7,
-  "gw_boot.out": 424.5,
+  "gw_boot.out": 426.5,
   "gw_run.out": 71.8,
-  "网关停摆取证.log": 379.2
+  "网关停摆取证.log": 379.6
  },
  "会话索引(不含正文)": [
   {
@@ -153,12 +153,6 @@
   }
  ],
  "停摆取证(近段)": [
-  "  Swap:           7110        3424        3686",
-  "  CPU    37.1s openclaw-gateway",
-  "  CPU    30.3s openclaw-gateway",
-  "  CPU     3.6s python3 -u _子引擎.py dss --mode live --consent 奈工复开实盘·分身独立测试(2",
-  "── 停摆取证 2026-10-15 17:40:54 (取码 000) ──",
-  "  网关 VmRSS:\t  953412 kB",
   "  网关 VmSwap:\t       0 kB",
   "  网关 Threads:\t11",
   "  Mem:           11469        6204         841          66        4423        4983",
@@ -312,6 +306,12 @@
   "  Swap:           7110        2581        4529",
   "  CPU     3.9s python3 -u _子引擎.py lbh --mode live --consent 奈工复开实盘·分身独立测试(2",
   "  CPU     2.1s python3 -u _子引擎.py dss --mode live --consent 奈工复开实盘·分身独立测试(2",
-  "  CPU     2.0s python3 /data/data/com.termux/files/home/.openclaw/workspace"
+  "  CPU     2.0s python3 /data/data/com.termux/files/home/.openclaw/workspace",
+  "── 停摆取证 2026-10-15 18:20:18 (取码 000) ──",
+  "  Mem:           11469        4837        2078          66        4553        6412",
+  "  Swap:           7110        2435        4675",
+  "  CPU     6.2s python3 -u _子引擎.py wen --mode live --consent 奈工复开实盘·分身独立测试(2",
+  "  CPU     5.9s openclaw",
+  "  CPU     3.2s python3 -u _子引擎.py rui --mode live --consent 奈工复开实盘·分身独立测试(2"
  ]
 }
