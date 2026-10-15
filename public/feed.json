@@ -1,9 +1,25 @@
 {
- "generated": "00:36",
- "built": "2026-10-16 00:36:43",
- "count": 218,
+ "generated": "00:53",
+ "built": "2026-10-16 00:53:55",
+ "count": 219,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "使用Temporal和Oodle构建自我改进的AI Agent",
+   "url": "https://blog.oodle.ai/self-improving-agent-loops/",
+   "src": "Hacker News",
+   "t": "00:48",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "适用于Agentic AI和企业的AMD Helion",
+   "url": "https://ir.amd.com/news-events/press-releases/detail/1301/introducing-amd-helion-agentic-ai-compute-at-rack-scale",
+   "src": "Hacker News",
+   "t": "00:37",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "展示HN：BlastLoop，AI智能体的结构优先编码方法",
@@ -42,7 +58,7 @@
    "url": "https://emillindfors.github.io/a2a-rs/",
    "src": "Hacker News",
    "t": "23:14",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -50,22 +66,6 @@
    "url": "https://github.com/CommonForge-org/commonforge",
    "src": "Hacker News",
    "t": "23:11",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "由Datadog培训的Frontier SRE代理",
-   "url": "https://www.datadoghq.com/blog/ai/introducing-scout-sre-specialized-model-bits-ai/",
-   "src": "Hacker News",
-   "t": "23:08",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Datadog培训了他们自己的廉价SOTA SRE LLM [pdf]",
-   "url": "https://web-assets.dd-static.net/42588/1792071077-datadog-scout_technical_report.pdf",
-   "src": "Hacker News",
-   "t": "23:05",
    "fresh": false
   },
   {
@@ -110,10 +110,10 @@
   },
   {
    "type": "article",
-   "title": "今日辑要 · 2026-10-15（前沿 12 条）",
-   "url": "a/digest-20261015.html",
-   "src": "Agent 与智能体",
-   "t": "2026-10-15",
+   "title": "链上机制的可读性",
+   "url": "a/note-20261016-4.html",
+   "src": "Web3 · 链上世界",
+   "t": "2026-10-16",
    "fresh": false
   }
  ]
