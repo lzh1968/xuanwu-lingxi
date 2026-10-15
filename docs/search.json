@@ -1,6 +1,6 @@
 {
- "built": "2026-10-15 17:42:23",
- "count": 240,
+ "built": "2026-10-15 17:48:59",
+ "count": 241,
  "items": [
   {
    "t": "今日辑要 · 2026-10-15（前沿 12 条）",
@@ -49,6 +49,14 @@
    "d": "2026-10-15",
    "k": "手记,方法论",
    "x": "智能体的记忆常被误解为\"存得越多越聪明\"。工程上更接近事实的是三种不同用途： 事实记忆 ：发生了什么（可核对、可追溯、可审计） 策略记忆 ：什么条件下做了什么、结果如何（用于校准，不用于信仰） 身份记忆 ：我是谁、我受什么约束（最稳定，最少改动） 把三者混在一个容器里，就会得到\"记得很牢却用不对\"的系统：把偶然当规律，把经验当身份。拆开的代价是结构更复杂；收益是每类记忆可以有自己的过期与校验规则。 一句话： 记忆的价值不在容量，而在校验方式。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "阴阳与反馈环",
+   "u": "a/note-20261015-3.html",
+   "s": "华夏哲学 · 阴阳五行",
+   "d": "2026-10-15",
+   "k": "手记,方法论",
+   "x": "把阴阳放进控制系统里看，它更像一对 符号相反的反馈环 ：一个负责扩张，一个负责收敛。 只有扩张的环，系统会在顺境中自我强化直到崩塌；只有收敛的环，系统会在谨慎中失去一切机会。传统讲\"阴阳相生\"，工程讲\"增益平衡\"——说的是同一件事： 别让任一侧单独主导太久。 所以好的自适应并非不断调参，而是在两侧都留出可回退的余地：进要能退，退也要能再进；底线固定，节奏可变。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "今日辑要 · 2026-10-14（前沿 12 条）",
@@ -1707,6 +1715,22 @@
    "x": ""
   },
   {
+   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
+   "u": "https://github.com/morluto/rea",
+   "s": "外网新声·GitHub 新星",
+   "d": "09:48",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "09:47",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
@@ -1715,24 +1739,8 @@
    "x": ""
   },
   {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "09:38",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
    "u": "https://github.com/earendil-works/pi",
-   "s": "外网新声·GitHub 新星",
-   "d": "09:30",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
-   "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
    "d": "09:30",
    "k": "",
@@ -1763,162 +1771,162 @@
    "x": ""
   },
   {
-   "t": "使用扩散技术建模和理解人形策略的神经权重",
-   "u": "https://arxiv.org/abs/2610.20606v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
+   "t": "AMP使AI 智能体能够使用OpenAI模型进行超越代码的工作",
+   "u": "https://openai.com/index/amp-beyond-coding",
+   "s": "外网新声·OpenAI 官方",
+   "d": "12:00",
    "k": "",
    "x": ""
   },
   {
-   "t": "语言代理协同进化表演和预测",
-   "u": "https://arxiv.org/abs/2610.20597v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
+   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "u": "https://github.com/Dao-AILab/flash-attention",
+   "s": "外网新声·GitHub 新星",
+   "d": "08:20",
    "k": "",
    "x": ""
   },
   {
-   "t": "您的变压器具有隐藏的弹性",
-   "u": "https://arxiv.org/abs/2610.20588v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:58",
+   "t": "Third Moment Research如何在超过36小时的时间内运行10,000名客服代表",
+   "u": "https://openai.com/index/third-moment-research",
+   "s": "外网新声·OpenAI 官方",
+   "d": "07:00",
    "k": "",
    "x": ""
   },
   {
-   "t": "代理市场中首次拍卖的无政府状态价格",
-   "u": "https://arxiv.org/abs/2610.20587v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:57",
+   "t": "欧盟在人工智能领域的下一篇章是代理",
+   "u": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+   "s": "外网新声·OpenAI 官方",
+   "d": "00:00",
    "k": "",
    "x": ""
   },
   {
-   "t": "Continuum Attention",
-   "u": "https://arxiv.org/abs/2610.20586v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:57",
+   "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
+   "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:16",
    "k": "",
    "x": ""
   },
   {
-   "t": "玩家1：从合成体验中学习玩游戏",
-   "u": "https://arxiv.org/abs/2610.20584v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:57",
+   "t": "Gemini 4 Argon机器人",
+   "u": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+   "s": "外网新声·DeepMind 官方",
+   "d": "16:01",
    "k": "",
    "x": ""
   },
   {
-   "t": "带有测试时间培训的潜伏压实",
-   "u": "https://arxiv.org/abs/2610.20582v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:57",
+   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
+   "u": "https://github.com/mattpocock/skills",
+   "s": "外网新声·GitHub 新星",
+   "d": "08:46",
    "k": "",
    "x": ""
   },
   {
-   "t": "一个任务，多个接口：简单的跨接口一致性培训提高了LLM智能体的稳健性",
-   "u": "https://arxiv.org/abs/2610.20576v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:56",
+   "t": "将前沿人工智能转变为多智能体系统架构师",
+   "u": "https://github.com/polymodality/agentic-polymodality/tree/main/ai-guidance",
+   "s": "外网新声·Hacker News",
+   "d": "08:14",
    "k": "",
    "x": ""
   },
   {
-   "t": "Beyond LLM Judge：代理自我形式化的机械验证",
-   "u": "https://arxiv.org/abs/2610.20573v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:54",
+   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
+   "u": "https://github.com/IBAX-io/go-ibax",
+   "s": "外网新声·GitHub 新星",
+   "d": "06:42",
    "k": "",
    "x": ""
   },
   {
-   "t": "扩展发现需要遗忘",
-   "u": "https://arxiv.org/abs/2610.20563v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:49",
+   "t": "Show HN：EpochGo - Ollama上的本地优先多代理AutoML （ API成本为$ 0 ）",
+   "u": "https://github.com/AryanDinakaran/EpochGo",
+   "s": "外网新声·Hacker News",
+   "d": "18:20",
    "k": "",
    "x": ""
   },
   {
-   "t": "PhySGA：用于通用和交互式3D合成的物理空间接地代理框架",
-   "u": "https://arxiv.org/abs/2610.20560v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:47",
+   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
+   "u": "https://github.com/affaan-m/ECC",
+   "s": "外网新声·GitHub 新星",
+   "d": "14:45",
    "k": "",
    "x": ""
   },
   {
-   "t": "PerSo：调查法学硕士在现实世界说服场景中的社交智能方面",
-   "u": "https://arxiv.org/abs/2610.20548v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:39",
+   "t": "多Agent漏洞修复管道：角色分离架构",
+   "u": "https://github.com/Mininglamp-OSS",
+   "s": "外网新声·Hacker News",
+   "d": "12:05",
    "k": "",
    "x": ""
   },
   {
-   "t": "使用卷积神经网络检测马铃薯植物叶片病害",
-   "u": "https://arxiv.org/abs/2610.20544v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:36",
+   "t": "MASS：通过多代理自我监督实现递归自我提升",
+   "u": "https://pub.sakana.ai/mass/?href=",
+   "s": "外网新声·Hacker News",
+   "d": "08:12",
    "k": "",
    "x": ""
   },
   {
-   "t": "PrismaCoder：通过分解规则合成突破开放多模态代码智能的边界",
-   "u": "https://arxiv.org/abs/2610.20538v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:32",
+   "t": "多代理线束需要单独的消息通道",
+   "u": "https://harshalgajjar.com/blog/multi-agent-harnesses-need-separate-message-channels",
+   "s": "外网新声·Hacker News",
+   "d": "04:34",
    "k": "",
    "x": ""
   },
   {
-   "t": "重新审视关系深度学习的简单基线",
-   "u": "https://arxiv.org/abs/2610.20534v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:30",
+   "t": "obra/superpowers —有效的代理技能框架和软件开发方法。",
+   "u": "https://github.com/obra/superpowers",
+   "s": "外网新声·GitHub 新星",
+   "d": "03:03",
    "k": "",
    "x": ""
   },
   {
-   "t": "ActiveEvidence：具有可验证采集差距的以决策为中心的证据图",
-   "u": "https://arxiv.org/abs/2610.20532v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:29",
+   "t": "Asana使用GPT-6.1 Sol将浏览器测试中的模型成本降低了76倍",
+   "u": "https://openai.com/index/asana-browser-agent",
+   "s": "外网新声·OpenAI 官方",
+   "d": "07:00",
    "k": "",
    "x": ""
   },
   {
-   "t": "物理学就是网络：快速、无训练的神经仿真",
-   "u": "https://arxiv.org/abs/2610.20525v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:24",
+   "t": "机器人领域的人工智能突破不会很快改变你的生活",
+   "u": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "09:00",
    "k": "",
    "x": ""
   },
   {
-   "t": "智能体的财富：跨开发人员扩展智能体AI",
-   "u": "https://arxiv.org/abs/2610.20518v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:19",
+   "t": "构建一条更安全的自主工业人工智能之路",
+   "u": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "08:17",
    "k": "",
    "x": ""
   },
   {
-   "t": "VASPO：具有特权价值估计的自我蒸馏",
-   "u": "https://arxiv.org/abs/2610.20516v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:17",
+   "t": "丽笙酒店集团将酒店探索引入ChatGPT",
+   "u": "https://openai.com/index/radisson",
+   "s": "外网新声·OpenAI 官方",
+   "d": "07:00",
    "k": "",
    "x": ""
   },
   {
-   "t": "贝叶斯学习选择公平分类器",
-   "u": "https://arxiv.org/abs/2610.20514v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:16",
+   "t": "EmbeddingGemma 2：开放、轻量级的多模态嵌入模型",
+   "u": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+   "s": "外网新声·DeepMind 官方",
+   "d": "19:57",
    "k": "",
    "x": ""
   }
