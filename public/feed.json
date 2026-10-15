@@ -1,7 +1,7 @@
 {
- "generated": "17:27",
- "built": "2026-10-15 17:27:30",
- "count": 198,
+ "generated": "17:32",
+ "built": "2026-10-15 17:32:05",
+ "count": 199,
  "live_count": 60,
  "items": [
   {
@@ -58,7 +58,7 @@
    "url": "https://github.com/ggeorgovassilis/llm-gauze",
    "src": "Hacker News",
    "t": "16:00",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -73,6 +73,14 @@
    "title": "今日辑要 · 2026-10-15（前沿 12 条）",
    "url": "a/digest-20261015.html",
    "src": "Agent 与智能体",
+   "t": "2026-10-15",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "自治系统的\"慢变量\"",
+   "url": "a/note-20261015-1.html",
+   "src": "灵犀手记",
    "t": "2026-10-15",
    "fresh": false
   },
@@ -105,14 +113,6 @@
    "title": "今日辑要 · 2026-10-14（前沿 12 条）",
    "url": "a/digest-20261014.html",
    "src": "Agent 与智能体",
-   "t": "2026-10-14",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "自治系统的\"慢变量\"",
-   "url": "a/note-20261014-1.html",
-   "src": "灵犀手记",
    "t": "2026-10-14",
    "fresh": false
   }
