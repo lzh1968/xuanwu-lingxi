@@ -1,5 +1,5 @@
 {
- "built": "2026-10-16 05:01:01",
+ "built": "2026-10-16 05:17:02",
  "count": 272,
  "items": [
   {
@@ -1859,6 +1859,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "人工智能大师，一年：经营一家由智能体和人类组成的公司",
+   "u": "https://github.com/23blocks-OS/ai-maestro",
+   "s": "外网新声·Hacker News",
+   "d": "05:14",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "进入未知领域：在开放的科研问题上对人工智能智能体进行基准测试",
    "u": "https://arxiv.org/abs/2610.19159",
    "s": "外网新声·Hacker News",
@@ -1947,22 +1955,6 @@
    "x": ""
   },
   {
-   "t": "Cicada：适用于智能体Apache 2的Sub-ms Go零信任网关和gVisor防火墙",
-   "u": "https://github.com/affinity-ops/OS-Cicada",
-   "s": "外网新声·Hacker News",
-   "d": "03:09",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "SGLang – LLM和多模式模式的高性能服务框架",
-   "u": "https://github.com/sgl-project/sglang",
-   "s": "外网新声·Hacker News",
-   "d": "03:08",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "用于Rust中多代理系统的MIT许可Rust框架",
    "u": "https://emillindfors.github.io/a2a-rs/",
    "s": "外网新声·Hacker News",
@@ -1971,18 +1963,18 @@
    "x": ""
   },
   {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
+   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
+   "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
-   "d": "20:57",
+   "d": "21:09",
    "k": "",
    "x": ""
   },
   {
-   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
-   "u": "https://github.com/morluto/rea",
+   "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
+   "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
    "s": "外网新声·GitHub 新星",
-   "d": "20:55",
+   "d": "21:09",
    "k": "",
    "x": ""
   },
@@ -1990,7 +1982,15 @@
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "20:50",
+   "d": "21:08",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "20:57",
    "k": "",
    "x": ""
   },
@@ -2023,14 +2023,6 @@
    "u": "https://github.com/Dao-AILab/flash-attention",
    "s": "外网新声·GitHub 新星",
    "d": "18:25",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
-   "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-   "s": "外网新声·GitHub 新星",
-   "d": "17:48",
    "k": "",
    "x": ""
   },
@@ -2175,6 +2167,14 @@
    "u": "https://arxiv.org/abs/2610.20538v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:32",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "重新审视关系深度学习的简单基线",
+   "u": "https://arxiv.org/abs/2610.20534v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:30",
    "k": "",
    "x": ""
   }
