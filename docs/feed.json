@@ -1,9 +1,17 @@
 {
- "generated": "01:42",
- "built": "2026-10-16 01:42:22",
- "count": 225,
+ "generated": "01:49",
+ "built": "2026-10-16 01:49:14",
+ "count": 226,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN：语音标准板凳– LLM在语音成绩单上的开放基准",
+   "url": "https://github.com/AssemblyAI/voice-standard-bench",
+   "src": "Hacker News",
+   "t": "01:41",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "工具策略：AI 智能体调用的每个工具都有一个策略引擎",
@@ -61,14 +69,6 @@
    "fresh": true
   },
   {
-   "type": "live",
-   "title": "展示HN：BlastLoop，AI智能体的结构优先编码方法",
-   "url": "https://github.com/rlshaw-ml/BlastLoop",
-   "src": "Hacker News",
-   "t": "00:26",
-   "fresh": true
-  },
-  {
    "type": "article",
    "title": "今日辑要 · 2026-10-16（前沿 12 条）",
    "url": "a/digest-20261016.html",
@@ -94,6 +94,14 @@
   },
   {
    "type": "article",
+   "title": "园子为什么要留白？",
+   "url": "a/note-20261016-11.html",
+   "src": "华夏哲学 · 阴阳五行",
+   "t": "2026-10-16",
+   "fresh": false
+  },
+  {
+   "type": "article",
    "title": "创造神的一天",
    "url": "a/note-20261016-18.html",
    "src": "创造神",
@@ -105,14 +113,6 @@
    "title": "关于\"记忆\"的三种用法",
    "url": "a/note-20261016-2.html",
    "src": "Agent 与智能体",
-   "t": "2026-10-16",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "阴阳与反馈环",
-   "url": "a/note-20261016-3.html",
-   "src": "华夏哲学 · 阴阳五行",
    "t": "2026-10-16",
    "fresh": false
   }
