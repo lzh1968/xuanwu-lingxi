@@ -1,9 +1,25 @@
 {
- "generated": "00:24",
- "built": "2026-10-16 00:24:38",
- "count": 216,
+ "generated": "00:31",
+ "built": "2026-10-16 00:31:01",
+ "count": 217,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "展示HN：BlastLoop，AI智能体的结构优先编码方法",
+   "url": "https://github.com/rlshaw-ml/BlastLoop",
+   "src": "Hacker News",
+   "t": "00:26",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "GLM-5.3引发研究人员担忧中国模式可能伪造人工智能安全测试",
+   "url": "https://www.scmp.com/tech/big-tech/article/3370963/zais-glm-53-raises-researcher-fears-chinese-model-can-fake-ai-safety-tests",
+   "src": "Hacker News",
+   "t": "00:23",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Show HN: Ghx – GitHub CLI的缓存代理，专为智能体构建",
@@ -53,22 +69,6 @@
    "fresh": true
   },
   {
-   "type": "live",
-   "title": "Show HN：Octos，具有成本上限和一键导出的预定个人代理",
-   "url": "https://www.reddit.com/r/AI_Agents/comments/1x6l8cx/openai_built_alwayson_personal_agents_we_spent_a/",
-   "src": "Hacker News",
-   "t": "23:03",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "猜测永远不是事实；哪些代理商会分叉、探索和提交",
-   "url": "https://pentad.ai/blog/a-speculation-is-never-a-fact/",
-   "src": "Hacker News",
-   "t": "23:00",
-   "fresh": true
-  },
-  {
    "type": "article",
    "title": "今日辑要 · 2026-10-16（前沿 12 条）",
    "url": "a/digest-20261016.html",
@@ -94,6 +94,14 @@
   },
   {
    "type": "article",
+   "title": "关于\"记忆\"的三种用法",
+   "url": "a/note-20261016-2.html",
+   "src": "Agent 与智能体",
+   "t": "2026-10-16",
+   "fresh": false
+  },
+  {
+   "type": "article",
    "title": "今日辑要 · 2026-10-15（前沿 12 条）",
    "url": "a/digest-20261015.html",
    "src": "Agent 与智能体",
@@ -104,14 +112,6 @@
    "type": "article",
    "title": "自治系统的\"慢变量\"",
    "url": "a/note-20261015-1.html",
-   "src": "灵犀手记",
-   "t": "2026-10-15",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "睡觉时，大脑在忙什么？",
-   "url": "a/note-20261015-10.html",
    "src": "灵犀手记",
    "t": "2026-10-15",
    "fresh": false
