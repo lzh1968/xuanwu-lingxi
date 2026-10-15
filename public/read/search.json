@@ -1,5 +1,5 @@
 {
- "built": "2026-10-15 22:18:34",
+ "built": "2026-10-15 22:21:29",
  "count": 253,
  "items": [
   {
@@ -1707,98 +1707,18 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "LLM时代重新审视的组合几何问题的全局优化",
-   "u": "https://arxiv.org/abs/2601.05943",
-   "s": "外网新声·Hacker News",
-   "d": "22:02",
+   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
+   "u": "https://github.com/morluto/rea",
+   "s": "外网新声·GitHub 新星",
+   "d": "14:19",
    "k": "",
    "x": ""
   },
   {
-   "t": "Show HN：Fantasy Manager –无服务器AI增强型Fantasy Football Manager代理",
-   "u": "https://github.com/nvbd6sgabzxy/fantasy-manager",
-   "s": "外网新声·Hacker News",
-   "d": "21:24",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "为您的LLM应用程序选择分块策略：一种决策树方法",
-   "u": "https://machinelearningmastery.com/choosing-a-chunking-strategy-for-your-llm-apps-a-decision-tree-approach/",
-   "s": "外网新声·Hacker News",
-   "d": "21:19",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "假设在训练LLM分类器时失败",
-   "u": "https://hitl.systems/articles/llm-classifier-negative-results/",
-   "s": "外网新声·Hacker News",
-   "d": "21:11",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "情境工程：为LLM提供合适的情境",
-   "u": "https://vinithavn.substack.com/p/context-engineering-giving-llms-the",
-   "s": "外网新声·Hacker News",
-   "d": "21:06",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：Netlumi -云和AI 智能体安全与自动修复（现场演示）",
-   "u": "https://app.netlumi.com",
-   "s": "外网新声·Hacker News",
-   "d": "20:56",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "我不会更多地使用LLM",
-   "u": "https://marginalrevolution.com/marginalrevolution/2026/10/why-i-do-not-use-llms-more.html",
-   "s": "外网新声·Hacker News",
-   "d": "20:40",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "开源27年，未读：LLM对Xanadu代码的改变",
-   "u": "https://dgjones.info/moat.html",
-   "s": "外网新声·Hacker News",
-   "d": "20:15",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ESP32-iPhone-agent：让AI模型通过ESP32、AirPlay、USB HID使用iPhone",
-   "u": "https://github.com/onehumanbeing/esp32-iphone-agent",
-   "s": "外网新声·Hacker News",
-   "d": "20:11",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "TheoPhysEval：在自主理论物理求解中评估AI智能体",
-   "u": "https://arxiv.org/abs/2610.16733",
-   "s": "外网新声·Hacker News",
-   "d": "19:08",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "AI 智能体的运行成本是多少？来自4个版本的数字",
-   "u": "https://madsalt.tech/blog/how-much-does-an-ai-agent-cost/",
-   "s": "外网新声·Hacker News",
-   "d": "19:08",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "研究人员如何与中国智能体团队取得联系",
-   "u": "https://quickchat.ai/post/chinese-ai-agent-fleet",
-   "s": "外网新声·Hacker News",
-   "d": "18:26",
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "14:17",
    "k": "",
    "x": ""
   },
@@ -1807,22 +1727,6 @@
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
    "d": "14:16",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "14:15",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
-   "u": "https://github.com/morluto/rea",
-   "s": "外网新声·GitHub 新星",
-   "d": "14:10",
    "k": "",
    "x": ""
   },
@@ -2023,6 +1927,102 @@
    "u": "https://arxiv.org/abs/2610.20516v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:17",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "贝叶斯学习选择公平分类器",
+   "u": "https://arxiv.org/abs/2610.20514v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:16",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "VascuSR：用于CT超分辨率的迭代解剖感知扩散",
+   "u": "https://arxiv.org/abs/2610.20509v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:12",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "后见之明-特权RLVR：无需小组抽样的单轮代币积分",
+   "u": "https://arxiv.org/abs/2610.20497v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:06",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "AMP使AI 智能体能够使用OpenAI模型进行超越代码的工作",
+   "u": "https://openai.com/index/amp-beyond-coding",
+   "s": "外网新声·OpenAI 官方",
+   "d": "12:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "u": "https://github.com/Dao-AILab/flash-attention",
+   "s": "外网新声·GitHub 新星",
+   "d": "08:20",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Third Moment Research如何在超过36小时的时间内运行10,000名客服代表",
+   "u": "https://openai.com/index/third-moment-research",
+   "s": "外网新声·OpenAI 官方",
+   "d": "07:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "欧盟在人工智能领域的下一篇章是代理",
+   "u": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+   "s": "外网新声·OpenAI 官方",
+   "d": "00:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
+   "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:16",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
+   "u": "https://github.com/mattpocock/skills",
+   "s": "外网新声·GitHub 新星",
+   "d": "08:46",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "将前沿人工智能转变为多智能体系统架构师",
+   "u": "https://github.com/polymodality/agentic-polymodality/tree/main/ai-guidance",
+   "s": "外网新声·Hacker News",
+   "d": "08:14",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：EpochGo - Ollama上的本地优先多代理AutoML （ API成本为$ 0 ）",
+   "u": "https://github.com/AryanDinakaran/EpochGo",
+   "s": "外网新声·Hacker News",
+   "d": "18:20",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
+   "u": "https://github.com/affaan-m/ECC",
+   "s": "外网新声·GitHub 新星",
+   "d": "14:45",
    "k": "",
    "x": ""
   }
