@@ -1,5 +1,5 @@
 {
- "built": "2026-10-16 11:03:48",
+ "built": "2026-10-16 11:10:06",
  "count": 272,
  "items": [
   {
@@ -1859,6 +1859,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "MuscleMemory：智能体的开源程序记忆",
+   "u": "https://github.com/TheWariend/MuscleMemory",
+   "s": "外网新声·Hacker News",
+   "d": "11:06",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Show HN：Beeline多人智能体线束",
    "u": "https://usebeeline.app",
    "s": "外网新声·Hacker News",
@@ -1923,18 +1931,10 @@
    "x": ""
   },
   {
-   "t": "人工智能大师，一年：经营一家由智能体和人类组成的公司",
-   "u": "https://github.com/23blocks-OS/ai-maestro",
-   "s": "外网新声·Hacker News",
-   "d": "05:14",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
    "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
-   "d": "03:01",
+   "d": "03:09",
    "k": "",
    "x": ""
   },
@@ -1942,7 +1942,7 @@
    "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
-   "d": "02:58",
+   "d": "03:08",
    "k": "",
    "x": ""
   },
@@ -1950,7 +1950,7 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "02:57",
+   "d": "03:07",
    "k": "",
    "x": ""
   },
@@ -2011,138 +2011,114 @@
    "x": ""
   },
   {
+   "t": "LIBERO-PeRM：个性化机器人操作基准测试",
+   "u": "https://arxiv.org/abs/2610.22372v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "使用大模型探索最先进的量子电路",
+   "u": "https://arxiv.org/abs/2610.22367v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "FDE-Gym：人工智能交付的最后一英里",
+   "u": "https://arxiv.org/abs/2610.22350v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "MLExpert：面向自主机器学习工程的通才代理模型",
+   "u": "https://arxiv.org/abs/2610.22344v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:56",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "3DCodeVerse：以代码探索3D世界",
+   "u": "https://arxiv.org/abs/2610.22341v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:56",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "英语以外的评估意识：LLM在印度语考试中的表现是否不同？",
+   "u": "https://arxiv.org/abs/2610.22333v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:53",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "KnowGPO：针对搜索智能体的知识分组策略优化",
+   "u": "https://arxiv.org/abs/2610.22331v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:52",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Designing Transformers for Continuous Diffusion Language Models",
+   "u": "https://arxiv.org/abs/2610.22330v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:52",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Twice Upon a Time: Complementary Representations for Time-Series Reasoning",
+   "u": "https://arxiv.org/abs/2610.22327v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:52",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Learning Self-Orchestration in Decentralized Agent Swarms",
+   "u": "https://arxiv.org/abs/2610.22322v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:51",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "AVC-Reward: Event-Centric Audio-Video Consistency Evaluation",
+   "u": "https://arxiv.org/abs/2610.22321v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:51",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "A team of Gemini 4 Argon agents beats Minecraft",
+   "u": "https://arxiv.org/abs/2610.22319v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:51",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Learning to Steer LLM Agents and Multi-Agent Systems",
+   "u": "https://arxiv.org/abs/2610.22316v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:51",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Loombench：一种观察多Agent系统行为的方法",
    "u": "https://jonathanwmaddison.github.io/loombench/",
    "s": "外网新声·Hacker News",
    "d": "11:03",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "评估基于LLM的代理人的探究式学习：假设、推理和探索",
-   "u": "https://arxiv.org/abs/2610.21604v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "09:52",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "解码iOS定位服务发送给Apple的内容：LLM是一个不可靠的分析师，但却是一个有用的工具制造商",
-   "u": "https://arxiv.org/abs/2610.21597v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "09:43",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "LoopAhead：提前推测，以加快循环语言模型的解码速度",
-   "u": "https://arxiv.org/abs/2610.21594v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "09:38",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "LOADBench：集成电路设计中机器学习的大型开放式模拟数据集和基准",
-   "u": "https://arxiv.org/abs/2610.21591v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "09:36",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "AVALON：带有人工种子拓扑记忆的零拍室内导航",
-   "u": "https://arxiv.org/abs/2610.21586v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "09:33",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ClaimScope：数学理赔审核的标签盲目见证验证",
-   "u": "https://arxiv.org/abs/2610.21581v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "09:29",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "重新思考刀具图形内存在多圈刀具使用中的作用",
-   "u": "https://arxiv.org/abs/2610.21571v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "09:24",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "LLM驱动的硬件设计功能覆盖封闭的独立数据完整性验证",
-   "u": "https://arxiv.org/abs/2610.21570v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "09:24",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "BiShield-TEE：关于TEE屏蔽LLM隔板中单侧重量混淆的（内部）安全性",
-   "u": "https://arxiv.org/abs/2610.21565v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "09:22",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "DialFork：超越事实，评估对话智能体的程序性幻觉",
-   "u": "https://arxiv.org/abs/2610.21561v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "09:18",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Muon实际何时获胜？配对数据、时间和调整预算基准",
-   "u": "https://arxiv.org/abs/2610.21555v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "09:15",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Muon什么时候最理想？径向脆性和最小极大几何形状",
-   "u": "https://arxiv.org/abs/2610.21549v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "09:13",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "强化学习驱动的扩散模型：语言、愿景及其他",
-   "u": "https://arxiv.org/abs/2610.21539v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "09:05",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "座席状态协议(ASP)：多座席系统中状态报告的轻量级规范",
-   "u": "https://arxiv.org/abs/2610.21538v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "09:03",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "在大模型中实现高效持续学习的功能性子网本地化",
-   "u": "https://arxiv.org/abs/2610.21537v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "09:03",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "CriticaLLM：使用LLM作为桌面角色扮演游戏的自主游戏大师",
-   "u": "https://arxiv.org/abs/2610.21525v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "08:56",
    "k": "",
    "x": ""
   },
@@ -2175,6 +2151,30 @@
    "u": "https://arxiv.org/abs/2610.20597v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "您的变压器具有隐藏的弹性",
+   "u": "https://arxiv.org/abs/2610.20588v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:58",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "代理市场中首次拍卖的无政府状态价格",
+   "u": "https://arxiv.org/abs/2610.20587v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Continuum Attention",
+   "u": "https://arxiv.org/abs/2610.20586v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:57",
    "k": "",
    "x": ""
   }
