@@ -1,5 +1,5 @@
 {
- "built": "2026-10-16 10:07:42",
+ "built": "2026-10-16 10:14:09",
  "count": 272,
  "items": [
   {
@@ -1859,6 +1859,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "SPACE (AI agent containment sandbox)软件开源",
+   "u": "https://au.finance.yahoo.com/news/perplexity-open-source-tool-used-180212360.html",
+   "s": "外网新声·Hacker News",
+   "d": "10:10",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "比较LLM基准的工具",
    "u": "https://philippdubach.com/posts/model-atlas-capability-weights/",
    "s": "外网新声·Hacker News",
@@ -1939,10 +1947,18 @@
    "x": ""
   },
   {
-   "t": "Taskriz –智能体向人们发送用Smalltalk编写的微型原生用户界面",
-   "u": "https://www.taskriz.com/developers/",
-   "s": "外网新声·Hacker News",
-   "d": "04:26",
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "02:12",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "02:12",
    "k": "",
    "x": ""
   },
@@ -1950,7 +1966,7 @@
    "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
    "u": "https://github.com/IBAX-io/go-ibax",
    "s": "外网新声·GitHub 新星",
-   "d": "02:06",
+   "d": "02:11",
    "k": "",
    "x": ""
   },
@@ -1958,7 +1974,7 @@
    "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
    "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
-   "d": "02:06",
+   "d": "02:11",
    "k": "",
    "x": ""
   },
@@ -1967,22 +1983,6 @@
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
    "d": "01:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "01:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "01:35",
    "k": "",
    "x": ""
   },
@@ -2099,7 +2099,7 @@
    "x": ""
   },
   {
-   "t": "BiShield-TEE: On the (In-)Security of Unilateral Weight Obfuscation in On-Device TEE-Shielded LLM Partition",
+   "t": "BiShield-TEE：关于TEE屏蔽LLM隔板中单侧重量混淆的（内部）安全性",
    "u": "https://arxiv.org/abs/2610.21565v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "09:22",
@@ -2107,7 +2107,7 @@
    "x": ""
   },
   {
-   "t": "DialFork: Going Beyond Factuality to Evaluate Procedural Hallucination in Conversational Agents",
+   "t": "DialFork：超越事实，评估对话智能体的程序性幻觉",
    "u": "https://arxiv.org/abs/2610.21561v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "09:18",
@@ -2115,7 +2115,7 @@
    "x": ""
   },
   {
-   "t": "When Does Muon Actually Win? A Paired Data-, Time-, and Tuning-Budget Benchmark",
+   "t": "Muon实际何时获胜？配对数据、时间和调整预算基准",
    "u": "https://arxiv.org/abs/2610.21555v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "09:15",
@@ -2123,7 +2123,7 @@
    "x": ""
   },
   {
-   "t": "When Is Muon Optimal? Radial Fragility and Minimax Geometry",
+   "t": "Muon什么时候最理想？径向脆性和最小极大几何形状",
    "u": "https://arxiv.org/abs/2610.21549v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "09:13",
@@ -2131,7 +2131,7 @@
    "x": ""
   },
   {
-   "t": "Reinforcement Learning-driven Diffusion Models: Language, Vision, and Beyond",
+   "t": "强化学习驱动的扩散模型：语言、愿景及其他",
    "u": "https://arxiv.org/abs/2610.21539v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "09:05",
@@ -2139,7 +2139,7 @@
    "x": ""
   },
   {
-   "t": "Agent Status Protocol (ASP): A Lightweight Specification for State Reporting in Multi-Agent Systems",
+   "t": "座席状态协议(ASP)：多座席系统中状态报告的轻量级规范",
    "u": "https://arxiv.org/abs/2610.21538v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "09:03",
@@ -2147,7 +2147,7 @@
    "x": ""
   },
   {
-   "t": "Functional Subnetwork Localization for Efficient Continual Learning in Large Language Models",
+   "t": "在大模型中实现高效持续学习的功能性子网本地化",
    "u": "https://arxiv.org/abs/2610.21537v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "09:03",
