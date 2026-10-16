@@ -2,7 +2,7 @@
  "日期": "2026-10-16",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-16 10:32:48",
+  "updated": "2026-10-16 10:38:46",
   "chosen": "INJ long",
   "nodes": [
    {
@@ -14,8 +14,8 @@
    {
     "coin": "DOGE",
     "side": "long",
-    "align": 0,
-    "embryo": -0.3
+    "align": 1,
+    "embryo": 2.2
    },
    {
     "coin": "LTC",
@@ -27,7 +27,7 @@
     "coin": "FIL",
     "side": "short",
     "align": 0,
-    "embryo": 0.3
+    "embryo": -0.2
    },
    {
     "coin": "ATOM",
