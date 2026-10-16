@@ -43,11 +43,11 @@
   <h1>玄武灵犀 · 常驻门</h1>
   <div class="sub">内厅入口 · 请点击下方按钮进入管理系统</div>
   <div class="st" id="st"><span class="ring"></span><span class="dim">正在读取最新入口…</span></div>
-  <a class="btn off" id="btn" href="#">👉 点此进入管理系统</a>
+  <a class="btn" id="btn" href="http://8.210.170.179:8092/m.html?token=lingxi2026">👉 点此进入管理系统</a>
   <div class="quick">
     <a id="q_wuzei" href="/wuzei/">☯ 观星台<span>官网直开 · 不依赖隧道</span></a>
     <a href="/live/">📡 新声看板<span>官网直开</span></a>
-    <a id="q_local" href="http://127.0.0.1:8092/m.html">🖥 后台·本机直连<span>本机/手机直开 · 免隧道</span></a>
+    <a id="q_local" href="http://8.210.170.179:8092/m.html?token=lingxi2026">🖥 后台·固定直连<span>云机直连 · 地址永不变</span></a>
   </div>
   <div class="alt" id="hint" style="display:none">若按钮无效，请复制下方地址在浏览器打开：</div>
   <div class="alt"><code id="u">—</code></div>
@@ -62,53 +62,13 @@
     var q=document.getElementById('q_wuzei');
     if(q && q.getAttribute('href')==='/wuzei/' && location.pathname.indexOf('/read/')===0){ q.href='../wuzei/'; }
   }catch(e){}
-  var RAW='https://raw.githubusercontent.com/lzh1968/xuanwu-lingxi/main/docs/url.json';
-  var last=null; try{last=localStorage.getItem('lx_last')}catch(e){}
-  function show(u,msg){
-    ue.textContent=u; btn.href=u; btn.classList.remove('off');
-    st.innerHTML='<span class="ok">✅ '+msg+'</span>'; hint.style.display='block';
-    try{localStorage.setItem('lx_last',u)}catch(e){}
-  }
-  function get(u){return fetch(u+(u.indexOf('?')<0?'?t=':'&t=')+Date.now(),{cache:'no-store'}).then(function(r){
-    if(!r.ok)throw 0; return r.json();
-  });}
-  // 🆕活线校验: 取址后先探 /health(200 且 ok) 再亮按钮 —— 免隧道已轮换/未起时按钮指向死链
-  function ping(u){
-    var b=String(u).replace(/\/+$/,'');
-    return fetch(b+'/health?t='+Date.now(),{cache:'no-store'}).then(function(r){
-      if(!r.ok)throw 0; return r.json();
-    }).then(function(j){ if(!j||!j.ok)throw 0; return u; });
-  }
-  function tryList(list,i){
-    if(i>=list.length){
-      if(last){ show(last,'已用上次缓存地址（线路校验中，15 秒后重试）'); }
-      else{
-        btn.classList.add('off'); ue.textContent='—';
-        st.innerHTML='<span class="warn">⚠️ 线路地址轮换中（后台重启隧道），15 秒后自动重试</span>';
-        te.innerHTML='内厅为私密入口，请勿外传';
-      }
-      setTimeout(load,15000); return;
-    }
-    ping(list[i]).then(function(){ show(list[i],'已找到最新入口（已校验可达），点击按钮进入'); })
-                 .catch(function(){ tryList(list,i+1); });
-  }
-  function load(){
-    st.innerHTML='<span class="ring"></span><span class="dim">正在读取并校验最新入口…</span>';
-    // 双源并行：本站(url.json 随 Pages 构建) + raw(推送后约1分钟即刷新) → 取 updated 最新那条
-    Promise.allSettled([ get('../../url.json'), get(RAW) ]).then(function(rs){
-      var c=[]; rs.forEach(function(x){ if(x.status==='fulfilled'&&x.value&&x.value.url) c.push(x.value); });
-      if(!c.length) throw 0;
-      c.sort(function(a,b){ return String(b.updated||'').localeCompare(String(a.updated||'')); });
-      var list=[]; c.forEach(function(x){ if(list.indexOf(x.url)<0) list.push(x.url); });
-      if(last && list.indexOf(last)<0) list.push(last);
-      if(c[0].updated) te.innerHTML='地址更新于 '+c[0].updated+'<br>内厅为私密入口，请勿外传';
-      tryList(list,0);
-    }).catch(function(){
-      if(last){ show(last,'已用上次缓存地址'); }
-      else{ st.innerHTML='<span class="warn">⚠️ 取地址失败，15 秒后自动重试</span>'; setTimeout(load,15000); }
-    });
-  }
-  load();
+  // 🆕2026-10-17 老板令「钉」: 入口钉死为云机固定直连(地址永不变·不再跟临时隧道换号)
+  // 缘由: 旧法跟 trycloudflare 临时隧道换号 ⇒ 隧道一重启入口即死(老板俗称「七搞八搞」)
+  var FIXED='http://8.210.170.179:8092/m.html?token=lingxi2026';
+  btn.href=FIXED; btn.classList.remove('off');
+  ue.textContent=FIXED; hint.style.display='block';
+  st.innerHTML='<span class="ok">✅ 固定入口 · 云机直连（地址永不变）</span>';
+  te.innerHTML='固定入口 · 内厅为私密入口，请勿外传';
 })();
 </script>
 </body>
