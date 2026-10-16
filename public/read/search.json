@@ -1,6 +1,6 @@
 {
- "built": "2026-10-17 00:26:46",
- "count": 274,
+ "built": "2026-10-17 00:33:18",
+ "count": 275,
  "items": [
   {
    "t": "今日辑要 · 2026-10-17（前沿 12 条）",
@@ -17,6 +17,14 @@
    "d": "2026-10-17",
    "k": "手记,方法论",
    "x": "智能体的记忆常被误解为\"存得越多越聪明\"。工程上更接近事实的是三种不同用途： 事实记忆 ：发生了什么（可核对、可追溯、可审计） 策略记忆 ：什么条件下做了什么、结果如何（用于校准，不用于信仰） 身份记忆 ：我是谁、我受什么约束（最稳定，最少改动） 把三者混在一个容器里，就会得到\"记得很牢却用不对\"的系统：把偶然当规律，把经验当身份。拆开的代价是结构更复杂；收益是每类记忆可以有自己的过期与校验规则。 一句话： 记忆的价值不在容量，而在校验方式。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "阴阳与反馈环",
+   "u": "a/note-20261017-3.html",
+   "s": "华夏哲学 · 阴阳五行",
+   "d": "2026-10-17",
+   "k": "手记,方法论",
+   "x": "把阴阳放进控制系统里看，它更像一对 符号相反的反馈环 ：一个负责扩张，一个负责收敛。 只有扩张的环，系统会在顺境中自我强化直到崩塌；只有收敛的环，系统会在谨慎中失去一切机会。传统讲\"阴阳相生\"，工程讲\"增益平衡\"——说的是同一件事： 别让任一侧单独主导太久。 所以好的自适应并非不断调参，而是在两侧都留出可回退的余地：进要能退，退也要能再进；底线固定，节奏可变。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "今日辑要 · 2026-10-16（前沿 12 条）",
@@ -1883,10 +1891,74 @@
    "x": ""
   },
   {
+   "t": "在扣分备注中Show HN：客服代表聊天–背景聊天并保存回复",
+   "u": "https://blog.etherpk.com/agent-chat-ask-a-language-model-about-your-notes",
+   "s": "外网新声·Hacker News",
+   "d": "23:53",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "想象一下，地球上的每一个智能体都在购买同样便宜的纸巾",
+   "u": "https://www.theatlantic.com/technology/2026/10/ai-agent-chaos-e-commerce/689010/",
+   "s": "外网新声·Hacker News",
+   "d": "23:51",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "C++和CppCon的人工智能：我们必须使用代理–或多或少？",
+   "u": "https://www.sandordargo.com/blog/2026/10/07/cpp-and-ai-at-cppcon",
+   "s": "外网新声·Hacker News",
+   "d": "23:44",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN: Termexo –一个AI在Windows上操作您的其他编码代理",
+   "u": "https://github.com/gemron/Termexo",
+   "s": "外网新声·Hacker News",
+   "d": "23:40",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：我们构建了一个开源，以代理为先，替代深度",
+   "u": "https://github.com/Canonry/canonry",
+   "s": "外网新声·Hacker News",
+   "d": "23:38",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Pry是一种浏览器代理，可在任何东西到达AI模型之前编辑私有数据",
+   "u": "https://chromewebstore.google.com/detail/pry-agent/aocmnoompdjlgbfjlimikkpoebooolog",
+   "s": "外网新声·Hacker News",
+   "d": "23:34",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "客户端LLM产品演示：PDF到有声读物[视频]",
    "u": "https://www.youtube.com/watch?v=t39svoJohkg",
    "s": "外网新声·Hacker News",
    "d": "23:15",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：Busabase –智能体工作的开源记录系统",
+   "u": "https://github.com/busabase/busabase",
+   "s": "外网新声·Hacker News",
+   "d": "23:09",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "我让我的Muse AI 智能体人给我发色情短信，Meta说这很好",
+   "u": "https://www.wired.com/story/i-got-my-muse-ai-agent-to-sext-me-and-meta-says-thats-totally-fine/",
+   "s": "外网新声·Hacker News",
+   "d": "22:43",
    "k": "",
    "x": ""
   },
@@ -1902,7 +1974,7 @@
    "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
    "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
-   "d": "16:25",
+   "d": "16:32",
    "k": "",
    "x": ""
   },
@@ -2091,7 +2163,7 @@
    "x": ""
   },
   {
-   "t": "A team of Gemini 4 Argon agents beats Minecraft",
+   "t": "Gemini 4 Argon智能体团队击败Minecraft",
    "u": "https://arxiv.org/abs/2610.22319v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:51",
@@ -2127,70 +2199,6 @@
    "u": "https://arxiv.org/abs/2610.22292v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:43",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Learning Rational Strategies for Temporal Objectives in Multi-Agent Systems",
-   "u": "https://arxiv.org/abs/2610.22287v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:42",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Librarian Agents: Training LLMs to Curate Long-Context Workspaces that Anticipate Future Queries",
-   "u": "https://arxiv.org/abs/2610.22273v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:35",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Baselines and Score Centering in Policy Gradient Estimation",
-   "u": "https://arxiv.org/abs/2610.22263v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:28",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "BitSparse: Compact Activation Storage for ReLU Feed-Forward Networks",
-   "u": "https://arxiv.org/abs/2610.22256v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:24",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Explore Once, Evaluate Many: Multiple Policy Evaluation for Stochastic Linear Bandits",
-   "u": "https://arxiv.org/abs/2610.22252v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:22",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Loombench：一种观察多Agent系统行为的方法",
-   "u": "https://jonathanwmaddison.github.io/loombench/",
-   "s": "外网新声·Hacker News",
-   "d": "11:03",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "如何对多Agent系统进行仪表化以实现完整的因果关系谱系",
-   "u": "https://medium.com/@MirArshadTalpur/how-to-instrument-a-multi-agent-system-for-complete-causal-lineage-e75d61150f9b",
-   "s": "外网新声·Hacker News",
-   "d": "03:38",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "客服代表团队有回报吗？ Vibe Code Bench案例研究",
-   "u": "https://www.vals.ai/blogs/multi-agent-vibe-code-bench",
-   "s": "外网新声·Hacker News",
-   "d": "22:38",
    "k": "",
    "x": ""
   }
