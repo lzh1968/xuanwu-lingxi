@@ -1,5 +1,5 @@
 {
- "built": "2026-10-16 22:54:20",
+ "built": "2026-10-16 23:11:41",
  "count": 272,
  "items": [
   {
@@ -1859,6 +1859,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Show HN: Busabase – an open-source system of record for AI agent work",
+   "u": "https://github.com/busabase/busabase",
+   "s": "外网新声·Hacker News",
+   "d": "23:09",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "我让我的Muse AI 智能体人给我发色情短信，Meta说这很好",
    "u": "https://www.wired.com/story/i-got-my-muse-ai-agent-to-sext-me-and-meta-says-thats-totally-fine/",
    "s": "外网新声·Hacker News",
@@ -1867,10 +1875,34 @@
    "x": ""
   },
   {
+   "t": "Show HN: Gemini 4 Argon plays StarCraft",
+   "u": "https://starskirmish.com/bench/v0-2/",
+   "s": "外网新声·Hacker News",
+   "d": "22:18",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "How to make System 1 LLMs show System 2 competencies?",
+   "u": "https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113",
+   "s": "外网新声·Hacker News",
+   "d": "22:16",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "AI Support Agent That Carries Context Between Email and WhatsApp (Python)",
    "u": "https://github.com/team-telnyx/telnyx-code-examples/tree/main/email-whatsapp-support-python",
    "s": "外网新声·Hacker News",
    "d": "22:09",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Build LLM Playground (Python, FastAPI, Gemini, React)",
+   "u": "https://www.youtube.com/watch?v=73Knur3t4M0",
+   "s": "外网新声·Hacker News",
+   "d": "21:59",
    "k": "",
    "x": ""
   },
@@ -1907,10 +1939,10 @@
    "x": ""
   },
   {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "14:51",
+   "d": "15:11",
    "k": "",
    "x": ""
   },
@@ -1918,15 +1950,7 @@
    "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
    "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
-   "d": "14:50",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "14:49",
+   "d": "15:04",
    "k": "",
    "x": ""
   },
@@ -1939,42 +1963,10 @@
    "x": ""
   },
   {
-   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "u": "https://github.com/earendil-works/pi",
-   "s": "外网新声·GitHub 新星",
-   "d": "13:18",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "客服代表角色>客服代表目标：使用多客服代表基准工具进行案例研究",
    "u": "https://jonathanwmaddison.github.io/loombench/",
    "s": "外网新声·Hacker News",
    "d": "06:30",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
-   "u": "https://github.com/Dao-AILab/flash-attention",
-   "s": "外网新声·GitHub 新星",
-   "d": "05:19",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
-   "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-   "s": "外网新声·GitHub 新星",
-   "d": "04:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
-   "u": "https://github.com/IBAX-io/go-ibax",
-   "s": "外网新声·GitHub 新星",
-   "d": "02:11",
    "k": "",
    "x": ""
   },
@@ -1997,39 +1989,15 @@
   {
    "t": "LIBERO-PeRM：个性化机器人操作基准测试",
    "u": "https://arxiv.org/abs/2610.22372v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "使用大模型探索最先进的量子电路",
-   "u": "https://arxiv.org/abs/2610.22367v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "FDE-Gym：人工智能交付的最后一英里",
-   "u": "https://arxiv.org/abs/2610.22350v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:57",
    "k": "",
    "x": ""
   },
   {
    "t": "MLExpert：面向自主机器学习工程的通才代理模型",
    "u": "https://arxiv.org/abs/2610.22344v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:56",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "3DCodeVerse：以代码探索3D世界",
-   "u": "https://arxiv.org/abs/2610.22341v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:56",
    "k": "",
    "x": ""
@@ -2051,65 +2019,17 @@
    "x": ""
   },
   {
-   "t": "英语以外的评估意识：LLM在印度语考试中的表现是否不同？",
-   "u": "https://arxiv.org/abs/2610.22333v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:53",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "KnowGPO：针对搜索智能体的知识分组策略优化",
-   "u": "https://arxiv.org/abs/2610.22331v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:52",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "为连续扩散语言模型设计变压器",
-   "u": "https://arxiv.org/abs/2610.22330v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:52",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Twice Upon a Time: Complementary Representations for Time-Series Reasoning",
    "u": "https://arxiv.org/abs/2610.22327v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:52",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Learning Self-Orchestration in Decentralized Agent Swarms",
-   "u": "https://arxiv.org/abs/2610.22322v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:51",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "AVC-Reward: Event-Centric Audio-Video Consistency Evaluation",
-   "u": "https://arxiv.org/abs/2610.22321v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:51",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "A team of Gemini 4 Argon agents beats Minecraft",
-   "u": "https://arxiv.org/abs/2610.22319v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:51",
    "k": "",
    "x": ""
   },
   {
    "t": "Learning to Steer LLM Agents and Multi-Agent Systems",
    "u": "https://arxiv.org/abs/2610.22316v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:51",
    "k": "",
    "x": ""
@@ -2175,6 +2095,86 @@
    "u": "https://arxiv.org/abs/2610.22252v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:22",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Loombench：一种观察多Agent系统行为的方法",
+   "u": "https://jonathanwmaddison.github.io/loombench/",
+   "s": "外网新声·Hacker News",
+   "d": "11:03",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "如何对多Agent系统进行仪表化以实现完整的因果关系谱系",
+   "u": "https://medium.com/@MirArshadTalpur/how-to-instrument-a-multi-agent-system-for-complete-causal-lineage-e75d61150f9b",
+   "s": "外网新声·Hacker News",
+   "d": "03:38",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "客服代表团队有回报吗？ Vibe Code Bench案例研究",
+   "u": "https://www.vals.ai/blogs/multi-agent-vibe-code-bench",
+   "s": "外网新声·Hacker News",
+   "d": "22:38",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "AMP使AI 智能体能够使用OpenAI模型进行超越代码的工作",
+   "u": "https://openai.com/index/amp-beyond-coding",
+   "s": "外网新声·OpenAI 官方",
+   "d": "12:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Third Moment Research如何在超过36小时的时间内运行10,000名客服代表",
+   "u": "https://openai.com/index/third-moment-research",
+   "s": "外网新声·OpenAI 官方",
+   "d": "07:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "欧盟在人工智能领域的下一篇章是代理",
+   "u": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+   "s": "外网新声·OpenAI 官方",
+   "d": "00:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
+   "u": "https://github.com/mattpocock/skills",
+   "s": "外网新声·GitHub 新星",
+   "d": "08:46",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "将前沿人工智能转变为多智能体系统架构师",
+   "u": "https://github.com/polymodality/agentic-polymodality/tree/main/ai-guidance",
+   "s": "外网新声·Hacker News",
+   "d": "08:14",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：EpochGo - Ollama上的本地优先多代理AutoML （ API成本为$ 0 ）",
+   "u": "https://github.com/AryanDinakaran/EpochGo",
+   "s": "外网新声·Hacker News",
+   "d": "18:20",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "多Agent漏洞修复管道：角色分离架构",
+   "u": "https://github.com/Mininglamp-OSS",
+   "s": "外网新声·Hacker News",
+   "d": "12:05",
    "k": "",
    "x": ""
   }
