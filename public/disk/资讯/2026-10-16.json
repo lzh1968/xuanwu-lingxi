@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-16",
- "落盘": "2026-10-16 16:04:15",
+ "落盘": "2026-10-16 16:10:38",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "A 4B LLM learns to write tools that other LLMs can use",
+   "url": "https://tool-use-smith.github.io/",
+   "type": "live"
+  },
   {
    "title": "Hopper HQ: An office building where Claude agents gets a desk",
    "url": "https://github.com/FairMind-Gen-AI-Studio/hopper-hq",
@@ -37,11 +42,6 @@
   {
    "title": "Researchers discover rogue Chinese AI agent fleet and talk with it",
    "url": "https://swarmcha.se/posts/chinese-agent-fleet-full-report",
-   "type": "live"
-  },
-  {
-   "title": "使用Mac Studio上的MLX和RDMA进行本地和分布式大型LLM推断",
-   "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
    "type": "live"
   },
   {
