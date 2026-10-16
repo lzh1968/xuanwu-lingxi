@@ -2,14 +2,20 @@
  "日期": "2026-10-16",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-16 08:16:48",
-  "chosen": "DOGE short",
+  "updated": "2026-10-16 08:22:53",
+  "chosen": "ATOM short",
   "nodes": [
    {
     "coin": "DOGE",
     "side": "short",
+    "align": 2,
+    "embryo": 3.33
+   },
+   {
+    "coin": "ATOM",
+    "side": "short",
     "align": 1,
-    "embryo": 2.3
+    "embryo": 2.9
    },
    {
     "coin": "BTC",
@@ -121,12 +127,6 @@
    },
    {
     "coin": "WLFI",
-    "side": "",
-    "align": 0,
-    "embryo": 0.0
-   },
-   {
-    "coin": "ATOM",
     "side": "",
     "align": 0,
     "embryo": 0.0
