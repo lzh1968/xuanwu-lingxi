@@ -1,5 +1,5 @@
 {
- "built": "2026-10-17 02:45:36",
+ "built": "2026-10-17 02:51:29",
  "count": 291,
  "items": [
   {
@@ -2011,6 +2011,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "你怎么知道客服代表的记忆层是有帮助的，而不是伤害的？",
+   "u": "https://github.com/yadu9989/memstrata-lme500-harness",
+   "s": "外网新声·Hacker News",
+   "d": "02:42",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "法学硕士说了些什么，我的工具跟踪是否遵循了它对工具的承诺",
    "u": "https://www.raytracer.si/",
    "s": "外网新声·Hacker News",
@@ -2067,6 +2075,14 @@
    "x": ""
   },
   {
+   "t": "Show HN：由客服代表提供支持的自主社区研究实验室",
+   "u": "https://lemmapark.com",
+   "s": "外网新声·Hacker News",
+   "d": "00:11",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "在扣分备注中Show HN：客服代表聊天–背景聊天并保存回复",
    "u": "https://blog.etherpk.com/agent-chat-ask-a-language-model-about-your-notes",
    "s": "外网新声·Hacker News",
@@ -2099,42 +2115,10 @@
    "x": ""
   },
   {
-   "t": "客户端LLM产品演示：PDF到有声读物[视频]",
-   "u": "https://www.youtube.com/watch?v=t39svoJohkg",
-   "s": "外网新声·Hacker News",
-   "d": "23:15",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：双子座4氩气玩《星际争霸》",
-   "u": "https://starskirmish.com/bench/v0-2/",
-   "s": "外网新声·Hacker News",
-   "d": "22:18",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "如何让System 1 LLM展示System 2能力？",
-   "u": "https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113",
-   "s": "外网新声·Hacker News",
-   "d": "22:16",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "构建LLM Playground （ Python、FastAPI、Gemini、React ）",
-   "u": "https://www.youtube.com/watch?v=73Knur3t4M0",
-   "s": "外网新声·Hacker News",
-   "d": "21:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "法学硕士工具使用从API调用到代理应用程序的演变（ 2025年）",
-   "u": "https://bdtechtalks.com/2025/12/29/llm-tool-use-agentic-ai/",
-   "s": "外网新声·Hacker News",
-   "d": "21:42",
+   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
+   "u": "https://github.com/morluto/rea",
+   "s": "外网新声·GitHub 新星",
+   "d": "18:50",
    "k": "",
    "x": ""
   },
@@ -2142,15 +2126,7 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "18:44",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
-   "u": "https://github.com/morluto/rea",
-   "s": "外网新声·GitHub 新星",
-   "d": "18:40",
+   "d": "18:49",
    "k": "",
    "x": ""
   },
@@ -2327,6 +2303,30 @@
    "u": "https://arxiv.org/abs/2610.22321v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:51",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Gemini 4 Argon智能体团队击败Minecraft",
+   "u": "https://arxiv.org/abs/2610.22319v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:51",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "学习引导LLM代理和多代理系统",
+   "u": "https://arxiv.org/abs/2610.22316v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:51",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "零位神经音频水印中的向后兼容性",
+   "u": "https://arxiv.org/abs/2610.22296v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:45",
    "k": "",
    "x": ""
   }
