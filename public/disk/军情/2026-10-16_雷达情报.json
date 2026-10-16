@@ -2,20 +2,20 @@
  "日期": "2026-10-16",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-16 10:14:13",
-  "chosen": "LTC short",
+  "updated": "2026-10-16 10:20:17",
+  "chosen": "FIL short",
   "nodes": [
    {
     "coin": "DOGE",
     "side": "long",
     "align": 0,
-    "embryo": 0.2
+    "embryo": -0.3
    },
    {
     "coin": "LTC",
     "side": "short",
     "align": 0,
-    "embryo": -0.2
+    "embryo": 0.3
    },
    {
     "coin": "FIL",
@@ -26,8 +26,8 @@
    {
     "coin": "ATOM",
     "side": "short",
-    "align": 1,
-    "embryo": 1.8
+    "align": 2,
+    "embryo": 3.9
    },
    {
     "coin": "BTC",
