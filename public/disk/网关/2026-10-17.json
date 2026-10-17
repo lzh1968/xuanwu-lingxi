@@ -1,34 +1,34 @@
 {
  "日期": "2026-10-17",
- "落盘": "2026-10-17 16:30:32",
+ "落盘": "2026-10-17 16:58:56",
  "内存报表": {
-  "时间": "2026-10-17 16:30:32",
-  "受托进程数": 16,
+  "时间": "2026-10-17 16:58:56",
+  "受托进程数": 14,
   "网关": {
-   "进程号": "29539",
-   "内存MB": 472.6,
+   "进程号": "11607",
+   "内存MB": 484.5,
    "线程": 11,
    "堆上限": "1536"
   },
   "实例数": 1,
   "全机MemTotal": "11469MB",
-  "全机MemAvailable": "5721MB",
+  "全机MemAvailable": "5929MB",
   "全机SwapTotal": "7110MB",
-  "全机SwapFree": "3427MB",
+  "全机SwapFree": "3430MB",
   "探活": "200"
  },
  "断线统计": {
-  "今日断线次数": 20,
+  "今日断线次数": 24,
   "今日最长断线秒": 319,
-  "近2小时真停摆(≥90秒)": 0,
+  "近2小时真停摆(≥90秒)": 1,
   "维护窗口": 0
  },
  "日志体量KB": {
-  "gateway_guard.log": 1711.2,
-  "gateway_outage.jsonl": 45.3,
-  "gw_boot.out": 543.0,
+  "gateway_guard.log": 1716.1,
+  "gateway_outage.jsonl": 45.5,
+  "gw_boot.out": 545.3,
   "gw_run.out": 71.8,
-  "网关停摆取证.log": 471.9
+  "网关停摆取证.log": 473.5
  },
  "会话索引(不含正文)": [
   {
@@ -69,9 +69,9 @@
   },
   {
    "档": "b335dce2-457b-4d9a-8e1e-812022d20ad5.jsonl",
-   "大小KB": 801.9,
-   "行数": 256,
-   "最后改动": "2026-10-17 14:47:29"
+   "大小KB": 832.5,
+   "行数": 269,
+   "最后改动": "2026-10-17 16:53:59"
   },
   {
    "档": "27e6b13f-0395-4080-8145-0ea20c17ad6b.jsonl",
@@ -134,16 +134,16 @@
    "最后改动": "2026-10-13 00:44:18"
   },
   {
+   "档": "1b867855-1a99-4fc2-8e7c-625531a9d121.jsonl",
+   "大小KB": 566.3,
+   "行数": 277,
+   "最后改动": "2026-10-17 16:43:29"
+  },
+  {
    "档": "eebbf47b-38be-424c-9fb9-a006302c1ee4.jsonl",
    "大小KB": 565.9,
    "行数": 101,
    "最后改动": "2026-10-12 01:11:54"
-  },
-  {
-   "档": "1b867855-1a99-4fc2-8e7c-625531a9d121.jsonl",
-   "大小KB": 565.7,
-   "行数": 276,
-   "最后改动": "2026-10-17 13:46:57"
   },
   {
    "档": "68cfe458-8e40-425d-96da-23693b5957a5.jsonl",
@@ -153,42 +153,6 @@
   }
  ],
  "停摆取证(近段)": [
-  "  网关 VmSwap:\t       0 kB",
-  "  网关 Threads:\t11",
-  "  Mem:           11469        5258        1205          67        5006        5976",
-  "  Swap:           7110        2621        4489",
-  "  CPU   653.2s python3 -u _子引擎.py heng --mode paper",
-  "  CPU   241.8s bash _守护总管.sh",
-  "  CPU   134.4s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
-  "── 停摆取证 2026-10-17 02:56:21 (取码 000) ──",
-  "  网关 VmRSS:\t  640688 kB",
-  "  网关 VmSwap:\t       0 kB",
-  "  网关 Threads:\t11",
-  "  Mem:           11469        5127        1291          68        5049        6107",
-  "  Swap:           7110        2580        4530",
-  "  CPU   661.9s python3 -u _子引擎.py heng --mode paper",
-  "  CPU   244.3s bash _守护总管.sh",
-  "  CPU   230.8s openclaw-gateway",
-  "── 停摆取证 2026-10-17 02:56:51 (取码 000) ──",
-  "  网关 VmRSS:\t  672768 kB",
-  "  网关 VmSwap:\t       0 kB",
-  "  网关 Threads:\t11",
-  "  Mem:           11469        5468         944          68        5055        5766",
-  "  Swap:           7110        2491        4619",
-  "  CPU   662.2s python3 -u _子引擎.py heng --mode paper",
-  "  CPU   260.8s openclaw-gateway",
-  "  CPU   244.9s bash _守护总管.sh",
-  "── 停摆取证 2026-10-17 03:39:02 (取码 000) ──",
-  "  网关 VmRSS:\t  749736 kB",
-  "  网关 VmSwap:\t       0 kB",
-  "  网关 Threads:\t11",
-  "  Mem:           11469        5213        1361          67        4894        5960",
-  "  Swap:           7110        2808        4302",
-  "  CPU   170.7s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
-  "  CPU   122.3s openclaw-gateway",
-  "  CPU    33.9s python3 /data/data/com.termux/files/home/.openclaw/workspace",
-  "── 停摆取证 2026-10-17 05:38:25 (取码 000) ──",
-  "  网关 VmRSS:\t  486876 kB",
   "  网关 VmSwap:\t       0 kB",
   "  网关 Threads:\t11",
   "  Mem:           11469        5490        1117          89        4860        5590",
@@ -312,6 +276,42 @@
   "  Swap:           7110        2482        4627",
   "  CPU  1134.0s bash _守护总管.sh",
   "  CPU   757.3s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
-  "  CPU   337.6s bash _网关看护.sh"
+  "  CPU   337.6s bash _网关看护.sh",
+  "── 停摆取证 2026-10-17 16:43:53 (取码 000) ──",
+  "  网关 VmRSS:\t  664576 kB",
+  "  网关 VmSwap:\t       0 kB",
+  "  网关 Threads:\t11",
+  "  Mem:           11469        5791         425          73        5252        5426",
+  "  Swap:           7110        3474        3636",
+  "  CPU  1329.0s bash _守护总管.sh",
+  "  CPU   858.4s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
+  "  CPU   387.8s bash _网关看护.sh",
+  "── 停摆取证 2026-10-17 16:46:39 (取码 000) ──",
+  "  网关 VmRSS:\t  870652 kB",
+  "  网关 VmSwap:\t       0 kB",
+  "  网关 Threads:\t11",
+  "  Mem:           11469        5998         298          73        5171        5205",
+  "  Swap:           7110        3397        3713",
+  "  CPU  1332.5s bash _守护总管.sh",
+  "  CPU   860.5s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
+  "  CPU   389.3s bash _网关看护.sh",
+  "── 停摆取证 2026-10-17 16:51:34 (取码 000) ──",
+  "  网关 VmRSS:\t 1021064 kB",
+  "  网关 VmSwap:\t       0 kB",
+  "  网关 Threads:\t11",
+  "  Mem:           11469        5990         910          73        4568        5207",
+  "  Swap:           7110        3516        3594",
+  "  CPU  1339.3s bash _守护总管.sh",
+  "  CPU   865.2s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
+  "  CPU   390.9s bash _网关看护.sh",
+  "── 停摆取证 2026-10-17 16:52:44 (取码 000) ──",
+  "  网关 VmRSS:\t 1133000 kB",
+  "  网关 VmSwap:\t       0 kB",
+  "  网关 Threads:\t11",
+  "  Mem:           11469        6028         865          73        4575        5169",
+  "  Swap:           7110        3517        3592",
+  "  CPU  1340.7s bash _守护总管.sh",
+  "  CPU   866.0s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
+  "  CPU   391.5s bash _网关看护.sh"
  ]
 }
