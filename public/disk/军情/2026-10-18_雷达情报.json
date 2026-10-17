@@ -2,56 +2,56 @@
  "日期": "2026-10-18",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-18 06:18:47",
+  "updated": "2026-10-18 06:49:06",
   "chosen": "BTC short",
   "nodes": [
    {
     "coin": "BTC",
     "side": "short",
-    "align": 3,
-    "embryo": 2.7
+    "align": 1,
+    "embryo": 3.7
    },
    {
     "coin": "LTC",
     "side": "short",
     "align": 3,
-    "embryo": 2.4
+    "embryo": 2.7
    },
    {
     "coin": "ADA",
     "side": "short",
     "align": 3,
-    "embryo": 2.4
+    "embryo": 2.7
    },
    {
     "coin": "DOGE",
     "side": "short",
     "align": 3,
-    "embryo": 2.4
+    "embryo": 2.7
    },
    {
     "coin": "XRP",
     "side": "short",
     "align": 3,
-    "embryo": 2.7
+    "embryo": 0.5
    },
    {
     "coin": "SOL",
     "side": "short",
     "align": 3,
-    "embryo": 2.4
+    "embryo": 2.7
    },
    {
     "coin": "ARB",
     "side": "short",
-    "align": 3,
-    "embryo": 2.1
+    "align": 2,
+    "embryo": 4.4
    },
    {
     "coin": "SUI",
     "side": "short",
     "align": 3,
-    "embryo": 2.1
+    "embryo": 2.4
    },
    {
     "coin": "ETH",
@@ -63,43 +63,43 @@
     "coin": "AVAX",
     "side": "short",
     "align": 3,
-    "embryo": 2.4
+    "embryo": 2.7
    },
    {
     "coin": "NEAR",
     "side": "short",
     "align": 2,
-    "embryo": 4.6
+    "embryo": 4.4
    },
    {
     "coin": "UNI",
+    "side": "short",
+    "align": 1,
+    "embryo": 3.7
+   },
+   {
+    "coin": "WLD",
+    "side": "short",
+    "align": 2,
+    "embryo": 4.4
+   },
+   {
+    "coin": "BNB",
     "side": "short",
     "align": 2,
     "embryo": 4.7
    },
    {
-    "coin": "WLD",
-    "side": "short",
-    "align": 3,
-    "embryo": 2.1
-   },
-   {
-    "coin": "BNB",
-    "side": "short",
-    "align": 3,
-    "embryo": 2.7
-   },
-   {
     "coin": "DOT",
     "side": "short",
     "align": 3,
-    "embryo": 2.6
+    "embryo": 2.4
    },
    {
     "coin": "FIL",
     "side": "short",
     "align": 3,
-    "embryo": 2.6
+    "embryo": 2.1
    },
    {
     "coin": "LINK",
