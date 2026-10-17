@@ -1,7 +1,23 @@
 {
- "built": "2026-10-17 23:54:20",
- "count": 291,
+ "built": "2026-10-18 00:00:45",
+ "count": 293,
  "items": [
+  {
+   "t": "今日辑要 · 2026-10-18（前沿 12 条）",
+   "u": "a/digest-20261018.html",
+   "s": "AI 全球趋势",
+   "d": "2026-10-18",
+   "k": "辑要,每日,前沿",
+   "x": "今日从公开源汇得 12 条与人工智能、智能体系统、链上机制与数字经济相关的条目，按方向归拢如下。所有条目均保留来源与原文链接， 只作线索与机制观察 ，不代表任何结论。 AI 全球趋势 Ask HN: Non deterministic leet code small LLM challenge site? <span class=\"src\" Hacker News · 23:52</span [查看原文](https://news.ycombinator.com/item?id=50132166) Why Do Chinese LLMs Switch to Chinese in Complex Interactions? (2024) <span class=\"src\" Hacker News · 23:43</span [查看原文](https://pub.towardsai.net/w"
+  },
+  {
+   "t": "链上机制的可读性",
+   "u": "a/note-20261018-4.html",
+   "s": "Web3 · 链上世界",
+   "d": "2026-10-18",
+   "k": "手记,方法论",
+   "x": "评价一条链上机制，可以先问三个可读性问题： 1. 谁承担最后风险？ （收益来自哪里，亏损落到谁头上） 2. 信息何时公开？ （先看到的人是否天然占优） 3. 退出是否顺畅？ （极端情形下能不能有序离场） 这三个问题不涉及任何价格判断，却能筛掉绝大部分\"看起来精巧\"的设计。机制研究的价值也正在于此： 把不可读的风险变成可讨论的条款。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
   {
    "t": "今日辑要 · 2026-10-17（前沿 12 条）",
    "u": "a/digest-20261017.html",
@@ -2083,8 +2099,24 @@
    "x": ""
   },
   {
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:00",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
    "u": "https://github.com/morluto/rea",
+   "s": "外网新声·GitHub 新星",
+   "d": "15:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
    "d": "15:54",
    "k": "",
@@ -2099,26 +2131,10 @@
    "x": ""
   },
   {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "15:49",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "研究人员将一名人工智能智能体困在虚拟岛屿上",
    "u": "https://gizmodo.com/researchers-stranded-an-ai-agent-on-a-virtual-island-things-got-very-weird-2000825998",
    "s": "外网新声·Hacker News",
    "d": "15:45",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
-   "s": "外网新声·GitHub 新星",
-   "d": "15:20",
    "k": "",
    "x": ""
   },
