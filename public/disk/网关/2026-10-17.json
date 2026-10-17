@@ -1,34 +1,34 @@
 {
  "日期": "2026-10-17",
- "落盘": "2026-10-17 19:02:43",
+ "落盘": "2026-10-17 19:30:58",
  "内存报表": {
-  "时间": "2026-10-17 19:02:43",
-  "受托进程数": 17,
+  "时间": "2026-10-17 19:30:58",
+  "受托进程数": 16,
   "网关": {
-   "进程号": "23414",
-   "内存MB": 431.4,
+   "进程号": "11818",
+   "内存MB": 617.7,
    "线程": 11,
    "堆上限": "1536"
   },
-  "实例数": 2,
+  "实例数": 1,
   "全机MemTotal": "11469MB",
-  "全机MemAvailable": "5532MB",
+  "全机MemAvailable": "5737MB",
   "全机SwapTotal": "7110MB",
-  "全机SwapFree": "3831MB",
-  "探活": "200"
+  "全机SwapFree": "3599MB",
+  "探活": "000"
  },
  "断线统计": {
-  "今日断线次数": 25,
+  "今日断线次数": 26,
   "今日最长断线秒": 319,
   "近2小时真停摆(≥90秒)": 1,
   "维护窗口": 0
  },
  "日志体量KB": {
-  "gateway_guard.log": 1720.5,
+  "gateway_guard.log": 1725.7,
   "gateway_outage.jsonl": 45.5,
-  "gw_boot.out": 547.7,
+  "gw_boot.out": 549.8,
   "gw_run.out": 71.8,
-  "网关停摆取证.log": 473.9
+  "网关停摆取证.log": 474.3
  },
  "会话索引(不含正文)": [
   {
@@ -153,15 +153,6 @@
   }
  ],
  "停摆取证(近段)": [
-  "  网关 VmSwap:\t       0 kB",
-  "  网关 Threads:\t11",
-  "  Mem:           11469        5989         715          89        4763        5224",
-  "  Swap:           7110        3179        3931",
-  "  CPU   290.2s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
-  "  CPU   235.9s bash _守护总管.sh",
-  "  CPU    79.8s bash _网关看护.sh",
-  "── 停摆取证 2026-10-17 08:08:17 (取码 000) ──",
-  "  网关 VmRSS:\t 1064460 kB",
   "  网关 VmSwap:\t       0 kB",
   "  网关 Threads:\t11",
   "  Mem:           11469        6491         471          81        4506        4732",
@@ -312,6 +303,15 @@
   "  Swap:           7110        3391        3719",
   "  CPU  1554.4s bash _守护总管.sh",
   "  CPU   977.5s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
-  "  CPU   454.0s bash _网关看护.sh"
+  "  CPU   454.0s bash _网关看护.sh",
+  "── 停摆取证 2026-10-17 19:29:34 (取码 000) ──",
+  "  网关 VmRSS:\t  748756 kB",
+  "  网关 VmSwap:\t       0 kB",
+  "  网关 Threads:\t11",
+  "  Mem:           11469        5928         599          74        4940        5299",
+  "  Swap:           7110        3432        3678",
+  "  CPU  1604.0s bash _守护总管.sh",
+  "  CPU  1005.0s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
+  "  CPU   466.8s bash _网关看护.sh"
  ]
 }
