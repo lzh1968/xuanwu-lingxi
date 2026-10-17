@@ -2,8 +2,8 @@
  "日期": "2026-10-17",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-17 12:41:34",
-  "chosen": "FIL long",
+  "updated": "2026-10-17 13:11:32",
+  "chosen": "BNB long",
   "nodes": [
    {
     "coin": "BTC",
@@ -13,15 +13,15 @@
    },
    {
     "coin": "LTC",
-    "side": "long",
-    "align": 1,
-    "embryo": 2.3
+    "side": "short",
+    "align": 2,
+    "embryo": 2.7
    },
    {
     "coin": "ADA",
     "side": "long",
     "align": 0,
-    "embryo": 0.3
+    "embryo": 0.9
    },
    {
     "coin": "DOGE",
@@ -33,79 +33,79 @@
     "coin": "XRP",
     "side": "long",
     "align": 0,
-    "embryo": 2.5
+    "embryo": 1.7
    },
    {
     "coin": "SOL",
     "side": "long",
     "align": 1,
-    "embryo": 3.7
+    "embryo": 1.7
    },
    {
     "coin": "ARB",
     "side": "long",
-    "align": 0,
-    "embryo": 1.4
+    "align": 1,
+    "embryo": 3.4
    },
    {
     "coin": "SUI",
     "side": "long",
-    "align": 0,
-    "embryo": 0.9
+    "align": 1,
+    "embryo": 2.3
    },
    {
     "coin": "ETH",
     "side": "long",
-    "align": 0,
-    "embryo": 0.3
+    "align": 1,
+    "embryo": 2.3
    },
    {
     "coin": "AVAX",
     "side": "long",
     "align": 0,
-    "embryo": 0.9
+    "embryo": 0.3
    },
    {
     "coin": "NEAR",
     "side": "long",
-    "align": 0,
-    "embryo": 0.3
+    "align": 2,
+    "embryo": 3.8
    },
    {
     "coin": "UNI",
     "side": "long",
     "align": 1,
-    "embryo": 4.5
+    "embryo": 3.7
    },
    {
     "coin": "WLD",
     "side": "long",
     "align": 3,
-    "embryo": 3.2
+    "embryo": 2.7
    },
    {
     "coin": "BNB",
     "side": "long",
     "align": 0,
-    "embryo": 0.3
+    "embryo": 2.5
    },
    {
     "coin": "DOT",
     "side": "long",
     "align": 3,
-    "embryo": 3.2
+    "embryo": 2.7
    },
    {
     "coin": "FIL",
     "side": "long",
     "align": 3,
-    "embryo": 4.0
+    "embryo": 2.2
    },
    {
     "coin": "LINK",
-    "side": "long",
-    "align": 0,
-    "embryo": 0.9
+    "side": "short",
+    "align": 2,
+    "embryo": 2.7
    }
   ],
   "口径": "供数器独立复活(ED-20261002-377)·引擎基因(默认)·align=e4/e1/t4l·embryo=|score|+对齐加成"
