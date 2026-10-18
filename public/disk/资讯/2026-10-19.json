@@ -1,6 +1,6 @@
 {
  "日期": "2026-10-19",
- "落盘": "2026-10-19 05:36:30",
+ "落盘": "2026-10-19 05:48:20",
  "条数": 14,
  "live": 60,
  "条目": [
@@ -12,6 +12,11 @@
   {
    "title": "如果您不运行自己的LLM代理，您怎么知道发生了什么？",
    "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
+   "type": "live"
+  },
+  {
+   "title": "混合推理代理：在潜在空间中思考的LLM代理，通过文本采取行动",
+   "url": "https://arxiv.org/abs/2610.18861",
    "type": "live"
   },
   {
@@ -27,11 +32,6 @@
   {
    "title": "LLM01: 2025提示注射",
    "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
-   "type": "live"
-  },
-  {
-   "title": "Neurastheniacc：您不需要的基于LLM的C- > WASM编译器",
-   "url": "https://github.com/vivshaw/neurastheniacc",
    "type": "live"
   },
   {
