@@ -1,34 +1,34 @@
 {
  "日期": "2026-10-18",
- "落盘": "2026-10-18 09:42:27",
+ "落盘": "2026-10-18 09:48:18",
  "内存报表": {
-  "时间": "2026-10-18 09:42:27",
-  "受托进程数": 19,
+  "时间": "2026-10-18 09:48:18",
+  "受托进程数": 17,
   "网关": {
-   "进程号": "31439",
-   "内存MB": 818.2,
+   "进程号": "31592",
+   "内存MB": 402.3,
    "线程": 11,
    "堆上限": "1536"
   },
   "实例数": 1,
   "全机MemTotal": "11469MB",
-  "全机MemAvailable": "6344MB",
+  "全机MemAvailable": "6448MB",
   "全机SwapTotal": "7110MB",
-  "全机SwapFree": "5040MB",
-  "探活": "200"
+  "全机SwapFree": "4662MB",
+  "探活": "000"
  },
  "断线统计": {
-  "今日断线次数": 12,
+  "今日断线次数": 13,
   "今日最长断线秒": 209,
   "近2小时真停摆(≥90秒)": 0,
   "维护窗口": 0
  },
  "日志体量KB": {
-  "gateway_guard.log": 1793.7,
+  "gateway_guard.log": 1795.1,
   "gateway_outage.jsonl": 46.2,
-  "gw_boot.out": 573.8,
+  "gw_boot.out": 578.6,
   "gw_run.out": 71.8,
-  "网关停摆取证.log": 480.7
+  "网关停摆取证.log": 481.1
  },
  "会话索引(不含正文)": [
   {
@@ -153,12 +153,6 @@
   }
  ],
  "停摆取证(近段)": [
-  "  CPU   391.5s bash _网关看护.sh",
-  "── 停摆取证 2026-10-17 18:58:50 (取码 000) ──",
-  "  网关 VmRSS:\t  826428 kB",
-  "  网关 VmSwap:\t       0 kB",
-  "  网关 Threads:\t11",
-  "  Mem:           11469        5766         750          74        4952        5465",
   "  Swap:           7110        3391        3719",
   "  CPU  1554.4s bash _守护总管.sh",
   "  CPU   977.5s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
@@ -312,6 +306,12 @@
   "  Swap:           7110        1948        5162",
   "  CPU   268.5s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
   "  CPU   117.7s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
-  "  CPU   117.1s openclaw-gateway"
+  "  CPU   117.1s openclaw-gateway",
+  "── 停摆取证 2026-10-18 09:43:46 (取码 000) ──",
+  "  Mem:           11469        4019        2317          51        5132        7108",
+  "  Swap:           7110        2095        5015",
+  "  CPU   280.0s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
+  "  CPU   126.5s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
+  "  CPU    78.4s bash _守护总管.sh"
  ]
 }
