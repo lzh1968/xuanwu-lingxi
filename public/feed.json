@@ -1,9 +1,17 @@
 {
- "generated": "00:20",
- "built": "2026-10-19 00:20:41",
- "count": 275,
+ "generated": "00:26",
+ "built": "2026-10-19 00:26:31",
+ "count": 276,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Vertick –使用DominoKit和代理AI构建",
+   "url": "https://dominokit.com/vertick/",
+   "src": "Hacker News",
+   "t": "00:23",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "用确定性模型替换LLM法官：快9.2倍，便宜4.5倍",
@@ -61,18 +69,18 @@
    "fresh": false
   },
   {
-   "type": "live",
-   "title": "VLLM中的超级优化Kimi K3",
-   "url": "https://vllm.ai/blog/2026-10-16-kimi-k3-megakernel",
-   "src": "Hacker News",
-   "t": "21:08",
-   "fresh": false
-  },
-  {
    "type": "article",
    "title": "今日辑要 · 2026-10-19（前沿 12 条）",
    "url": "a/digest-20261019.html",
    "src": "Agent 与智能体",
+   "t": "2026-10-19",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "睡觉时，大脑在忙什么？",
+   "url": "a/note-20261019-10.html",
+   "src": "灵犀手记",
    "t": "2026-10-19",
    "fresh": false
   },
@@ -106,14 +114,6 @@
    "url": "a/note-20261019-9.html",
    "src": "灵犀手记",
    "t": "2026-10-19",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "今日辑要 · 2026-10-18（前沿 12 条）",
-   "url": "a/digest-20261018.html",
-   "src": "AI 全球趋势",
-   "t": "2026-10-18",
    "fresh": false
   }
  ]
