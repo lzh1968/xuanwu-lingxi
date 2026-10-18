@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-19",
- "落盘": "2026-10-19 00:20:46",
+ "落盘": "2026-10-19 00:26:46",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "Vertick –使用DominoKit和代理AI构建",
+   "url": "https://dominokit.com/vertick/",
+   "type": "live"
+  },
   {
    "title": "用确定性模型替换LLM法官：快9.2倍，便宜4.5倍",
    "url": "https://medium.com/@gbenga-awodokun/building-clinical-ai-agents-with-langchain-and-jev-decision-healthcare-trustworthy-ai-lab-v2-1b81e271f1c9",
@@ -40,13 +45,13 @@
    "type": "live"
   },
   {
-   "title": "VLLM中的超级优化Kimi K3",
-   "url": "https://vllm.ai/blog/2026-10-16-kimi-k3-megakernel",
-   "type": "live"
-  },
-  {
    "title": "今日辑要 · 2026-10-19（前沿 12 条）",
    "url": "a/digest-20261019.html",
+   "type": "article"
+  },
+  {
+   "title": "睡觉时，大脑在忙什么？",
+   "url": "a/note-20261019-10.html",
    "type": "article"
   },
   {
@@ -67,11 +72,6 @@
   {
    "title": "沙漠里的星空导航",
    "url": "a/note-20261019-9.html",
-   "type": "article"
-  },
-  {
-   "title": "今日辑要 · 2026-10-18（前沿 12 条）",
-   "url": "a/digest-20261018.html",
    "type": "article"
   }
  ]
