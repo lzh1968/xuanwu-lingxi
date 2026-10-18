@@ -1,34 +1,34 @@
 {
  "日期": "2026-10-19",
- "落盘": "2026-10-19 03:47:01",
+ "落盘": "2026-10-19 04:21:25",
  "内存报表": {
-  "时间": "2026-10-19 03:47:01",
-  "受托进程数": 15,
+  "时间": "2026-10-19 04:21:25",
+  "受托进程数": 17,
   "网关": {
    "进程号": "16357",
-   "内存MB": 496.9,
+   "内存MB": 516.1,
    "线程": 11,
    "堆上限": "1536"
   },
   "实例数": 1,
   "全机MemTotal": "11469MB",
-  "全机MemAvailable": "6448MB",
+  "全机MemAvailable": "6504MB",
   "全机SwapTotal": "7110MB",
-  "全机SwapFree": "4523MB",
+  "全机SwapFree": "4482MB",
   "探活": "200"
  },
  "断线统计": {
-  "今日断线次数": 3,
+  "今日断线次数": 5,
   "今日最长断线秒": 213,
   "近2小时真停摆(≥90秒)": 0,
   "维护窗口": 0
  },
  "日志体量KB": {
-  "gateway_guard.log": 1876.8,
-  "gateway_outage.jsonl": 48.5,
+  "gateway_guard.log": 1877.3,
+  "gateway_outage.jsonl": 48.6,
   "gw_boot.out": 805.0,
   "gw_run.out": 71.8,
-  "网关停摆取证.log": 500.3
+  "网关停摆取证.log": 501.1
  },
  "会话索引(不含正文)": [
   {
@@ -153,24 +153,6 @@
   }
  ],
  "停摆取证(近段)": [
-  "  CPU    45.0s bash _网关看护.sh",
-  "── 停摆取证 2026-10-18 17:06:02 (取码 000) ──",
-  "  网关 VmRSS:\t  567132 kB",
-  "  网关 VmSwap:\t       0 kB",
-  "  网关 Threads:\t11",
-  "  Mem:           11469        4651         581         184        6235        6469",
-  "  Swap:           7110        1759        5351",
-  "  CPU  1724.2s openclaw-gateway",
-  "  CPU    63.3s bash _网关看护.sh",
-  "  CPU    45.0s bash _网关盾_内环.sh",
-  "── 停摆取证 2026-10-18 17:29:40 (取码 000) ──",
-  "  网关 VmRSS:\t  449576 kB",
-  "  网关 VmSwap:\t       0 kB",
-  "  网关 Threads:\t11",
-  "  Mem:           11469        4451         601         184        6415        6677",
-  "  Swap:           7110        1696        5414",
-  "  CPU   127.4s openclaw-gateway",
-  "  CPU    74.5s bash _网关看护.sh",
   "  CPU    62.9s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
   "── 停摆取证 2026-10-18 17:30:30 (取码 000) ──",
   "  网关 VmRSS:\t  390008 kB",
@@ -312,6 +294,24 @@
   "  Swap:           7110        2834        4276",
   "  CPU   288.0s openclaw-gateway",
   "  CPU    47.9s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
-  "  CPU    41.4s python3 _拉_历史1h_扩样_20261019.py"
+  "  CPU    41.4s python3 _拉_历史1h_扩样_20261019.py",
+  "── 停摆取证 2026-10-19 04:05:45 (取码 000) ──",
+  "  网关 VmRSS:\t  514796 kB",
+  "  网关 VmSwap:\t       0 kB",
+  "  网关 Threads:\t11",
+  "  Mem:           11469        4832         463          64        6172        6363",
+  "  Swap:           7110        2535        4575",
+  "  CPU  1250.9s openclaw-gateway",
+  "  CPU   312.9s python3 _推演_一周盈利_20260928.py --step 1 --days 6 --gene .camp/",
+  "  CPU   274.4s python3 _推演_一周盈利_20260928.py --step 1 --days 6 --gene .camp2",
+  "── 停摆取证 2026-10-19 04:15:42 (取码 000) ──",
+  "  网关 VmRSS:\t  526964 kB",
+  "  网关 VmSwap:\t       0 kB",
+  "  网关 Threads:\t11",
+  "  Mem:           11469        4777         543          65        6147        6417",
+  "  Swap:           7110        2564        4546",
+  "  CPU  1315.9s openclaw-gateway",
+  "  CPU   270.3s bash _守护总管.sh",
+  "  CPU   114.9s python3 _推演_一周盈利_20260928.py --step 1 --days 6 --gene .camp/"
  ]
 }
