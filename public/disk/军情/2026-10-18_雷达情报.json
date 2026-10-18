@@ -2,32 +2,32 @@
  "日期": "2026-10-18",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-18 22:56:43",
-  "chosen": "BTC short",
+  "updated": "2026-10-18 23:27:00",
+  "chosen": "FIL short",
   "nodes": [
    {
     "coin": "BTC",
     "side": "short",
     "align": 1,
-    "embryo": 4.5
+    "embryo": 3.7
    },
    {
     "coin": "LTC",
     "side": "short",
-    "align": 1,
-    "embryo": 2.3
+    "align": 2,
+    "embryo": 3.8
    },
    {
     "coin": "ADA",
     "side": "short",
     "align": 3,
-    "embryo": 3.5
+    "embryo": 2.1
    },
    {
     "coin": "DOGE",
     "side": "short",
     "align": 3,
-    "embryo": 2.7
+    "embryo": 2.1
    },
    {
     "coin": "XRP",
@@ -38,32 +38,32 @@
    {
     "coin": "SOL",
     "side": "short",
-    "align": 3,
-    "embryo": 3.5
+    "align": 2,
+    "embryo": 4.4
    },
    {
     "coin": "ARB",
     "side": "short",
     "align": 2,
-    "embryo": 2.2
+    "embryo": 4.9
    },
    {
     "coin": "SUI",
     "side": "short",
     "align": 3,
-    "embryo": 3.5
+    "embryo": 2.1
    },
    {
     "coin": "ETH",
     "side": "short",
     "align": 2,
-    "embryo": 5.5
+    "embryo": 4.4
    },
    {
     "coin": "AVAX",
     "side": "short",
     "align": 3,
-    "embryo": 2.7
+    "embryo": 2.1
    },
    {
     "coin": "NEAR",
@@ -75,37 +75,37 @@
     "coin": "UNI",
     "side": "short",
     "align": 2,
-    "embryo": 5.5
+    "embryo": 5.2
    },
    {
     "coin": "WLD",
     "side": "short",
     "align": 2,
-    "embryo": 5.5
+    "embryo": 4.7
    },
    {
     "coin": "BNB",
     "side": "short",
     "align": 2,
-    "embryo": 5.5
+    "embryo": 4.7
    },
    {
     "coin": "DOT",
     "side": "short",
     "align": 3,
-    "embryo": 3.5
+    "embryo": 3.2
    },
    {
     "coin": "FIL",
     "side": "short",
-    "align": 2,
-    "embryo": 2.8
+    "align": 3,
+    "embryo": 3.5
    },
    {
     "coin": "LINK",
     "side": "short",
     "align": 3,
-    "embryo": 3.5
+    "embryo": 2.7
    }
   ],
   "口径": "供数器独立复活(ED-20261002-377)·引擎基因(默认)·align=e4/e1/t4l·embryo=|score|+对齐加成"
