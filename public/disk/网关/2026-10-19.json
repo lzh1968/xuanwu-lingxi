@@ -1,34 +1,34 @@
 {
  "日期": "2026-10-19",
- "落盘": "2026-10-19 04:21:25",
+ "落盘": "2026-10-19 04:38:33",
  "内存报表": {
-  "时间": "2026-10-19 04:21:25",
-  "受托进程数": 17,
+  "时间": "2026-10-19 04:38:33",
+  "受托进程数": 18,
   "网关": {
    "进程号": "16357",
-   "内存MB": 516.1,
+   "内存MB": 429.9,
    "线程": 11,
    "堆上限": "1536"
   },
   "实例数": 1,
   "全机MemTotal": "11469MB",
-  "全机MemAvailable": "6504MB",
+  "全机MemAvailable": "6861MB",
   "全机SwapTotal": "7110MB",
-  "全机SwapFree": "4482MB",
+  "全机SwapFree": "4106MB",
   "探活": "200"
  },
  "断线统计": {
-  "今日断线次数": 5,
+  "今日断线次数": 6,
   "今日最长断线秒": 213,
   "近2小时真停摆(≥90秒)": 0,
   "维护窗口": 0
  },
  "日志体量KB": {
-  "gateway_guard.log": 1877.3,
+  "gateway_guard.log": 1877.6,
   "gateway_outage.jsonl": 48.6,
   "gw_boot.out": 805.0,
   "gw_run.out": 71.8,
-  "网关停摆取证.log": 501.1
+  "网关停摆取证.log": 501.6
  },
  "会话索引(不含正文)": [
   {
@@ -153,15 +153,6 @@
   }
  ],
  "停摆取证(近段)": [
-  "  CPU    62.9s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
-  "── 停摆取证 2026-10-18 17:30:30 (取码 000) ──",
-  "  网关 VmRSS:\t  390008 kB",
-  "  网关 VmSwap:\t       0 kB",
-  "  网关 Threads:\t11",
-  "  Mem:           11469        4848         273         184        6347        6289",
-  "  Swap:           7110        1616        5494",
-  "  CPU   179.7s openclaw-gateway",
-  "  CPU    74.6s bash _网关看护.sh",
   "  CPU    63.6s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
   "── 停摆取证 2026-10-18 17:36:46 (取码 000) ──",
   "  网关 VmRSS:\t  371624 kB",
@@ -312,6 +303,15 @@
   "  Swap:           7110        2564        4546",
   "  CPU  1315.9s openclaw-gateway",
   "  CPU   270.3s bash _守护总管.sh",
-  "  CPU   114.9s python3 _推演_一周盈利_20260928.py --step 1 --days 6 --gene .camp/"
+  "  CPU   114.9s python3 _推演_一周盈利_20260928.py --step 1 --days 6 --gene .camp/",
+  "── 停摆取证 2026-10-19 04:25:40 (取码 000) ──",
+  "  网关 VmRSS:\t  496972 kB",
+  "  网关 VmSwap:\t       0 kB",
+  "  网关 Threads:\t11",
+  "  Mem:           11469        4650         581          65        6236        6544",
+  "  Swap:           7110        2627        4483",
+  "  CPU  1376.0s openclaw-gateway",
+  "  CPU   325.4s python3 _推演_一周盈利_20260928.py --step 1 --days 6 --gene .camp/",
+  "  CPU   285.5s bash _守护总管.sh"
  ]
 }
