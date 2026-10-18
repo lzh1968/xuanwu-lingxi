@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-18",
- "落盘": "2026-10-18 21:04:28",
+ "落盘": "2026-10-18 21:16:17",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "VLLM中的超级优化Kimi K3",
+   "url": "https://vllm.ai/blog/2026-10-16-kimi-k3-megakernel",
+   "type": "live"
+  },
   {
    "title": "Show HN：独立LLM基准指数跟踪22个前沿模型",
    "url": "https://vibecoderjournal.com/rankings/",
@@ -37,11 +42,6 @@
   {
    "title": "Show HN：对LLM使用对抗性语言编码的能力进行基准测试",
    "url": "https://bench.killswitch-lang.org/",
-   "type": "live"
-  },
-  {
-   "title": "Shadow-debugger – Python和FastAPI的后台LLM错误诊断",
-   "url": "https://github.com/GaspareDev/shadow-debugger",
    "type": "live"
   },
   {
