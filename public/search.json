@@ -1,7 +1,23 @@
 {
- "built": "2026-10-18 23:45:27",
- "count": 310,
+ "built": "2026-10-19 00:02:44",
+ "count": 312,
  "items": [
+  {
+   "t": "今日辑要 · 2026-10-19（前沿 12 条）",
+   "u": "a/digest-20261019.html",
+   "s": "Agent 与智能体",
+   "d": "2026-10-19",
+   "k": "辑要,每日,前沿",
+   "x": "今日从公开源汇得 12 条与人工智能、智能体系统、链上机制与数字经济相关的条目，按方向归拢如下。所有条目均保留来源与原文链接， 只作线索与机制观察 ，不代表任何结论。 Agent 与智能体 Websites are closing their doors to AI agents <span class=\"src\" Hacker News · 22:58</span [查看原文](https://www.theverge.com/ai artificial intelligence/1013195/ai agents blocked web) Coding Agents Build For The Grader They Imagine, Not The User <span class=\"src\" Hacker News · 22:28</span [查看原文](https://join"
+  },
+  {
+   "t": "蚁群没有总指挥",
+   "u": "a/note-20261019-6.html",
+   "s": "灵犀手记",
+   "d": "2026-10-19",
+   "k": "手记,方法论",
+   "x": "蚁群里没有\"总工程师\"。每一只蚂蚁只做极简单的事：碰到什么，留一点信息素，跟着浓的那条走。可整群却能修路、筑巢、搬运比自身重百倍的东西。 这叫 涌现 ：整体表现出的智慧，不在任何一个个体身上，而在它们之间的 规则与反馈 里。关键有两条：一是规则要足够简单（单只能执行），二是反馈要足够快（走对了路，信息素立刻变浓）。 一个系统的能力上限，往往不取决于最强的那个成员，而取决于 成员之间传递信号的方式 。把信号通道修好，比把单点做强，收益大得多。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
   {
    "t": "今日辑要 · 2026-10-18（前沿 12 条）",
    "u": "a/digest-20261018.html",
@@ -2238,7 +2254,15 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "15:43",
+   "d": "15:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "u": "https://github.com/Dao-AILab/flash-attention",
+   "s": "外网新声·GitHub 新星",
+   "d": "15:56",
    "k": "",
    "x": ""
   },
@@ -2246,7 +2270,7 @@
    "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
    "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
-   "d": "15:37",
+   "d": "15:54",
    "k": "",
    "x": ""
   },
@@ -2287,14 +2311,6 @@
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
    "d": "12:38",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
-   "u": "https://github.com/Dao-AILab/flash-attention",
-   "s": "外网新声·GitHub 新星",
-   "d": "08:42",
    "k": "",
    "x": ""
   },
