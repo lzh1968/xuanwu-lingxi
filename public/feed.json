@@ -1,6 +1,6 @@
 {
- "generated": "05:30",
- "built": "2026-10-19 05:30:33",
+ "generated": "05:42",
+ "built": "2026-10-19 05:42:24",
  "count": 289,
  "live_count": 60,
  "items": [
@@ -18,6 +18,14 @@
    "url": "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/",
    "src": "Hacker News",
    "t": "05:09",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "混合推理代理：在潜在空间中思考的LLM代理，通过文本采取行动",
+   "url": "https://arxiv.org/abs/2610.18861",
+   "src": "Hacker News",
+   "t": "04:48",
    "fresh": true
   },
   {
@@ -42,14 +50,6 @@
    "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
    "src": "Hacker News",
    "t": "03:27",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Neurastheniacc：您不需要的基于LLM的C- > WASM编译器",
-   "url": "https://github.com/vivshaw/neurastheniacc",
-   "src": "Hacker News",
-   "t": "03:20",
    "fresh": false
   },
   {
