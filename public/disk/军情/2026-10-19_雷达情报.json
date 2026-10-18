@@ -2,110 +2,110 @@
  "日期": "2026-10-19",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-18 23:57:00",
-  "chosen": "LTC short",
+  "updated": "2026-10-19 00:27:04",
+  "chosen": "BTC short",
   "nodes": [
    {
     "coin": "BTC",
     "side": "short",
-    "align": 1,
-    "embryo": 3.7
+    "align": 2,
+    "embryo": 4.7
    },
    {
     "coin": "LTC",
     "side": "short",
     "align": 3,
-    "embryo": 3.5
+    "embryo": 2.4
    },
    {
     "coin": "ADA",
     "side": "short",
     "align": 3,
-    "embryo": 2.2
+    "embryo": 2.1
    },
    {
     "coin": "DOGE",
     "side": "short",
     "align": 3,
-    "embryo": 2.7
+    "embryo": 2.1
    },
    {
     "coin": "XRP",
     "side": "short",
     "align": 3,
-    "embryo": 2.7
+    "embryo": 2.4
    },
    {
     "coin": "SOL",
-    "side": "short",
-    "align": 2,
-    "embryo": 4.7
-   },
-   {
-    "coin": "ARB",
-    "side": "short",
-    "align": 2,
-    "embryo": 2.2
-   },
-   {
-    "coin": "SUI",
-    "side": "short",
-    "align": 3,
-    "embryo": 2.2
-   },
-   {
-    "coin": "ETH",
-    "side": "short",
-    "align": 2,
-    "embryo": 4.4
-   },
-   {
-    "coin": "AVAX",
-    "side": "short",
-    "align": 3,
-    "embryo": 2.7
-   },
-   {
-    "coin": "NEAR",
-    "side": "short",
-    "align": 2,
-    "embryo": 4.1
-   },
-   {
-    "coin": "UNI",
-    "side": "short",
-    "align": 2,
-    "embryo": 4.2
-   },
-   {
-    "coin": "WLD",
-    "side": "short",
-    "align": 2,
-    "embryo": 4.2
-   },
-   {
-    "coin": "BNB",
-    "side": "short",
-    "align": 2,
-    "embryo": 4.7
-   },
-   {
-    "coin": "DOT",
-    "side": "short",
-    "align": 3,
-    "embryo": 2.7
-   },
-   {
-    "coin": "FIL",
     "side": "short",
     "align": 3,
     "embryo": 2.4
    },
    {
-    "coin": "LINK",
+    "coin": "ARB",
+    "side": "long",
+    "align": 0,
+    "embryo": 0.3
+   },
+   {
+    "coin": "SUI",
+    "side": "short",
+    "align": 3,
+    "embryo": 2.1
+   },
+   {
+    "coin": "ETH",
     "side": "short",
     "align": 3,
     "embryo": 2.7
+   },
+   {
+    "coin": "AVAX",
+    "side": "short",
+    "align": 3,
+    "embryo": 2.1
+   },
+   {
+    "coin": "NEAR",
+    "side": "short",
+    "align": 3,
+    "embryo": 1.9
+   },
+   {
+    "coin": "UNI",
+    "side": "short",
+    "align": 3,
+    "embryo": 2.1
+   },
+   {
+    "coin": "WLD",
+    "side": "short",
+    "align": 3,
+    "embryo": 1.6
+   },
+   {
+    "coin": "BNB",
+    "side": "short",
+    "align": 3,
+    "embryo": 2.7
+   },
+   {
+    "coin": "DOT",
+    "side": "short",
+    "align": 3,
+    "embryo": 2.1
+   },
+   {
+    "coin": "FIL",
+    "side": "short",
+    "align": 3,
+    "embryo": 2.1
+   },
+   {
+    "coin": "LINK",
+    "side": "short",
+    "align": 3,
+    "embryo": 2.1
    }
   ],
   "口径": "供数器独立复活(ED-20261002-377)·引擎基因(默认)·align=e4/e1/t4l·embryo=|score|+对齐加成"
