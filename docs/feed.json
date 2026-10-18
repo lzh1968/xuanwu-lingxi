@@ -1,9 +1,17 @@
 {
- "generated": "20:41",
- "built": "2026-10-18 20:41:25",
+ "generated": "21:10",
+ "built": "2026-10-18 21:10:11",
  "count": 270,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "VLLM中的超级优化Kimi K3",
+   "url": "https://vllm.ai/blog/2026-10-16-kimi-k3-megakernel",
+   "src": "Hacker News",
+   "t": "21:08",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Show HN：独立LLM基准指数跟踪22个前沿模型",
@@ -34,7 +42,7 @@
    "url": "https://agentgateway.dev/",
    "src": "Hacker News",
    "t": "19:20",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,6 @@
    "url": "https://bench.killswitch-lang.org/",
    "src": "Hacker News",
    "t": "17:53",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Shadow-debugger – Python和FastAPI的后台LLM错误诊断",
-   "url": "https://github.com/GaspareDev/shadow-debugger",
-   "src": "Hacker News",
-   "t": "17:42",
    "fresh": false
   },
   {
