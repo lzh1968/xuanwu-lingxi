@@ -1,5 +1,5 @@
 {
- "built": "2026-10-19 11:37:09",
+ "built": "2026-10-19 12:00:39",
  "count": 329,
  "items": [
   {
@@ -2398,7 +2398,15 @@
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "03:35",
+   "d": "03:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
+   "u": "https://github.com/morluto/rea",
+   "s": "外网新声·GitHub 新星",
+   "d": "03:57",
    "k": "",
    "x": ""
   },
@@ -2406,7 +2414,7 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "03:25",
+   "d": "03:53",
    "k": "",
    "x": ""
   },
@@ -2414,21 +2422,13 @@
    "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
    "u": "https://github.com/Dao-AILab/flash-attention",
    "s": "外网新声·GitHub 新星",
-   "d": "03:21",
+   "d": "03:37",
    "k": "",
    "x": ""
   },
   {
    "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
    "u": "https://github.com/IBAX-io/go-ibax",
-   "s": "外网新声·GitHub 新星",
-   "d": "03:13",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
-   "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
    "d": "03:13",
    "k": "",
@@ -2491,10 +2491,26 @@
    "x": ""
   },
   {
+   "t": "Rethinking the design space of Vanilla Pixel Diffusion Transformers",
+   "u": "https://arxiv.org/abs/2610.23854v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "行为耦合：从语言模型的形成到行为出现",
    "u": "https://arxiv.org/abs/2610.23847v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:58",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "AI-Driven Reproducibility and Analytical Robustness in Scientific Discovery",
+   "u": "https://arxiv.org/abs/2610.23845v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:57",
    "k": "",
    "x": ""
   },
@@ -2511,6 +2527,14 @@
    "u": "https://arxiv.org/abs/2610.23827v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:49",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Self-Building Labs",
+   "u": "https://arxiv.org/abs/2610.23826v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:48",
    "k": "",
    "x": ""
   },
@@ -2547,6 +2571,22 @@
    "x": ""
   },
   {
+   "t": "FuTransformer: FP8 prefill and INT4 decode for Llama-style inference on Hopper",
+   "u": "https://arxiv.org/abs/2610.23796v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:22",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "DrugHarness: An Evolvable Agent Harness for Computational Drug Discovery",
+   "u": "https://arxiv.org/abs/2610.23791v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:20",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Sampling the XY model with an attention-based neural network",
    "u": "https://arxiv.org/abs/2610.23783v1",
    "s": "外网新声·arXiv cs.LG",
@@ -2579,58 +2619,18 @@
    "x": ""
   },
   {
-   "t": "语言模型学习如何改进语言模型",
-   "u": "https://arxiv.org/abs/2610.23344v1",
+   "t": "Beyond Large Language Models: A Mental World Model Framework for Mental Modeling, Simulation, Evolution, and Interpretability",
+   "u": "https://arxiv.org/abs/2610.23722v1",
    "s": "外网新声·arXiv cs.AI",
-   "d": "11:51",
+   "d": "16:42",
    "k": "",
    "x": ""
   },
   {
-   "t": "在接口漂移下调用LLM智能体的强大功能",
-   "u": "https://arxiv.org/abs/2610.23342v1",
+   "t": "Neural Expansion: A Unified Mechanism for How Deep Neural Networks Generalize",
+   "u": "https://arxiv.org/abs/2610.23716v1",
    "s": "外网新声·arXiv cs.AI",
-   "d": "11:49",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "AgentOnto：本体引导的企业数据分析LLM代理",
-   "u": "https://arxiv.org/abs/2610.23317v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "11:22",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "从记忆命中到可回答的证据：长期座席记忆的查询条件记忆编译",
-   "u": "https://arxiv.org/abs/2610.23313v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "11:15",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "自反式思维链（ SRCoT ）：通过闭环检索基于证据的文本生成--反射--边缘LLM上的修订管道",
-   "u": "https://arxiv.org/abs/2610.23311v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "11:14",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "MobileInject：评估基于MLLM的移动代理在跨模式一致性注入下的推理到行动安全性",
-   "u": "https://arxiv.org/abs/2610.23307v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "11:10",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "设计不完美的提示：使用知识图表对基于LLM的企业数据助理进行基于模拟的评估",
-   "u": "https://arxiv.org/abs/2610.23304v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "11:07",
+   "d": "16:38",
    "k": "",
    "x": ""
   }
