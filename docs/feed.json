@@ -1,9 +1,25 @@
 {
- "generated": "20:50",
- "built": "2026-10-19 20:50:04",
+ "generated": "20:56",
+ "built": "2026-10-19 20:56:49",
  "count": 289,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "ATLAS：评估搜索密集型任务的代理",
+   "url": "https://exa.ai/blog/atlas-benchmark",
+   "src": "Hacker News",
+   "t": "20:55",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "OneMemory – self-hosted shared memory for all your AI agents (Docker one-liner)",
+   "url": "https://github.com/calasdan-sketch/onememory",
+   "src": "Hacker News",
+   "t": "20:51",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Show HN: Making agent-to-agent interactions observable, in a fun way",
@@ -50,22 +66,6 @@
    "url": "https://github.com/RayenMlayeh/gsearch",
    "src": "Hacker News",
    "t": "18:17",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "vLLM Agentic API",
-   "url": "https://vllm-project.github.io/agentic-api/",
-   "src": "Hacker News",
-   "t": "18:11",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "CacheVerifier, check if verifying LLM cache hits helps your traffic",
-   "url": "https://github.com/imxinchengyou/cacheverifier-python",
-   "src": "Hacker News",
-   "t": "16:37",
    "fresh": false
   },
   {
