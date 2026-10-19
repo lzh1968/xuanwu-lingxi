@@ -1,5 +1,5 @@
 {
- "built": "2026-10-19 10:15:54",
+ "built": "2026-10-19 10:28:21",
  "count": 329,
  "items": [
   {
@@ -2403,18 +2403,10 @@
    "x": ""
   },
   {
-   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
-   "u": "https://github.com/morluto/rea",
-   "s": "外网新声·GitHub 新星",
-   "d": "02:12",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "02:10",
+   "d": "02:26",
    "k": "",
    "x": ""
   },
@@ -2422,7 +2414,15 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "02:03",
+   "d": "02:24",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
+   "u": "https://github.com/morluto/rea",
+   "s": "外网新声·GitHub 新星",
+   "d": "02:12",
    "k": "",
    "x": ""
   },
@@ -2483,6 +2483,94 @@
    "x": ""
   },
   {
+   "t": "行为耦合：从语言模型的形成到行为出现",
+   "u": "https://arxiv.org/abs/2610.23847v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:58",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "超越答案：推理蒸馏的学生条件跟踪构建",
+   "u": "https://arxiv.org/abs/2610.23831v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:52",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "量子网络中的传输质量估计：计算、模拟还是学习？",
+   "u": "https://arxiv.org/abs/2610.23827v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:49",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "无需重新学习物理对称的学习：球面上的SO （ 3 ）等变卷积网络（ CNN ）",
+   "u": "https://arxiv.org/abs/2610.23821v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:45",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "CocoRNA：协作多智能体强化学习的集体RNA设计",
+   "u": "https://arxiv.org/abs/2610.23820v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:43",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "从延迟的单向反馈中学习个性化记忆门控",
+   "u": "https://arxiv.org/abs/2610.23812v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:34",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Rényi差分隐私任务感知Kernel Stein证书",
+   "u": "https://arxiv.org/abs/2610.23798v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:24",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Sampling the XY model with an attention-based neural network",
+   "u": "https://arxiv.org/abs/2610.23783v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:16",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Mesoscopic learning dynamics of extensive-width neural networks",
+   "u": "https://arxiv.org/abs/2610.23779v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:12",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Logic-Guided Graph Denoising Diffusion Models",
+   "u": "https://arxiv.org/abs/2610.23766v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:06",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Escaping Parameter Space: Tight Generalization Bounds via Representation Quality",
+   "u": "https://arxiv.org/abs/2610.23729v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:43",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "语言模型学习如何改进语言模型",
    "u": "https://arxiv.org/abs/2610.23344v1",
    "s": "外网新声·arXiv cs.AI",
@@ -2495,14 +2583,6 @@
    "u": "https://arxiv.org/abs/2610.23342v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "11:49",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "您可以信赖的峰值内存时间表：精确实现、经认证的最佳性以及推理的重新计算极限",
-   "u": "https://arxiv.org/abs/2610.23328v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "11:31",
    "k": "",
    "x": ""
   },
@@ -2547,90 +2627,10 @@
    "x": ""
   },
   {
-   "t": "查找、推理、绘制区域：空间上下文预测的递归细化",
-   "u": "https://arxiv.org/abs/2610.23302v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "11:06",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "乐观主义者深入研究：自主文献研究的迭代、以状态为中心的代理",
    "u": "https://arxiv.org/abs/2610.23299v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "11:04",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "弹性轴如何折叠跨音速颤振边界：冲击能量传递和适形校准的主动学习",
-   "u": "https://arxiv.org/abs/2610.23298v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "11:04",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "通过即插即用网络的神经控制提高分布式性能",
-   "u": "https://arxiv.org/abs/2610.23292v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "10:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "CoTA + +：从信息流的角度理解dMLLM中的重复诅咒",
-   "u": "https://arxiv.org/abs/2610.23290v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "10:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "通过扩散模型进行数据高效分类器预训练",
-   "u": "https://arxiv.org/abs/2610.23289v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "10:57",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Annotrace：客服代表跟踪的步骤级注释工作台",
-   "u": "https://arxiv.org/abs/2610.23284v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "10:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NestedVLA：学习巩固和生成视觉-语言-动作模型的技能",
-   "u": "https://arxiv.org/abs/2610.23271v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "10:42",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "超越边际影响：LLM客服代表的交互感知记忆选择",
-   "u": "https://arxiv.org/abs/2610.23266v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "10:37",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ADT：用于3D分子结构的全原子扩散标记器",
-   "u": "https://arxiv.org/abs/2610.23265v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "10:36",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "推理模型可以控制他们的思维链，当他们告诉自己",
-   "u": "https://arxiv.org/abs/2610.23257v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "10:31",
    "k": "",
    "x": ""
   }
