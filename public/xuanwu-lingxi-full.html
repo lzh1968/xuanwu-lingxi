@@ -30,6 +30,18 @@
   .lx-flow b{color:var(--gold)}
   .lx-src{color:var(--sub);font:400 14px/1.9 var(--sans)}
   .lx-src b{color:var(--gold)}
+  .lx-q{margin:16px 0 2px}
+  .lx-q input{width:100%;box-sizing:border-box;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;color:var(--ink);font:400 14.5px/1.4 var(--sans)}
+  .lx-q input:focus{outline:none;border-color:var(--gold)}
+  .lx-res a{display:block;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:9px 12px;margin:6px 0;color:var(--gold);text-decoration:none;font:500 13.5px/1.5 var(--sans)}
+  .lx-res a span{display:block;color:var(--sub);font-weight:400;font-size:12.5px;margin-top:2px}
+  .lx-card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin:10px 0}
+  .lx-card h3{margin:0 0 6px;font-size:16.5px;color:var(--gold)}
+  .lx-card p{margin:3px 0;color:var(--sub);font:400 13.5px/1.75 var(--sans)}
+  .lx-card p b{color:var(--ink);font-weight:600}
+  .lx-svg{background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:8px;margin:14px 0;overflow-x:auto}
+  .lx-svg svg{display:block;width:100%;height:auto;min-width:660px}
+  .lx-tag{display:inline-block;background:var(--tag);border:1px solid var(--line);border-radius:999px;padding:3px 10px;margin:6px 6px 0 0;color:var(--gold);font:500 12px/1.4 var(--sans)}
   .lx-foot{color:var(--sub);font:400 12.5px/1.8 var(--sans);border-top:1px solid var(--line);margin-top:44px;padding-top:16px;text-align:center}
   .lx-foot a{color:var(--gold);text-decoration:none}
 </style>
@@ -103,12 +115,131 @@
     </p>
   </section>
 
+  <section class="lx-sec" id="bionic">
+    <h2>五 · 仿生理论 · 人脑映射</h2>
+    <div class="lx-rule"></div>
+    <p class="lx-src" data-kw="人脑 仿生 身眼脑一体化 人脑仿生映射 HumanBrain_Bionic_Mapping">
+      <b>火印 ED-202610-864</b> ｜ 模块 <b>HumanBrain_Bionic_Mapping</b>（人脑仿生映射）｜ 归属「烛龙 · 身眼脑一体化总框架」。<br>
+      以人脑左右脑与小脑之生理职能，类比玄武灵犀系统架构，补全仿生理论，存于知识库，作看板展示、文档检索、AI 内部认知对齐之用。<b>只作理论类比，不入交易链路。</b>
+    </p>
+
+    <div class="lx-svg" data-kw="仿生架构图 人脑 系统映射 架构图">
+      <svg viewBox="0 0 760 470" role="img" aria-label="人脑—系统仿生映射架构图">
+        <defs>
+          <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <path d="M0,0 L10,5 L0,10 z" fill="var(--gold)"/>
+          </marker>
+        </defs>
+
+        <rect x="18" y="18" width="332" height="158" rx="14" fill="var(--card)" stroke="var(--gold)" stroke-width="1.2"/>
+        <text x="38" y="48" fill="var(--gold)" font-size="17" font-weight="700">左脑 ｜ 逻辑推演单元</text>
+        <text x="38" y="74" fill="var(--sub)" font-size="12.5">语言 · 逻辑推理 · 数学运算 · 任务拆解 · 线性因果 · 细节校验</text>
+        <line x1="38" y1="90" x2="330" y2="90" stroke="var(--line)"/>
+        <text x="38" y="116" fill="var(--ink)" font-size="13.5">系统对应：烛龙王者大脑 · 逻辑推演子模块</text>
+        <text x="38" y="140" fill="var(--sub)" font-size="12.5">职责：行情统计 · 规则运算 · 条件判断 · 拆解 · 成本测算 · 单因子演算</text>
+        <text x="38" y="162" fill="var(--sub)" font-size="12.5">特征：串行分步计算</text>
+
+        <rect x="410" y="18" width="332" height="158" rx="14" fill="var(--card)" stroke="var(--gold)" stroke-width="1.2"/>
+        <text x="430" y="48" fill="var(--gold)" font-size="17" font-weight="700">右脑 ｜ 全局态势感知单元</text>
+        <text x="430" y="74" fill="var(--sub)" font-size="12.5">全局洞察 · 图像模式识别 · 空间感知 · 势态直觉 · 整体盛衰判断</text>
+        <line x1="430" y1="90" x2="722" y2="90" stroke="var(--line)"/>
+        <text x="430" y="116" fill="var(--ink)" font-size="13.5">系统对应：辨伪天眼模块</text>
+        <text x="430" y="140" fill="var(--sub)" font-size="12.5">职责：态势捕捉 · 相位识别 · 盛衰判定 · 真伪信号勘破 · 全局态识别</text>
+        <text x="430" y="162" fill="var(--sub)" font-size="12.5">特征：并行感知全貌</text>
+
+        <line x1="354" y1="70" x2="406" y2="70" stroke="var(--gold)" stroke-width="1.6" marker-start="url(#ah)" marker-end="url(#ah)"/>
+        <line x1="354" y1="126" x2="406" y2="126" stroke="var(--gold)" stroke-width="1.2" stroke-dasharray="4 4" marker-start="url(#ah)" marker-end="url(#ah)"/>
+        <text x="380" y="203" fill="var(--gold)" font-size="13" text-anchor="middle">胼胝体 ＝ 烛龙内部通信总线</text>
+        <text x="380" y="222" fill="var(--sub)" font-size="12" text-anchor="middle">双向交叉校验 · 防单向误判</text>
+
+        <path d="M184,176 L300,248" stroke="var(--gold)" stroke-width="1.2" stroke-dasharray="5 5" fill="none" marker-end="url(#ah)"/>
+        <path d="M576,176 L460,248" stroke="var(--gold)" stroke-width="1.2" stroke-dasharray="5 5" fill="none" marker-end="url(#ah)"/>
+        <path d="M300,248 L184,176" stroke="var(--gold)" stroke-width="1" fill="none" opacity=".55" marker-end="url(#ah)"/>
+        <path d="M460,248 L576,176" stroke="var(--gold)" stroke-width="1" fill="none" opacity=".55" marker-end="url(#ah)"/>
+        <text x="380" y="243" fill="var(--sub)" font-size="11.5" text-anchor="middle">下沉执行 · 上回校准</text>
+
+        <rect x="214" y="266" width="332" height="150" rx="14" fill="var(--card)" stroke="var(--gold)" stroke-width="1.2"/>
+        <text x="234" y="296" fill="var(--gold)" font-size="17" font-weight="700">小脑 ｜ 时序动态校准单元</text>
+        <text x="234" y="322" fill="var(--sub)" font-size="12.5">动作协调 · 平衡稳定 · 节奏校准 · 误差实时微调 · 习惯反馈纠偏</text>
+        <line x1="234" y1="338" x2="526" y2="338" stroke="var(--line)"/>
+        <text x="234" y="364" fill="var(--ink)" font-size="13.5">系统对应：甲盾网关 ＋ 底层运维校准模块</text>
+        <text x="234" y="388" fill="var(--sub)" font-size="12.5">职责：时序同步 · 参数微修正 · 偏移纠偏 · 网关探活 · 进程维稳</text>
+        <text x="234" y="408" fill="var(--sub)" font-size="12.5">特征：底层持续校正</text>
+
+        <text x="380" y="448" fill="var(--gold)" font-size="13.5" text-anchor="middle">三位一体：感知 → 推理 → 校准 → 闭环共生（身眼脑一体化）</text>
+      </svg>
+    </div>
+
+    <div class="lx-q">
+      <input id="lxq" type="search" placeholder="检索本条：人脑 ／ 左脑 ／ 右脑 ／ 小脑 ／ 仿生 ／ 身眼脑一体化" aria-label="仿生理论检索">
+      <div class="lx-res" id="lxres"></div>
+    </div>
+
+    <div class="lx-card" data-kw="左脑 逻辑推演单元 烛龙王者大脑 逻辑推演子模块">
+      <h3>左脑 ｜ 逻辑推演单元</h3>
+      <p><b>人脑职能</b>：语言、逻辑推理、数学运算、任务拆解、线性因果、细节校验、符号判定，串行分步计算。</p>
+      <p><b>系统对应</b>：烛龙王者大脑 · 逻辑推演子模块。</p>
+      <p><b>职责</b>：行情数据统计、规则运算、条件判断、任务拆解、成本测算、单因子演算。</p>
+    </div>
+
+    <div class="lx-card" data-kw="右脑 全局态势感知单元 辨伪天眼">
+      <h3>右脑 ｜ 全局态势感知单元</h3>
+      <p><b>人脑职能</b>：全局洞察、图像模式识别、空间感知、势态直觉、整体盛衰判断，并行感知全貌。</p>
+      <p><b>系统对应</b>：辨伪天眼模块。</p>
+      <p><b>职责</b>：行情态势捕捉、相位识别、盛衰判定、真伪信号勘破、市场全局态识别。</p>
+    </div>
+
+    <div class="lx-card" data-kw="小脑 时序动态校准单元 甲盾网关 底层运维校准">
+      <h3>小脑 ｜ 时序动态校准单元</h3>
+      <p><b>人脑职能</b>：动作协调、平衡稳定、时序节奏校准、误差实时微调、习惯反馈纠偏，底层持续校正。</p>
+      <p><b>系统对应</b>：甲盾网关 ＋ 底层运维校准模块。</p>
+      <p><b>职责</b>：系统时序同步、参数微修正、运行偏移纠偏、网关探活、进程维稳、底层执行平滑控制。</p>
+    </div>
+
+    <div class="lx-card" data-kw="胼胝体 交联 内部通信总线 双向校验">
+      <h3>交联 ｜ 胼胝体 ⇄ 内部通信总线</h3>
+      <p><b>人脑</b>：胼胝体，高速互联左右脑，双向校验，联合完成高级决策。</p>
+      <p><b>系统</b>：烛龙内部通信总线，连通【逻辑推演单元】与【辨伪天眼单元】，双向交叉校验，避免单向误判。</p>
+    </div>
+
+    <div class="lx-ming" data-kw="仿生总律 身眼脑一体化 三位一体">
+      <em>大脑左司逻辑推演，右司全局势感，二者交联完成综合研判；</em>
+      <em>小脑专责时序协调与动态纠偏。</em>
+      <em>三位一体，感知、推理、校准闭环共生，即人脑版本的「身眼脑一体化」。</em>
+    </div>
+
+    <p class="lx-src">
+      <span class="lx-tag">人脑</span><span class="lx-tag">左脑</span><span class="lx-tag">右脑</span><span class="lx-tag">小脑</span><span class="lx-tag">胼胝体</span><span class="lx-tag">仿生</span><span class="lx-tag">身眼脑一体化</span><span class="lx-tag">认知对齐</span><br>
+      <b>风险注记</b>：本模块为理论类比，仅用于系统世界观与理论完整性构建，<b>不参与实盘交易计算、信号生成、下单决策</b>，不绑定任何交易参数。
+    </p>
+  </section>
+
   <div class="lx-foot">
-    玄武灵犀 · 商道三典七戒（精炼加持版）<br>
+    玄武灵犀 · 商道三典七戒（精炼加持版）· 附仿生理论<br>
     火印 ED-20261010-861 · 总纲 ED-20261010-863 · 承 ED-20261009-764《商道三典》<br>
+    仿生理论火印 ED-202610-864 · 人脑仿生映射（HumanBrain_Bionic_Mapping）<br>
     <a href="./">← 返回玄武灵犀主页</a>
   </div>
 
 </div>
+<script>
+(function(){
+  var q = document.getElementById('lxq'), res = document.getElementById('lxres');
+  if(!q) return;
+  var idx = [].slice.call(document.querySelectorAll('.lx-sec [data-kw]')).map(function(el, i){
+    var host = el.closest('.lx-card') || el.closest('.lx-sec');
+    var title = (el.querySelector('h3') || host && host.querySelector('h2') || el).textContent.trim().replace(/\s+/g,' ').slice(0, 34);
+    if(!el.id) el.id = 'kw' + i;
+    return {id: el.id, kw: (el.getAttribute('data-kw') || '') + ' ' + title, t: title};
+  });
+  function run(){
+    var v = q.value.trim();
+    if(!v){ res.innerHTML = ''; return; }
+    var hit = idx.filter(function(o){ return o.kw.toLowerCase().indexOf(v.toLowerCase()) > -1; });
+    res.innerHTML = hit.length ? hit.map(function(o){ return '<a href="#' + o.id + '">' + o.t + '<span>关键词命中 · 点击直达</span></a>'; }).join('') : '<a href="#bionic">未命中此词 · 见本条全部仿生理论<span>可试：人脑 / 左脑 / 右脑 / 小脑 / 胼胝体 / 仿生 / 身眼脑一体化</span></a>';
+  }
+  q.addEventListener('input', run);
+})();
+</script>
 </body>
 </html>
