@@ -2,90 +2,108 @@
  "日期": "2026-10-19",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-19 21:50:57",
-  "chosen": "ETH short",
+  "updated": "2026-10-19 22:21:18",
+  "chosen": "DOGE short",
   "nodes": [
    {
     "coin": "BTC",
     "side": "short",
     "align": 2,
-    "embryo": 3.5
+    "embryo": 2.7
    },
    {
     "coin": "LTC",
     "side": "long",
     "align": 2,
-    "embryo": 4.1
+    "embryo": 2.4
    },
    {
     "coin": "ADA",
     "side": "short",
-    "align": 2,
+    "align": 3,
     "embryo": 2.7
    },
    {
     "coin": "DOGE",
-    "side": "long",
+    "side": "short",
     "align": 1,
-    "embryo": 1.4
+    "embryo": 5.1
    },
    {
     "coin": "XRP",
-    "side": "long",
-    "align": 1,
-    "embryo": 1.2
+    "side": "short",
+    "align": 2,
+    "embryo": 4.3
    },
    {
     "coin": "SOL",
-    "side": "long",
-    "align": 1,
-    "embryo": 1.2
+    "side": "short",
+    "align": 2,
+    "embryo": 3.7
    },
    {
     "coin": "ARB",
     "side": "long",
     "align": 2,
-    "embryo": 2.1
+    "embryo": 2.4
    },
    {
     "coin": "SUI",
-    "side": "long",
-    "align": 1,
-    "embryo": 1.2
+    "side": "short",
+    "align": 2,
+    "embryo": 3.7
    },
    {
     "coin": "ETH",
     "side": "short",
     "align": 2,
-    "embryo": 5.5
+    "embryo": 4.7
    },
    {
     "coin": "AVAX",
-    "side": "long",
-    "align": 0,
-    "embryo": -0.6
+    "side": "short",
+    "align": 3,
+    "embryo": 2.7
    },
    {
     "coin": "NEAR",
     "side": "short",
     "align": 2,
-    "embryo": 2.6
+    "embryo": 4.7
    },
    {
     "coin": "UNI",
-    "side": "long",
-    "align": 1,
-    "embryo": 1.4
+    "side": "short",
+    "align": 2,
+    "embryo": 3.5
    },
    {
     "coin": "WLD",
     "side": "long",
     "align": 2,
-    "embryo": 5.2
+    "embryo": 4.1
    },
    {
     "coin": "BNB",
     "side": "long",
+    "align": 2,
+    "embryo": 2.7
+   },
+   {
+    "coin": "DOT",
+    "side": "long",
+    "align": 2,
+    "embryo": 5.2
+   },
+   {
+    "coin": "FIL",
+    "side": "short",
+    "align": 3,
+    "embryo": 3.5
+   },
+   {
+    "coin": "LINK",
+    "side": "short",
     "align": 2,
     "embryo": 4.7
    }
