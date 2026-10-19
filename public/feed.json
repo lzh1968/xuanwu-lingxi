@@ -1,72 +1,72 @@
 {
- "generated": "00:08",
- "built": "2026-10-20 00:08:16",
- "count": 291,
- "live_count": 60,
+ "generated": "00:15",
+ "built": "2026-10-20 00:15:35",
+ "count": 292,
+ "live_count": 13,
  "items": [
   {
    "type": "live",
-   "title": "启动HN：Laminar （ YC S24 ） –我们训练了一个模型来捕捉无声座席故障",
-   "url": "https://news.ycombinator.com/item?id=50154029",
-   "src": "Hacker News",
+   "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+   "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+   "src": "MIT 科技评论",
+   "t": "09:08",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "Itaú如何为整个客户群构建生成式人工智能",
+   "url": "https://openai.com/index/itau-generative-ai",
+   "src": "OpenAI 官方",
+   "t": "19:00",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "Stack Overflow for Agents使用ChatGPT插件将注册增加三倍",
+   "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+   "src": "OpenAI 官方",
    "t": "00:00",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
-   "title": "双极图像，您看到一个图像，而LLM看到另一个图像",
-   "url": "https://bpimage.vercel.app",
-   "src": "Hacker News",
-   "t": "23:32",
-   "fresh": true
+   "title": "AMP使AI 智能体能够使用OpenAI模型进行超越代码的工作",
+   "url": "https://openai.com/index/amp-beyond-coding",
+   "src": "OpenAI 官方",
+   "t": "12:00",
+   "fresh": false
   },
   {
    "type": "live",
-   "title": "人工智能能从记忆中汲取旧金山吗？六个LLM，对OpenStreetMap得分",
-   "url": "https://github.com/voygr-tech/sf-from-memory",
-   "src": "Hacker News",
-   "t": "23:24",
-   "fresh": true
+   "title": "Third Moment Research如何在超过36小时的时间内运行10,000名客服代表",
+   "url": "https://openai.com/index/third-moment-research",
+   "src": "OpenAI 官方",
+   "t": "07:00",
+   "fresh": false
   },
   {
    "type": "live",
-   "title": "MIT许可的多代理系统Rust框架：A2A 1.0，MCP 2026-07-28",
-   "url": "https://github.com/EmilLindfors/a2a-rs",
-   "src": "Hacker News",
-   "t": "23:23",
-   "fresh": true
+   "title": "欧盟在人工智能领域的下一篇章是代理",
+   "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+   "src": "OpenAI 官方",
+   "t": "00:00",
+   "fresh": false
   },
   {
    "type": "live",
-   "title": "Show HN：LexFrame -在阅读LLM时打破Anthropic的J透镜的天花板",
-   "url": "https://pypi.org/project/lexframe/",
-   "src": "Hacker News",
-   "t": "23:05",
-   "fresh": true
+   "title": "Asana使用GPT-6.1 Sol将浏览器测试中的模型成本降低了76倍",
+   "url": "https://openai.com/index/asana-browser-agent",
+   "src": "OpenAI 官方",
+   "t": "07:00",
+   "fresh": false
   },
   {
    "type": "live",
-   "title": "本地运行LLM –哪个开放模型适合您的GPU或Mac，以及速度",
-   "url": "https://www.runllmlocally.com/en",
-   "src": "Hacker News",
-   "t": "22:57",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Python是LLM最喜欢的语言吗？",
-   "url": "https://www.zansara.dev/posts/2026-10-19-is-python-the-favorite-language-of-llms/",
-   "src": "Hacker News",
-   "t": "22:51",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "为什么私人LLM应用程序很重要",
-   "url": "https://niksmac.me/blog/private-llm-apps/",
-   "src": "Hacker News",
-   "t": "22:46",
-   "fresh": true
+   "title": "机器人领域的人工智能突破不会很快改变你的生活",
+   "url": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
+   "src": "MIT 科技评论",
+   "t": "09:00",
+   "fresh": false
   },
   {
    "type": "article",
@@ -80,6 +80,14 @@
    "type": "article",
    "title": "三千年前的蜂蜜",
    "url": "a/note-20261020-8.html",
+   "src": "灵犀手记",
+   "t": "2026-10-20",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "沙漠里的星空导航",
+   "url": "a/note-20261020-9.html",
    "src": "灵犀手记",
    "t": "2026-10-20",
    "fresh": false
@@ -105,14 +113,6 @@
    "title": "睡觉时，大脑在忙什么？",
    "url": "a/note-20261019-10.html",
    "src": "灵犀手记",
-   "t": "2026-10-19",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "园子为什么要留白？",
-   "url": "a/note-20261019-11.html",
-   "src": "华夏哲学 · 阴阳五行",
    "t": "2026-10-19",
    "fresh": false
   }
