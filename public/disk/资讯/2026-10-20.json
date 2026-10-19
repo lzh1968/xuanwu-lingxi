@@ -1,9 +1,24 @@
 {
  "日期": "2026-10-20",
- "落盘": "2026-10-20 06:33:43",
+ "落盘": "2026-10-20 07:09:41",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "VLLM的PyTorch原生TPU后端",
+   "url": "https://github.com/vllm-project/vllm-torchtpu",
+   "type": "live"
+  },
+  {
+   "title": "分析AI Agent技能的攻击面",
+   "url": "https://arxiv.org/abs/2610.19264",
+   "type": "live"
+  },
+  {
+   "title": "又是灯塔里的以利亚？诊断法学硕士故事中的低多样性",
+   "url": "https://arxiv.org/abs/2605.26492",
+   "type": "live"
+  },
   {
    "title": "观看人工智能智能体Swarm Self-Organize的经验教训",
    "url": "https://goteleport.com/blog/ai-agent-swarm-security-lessons/",
@@ -27,21 +42,6 @@
   {
    "title": "FloatDoor：LLM中的平台触发后门",
    "url": "https://arxiv.org/abs/2606.19535",
-   "type": "live"
-  },
-  {
-   "title": "Show HN：Taco - LLM压缩，在每个CPU和GPU上提供相同的字节",
-   "url": "https://github.com/tac0mania/taco",
-   "type": "live"
-  },
-  {
-   "title": "Show HN：隐藏消息作为生成艺术；从2020年开始开源我的代码",
-   "url": "https://stegano.graphics",
-   "type": "live"
-  },
-  {
-   "title": "LLM岗位的时间",
-   "url": "https://news.ycombinator.com/item?id=50157348",
    "type": "live"
   },
   {
