@@ -1,5 +1,5 @@
 {
- "built": "2026-10-20 02:03:58",
+ "built": "2026-10-20 02:16:50",
  "count": 350,
  "items": [
   {
@@ -2483,66 +2483,10 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "智能体仅与您共享的个人信息一样好",
-   "u": "https://apnews.com/article/meta-muse-openai-dot-ai-privacy-449734d41d3750aad7038b761faa49c9",
-   "s": "外网新声·Hacker News",
-   "d": "01:54",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "从头开始构建基本的AI Agent：会话管理",
-   "u": "https://www.ruxu.dev/articles/ai/build-an-ai-agent-sessions/",
-   "s": "外网新声·Hacker News",
-   "d": "01:40",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：Senseplane开源智能体的眼睛和耳朵，在您自己的摄像头上",
-   "u": "https://github.com/senseplane-ai/senseplane",
-   "s": "外网新声·Hacker News",
-   "d": "01:25",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "下载：保护北极永久冻土和俏皮的智能体",
-   "u": "https://www.technologyreview.com/2026/10/19/1147103/the-download-preserving-the-arctic-permafrost-and-playful-ai-agents/",
-   "s": "外网新声·Hacker News",
-   "d": "01:01",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Show HN: Celorga –为您和您的代理重新实现的便携式组织",
    "u": "https://github.com/aviaviavi/celorga",
    "s": "外网新声·Hacker News",
    "d": "00:18",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "启动HN：Laminar （ YC S24 ） –我们训练了一个模型来捕捉无声座席故障",
-   "u": "https://news.ycombinator.com/item?id=50154029",
-   "s": "外网新声·Hacker News",
-   "d": "00:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "双极图像，您看到一个图像，而LLM看到另一个图像",
-   "u": "https://bpimage.vercel.app",
-   "s": "外网新声·Hacker News",
-   "d": "23:32",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "人工智能能从记忆中汲取旧金山吗？六个LLM，对OpenStreetMap得分",
-   "u": "https://github.com/voygr-tech/sf-from-memory",
-   "s": "外网新声·Hacker News",
-   "d": "23:24",
    "k": "",
    "x": ""
   },
@@ -2555,10 +2499,10 @@
    "x": ""
   },
   {
-   "t": "Show HN：LexFrame -在阅读LLM时打破Anthropic的J透镜的天花板",
-   "u": "https://pypi.org/project/lexframe/",
-   "s": "外网新声·Hacker News",
-   "d": "23:05",
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "18:15",
    "k": "",
    "x": ""
   },
@@ -2566,15 +2510,15 @@
    "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
    "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
-   "d": "18:02",
+   "d": "18:11",
    "k": "",
    "x": ""
   },
   {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "18:02",
+   "t": "“我们看错了”：颠覆人工智能世界的爆炸性主张",
+   "u": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "17:45",
    "k": "",
    "x": ""
   },
@@ -2799,6 +2743,62 @@
    "u": "https://arxiv.org/abs/2610.23729v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "16:43",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "超越大模型：心理建模、模拟、进化和可解释性的心理世界模型框架",
+   "u": "https://arxiv.org/abs/2610.23722v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:42",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "神经扩展：深度神经网络如何泛化的统一机制",
+   "u": "https://arxiv.org/abs/2610.23716v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:38",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "GLOBE：生成式搜索中不断发展的电子商务产品优化结构化代理内存",
+   "u": "https://arxiv.org/abs/2610.23709v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:33",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "关于基于LLM的多代理系统在医疗保健运营管理中用于多标准决策的可能性和局限性",
+   "u": "https://arxiv.org/abs/2610.23673v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:05",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "OwlSight：思维链推理的全景监视器",
+   "u": "https://arxiv.org/abs/2610.23670v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:01",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "PresenceBench：对大模型适应用户状态的探索性评估",
+   "u": "https://arxiv.org/abs/2610.23625v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "15:33",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "GEMS：分子结构阐明作为对异构体图的学习搜索",
+   "u": "https://arxiv.org/abs/2610.23617v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "15:28",
    "k": "",
    "x": ""
   }
