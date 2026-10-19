@@ -1,9 +1,19 @@
 {
  "日期": "2026-10-19",
- "落盘": "2026-10-19 22:21:32",
+ "落盘": "2026-10-19 22:28:03",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "Low-bit LLMs on CPU: what runs correctly and fast where",
+   "url": "https://github.com/matheus-c-feitosa/lowbit-atlas",
+   "type": "live"
+  },
+  {
+   "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+   "type": "live"
+  },
   {
    "title": "Evaluating an AI sales agent on 100 sites/ 15M visitors (+10% rev per visitor)",
    "url": "https://getjavo.com/research/sales-evaluation/",
@@ -32,16 +42,6 @@
   {
    "title": "ATLAS：评估搜索密集型任务的代理",
    "url": "https://exa.ai/blog/atlas-benchmark",
-   "type": "live"
-  },
-  {
-   "title": "OneMemory – self-hosted shared memory for all your AI agents (Docker one-liner)",
-   "url": "https://github.com/calasdan-sketch/onememory",
-   "type": "live"
-  },
-  {
-   "title": "Show HN: Making agent-to-agent interactions observable, in a fun way",
-   "url": "https://github.com/hanhanwu/Agentopia",
    "type": "live"
   },
   {
