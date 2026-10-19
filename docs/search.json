@@ -1,5 +1,5 @@
 {
- "built": "2026-10-20 04:52:15",
+ "built": "2026-10-20 04:59:55",
  "count": 350,
  "items": [
   {
@@ -2483,6 +2483,22 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "范围：人工智能编码智能体的开源评估",
+   "u": "https://opensource.microsoft.com/blog/2026/10/19/introducing-scope-open-source-evaluation-for-ai-coding-agents/",
+   "s": "外网新声·Hacker News",
+   "d": "04:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN：Craig –用于运行并行编码智能体的TUI",
+   "u": "https://craig-cli.com/",
+   "s": "外网新声·Hacker News",
+   "d": "04:57",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "WunderOS架构：Beam上的代理操作系统，客人使用Firecracker MicroVMs",
    "u": "https://pentad.ai/system/",
    "s": "外网新声·Hacker News",
@@ -2563,22 +2579,6 @@
    "x": ""
   },
   {
-   "t": "Show HN：Senseplane开源智能体的眼睛和耳朵，在您自己的摄像头上",
-   "u": "https://github.com/senseplane-ai/senseplane",
-   "s": "外网新声·Hacker News",
-   "d": "01:25",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "下载：保护北极永久冻土和俏皮的智能体",
-   "u": "https://www.technologyreview.com/2026/10/19/1147103/the-download-preserving-the-arctic-permafrost-and-playful-ai-agents/",
-   "s": "外网新声·Hacker News",
-   "d": "01:01",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Show HN: Celorga –为您和您的代理重新实现的便携式组织",
    "u": "https://github.com/aviaviavi/celorga",
    "s": "外网新声·Hacker News",
@@ -2595,18 +2595,10 @@
    "x": ""
   },
   {
-   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "u": "https://github.com/earendil-works/pi",
-   "s": "外网新声·GitHub 新星",
-   "d": "20:46",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "20:40",
+   "d": "20:58",
    "k": "",
    "x": ""
   },
@@ -2614,7 +2606,15 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "20:21",
+   "d": "20:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
+   "s": "外网新声·GitHub 新星",
+   "d": "20:46",
    "k": "",
    "x": ""
   },
