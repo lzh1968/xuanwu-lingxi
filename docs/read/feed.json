@@ -1,16 +1,24 @@
 {
- "generated": "17:22",
- "built": "2026-10-19 17:22:34",
+ "generated": "18:13",
+ "built": "2026-10-19 18:13:09",
  "count": 289,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "vLLM Agentic API",
+   "url": "https://vllm-project.github.io/agentic-api/",
+   "src": "Hacker News",
+   "t": "18:11",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "CacheVerifier, check if verifying LLM cache hits helps your traffic",
    "url": "https://github.com/imxinchengyou/cacheverifier-python",
    "src": "Hacker News",
    "t": "16:37",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -18,7 +26,7 @@
    "url": "https://zenodo.org/records/23441596",
    "src": "Hacker News",
    "t": "16:23",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -26,7 +34,7 @@
    "url": "https://aiskills402.com/blog/agent-skills-security-risks",
    "src": "Hacker News",
    "t": "16:12",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -34,7 +42,7 @@
    "url": "https://alatas.dev/blog/ai-agents-made-my-personal-github-repo-need-a-merge-queue.html",
    "src": "Hacker News",
    "t": "16:11",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,6 @@
    "url": "https://github.com/strot-ai/Project-STROT",
    "src": "Hacker News",
    "t": "12:32",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Designing LLM failover as a route change, not a retry loop",
-   "url": "https://modelflare-blog.static.hf.space/model-groups-and-failover.html",
-   "src": "Hacker News",
-   "t": "11:32",
    "fresh": false
   },
   {
