@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-19",
- "落盘": "2026-10-19 18:06:56",
+ "落盘": "2026-10-19 18:13:22",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "vLLM Agentic API",
+   "url": "https://vllm-project.github.io/agentic-api/",
+   "type": "live"
+  },
   {
    "title": "CacheVerifier, check if verifying LLM cache hits helps your traffic",
    "url": "https://github.com/imxinchengyou/cacheverifier-python",
@@ -37,11 +42,6 @@
   {
    "title": "Show HN: Strot – Compile an LLM's intent once, run decisions locally",
    "url": "https://github.com/strot-ai/Project-STROT",
-   "type": "live"
-  },
-  {
-   "title": "Designing LLM failover as a route change, not a retry loop",
-   "url": "https://modelflare-blog.static.hf.space/model-groups-and-failover.html",
    "type": "live"
   },
   {
