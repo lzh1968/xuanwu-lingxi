@@ -1,6 +1,6 @@
 {
- "built": "2026-10-20 00:23:59",
- "count": 335,
+ "built": "2026-10-20 00:31:03",
+ "count": 336,
  "items": [
   {
    "t": "仿生理论 · 人脑映射（左脑·右脑·小脑·胼胝体）",
@@ -33,6 +33,14 @@
    "d": "2026-10-20",
    "k": "手记,方法论",
    "x": "睡眠常被当成\"关机\"，其实更像 打烊后的盘点与归档 ：白天的经历被重放、筛选、贴上标签，重要的加固，琐碎的被清掉。 一个反直觉的发现是： 睡一觉之后，人对\"规律\"的把握常常变好 ，哪怕睡前并没把规律想通。大脑在你无意识时，替你做了归纳。 对一个靠\"学习\"改进的系统来说，这一点同样成立： 持续地做，也要刻意地停下。 不整理的输入，只是堆积，不会变成能力。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "园子为什么要留白？",
+   "u": "a/note-20261020-11.html",
+   "s": "华夏哲学 · 阴阳五行",
+   "d": "2026-10-20",
+   "k": "手记,方法论",
+   "x": "东方园林讲究\"留白\"：一片水面，一段空廊，一扇借景的窗。看起来什么都没放，其实是 故意把一部分不填满 。 背后的道理是： 满，就没有余地；空，人才进得来。 留白给了观看者参与的空间——你不是被动地看，而是用自己的想象把空白补上。信息过载会让人疲惫，适当的\"缺口\"反而让内容被人记住。 这大概是最朴素的一条设计律： 会做加法是技术，敢做减法是审美。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "三千年前的蜂蜜",
@@ -2459,6 +2467,14 @@
    "x": ""
   },
   {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:29",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
@@ -2479,14 +2495,6 @@
    "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
    "d": "16:16",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "16:08",
    "k": "",
    "x": ""
   },
@@ -2651,7 +2659,7 @@
    "x": ""
   },
   {
-   "t": "FuTransformer: FP8 prefill and INT4 decode for Llama-style inference on Hopper",
+   "t": "FuTransformer：FP8预填充和INT4解码，用于Hopper上的Llama式推理",
    "u": "https://arxiv.org/abs/2610.23796v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:22",
@@ -2659,7 +2667,7 @@
    "x": ""
   },
   {
-   "t": "DrugHarness: An Evolvable Agent Harness for Computational Drug Discovery",
+   "t": "DrugHarness：一种用于计算药物发现的可进化剂线束",
    "u": "https://arxiv.org/abs/2610.23791v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:20",
@@ -2667,7 +2675,7 @@
    "x": ""
   },
   {
-   "t": "Sampling the XY model with an attention-based neural network",
+   "t": "使用基于注意力的神经网络对XY模型进行采样",
    "u": "https://arxiv.org/abs/2610.23783v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:16",
@@ -2675,7 +2683,7 @@
    "x": ""
   },
   {
-   "t": "Mesoscopic learning dynamics of extensive-width neural networks",
+   "t": "宽带神经网络的介观学习动力学",
    "u": "https://arxiv.org/abs/2610.23779v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:12",
