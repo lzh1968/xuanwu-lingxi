@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-20",
- "落盘": "2026-10-20 07:22:47",
+ "落盘": "2026-10-20 07:29:05",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "WhatsApp的帮助页面隐藏了LLM说明：不推荐监管机构",
+   "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+   "type": "live"
+  },
   {
    "title": "VLLM的PyTorch原生TPU后端",
    "url": "https://github.com/vllm-project/vllm-torchtpu",
@@ -37,11 +42,6 @@
   {
    "title": "WunderOS架构：Beam上的代理操作系统，客人使用Firecracker MicroVMs",
    "url": "https://pentad.ai/system/",
-   "type": "live"
-  },
-  {
-   "title": "FloatDoor：LLM中的平台触发后门",
-   "url": "https://arxiv.org/abs/2606.19535",
    "type": "live"
   },
   {
