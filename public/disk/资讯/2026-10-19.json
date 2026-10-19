@@ -1,9 +1,24 @@
 {
  "日期": "2026-10-19",
- "落盘": "2026-10-19 20:43:55",
+ "落盘": "2026-10-19 20:57:12",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "ATLAS：评估搜索密集型任务的代理",
+   "url": "https://exa.ai/blog/atlas-benchmark",
+   "type": "live"
+  },
+  {
+   "title": "OneMemory – self-hosted shared memory for all your AI agents (Docker one-liner)",
+   "url": "https://github.com/calasdan-sketch/onememory",
+   "type": "live"
+  },
+  {
+   "title": "Show HN: Making agent-to-agent interactions observable, in a fun way",
+   "url": "https://github.com/hanhanwu/Agentopia",
+   "type": "live"
+  },
   {
    "title": "Harness Engineering 101: The LLM is the brain, the harness is the body",
    "url": "https://github.com/IsuruMaduranga/harness-engineering-101",
@@ -27,21 +42,6 @@
   {
    "title": "Show HN: Gsearch – Real Google Search for AI Agents, via a Real Firefox (MCP)",
    "url": "https://github.com/RayenMlayeh/gsearch",
-   "type": "live"
-  },
-  {
-   "title": "vLLM Agentic API",
-   "url": "https://vllm-project.github.io/agentic-api/",
-   "type": "live"
-  },
-  {
-   "title": "CacheVerifier, check if verifying LLM cache hits helps your traffic",
-   "url": "https://github.com/imxinchengyou/cacheverifier-python",
-   "type": "live"
-  },
-  {
-   "title": "Codes and you LLM will speak just insert files from zenodo an watch",
-   "url": "https://zenodo.org/records/23441596",
    "type": "live"
   },
   {
