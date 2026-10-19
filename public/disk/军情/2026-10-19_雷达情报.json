@@ -2,62 +2,62 @@
  "日期": "2026-10-19",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-19 16:48:10",
-  "chosen": "ARB long",
+  "updated": "2026-10-19 17:18:11",
+  "chosen": "LTC long",
   "nodes": [
    {
     "coin": "BTC",
     "side": "long",
     "align": 3,
-    "embryo": 0.7
+    "embryo": 2.4
    },
    {
     "coin": "LTC",
     "side": "long",
     "align": 2,
-    "embryo": 2.7
+    "embryo": 4.7
    },
    {
     "coin": "ADA",
     "side": "long",
-    "align": 2,
-    "embryo": 2.7
+    "align": 1,
+    "embryo": 1.4
    },
    {
     "coin": "DOGE",
     "side": "long",
     "align": 2,
-    "embryo": 2.7
+    "embryo": 2.1
    },
    {
     "coin": "XRP",
     "side": "long",
     "align": 2,
-    "embryo": 2.7
+    "embryo": 2.1
    },
    {
     "coin": "SOL",
     "side": "long",
     "align": 2,
-    "embryo": 2.7
+    "embryo": 2.1
    },
    {
     "coin": "ARB",
     "side": "long",
     "align": 3,
-    "embryo": 2.7
+    "embryo": 2.1
    },
    {
     "coin": "SUI",
     "side": "long",
     "align": 2,
-    "embryo": 2.7
+    "embryo": 2.1
    },
    {
     "coin": "ETH",
     "side": "long",
     "align": 2,
-    "embryo": 4.7
+    "embryo": 4.1
    },
    {
     "coin": "AVAX",
@@ -69,31 +69,31 @@
     "coin": "NEAR",
     "side": "long",
     "align": 2,
-    "embryo": 2.7
+    "embryo": 2.1
    },
    {
     "coin": "UNI",
     "side": "long",
     "align": 2,
-    "embryo": 2.1
+    "embryo": 2.7
    },
    {
     "coin": "WLD",
     "side": "long",
     "align": 3,
-    "embryo": 2.7
+    "embryo": 2.6
    },
    {
     "coin": "BNB",
     "side": "long",
-    "align": 2,
-    "embryo": 2.7
+    "align": 1,
+    "embryo": 1.1
    },
    {
     "coin": "DOT",
     "side": "long",
     "align": 2,
-    "embryo": 2.7
+    "embryo": 2.1
    },
    {
     "coin": "FIL",
@@ -105,7 +105,7 @@
     "coin": "LINK",
     "side": "long",
     "align": 2,
-    "embryo": 2.7
+    "embryo": 2.1
    }
   ],
   "口径": "供数器独立复活(ED-20261002-377)·引擎基因(默认)·align=e4/e1/t4l·embryo=|score|+对齐加成"
