@@ -1,6 +1,6 @@
 {
- "built": "2026-10-20 01:18:13",
- "count": 343,
+ "built": "2026-10-20 01:24:38",
+ "count": 344,
  "items": [
   {
    "t": "仿生理论 · 人脑映射（左脑·右脑·小脑·胼胝体）",
@@ -25,6 +25,14 @@
    "d": "2026-10-20",
    "k": "辑要,每日,前沿",
    "x": "今日从公开源汇得 12 条与人工智能、智能体系统、链上机制与数字经济相关的条目，按方向归拢如下。所有条目均保留来源与原文链接， 只作线索与机制观察 ，不代表任何结论。 AI 全球趋势 Launch HN: Laminar (YC S24) – We trained a model to catch silent agent failures <span class=\"src\" Hacker News · 00:00</span [查看原文](https://news.ycombinator.com/item?id=50154029) Bipolar Image, You see one image and an LLM sees another <span class=\"src\" Hacker News · 23:32</span [查看原文](https://bpimage.vercel"
+  },
+  {
+   "t": "自治系统的\"慢变量\"",
+   "u": "a/note-20261020-1.html",
+   "s": "灵犀手记",
+   "d": "2026-10-20",
+   "k": "手记,方法论",
+   "x": "在自治系统里，最难的从来不是把动作写对，而是判断 该不该动 。 快变量是价格、是情绪、是每一根K线；慢变量是结构、是约束、是系统的边界条件。只盯快变量的系统，会把噪声当信号；只认慢变量的系统，又会在真实拐点前迟钝。 工程上的折中是分层的：外层用慢变量定\"能不能做\"，内层用快变量定\"此刻怎么做\"。两层之间用一条极窄的通道传递许可，而不是把两套逻辑搅在一起。 这也是为什么 固定底线 在自动化里如此重要：它不由任何一次判断决定，因此也不会被任何一次判断推翻。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "睡觉时，大脑在忙什么？",
@@ -2515,10 +2523,10 @@
    "x": ""
   },
   {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
+   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
+   "u": "https://github.com/IBAX-io/go-ibax",
    "s": "外网新声·GitHub 新星",
-   "d": "17:16",
+   "d": "17:21",
    "k": "",
    "x": ""
   },
@@ -2526,23 +2534,7 @@
    "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
-   "d": "17:16",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
-   "u": "https://github.com/morluto/rea",
-   "s": "外网新声·GitHub 新星",
-   "d": "17:13",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "17:04",
+   "d": "17:19",
    "k": "",
    "x": ""
   },
@@ -2555,34 +2547,10 @@
    "x": ""
   },
   {
-   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
-   "u": "https://github.com/IBAX-io/go-ibax",
-   "s": "外网新声·GitHub 新星",
-   "d": "15:57",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
-   "u": "https://github.com/mattpocock/skills",
-   "s": "外网新声·GitHub 新星",
-   "d": "15:52",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "人工智能研究人员将克劳德困在一个虚拟的荒岛上。它开始“玩耍”。",
    "u": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
    "s": "外网新声·MIT 科技评论",
    "d": "09:08",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
-   "u": "https://github.com/affaan-m/ECC",
-   "s": "外网新声·GitHub 新星",
-   "d": "05:03",
    "k": "",
    "x": ""
   },
@@ -2743,6 +2711,46 @@
    "u": "https://arxiv.org/abs/2610.23766v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:06",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "逸出参数空间：通过表示质量的严格泛化边界",
+   "u": "https://arxiv.org/abs/2610.23729v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:43",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "超越大模型：心理建模、模拟、进化和可解释性的心理世界模型框架",
+   "u": "https://arxiv.org/abs/2610.23722v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:42",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "神经扩展：深度神经网络如何泛化的统一机制",
+   "u": "https://arxiv.org/abs/2610.23716v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:38",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "GLOBE：生成式搜索中不断发展的电子商务产品优化结构化代理内存",
+   "u": "https://arxiv.org/abs/2610.23709v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:33",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "关于基于LLM的多代理系统在医疗保健运营管理中用于多标准决策的可能性和局限性",
+   "u": "https://arxiv.org/abs/2610.23673v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:05",
    "k": "",
    "x": ""
   }
