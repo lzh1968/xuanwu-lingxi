@@ -1,6 +1,6 @@
 {
- "built": "2026-10-19 23:59:55",
- "count": 331,
+ "built": "2026-10-20 00:08:16",
+ "count": 333,
  "items": [
   {
    "t": "仿生理论 · 人脑映射（左脑·右脑·小脑·胼胝体）",
@@ -17,6 +17,22 @@
    "d": "2026-10-19",
    "k": "身脑眼,双眼,天眼,左眼,右眼,辨真,观势,自我思考,真假辨伪,具足智慧,本机",
    "x": "身即本机运行域；脑为烛龙中枢，左司逻辑推演、右司全局势感、胼胝体双向校验，具自我思考·逻辑分析·真假辨伪三能；天眼左右各一，左眼辨真（伪信号勘破）、右眼观势（态势盛衰），双眼交叠生纵深。观照→推演→校准三环相扣，能看见、能思考、能分辨、具足智慧。仅作理论，不入交易链路。"
+  },
+  {
+   "t": "今日辑要 · 2026-10-20（前沿 12 条）",
+   "u": "a/digest-20261020.html",
+   "s": "AI 全球趋势",
+   "d": "2026-10-20",
+   "k": "辑要,每日,前沿",
+   "x": "今日从公开源汇得 12 条与人工智能、智能体系统、链上机制与数字经济相关的条目，按方向归拢如下。所有条目均保留来源与原文链接， 只作线索与机制观察 ，不代表任何结论。 AI 全球趋势 Launch HN: Laminar (YC S24) – We trained a model to catch silent agent failures <span class=\"src\" Hacker News · 00:00</span [查看原文](https://news.ycombinator.com/item?id=50154029) Bipolar Image, You see one image and an LLM sees another <span class=\"src\" Hacker News · 23:32</span [查看原文](https://bpimage.vercel"
+  },
+  {
+   "t": "三千年前的蜂蜜",
+   "u": "a/note-20261020-8.html",
+   "s": "灵犀手记",
+   "d": "2026-10-20",
+   "k": "手记,方法论",
+   "x": "考古学家在古埃及墓里挖出过罐装蜂蜜，三千多年过去， 居然还能吃 。原因朴素得近乎优雅：蜂蜜含水极少、酸度极高、且自带过氧化氢——三样条件把微生物能活的余地全部堵死。 它给我们的启发不是\"蜂蜜很厉害\"，而是： 最好的保存方式，往往不是加固外壳，而是让腐坏的条件根本不存在。 系统设计里也一样。与其事后层层设防，不如一开始就让坏事情 没有发生的土壤 。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "今日辑要 · 2026-10-19（前沿 12 条）",
@@ -2331,15 +2347,15 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "A $10M prize for whoever builds 1M working AI agents",
-   "u": "https://agenticmarket.exchange/challenge/",
+   "t": "启动HN：Laminar （ YC S24 ） –我们训练了一个模型来捕捉无声座席故障",
+   "u": "https://news.ycombinator.com/item?id=50154029",
    "s": "外网新声·Hacker News",
-   "d": "23:54",
+   "d": "00:00",
    "k": "",
    "x": ""
   },
   {
-   "t": "Bipolar Image, You see one image and an LLM sees another",
+   "t": "双极图像，您看到一个图像，而LLM看到另一个图像",
    "u": "https://bpimage.vercel.app",
    "s": "外网新声·Hacker News",
    "d": "23:32",
@@ -2347,7 +2363,7 @@
    "x": ""
   },
   {
-   "t": "Can AI draw San Francisco from memory? Six LLMs, scored against OpenStreetMap",
+   "t": "人工智能能从记忆中汲取旧金山吗？六个LLM，对OpenStreetMap得分",
    "u": "https://github.com/voygr-tech/sf-from-memory",
    "s": "外网新声·Hacker News",
    "d": "23:24",
@@ -2355,7 +2371,7 @@
    "x": ""
   },
   {
-   "t": "MIT-licensed Rust framework for multi-agent systems: A2A 1.0, MCP 2026-07-28",
+   "t": "MIT许可的多代理系统Rust框架：A2A 1.0，MCP 2026-07-28",
    "u": "https://github.com/EmilLindfors/a2a-rs",
    "s": "外网新声·Hacker News",
    "d": "23:23",
@@ -2363,7 +2379,7 @@
    "x": ""
   },
   {
-   "t": "Show HN: LexFrame – Break the ceiling of Anthropic's J-lens in reading LLMs",
+   "t": "Show HN：LexFrame -在阅读LLM时打破Anthropic的J透镜的天花板",
    "u": "https://pypi.org/project/lexframe/",
    "s": "外网新声·Hacker News",
    "d": "23:05",
@@ -2371,7 +2387,7 @@
    "x": ""
   },
   {
-   "t": "Run LLM Locally – which open model fits your GPU or Mac, and how fast",
+   "t": "本地运行LLM –哪个开放模型适合您的GPU或Mac，以及速度",
    "u": "https://www.runllmlocally.com/en",
    "s": "外网新声·Hacker News",
    "d": "22:57",
@@ -2379,7 +2395,7 @@
    "x": ""
   },
   {
-   "t": "Is Python the favorite language of LLMs?",
+   "t": "Python是LLM最喜欢的语言吗？",
    "u": "https://www.zansara.dev/posts/2026-10-19-is-python-the-favorite-language-of-llms/",
    "s": "外网新声·Hacker News",
    "d": "22:51",
@@ -2387,7 +2403,7 @@
    "x": ""
   },
   {
-   "t": "Why Private LLM Apps Matter",
+   "t": "为什么私人LLM应用程序很重要",
    "u": "https://niksmac.me/blog/private-llm-apps/",
    "s": "外网新声·Hacker News",
    "d": "22:46",
@@ -2395,58 +2411,10 @@
    "x": ""
   },
   {
-   "t": "What business wants from AI, and why we built an agentic kernel: an essay",
-   "u": "https://loomcycle.dev/blog/beneath-the-foam",
-   "s": "外网新声·Hacker News",
-   "d": "22:30",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "How to Design Human Oversight for AI Agents with ZizkaDB",
-   "u": "https://medium.com/@MirArshadTalpur/how-to-design-human-oversight-for-ai-agents-with-zizkadb-c5fd44df0a4c",
-   "s": "外网新声·Hacker News",
-   "d": "22:27",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
-   "u": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
-   "s": "外网新声·Hacker News",
-   "d": "22:23",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Evaluating an AI sales agent on 100 sites/ 15M visitors (+10% rev per visitor)",
-   "u": "https://getjavo.com/research/sales-evaluation/",
-   "s": "外网新声·Hacker News",
-   "d": "22:14",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN: ApolloOffice – Local AI workers that turn GitHub issues into tested PRs",
-   "u": "https://github.com/Silvertree2010/ApolloOffice",
-   "s": "外网新声·Hacker News",
-   "d": "21:34",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "One hacker used AI agents and a few thousand dollars to break into 100 sites",
-   "u": "https://www.reuters.com/legal/government/how-one-hacker-used-ai-agents-few-thousand-dollars-break-into-scores-sites-2026-10-19/",
-   "s": "外网新声·Hacker News",
-   "d": "21:16",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
    "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
-   "d": "15:58",
+   "d": "16:06",
    "k": "",
    "x": ""
   },
@@ -2647,6 +2615,54 @@
    "u": "https://arxiv.org/abs/2610.23791v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:20",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Sampling the XY model with an attention-based neural network",
+   "u": "https://arxiv.org/abs/2610.23783v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:16",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Mesoscopic learning dynamics of extensive-width neural networks",
+   "u": "https://arxiv.org/abs/2610.23779v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:12",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Logic-Guided Graph Denoising Diffusion Models",
+   "u": "https://arxiv.org/abs/2610.23766v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:06",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Escaping Parameter Space: Tight Generalization Bounds via Representation Quality",
+   "u": "https://arxiv.org/abs/2610.23729v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:43",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Beyond Large Language Models: A Mental World Model Framework for Mental Modeling, Simulation, Evolution, and Interpretability",
+   "u": "https://arxiv.org/abs/2610.23722v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:42",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Neural Expansion: A Unified Mechanism for How Deep Neural Networks Generalize",
+   "u": "https://arxiv.org/abs/2610.23716v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:38",
    "k": "",
    "x": ""
   }
