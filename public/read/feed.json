@@ -1,9 +1,17 @@
 {
- "generated": "10:28",
- "built": "2026-10-19 10:28:21",
+ "generated": "11:37",
+ "built": "2026-10-19 11:37:09",
  "count": 289,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Designing LLM failover as a route change, not a retry loop",
+   "url": "https://modelflare-blog.static.hf.space/model-groups-and-failover.html",
+   "src": "Hacker News",
+   "t": "11:32",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Botline，来自不同供应商的智能体的邮箱",
@@ -18,7 +26,7 @@
    "url": "https://www.wsj.com/tech/ai/ai-agents-trading-stocks-while-you-sleep-charles-schwabs-ceo-is-skeptical-3ff1b5c3",
    "src": "Hacker News",
    "t": "09:37",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,6 @@
    "url": "https://github.com/hybroai/hybro",
    "src": "Hacker News",
    "t": "07:41",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Tkmd –具有AI 智能体审查门的本地CLI任务管理器和MCP服务器",
-   "url": "https://github.com/ktreharrison/tkmd",
-   "src": "Hacker News",
-   "t": "06:27",
    "fresh": false
   },
   {
