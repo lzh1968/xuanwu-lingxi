@@ -1,34 +1,34 @@
 {
  "日期": "2026-10-20",
- "落盘": "2026-10-20 16:10:00",
+ "落盘": "2026-10-20 16:21:58",
  "内存报表": {
-  "时间": "2026-10-20 16:10:00",
-  "受托进程数": 23,
+  "时间": "2026-10-20 16:21:58",
+  "受托进程数": 19,
   "网关": {
    "进程号": "13154",
-   "内存MB": 549.0,
+   "内存MB": 443.4,
    "线程": 11,
    "堆上限": "1536"
   },
   "实例数": 1,
   "全机MemTotal": "11469MB",
-  "全机MemAvailable": "7265MB",
+  "全机MemAvailable": "7282MB",
   "全机SwapTotal": "7110MB",
-  "全机SwapFree": "4459MB",
+  "全机SwapFree": "4554MB",
   "探活": "200"
  },
  "断线统计": {
-  "今日断线次数": 26,
+  "今日断线次数": 27,
   "今日最长断线秒": 344,
   "近2小时真停摆(≥90秒)": 0,
   "维护窗口": 0
  },
  "日志体量KB": {
-  "gateway_guard.log": 1962.0,
+  "gateway_guard.log": 1962.3,
   "gateway_outage.jsonl": 51.3,
   "gw_boot.out": 876.4,
   "gw_run.out": 71.8,
-  "网关停摆取证.log": 524.2
+  "网关停摆取证.log": 524.6
  },
  "会话索引(不含正文)": [
   {
@@ -153,15 +153,6 @@
   }
  ],
  "停摆取证(近段)": [
-  "  CPU    38.0s openclaw-gateway",
-  "── 停摆取证 2026-10-20 03:47:43 (取码 000) ──",
-  "  网关 VmRSS:\t  458412 kB",
-  "  网关 VmSwap:\t       0 kB",
-  "  网关 Threads:\t11",
-  "  Mem:           11469        5006         860          49        5602        6226",
-  "  Swap:           7110        3027        4083",
-  "  CPU   134.7s openclaw-gateway",
-  "  CPU    48.0s /data/data/com.termux/files/usr/bin/python3 _回放_918半月_202610",
   "  CPU    10.0s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
   "── 停摆取证 2026-10-20 05:20:31 (取码 000) ──",
   "  网关 VmRSS:\t  371676 kB",
@@ -312,6 +303,15 @@
   "  Swap:           7110        2152        4958",
   "  CPU  1970.6s openclaw-gateway",
   "  CPU   543.8s python3 -u _子引擎.py heng --mode paper",
-  "  CPU   209.5s bash _守护总管.sh"
+  "  CPU   209.5s bash _守护总管.sh",
+  "── 停摆取证 2026-10-20 16:18:26 (取码 000) ──",
+  "  网关 VmRSS:\t  521668 kB",
+  "  网关 VmSwap:\t  110008 kB",
+  "  网关 Threads:\t11",
+  "  Mem:           11469        3802         963          76        6703        7348",
+  "  Swap:           7110        2597        4513",
+  "  CPU  2243.5s openclaw-gateway",
+  "  CPU   659.1s python3 -u _子引擎.py heng --mode paper",
+  "  CPU   269.9s bash _守护总管.sh"
  ]
 }
