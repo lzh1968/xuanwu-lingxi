@@ -1,5 +1,5 @@
 {
- "built": "2026-10-21 01:58:37",
+ "built": "2026-10-21 02:05:01",
  "count": 369,
  "items": [
   {
@@ -2635,6 +2635,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Show HN：Gauge CLI –开源登山体验",
+   "u": "https://github.com/gauge-sh/gauge-cli",
+   "s": "外网新声·Hacker News",
+   "d": "02:01",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "问HN：是时候阅读那些编程书籍了？",
    "u": "https://news.ycombinator.com/item?id=50170094",
    "s": "外网新声·Hacker News",
@@ -2675,14 +2683,6 @@
    "x": ""
   },
   {
-   "t": "使用工具的LLM代理循环的拓扑结构",
-   "u": "https://blog.exe.dev/topology",
-   "s": "外网新声·Hacker News",
-   "d": "00:38",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "反检查–当AI 智能体说“完成”时重新运行您的测试",
    "u": "https://github.com/datacrate360/countercheck",
    "s": "外网新声·Hacker News",
@@ -2707,6 +2707,22 @@
    "x": ""
   },
   {
+   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
+   "u": "https://github.com/morluto/rea",
+   "s": "外网新声·GitHub 新星",
+   "d": "18:03",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "18:01",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
@@ -2715,18 +2731,26 @@
    "x": ""
   },
   {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
    "s": "外网新声·GitHub 新星",
-   "d": "17:54",
+   "d": "17:52",
    "k": "",
    "x": ""
   },
   {
-   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
-   "u": "https://github.com/morluto/rea",
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
-   "d": "17:50",
+   "d": "17:48",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "u": "https://github.com/Dao-AILab/flash-attention",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:49",
    "k": "",
    "x": ""
   },
@@ -2743,6 +2767,14 @@
    "u": "https://github.com/affaan-m/ECC",
    "s": "外网新声·GitHub 新星",
    "d": "14:51",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
+   "u": "https://github.com/IBAX-io/go-ibax",
+   "s": "外网新声·GitHub 新星",
+   "d": "10:48",
    "k": "",
    "x": ""
   },
@@ -2919,38 +2951,6 @@
    "u": "https://arxiv.org/abs/2610.26794v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:40",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "SOMA：使用System One模型对System Two推理进行持续监控和干预",
-   "u": "https://arxiv.org/abs/2610.26793v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:40",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "用于预测-市场订单簿做市的协作多智能体强化学习",
-   "u": "https://arxiv.org/abs/2610.26789v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:38",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "LG-Bench：生命科学的图形结构化评估基准",
-   "u": "https://arxiv.org/abs/2610.26787v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:38",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "手机游戏：在“机器人大战”中利用游戏理论和LLM来对抗手机诈骗",
-   "u": "https://arxiv.org/abs/2610.26781v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:35",
    "k": "",
    "x": ""
   }
