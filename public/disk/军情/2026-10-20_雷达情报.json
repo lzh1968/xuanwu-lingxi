@@ -2,32 +2,50 @@
  "日期": "2026-10-20",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-20 09:40:35",
-  "chosen": "ADA short",
+  "updated": "2026-10-20 10:05:08",
+  "chosen": "NEAR short",
   "nodes": [
+   {
+    "coin": "ETH",
+    "side": "short",
+    "align": 3,
+    "embryo": 2.7
+   },
    {
     "coin": "ADA",
     "side": "short",
     "align": 3,
-    "embryo": 2.7
+    "embryo": 2.9
    },
    {
     "coin": "NEAR",
     "side": "short",
     "align": 3,
-    "embryo": 1.9
+    "embryo": 3.2
    },
    {
     "coin": "AVAX",
     "side": "short",
     "align": 3,
-    "embryo": 2.2
+    "embryo": 2.6
+   },
+   {
+    "coin": "UNI",
+    "side": "short",
+    "align": 2,
+    "embryo": 3.9
+   },
+   {
+    "coin": "INJ",
+    "side": "short",
+    "align": 2,
+    "embryo": 5.2
    },
    {
     "coin": "WLFI",
     "side": "short",
     "align": 3,
-    "embryo": 2.7
+    "embryo": 2.1
    }
   ]
  }
