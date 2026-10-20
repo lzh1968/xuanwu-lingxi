@@ -1,15 +1,31 @@
 {
- "generated": "02:43",
- "built": "2026-10-21 02:43:48",
+ "generated": "02:50",
+ "built": "2026-10-21 02:50:11",
  "count": 327,
- "live_count": 59,
+ "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN：什么是线束？ LLM代理在MCP实施中的不一致",
+   "url": "https://what-the-harness.polytomic.com",
+   "src": "Hacker News",
+   "t": "02:40",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Agentic AI在事先授权协议中有潜在用途",
    "url": "https://civicpivot.blogspot.com/2026/09/healthcares-ai-arms-race-can-agentic-ai.html",
    "src": "Hacker News",
    "t": "02:40",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN：Rocus：浏览本地LLM，整理您的书签",
+   "url": "https://rocus.io/",
+   "src": "Hacker News",
+   "t": "02:28",
    "fresh": true
   },
   {
@@ -30,43 +46,27 @@
   },
   {
    "type": "live",
-   "title": "一百万AI智能体能创造超级智能吗？",
-   "url": "https://www.noahpinion.blog/p/can-a-million-ai-agents-create-superintelligence",
+   "title": "EGPU和本地LLM推断",
+   "url": "https://pgaleone.eu/ai/2026/10/20/eGPU-for-local-llm-inference/",
    "src": "Hacker News",
-   "t": "01:28",
+   "t": "02:07",
    "fresh": true
   },
   {
    "type": "live",
-   "title": "我的编码代理在没有询问的情况下删除了一个项目。审核日志显示我做到了",
-   "url": "https://zabta.ai/blog/my-coding-agent-deleted-a-project",
+   "title": "Show HN：Gauge CLI –开源登山体验",
+   "url": "https://github.com/gauge-sh/gauge-cli",
    "src": "Hacker News",
-   "t": "01:24",
+   "t": "02:01",
    "fresh": true
   },
   {
    "type": "live",
-   "title": "2026年将机器人检测系统与现代智能体进行对比",
-   "url": "https://research.poh.org/bot-benchmarking-2026/",
+   "title": "问HN：是时候阅读那些编程书籍了？",
+   "url": "https://news.ycombinator.com/item?id=50170094",
    "src": "Hacker News",
-   "t": "01:10",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "url": "https://github.com/NousResearch/hermes-agent",
-   "src": "GitHub 新星",
-   "t": "18:43",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "anomalyco/opencode：开源编码智能体",
-   "url": "https://github.com/anomalyco/opencode",
-   "src": "GitHub 新星",
-   "t": "18:41",
-   "fresh": false
+   "t": "01:53",
+   "fresh": true
   },
   {
    "type": "article",
