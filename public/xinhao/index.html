@@ -38,8 +38,8 @@ ol,ul{padding-left:18px;margin:6px 0}li{margin:3px 0}
 <div class="btns">
 <a id="nv-wuzei" href="sub_wuzei.html">☯ 观星台（五贼七器）</a>
 <a id="nv-duokong" href="sub_duokong.html">📊 多空信号源×五行</a>
-<a href="sub_hecan.html">🧬 九源合参专页</a>
-<a href="sub_yizhan.html">🚀 一站式总台</a>
+<a href="sub_hecan.html" id="nv-hecan">🧬 九源合参专页</a>
+<a href="sub_yizhan.html" id="nv-yizhan">🚀 一站式总台</a>
 <a href="#" onclick="tick();return false">🔄 立即刷新</a>
 </div>
 <div class="sub">六所同币 · 触突神经元 · 天眼辨真伪 · 神经网络 · 算力大脑 · 五行四票 · 相位 · 白虎盘口 · 币王令 ｜ 更新 <span id="ts">—</span></div>
@@ -106,7 +106,7 @@ ol,ul{padding-left:18px;margin:6px 0}li{margin:3px 0}
 <li><b>方向硬约束</b>：合力方向不得逆六所一致方向 —— 真金共识优先于任何模型。</li>
 <li><b>宁可错过</b>：门槛 4.5（≈满值47%）＋真伪 0.70 双闸，缺一即静默，天然拒绝「手痒」。</li>
 </ol>
-<div class="kv" style="margin-top:6px"><span class="pill">算法 v1.0 · 自生演化：算力大脑（非人为拍算）· 打磨中 · 准确性待验证 · 专利交底暂缓（老板令 2026-10-21）· 代码指纹 <b>7e843c135547bb7f</b></span></div>
+<div class="kv" style="margin-top:6px"><span class="pill">算法 v1.0 · 自生演化：算力大脑（非人为拍算）· 打磨中 · 准确性待验证 · 专利交底暂缓（老板令 2026-10-21）· 代码指纹 <b>29bd2441dad7330b</b></span></div>
 </div>
 
 <div class="card"><b>🛡 风控</b><div id="risk" class="kv"></div></div>
@@ -168,7 +168,9 @@ function draw(d){
 (function(){var m=location.pathname.match(/\/(xinhao|duokong|wuzei)\//);
  function L(t){return m?('../'+t+'/'):('sub_'+t+'.html');}
  var a=document.getElementById('nv-wuzei'),b=document.getElementById('nv-duokong');
- if(a)a.href=L('wuzei'); if(b)b.href=L('duokong');})();
+ if(a)a.href=L('wuzei'); if(b)b.href=L('duokong');
+ var c=document.getElementById('nv-hecan'),d=document.getElementById('nv-yizhan');
+ if(c)c.href=L('hecan'); if(d)d.href=L('yizhan');})();
 function fr(k,v){ if(v==null)return '<span class="fr v-idle">'+E(k)+' 无数据</span>';
  var c=v<=90?'v-ok':(v<=600?'v-warn':'v-bad');
  return '<span class="fr '+c+'">'+E(k)+' '+v+'秒</span>';}
