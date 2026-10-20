@@ -27,16 +27,33 @@ a{color:var(--gold)}
 <a class="bk" href="/m.html">‹ 返回手机门户</a>
 <h1>📊 多空信号源 × 五行</h1><div style="margin:-4px 0 8px"><a href="/sub/sub_xinhao.html" style="display:inline-block;padding:5px 12px;border:1px solid #30363d;border-radius:99px;font-size:13px;text-decoration:none;color:#58a6ff">⚔️ 进信号台（九源合参·6秒）</a> <a href="/sub/sub_wuzei.html" style="display:inline-block;padding:5px 12px;border:1px solid #30363d;border-radius:99px;font-size:13px;text-decoration:none;color:#ffd479">☯ 观星台（五贼七器）</a></div>
 <!-- 🔗2026-10-20 老板令「互联互通·内联外显」: 九源合参实时条(拉信号台合参·只读) -->
+<!-- 🧬2026-10-21 老板令「九源合参有入口亦该有内容」：一行摘要 → 九源内容面板 -->
 <div id="ny-bar" style="border:1px solid #30363d;border-radius:12px;padding:10px 12px;margin:10px 0;font-size:13px;background:rgba(88,166,255,.08)">
-🔗 <b>九源合参（与信号台同步·6秒）</b>：<span id="ny-txt" style="opacity:.85">载入中…</span></div>
+🔗 <b>九源合参（与信号台同步·6秒）</b>：<span id="ny-txt" style="opacity:.85">载入中…</span>
+<div id="ny-fr" style="font-size:11.5px;opacity:.75;margin-top:5px"></div>
+<div id="ny-w" style="font-size:11.5px;opacity:.75;margin-top:3px;line-height:1.8"></div>
+<table style="min-width:0;margin-top:6px"><thead><tr><th>币</th><th>判</th><th>向</th><th>合力</th><th>真伪</th></tr></thead><tbody id="ny-rows"></tbody></table>
+<div style="font-size:11px;opacity:.6;margin-top:4px">上面＝合参真内容（不是链接）：九源新鲜度＋合力分（满值9.6）＋四档判决。本页四源四票是其中②六源的佐证细节。</div></div>
 <script>
 (function(){function E(s){return String(s==null?'':s).replace(/[&<>]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c]})}
 function draw(d){var p=d['平台']||{};document.getElementById('ny-txt').innerHTML=
- '<b>'+E(p['判决']||'—')+'</b>：'+E(p['一句']||'')+' <span style="opacity:.6">· '+E(d['时刻']||'')+'</span>';}
+ '<b>'+E(p['判决']||'—')+'</b>：'+E(p['一句']||'')+' <span style="opacity:.6">· '+E(d['时刻']||'')+'</span>';
+ var lk=d['联动']||{},k=Object.keys(lk),o='';for(var i=0;i<k.length;i++){var v=lk[k[i]];
+  var c=(v==null)?'#8b95a5':(v<=90?'#3ddc84':(v<=600?'#ffb020':'#ff5c5c'));
+  o+='<span style="color:'+c+';margin-right:8px">'+E(k[i])+' '+(v==null?'无':v+'秒')+'</span>';}
+ document.getElementById('ny-fr').innerHTML=o;
+ document.getElementById('ny-w').innerHTML='<b>权重</b>：六所±2.0·触突±1.5·天眼+1.0·神经±1.0·大脑±1.5·四票±0.8·相位+0.5·白虎±0.8·生克±0.5 ｜ 可开≥4.5＋真伪≥0.70＋六所同向';
+ var rs=(d['逐币']||[]).slice(0,6).map(function(r){var dir=r['向']==='long'?'<span style="color:#3ddc84">多</span>':(r['向']==='short'?'<span style="color:#ff5c5c">空</span>':'—');
+  var c=r['判决']==='可开仓'?'#3ddc84':(r['判决']==='待确认'?'#ffb020':(r['判决']==='禁开'?'#ff5c5c':'#8b95a5'));
+  return '<tr><td><b>'+E(r['币'])+'</b></td><td style="color:'+c+'">'+E(r['判决'])+'</td><td>'+dir+'</td><td>'+E(r['合力'])+'</td><td>'+E(r['真伪'])+'</td></tr>';}).join('');
+ document.getElementById('ny-rows').innerHTML=rs||'<tr><td colspan="5" style="opacity:.6">无数据</td></tr>';}
 function tick(){fetch('xinhao.json?t='+Date.now()).then(function(r){return r.json()}).then(draw).catch(function(){})}
 tick();setInterval(tick,6000);})();
 </script>
 <div class="sub">四源共识 · 五行归属 · 烛龙王者裁决 · 更新 2026-10-21 00:19:21</div>
+<div class="tip" style="border-left-color:var(--gold)"><b>🧭 本页在五站链上的位置：②佐证站</b><br>
+①观星台（辨势·定位）→ <b>②多空五行（佐证·四源四票＋五行生克）</b> → ③九源合参（合参 S＝Σwi·di）→ ④信号台四档判决 → ⑤币王令·执行。<br>
+本页只回答一件事：<b>几源看多、几源看空、分歧多大、五行顺逆</b>；它不决定开仓，开仓归④。</div>
 <div style='background:#141a10;border:1px solid #3a4a1e;border-radius:12px;padding:12px 14px;margin:10px 0'><div style='font-size:15px;font-weight:700;color:#e6e6e6;margin-bottom:4px'>👑 本轮币王令 · 多空推荐&nbsp;<span style='font-size:12px;font-weight:400;color:#ff6b6b'>共振不足·宁缺毋滥（本轮不发令）</span></div><div style='margin:5px 0'>🟢 多单币王：<b style='color:#3ddc84;font-size:19px'>AVAX</b> <span style='color:#8b95a5;font-size:12.5px'><span style='color:#ff6b6b'>四源共振 2/4</span> ｜ <span style='color:#e6e6e6'>敏感 77(锐)</span> ｜ <span style='color:#5ad1e6'>入口 9.623 · 止损 9.579696 · 目标 9.71923</span> ｜ <span style='color:#ff6b6b'>授权：未达标·不可令</span></span></div><div style='margin:5px 0'>🔴 空单币王：<b style='color:#ff6b6b;font-size:19px'>WLD</b> <span style='color:#8b95a5;font-size:12.5px'><span style='color:#ff6b6b'>四源共振 1/4</span> ｜ <span style='color:#ff6b6b'>反向3</span> ｜ <span style='color:#e6e6e6'>敏感 38(钝)</span> ｜ <span style='color:#5ad1e6'>入口 0.5633 · 止损 0.565835 · 目标 0.557667</span> ｜ <span style='color:#ff6b6b'>授权：未达标·不可令</span></span></div><div style='font-size:11px;color:#9db08a;margin-top:7px;padding-top:7px;border-top:1px dashed #3a4a1e'>口径：观星台五贼合力选王 → <b>四源共振闸</b>(开明/白虎/择强/烛龙) → 精准定位(金蟾0.45%/貔貅1.0%) → 敏感度 → <b>待🐉烛龙火印</b>·由🐍腾蛇执行 · 只读荐向·<b>不代下单</b> · 数据时刻 2026-10-20 23:58:34</div></div>
 <div class="tip">汇聚四源(🦉开明雷达 · 🐯白虎触突 · 🐉烛龙判决 · 🐍腾蛇引擎)逐币做<b>源共识识别</b>；
 并将<b>四态→五行</b>归属，与阴阳五行桥同纲。<br>
