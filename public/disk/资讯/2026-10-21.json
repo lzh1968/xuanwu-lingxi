@@ -1,9 +1,19 @@
 {
  "日期": "2026-10-21",
- "落盘": "2026-10-21 07:28:17",
+ "落盘": "2026-10-21 07:53:21",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "当智能体人自己解决问题时",
+   "url": "https://www.economist.com/business/2026/10/15/when-ai-agents-take-matters-into-their-own-hands",
+   "type": "live"
+  },
+  {
+   "title": "基于推送的KV传输，以改善vLLM中用于分解推理的TTFT、TPOT",
+   "url": "https://aws.amazon.com/blogs/machine-learning/push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggregated-inference-in-vllm/",
+   "type": "live"
+  },
   {
    "title": "我们如何通过减少路由器的工作量来提高智能体的可靠性",
    "url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/",
@@ -32,16 +42,6 @@
   {
    "title": "Show HN：Tenbri，日志AI 智能体不能秘密重写",
    "url": "https://tenbri.com/",
-   "type": "live"
-  },
-  {
-   "title": "Show HN：Agent-Zero – AI原生编码项目的入门模板",
-   "url": "https://github.com/amorey/agent-zero",
-   "type": "live"
-  },
-  {
-   "title": "Show HN：LLM无法预测目标的日常游戏",
-   "url": "https://notbotgame.com",
    "type": "live"
   },
   {
