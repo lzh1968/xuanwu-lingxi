@@ -1,6 +1,6 @@
 {
- "built": "2026-10-20 23:39:32",
- "count": 350,
+ "built": "2026-10-21 00:01:22",
+ "count": 352,
  "items": [
   {
    "t": "仿生理论 · 人脑映射（左脑·右脑·小脑·胼胝体）",
@@ -17,6 +17,22 @@
    "d": "2026-10-19",
    "k": "身脑眼,双眼,天眼,左眼,右眼,辨真,观势,自我思考,真假辨伪,具足智慧,本机",
    "x": "身即本机运行域；脑为烛龙中枢，左司逻辑推演、右司全局势感、胼胝体双向校验，具自我思考·逻辑分析·真假辨伪三能；天眼左右各一，左眼辨真（伪信号勘破）、右眼观势（态势盛衰），双眼交叠生纵深。观照→推演→校准三环相扣，能看见、能思考、能分辨、具足智慧。仅作理论，不入交易链路。"
+  },
+  {
+   "t": "今日辑要 · 2026-10-21（前沿 12 条）",
+   "u": "a/digest-20261021.html",
+   "s": "Agent 与智能体",
+   "d": "2026-10-21",
+   "k": "辑要,每日,前沿",
+   "x": "今日从公开源汇得 12 条与人工智能、智能体系统、链上机制与数字经济相关的条目，按方向归拢如下。所有条目均保留来源与原文链接， 只作线索与机制观察 ，不代表任何结论。 Agent 与智能体 Show HN: Agent Archive – Session Handoffs and Backups for Claude Code and Codex <span class=\"src\" Hacker News · 23:54</span [查看原文](https://github.com/wangjohn/agent archive) Quirky approach to monitoring agent teams: make a podcast <span class=\"src\" Hacker News · 22:59</span [查看原文](https://claude.ai/arti"
+  },
+  {
+   "t": "睡觉时，大脑在忙什么？",
+   "u": "a/note-20261021-10.html",
+   "s": "灵犀手记",
+   "d": "2026-10-21",
+   "k": "手记,方法论",
+   "x": "睡眠常被当成\"关机\"，其实更像 打烊后的盘点与归档 ：白天的经历被重放、筛选、贴上标签，重要的加固，琐碎的被清掉。 一个反直觉的发现是： 睡一觉之后，人对\"规律\"的把握常常变好 ，哪怕睡前并没把规律想通。大脑在你无意识时，替你做了归纳。 对一个靠\"学习\"改进的系统来说，这一点同样成立： 持续地做，也要刻意地停下。 不整理的输入，只是堆积，不会变成能力。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "今日辑要 · 2026-10-20（前沿 12 条）",
@@ -2483,7 +2499,15 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "Jev models make agents faster. Hooked control planes steal the difference",
+   "t": "Show HN：座席存档– Claude Code和Codex的会话切换和备份",
+   "u": "https://github.com/wangjohn/agent-archive",
+   "s": "外网新声·Hacker News",
+   "d": "23:54",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "JEV模型使代理更快。钩状控制平面窃取差异",
    "u": "https://pentad.ai/PLRN/031/",
    "s": "外网新声·Hacker News",
    "d": "23:31",
@@ -2491,7 +2515,7 @@
    "x": ""
   },
   {
-   "t": "Launch HN: Respan (YC W24) – Open-source Rust AI gateway built around plugins",
+   "t": "启动HN：Respan (YC W24) –围绕插件构建的开源Rust AI网关",
    "u": "https://news.ycombinator.com/item?id=50167583",
    "s": "外网新声·Hacker News",
    "d": "23:09",
@@ -2499,7 +2523,7 @@
    "x": ""
   },
   {
-   "t": "Show HN: Seclai – See what your LLM agents are doing in production",
+   "t": "Show HN：Seclai –查看您的LLM代理在生产中做什么",
    "u": "https://seclai.com/",
    "s": "外网新声·Hacker News",
    "d": "23:00",
@@ -2507,7 +2531,7 @@
    "x": ""
   },
   {
-   "t": "Quirky approach to monitoring agent teams: make a podcast",
+   "t": "监控客服代表团队的古怪方法：制作播客",
    "u": "https://claude.ai/artifact/FQvf7VZrmaGuYg3q43ChFE",
    "s": "外网新声·Hacker News",
    "d": "22:59",
@@ -2515,7 +2539,7 @@
    "x": ""
   },
   {
-   "t": "The Honest Raw LLM Code Review Benchmark: 21 Models, 7,980 Reviews",
+   "t": "The Honest Raw LLM代码审核基准：21个模型，7,980个审核",
    "u": "https://ironbee.ai/blog/the-honest-raw-llm-code-review-benchmark",
    "s": "外网新声·Hacker News",
    "d": "22:56",
@@ -2523,7 +2547,7 @@
    "x": ""
   },
   {
-   "t": "Unofficial Android app for Multica, the AI coding agent task board",
+   "t": "Multica的非官方Android应用程序，AI编码代理任务板",
    "u": "https://github.com/1270011/multica-android-unofficial",
    "s": "外网新声·Hacker News",
    "d": "22:54",
@@ -2531,7 +2555,7 @@
    "x": ""
   },
   {
-   "t": "FastAPI-stream-lease – Limit concurrent SSE/LLM streams instead of req/min",
+   "t": "FastAPI流租赁–限制并发SSE/LLM流，而不是请求/分钟",
    "u": "https://github.com/agustin18/fastapi-stream-lease",
    "s": "外网新声·Hacker News",
    "d": "22:48",
@@ -2571,10 +2595,18 @@
    "x": ""
   },
   {
-   "t": "Show HN: Tori by TalkJS. AI support that's actually good",
-   "u": "https://asktori.ai",
-   "s": "外网新声·Hacker News",
-   "d": "21:45",
+   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
+   "u": "https://github.com/morluto/rea",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:00",
    "k": "",
    "x": ""
   },
@@ -2582,15 +2614,15 @@
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "15:37",
+   "d": "15:54",
    "k": "",
    "x": ""
   },
   {
-   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
-   "u": "https://github.com/morluto/rea",
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
-   "d": "15:36",
+   "d": "15:47",
    "k": "",
    "x": ""
   },
@@ -2599,22 +2631,6 @@
    "u": "https://github.com/obra/superpowers",
    "s": "外网新声·GitHub 新星",
    "d": "15:30",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "15:20",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
-   "s": "外网新声·GitHub 新星",
-   "d": "15:04",
    "k": "",
    "x": ""
   },
@@ -2685,15 +2701,7 @@
   {
    "t": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
    "u": "https://arxiv.org/abs/2610.26860v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Reinforcement Learning with Visually Attributable On-Policy Self-Distillation",
-   "u": "https://arxiv.org/abs/2610.26856v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:59",
    "k": "",
    "x": ""
@@ -2701,15 +2709,7 @@
   {
    "t": "CoopUQ: Robust Multi-Robot Social Navigation via Uncertainty-Aware Cooperative Forecasting",
    "u": "https://arxiv.org/abs/2610.26852v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Where is Physical RSI capability from? An Observational Scaling Law of LLM-as-policy",
-   "u": "https://arxiv.org/abs/2610.26848v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:59",
    "k": "",
    "x": ""
@@ -2717,47 +2717,15 @@
   {
    "t": "WeAct: Dynamic Weight Switching as Agent Actions",
    "u": "https://arxiv.org/abs/2610.26847v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Train An Imaginative Agent",
-   "u": "https://arxiv.org/abs/2610.26845v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "AnyGoal: On World Model Generalization Beyond Expert Rollouts",
-   "u": "https://arxiv.org/abs/2610.26844v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "LatComm: Reusable Context Compression for Latent Communication between Large Language Models",
-   "u": "https://arxiv.org/abs/2610.26840v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Same Simulation, Different Evidence: Where Retrieved Tool Output Costs LLM Agents Accuracy",
-   "u": "https://arxiv.org/abs/2610.26836v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:57",
    "k": "",
    "x": ""
   },
   {
    "t": "Kronecker Delta Rule for Long Context Linear Attention",
    "u": "https://arxiv.org/abs/2610.26834v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:56",
    "k": "",
    "x": ""
@@ -2765,7 +2733,7 @@
   {
    "t": "ProteinGeoBench: Frontier Structural-Biology Agents Are Fluent at Lookup but Lost in Geometry",
    "u": "https://arxiv.org/abs/2610.26829v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:55",
    "k": "",
    "x": ""
@@ -2773,15 +2741,7 @@
   {
    "t": "Agent World Model in the Wild: Computer-Use Agent Environment Synthesis",
    "u": "https://arxiv.org/abs/2610.26828v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "RefCraft: Benchmarking Visual-Reference-Conditioned Agentic Generation through Web Development",
-   "u": "https://arxiv.org/abs/2610.26826v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:55",
    "k": "",
    "x": ""
@@ -2795,10 +2755,66 @@
    "x": ""
   },
   {
-   "t": "AfriBED: a Speech Recognition Bias Evaluation Dataset for Low Resource African Languages",
-   "u": "https://arxiv.org/abs/2610.26821v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:53",
+   "t": "Scaling Parameter-Efficient Fine-Tuning for Brain Encoding",
+   "u": "https://arxiv.org/abs/2610.26802v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:46",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "“我们看错了”：颠覆人工智能世界的爆炸性主张",
+   "u": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "17:45",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "On Data Scaling in Tabular ML: More Data, Better Generalization?",
+   "u": "https://arxiv.org/abs/2610.26794v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:40",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Cooperative Multi-Agent Reinforcement Learning for Market Making on Prediction-Market Order Books",
+   "u": "https://arxiv.org/abs/2610.26789v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:38",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Topological Sheaves of Irreducibility: A Theoretical Framework for Multi-Agent Task Obstructions",
+   "u": "https://arxiv.org/abs/2610.26777v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:30",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "HarnessPro: Recursive Harness Self-Improvement with Pareto Optimization for Performance-Cost Trade-offs",
+   "u": "https://arxiv.org/abs/2610.26770v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:27",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
+   "u": "https://github.com/mattpocock/skills",
+   "s": "外网新声·GitHub 新星",
+   "d": "15:52",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "推进低资源编程语言编码",
+   "u": "https://openai.com/index/low-resource-programming-languages",
+   "s": "外网新声·OpenAI 官方",
+   "d": "12:00",
    "k": "",
    "x": ""
   }
