@@ -43,6 +43,8 @@ ol,ul{padding-left:18px;margin:6px 0}li{margin:3px 0}
 
 <div class="card"><b>📊 判决分布</b><div id="sum" class="kv" style="font-size:13px">—</div></div>
 
+<div class="card"><b>🔭 内观 · 观星台（谁在夺谁·极在哪）</b><div id="inner" class="kv">—</div></div>
+
 <div class="card">
 <b>🎯 逐币判决</b>
 <table><thead><tr><th>币</th><th>判</th><th>向</th><th>合力</th><th>真伪</th><th>六所</th><th>触突</th><th>相位</th><th>理由</th></tr></thead><tbody id="rows"></tbody></table>
@@ -95,6 +97,8 @@ function draw(d){
  document.getElementById('rows').innerHTML=rows||'<tr><td colspan="9" class="kv">无数据</td></tr>';
  var rk=d['风控']||{};
  document.getElementById('risk').innerHTML='<b>平仓七条</b><ol>'+((rk['七条']||[]).map(function(x){return '<li>'+E(typeof x==='string'?x:(x['条']||JSON.stringify(x)))+'</li>'}).join('')||'<li class="kv">—</li>')+'</ol><b>铁律</b><ul>'+((rk['铁律']||[]).map(function(x){return '<li>'+E(x)+'</li>'}).join(''))+'</ul>';
+ var inn=d['内观']||{};
+ document.getElementById('inner').innerHTML='王：<b>'+E(inn['王']||'—')+'</b> <span class="kv">'+E(inn['王判']||'')+'</span><br>'+((inn['衰竭']||[]).length?('<b>衰竭前列</b>：'+(inn['衰竭']||[]).map(function(x){return '<span class="tag" style="margin:2px 4px 2px 0">'+E(x['币'])+' 衰竭'+E(x['衰竭'])+'·'+E(x['判'])+'</span>'}).join('')):'')+'<br><span class="kv">'+E(inn['注']||'')+'</span>';
  var dv=d['器况']||{};
  document.getElementById('dev').innerHTML=Object.keys(dv).map(function(k){return '<span class="tag" style="margin:2px 4px 2px 0">'+E(k)+'：'+E(dv[k])+'</span>'}).join('');
 }
