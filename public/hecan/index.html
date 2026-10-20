@@ -1,0 +1,133 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>🧬 九源合参 · 择币算法平台</title>
+<style>
+:root{--bg:#0a0d14;--fg:#e6edf3;--card:#121821;--bd:#26303d;--mut:#8b949e;--ok:#3ddc84;--warn:#ffd479;--bad:#ff6b6b;--info:#58a6ff;--gold:#ffd24a}
+body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.65 -apple-system,"PingFang SC","Microsoft Yahei",sans-serif}
+.wrap{max-width:1180px;margin:0 auto;padding:14px}
+h1{font-size:20px;margin:4px 0 2px}
+h2{font-size:15px;color:var(--gold);margin:18px 0 8px}
+.sub{color:var(--mut);font-size:12px;margin-bottom:10px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:12px 14px;margin:10px 0}
+.banner{border-radius:12px;padding:13px 16px;margin:10px 0;font-size:17px;font-weight:700;border:1px solid var(--bd)}
+.b-ok{background:rgba(61,220,132,.12);color:var(--ok);border-color:rgba(61,220,132,.45)}
+.b-warn{background:rgba(255,212,121,.12);color:var(--warn);border-color:rgba(255,212,121,.45)}
+.b-idle{background:rgba(139,148,158,.12);color:var(--mut)}
+.b-bad{background:rgba(255,107,107,.12);color:var(--bad);border-color:rgba(255,107,107,.45)}
+.banner small{display:block;font-weight:400;font-size:12px;color:var(--mut);margin-top:4px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media(max-width:720px){.grid2{grid-template-columns:1fr}}
+table{width:100%;border-collapse:collapse;font-size:12.5px}
+th,td{padding:6px 6px;border-bottom:1px solid var(--bd);text-align:left;white-space:nowrap}
+th{color:var(--mut);font-weight:500;font-size:11.5px}
+.scroll{overflow-x:auto}
+.pos{color:var(--ok);font-weight:600}.neg{color:var(--bad);font-weight:600}.warn{color:var(--warn);font-weight:600}.dim{color:var(--mut)}
+.tag{display:inline-block;padding:1px 7px;border-radius:99px;font-size:11px;border:1px solid var(--bd);margin:2px 4px 2px 0}
+.pill{display:inline-block;padding:2px 9px;border-radius:99px;background:rgba(88,166,255,.15);color:var(--info);font-size:11px}
+.btns{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
+.btn{display:inline-block;text-decoration:none;background:var(--card);border:1px solid var(--bd);color:var(--fg);border-radius:9px;padding:6px 12px;font-size:13px}
+.btn:hover{border-color:var(--info)}
+ol,ul{padding-left:18px;margin:6px 0}li{margin:3px 0}
+.f{color:var(--mut);font-size:11px;text-align:center;margin:18px 0}
+.rank{font-weight:700}
+.r1{color:var(--gold)}.r2{color:#c9d1d9}.r3{color:#d29922}
+</style></head><body><div class="wrap">
+<h1>🧬 九源合参 · 择币算法平台</h1>
+<div class="sub">玄武灵犀数智金融生命体 · 大脑显化 ｜ 九源加权合参 6 秒一拍 ｜ 只判不下单 ｜ 更新 <span id="ts">—</span></div>
+<div class="btns">
+<a class="btn" id="nv-w" href="sub_wuzei.html">☯ 观星台（北斗七器）</a>
+<a class="btn" id="nv-d" href="sub_duokong.html">📊 多空信号源×五行</a>
+<a class="btn" id="nv-x" href="sub_xinhao.html">⚔️ 信号台（判决页）</a>
+<a class="btn" id="nv-z" href="sub_yizhan.html">🚀 一站式总台</a>
+<a class="btn" href="#" onclick="tick();return false">🔄 立即刷新</a>
+</div>
+
+<div id="banner" class="banner b-idle">载入中…</div>
+
+<div class="grid2">
+  <div class="card"><b>🏆 多榜 · 登科榜（实时）</b><div id="bl" class="dim" style="font-size:12px;margin:4px 0">—</div><div class="scroll"><table><thead><tr><th>名次</th><th>币</th><th>判</th><th>合力</th><th>在位</th><th>最长</th><th>登榜</th></tr></thead><tbody id="blrows"></tbody></table></div></div>
+  <div class="card"><b>🏆 空榜 · 登科榜（实时）</b><div id="bs" class="dim" style="font-size:12px;margin:4px 0">—</div><div class="scroll"><table><thead><tr><th>名次</th><th>币</th><th>判</th><th>合力</th><th>在位</th><th>最长</th><th>登榜</th></tr></thead><tbody id="bsrows"></tbody></table></div></div>
+</div>
+
+<h2>一、九源矩阵（谁在供数据 · 谁断了）</h2>
+<div class="card scroll"><table><thead><tr><th>序</th><th>源</th><th>角色</th><th>权重</th><th>本拍参与</th><th>新鲜度</th></tr></thead><tbody id="src"></tbody></table>
+<div class="dim" style="font-size:11.5px;margin-top:6px">新鲜度：绿≤90秒 · 黄≤600秒 · 红＝断链。断源不得靠旧值凑数。</div></div>
+
+<h2>二、逐币合参全表</h2>
+<div class="card scroll"><table><thead><tr><th>币</th><th>判</th><th>向</th><th>合力</th><th>真伪</th><th>六所</th><th>触突</th><th>神经净</th><th>大脑信</th><th>五行</th><th>四态</th><th>理由</th></tr></thead><tbody id="rows"></tbody></table></div>
+
+<h2>三、算法口径（专业参考）</h2>
+<div class="card">
+<div class="dim" style="font-size:12.5px"><b style="color:var(--fg)">合力式</b>：S ＝ Σ wi·di（di＝+1多／−1空／0无向），理论满值 <b>9.6</b>。</div>
+<div class="scroll" style="margin-top:8px"><table><thead><tr><th>序</th><th>源</th><th>权重 wi</th><th>角色</th><th>取权规则</th></tr></thead><tbody>
+<tr><td>①</td><td>六所同币</td><td>±2.0 / ±1.2</td><td>投票＋硬否决</td><td>同向≥5家取2.0；反向≥4家一票否决</td></tr>
+<tr><td>②</td><td>触突神经元</td><td>±1.5 / ±1.0</td><td>投票</td><td>对齐≥3取1.5；死叉逆向合力×0.6</td></tr>
+<tr><td>③</td><td>天眼辨真伪</td><td>+1.0</td><td>硬证</td><td>真伪≥0.75加分；≤0.30判伪废；0.30~0.55封顶待确认</td></tr>
+<tr><td>④</td><td>神经网络</td><td>±1.0</td><td>投票</td><td>|净|≥0.01 才计</td></tr>
+<tr><td>⑤</td><td>烛龙大脑</td><td>±1.5</td><td>投票</td><td>信度≥0.85 且有向才计</td></tr>
+<tr><td>⑥</td><td>五行四票</td><td>±0.8</td><td>投票</td><td>按净票（开明/白虎/择强/烛龙）</td></tr>
+<tr><td>⑦</td><td>相位表</td><td>+0.5</td><td>硬证＋否决</td><td>顺加分；「反」一票否决</td></tr>
+<tr><td>⑧</td><td>白虎哨探</td><td>±0.8</td><td>投票</td><td>|盘口失衡|≥0.5</td></tr>
+<tr><td>⑨</td><td>五行生克</td><td>+0.5 / −0.5</td><td>修正</td><td>系数≥1.2加·≤0.7减</td></tr>
+</tbody></table></div>
+<div class="dim" style="font-size:12.5px;margin-top:8px"><b style="color:var(--fg)">四档判决（先闸后分）</b>：禁开（任一否决闸）→ 可开仓（S≥4.5 且 天眼≥0.70 且 六所同向）→ 待确认（S≥2.5·火力0）→ 静默（S<2.5 或多空抵消）。</div>
+<div class="dim" style="font-size:12.5px;margin-top:4px"><b style="color:var(--fg)">火力</b>：min(1.0, 0.35+0.10×(S−4.5)) × 时段系数（评级好=1.0，其余=0.6）。</div>
+<div class="dim" style="font-size:12.5px;margin-top:4px"><b style="color:var(--fg)">登科榜口径</b>：多/空各一榜，只收「向已定且判决∈{可开仓,待确认}」；排序＝判决优先（可开仓在前）→合力→真伪。状元＝可开仓，无达标即虚位（宁缺毋滥）。在位＝连续在榜时长，落榜清零重计。</div>
+<div class="dim" style="font-size:11.5px;margin-top:8px"><span class="pill">v1.0 · 算力大脑自生演化 · 打磨中 · 准确性待验证 · 专利交底暂缓 · 代码指纹 <b id="fp">—</b></span></div>
+</div>
+
+<h2>四、风控铁律（本平台不越界）</h2>
+<div class="card"><div id="risk" class="dim" style="font-size:12.5px">—</div></div>
+
+<div class="f">九源合参 · 择币算法平台 ｜ 只读显形 · 绝不下单 · 不改判定链 · 不动真钱 ｜ 玄武灵犀</div>
+</div>
+<script>
+function E(s){return String(s==null?'':s).replace(/[&<>]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c]})}
+var VM={'可开仓':'b-ok','待确认':'b-warn','静默':'b-idle','禁开':'b-bad','应静默':'b-idle'};
+var VT={'可开仓':'pos','待确认':'warn','静默':'dim','禁开':'neg'};
+var SRC=[['①','六所同币信号','投票+否决','±2.0/±1.2','六所'],['②','触突神经元','投票','±1.5/±1.0','触突'],
+['③','天眼辨真伪','硬证','+1.0','天眼'],['④','神经网络','投票','±1.0','神经'],['⑤','烛龙大脑','投票','±1.5','大脑'],
+['⑥','五行四票','投票','±0.8','多空五行'],['⑦','相位表','硬证+否决','+0.5','相位'],['⑧','白虎哨盘','投票','±0.8','白虎'],
+['⑨','五行生克','修正','+0.5/−0.5','多空五行']];
+function ageCls(v){return v==null?'dim':(v<=90?'pos':(v<=600?'warn':'neg'))}
+function draw(d){
+ var p=d['平台']||{},b=document.getElementById('banner');
+ b.className='banner '+(VM[p['判决']]||'b-idle');
+ b.innerHTML=E(p['判决']||'—')+'：'+E(p['一句']||'')+'<small>'+(d['口径']||'')+'</small>';
+ document.getElementById('ts').textContent=d['时刻']||'—';
+ var fp=(d['口径']||'');
+ document.getElementById('fp').textContent=d['指纹']||'—';
+ var lk=d['联动']||{};
+ // 九源矩阵：本拍参与＝逐币证据里出现该源标签的币数
+ var rows=d['逐币']||[];
+ var cnt={};SRC.forEach(function(s){cnt[s[4]]=0});
+ rows.forEach(function(r){(r['证据']||[]).forEach(function(e){
+  if(/六所/.test(e))cnt['六所']++;else if(/触突/.test(e))cnt['触突']++;else if(/天眼/.test(e))cnt['天眼']++;
+  else if(/神经/.test(e))cnt['神经']++;else if(/大脑/.test(e))cnt['大脑']++;else if(/四源票/.test(e))cnt['多空五行']++;
+  else if(/相位/.test(e))cnt['相位']++;else if(/白虎/.test(e))cnt['白虎']++;else if(/五行/.test(e))cnt['多空五行']++;
+ })});
+ document.getElementById('src').innerHTML=SRC.map(function(s){
+  var a=lk[s[4]], n=cnt[s[4]]||0;
+  return '<tr><td>'+s[0]+'</td><td><b>'+E(s[1])+'</b></td><td class="dim">'+E(s[2])+'</td><td>'+E(s[3])+'</td><td>'+(n?'<b>审'+n+'币</b>':'<span class="dim">本拍未参与</span>')+'</td><td class="'+ageCls(a)+'">'+(a==null?'断链':a+'秒')+'</td></tr>';
+ }).join('');
+ document.getElementById('rows').innerHTML=rows.map(function(r){
+  var dir=r['向']==='long'?'<span class="pos">多</span>':(r['向']==='short'?'<span class="neg">空</span>':'—');
+  return '<tr><td><b>'+E(r['币'])+'</b></td><td class="'+(VT[r['判决']]||'dim')+'">'+E(r['判决'])+'</td><td>'+dir+'</td><td><b>'+E(r['合力'])+'</b></td><td>'+E(r['真伪'])+'</td><td>'+E(r['六所'])+'</td><td>'+E(r['触突'])+'</td><td>'+E(r['神经净'])+'</td><td>'+E(r['大脑信'])+'</td><td>'+E(r['五行'])+'</td><td class="dim">'+E(r['四态'])+'</td><td class="dim" style="white-space:normal">'+E(r['理由'])+'</td></tr>';
+ }).join('')||'<tr><td colspan="12" class="dim">无数据</td></tr>';
+ var bw=d['币王榜']||{};
+ function board(k,el,tag){var x=bw[k]||{};document.getElementById(el).innerHTML='<span class="'+(x['状元状态']&&x['状元状态'].indexOf('开科')===0?'pos':'dim')+'">'+E(x['状元状态']||'—')+'</span>';
+  document.getElementById(tag).innerHTML=(x['全榜']||[]).map(function(r,i){
+   var cls=i===0?'r1':(i===1?'r2':(i===2?'r3':''));
+   return '<tr><td class="rank '+cls+'">'+E(r['名次'])+'</td><td><b>'+E(r['币'])+'</b></td><td class="'+(VT[r['判决']]||'dim')+'">'+E(r['判决'])+'</td><td>'+E(r['合力'])+'</td><td>'+E(r['在位'])+'</td><td class="dim">'+E(r['最长'])+'</td><td class="dim">'+E(r['登榜'])+'</td></tr>';
+  }).join('')||'<tr><td colspan="7" class="dim">本向无候选（宁缺毋滥）</td></tr>';}
+ board('多榜','bl','blrows');board('空榜','bs','bsrows');
+ var rk=d['风控']||{};
+ document.getElementById('risk').innerHTML='<b>铁律</b><ul>'+((rk['铁律']||[]).map(function(x){return '<li>'+E(x)+'</li>'}).join(''))+'</ul>';
+}
+function tick(){fetch('xinhao.json?t='+Date.now()).then(function(r){return r.json()}).then(draw).catch(function(){document.getElementById('banner').textContent='合参数据暂不可达（页面照常显形）'})}
+tick();setInterval(tick,6000);
+// 🌐外显路径自适应：站内(/sub/a.html) 与 外站(/hecan/ /yizhan/ /xinhao/ /duokong/ /wuzei/) 同一份代码
+(function(){var m=location.pathname.match(/\/(xinhao|duokong|wuzei|hecan|yizhan)\//);if(!m)return;
+ var fix={w:'wuzei',d:'duokong',x:'xinhao',z:'yizhan'};
+ for(var k in fix){var a=document.getElementById('nv-'+k);if(a)a.href='../'+fix[k]+'/';}})();
+</script></body></html>

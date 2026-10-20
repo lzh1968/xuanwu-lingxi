@@ -1,0 +1,90 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>🚀 一站式总台 · 玄武灵犀</title>
+<style>
+:root{--bg:#080b11;--fg:#e6edf3;--card:#121821;--bd:#26303d;--mut:#8b949e;--ok:#3ddc84;--warn:#ffd479;--bad:#ff6b6b;--info:#58a6ff;--gold:#ffd24a}
+body{margin:0;background:radial-gradient(1200px 600px at 50% -10%,#16202e 0%,var(--bg) 60%);color:var(--fg);font:15px/1.7 -apple-system,"PingFang SC","Microsoft Yahei",sans-serif;min-height:100vh}
+.wrap{max-width:1080px;margin:0 auto;padding:18px}
+h1{font-size:22px;margin:6px 0 2px;letter-spacing:1px}
+.sub{color:var(--mut);font-size:12.5px;margin-bottom:14px}
+.banner{border-radius:14px;padding:14px 18px;margin:12px 0;font-size:18px;font-weight:700;border:1px solid var(--bd)}
+.b-ok{background:rgba(61,220,132,.12);color:var(--ok);border-color:rgba(61,220,132,.45)}
+.b-warn{background:rgba(255,212,121,.12);color:var(--warn);border-color:rgba(255,212,121,.45)}
+.b-idle{background:rgba(139,148,158,.1);color:var(--mut)}
+.b-bad{background:rgba(255,107,107,.12);color:var(--bad);border-color:rgba(255,107,107,.45)}
+.banner small{display:block;font-weight:400;font-size:12px;color:var(--mut);margin-top:5px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:14px 0}
+@media(max-width:720px){.grid{grid-template-columns:1fr}}
+.st{display:block;text-decoration:none;color:var(--fg);background:var(--card);border:1px solid var(--bd);border-radius:16px;padding:18px 20px;min-height:96px}
+.st:hover{border-color:var(--info);transform:translateY(-1px)}
+.st .ic{font-size:26px}
+.st .nm{font-size:18px;font-weight:700;margin-top:4px}
+.st .ds{color:var(--mut);font-size:12.5px;margin-top:2px}
+.st .live{font-size:12px;margin-top:6px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:12px 16px;margin:12px 0}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:720px){.grid2{grid-template-columns:1fr}}
+table{width:100%;border-collapse:collapse;font-size:12.5px}
+th,td{padding:5px 6px;border-bottom:1px solid var(--bd);text-align:left;white-space:nowrap}
+th{color:var(--mut);font-size:11.5px;font-weight:500}
+.pos{color:var(--ok);font-weight:600}.neg{color:var(--bad);font-weight:600}.warn{color:var(--warn);font-weight:600}.dim{color:var(--mut)}
+.r1{color:var(--gold);font-weight:700}.r2{color:#c9d1d9;font-weight:700}.r3{color:#d29922;font-weight:700}
+.f{color:var(--mut);font-size:11px;text-align:center;margin:18px 0}
+</style></head><body><div class="wrap">
+<h1>🚀 玄武灵犀 · 一站式总台</h1>
+<div class="sub">四站一体 · 点开即用 ｜ 合参 6 秒一拍 ｜ 更新 <span id="ts">—</span></div>
+
+<div id="banner" class="banner b-idle">载入中…</div>
+
+<div class="grid">
+<a class="st" id="yv-w" href="sub_wuzei.html"><div class="ic">☯</div><div class="nm">观星台 · 北斗七器</div><div class="ds">辨势定位：五贼劫夺 / 王度 / 衰竭 / 水形 / 四诊</div><div class="live dim" id="l1">—</div></a>
+<a class="st" id="yv-d" href="sub_duokong.html"><div class="ic">📊</div><div class="nm">多空信号源 × 五行</div><div class="ds">佐证：四源四票 / 四态五行 / 生克顺逆</div><div class="live dim" id="l2">—</div></a>
+<a class="st" id="yv-h" href="sub_hecan.html"><div class="ic">🧬</div><div class="nm">九源合参 · 择币算法</div><div class="ds">合参：S＝Σwi·di / 四档判决 / 登科榜</div><div class="live dim" id="l3">—</div></a>
+<a class="st" id="yv-x" href="sub_xinhao.html"><div class="ic">⚔️</div><div class="nm">信号台 · 判决</div><div class="ds">判决：可开 / 待确认 / 静默 / 禁开 ＋ 火力</div><div class="live dim" id="l4">—</div></a>
+</div>
+
+<div class="grid2">
+<div class="card"><b>🏆 多榜 · 登科榜</b><div class="dim" id="bl" style="font-size:12px">—</div>
+<table><thead><tr><th>名次</th><th>币</th><th>判</th><th>合力</th><th>在位</th></tr></thead><tbody id="blrows"></tbody></table></div>
+<div class="card"><b>🏆 空榜 · 登科榜</b><div class="dim" id="bs" style="font-size:12px">—</div>
+<table><thead><tr><th>名次</th><th>币</th><th>判</th><th>合力</th><th>在位</th></tr></thead><tbody id="bsrows"></tbody></table></div>
+</div>
+
+<div class="card"><b>🔗 九源新鲜度</b><div class="dim" id="fr" style="font-size:12px;margin-top:4px">—</div></div>
+
+<div class="f">玄武灵犀数智金融生命体 ｜ 只读显形 · 绝不下单 · 不改判定链 ｜ 一站总台</div>
+</div>
+<script>
+function E(s){return String(s==null?'':s).replace(/[&<>]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c]})}
+var VM={'可开仓':'b-ok','待确认':'b-warn','静默':'b-idle','禁开':'b-bad','应静默':'b-idle'};
+var VT={'可开仓':'pos','待确认':'warn','静默':'dim','禁开':'neg'};
+function ac(v){return v==null?'neg':(v<=90?'pos':(v<=600?'warn':'neg'))}
+function draw(d){
+ var p=d['平台']||{},s=d['汇总']||{},b=document.getElementById('banner');
+ b.className='banner '+(VM[p['判决']]||'b-idle');
+ b.innerHTML=E(p['判决']||'—')+'：'+E(p['一句']||'')+'<small>可开 '+s['可开']+' ｜ 待确认 '+s['待确认']+' ｜ 静默 '+s['静默']+' ｜ 禁开 '+s['禁开']+' ｜ '+E(d['时刻']||'')+'</small>';
+ document.getElementById('ts').textContent=d['时刻']||'—';
+ var bw=d['币王榜']||{};
+ function bd(k,t,el){var x=bw[k]||{};document.getElementById(t).innerHTML=E(x['状元状态']||'—');
+  document.getElementById(el).innerHTML=(x['全榜']||[]).slice(0,4).map(function(r,i){
+   return '<tr><td class="'+(i===0?'r1':(i===1?'r2':(i===2?'r3':'')))+'">'+E(r['名次'])+'</td><td><b>'+E(r['币'])+'</b></td><td class="'+(VT[r['判决']]||'dim')+'">'+E(r['判决'])+'</td><td>'+E(r['合力'])+'</td><td>'+E(r['在位'])+'</td></tr>';
+  }).join('')||'<tr><td colspan="5" class="dim">本向无候选（宁缺毋滥）</td></tr>';}
+ bd('多榜','bl','blrows');bd('空榜','bs','bsrows');
+ var lk=d['联动']||{},k=Object.keys(lk);
+ document.getElementById('fr').innerHTML=k.map(function(x){var v=lk[x];return '<span class="'+ac(v)+'" style="margin-right:10px">'+E(x)+' '+(v==null?'断链':v+'秒')+'</span>'}).join('');
+ // 站点脉冲：合参新鲜度决定“活/滞”
+ var age=lk['六所'];
+ var st=age==null?'⚠ 断链':(age<=30?'● 实时':(age<=90?'● 正常':'○ 滞后'));
+ var map={'l1':'观星台 '+ (d['内观']&&d['内观']['时刻']?d['内观']['时刻'].slice(11):'—'),
+          'l2':'多空五行 '+(lk['多空五行']==null?'断链':lk['多空五行']+'秒前'),
+          'l3':'合参 '+st+' · '+(s['可开']||0)+' 可开',
+          'l4':'六所 '+(lk['六所']==null?'断链':lk['六所']+'秒 · 有向'+((d['器况']||{})['六所']||''))};
+ for(var id in map){var el=document.getElementById(id);if(el)el.textContent=map[id];}
+}
+function tick(){fetch('xinhao.json?t='+Date.now()).then(function(r){return r.json()}).then(draw).catch(function(){document.getElementById('banner').textContent='合参数据暂不可达'})}
+tick();setInterval(tick,6000);
+// 🌐外显路径自适应：站内(/sub/a.html) 与 外站(/yizhan/ /hecan/ /xinhao/ /duokong/ /wuzei/)
+(function(){var m=location.pathname.match(/\/(xinhao|duokong|wuzei|hecan|yizhan)\//);if(!m)return;
+ var fix={w:'wuzei',d:'duokong',h:'hecan',x:'xinhao'};
+ for(var k in fix){var a=document.getElementById('yv-'+k);if(a)a.href='../'+fix[k]+'/';}})();
+</script></body></html>
