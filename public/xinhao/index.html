@@ -30,8 +30,16 @@ button{background:var(--card);color:var(--fg);border:1px solid var(--bd);border-
 ol,ul{padding-left:18px;margin:6px 0}li{margin:3px 0}
 .f{color:var(--mut);font-size:11px;text-align:center;margin:16px 0}
 .hd{display:flex;justify-content:space-between;align-items:center}
+.btns{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 8px}
+.btns a{display:inline-block;text-decoration:none;background:var(--card);border:1px solid var(--bd);color:var(--fg);border-radius:9px;padding:5px 11px;font-size:13px}
+.fr{display:inline-block;padding:1px 7px;border-radius:99px;font-size:11px;margin:2px 4px 2px 0;border:1px solid var(--bd)}
 </style></head><body><div class="wrap">
 <div class="hd"><h1>⚔️ 信号台 · 九源合参</h1><button onclick="tg()">🌓 昼/夜</button></div>
+<div class="btns">
+<a id="nv-wuzei" href="sub_wuzei.html">☯ 观星台（五贼七器）</a>
+<a id="nv-duokong" href="sub_duokong.html">📊 多空信号源×五行</a>
+<a href="#" onclick="tick();return false">🔄 立即刷新</a>
+</div>
 <div class="sub">六所同币 · 触突神经元 · 天眼辨真伪 · 神经网络 · 算力大脑 · 五行四票 · 相位 · 白虎盘口 · 币王令 ｜ 更新 <span id="ts">—</span></div>
 
 <div id="banner" class="banner b-idle">载入中…</div>
@@ -61,6 +69,8 @@ ol,ul{padding-left:18px;margin:6px 0}li{margin:3px 0}
 </ol></div>
 
 <div class="card"><b>🛡 风控</b><div id="risk" class="kv"></div></div>
+
+<div class="card"><b>🔗 九源联动 · 新鲜度</b><div class="kv" style="font-size:12px;margin-bottom:4px">秒数＝该源数据多久前更新（自报·只读）。绿≤90秒 · 黄≤600秒 · 红＝断链。</div><div id="link" class="kv" style="font-size:12px">—</div></div>
 
 <div class="card"><b>🔌 九源在岗</b><div id="dev" class="kv" style="font-size:12px"></div></div>
 
@@ -101,7 +111,17 @@ function draw(d){
  document.getElementById('inner').innerHTML='王：<b>'+E(inn['王']||'—')+'</b> <span class="kv">'+E(inn['王判']||'')+'</span><br>'+((inn['衰竭']||[]).length?('<b>衰竭前列</b>：'+(inn['衰竭']||[]).map(function(x){return '<span class="tag" style="margin:2px 4px 2px 0">'+E(x['币'])+' 衰竭'+E(x['衰竭'])+'·'+E(x['判'])+'</span>'}).join('')):'')+'<br><span class="kv">'+E(inn['注']||'')+'</span>';
  var dv=d['器况']||{};
  document.getElementById('dev').innerHTML=Object.keys(dv).map(function(k){return '<span class="tag" style="margin:2px 4px 2px 0">'+E(k)+'：'+E(dv[k])+'</span>'}).join('');
+ var lk=d['联动']||{},keys=Object.keys(lk);
+ document.getElementById('link').innerHTML=keys.length?keys.map(function(k){return fr(k,lk[k])}).join(''):'<span class="v-idle">暂无</span>';
 }
+// 🔗 互联互通：站内(local 同目录) 与 外显(github /xinhao/ 同级目录) 自适应互链
+(function(){var m=location.pathname.match(/\/(xinhao|duokong|wuzei)\//);
+ function L(t){return m?('../'+t+'/'):('sub_'+t+'.html');}
+ var a=document.getElementById('nv-wuzei'),b=document.getElementById('nv-duokong');
+ if(a)a.href=L('wuzei'); if(b)b.href=L('duokong');})();
+function fr(k,v){ if(v==null)return '<span class="fr v-idle">'+E(k)+' 无数据</span>';
+ var c=v<=90?'v-ok':(v<=600?'v-warn':'v-bad');
+ return '<span class="fr '+c+'">'+E(k)+' '+v+'秒</span>';}
 function tick(){fetch('xinhao.json?t='+Date.now()).then(function(r){return r.json()}).then(draw).catch(function(){})}
 tick();setInterval(tick,6000);
 </script></body></html>
