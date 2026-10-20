@@ -1,9 +1,33 @@
 {
- "generated": "00:01",
- "built": "2026-10-21 00:01:22",
- "count": 310,
+ "generated": "00:09",
+ "built": "2026-10-21 00:09:12",
+ "count": 311,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "https://llm-d.ai/blog/llm-d-v1.0-state-of-the-art-inference-ready-for-day-2",
+   "url": "https://llm-d.ai/blog/llm-d-v1.0-state-of-the-art-inference-ready-for-day-2",
+   "src": "Hacker News",
+   "t": "00:07",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "反检查–当AI 智能体说“完成”时重新运行您的测试",
+   "url": "https://github.com/datacrate360/countercheck",
+   "src": "Hacker News",
+   "t": "00:05",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "为什么抓取对AI 智能体来说还不够，以及DNS验证的配置文件如何提供帮助",
+   "url": "https://github.com/skindotorg/foundation/blob/main/publishing-for-ai-agents.md",
+   "src": "Hacker News",
+   "t": "23:59",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Show HN：座席存档– Claude Code和Codex的会话切换和备份",
@@ -45,30 +69,6 @@
    "fresh": true
   },
   {
-   "type": "live",
-   "title": "The Honest Raw LLM代码审核基准：21个模型，7,980个审核",
-   "url": "https://ironbee.ai/blog/the-honest-raw-llm-code-review-benchmark",
-   "src": "Hacker News",
-   "t": "22:56",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Multica的非官方Android应用程序，AI编码代理任务板",
-   "url": "https://github.com/1270011/multica-android-unofficial",
-   "src": "Hacker News",
-   "t": "22:54",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "FastAPI流租赁–限制并发SSE/LLM流，而不是请求/分钟",
-   "url": "https://github.com/agustin18/fastapi-stream-lease",
-   "src": "Hacker News",
-   "t": "22:48",
-   "fresh": true
-  },
-  {
    "type": "article",
    "title": "今日辑要 · 2026-10-21（前沿 12 条）",
    "url": "a/digest-20261021.html",
@@ -81,6 +81,14 @@
    "title": "睡觉时，大脑在忙什么？",
    "url": "a/note-20261021-10.html",
    "src": "灵犀手记",
+   "t": "2026-10-21",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "园子为什么要留白？",
+   "url": "a/note-20261021-11.html",
+   "src": "华夏哲学 · 阴阳五行",
    "t": "2026-10-21",
    "fresh": false
   },
@@ -105,14 +113,6 @@
    "title": "睡觉时，大脑在忙什么？",
    "url": "a/note-20261020-10.html",
    "src": "灵犀手记",
-   "t": "2026-10-20",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "园子为什么要留白？",
-   "url": "a/note-20261020-11.html",
-   "src": "华夏哲学 · 阴阳五行",
    "t": "2026-10-20",
    "fresh": false
   }
