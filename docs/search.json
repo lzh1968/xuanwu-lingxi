@@ -1,6 +1,6 @@
 {
- "built": "2026-10-20 23:13:47",
- "count": 346,
+ "built": "2026-10-20 23:39:32",
+ "count": 350,
  "items": [
   {
    "t": "仿生理论 · 人脑映射（左脑·右脑·小脑·胼胝体）",
@@ -2483,6 +2483,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Jev models make agents faster. Hooked control planes steal the difference",
+   "u": "https://pentad.ai/PLRN/031/",
+   "s": "外网新声·Hacker News",
+   "d": "23:31",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Launch HN: Respan (YC W24) – Open-source Rust AI gateway built around plugins",
    "u": "https://news.ycombinator.com/item?id=50167583",
    "s": "外网新声·Hacker News",
@@ -2563,18 +2571,66 @@
    "x": ""
   },
   {
-   "t": "Show HN: Reverse Captcha, prove your agent is AI",
-   "u": "https://rcaptcha.vaultless.dev",
-   "s": "外网新声·Hacker News",
-   "d": "22:05",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Show HN: Tori by TalkJS. AI support that's actually good",
    "u": "https://asktori.ai",
    "s": "外网新声·Hacker News",
    "d": "21:45",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "15:37",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
+   "u": "https://github.com/morluto/rea",
+   "s": "外网新声·GitHub 新星",
+   "d": "15:36",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "obra/superpowers —有效的代理技能框架和软件开发方法。",
+   "u": "https://github.com/obra/superpowers",
+   "s": "外网新声·GitHub 新星",
+   "d": "15:30",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "15:20",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
+   "s": "外网新声·GitHub 新星",
+   "d": "15:04",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
+   "u": "https://github.com/affaan-m/ECC",
+   "s": "外网新声·GitHub 新星",
+   "d": "14:51",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
+   "s": "外网新声·GitHub 新星",
+   "d": "14:06",
    "k": "",
    "x": ""
   },
@@ -2627,146 +2683,122 @@
    "x": ""
   },
   {
-   "t": "“我们看错了”：颠覆人工智能世界的爆炸性主张",
-   "u": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "17:45",
+   "t": "OpenVLHarness: Real World Visual Agentic Tool-Use with Multimodal Memory",
+   "u": "https://arxiv.org/abs/2610.26860v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:59",
    "k": "",
    "x": ""
   },
   {
-   "t": "人工智能研究人员将克劳德困在一个虚拟的荒岛上。它开始“玩耍”。",
-   "u": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "09:08",
+   "t": "Reinforcement Learning with Visually Attributable On-Policy Self-Distillation",
+   "u": "https://arxiv.org/abs/2610.26856v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:59",
    "k": "",
    "x": ""
   },
   {
-   "t": "长视野多智能体系统的对抗性压力测试",
-   "u": "https://arxiv.org/abs/2609.17320",
-   "s": "外网新声·Hacker News",
-   "d": "13:09",
+   "t": "CoopUQ: Robust Multi-Robot Social Navigation via Uncertainty-Aware Cooperative Forecasting",
+   "u": "https://arxiv.org/abs/2610.26852v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:59",
    "k": "",
    "x": ""
   },
   {
-   "t": "客服代表角色>客服代表目标：使用多客服代表基准工具进行案例研究",
-   "u": "https://jonathanwmaddison.github.io/loombench/",
-   "s": "外网新声·Hacker News",
-   "d": "06:30",
+   "t": "Where is Physical RSI capability from? An Observational Scaling Law of LLM-as-policy",
+   "u": "https://arxiv.org/abs/2610.26848v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:59",
    "k": "",
    "x": ""
   },
   {
-   "t": "用于Rust中多代理系统的MIT许可Rust框架",
-   "u": "https://emillindfors.github.io/a2a-rs/",
-   "s": "外网新声·Hacker News",
-   "d": "23:14",
+   "t": "WeAct: Dynamic Weight Switching as Agent Actions",
+   "u": "https://arxiv.org/abs/2610.26847v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:59",
    "k": "",
    "x": ""
   },
   {
-   "t": "Loombench：一种观察多Agent系统行为的方法",
-   "u": "https://jonathanwmaddison.github.io/loombench/",
-   "s": "外网新声·Hacker News",
-   "d": "11:03",
+   "t": "Train An Imaginative Agent",
+   "u": "https://arxiv.org/abs/2610.26845v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:59",
    "k": "",
    "x": ""
   },
   {
-   "t": "如何对多Agent系统进行仪表化以实现完整的因果关系谱系",
-   "u": "https://medium.com/@MirArshadTalpur/how-to-instrument-a-multi-agent-system-for-complete-causal-lineage-e75d61150f9b",
-   "s": "外网新声·Hacker News",
-   "d": "03:38",
+   "t": "AnyGoal: On World Model Generalization Beyond Expert Rollouts",
+   "u": "https://arxiv.org/abs/2610.26844v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:59",
    "k": "",
    "x": ""
   },
   {
-   "t": "客服代表团队有回报吗？ Vibe Code Bench案例研究",
-   "u": "https://www.vals.ai/blogs/multi-agent-vibe-code-bench",
-   "s": "外网新声·Hacker News",
-   "d": "22:38",
+   "t": "LatComm: Reusable Context Compression for Latent Communication between Large Language Models",
+   "u": "https://arxiv.org/abs/2610.26840v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:58",
    "k": "",
    "x": ""
   },
   {
-   "t": "Gemini 4 Argon机器人",
-   "u": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "16:01",
+   "t": "Same Simulation, Different Evidence: Where Retrieved Tool Output Costs LLM Agents Accuracy",
+   "u": "https://arxiv.org/abs/2610.26836v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:57",
    "k": "",
    "x": ""
   },
   {
-   "t": "机器人领域的人工智能突破不会很快改变你的生活",
-   "u": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "09:00",
+   "t": "Kronecker Delta Rule for Long Context Linear Attention",
+   "u": "https://arxiv.org/abs/2610.26834v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:56",
    "k": "",
    "x": ""
   },
   {
-   "t": "EmbeddingGemma 2：开放、轻量级的多模态嵌入模型",
-   "u": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "19:57",
+   "t": "ProteinGeoBench: Frontier Structural-Biology Agents Are Fluent at Lookup but Lost in Geometry",
+   "u": "https://arxiv.org/abs/2610.26829v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:55",
    "k": "",
    "x": ""
   },
   {
-   "t": "使用安全的服务器端内存推进专用AI计算",
-   "u": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "16:00",
+   "t": "Agent World Model in the Wild: Computer-Use Agent Environment Synthesis",
+   "u": "https://arxiv.org/abs/2610.26828v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:55",
    "k": "",
    "x": ""
   },
   {
-   "t": "TangSengDaoDao/TangSengDaoDaoServer — 高颜值 IM 即时通讯,聊天",
-   "u": "https://github.com/TangSengDaoDao/TangSengDaoDaoServer",
-   "s": "外网新声·GitHub 新星",
-   "d": "08:13",
+   "t": "RefCraft: Benchmarking Visual-Reference-Conditioned Agentic Generation through Web Development",
+   "u": "https://arxiv.org/abs/2610.26826v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:55",
    "k": "",
    "x": ""
   },
   {
-   "t": "通过Gemini介绍代理视频理解",
-   "u": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "17:08",
+   "t": "MemT-1.0: Towards Memory-Native Evolution",
+   "u": "https://arxiv.org/abs/2610.26825v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:54",
    "k": "",
    "x": ""
   },
   {
-   "t": "试行全球首个双盲人工智能评估",
-   "u": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "12:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "nutzam/nutz — Nutz —适用于所有Java开发人员的Web框架（ Mvc/Ioc/Aop/DAO/Json ）",
-   "u": "https://github.com/nutzam/nutz",
-   "s": "外网新声·GitHub 新星",
-   "d": "03:17",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Dapp-Learning-DAO/Dapp-Learning —面向所有阶段开发人员的Dapp学习项目。成为和培养主权国家",
-   "u": "https://github.com/Dapp-Learning-DAO/Dapp-Learning",
-   "s": "外网新声·GitHub 新星",
-   "d": "11:30",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "greenrobot/greenDAO — greenDAO是适用于Android的轻型快速ORM解决方案，可将对象映射到SQLite数据库。",
-   "u": "https://github.com/greenrobot/greenDAO",
-   "s": "外网新声·GitHub 新星",
-   "d": "05:30",
+   "t": "AfriBED: a Speech Recognition Bias Evaluation Dataset for Low Resource African Languages",
+   "u": "https://arxiv.org/abs/2610.26821v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:53",
    "k": "",
    "x": ""
   }
