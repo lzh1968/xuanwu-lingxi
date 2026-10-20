@@ -44,6 +44,10 @@ ol,ul{padding-left:18px;margin:6px 0}li{margin:3px 0}
 
 <div id="banner" class="banner b-idle">载入中…</div>
 
+<div class="card" style="border-left:3px solid var(--info)"><b>📏 准确性（自证·不吹）</b>
+<div class="dim" style="font-size:12px;margin-top:4px">口径：合参判「可开仓/待确认」→ <b>60 分钟</b>后同源价结算；|涨跌|&lt;0.05% 算中性不计；同币未结算前不重投。<br>样本自 2026-10-21 00:55 起累积，满 60 分钟才出第一批数——所以说“准不准”现在还没资格，等数字。</div>
+<div id="acc" style="font-size:13px;margin-top:6px">—</div></div>
+
 <div class="grid2">
   <div class="card"><b>🏆 多榜 · 登科榜（实时）</b><div id="bl" class="dim" style="font-size:12px;margin:4px 0">—</div><div class="scroll"><table><thead><tr><th>名次</th><th>币</th><th>判</th><th>合力</th><th>在位</th><th>最长</th><th>登榜</th></tr></thead><tbody id="blrows"></tbody></table></div></div>
   <div class="card"><b>🏆 空榜 · 登科榜（实时）</b><div id="bs" class="dim" style="font-size:12px;margin:4px 0">—</div><div class="scroll"><table><thead><tr><th>名次</th><th>币</th><th>判</th><th>合力</th><th>在位</th><th>最长</th><th>登榜</th></tr></thead><tbody id="bsrows"></tbody></table></div></div>
@@ -123,6 +127,10 @@ function draw(d){
  board('多榜','bl','blrows');board('空榜','bs','bsrows');
  var rk=d['风控']||{};
  document.getElementById('risk').innerHTML='<b>铁律</b><ul>'+((rk['铁律']||[]).map(function(x){return '<li>'+E(x)+'</li>'}).join(''))+'</ul>';
+ var ac=d['准确']||{};
+ var f=ac['分档']||{},parts=[];
+ for(var kk in f){var v=f[kk];parts.push('<span class="tag">'+E(kk)+' 样本'+E(v['样本'])+' · 命中率'+(v['命中率%']==null?'—':E(v['命中率%'])+'%')+'</span>')}
+ document.getElementById('acc').innerHTML='总样本 <b>'+E(ac['总样本']==null?'0':ac['总样本'])+'</b> ｜ 总命中率 <b>'+(ac['总命中率%']==null?'待累积':E(ac['总命中率%'])+'%')+'</b> '+(parts.join(' ')||'<span class="dim">尚无已结算样本</span>');
 }
 function tick(){fetch('xinhao.json?t='+Date.now()).then(function(r){return r.json()}).then(draw).catch(function(){document.getElementById('banner').textContent='合参数据暂不可达（页面照常显形）'})}
 tick();setInterval(tick,6000);
