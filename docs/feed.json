@@ -1,9 +1,25 @@
 {
- "generated": "11:01",
- "built": "2026-10-20 11:01:08",
+ "generated": "11:50",
+ "built": "2026-10-20 11:50:36",
  "count": 308,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Should agent-memory benchmarks test stale information?",
+   "url": "https://agentmemories.ai/home",
+   "src": "Hacker News",
+   "t": "11:46",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Refuseless: Open and Abliterated LLMs",
+   "url": "https://refuseless.com",
+   "src": "Hacker News",
+   "t": "11:45",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Show HN: Search for AI-agents and usefulness score",
@@ -18,7 +34,7 @@
    "url": "https://spinozalabs.ai/software",
    "src": "Hacker News",
    "t": "09:35",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -38,14 +54,6 @@
   },
   {
    "type": "live",
-   "title": "WhatsApp的帮助页面隐藏了LLM说明：不推荐监管机构",
-   "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
-   "src": "Hacker News",
-   "t": "07:22",
-   "fresh": false
-  },
-  {
-   "type": "live",
    "title": "分析AI Agent技能的攻击面",
    "url": "https://arxiv.org/abs/2610.19264",
    "src": "Hacker News",
@@ -58,14 +66,6 @@
    "url": "https://goteleport.com/blog/ai-agent-swarm-security-lessons/",
    "src": "Hacker News",
    "t": "05:38",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "范围：人工智能编码智能体的开源评估",
-   "url": "https://opensource.microsoft.com/blog/2026/10/19/introducing-scope-open-source-evaluation-for-ai-coding-agents/",
-   "src": "Hacker News",
-   "t": "04:57",
    "fresh": false
   },
   {
