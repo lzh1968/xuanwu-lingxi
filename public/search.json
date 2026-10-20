@@ -1,5 +1,5 @@
 {
- "built": "2026-10-20 22:44:05",
+ "built": "2026-10-20 22:51:23",
  "count": 350,
  "items": [
   {
@@ -2483,6 +2483,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "FastAPI-stream-lease – Limit concurrent SSE/LLM streams instead of req/min",
+   "u": "https://github.com/agustin18/fastapi-stream-lease",
+   "s": "外网新声·Hacker News",
+   "d": "22:48",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Ask HN: Are there any programming positions that are safe from AI?",
    "u": "https://news.ycombinator.com/item?id=50166914",
    "s": "外网新声·Hacker News",
@@ -2563,34 +2571,10 @@
    "x": ""
   },
   {
-   "t": "Sóþspell is an LLM-guided walkthrough of any git repo",
-   "u": "https://github.com/anthonyclarka2/sothspell",
-   "s": "外网新声·Hacker News",
-   "d": "20:43",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN: SentinelGate – Drop prompt injections at Token 0 before LLM inference",
-   "u": "https://sentinelgate.dev",
-   "s": "外网新声·Hacker News",
-   "d": "20:38",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Model weights can be exfiltrated through an LLM API's token choices",
-   "u": "https://weights-exfil.github.io/model-weights-exfiltration/",
-   "s": "外网新声·Hacker News",
-   "d": "20:25",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
    "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
-   "d": "14:43",
+   "d": "14:50",
    "k": "",
    "x": ""
   },
@@ -2598,7 +2582,23 @@
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "14:42",
+   "d": "14:49",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
+   "u": "https://github.com/affaan-m/ECC",
+   "s": "外网新声·GitHub 新星",
+   "d": "14:48",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
+   "s": "外网新声·GitHub 新星",
+   "d": "14:45",
    "k": "",
    "x": ""
   },
@@ -2611,6 +2611,30 @@
    "x": ""
   },
   {
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
+   "s": "外网新声·GitHub 新星",
+   "d": "14:06",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
+   "u": "https://github.com/IBAX-io/go-ibax",
+   "s": "外网新声·GitHub 新星",
+   "d": "10:48",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "A visit to Samsung’s massive new semiconductor hub",
+   "u": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "09:00",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "obra/superpowers —有效的代理技能框架和软件开发方法。",
    "u": "https://github.com/obra/superpowers",
    "s": "外网新声·GitHub 新星",
@@ -2619,10 +2643,10 @@
    "x": ""
   },
   {
-   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
-   "u": "https://github.com/affaan-m/ECC",
+   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "u": "https://github.com/Dao-AILab/flash-attention",
    "s": "外网新声·GitHub 新星",
-   "d": "03:39",
+   "d": "04:38",
    "k": "",
    "x": ""
   },
@@ -2639,6 +2663,14 @@
    "u": "https://github.com/EmilLindfors/a2a-rs",
    "s": "外网新声·Hacker News",
    "d": "23:23",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "让智能体的互联网变得更好，可能会让其他人变得更糟",
+   "u": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "18:22",
    "k": "",
    "x": ""
   },
@@ -2747,6 +2779,14 @@
    "x": ""
   },
   {
+   "t": "MemT-1.0: Towards Memory-Native Evolution",
+   "u": "https://arxiv.org/abs/2610.26825v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:54",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "AfriBED: a Speech Recognition Bias Evaluation Dataset for Low Resource African Languages",
    "u": "https://arxiv.org/abs/2610.26821v1",
    "s": "外网新声·arXiv cs.AI",
@@ -2755,50 +2795,10 @@
    "x": ""
   },
   {
-   "t": "SOMA: Continuous Monitoring and Intervention for System Two Reasoning with System One Models",
-   "u": "https://arxiv.org/abs/2610.26793v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:40",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "LG-Bench: A Graph-Structured Evaluation Benchmark for Life Sciences",
-   "u": "https://arxiv.org/abs/2610.26787v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:38",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Game of Phones: Harnessing Game Theory and LLMs in 'Bot Wars' to Counteract Phone Scams",
-   "u": "https://arxiv.org/abs/2610.26781v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:35",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "TokenGate: Adapting LLMs for Fast and Memory-Efficient Prefill with Learned Token Pruning",
-   "u": "https://arxiv.org/abs/2610.26754v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:15",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
-   "u": "https://github.com/mattpocock/skills",
-   "s": "外网新声·GitHub 新星",
-   "d": "15:52",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "长视野多智能体系统的对抗性压力测试",
-   "u": "https://arxiv.org/abs/2609.17320",
-   "s": "外网新声·Hacker News",
-   "d": "13:09",
+   "t": "Scaling Parameter-Efficient Fine-Tuning for Brain Encoding",
+   "u": "https://arxiv.org/abs/2610.26802v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:46",
    "k": "",
    "x": ""
   }
