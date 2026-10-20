@@ -2,14 +2,14 @@
  "日期": "2026-10-20",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-20 13:14:02",
-  "chosen": "ATOM short",
+  "updated": "2026-10-20 13:36:08",
+  "chosen": "TIA short",
   "nodes": [
    {
-    "coin": "ATOM",
+    "coin": "TIA",
     "side": "short",
-    "align": 3,
-    "embryo": 1.89
+    "align": 1,
+    "embryo": 1.8
    },
    {
     "coin": "BTC",
@@ -120,13 +120,13 @@
     "embryo": 0.0
    },
    {
-    "coin": "TIA",
+    "coin": "WLFI",
     "side": "",
     "align": 0,
     "embryo": 0.0
    },
    {
-    "coin": "WLFI",
+    "coin": "ATOM",
     "side": "",
     "align": 0,
     "embryo": 0.0
