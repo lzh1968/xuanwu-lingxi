@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-20",
- "落盘": "2026-10-20 20:38:19",
+ "落盘": "2026-10-20 20:41:45",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "Show HN: SentinelGate – Drop prompt injections at Token 0 before LLM inference",
+   "url": "https://sentinelgate.dev",
+   "type": "live"
+  },
   {
    "title": "Model weights can be exfiltrated through an LLM API's token choices",
    "url": "https://weights-exfil.github.io/model-weights-exfiltration/",
@@ -37,11 +42,6 @@
   {
    "title": "Smart delegation pipeline for AI agents (up to 15-20% on costs)",
    "url": "https://github.com/aeppling/rtk-pipeline-laya-delegate",
-   "type": "live"
-  },
-  {
-   "title": "How to save money on tokens for your AI agents",
-   "url": "https://terraphim.ai/posts/save-money-tokens-ai-agents/",
    "type": "live"
   },
   {

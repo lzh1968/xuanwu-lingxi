@@ -2,8 +2,8 @@
  "日期": "2026-10-20",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-20 20:05:58",
-  "chosen": "AVAX long",
+  "updated": "2026-10-20 20:40:05",
+  "chosen": "WLD long",
   "nodes": [
    {
     "coin": "BTC",
@@ -15,7 +15,7 @@
     "coin": "LTC",
     "side": "short",
     "align": 3,
-    "embryo": 0.7
+    "embryo": 0.4
    },
    {
     "coin": "ADA",
@@ -45,7 +45,7 @@
     "coin": "ARB",
     "side": "short",
     "align": 2,
-    "embryo": 2.7
+    "embryo": 3.2
    },
    {
     "coin": "SUI",
@@ -54,58 +54,66 @@
     "embryo": 0.3
    },
    {
+    "coin": "LINK",
+    "side": "long",
+    "align": 0,
+    "embryo": 0.3
+   },
+   {
     "coin": "ETH",
-    "side": "short",
-    "align": 3,
-    "embryo": 0.7
+    "side": "long",
+    "align": 0,
+    "embryo": 0.3,
+    "相位关": true
    },
    {
     "coin": "AVAX",
     "side": "long",
     "align": 0,
-    "embryo": 1.5
+    "embryo": 0.9,
+    "相位关": true
    },
    {
     "coin": "NEAR",
-    "side": "short",
-    "align": 3,
-    "embryo": 0.1
+    "side": "long",
+    "align": 0,
+    "embryo": 1.0,
+    "相位关": true
    },
    {
     "coin": "UNI",
-    "side": "long",
-    "align": 0,
-    "embryo": 1.5
+    "side": "short",
+    "align": 3,
+    "embryo": 0.4,
+    "相位关": true
    },
    {
     "coin": "WLD",
     "side": "long",
     "align": 3,
-    "embryo": 1.8
+    "embryo": 3.5,
+    "相位关": true
    },
    {
     "coin": "BNB",
-    "side": "short",
-    "align": 0,
-    "embryo": -0.3
+    "side": "long",
+    "align": 2,
+    "embryo": 3.3,
+    "相位关": true
    },
    {
     "coin": "DOT",
     "side": "long",
-    "align": 0,
-    "embryo": 0.3
+    "align": 2,
+    "embryo": 3.3,
+    "相位关": true
    },
    {
     "coin": "FIL",
-    "side": "short",
-    "align": 3,
-    "embryo": 0.7
-   },
-   {
-    "coin": "LINK",
     "side": "long",
     "align": 0,
-    "embryo": 0.3
+    "embryo": 2.5,
+    "相位关": true
    }
   ],
   "口径": "供数器独立复活(ED-20261002-377)·引擎基因(默认)·align=e4/e1/t4l·embryo=|score|+对齐加成"
