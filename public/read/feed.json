@@ -1,9 +1,17 @@
 {
- "generated": "02:11",
- "built": "2026-10-21 02:11:26",
+ "generated": "02:17",
+ "built": "2026-10-21 02:17:53",
  "count": 327,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "InferScale：用于个性化LLM服务的GPU原生KV注入",
+   "url": "https://arxiv.org/abs/2607.27090",
+   "src": "Hacker News",
+   "t": "02:15",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "EGPU和本地LLM推断",
@@ -59,14 +67,6 @@
    "src": "Hacker News",
    "t": "01:02",
    "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "反检查–当AI 智能体说“完成”时重新运行您的测试",
-   "url": "https://github.com/datacrate360/countercheck",
-   "src": "Hacker News",
-   "t": "00:05",
-   "fresh": false
   },
   {
    "type": "article",
