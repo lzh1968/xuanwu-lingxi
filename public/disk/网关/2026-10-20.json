@@ -1,34 +1,34 @@
 {
  "日期": "2026-10-20",
- "落盘": "2026-10-20 11:44:28",
+ "落盘": "2026-10-20 12:08:55",
  "内存报表": {
-  "时间": "2026-10-20 11:44:28",
-  "受托进程数": 18,
+  "时间": "2026-10-20 12:08:55",
+  "受托进程数": 19,
   "网关": {
-   "进程号": "11675",
-   "内存MB": 576.5,
+   "进程号": "31420",
+   "内存MB": 385.3,
    "线程": 11,
    "堆上限": "1536"
   },
   "实例数": 1,
   "全机MemTotal": "11469MB",
-  "全机MemAvailable": "5980MB",
+  "全机MemAvailable": "6670MB",
   "全机SwapTotal": "7110MB",
-  "全机SwapFree": "4540MB",
+  "全机SwapFree": "4125MB",
   "探活": "200"
  },
  "断线统计": {
-  "今日断线次数": 14,
-  "今日最长断线秒": 307,
-  "近2小时真停摆(≥90秒)": 0,
+  "今日断线次数": 15,
+  "今日最长断线秒": 344,
+  "近2小时真停摆(≥90秒)": 1,
   "维护窗口": 0
  },
  "日志体量KB": {
-  "gateway_guard.log": 1949.7,
-  "gateway_outage.jsonl": 50.7,
-  "gw_boot.out": 864.2,
+  "gateway_guard.log": 1951.4,
+  "gateway_outage.jsonl": 50.8,
+  "gw_boot.out": 867.1,
   "gw_run.out": 71.8,
-  "网关停摆取证.log": 519.6
+  "网关停摆取证.log": 520.0
  },
  "会话索引(不含正文)": [
   {
@@ -153,15 +153,6 @@
   }
  ],
  "停摆取证(近段)": [
-  "  网关 VmSwap:\t       0 kB",
-  "  网关 Threads:\t11",
-  "  Mem:           11469        4752         899          71        5817        6462",
-  "  Swap:           7110        3088        4022",
-  "  CPU    89.7s openclaw-gateway",
-  "  CPU    77.3s bash _守护总管.sh",
-  "  CPU    31.9s /data/data/com.termux/files/usr/bin/python3 _子引擎_918营.py lbh",
-  "── 停摆取证 2026-10-19 23:25:20 (取码 000) ──",
-  "  网关 VmRSS:\t  586232 kB",
   "  网关 VmSwap:\t       0 kB",
   "  网关 Threads:\t11",
   "  Mem:           11469        4849         800          71        5818        6366",
@@ -312,6 +303,15 @@
   "  Swap:           7110        2671        4439",
   "  CPU  2681.7s openclaw-gateway",
   "  CPU   671.0s bash _守护总管.sh",
-  "  CPU   352.1s python3 /data/data/com.termux/files/home/.openclaw/workspace"
+  "  CPU   352.1s python3 /data/data/com.termux/files/home/.openclaw/workspace",
+  "── 停摆取证 2026-10-20 11:47:50 (取码 000) ──",
+  "  网关 VmRSS:\t  471652 kB",
+  "  网关 VmSwap:\t       0 kB",
+  "  网关 Threads:\t11",
+  "  Mem:           11469        4592        1005          19        5871        6572",
+  "  Swap:           7110        2988        4122",
+  "  CPU   712.8s bash _守护总管.sh",
+  "  CPU   188.8s bash _网关看护.sh",
+  "  CPU   124.5s bash _网关盾_内环.sh"
  ]
 }
