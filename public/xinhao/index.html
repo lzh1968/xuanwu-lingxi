@@ -38,6 +38,8 @@ ol,ul{padding-left:18px;margin:6px 0}li{margin:3px 0}
 <div class="btns">
 <a id="nv-wuzei" href="sub_wuzei.html">☯ 观星台（五贼七器）</a>
 <a id="nv-duokong" href="sub_duokong.html">📊 多空信号源×五行</a>
+<a href="sub_hecan.html">🧬 九源合参专页</a>
+<a href="sub_yizhan.html">🚀 一站式总台</a>
 <a href="#" onclick="tick();return false">🔄 立即刷新</a>
 </div>
 <div class="sub">六所同币 · 触突神经元 · 天眼辨真伪 · 神经网络 · 算力大脑 · 五行四票 · 相位 · 白虎盘口 · 币王令 ｜ 更新 <span id="ts">—</span></div>
@@ -50,6 +52,13 @@ ol,ul{padding-left:18px;margin:6px 0}li{margin:3px 0}
 </div>
 
 <div class="card"><b>📊 判决分布</b><div id="sum" class="kv" style="font-size:13px">—</div></div>
+
+<div class="card"><b>🏆 多空币王 · 登科榜（实时·6秒）</b>
+<div class="kv" style="font-size:11.5px">状元＝可开仓；无达标即虚位（宁缺毋滥）。在位＝连续在榜时长，落榜清零重计。</div>
+<div class="grid" style="margin-top:6px">
+<div><div class="kv"><b>多榜</b> <span id="blst"></span></div><table><thead><tr><th>名次</th><th>币</th><th>合力</th><th>在位</th></tr></thead><tbody id="blr"></tbody></table></div>
+<div><div class="kv"><b>空榜</b> <span id="bsst"></span></div><table><thead><tr><th>名次</th><th>币</th><th>合力</th><th>在位</th></tr></thead><tbody id="bsr"></tbody></table></div>
+</div></div>
 
 <div class="card"><b>🔭 内观 · 观星台（谁在夺谁·极在哪）</b><div id="inner" class="kv">—</div></div>
 
@@ -97,7 +106,7 @@ ol,ul{padding-left:18px;margin:6px 0}li{margin:3px 0}
 <li><b>方向硬约束</b>：合力方向不得逆六所一致方向 —— 真金共识优先于任何模型。</li>
 <li><b>宁可错过</b>：门槛 4.5（≈满值47%）＋真伪 0.70 双闸，缺一即静默，天然拒绝「手痒」。</li>
 </ol>
-<div class="kv" style="margin-top:6px"><span class="pill">算法 v1.0 · 自生演化：算力大脑（非人为拍算）· 打磨中 · 准确性待验证 · 专利交底暂缓（老板令 2026-10-21）· 代码指纹 <b>f7c53afd53aef845</b></span></div>
+<div class="kv" style="margin-top:6px"><span class="pill">算法 v1.0 · 自生演化：算力大脑（非人为拍算）· 打磨中 · 准确性待验证 · 专利交底暂缓（老板令 2026-10-21）· 代码指纹 <b>4195040a44b8bfc4</b></span></div>
 </div>
 
 <div class="card"><b>🛡 风控</b><div id="risk" class="kv"></div></div>
@@ -131,6 +140,15 @@ function draw(d){
   '<div class="kv" style="margin-top:4px">币王令：多 '+(ml['币']||'—')+'（'+E(ml['授权']||'')+'）｜空 '+(sl['币']||'—')+'（'+E(sl['授权']||'')+'）</div>';
  var s=d['汇总']||{};
  document.getElementById('sum').innerHTML='<span class="v-ok">可开 '+s['可开']+'</span> ｜ <span class="v-warn">待确认 '+s['待确认']+'</span> ｜ <span class="v-idle">静默 '+s['静默']+'</span> ｜ <span class="v-bad">禁开 '+s['禁开']+'</span>';
+ // 🏆登科榜（实时）
+ var bw=d['币王榜']||{};
+ function bd(k,stEl,rowsEl){var x=bw[k]||{};
+  document.getElementById(stEl).innerHTML=E(x['状元状态']||'—');
+  document.getElementById(rowsEl).innerHTML=(x['全榜']||[]).slice(0,4).map(function(r){
+   var c=r['判决']==='可开仓'?'v-ok':(r['判决']==='待确认'?'v-warn':'v-idle');
+   return '<tr><td>'+E(r['名次'])+'</td><td><b>'+E(r['币'])+'</b> <span class="'+c+'" style="font-size:11px">'+E(r['判决'])+'</span></td><td>'+E(r['合力'])+'</td><td class="kv">'+E(r['在位'])+'</td></tr>';
+  }).join('')||'<tr><td colspan="4" class="kv">本向无候选</td></tr>';}
+ bd('多榜','blst','blr');bd('空榜','bsst','bsr');
  var rows=(d['逐币']||[]).map(function(r){
   var v=VM[r['判决']]||VM['静默'];
   var dir=r['向']==='long'?'<span class="long">多</span>':(r['向']==='short'?'<span class="short">空</span>':'—');
