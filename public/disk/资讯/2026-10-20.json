@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-20",
- "落盘": "2026-10-20 15:15:43",
+ "落盘": "2026-10-20 15:39:44",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "Should LLMs write in mainstream languages?",
+   "url": "https://www.nobodywho.ai/posts/why-is-pi-not-written-in-lisp/",
+   "type": "live"
+  },
   {
    "title": "Marble: Exact sequence parallelism for packed multimodal masks",
    "url": "https://lumalabs.ai/news/packed-multimodal-attention",
@@ -37,11 +42,6 @@
   {
    "title": "Show HN: Vramkit – measuring LLM weight and KV-cache compression on a MacBook",
    "url": "https://github.com/SRKRZ23/vramkit",
-   "type": "live"
-  },
-  {
-   "title": "Should agent-memory benchmarks test stale information?",
-   "url": "https://agentmemories.ai/home",
    "type": "live"
   },
   {
