@@ -1,5 +1,5 @@
 {
- "built": "2026-10-20 10:23:41",
+ "built": "2026-10-20 10:35:56",
  "count": 350,
  "items": [
   {
@@ -2515,24 +2515,8 @@
    "x": ""
   },
   {
-   "t": "VLLM的PyTorch原生TPU后端",
-   "u": "https://github.com/vllm-project/vllm-torchtpu",
-   "s": "外网新声·Hacker News",
-   "d": "06:34",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "分析AI Agent技能的攻击面",
    "u": "https://arxiv.org/abs/2610.19264",
-   "s": "外网新声·Hacker News",
-   "d": "06:33",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "又是灯塔里的以利亚？诊断法学硕士故事中的低多样性",
-   "u": "https://arxiv.org/abs/2605.26492",
    "s": "外网新声·Hacker News",
    "d": "06:33",
    "k": "",
@@ -2566,7 +2550,31 @@
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "02:23",
+   "d": "02:35",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
+   "u": "https://github.com/affaan-m/ECC",
+   "s": "外网新声·GitHub 新星",
+   "d": "02:35",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
+   "u": "https://github.com/morluto/rea",
+   "s": "外网新声·GitHub 新星",
+   "d": "02:35",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "02:25",
    "k": "",
    "x": ""
   },
@@ -2575,30 +2583,6 @@
    "u": "https://github.com/Dao-AILab/flash-attention",
    "s": "外网新声·GitHub 新星",
    "d": "02:21",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
-   "u": "https://github.com/affaan-m/ECC",
-   "s": "外网新声·GitHub 新星",
-   "d": "02:21",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "02:01",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
-   "u": "https://github.com/morluto/rea",
-   "s": "外网新声·GitHub 新星",
-   "d": "01:54",
    "k": "",
    "x": ""
   },
@@ -2683,122 +2667,138 @@
    "x": ""
   },
   {
+   "t": "ClueFlow: Learning Long-Horizon Search through Attributed Research-State Transitions",
+   "u": "https://arxiv.org/abs/2610.25980v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "08:07",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "GraphEvoResearcher: Graph-Aware Training-Free Self-Reflective Reasoning for Cost-Bounded Multi-Hop Question Answering",
+   "u": "https://arxiv.org/abs/2610.25978v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "08:06",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Correctness-Dependent Asymmetric Target Distributions for Self-Distillation Policy Optimization",
+   "u": "https://arxiv.org/abs/2610.25973v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "08:03",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "GLOBE: Geometry-Led Online Behavioral Early Exit via Unit-Sphere Trajectories",
+   "u": "https://arxiv.org/abs/2610.25970v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "08:01",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Reconstruction and Discrete-Event Simulation Assessment of an Analytical",
+   "u": "https://arxiv.org/abs/2610.25967v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "08:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Behavioral Probes for Information Flow in LLM Swarms",
+   "u": "https://arxiv.org/abs/2610.25966v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "07:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ABACUS: Program-Guided Multistep Reasoning over Frozen Judgment Models",
+   "u": "https://arxiv.org/abs/2610.25963v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "07:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "EmbodiedWorld-200K: Toward Embodied World Agents via Embodied-Planning Dataset and Interactive World Models",
+   "u": "https://arxiv.org/abs/2610.25959v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "07:52",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Productive State-Space Exploration for Multi-turn RL in LLM Agents",
+   "u": "https://arxiv.org/abs/2610.25957v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "07:49",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "CXBench: A Benchmark for Process-Compliant LLM Agents in Regulated Customer-Experience Workflows",
+   "u": "https://arxiv.org/abs/2610.25954v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "07:46",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "AdaExploreBench: Benchmarking LLM Agents for Proactive Exploration and Test-time Adaptation in Evolving Environments",
+   "u": "https://arxiv.org/abs/2610.25950v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "07:41",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "OrderGPT: Generation Order as a Learnable Modeling Choice",
+   "u": "https://arxiv.org/abs/2610.25949v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "07:41",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Claim Laundering: When Agent Decision Models Trust Records Over Reality",
+   "u": "https://arxiv.org/abs/2610.25947v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "07:40",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Policy Search in Code Space for Multi-Agent Pathfinding",
+   "u": "https://arxiv.org/abs/2610.25946v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "07:39",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Keep the Lineages Alive: Diversity-Preserving SMC for Diffusion LLM Decoding",
+   "u": "https://arxiv.org/abs/2610.25932v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "07:30",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "EvoSkill v2: Fully Agentic Skill Evolution from Benchmark Adaptation to a Stateful Evolver",
+   "u": "https://arxiv.org/abs/2610.25931v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "07:29",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
    "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
    "s": "外网新声·GitHub 新星",
    "d": "16:28",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Query-Dependent Reading for Quantized Inner-Product Estimation: A Minimax Separation",
-   "u": "https://arxiv.org/abs/2610.24890v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "22:12",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Measuring Data Diversity with Embeddings: A Taxonomy and Benchmark for Diversity Measures",
-   "u": "https://arxiv.org/abs/2610.24888v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "22:09",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Sample-Efficient Reinforcement Learning with General Utilities via Neural Dual Critics",
-   "u": "https://arxiv.org/abs/2610.24880v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "21:35",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "RAFT：用于时态图神经网络训练的冗余感知输入过滤",
-   "u": "https://arxiv.org/abs/2610.24875v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "21:26",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "推理的一个像素：一个真实的关系足以误导LLM代理",
-   "u": "https://arxiv.org/abs/2610.24873v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "21:21",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "The Missing Compliance Class: LLM Graders That Collapse Jailbreak Success, and a Free Check",
-   "u": "https://arxiv.org/abs/2610.24872v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "21:20",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Bellman语言模型：解决LLM智能体的重复性决策",
-   "u": "https://arxiv.org/abs/2610.24871v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "21:19",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "SpriteStage: Long Horizon Animation Generation via Progressive Scene Programming and Replay",
-   "u": "https://arxiv.org/abs/2610.24869v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "21:18",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "FlowMaker: From Tasks to Cost-Efficient Generative AI Workflow Deployments",
-   "u": "https://arxiv.org/abs/2610.24861v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "20:28",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "LLM-Based Evaluation Planning for Heterogeneous Optimization",
-   "u": "https://arxiv.org/abs/2610.24855v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "20:05",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Pattern-Driven Evaluation of LLM Code Optimization: Isolating Compiler-Transcendent Semantic Reasoning",
-   "u": "https://arxiv.org/abs/2610.24835v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "19:33",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Compose the Horizon: Parameter-Shared Blockwise Forecasting under a Sequential-Compute Trade-off",
-   "u": "https://arxiv.org/abs/2610.24826v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "19:19",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Teaching Code Agents to Ask Without Leaking Private Code",
-   "u": "https://arxiv.org/abs/2610.24824v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "19:13",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Pair-Aware Optimization: Coordinating Exploration and Refinement for Jailbreaking LLM Agents",
-   "u": "https://arxiv.org/abs/2610.24823v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "19:13",
    "k": "",
    "x": ""
   }
