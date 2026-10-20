@@ -2,8 +2,8 @@
  "日期": "2026-10-20",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-20 19:05:32",
-  "chosen": "NEAR short",
+  "updated": "2026-10-20 19:35:45",
+  "chosen": "AVAX short",
   "nodes": [
    {
     "coin": "BTC",
@@ -14,8 +14,8 @@
    {
     "coin": "LTC",
     "side": "short",
-    "align": 2,
-    "embryo": 2.7
+    "align": 3,
+    "embryo": 1.2
    },
    {
     "coin": "ADA",
@@ -63,19 +63,19 @@
     "coin": "AVAX",
     "side": "short",
     "align": 3,
-    "embryo": 2.1
+    "embryo": 2.7
    },
    {
     "coin": "NEAR",
     "side": "short",
     "align": 3,
-    "embryo": 2.7
+    "embryo": 1.6
    },
    {
     "coin": "UNI",
     "side": "long",
     "align": 0,
-    "embryo": 1.5
+    "embryo": 0.3
    },
    {
     "coin": "WLD",
@@ -93,13 +93,13 @@
     "coin": "DOT",
     "side": "long",
     "align": 1,
-    "embryo": 2.9
+    "embryo": 2.3
    },
    {
     "coin": "FIL",
     "side": "short",
     "align": 3,
-    "embryo": 0.7
+    "embryo": 2.7
    },
    {
     "coin": "LINK",
