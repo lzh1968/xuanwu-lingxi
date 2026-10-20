@@ -1,34 +1,34 @@
 {
  "日期": "2026-10-21",
- "落盘": "2026-10-21 00:18:01",
+ "落盘": "2026-10-21 00:25:34",
  "内存报表": {
-  "时间": "2026-10-21 00:18:01",
-  "受托进程数": 29,
+  "时间": "2026-10-21 00:25:34",
+  "受托进程数": 21,
   "网关": {
    "进程号": "11647",
-   "内存MB": 441.4,
+   "内存MB": 566.0,
    "线程": 11,
    "堆上限": "1536"
   },
   "实例数": 1,
   "全机MemTotal": "11469MB",
-  "全机MemAvailable": "6294MB",
+  "全机MemAvailable": "6351MB",
   "全机SwapTotal": "7110MB",
-  "全机SwapFree": "4796MB",
+  "全机SwapFree": "4760MB",
   "探活": "200"
  },
  "断线统计": {
-  "今日断线次数": 0,
-  "今日最长断线秒": 0,
+  "今日断线次数": 1,
+  "今日最长断线秒": 13,
   "近2小时真停摆(≥90秒)": 4,
   "维护窗口": 0
  },
  "日志体量KB": {
-  "gateway_guard.log": 1985.5,
+  "gateway_guard.log": 1985.6,
   "gateway_outage.jsonl": 53.0,
   "gw_boot.out": 901.6,
   "gw_run.out": 71.8,
-  "网关停摆取证.log": 538.7
+  "网关停摆取证.log": 539.1
  },
  "会话索引(不含正文)": [
   {
@@ -153,15 +153,6 @@
   }
  ],
  "停摆取证(近段)": [
-  "  网关 VmSwap:\t       0 kB",
-  "  网关 Threads:\t11",
-  "  Mem:           11469        4644         540          61        6284        6570",
-  "  Swap:           7110        2176        4934",
-  "  CPU   377.8s openclaw-gateway",
-  "  CPU    17.6s bash _守护总管.sh",
-  "  CPU    14.1s bash _网关看护.sh",
-  "── 停摆取证 2026-10-20 21:53:20 (取码 000) ──",
-  "  网关 VmRSS:\t  488452 kB",
   "  网关 VmSwap:\t       0 kB",
   "  网关 Threads:\t11",
   "  Mem:           11469        4727         417          67        6324        6510",
@@ -312,6 +303,15 @@
   "  Swap:           7110        1690        5420",
   "  CPU   391.2s openclaw-gateway",
   "  CPU    13.3s python3 /data/data/com.termux/files/home/.openclaw/workspace",
-  "  CPU     7.8s bash _守护总管.sh"
+  "  CPU     7.8s bash _守护总管.sh",
+  "── 停摆取证 2026-10-21 00:24:47 (取码 000) ──",
+  "  网关 VmRSS:\t  552108 kB",
+  "  网关 VmSwap:\t       0 kB",
+  "  网关 Threads:\t11",
+  "  Mem:           11469        4993         567          66        5907        6180",
+  "  Swap:           7110        2243        4867",
+  "  CPU   972.5s openclaw-gateway",
+  "  CPU   204.9s python3 /data/data/com.termux/files/home/.openclaw/workspace",
+  "  CPU    22.6s bash _网关看护.sh"
  ]
 }
