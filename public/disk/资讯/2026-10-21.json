@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-21",
- "落盘": "2026-10-21 02:11:32",
+ "落盘": "2026-10-21 02:18:09",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "InferScale：用于个性化LLM服务的GPU原生KV注入",
+   "url": "https://arxiv.org/abs/2607.27090",
+   "type": "live"
+  },
   {
    "title": "EGPU和本地LLM推断",
    "url": "https://pgaleone.eu/ai/2026/10/20/eGPU-for-local-llm-inference/",
@@ -37,11 +42,6 @@
   {
    "title": "下载：撼动人工智能和互联网代理问题的说法",
    "url": "https://www.technologyreview.com/2026/10/20/1147355/the-download-claim-shaking-up-ai-internet-agent-problem/",
-   "type": "live"
-  },
-  {
-   "title": "反检查–当AI 智能体说“完成”时重新运行您的测试",
-   "url": "https://github.com/datacrate360/countercheck",
    "type": "live"
   },
   {
