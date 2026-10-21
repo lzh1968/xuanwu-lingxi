@@ -1,12 +1,28 @@
 {
- "generated": "23:59",
- "built": "2026-10-21 23:59:19",
- "count": 327,
+ "generated": "00:05",
+ "built": "2026-10-22 00:05:57",
+ "count": 329,
  "live_count": 60,
  "items": [
   {
    "type": "live",
-   "title": "Open-source, cross-harness memory for AI agents",
+   "title": "AI 智能体修复了错误，但它还改变了什么？",
+   "url": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/",
+   "src": "Hacker News",
+   "t": "00:03",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN：Pawmc又名通话日记，LLM聊天，具有隔离的记忆",
+   "url": "https://pawmc-demo.kolaegipet.workers.dev/?demo=1",
+   "src": "Hacker News",
+   "t": "00:01",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "智能体的开源、交叉线索内存",
    "url": "https://news.ycombinator.com/item?id=50182883",
    "src": "Hacker News",
    "t": "23:42",
@@ -14,7 +30,7 @@
   },
   {
    "type": "live",
-   "title": "PHP's New Memory_hard_limit_percent Setting",
+   "title": "PHP的新Memory_hard_limit_percent设置",
    "url": "https://ma.ttias.be/php-memory-hard-limit/",
    "src": "Hacker News",
    "t": "23:30",
@@ -22,7 +38,7 @@
   },
   {
    "type": "live",
-   "title": "What Claude Code's multi-agent code review costs and finds",
+   "title": "Claude Code的多代理代码审查成本和发现",
    "url": "https://quickchat.ai/post/claude-code-multi-agent-code-review",
    "src": "Hacker News",
    "t": "23:10",
@@ -30,7 +46,7 @@
   },
   {
    "type": "live",
-   "title": "Agentic test processes, LLM benchmarks, and other notes on agentic coding",
+   "title": "代理测试流程、LLM基准和代理编码的其他注意事项",
    "url": "https://danluu.com/ai-coding/",
    "src": "Hacker News",
    "t": "23:00",
@@ -38,7 +54,7 @@
   },
   {
    "type": "live",
-   "title": "SaaS in the Agent Economy: Why AI Just Changed Bootstrapped SaaS Forever [video]",
+   "title": "代理经济中的SaaS：为什么人工智能刚刚永远改变了引导式SaaS [视频]",
    "url": "https://www.youtube.com/watch?v=8cSCJtPOkmM",
    "src": "Hacker News",
    "t": "22:59",
@@ -46,27 +62,27 @@
   },
   {
    "type": "live",
-   "title": "Mining Architectural Quality Under Agentic AI Adoption",
+   "title": "代理人工智能采用下的挖掘架构质量",
    "url": "https://arxiv.org/abs/2606.13298",
    "src": "Hacker News",
    "t": "22:57",
    "fresh": true
   },
   {
-   "type": "live",
-   "title": "Your Data Is Scattered. AI Agents Can Connect the Pieces",
-   "url": "https://simple.ai/p/your-data-is-scattered-ai-agents-can-finally-connect-the-pieces",
-   "src": "Hacker News",
-   "t": "22:42",
-   "fresh": true
+   "type": "article",
+   "title": "今日辑要 · 2026-10-22（前沿 12 条）",
+   "url": "a/digest-20261022.html",
+   "src": "Agent 与智能体",
+   "t": "2026-10-22",
+   "fresh": false
   },
   {
-   "type": "live",
-   "title": "Show HN: Requ syntax – text-to-swimlane diagrams, with lanes for AI agents",
-   "url": "https://requstory.com/dev/",
-   "src": "Hacker News",
-   "t": "22:37",
-   "fresh": true
+   "type": "article",
+   "title": "极光：天空的体检报告",
+   "url": "a/note-20261022-12.html",
+   "src": "灵犀手记",
+   "t": "2026-10-22",
+   "fresh": false
   },
   {
    "type": "article",
@@ -97,22 +113,6 @@
    "title": "园子为什么要留白？",
    "url": "a/note-20261021-11.html",
    "src": "华夏哲学 · 阴阳五行",
-   "t": "2026-10-21",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "极光：天空的体检报告",
-   "url": "a/note-20261021-12.html",
-   "src": "灵犀手记",
-   "t": "2026-10-21",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "珊瑚：动物、植物，还是别的？",
-   "url": "a/note-20261021-13.html",
-   "src": "灵犀手记",
    "t": "2026-10-21",
    "fresh": false
   }
