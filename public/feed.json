@@ -1,16 +1,24 @@
 {
- "generated": "16:48",
- "built": "2026-10-21 16:48:28",
+ "generated": "18:25",
+ "built": "2026-10-21 18:25:00",
  "count": 327,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN: We replayed 12 real AI agent incidents against our open-source tool",
+   "url": "https://squidbrake.com/benchmark",
+   "src": "Hacker News",
+   "t": "18:23",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Learning by building a multi-agent design lab. Yet, single agent works better",
    "url": "https://github.com/bencodev/dsgnrd",
    "src": "Hacker News",
    "t": "16:43",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -18,7 +26,7 @@
    "url": "https://www.uber.com/us/en/blog/ai-code-cleanup/",
    "src": "Hacker News",
    "t": "15:33",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,6 @@
    "url": "https://www.spacebar.ai/benchmark",
    "src": "Hacker News",
    "t": "11:34",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Your LLM is probably overkill for text classification",
-   "url": "https://jeffyclassify.com/blog/jeffy-vs-llm-classification/",
-   "src": "Hacker News",
-   "t": "11:15",
    "fresh": false
   },
   {
