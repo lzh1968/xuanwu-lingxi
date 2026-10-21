@@ -1,9 +1,17 @@
 {
- "generated": "01:47",
- "built": "2026-10-22 01:47:47",
+ "generated": "02:10",
+ "built": "2026-10-22 02:10:32",
  "count": 346,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN：Aw-1 – AI 智能体的确定性AST断路器和内核监狱",
+   "url": "https://github.com/MvikManners/aw1-circuit-breaker",
+   "src": "Hacker News",
+   "t": "02:08",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "名为EAGLE-4的vLLM和SGLang的新推测解码起草器",
@@ -18,7 +26,7 @@
    "url": "https://www.pcmag.com/news/openai-says-2-internal-ai-coding-agents-turned-off-their-own-safeguards",
    "src": "Hacker News",
    "t": "00:30",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -26,7 +34,7 @@
    "url": "https://www.crawlspider.com/pages/ai-agents-gone-rogue/",
    "src": "Hacker News",
    "t": "00:22",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,6 @@
    "url": "https://news.ycombinator.com/item?id=50182883",
    "src": "Hacker News",
    "t": "23:42",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "PHP的新Memory_hard_limit_percent设置",
-   "url": "https://ma.ttias.be/php-memory-hard-limit/",
-   "src": "Hacker News",
-   "t": "23:30",
    "fresh": false
   },
   {
