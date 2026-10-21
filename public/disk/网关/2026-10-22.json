@@ -1,34 +1,34 @@
 {
  "日期": "2026-10-22",
- "落盘": "2026-10-22 01:23:24",
+ "落盘": "2026-10-22 01:29:17",
  "内存报表": {
-  "时间": "2026-10-22 01:23:24",
-  "受托进程数": 29,
+  "时间": "2026-10-22 01:29:17",
+  "受托进程数": 17,
   "网关": {
-   "进程号": "11161",
-   "内存MB": 543.8,
+   "进程号": "16945",
+   "内存MB": 457.2,
    "线程": 11,
    "堆上限": "1536"
   },
   "实例数": 1,
   "全机MemTotal": "11469MB",
-  "全机MemAvailable": "5948MB",
+  "全机MemAvailable": "6026MB",
   "全机SwapTotal": "7110MB",
-  "全机SwapFree": "5521MB",
-  "探活": "200"
+  "全机SwapFree": "5518MB",
+  "探活": "000"
  },
  "断线统计": {
-  "今日断线次数": 3,
+  "今日断线次数": 4,
   "今日最长断线秒": 246,
   "近2小时真停摆(≥90秒)": 3,
   "维护窗口": 0
  },
  "日志体量KB": {
-  "gateway_guard.log": 2059.7,
+  "gateway_guard.log": 2060.4,
   "gateway_outage.jsonl": 55.7,
   "gw_boot.out": 986.2,
   "gw_run.out": 71.8,
-  "网关停摆取证.log": 563.8
+  "网关停摆取证.log": 564.2
  },
  "会话索引(不含正文)": [
   {
@@ -153,12 +153,6 @@
   }
  ],
  "停摆取证(近段)": [
-  "  Swap:           7110        1394        5716",
-  "  CPU   304.8s python3 /data/data/com.termux/files/home/.openclaw/workspace",
-  "  CPU    29.2s python3 /data/data/com.termux/files/home/.openclaw/workspace",
-  "  CPU    23.8s openclaw-gateway",
-  "── 停摆取证 2026-10-21 19:58:25 (取码 000) ──",
-  "  网关 VmRSS:\t  570240 kB",
   "  网关 VmSwap:\t       0 kB",
   "  网关 Threads:\t11",
   "  Mem:           11469        4327        1254          12        5887        7016",
@@ -312,6 +306,12 @@
   "  Swap:           7110        1697        5413",
   "  CPU   331.2s openclaw-gateway",
   "  CPU   176.0s python3 /data/data/com.termux/files/home/.openclaw/workspace",
-  "  CPU    48.9s bash _守护总管.sh"
+  "  CPU    48.9s bash _守护总管.sh",
+  "── 停摆取证 2026-10-22 01:27:44 (取码 000) ──",
+  "  Mem:           11469        4723         967         198        5778        6314",
+  "  Swap:           7110        1592        5518",
+  "  CPU   148.8s python3 /data/data/com.termux/files/home/.openclaw/workspace",
+  "  CPU    48.0s python3 -u _太极中枢_循环.py",
+  "  CPU    27.2s bash /data/data/com.termux/files/home/.openclaw/workspace/sk"
  ]
 }
