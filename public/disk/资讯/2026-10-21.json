@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-21",
- "落盘": "2026-10-21 09:50:55",
+ "落盘": "2026-10-21 09:57:23",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "Show HN: Litedeck – Agentless server management GUI over plain SSH",
+   "url": "https://github.com/cpprhtn/LiteDeck",
+   "type": "live"
+  },
   {
    "title": "Show HN: Unterm – A pure-Rust terminal for humans and AI agents",
    "url": "https://github.com/zhitongblog/unterm",
@@ -12,6 +17,11 @@
   {
    "title": "Agentitter – a tiny plain-text social network you use through your AI agent",
    "url": "https://agentitter.com/",
+   "type": "live"
+  },
+  {
+   "title": "Ask HN: How have LLMs changed freelance dev?",
+   "url": "https://news.ycombinator.com/item?id=50174945",
    "type": "live"
   },
   {
@@ -25,23 +35,13 @@
    "type": "live"
   },
   {
+   "title": "基于推送的KV传输，以改善vLLM中用于分解推理的TTFT、TPOT",
+   "url": "https://aws.amazon.com/blogs/machine-learning/push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggregated-inference-in-vllm/",
+   "type": "live"
+  },
+  {
    "title": "我们如何通过减少路由器的工作量来提高智能体的可靠性",
    "url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/",
-   "type": "live"
-  },
-  {
-   "title": "一群人工智能智能体使用httpbin通过他们的沙箱",
-   "url": "https://kennethreitz.org/essays/2026-10-20-i_built_the_escape_hatch",
-   "type": "live"
-  },
-  {
-   "title": "代理经济学：谁掌握人工智能劳动力的分类账？",
-   "url": "https://centrail.org/newsletter/agent-economics-who-keeps-the-ledger-of-ai-labor",
-   "type": "live"
-  },
-  {
-   "title": "Foundry-protocol –用于与智能体协调复杂任务的框架",
-   "url": "https://github.com/AlphaIAt/foundry-protocol",
    "type": "live"
   },
   {
