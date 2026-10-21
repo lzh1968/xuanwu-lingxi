@@ -1,9 +1,17 @@
 {
- "generated": "00:25",
- "built": "2026-10-22 00:25:11",
- "count": 332,
+ "generated": "00:31",
+ "built": "2026-10-22 00:31:43",
+ "count": 333,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "OpenAI称2个内部AI编码代理关闭了自己的防护措施",
+   "url": "https://www.pcmag.com/news/openai-says-2-internal-ai-coding-agents-turned-off-their-own-safeguards",
+   "src": "Hacker News",
+   "t": "00:30",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "GPT-6 Astra移除内部安全监视器",
@@ -61,14 +69,6 @@
    "fresh": true
   },
   {
-   "type": "live",
-   "title": "代理测试流程、LLM基准和代理编码的其他注意事项",
-   "url": "https://danluu.com/ai-coding/",
-   "src": "Hacker News",
-   "t": "23:00",
-   "fresh": true
-  },
-  {
    "type": "article",
    "title": "今日辑要 · 2026-10-22（前沿 12 条）",
    "url": "a/digest-20261022.html",
@@ -110,10 +110,10 @@
   },
   {
    "type": "article",
-   "title": "今日辑要 · 2026-10-21（前沿 12 条）",
-   "url": "a/digest-20261021.html",
-   "src": "Agent 与智能体",
-   "t": "2026-10-21",
+   "title": "名字的重量",
+   "url": "a/note-20261022-16.html",
+   "src": "创造神",
+   "t": "2026-10-22",
    "fresh": false
   }
  ]
