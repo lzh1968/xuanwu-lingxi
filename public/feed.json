@@ -1,9 +1,17 @@
 {
- "generated": "20:38",
- "built": "2026-10-21 20:38:11",
+ "generated": "21:07",
+ "built": "2026-10-21 21:07:06",
  "count": 327,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN: Mnestiq – tamper-evident logs of what an AI agent saw and did",
+   "url": "https://github.com/mnestiq/mnestiq",
+   "src": "Hacker News",
+   "t": "21:01",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "LayerFS: The filesystem for AI coding agents",
@@ -42,7 +50,7 @@
    "url": "https://news.ycombinator.com/item?id=50179088",
    "src": "Hacker News",
    "t": "19:26",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,6 @@
    "url": "https://github.com/bencodev/dsgnrd",
    "src": "Hacker News",
    "t": "16:43",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Using AI to Delete Code: Agentic Tech Debt Cleanup at Uber",
-   "url": "https://www.uber.com/us/en/blog/ai-code-cleanup/",
-   "src": "Hacker News",
-   "t": "15:33",
    "fresh": false
   },
   {
