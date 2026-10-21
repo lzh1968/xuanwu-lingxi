@@ -48,7 +48,7 @@ ol,ul{padding-left:18px;margin:6px 0}li{margin:3px 0}
 
 <div class="grid">
 <div class="card"><b>🀄 时段</b><div id="hour" class="kv">—</div></div>
-<div class="card"><b>🏆 信号台选王</b><div id="king" class="kv">—</div></div>
+<div class="card"><b>👑 王（可下令）· 候补（只观势）</b><div id="king" class="kv">—</div></div>
 </div>
 
 <div class="card"><b>📊 判决分布</b><div id="sum" class="kv" style="font-size:13px">—</div></div>
@@ -106,7 +106,7 @@ ol,ul{padding-left:18px;margin:6px 0}li{margin:3px 0}
 <li><b>方向硬约束</b>：合力方向不得逆六所一致方向 —— 真金共识优先于任何模型。</li>
 <li><b>宁可错过</b>：门槛 4.5（≈满值47%）＋真伪 0.70 双闸，缺一即静默，天然拒绝「手痒」。</li>
 </ol>
-<div class="kv" style="margin-top:6px"><span class="pill">算法 v1.0 · 自生演化：算力大脑（非人为拍算）· 打磨中 · 准确性待验证 · 专利交底暂缓（老板令 2026-10-21）· 代码指纹 <b>047c487519f197fa</b></span></div>
+<div class="kv" style="margin-top:6px"><span class="pill">算法 v1.0 · 自生演化：算力大脑（非人为拍算）· 打磨中 · 准确性待验证 · 专利交底暂缓（老板令 2026-10-21）· 代码指纹 <b>7287c9f1fc4cbc4f</b></span></div>
 </div>
 
 <div class="card"><b>🛡 风控</b><div id="risk" class="kv"></div></div>
@@ -130,14 +130,18 @@ function draw(d){
  document.getElementById('ts').textContent=d['时刻']||'—';
  var h=d['时段']||{};
  document.getElementById('hour').innerHTML='当前 '+(h['当前时']==null?'—':h['当前时']+'时')+' · 评级 <b>'+E(h['评级']||'—')+'</b>（'+E(h['注']||'')+'）<br>最佳时段：'+E((h['最佳时段']||[]).join('、'))+' 时<br><span class="pill">'+E(h['提示']||'')+'</span>';
- var k=(d['王币']||{})['信号台自选']||{}, mw=k['多']||{}, sw=k['空']||{};
- var bwl=d['王币']||{}, ml=bwl['多单王']||{}, sl=bwl['空单王']||{};
- function kc(x,lab){ if(!x||!x['币'])return '<div>'+lab+'：<span class="kv">暂无</span></div>';
+ // 👑 2026-10-21 老板令「一王一态」：王只给「可开仓状元」（带点位·可下令）；未达标者降为「候补」灰显，不给点位、不可令
+ var bwl=d['王币']||{}, kk=bwl['王']||{}, hb=bwl['候补']||{};
+ function kc(x,lab){ if(!x||!x['币'])return '<div>'+lab+'：<span class="kv" style="opacity:.6">虚位（宁缺毋滥）</span></div>';
   var pl=x['计划']||{};
-  return '<div>'+lab+'：<b>'+E(x['币'])+'</b> <span class="kv">合力'+E(x['合力'])+'·真伪'+E(x['真伪'])+'</span></div>'+
+  return '<div>'+lab+'：<b style="color:var(--gold)">'+E(x['币'])+'</b> <span class="kv">合力'+E(x['合力'])+'·真伪'+E(x['真伪'])+'·在位'+E(x['在位']||'')+'</span></div>'+
    (pl['入场']?'<div class="kv">入 '+pl['入场']+' ｜ 损 '+pl['止损']+' ｜ 标 '+pl['目标']+'</div>':'');}
- document.getElementById('king').innerHTML=kc(mw,'多')+kc(sw,'空')+
-  '<div class="kv" style="margin-top:4px">币王令：多 '+(ml['币']||'—')+'（'+E(ml['授权']||'')+'）｜空 '+(sl['币']||'—')+'（'+E(sl['授权']||'')+'）</div>';
+ function hc(x,lab){ if(!x||!x['币'])return '';
+  return '<span style="opacity:.62">'+lab+' '+E(x['币'])+'（'+E(x['一句话']||x['授权']||'')+'）</span>';}
+ document.getElementById('king').innerHTML=
+  '<div class="kv" style="font-size:11.5px">'+E((kk['口径']||''))+'</div>'+
+  kc(kk['多'],'多')+kc(kk['空'],'空')+
+  '<div class="kv" style="margin-top:6px">🕯 候补（只观势·不可令）：'+hc(hb['多'],'多')+((hb['空']&&hb['空']['币'])?' ｜ '+hc(hb['空'],'空'):'')+'</div>';
  var s=d['汇总']||{};
  document.getElementById('sum').innerHTML='<span class="v-ok">可开 '+s['可开']+'</span> ｜ <span class="v-warn">待确认 '+s['待确认']+'</span> ｜ <span class="v-idle">静默 '+s['静默']+'</span> ｜ <span class="v-bad">禁开 '+s['禁开']+'</span>';
  // 🏆登科榜（实时）
