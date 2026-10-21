@@ -1,12 +1,12 @@
 {
- "generated": "22:27",
- "built": "2026-10-21 22:27:01",
+ "generated": "22:33",
+ "built": "2026-10-21 22:33:05",
  "count": 327,
  "live_count": 60,
  "items": [
   {
    "type": "live",
-   "title": "Deterministic inference did not make our LLM pipeline deterministic",
+   "title": "Deterministic LLM Inference Did Not Make Our Pipeline Deterministic",
    "url": "https://www.ctgt.ai/research/concordance",
    "src": "Hacker News",
    "t": "22:25",
@@ -58,7 +58,7 @@
    "url": "https://github.com/mnestiq/mnestiq",
    "src": "Hacker News",
    "t": "21:01",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
