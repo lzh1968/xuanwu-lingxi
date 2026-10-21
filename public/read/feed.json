@@ -1,23 +1,23 @@
 {
- "generated": "09:36",
- "built": "2026-10-21 09:36:30",
+ "generated": "09:43",
+ "built": "2026-10-21 09:43:06",
  "count": 327,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN: Unterm – A pure-Rust terminal for humans and AI agents",
+   "url": "https://github.com/zhitongblog/unterm",
+   "src": "Hacker News",
+   "t": "09:39",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Agentitter – a tiny plain-text social network you use through your AI agent",
    "url": "https://agentitter.com/",
    "src": "Hacker News",
    "t": "09:30",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Ask HN: How have LLMs changed freelance dev?",
-   "url": "https://news.ycombinator.com/item?id=50174945",
-   "src": "Hacker News",
-   "t": "09:25",
    "fresh": true
   },
   {
@@ -34,14 +34,6 @@
    "url": "https://www.economist.com/business/2026/10/15/when-ai-agents-take-matters-into-their-own-hands",
    "src": "Hacker News",
    "t": "07:30",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "基于推送的KV传输，以改善vLLM中用于分解推理的TTFT、TPOT",
-   "url": "https://aws.amazon.com/blogs/machine-learning/push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggregated-inference-in-vllm/",
-   "src": "Hacker News",
-   "t": "07:27",
    "fresh": false
   },
   {
@@ -66,6 +58,14 @@
    "url": "https://centrail.org/newsletter/agent-economics-who-keeps-the-ledger-of-ai-labor",
    "src": "Hacker News",
    "t": "06:41",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "Foundry-protocol –用于与智能体协调复杂任务的框架",
+   "url": "https://github.com/AlphaIAt/foundry-protocol",
+   "src": "Hacker News",
+   "t": "05:23",
    "fresh": false
   },
   {
