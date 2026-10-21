@@ -1,34 +1,34 @@
 {
  "日期": "2026-10-22",
- "落盘": "2026-10-22 03:15:12",
+ "落盘": "2026-10-22 03:31:07",
  "内存报表": {
-  "时间": "2026-10-22 03:15:12",
-  "受托进程数": 29,
+  "时间": "2026-10-22 03:31:07",
+  "受托进程数": 22,
   "网关": {
    "进程号": "3589",
-   "内存MB": 488.5,
+   "内存MB": 560.7,
    "线程": 11,
    "堆上限": "1536"
   },
   "实例数": 1,
   "全机MemTotal": "11469MB",
-  "全机MemAvailable": "6274MB",
+  "全机MemAvailable": "6233MB",
   "全机SwapTotal": "7110MB",
-  "全机SwapFree": "5391MB",
+  "全机SwapFree": "5383MB",
   "探活": "200"
  },
  "断线统计": {
-  "今日断线次数": 16,
+  "今日断线次数": 17,
   "今日最长断线秒": 246,
-  "近2小时真停摆(≥90秒)": 7,
+  "近2小时真停摆(≥90秒)": 5,
   "维护窗口": 0
  },
  "日志体量KB": {
-  "gateway_guard.log": 2065.3,
+  "gateway_guard.log": 2066.2,
   "gateway_outage.jsonl": 56.2,
   "gw_boot.out": 987.9,
   "gw_run.out": 71.8,
-  "网关停摆取证.log": 568.8
+  "网关停摆取证.log": 569.2
  },
  "会话索引(不含正文)": [
   {
@@ -153,15 +153,6 @@
   }
  ],
  "停摆取证(近段)": [
-  "  网关 VmSwap:\t       0 kB",
-  "  网关 Threads:\t11",
-  "  Mem:           11469        4304        2760          12        4404        6943",
-  "  Swap:           7110        1234        5876",
-  "  CPU   399.3s openclaw-gateway",
-  "  CPU    22.9s python3 /data/data/com.termux/files/home/.openclaw/workspace",
-  "  CPU    13.7s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
-  "── 停摆取证 2026-10-21 23:14:27 (取码 000) ──",
-  "  网关 VmRSS:\t  551704 kB",
   "  网关 VmSwap:\t       0 kB",
   "  网关 Threads:\t11",
   "  Mem:           11469        4176        1309          13        5983        7068",
@@ -312,6 +303,15 @@
   "  Swap:           7110        2005        5105",
   "  CPU   585.3s openclaw-gateway",
   "  CPU   131.6s python3 /data/data/com.termux/files/home/.openclaw/workspace",
-  "  CPU    30.1s bash _守护总管.sh"
+  "  CPU    30.1s bash _守护总管.sh",
+  "── 停摆取证 2026-10-22 03:17:06 (取码 000) ──",
+  "  网关 VmRSS:\t  510820 kB",
+  "  网关 VmSwap:\t       0 kB",
+  "  网关 Threads:\t11",
+  "  Mem:           11469        4646         868         199        5954        6444",
+  "  Swap:           7110        1859        5251",
+  "  CPU   777.8s openclaw-gateway",
+  "  CPU    53.9s bash _守护总管.sh",
+  "  CPU    37.8s python3 -u _太极中枢_循环.py"
  ]
 }
