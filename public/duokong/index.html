@@ -22,26 +22,86 @@ a{color:var(--gold)}
 .tip{background:var(--tipbg);border-left:3px solid var(--cy);padding:8px 10px;border-radius:6px;font-size:12px;color:var(--dim);margin:8px 0}
 .bk{display:block;text-align:center;text-decoration:none;color:var(--cy);font-size:12px;margin:2px 0 12px}
 #tbtn{position:fixed;top:9px;right:12px;z-index:9;background:var(--card);color:var(--fg);border:1px solid var(--line);border-radius:20px;padding:6px 11px;font-size:12.5px;cursor:pointer}
+/* 🆕五项①活跃度·准确率顶部条 */
+.hz{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:9px 12px;margin:8px 0;font-size:13px}
+.hz-i{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.hz-k{color:var(--cy);font-size:12px}
+.hz-n{color:var(--dim);font-size:11.5px}
+.hz-s{color:var(--dim);font-size:11.5px}
+.hz-t{color:var(--dim);font-size:11px;width:100%}
+/* 🆕五项②四态分栏 */
+.st4{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:8px}
+.sc{border:1px solid var(--line);border-radius:10px;padding:6px 8px;background:var(--code);min-width:0}
+.sc-g{border-color:rgba(61,220,132,.5)}.sc-a{border-color:rgba(255,176,32,.5)}.sc-r{border-color:rgba(255,92,92,.5)}
+.sh{display:flex;justify-content:space-between;font-size:12px;margin-bottom:4px}
+.si{font-size:12.5px;margin:3px 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+/* 🆕五项④折叠与手机排版 */
+details.sec>summary{cursor:pointer;color:var(--gold);font-size:15px;font-weight:600;margin:18px 0 8px;list-style:none}
+details.sec>summary::-webkit-details-marker{display:none}
+details.sec>summary:before{content:'▸ ';color:var(--cy)}
+details.sec[open]>summary:before{content:'▾ '}
+@media(max-width:560px){body{padding:10px;font-size:13px}h1{font-size:17px}h2{font-size:14px;margin:14px 0 6px}table{min-width:0}th,td{padding:4px 5px;font-size:12px}.card{padding:9px;border-radius:10px}.st4{grid-template-columns:1fr 1fr}.hz{gap:6px 10px;padding:8px 10px}.hz-t{font-size:10.5px}#tbtn{top:6px;right:8px;padding:5px 9px}}
 </style></head><body>
 <button id="tbtn" onclick="zlTg()">☀️ 白天</button>
 <a class="bk" href="/m.html">‹ 返回手机门户</a>
 <h1>📊 多空信号源 × 五行</h1>
+<!-- 🆕2026-10-21 老板令「五项全做」①：活跃度·准确率顶部显形（活跃度 30 秒 / 合参准确 6 秒） -->
+<div class="hz" id="hz">
+ <div class="hz-i"><span class="hz-k">🔥 信号活跃度</span><b id="hz-act">--</b><span class="hz-n" id="hz-note"></span><svg id="hz-spark" viewBox="0 0 120 26" width="120" height="26"><polyline fill="none" stroke="#5ad1e6" stroke-width="1.6" points=""></polyline></svg></div>
+ <div class="hz-i"><span class="hz-k">🎯 准确率</span>合参总 <b id="hz-acc">--</b><span class="hz-s">近20 <b id="hz-a20">--</b> · 近50 <b id="hz-a50">--</b></span></div>
+ <div class="hz-i hz-t" id="hz-t">数据时刻 --</div>
+</div>
+<script>
+(function(){function E(s){return String(s==null?'':s).replace(/[&<>]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c]})}
+function spark(tr){var el=document.querySelector('#hz-spark polyline');if(!el)return;if(!tr||tr.length<2){el.setAttribute('points','');return;}
+ var n=tr.length,pts='';for(var i=0;i<n;i++){var x=(i/(n-1))*118+1,y=25-Math.max(0,Math.min(100,tr[i][1]||0))/100*24;pts+=x.toFixed(1)+','+y.toFixed(1)+' ';}
+ el.setAttribute('points',pts);}
+function hy(){fetch('huoyue.json?t='+Date.now()).then(function(r){return r.json()}).then(function(d){
+ document.getElementById('hz-act').textContent=(d['活跃度%']==null?'--':d['活跃度%']+'%');
+ var a=[];if(d['放行'])a.push('放行'+d['放行']);if(d['闸拦'])a.push('闸拦'+d['闸拦']);if(d['待势'])a.push('待势'+d['待势']);if(d['混沌'])a.push('混沌'+d['混沌']);
+ document.getElementById('hz-note').textContent=a.length?('（'+a.join('·')+'）'):('（'+(d['状态']||'')+'）');
+ document.getElementById('hz-a20').textContent=(d['近20']==null?'--':d['近20']+'%('+(d['近20样本']||0)+')');
+ document.getElementById('hz-a50').textContent=(d['近50']==null?'--':d['近50']+'%('+(d['近50样本']||0)+')');
+ document.getElementById('hz-t').textContent='活跃度时刻 '+(d['时刻']||'--')+' · 与信号台同源（60 分钟结算口径）';
+ spark(d['趋势']||[]);}).catch(function(){});}
+function xh(){fetch('xinhao.json?t='+Date.now()).then(function(r){return r.json()}).then(function(d){var a=d['准确']||{};
+ document.getElementById('hz-acc').textContent=(a['总命中率%']==null?'--':a['总命中率%']+'%（样本'+(a['总样本']||0)+'）');}).catch(function(){});}
+hy();xh();setInterval(hy,30000);setInterval(xh,6000);})();
+</script>
 <!-- 👑2026-10-21 老板令「把多空信号源币王置顶🔝」: 王位置顶卡（王＝令·候补＝势·6秒同步·一王一态） -->
 <div id="kb-bar" style="border:2px solid var(--gold);border-radius:12px;padding:10px 12px;margin:10px 0;background:linear-gradient(180deg,rgba(255,212,121,.14),rgba(255,212,121,.04))">
-<div style="font-size:13px"><b>👑 币王·置顶</b> <span style="opacity:.7;font-size:11.5px">王＝令（可开仓状元·带点位）｜候补＝势（只观势·不可令）｜6 秒同步</span></div>
+<div style="font-size:13px"><b>👑 币王·置顶</b> <span style="opacity:.7;font-size:11.5px">王＝令（可开仓状元·带点位）｜候补＝势（只观势·不可令）｜6 秒同步｜🏅 登科榜连续霸榜</span></div>
 <div id="kb-main" style="font-size:13.5px;margin-top:6px">载入中…</div></div>
 <script>
 (function(){function E(s){return String(s==null?'':s).replace(/[&<>]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c]})}
+var BWSTREAK={"WLFI": 1, "ETH": 1, "NEAR": 1, "UNI": 1, "ATOM": 1, "ADA": 1, "BTC": 1, "DOGE": 1};
 function kc(x,lab){ if(!x||!x['币'])return '<span style="opacity:.55;margin-right:14px">'+lab+' 虚位</span>';
- var p=x['计划']||{};
+ var p=x['计划']||{},s=BWSTREAK[x['币']]||0;
  return '<div style="margin:3px 0"><b>'+lab+'</b> <b style="color:var(--gold);font-size:16px">'+E(x['币'])+'</b>'
   +' <span style="opacity:.7;font-size:12px">合力'+E(x['合力'])+'·真伪'+E(x['真伪'])+'</span>'
-  +(p['入场']?'<div style="font-size:12px;opacity:.85">入 '+p['入场']+' ｜ 损 '+p['止损']+' ｜ 标 '+p['目标']+'</div>':'')+'</div>';}
+  +(p['入场']?'<div style="font-size:12px;opacity:.85">入 '+p['入场']+' ｜ 损 '+p['止损']+' ｜ 标 '+p['目标']+'</div>':'')
+  +'<div style="font-size:11.5px;opacity:.72;margin-top:2px">🏅 登科榜·连续霸榜 <b>'+s+'</b> 天 ｜ 今日登科 '+E(x['登榜']==null?'—':x['登榜'])+' 次 ｜ 在位 '+E(x['在位']||'—')+' ｜ 最长 '+E(x['最长']||'—')+'</div></div>';}
 function draw(d){var b=(d['王币']||{}),w=b['王']||{},h=b['候补']||{};
  var o=kc(w['多'],'多')+kc(w['空'],'空'),hm=h['多']||{},hs=h['空']||{},hh=[];
  if(hm['币'])hh.push('多 '+hm['币']); if(hs['币'])hh.push('空 '+hs['币']);
  o+='<div style="font-size:11.5px;opacity:.62;margin-top:4px">🕯 候补（只观势·不可令）：'+(hh.join(' ｜ ')||'无')+'</div>';
  document.getElementById('kb-main').innerHTML=o;}
+function tick(){fetch('xinhao.json?t='+Date.now()).then(function(r){return r.json()}).then(draw).catch(function(){})}
+tick();setInterval(tick,6000);})();
+</script>
+<!-- 🆕2026-10-21 五项②：四态分栏（可开→待确→静默→禁开·组内按合力排序） -->
+<div class="card" style="padding:10px 12px">
+<div style="font-size:13px"><b>🧭 四态分栏</b> <span class="dim" style="font-size:11.5px">可开 → 待确 → 静默 → 禁开 · 组内按合力排序 · 6 秒同步 · 悬停看理由</span></div>
+<div id="st4" class="st4">载入中…</div></div>
+<script>
+(function(){function E(s){return String(s==null?'':s).replace(/[&<>]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c]})}
+var M={'可开仓':['可开','g'],'待确认':['待确','a'],'静默':['静默','d'],'禁开':['禁开','r']},O=['可开仓','待确认','静默','禁开'];
+function it(r){var d=r['向']=='long'?'多':(r['向']=='short'?'空':'—'),c=r['向']=='long'?'pos':(r['向']=='short'?'neg':'dim');
+ return '<div class="si" title="'+E(r['理由']||'')+'"><b>'+E(r['币'])+'</b> <span class="'+c+'">'+d+'</span> <span class="dim">'+E(r['合力'])+'·'+E(r['真伪'])+'</span></div>';}
+function draw(d){var g={};O.forEach(function(k){g[k]=[]});(d['逐币']||[]).forEach(function(r){if(g[r['判决']])g[r['判决']].push(r)});
+ var h='';O.forEach(function(k){var a=g[k].slice().sort(function(x,y){return (y['合力']||0)-(x['合力']||0)});
+  h+='<div class="sc sc-'+M[k][1]+'"><div class="sh"><b>'+M[k][0]+'</b><span class="dim">'+a.length+' 个</span></div>'+(a.map(it).join('')||'<div class="si dim">—</div>')+'</div>';});
+ document.getElementById('st4').innerHTML=h;}
 function tick(){fetch('xinhao.json?t='+Date.now()).then(function(r){return r.json()}).then(draw).catch(function(){})}
 tick();setInterval(tick,6000);})();
 </script>
@@ -74,7 +134,7 @@ tick();setInterval(tick,6000);})();
 <div class="tip" style="border-left-color:var(--gold)"><b>🧭 本页在五站链上的位置：②佐证站</b><br>
 ①观星台（辨势·定位）→ <b>②多空五行（佐证·四源四票＋五行生克）</b> → ③九源合参（合参 S＝Σwi·di）→ ④信号台四档判决 → ⑤币王令·执行。<br>
 本页只回答一件事：<b>几源看多、几源看空、分歧多大、五行顺逆</b>；它不决定开仓，开仓归④。</div>
-<div style='background:#141a10;border:1px solid #3a4a1e;border-radius:12px;padding:12px 14px;margin:10px 0'><div style='font-size:15px;font-weight:700;color:#e6e6e6;margin-bottom:4px'>👑 本轮币王令 · 多空推荐&nbsp;<span style='font-size:12px;font-weight:400;color:#ff6b6b'>共振不足·宁缺毋滥（本轮不发令）</span></div><div style='margin:5px 0'>🟢 多单币王：<b style='color:#3ddc84;font-size:19px'>BNB</b> <span style='color:#8b95a5;font-size:12.5px'><span style='color:#ff6b6b'>四源共振 0/4</span> ｜ <span style='color:#ff6b6b'>反向3</span> ｜ <span style='color:#e6e6e6'>敏感 46(中)</span> ｜ <span style='color:#5ad1e6'>入口 748.8 · 止损 745.4304 · 目标 756.288</span> ｜ <span style='color:#ff6b6b'>授权：未达标·不可令</span></span></div><div style='margin:5px 0'>🔴 空单币王：<b style='color:#ff6b6b;font-size:19px'>BTC</b> <span style='color:#8b95a5;font-size:12.5px'><span style='color:#ff6b6b'>四源共振 3/4</span> ｜ <span style='color:#e6e6e6'>敏感 77(锐)</span> ｜ <span style='color:#5ad1e6'>入口 84649.4 · 止损 85030.3223 · 目标 83802.906</span> ｜ <span style='color:#ff6b6b'>授权：未达标·不可令</span></span></div><div style='font-size:11px;color:#9db08a;margin-top:7px;padding-top:7px;border-top:1px dashed #3a4a1e'>口径：观星台五贼合力选王 → <b>四源共振闸</b>(开明/白虎/择强/烛龙) → 精准定位(金蟾0.45%/貔貅1.0%) → 敏感度 → <b>待🐉烛龙火印</b>·由🐍腾蛇执行 · 只读荐向·<b>不代下单</b> · 数据时刻 2026-10-21 23:09:06</div></div>
+<div style='background:#141a10;border:1px solid #3a4a1e;border-radius:12px;padding:12px 14px;margin:10px 0'><div style='font-size:15px;font-weight:700;color:#e6e6e6;margin-bottom:4px'>👑 本轮币王令 · 多空推荐&nbsp;<span style='font-size:12px;font-weight:400;color:#3ddc84'>可请令·四源共振：BNB多</span></div><div style='margin:5px 0'>🟢 多单币王：<b style='color:#3ddc84;font-size:19px'>BNB</b> <span style='color:#8b95a5;font-size:12.5px'><span style='color:#ffb020'>四源共振 1/4</span> ｜ <span style='color:#ff6b6b'>反向1</span> ｜ <span style='color:#e6e6e6'>敏感 54(中)</span> ｜ <span style='color:#5ad1e6'>入口 748.6 · 止损 745.2313 · 目标 756.086</span> ｜ <span style='color:#3ddc84'>授权：待🐉烛龙火印</span></span></div><div style='margin:5px 0'>🔴 空单币王：<b style='color:#ff6b6b;font-size:19px'>BTC</b> <span style='color:#8b95a5;font-size:12.5px'><span style='color:#ff6b6b'>四源共振 2/4</span> ｜ <span style='color:#ff6b6b'>反向1</span> ｜ <span style='color:#e6e6e6'>敏感 70(锐)</span> ｜ <span style='color:#5ad1e6'>入口 84462.1 · 止损 84842.17945 · 目标 83617.479</span> ｜ <span style='color:#ff6b6b'>授权：未达标·不可令</span></span></div><div style='font-size:11px;color:#9db08a;margin-top:7px;padding-top:7px;border-top:1px dashed #3a4a1e'>口径：观星台五贼合力选王 → <b>四源共振闸</b>(开明/白虎/择强/烛龙) → 精准定位(金蟾0.45%/貔貅1.0%) → 敏感度 → <b>待🐉烛龙火印</b>·由🐍腾蛇执行 · 只读荐向·<b>不代下单</b> · 数据时刻 2026-10-21 23:26:37</div></div>
 <div class="tip">汇聚四源(🦉开明雷达 · 🐯白虎触突 · 🐉烛龙判决 · 🐍腾蛇引擎)逐币做<b>源共识识别</b>；
 并将<b>四态→五行</b>归属，与阴阳五行桥同纲。<br>
 用途：看清“几源看多 / 几源看空 / 分歧多大”，再以五行生克判势之顺逆。<br>
@@ -86,12 +146,12 @@ tick();setInterval(tick,6000);})();
 <h2>一、四源共识 · 五行归属</h2>
 <div class="card"><table><tr><th>币</th><th>四态</th><th>相位</th><th>源(多/空)</th><th>共识</th><th>本命→态势五行</th><th>生克</th></tr><tr><td><b>ARB</b></td><td class="pos">大多</td><td class="pos">顺</td><td>1/1</td><td class="dim">分歧</td><td><span>水</span>→<span>火</span></td><td class="dim">本命克势·可制</td></tr><tr><td><b>AVAX</b></td><td class="dim">混沌</td><td class="neg">反</td><td>1/0</td><td class="pos">弱共识</td><td><span>火</span>→<span>土</span></td><td class="dim">本命生势·泄(顺</td></tr><tr><td><b>DOT</b></td><td class="dim">混沌</td><td class="neg">反</td><td>1/2</td><td class="neg">弱共识</td><td><span>土</span>→<span>土</span></td><td class="dim">同气·顺</td></tr><tr><td><b>LINK</b></td><td class="dim">混沌</td><td class="dim">观望</td><td>2/1</td><td class="pos">弱共识</td><td><span>土</span>→<span>土</span></td><td class="dim">同气·顺</td></tr><tr class="idle"><td><b>BTC</b></td><td class="dim">混沌</td><td class="dim">观望</td><td>2/1</td><td class="pos">弱共识</td><td><span>金</span>→<span>土</span></td><td class="dim">势生本命·得助</td></tr><tr class="idle"><td><b>LTC</b></td><td class="dim">混沌</td><td class="dim">观望</td><td>2/1</td><td class="pos">弱共识</td><td><span>金</span>→<span>土</span></td><td class="dim">势生本命·得助</td></tr><tr class="idle"><td><b>ADA</b></td><td class="dim">混沌</td><td class="dim">观望</td><td>1/1</td><td class="dim">分歧</td><td><span>金</span>→<span>土</span></td><td class="dim">势生本命·得助</td></tr><tr class="idle"><td><b>DOGE</b></td><td class="dim">混沌</td><td class="dim">观望</td><td>2/1</td><td class="pos">弱共识</td><td><span>金</span>→<span>土</span></td><td class="dim">势生本命·得助</td></tr><tr class="idle"><td><b>XRP</b></td><td class="dim">混沌</td><td class="dim">观望</td><td>2/1</td><td class="pos">弱共识</td><td><span>金</span>→<span>土</span></td><td class="dim">势生本命·得助</td></tr><tr class="idle"><td><b>SOL</b></td><td class="dim">混沌</td><td class="dim">观望</td><td>2/1</td><td class="pos">弱共识</td><td><span>水</span>→<span>土</span></td><td class="dim">势克本命·受抑</td></tr><tr class="idle"><td><b>SUI</b></td><td class="dim">混沌</td><td class="dim">观望</td><td>2/1</td><td class="pos">弱共识</td><td><span>水</span>→<span>土</span></td><td class="dim">势克本命·受抑</td></tr><tr class="idle"><td><b>ETH</b></td><td class="dim">混沌</td><td class="dim">观望</td><td>2/1</td><td class="pos">弱共识</td><td><span>火</span>→<span>土</span></td><td class="dim">本命生势·泄(顺</td></tr><tr class="idle"><td><b>NEAR</b></td><td class="dim">混沌</td><td class="dim">观望</td><td>1/0</td><td class="pos">弱共识</td><td><span>火</span>→<span>土</span></td><td class="dim">本命生势·泄(顺</td></tr><tr class="idle"><td><b>UNI</b></td><td class="dim">混沌</td><td class="dim">观望</td><td>2/1</td><td class="pos">弱共识</td><td><span>火</span>→<span>土</span></td><td class="dim">本命生势·泄(顺</td></tr><tr class="idle"><td><b>WLD</b></td><td class="dim">混沌</td><td class="dim">观望</td><td>2/1</td><td class="pos">弱共识</td><td><span>火</span>→<span>土</span></td><td class="dim">本命生势·泄(顺</td></tr><tr class="idle"><td><b>BNB</b></td><td class="dim">混沌</td><td class="dim">观望</td><td>2/1</td><td class="pos">弱共识</td><td><span>土</span>→<span>土</span></td><td class="dim">同气·顺</td></tr><tr class="idle"><td><b>FIL</b></td><td class="dim">混沌</td><td class="dim">观望</td><td>0/2</td><td class="neg">弱共识</td><td><span>土</span>→<span>土</span></td><td class="dim">同气·顺</td></tr></table></div>
 
-<h2>二、四源逐票（哪路在岗 / 哪路缺岗）</h2>
+<details class="sec"><summary>二、四源逐票（哪路在岗 / 哪路缺岗）</summary>
 <div class="tip">四源逐币各投一票：「多+」看多 · 「空-」看空 · 「—」中性无所表 · <b class="warn">缺岗</b>＝该源总线本币无数据（未接上）。
 看清“几源看多／几源看空、哪路断链”。</div>
-<div class="card"><table><tr><th>币</th><th>🦉开明雷达</th><th>🐯白虎触突</th><th>🐍腾蛇择强</th><th>🐉烛龙判决</th><th>四态</th></tr><tr><td><b>ARB</b></td><td class="dim">—</td><td class="neg">空-</td><td class="pos">多+</td><td class="dim">—</td><td class="dim">大多</td></tr><tr><td><b>AVAX</b></td><td class="neg">空-</td><td class="neg">空-</td><td class="neg">空-</td><td class="dim">—</td><td class="dim">混沌</td></tr><tr><td><b>DOT</b></td><td class="neg">空-</td><td class="neg">空-</td><td class="neg">空-</td><td class="dim">—</td><td class="dim">混沌</td></tr><tr><td><b>LINK</b></td><td class="neg">空-</td><td class="neg">空-</td><td class="neg">空-</td><td class="dim">—</td><td class="dim">混沌</td></tr><tr class="idle"><td><b>BTC</b></td><td class="neg">空-</td><td class="neg">空-</td><td class="neg">空-</td><td class="dim">—</td><td class="dim">混沌</td></tr><tr class="idle"><td><b>LTC</b></td><td class="pos">多+</td><td class="neg">空-</td><td class="neg">空-</td><td class="dim">—</td><td class="dim">混沌</td></tr><tr class="idle"><td><b>ADA</b></td><td class="neg">空-</td><td class="neg">空-</td><td class="neg">空-</td><td class="dim">—</td><td class="dim">混沌</td></tr><tr class="idle"><td><b>DOGE</b></td><td class="neg">空-</td><td class="neg">空-</td><td class="neg">空-</td><td class="dim">—</td><td class="dim">混沌</td></tr><tr class="idle"><td><b>XRP</b></td><td class="dim">—</td><td class="neg">空-</td><td class="neg">空-</td><td class="dim">—</td><td class="dim">混沌</td></tr><tr class="idle"><td><b>SOL</b></td><td class="dim">—</td><td class="neg">空-</td><td class="neg">空-</td><td class="dim">—</td><td class="dim">混沌</td></tr><tr class="idle"><td><b>SUI</b></td><td class="dim">—</td><td class="neg">空-</td><td class="neg">空-</td><td class="dim">—</td><td class="dim">混沌</td></tr><tr class="idle"><td><b>ETH</b></td><td class="pos">多+</td><td class="neg">空-</td><td class="pos">多+</td><td class="dim">—</td><td class="dim">混沌</td></tr><tr class="idle"><td><b>NEAR</b></td><td class="pos">多+</td><td class="neg">空-</td><td class="pos">多+</td><td class="dim">—</td><td class="dim">混沌</td></tr><tr class="idle"><td><b>UNI</b></td><td class="neg">空-</td><td class="neg">空-</td><td class="neg">空-</td><td class="dim">—</td><td class="dim">混沌</td></tr><tr class="idle"><td><b>WLD</b></td><td class="neg">空-</td><td class="neg">空-</td><td class="neg">空-</td><td class="dim">—</td><td class="dim">混沌</td></tr><tr class="idle"><td><b>BNB</b></td><td class="neg">空-</td><td class="neg">空-</td><td class="neg">空-</td><td class="dim">—</td><td class="dim">混沌</td></tr><tr class="idle"><td><b>FIL</b></td><td class="pos">多+</td><td class="neg">空-</td><td class="pos">多+</td><td class="dim">—</td><td class="dim">混沌</td></tr></table></div>
+<div class="card"><table><tr><th>币</th><th>🦉开明雷达</th><th>🐯白虎触突</th><th>🐍腾蛇择强</th><th>🐉烛龙判决</th><th>四态</th></tr><tr><td><b>ARB</b></td><td class="pos">多+</td><td class="neg">空-</td><td class="neg">空-</td><td class="dim">—</td><td class="dim">大多</td></tr><tr><td><b>AVAX</b></td><td class="pos">多+</td><td class="neg">空-</td><td class="neg">空-</td><td class="dim">—</td><td class="dim">混沌</td></tr><tr><td><b>DOT</b></td><td class="pos">多+</td><td class="neg">空-</td><td class="neg">空-</td><td class="dim">—</td><td class="dim">混沌</td></tr><tr><td><b>LINK</b></td><td class="neg">空-</td><td class="neg">空-</td><td class="neg">空-</td><td class="dim">—</td><td class="dim">混沌</td></tr><tr class="idle"><td><b>BTC</b></td><td class="pos">多+</td><td class="neg">空-</td><td class="neg">空-</td><td class="dim">—</td><td class="dim">混沌</td></tr><tr class="idle"><td><b>LTC</b></td><td class="dim">—</td><td class="neg">空-</td><td class="neg">空-</td><td class="dim">—</td><td class="dim">混沌</td></tr><tr class="idle"><td><b>ADA</b></td><td class="pos">多+</td><td class="neg">空-</td><td class="neg">空-</td><td class="dim">—</td><td class="dim">混沌</td></tr><tr class="idle"><td><b>DOGE</b></td><td class="pos">多+</td><td class="neg">空-</td><td class="pos">多+</td><td class="dim">—</td><td class="dim">混沌</td></tr><tr class="idle"><td><b>XRP</b></td><td class="pos">多+</td><td class="neg">空-</td><td class="pos">多+</td><td class="dim">—</td><td class="dim">混沌</td></tr><tr class="idle"><td><b>SOL</b></td><td class="pos">多+</td><td class="neg">空-</td><td class="neg">空-</td><td class="dim">—</td><td class="dim">混沌</td></tr><tr class="idle"><td><b>SUI</b></td><td class="pos">多+</td><td class="neg">空-</td><td class="neg">空-</td><td class="dim">—</td><td class="dim">混沌</td></tr><tr class="idle"><td><b>ETH</b></td><td class="pos">多+</td><td class="neg">空-</td><td class="neg">空-</td><td class="dim">—</td><td class="dim">混沌</td></tr><tr class="idle"><td><b>NEAR</b></td><td class="pos">多+</td><td class="neg">空-</td><td class="pos">多+</td><td class="dim">—</td><td class="dim">混沌</td></tr><tr class="idle"><td><b>UNI</b></td><td class="pos">多+</td><td class="neg">空-</td><td class="pos">多+</td><td class="dim">—</td><td class="dim">混沌</td></tr><tr class="idle"><td><b>WLD</b></td><td class="dim">—</td><td class="neg">空-</td><td class="neg">空-</td><td class="dim">—</td><td class="dim">混沌</td></tr><tr class="idle"><td><b>BNB</b></td><td class="dim">—</td><td class="neg">空-</td><td class="pos">多+</td><td class="dim">—</td><td class="dim">混沌</td></tr><tr class="idle"><td><b>FIL</b></td><td class="pos">多+</td><td class="neg">空-</td><td class="neg">空-</td><td class="dim">—</td><td class="dim">混沌</td></tr></table></div>
 
-<h2>三、烛龙王者裁决（含新基因 · 王袍加身）</h2>
+</details><details class="sec"><summary>三、烛龙王者裁决（含新基因 · 王袍加身）</summary>
 <div class="tip">烛龙王者 = 大势 × 强度 × 前哨 × ☯源共识 × ☯五行生克 × ☯顶底识别，综合出「王者裁决」
 —— 新基因不再只是“显化”，而是<b>真正参与裁断</b>（逆向降级 · 顶区压多 · 相生加分）。</div>
 <div class="card"><table><tr><th>币</th><th>四态</th><th>相位</th><th>向</th><th>强</th><th>王者裁决(含新基因)</th></tr><tr><td><b>ARB</b></td><td class="pos">大多</td><td class="pos">顺</td><td class="dim">观望</td><td>0.59</td><td class="" style="font-size:12px;white-space:normal">蓄势不发 | 爻变:阳 雷达:多</td></tr><tr><td><b>AVAX</b></td><td class="dim">混沌</td><td class="neg">反</td><td class="dim">观望</td><td>0.46</td><td class="" style="font-size:12px;white-space:normal">蓄势不发 | 爻变:阴 雷达:多</td></tr><tr><td><b>DOT</b></td><td class="dim">混沌</td><td class="neg">反</td><td class="neg">空</td><td>0.03</td><td class="" style="font-size:12px;white-space:normal">空可开(势强) | 爻变:阴 雷达:多 基因背离-0.05(对齐3) 大趋势共振-0.20 大趋势阶[启动]-0.35</td></tr><tr><td><b>LINK</b></td><td class="dim">混沌</td><td class="dim">观望</td><td class="pos">多</td><td>1.00</td><td class="" style="font-size:12px;white-space:normal">多择机(势中) | 雷达:多 基因共振+0.15(对齐3/胚胎2.2) 大趋势共振+0.15 大趋势阶[启动]+0.35</td></tr><tr class="idle"><td><b>BTC</b></td><td class="dim">混沌</td><td class="dim">观望</td><td class="pos">多</td><td>1.00</td><td class="" style="font-size:12px;white-space:normal">多择机(势中) | 雷达:多 基因共振+0.16(对齐3/胚胎2.7) 大趋势共振+0.14 大趋势阶[启动]+0.30（观望·不参与）</td></tr><tr class="idle"><td><b>LTC</b></td><td class="dim">混沌</td><td class="dim">观望</td><td class="pos">多</td><td>1.00</td><td class="" style="font-size:12px;white-space:normal">多可开(势强) | 雷达:多 基因共振+0.13(对齐2/胚胎4.7) 大趋势共振+0.18 大趋势阶[启动]+0.35（观望·不参与）</td></tr><tr class="idle"><td><b>ADA</b></td><td class="dim">混沌</td><td class="dim">观望</td><td class="pos">多</td><td>0.45</td><td class="" style="font-size:12px;white-space:normal">观望(势弱) | 雷达:多 基因共振+0.15(对齐3/胚胎2.2) 大趋势共振+0.03 大趋势阶[衰竭]+0.03（观望·不参与）</td></tr><tr class="idle"><td><b>DOGE</b></td><td class="dim">混沌</td><td class="dim">观望</td><td class="pos">多</td><td>1.00</td><td class="" style="font-size:12px;white-space:normal">多可开(势强) | 雷达:多 基因共振+0.16(对齐3/胚胎2.7) 大趋势共振+0.24 大趋势阶[中继]+0.35（观望·不参与）</td></tr><tr class="idle"><td><b>XRP</b></td><td class="dim">混沌</td><td class="dim">观望</td><td class="pos">多</td><td>1.00</td><td class="" style="font-size:12px;white-space:normal">多可开(势强) | 雷达:多 基因共振+0.16(对齐3/胚胎2.7) 大趋势共振+0.20 大趋势阶[启动]+0.35（观望·不参与）</td></tr><tr class="idle"><td><b>SOL</b></td><td class="dim">混沌</td><td class="dim">观望</td><td class="pos">多</td><td>1.00</td><td class="" style="font-size:12px;white-space:normal">多可开(势强) | 雷达:多 基因共振+0.15(对齐3/胚胎2.2) 大趋势共振+0.17 大趋势阶[启动]+0.35（观望·不参与）</td></tr><tr class="idle"><td><b>SUI</b></td><td class="dim">混沌</td><td class="dim">观望</td><td class="pos">多</td><td>1.00</td><td class="" style="font-size:12px;white-space:normal">多可开(势强) | 雷达:多 基因共振+0.15(对齐3/胚胎2.2) 大趋势共振+0.19 大趋势阶[启动]+0.35（观望·不参与）</td></tr><tr class="idle"><td><b>ETH</b></td><td class="dim">混沌</td><td class="dim">观望</td><td class="pos">多</td><td>0.96</td><td class="" style="font-size:12px;white-space:normal">多择机(势中) | 雷达:多 基因共振+0.16(对齐3/胚胎2.7) 大趋势共振+0.12 大趋势阶[中继]+0.20（观望·不参与）</td></tr><tr class="idle"><td><b>NEAR</b></td><td class="dim">混沌</td><td class="dim">观望</td><td class="dim">观望</td><td>0.28</td><td class="" style="font-size:12px;white-space:normal">蓄势不发 | 雷达:多（观望·不参与）</td></tr><tr class="idle"><td><b>UNI</b></td><td class="dim">混沌</td><td class="dim">观望</td><td class="pos">多</td><td>1.00</td><td class="" style="font-size:12px;white-space:normal">多可开(势强) | 雷达:多 基因共振+0.16(对齐3/胚胎2.7) 大趋势共振+0.18 大趋势阶[启动]+0.21（观望·不参与）</td></tr><tr class="sovereign"><td><b>WLD</b></td><td class="dim">混沌</td><td class="dim">观望</td><td class="pos">多</td><td>1.00</td><td class="neg" style="font-size:12px;white-space:normal">追高·烛龙否决开多 | 雷达:多 基因共振+0.17(对齐3/胚胎3.2) 大趋势共振+0.32 大趋势阶[启动]+0.21（观望·不参与）</td></tr><tr class="idle"><td><b>BNB</b></td><td class="dim">混沌</td><td class="dim">观望</td><td class="pos">多</td><td>1.00</td><td class="" style="font-size:12px;white-space:normal">多可开(势强) | 雷达:多 基因共振+0.16(对齐3/胚胎2.7) 大趋势共振+0.23 大趋势阶[启动]+0.35（观望·不参与）</td></tr><tr class="idle"><td><b>FIL</b></td><td class="dim">混沌</td><td class="dim">观望</td><td class="dim">观望</td><td>0.80</td><td class="" style="font-size:12px;white-space:normal">蓄势不发 | 雷达:空（观望·不参与）</td></tr></table></div>
@@ -99,20 +159,24 @@ tick();setInterval(tick,6000);})();
 （引擎大势 · 开明雷达 · 白虎触突 · 信号源×五行 · 顶底识别 · 阴阳爻变）<b>汇注烛龙唯一声音</b>；
 铁律 / 顶底冲突 → 烛龙<b>一票否决</b>。</div>
 
-<h2>🌐 六所同币信号（6 秒刷新 · Binance/OKX/Bybit/Gate/MEXC/Bitget）</h2>
+</details><h2>🌐 六所同币信号（6 秒刷新 · Binance/OKX/Bybit/Gate/MEXC/Bitget）</h2>
 <div class="card"><div id="ls-sum" style="font-size:13px">加载中…</div>
-<table><thead><tr><th>币</th><th>向</th><th>同向/家数</th><th>强度</th><th>1分钟动量</th><th>跨所价差</th></tr></thead><tbody id="ls-rows"></tbody></table>
-<div style="font-size:11px;opacity:.65;margin-top:6px">口径：同向≥4家 且 1分钟均动量≥0.05% ⇒ 有向；同向≥5家且≥0.10% ⇒ 强。只读行情·不下单。</div></div>
+<table><thead><tr><th>币</th><th>向</th><th>同向/家数</th><th>强度</th><th>1分钟动量</th><th>跨所价差</th><th>分歧</th><th>提示</th></tr></thead><tbody id="ls-rows"></tbody></table>
+<div style="font-size:11px;opacity:.65;margin-top:6px">口径：同向≥4家 且 1分钟均动量≥0.05% ⇒ 有向；同向≥5家且≥0.10% ⇒ 强。只读行情·不下单。<br>提示：价差≥0.30%⇒价差异常｜有家数未同向⇒有分歧｜动量与方向相反⇒逆动背离｜六所全同向⇒六所齐。</div></div>
 <script>
 (function(){
  function esc(s){return String(s).replace(/[&<>]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c];});}
  function draw(d){
   var rows=(d['有向清单']||[]);
-  document.getElementById('ls-sum').innerHTML='更新 <b>'+esc(d['时刻']||'')+'</b> · 覆盖 '+d['覆盖币']+' 币 · 有向 <b>'+d['有向币']+'</b>';
+  document.getElementById('ls-sum').innerHTML='更新 <b>'+esc(d['时刻']||'')+'</b> · 交易所 '+(d['交易所']||[]).length+' 家（'+(d['交易所']||[]).join('/')+'）· 覆盖 '+d['覆盖币']+' 币 · 有向 <b>'+d['有向币']+'</b>';
   document.getElementById('ls-rows').innerHTML=rows.map(function(r){
    var dir=r['向']==='long'?'<span style="color:#3ddc84">多</span>':'<span style="color:#ff6b6b">空</span>';
-   return '<tr><td>'+esc(r['币'])+'</td><td>'+dir+'</td><td>'+r['同向']+'/'+r['家数']+'</td><td>'+r['强度']+'</td><td>'+r['均动量1m%']+'%</td><td>'+(r['跨所价差%']!=null?r['跨所价差%']+'%':'-')+'</td></tr>';
-  }).join('')||'<tr><td colspan="6" style="opacity:.6">此刻六所无一致方向（宁缺毋滥）</td></tr>';
+   var fq=(r['家数']||0)-(r['同向']||0),mv=Number(r['均动量1m%']||0),sp=r['跨所价差%'],tip='六所齐',tc='pos';
+   if(sp!=null&&Number(sp)>=0.30){tip='价差异常';tc='warn';}
+   else if((r['向']==='short'&&mv>0.05)||(r['向']==='long'&&mv<-0.05)){tip='逆动背离';tc='warn';}
+   else if(fq>0){tip='有'+fq+'家分歧';tc='warn';}
+   return '<tr><td>'+esc(r['币'])+'</td><td>'+dir+'</td><td>'+r['同向']+'/'+r['家数']+'</td><td>'+r['强度']+'</td><td>'+r['均动量1m%']+'%</td><td>'+(sp!=null?sp+'%':'-')+'</td><td class="'+(fq?'warn':'dim')+'">'+fq+' 家</td><td class="'+tc+'">'+tip+'</td></tr>';
+  }).join('')||'<tr><td colspan="8" style="opacity:.6">此刻六所无一致方向（宁缺毋滥）</td></tr>';
  }
  function tick(){fetch('liusuo.json?t='+Date.now()).then(function(r){return r.json()}).then(draw).catch(function(){});}
  tick(); setInterval(tick,6000);
