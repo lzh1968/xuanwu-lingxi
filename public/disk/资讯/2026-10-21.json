@@ -1,9 +1,19 @@
 {
  "日期": "2026-10-21",
- "落盘": "2026-10-21 11:12:52",
+ "落盘": "2026-10-21 11:25:18",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "Show HN: Contribute a history timeline with your own LLM credits",
+   "url": "https://www.worldintimelines.com/",
+   "type": "live"
+  },
+  {
+   "title": "Your LLM is probably overkill for text classification",
+   "url": "https://jeffyclassify.com/blog/jeffy-vs-llm-classification/",
+   "type": "live"
+  },
   {
    "title": "Show HN: Litedeck – Agentless server management GUI over plain SSH",
    "url": "https://github.com/cpprhtn/LiteDeck",
@@ -32,16 +42,6 @@
   {
    "title": "当智能体人自己解决问题时",
    "url": "https://www.economist.com/business/2026/10/15/when-ai-agents-take-matters-into-their-own-hands",
-   "type": "live"
-  },
-  {
-   "title": "基于推送的KV传输，以改善vLLM中用于分解推理的TTFT、TPOT",
-   "url": "https://aws.amazon.com/blogs/machine-learning/push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggregated-inference-in-vllm/",
-   "type": "live"
-  },
-  {
-   "title": "我们如何通过减少路由器的工作量来提高智能体的可靠性",
-   "url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/",
    "type": "live"
   },
   {
