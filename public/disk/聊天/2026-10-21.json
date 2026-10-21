@@ -1,5 +1,5 @@
 {
- "时间": "2026-10-21 19:36:14",
+ "时间": "2026-10-21 20:05:03",
  "会话档数": 38,
  "会话": [
   {
@@ -213,160 +213,32 @@
    "改": "2026-10-21 13:17:48"
   },
   {
+   "档": "1b867855-1a99-4fc2-8e7c-625531a9d121.jsonl",
+   "字节": 149123,
+   "行": 90,
+   "改": "2026-10-21 19:51:52"
+  },
+  {
    "档": "cdfcf768-f9a5-403c-84d3-be15f7b4aed4.jsonl",
-   "字节": 212798,
-   "行": 374,
-   "改": "2026-10-21 19:32:48"
+   "字节": 224316,
+   "行": 394,
+   "改": "2026-10-21 20:02:54"
   },
   {
    "档": "9dbfeb48-bcf7-459b-bfb3-7d0b2353a598.jsonl",
-   "字节": 721598,
-   "行": 352,
-   "改": "2026-10-21 19:33:04"
-  },
-  {
-   "档": "1b867855-1a99-4fc2-8e7c-625531a9d121.jsonl",
-   "字节": 106770,
-   "行": 64,
-   "改": "2026-10-21 19:33:34"
+   "字节": 3325,
+   "行": 6,
+   "改": "2026-10-21 20:04:58"
   }
  ],
  "近段摘要": [
   {
    "角色": "老板",
-   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
-  },
-  {
-   "角色": "小奈",
-   "文": "I'll read the heartbeat file and check on system status."
+   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Wed 2026-10-21 20:04 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
   },
   {
    "角色": "小奈",
    "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "HEARTBEAT_OK"
-  },
-  {
-   "角色": "老板",
-   "文": "System (untrusted): [2026-10-21 10:32:27 GMT+8] Exec completed (plaid-cr, code 0) :: og -rw-------. 1 u0_a137 u0_a137 51828 Oct 21 10:32 skills/sniper-engine/data_v2/logs/_云九源拉取.log -rw-------. 1 u0_a137 u0_a137 2454244 Oct 21 10:32 skills/sniper-engine/data_v2/lo…\n\nRead HEARTBEAT.md if it exists (w"
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "HEARTBEAT_OK"
-  },
-  {
-   "角色": "老板",
-   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "HEARTBEAT_OK"
-  },
-  {
-   "角色": "老板",
-   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "HEARTBEAT_OK"
-  },
-  {
-   "角色": "老板",
-   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "HEARTBEAT_OK"
-  },
-  {
-   "角色": "老板",
-   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
-  },
-  {
-   "角色": "小奈",
-   "文": "HEARTBEAT_OK"
-  },
-  {
-   "角色": "老板",
-   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "HEARTBEAT_OK"
-  },
-  {
-   "角色": "老板",
-   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "HEARTBEAT_OK"
   }
  ],
  "本地全量归档": [
@@ -391,6 +263,6 @@
    "MB": 27.11
   }
  ],
- "摘要档": "1b867855-1a99-4fc2-8e7c-625531a9d121.jsonl",
+ "摘要档": "9dbfeb48-bcf7-459b-bfb3-7d0b2353a598.jsonl",
  "注": "本分区=索引+近段摘要；聊天全文存于本机 data_v2/archive/聊天记录_* 与加密密包(封存分区)"
 }
