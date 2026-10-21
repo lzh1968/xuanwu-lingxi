@@ -1,9 +1,25 @@
 {
- "generated": "10:41",
- "built": "2026-10-21 10:41:21",
+ "generated": "11:19",
+ "built": "2026-10-21 11:19:04",
  "count": 327,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN: Contribute a history timeline with your own LLM credits",
+   "url": "https://www.worldintimelines.com/",
+   "src": "Hacker News",
+   "t": "11:16",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Your LLM is probably overkill for text classification",
+   "url": "https://jeffyclassify.com/blog/jeffy-vs-llm-classification/",
+   "src": "Hacker News",
+   "t": "11:15",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Show HN: Litedeck – Agentless server management GUI over plain SSH",
@@ -18,7 +34,7 @@
    "url": "https://github.com/zhitongblog/unterm",
    "src": "Hacker News",
    "t": "09:39",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -26,7 +42,7 @@
    "url": "https://agentitter.com/",
    "src": "Hacker News",
    "t": "09:30",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -34,7 +50,7 @@
    "url": "https://news.ycombinator.com/item?id=50174945",
    "src": "Hacker News",
    "t": "09:25",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -50,22 +66,6 @@
    "url": "https://www.economist.com/business/2026/10/15/when-ai-agents-take-matters-into-their-own-hands",
    "src": "Hacker News",
    "t": "07:30",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "基于推送的KV传输，以改善vLLM中用于分解推理的TTFT、TPOT",
-   "url": "https://aws.amazon.com/blogs/machine-learning/push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggregated-inference-in-vllm/",
-   "src": "Hacker News",
-   "t": "07:27",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "我们如何通过减少路由器的工作量来提高智能体的可靠性",
-   "url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/",
-   "src": "Hacker News",
-   "t": "06:49",
    "fresh": false
   },
   {
