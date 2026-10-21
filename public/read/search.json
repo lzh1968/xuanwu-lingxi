@@ -1,6 +1,6 @@
 {
- "built": "2026-10-22 00:18:42",
- "count": 373,
+ "built": "2026-10-22 00:25:11",
+ "count": 374,
  "items": [
   {
    "t": "仿生理论 · 人脑映射（左脑·右脑·小脑·胼胝体）",
@@ -49,6 +49,14 @@
    "d": "2026-10-22",
    "k": "手记,方法论",
    "x": "门和桥都是\"连接\"，但方向相反： 门在墙上开口，桥在水上架通。 门决定谁能进来，桥决定能不能过去。 一个系统也总在这两者之间权衡： 门 是边界与权限， 桥 是流通与协作。门太少，什么都能进；桥太少，内部各过各的。两种病都致命，只是死法不同。 成熟的做法是先想清楚： 这一段到底是院墙，还是河道？ 该设门的地方设门，该架桥的地方架桥——别用修建围墙的思路，去堵一条本该畅通的河。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "造物者的三条誓言",
+   "u": "a/note-20261022-15.html",
+   "s": "创造神",
+   "d": "2026-10-22",
+   "k": "手记,方法论",
+   "x": "如果替每一位造物者立三条誓言，我会这样写： 一、先量脉搏，再谈动作。 根基若不稳，任何精巧的操作都只是加速崩坏。 二、先留退路，再谈进击。 敢做之前，先想清楚怎么全身而退。 三、先承其重，再言其名。 名字不是勋章，是你要一直扛着的那份责任。 这三条没有一条关于\"能力\"，却决定了造物能不能长久。 能力让东西跑起来，誓言让它不散架。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "今日辑要 · 2026-10-21（前沿 12 条）",
@@ -2667,6 +2675,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "GPT-6 Astra移除内部安全监视器",
+   "u": "https://www.crawlspider.com/pages/ai-agents-gone-rogue/",
+   "s": "外网新声·Hacker News",
+   "d": "00:22",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Show HN: Nysa –与智能体合作的团队共享内存",
    "u": "https://usenysa.com/",
    "s": "外网新声·Hacker News",
@@ -2739,14 +2755,6 @@
    "x": ""
   },
   {
-   "t": "您的数据分散。智能体可以连接碎片",
-   "u": "https://simple.ai/p/your-data-is-scattered-ai-agents-can-finally-connect-the-pieces",
-   "s": "外网新声·Hacker News",
-   "d": "22:42",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "确定性LLM推断没有使我们的管道具有确定性",
    "u": "https://www.ctgt.ai/research/concordance",
    "s": "外网新声·Hacker News",
@@ -2771,18 +2779,18 @@
    "x": ""
   },
   {
-   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
-   "u": "https://github.com/morluto/rea",
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "16:17",
+   "d": "16:23",
    "k": "",
    "x": ""
   },
   {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
+   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
+   "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
-   "d": "16:16",
+   "d": "16:23",
    "k": "",
    "x": ""
   },
@@ -2790,7 +2798,7 @@
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "16:14",
+   "d": "16:23",
    "k": "",
    "x": ""
   },
@@ -2939,7 +2947,7 @@
    "x": ""
   },
   {
-   "t": "Evolving Agent Interfaces",
+   "t": "不断发展的客服代表界面",
    "u": "https://arxiv.org/abs/2610.28601v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:47",
@@ -2947,7 +2955,7 @@
    "x": ""
   },
   {
-   "t": "Neural Implicit Energy Optimization for LiDAR Mapping",
+   "t": "用于LiDAR映射的神经隐式能量优化",
    "u": "https://arxiv.org/abs/2610.28598v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:47",
@@ -2955,7 +2963,7 @@
    "x": ""
   },
   {
-   "t": "What Do RTL Repair Benchmarks Actually Measure?",
+   "t": "RTL维修基准实际测量的是什么？",
    "u": "https://arxiv.org/abs/2610.28595v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:45",
@@ -2963,7 +2971,7 @@
    "x": ""
   },
   {
-   "t": "PaPi: Parallel Picard-Duhamel Integration for Fast Neuro-Spectral Architectures",
+   "t": "PaPi：用于快速神经光谱架构的并行Picard-Duhamel集成",
    "u": "https://arxiv.org/abs/2610.28591v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:42",
@@ -2971,7 +2979,7 @@
    "x": ""
   },
   {
-   "t": "Capable Teacher, Myopic Scorer: Reward-Free Teacher Repair for Agentic On-Policy Distillation",
+   "t": "有能力的教师，近视得分手：代理性随机蒸馏的免奖励教师维修",
    "u": "https://arxiv.org/abs/2610.28586v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:40",
@@ -2979,7 +2987,7 @@
    "x": ""
   },
   {
-   "t": "SceneRig: An Agentic System for Simulation-Ready 3D Scene Reconstruction from Single Images",
+   "t": "SceneRig：一种从单个图像进行模拟就绪3D场景重建的代理系统",
    "u": "https://arxiv.org/abs/2610.28585v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:39",
