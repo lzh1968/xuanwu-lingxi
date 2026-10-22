@@ -1,9 +1,25 @@
 {
- "generated": "14:30",
- "built": "2026-10-22 14:30:37",
+ "generated": "15:20",
+ "built": "2026-10-22 15:20:10",
  "count": 346,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "AI Agent Observability with OpenTelemetry",
+   "url": "https://signoz.io/blog/opentelemetry-ai-agent-observability/",
+   "src": "Hacker News",
+   "t": "15:17",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN：Aw-1 – AI 智能体的确定性AST断路器和内核监狱",
+   "url": "https://github.com/MvikManners/aw1-circuit-breaker",
+   "src": "Hacker News",
+   "t": "15:09",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Show HN: Kuron – An LLM acts as your app so you can try ideas before building",
@@ -26,7 +42,7 @@
    "url": "https://pawmc-demo.kolaegipet.workers.dev/?demo=1",
    "src": "Hacker News",
    "t": "13:23",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -34,7 +50,7 @@
    "url": "https://github.com/tensemem/tensemem",
    "src": "Hacker News",
    "t": "13:19",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -50,22 +66,6 @@
    "url": "https://notcho.si",
    "src": "Hacker News",
    "t": "11:22",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "LLM代理商玩口袋妖怪对决",
-   "url": "https://olivergrabner.com/research/pokemon/",
-   "src": "Hacker News",
-   "t": "10:13",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "个人代理协议",
-   "url": "https://sierra.ai/blog/introducing-personal-agent-protocol",
-   "src": "Hacker News",
-   "t": "09:35",
    "fresh": false
   },
   {
