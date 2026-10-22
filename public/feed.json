@@ -1,9 +1,17 @@
 {
- "generated": "01:57",
- "built": "2026-10-23 01:57:05",
+ "generated": "02:03",
+ "built": "2026-10-23 02:03:00",
  "count": 365,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "向Agentic AI基金会捐赠Agent技能",
+   "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+   "src": "Hacker News",
+   "t": "02:00",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "询问HN：我应该使用哪种浏览器？ (RIP Arc)",
@@ -58,14 +66,6 @@
    "url": "https://infisical.com/blog/ai-agent-security-hazmat-suits",
    "src": "Hacker News",
    "t": "01:33",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "vLLM TorchTPU：零拷贝KV缓存卸载和分解服务",
-   "url": "https://vllm.ai/blog/2026-10-20-vllm-torchtpu",
-   "src": "Hacker News",
-   "t": "01:25",
    "fresh": true
   },
   {
