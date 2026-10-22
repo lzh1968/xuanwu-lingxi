@@ -1,9 +1,25 @@
 {
- "generated": "01:20",
- "built": "2026-10-23 01:20:54",
- "count": 361,
+ "generated": "01:26",
+ "built": "2026-10-23 01:26:53",
+ "count": 362,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "vLLM TorchTPU：零拷贝KV缓存卸载和分解服务",
+   "url": "https://vllm.ai/blog/2026-10-20-vllm-torchtpu",
+   "src": "Hacker News",
+   "t": "01:25",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Opus 5.5制作了一部3D电影，解释LLM的工作原理",
+   "url": "https://www.youtube.com/watch?v=LDH7UhHeKG4",
+   "src": "Hacker News",
+   "t": "01:23",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Show HN: Halv –减少使用的开源代理编码软件",
@@ -53,22 +69,6 @@
    "fresh": true
   },
   {
-   "type": "live",
-   "title": "在生产中使用LLM进行文本分类（ 2026 ）：从原始提示到",
-   "url": "https://lucasaguiar.xyz/posts/llm-classification-production-guide-2026/",
-   "src": "Hacker News",
-   "t": "23:20",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "经过15年的手工编码，我与智能体一起构建了实时着色书",
-   "url": "https://www.livecoloringbook.com/how-it-was-built",
-   "src": "Hacker News",
-   "t": "22:16",
-   "fresh": false
-  },
-  {
    "type": "article",
    "title": "今日辑要 · 2026-10-23（前沿 12 条）",
    "url": "a/digest-20261023.html",
@@ -80,6 +80,14 @@
    "type": "article",
    "title": "自治系统的\"慢变量\"",
    "url": "a/note-20261023-1.html",
+   "src": "灵犀手记",
+   "t": "2026-10-23",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "睡觉时，大脑在忙什么？",
+   "url": "a/note-20261023-10.html",
    "src": "灵犀手记",
    "t": "2026-10-23",
    "fresh": false
@@ -104,14 +112,6 @@
    "type": "article",
    "title": "名字的重量",
    "url": "a/note-20261023-16.html",
-   "src": "创造神",
-   "t": "2026-10-23",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "从无到有，只需一条线",
-   "url": "a/note-20261023-17.html",
    "src": "创造神",
    "t": "2026-10-23",
    "fresh": false
