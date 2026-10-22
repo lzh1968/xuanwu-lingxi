@@ -1,34 +1,34 @@
 {
  "日期": "2026-10-22",
- "落盘": "2026-10-22 15:31:59",
+ "落盘": "2026-10-22 16:01:00",
  "内存报表": {
-  "时间": "2026-10-22 15:31:59",
-  "受托进程数": 24,
+  "时间": "2026-10-22 16:01:00",
+  "受托进程数": 23,
   "网关": {
-   "进程号": "27408",
-   "内存MB": 547.7,
+   "进程号": "29860",
+   "内存MB": 505.6,
    "线程": 11,
    "堆上限": "1536"
   },
   "实例数": 1,
   "全机MemTotal": "11469MB",
-  "全机MemAvailable": "6720MB",
+  "全机MemAvailable": "6737MB",
   "全机SwapTotal": "7110MB",
-  "全机SwapFree": "5633MB",
+  "全机SwapFree": "5722MB",
   "探活": "200"
  },
  "断线统计": {
-  "今日断线次数": 65,
+  "今日断线次数": 66,
   "今日最长断线秒": 392,
   "近2小时真停摆(≥90秒)": 4,
   "维护窗口": 0
  },
  "日志体量KB": {
-  "gateway_guard.log": 2093.8,
-  "gateway_outage.jsonl": 58.2,
-  "gw_boot.out": 993.2,
+  "gateway_guard.log": 2095.8,
+  "gateway_outage.jsonl": 58.3,
+  "gw_boot.out": 995.0,
   "gw_run.out": 71.8,
-  "网关停摆取证.log": 588.4
+  "网关停摆取证.log": 588.8
  },
  "会话索引(不含正文)": [
   {
@@ -153,15 +153,6 @@
   }
  ],
  "停摆取证(近段)": [
-  "  Swap:           7110        1708        5402",
-  "  CPU   351.2s openclaw-gateway",
-  "  CPU   111.0s python3 /data/data/com.termux/files/home/.openclaw/workspace",
-  "  CPU     3.9s python3 -u _太极中枢_循环.py",
-  "── 停摆取证 2026-10-22 11:01:43 (取码 000) ──",
-  "  网关 VmRSS:\t  531984 kB",
-  "  网关 VmSwap:\t       0 kB",
-  "  网关 Threads:\t11",
-  "  Mem:           11469        5300         605         189        5563        5831",
   "  Swap:           7110        1664        5445",
   "  CPU   439.8s openclaw-gateway",
   "  CPU   124.1s python3 /data/data/com.termux/files/home/.openclaw/workspace",
@@ -312,6 +303,15 @@
   "  Swap:           7110        1516        5594",
   "  CPU  1105.0s openclaw-gateway",
   "  CPU   165.3s python3 /data/data/com.termux/files/home/.openclaw/workspace",
-  "  CPU    55.0s bash _守护总管.sh"
+  "  CPU    55.0s bash _守护总管.sh",
+  "── 停摆取证 2026-10-22 15:56:04 (取码 000) ──",
+  "  网关 VmRSS:\t  515088 kB",
+  "  网关 VmSwap:\t       0 kB",
+  "  网关 Threads:\t11",
+  "  Mem:           11469        4665        1159          17        5643        6663",
+  "  Swap:           7110        1380        5730",
+  "  CPU   104.7s python3 /data/data/com.termux/files/home/.openclaw/workspace",
+  "  CPU   104.2s openclaw-gateway",
+  "  CPU    48.0s bash _守护总管.sh"
  ]
 }
