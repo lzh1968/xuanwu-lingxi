@@ -1,9 +1,17 @@
 {
- "generated": "15:26",
- "built": "2026-10-22 15:26:01",
+ "generated": "15:37",
+ "built": "2026-10-22 15:37:41",
  "count": 346,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "A framework for evaluating agentic AI systems",
+   "url": "https://deepsense.ai/blog/your-agent-passed-the-eval-should-you-ship-it/",
+   "src": "Hacker News",
+   "t": "15:32",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "ZK-irp-firewall: Zero-knowledge invariant enforcement for AI agents",
@@ -42,7 +50,7 @@
    "url": "https://llmtobinary.com?llm",
    "src": "Hacker News",
    "t": "14:00",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,6 @@
    "url": "https://github.com/tensemem/tensemem",
    "src": "Hacker News",
    "t": "13:19",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Lemoncode，自由编码代理",
-   "url": "https://lemoncode.ai/",
-   "src": "Hacker News",
-   "t": "12:46",
    "fresh": false
   },
   {
