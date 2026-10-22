@@ -1,9 +1,17 @@
 {
- "generated": "06:22",
- "built": "2026-10-23 06:22:11",
+ "generated": "06:55",
+ "built": "2026-10-23 06:55:41",
  "count": 365,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "LLM正在使正式的软件验证在更大的规模上可行",
+   "url": "https://www.anthropic.com/research/formal-verification",
+   "src": "Hacker News",
+   "t": "06:54",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Show HN：CATT 0.2.1：在CI中针对缪斯/本能相似的测试代理/服务",
@@ -42,7 +50,7 @@
    "url": "https://1password.com/personal-ai-agent-integrations",
    "src": "Hacker News",
    "t": "05:21",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,6 @@
    "url": "https://trycrabmail.com/",
    "src": "Hacker News",
    "t": "03:38",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Hornet：为当地LLM构建持久的工作流程",
-   "url": "https://github.com/matrixswarm/hornet",
-   "src": "Hacker News",
-   "t": "02:21",
    "fresh": false
   },
   {
