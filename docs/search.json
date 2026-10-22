@@ -1,5 +1,5 @@
 {
- "built": "2026-10-22 10:24:45",
+ "built": "2026-10-22 10:39:03",
  "count": 388,
  "items": [
   {
@@ -2843,18 +2843,10 @@
    "x": ""
   },
   {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "02:24",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
    "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
-   "d": "02:22",
+   "d": "02:36",
    "k": "",
    "x": ""
   },
@@ -2862,7 +2854,15 @@
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "02:21",
+   "d": "02:35",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "02:24",
    "k": "",
    "x": ""
   },
@@ -2915,6 +2915,102 @@
    "x": ""
   },
   {
+   "t": "LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data",
+   "u": "https://arxiv.org/abs/2610.30132v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "The role of locality and weight sharing in convolutional neural networks",
+   "u": "https://arxiv.org/abs/2610.30118v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:56",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Velocity Ambiguity Profiles: Time-Resolved Bayes-Risk Diagnostics for Flow Matching",
+   "u": "https://arxiv.org/abs/2610.30107v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:52",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Asymmetric On-Policy Distillation Learns In-Context Exploration",
+   "u": "https://arxiv.org/abs/2610.30105v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:50",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "BatchBench: Benchmarking AI Robustness to Batch Effects and Domain Shift in Biomedical Images - A JUMP Cell Painting Leaderboard",
+   "u": "https://arxiv.org/abs/2610.30104v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:50",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Differentially Private Sparse Reward Estimation with Preference Feedback",
+   "u": "https://arxiv.org/abs/2610.30099v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:45",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Circuits of LLM Classifiers",
+   "u": "https://arxiv.org/abs/2610.30076v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:27",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Loopholing All the Way: Language Modeling with pure Self-Conditioning",
+   "u": "https://arxiv.org/abs/2610.30068v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:25",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Looped Uniform Diffusion Language Models",
+   "u": "https://arxiv.org/abs/2610.30066v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:24",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "HGM-Dual: Lineage-Aware Guided Agent Harness Optimization for Long-Horizon Planning",
+   "u": "https://arxiv.org/abs/2610.30042v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:02",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Code Comprehensor: Hierarchical Documentation and Cross-Modal Retrieval for Large Repositories",
+   "u": "https://arxiv.org/abs/2610.30016v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:45",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Agent Behavior Maps: Locating Agents by What They Would Do, Without Running Them",
+   "u": "https://arxiv.org/abs/2610.30014v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:44",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "通过构建多代理设计实验室进行学习。然而，单一智能体的工作效果更好",
    "u": "https://github.com/bencodev/dsgnrd",
    "s": "外网新声·Hacker News",
@@ -2939,66 +3035,10 @@
    "x": ""
   },
   {
-   "t": "分位分布强化学习的接近最小速率",
-   "u": "https://arxiv.org/abs/2610.29595v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "11:35",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "使用VLC实现高效和可持续室内本地化的迁移学习驱动方法",
-   "u": "https://arxiv.org/abs/2610.29594v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "11:33",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "用于可解释分子性质预测的片段级图形编码",
-   "u": "https://arxiv.org/abs/2610.29589v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "11:29",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "The Reflexivity Threshold: A Phase Transition for Multi-Agent Performative Prediction",
    "u": "https://arxiv.org/abs/2610.29577v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "11:20",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Implicit Feature Reweighting for Label-Free Graph Generalization",
-   "u": "https://arxiv.org/abs/2610.29571v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "11:04",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Certified Neural Approximation of Robust Nonlinear Model Predictive Control",
-   "u": "https://arxiv.org/abs/2610.29559v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "10:46",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "WRDO: Weighted Refusal Direction Optimization in Aligned Language Models",
-   "u": "https://arxiv.org/abs/2610.29555v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "10:42",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Hyperspherical Simplex Representations for Backward-Compatible Retrieval",
-   "u": "https://arxiv.org/abs/2610.29550v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "10:35",
    "k": "",
    "x": ""
   },
@@ -3023,22 +3063,6 @@
    "u": "https://arxiv.org/abs/2610.29528v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "10:18",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Geometric knowledge spaces, Attention pairing and Architectures",
-   "u": "https://arxiv.org/abs/2610.29526v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "10:14",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "pplx-embed-v2-late Technical Report",
-   "u": "https://arxiv.org/abs/2610.29523v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "10:10",
    "k": "",
    "x": ""
   },
@@ -3079,30 +3103,6 @@
    "u": "https://arxiv.org/abs/2610.29498v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "09:51",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Generative Modeling via Nonlinear Schrödinger Bridges and Branching Diffusions",
-   "u": "https://arxiv.org/abs/2610.29476v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "09:30",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "OmniSimulator: Aligning Small Language Models for Authentic Heterogeneous Behavior Modeling",
-   "u": "https://arxiv.org/abs/2610.29472v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "09:30",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "PreCoMem: Predictive Cognitive Memory for Self-Evolving Long-Term Dialogue Agents",
-   "u": "https://arxiv.org/abs/2610.29467v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "09:21",
    "k": "",
    "x": ""
   }
