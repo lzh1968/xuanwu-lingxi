@@ -1,5 +1,5 @@
 {
- "built": "2026-10-22 07:31:55",
+ "built": "2026-10-22 08:01:25",
  "count": 388,
  "items": [
   {
@@ -2787,6 +2787,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "我花了6个月的时间开发了一款没人想要的产品",
+   "u": "https://news.ycombinator.com/item?id=50189266",
+   "s": "外网新声·Hacker News",
+   "d": "07:56",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "CyberArena：在现场对称攻击和防御战斗中对智能体进行基准测试",
    "u": "https://arxiv.org/abs/2610.19005",
    "s": "外网新声·Hacker News",
@@ -2835,14 +2843,6 @@
    "x": ""
   },
   {
-   "t": "法国的OVHcloud计划将前沿人工智能模型成为欧洲第二大LLM参与者",
-   "u": "https://www.reuters.com/world/asia-pacific/frances-ovhcloud-plans-frontier-ai-models-become-europes-second-llm-player-2026-06-17/",
-   "s": "外网新声·Hacker News",
-   "d": "04:47",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Show HN：我制作了一个免费的Mac应用程序来为智能体注释屏幕",
    "u": "https://www.trylasso.online",
    "s": "外网新声·Hacker News",
@@ -2851,18 +2851,34 @@
    "x": ""
   },
   {
-   "t": "LLM-D 1.0将开源Kubernetes AI推理投入生产",
-   "u": "https://techstrong.ai/ai-infrastructure/llm-d-1-0-takes-open-source-kubernetes-ai-inference-into-production/",
-   "s": "外网新声·Hacker News",
-   "d": "03:31",
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "23:58",
    "k": "",
    "x": ""
   },
   {
-   "t": "Show HN：AI Agent安全审核控制台– 15分钟内离线审核",
-   "u": "https://theaioperatorstore.gumroad.com/l/uszyx",
-   "s": "外网新声·Hacker News",
-   "d": "03:06",
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "23:58",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "u": "https://github.com/Dao-AILab/flash-attention",
+   "s": "外网新声·GitHub 新星",
+   "d": "23:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
+   "u": "https://github.com/morluto/rea",
+   "s": "外网新声·GitHub 新星",
+   "d": "23:53",
    "k": "",
    "x": ""
   },
@@ -2875,34 +2891,10 @@
    "x": ""
   },
   {
-   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
-   "u": "https://github.com/morluto/rea",
-   "s": "外网新声·GitHub 新星",
-   "d": "23:30",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "23:30",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Claude Code的多代理代码审查成本和发现",
    "u": "https://quickchat.ai/post/claude-code-multi-agent-code-review",
    "s": "外网新声·Hacker News",
    "d": "23:10",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "23:00",
    "k": "",
    "x": ""
   },
@@ -2927,14 +2919,6 @@
    "u": "https://github.com/obra/superpowers",
    "s": "外网新声·GitHub 新星",
    "d": "21:34",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
-   "u": "https://github.com/Dao-AILab/flash-attention",
-   "s": "外网新声·GitHub 新星",
-   "d": "17:27",
    "k": "",
    "x": ""
   },
@@ -3103,6 +3087,22 @@
    "u": "https://arxiv.org/abs/2610.28586v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:40",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "SceneRig：一种从单个图像进行模拟就绪3D场景重建的代理系统",
+   "u": "https://arxiv.org/abs/2610.28585v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:39",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "超越时序性瓶颈：高效多模态推理的混合扩散-自回归框架",
+   "u": "https://arxiv.org/abs/2610.28584v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:39",
    "k": "",
    "x": ""
   }
