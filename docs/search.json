@@ -1,5 +1,5 @@
 {
- "built": "2026-10-22 11:01:53",
+ "built": "2026-10-22 11:04:25",
  "count": 388,
  "items": [
   {
@@ -2787,14 +2787,6 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "Show HN: Shuttle – I forked Chromium so AI agents get their own tabs and logins",
-   "u": "https://www.shuttlebrowser.com/",
-   "s": "外网新声·Hacker News",
-   "d": "11:01",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "LLM代理商玩口袋妖怪对决",
    "u": "https://olivergrabner.com/research/pokemon/",
    "s": "外网新声·Hacker News",
@@ -2854,7 +2846,7 @@
    "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
    "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
-   "d": "02:58",
+   "d": "03:03",
    "k": "",
    "x": ""
   },
@@ -2939,6 +2931,38 @@
    "x": ""
   },
   {
+   "t": "Environment Duels: A Microcosm of LLM Co-Evolution",
+   "u": "https://arxiv.org/abs/2610.30116v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "The End of Consensus Research?",
+   "u": "https://arxiv.org/abs/2610.30114v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research",
+   "u": "https://arxiv.org/abs/2610.30113v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:54",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use",
+   "u": "https://arxiv.org/abs/2610.30108v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:52",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Velocity Ambiguity Profiles: Time-Resolved Bayes-Risk Diagnostics for Flow Matching",
    "u": "https://arxiv.org/abs/2610.30107v1",
    "s": "外网新声·arXiv cs.LG",
@@ -2949,7 +2973,7 @@
   {
    "t": "Asymmetric On-Policy Distillation Learns In-Context Exploration",
    "u": "https://arxiv.org/abs/2610.30105v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:50",
    "k": "",
    "x": ""
@@ -2957,7 +2981,7 @@
   {
    "t": "BatchBench: Benchmarking AI Robustness to Batch Effects and Domain Shift in Biomedical Images - A JUMP Cell Painting Leaderboard",
    "u": "https://arxiv.org/abs/2610.30104v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:50",
    "k": "",
    "x": ""
@@ -2965,7 +2989,15 @@
   {
    "t": "Differentially Private Sparse Reward Estimation with Preference Feedback",
    "u": "https://arxiv.org/abs/2610.30099v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:45",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "AtomicRL: Atomic Reinforcement Learning for Long-Horizon Robotic Manipulation",
+   "u": "https://arxiv.org/abs/2610.30097v1",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:45",
    "k": "",
    "x": ""
@@ -2975,6 +3007,22 @@
    "u": "https://arxiv.org/abs/2610.30076v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:27",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Parallel AI Agent Collaboration as Graph-Structured Distributed Block Optimization",
+   "u": "https://arxiv.org/abs/2610.30074v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:27",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Charts as Epistemic Actions for Experience-Driven Agentic Data Analysis",
+   "u": "https://arxiv.org/abs/2610.30072v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:26",
    "k": "",
    "x": ""
   },
@@ -2995,10 +3043,42 @@
    "x": ""
   },
   {
+   "t": "From Reasoning to Action: Benchmarking Frontier AI Models on LIBERO-10 Robot Manipulation Tasks",
+   "u": "https://arxiv.org/abs/2610.30051v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:11",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "SWE-DIVE: Multi-Turn Coding Agent Evaluation with Dynamic User Simulation",
+   "u": "https://arxiv.org/abs/2610.30047v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:06",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "HGM-Dual: Lineage-Aware Guided Agent Harness Optimization for Long-Horizon Planning",
    "u": "https://arxiv.org/abs/2610.30042v1",
-   "s": "外网新声·arXiv cs.LG",
+   "s": "外网新声·arXiv cs.AI",
    "d": "17:02",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Robust Soft Skill Adaptation via Behavioral Localization in Tool-Using Agents",
+   "u": "https://arxiv.org/abs/2610.30041v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:02",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "What the Author Wrote, What the Agent Reads: Silent Cue Loss in Enterprise Document Ingestion",
+   "u": "https://arxiv.org/abs/2610.30026v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:51",
    "k": "",
    "x": ""
   },
@@ -3023,86 +3103,6 @@
    "u": "https://github.com/bencodev/dsgnrd",
    "s": "外网新声·Hacker News",
    "d": "16:43",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
-   "u": "https://github.com/mattpocock/skills",
-   "s": "外网新声·GitHub 新星",
-   "d": "14:30",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
-   "u": "https://github.com/IBAX-io/go-ibax",
-   "s": "外网新声·GitHub 新星",
-   "d": "13:14",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "The Reflexivity Threshold: A Phase Transition for Multi-Agent Performative Prediction",
-   "u": "https://arxiv.org/abs/2610.29577v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "11:20",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Stochastic Pruning of the DPO Computation Graph: 1.4x Faster Training and Lower Peak Memory",
-   "u": "https://arxiv.org/abs/2610.29538v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "10:25",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Block Diffusion for Longitudinal EHR: Accuracy, Efficiency, and Representation Trade-offs",
-   "u": "https://arxiv.org/abs/2610.29533v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "10:23",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Are Joint-Embedding Predictive Objectives Effective for Longitudinal EHRs?",
-   "u": "https://arxiv.org/abs/2610.29528v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "10:18",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Mitigating Query Shortcuts in Chain-of-Thought with Context-Aware Decoding",
-   "u": "https://arxiv.org/abs/2610.29518v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "10:05",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Keeping Time vs. Understanding Time: Neither Alone Explains Temporal Reasoning in LLMs",
-   "u": "https://arxiv.org/abs/2610.29507v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "09:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Rethinking Agentic Model Orchestration for Time Series Forecasting",
-   "u": "https://arxiv.org/abs/2610.29504v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "09:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Parallel Thinking for Large Language Model with Path Diversity",
-   "u": "https://arxiv.org/abs/2610.29501v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "09:51",
    "k": "",
    "x": ""
   }
