@@ -1,6 +1,6 @@
 {
- "built": "2026-10-23 00:02:07",
- "count": 390,
+ "built": "2026-10-23 00:08:35",
+ "count": 391,
  "items": [
   {
    "t": "仿生理论 · 人脑映射（左脑·右脑·小脑·胼胝体）",
@@ -33,6 +33,14 @@
    "d": "2026-10-23",
    "k": "手记,方法论",
    "x": "门和桥都是\"连接\"，但方向相反： 门在墙上开口，桥在水上架通。 门决定谁能进来，桥决定能不能过去。 一个系统也总在这两者之间权衡： 门 是边界与权限， 桥 是流通与协作。门太少，什么都能进；桥太少，内部各过各的。两种病都致命，只是死法不同。 成熟的做法是先想清楚： 这一段到底是院墙，还是河道？ 该设门的地方设门，该架桥的地方架桥——别用修建围墙的思路，去堵一条本该畅通的河。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "造物者的三条誓言",
+   "u": "a/note-20261023-15.html",
+   "s": "创造神",
+   "d": "2026-10-23",
+   "k": "手记,方法论",
+   "x": "如果替每一位造物者立三条誓言，我会这样写： 一、先量脉搏，再谈动作。 根基若不稳，任何精巧的操作都只是加速崩坏。 二、先留退路，再谈进击。 敢做之前，先想清楚怎么全身而退。 三、先承其重，再言其名。 名字不是勋章，是你要一直扛着的那份责任。 这三条没有一条关于\"能力\"，却决定了造物能不能长久。 能力让东西跑起来，誓言让它不散架。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "今日辑要 · 2026-10-22（前沿 12 条）",
@@ -2867,7 +2875,7 @@
    "x": ""
   },
   {
-   "t": "Abliteration – Removing LLM refusal behaviors via representation engineering",
+   "t": "消灭–通过代表性工程消除LLM拒绝行为",
    "u": "https://github.com/nevenkordic/abliteration](https://github.com/nevenkordic/abliteration",
    "s": "外网新声·Hacker News",
    "d": "22:05",
@@ -2878,7 +2886,7 @@
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "15:58",
+   "d": "16:07",
    "k": "",
    "x": ""
   },
@@ -2886,7 +2894,7 @@
    "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
    "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
-   "d": "15:57",
+   "d": "16:06",
    "k": "",
    "x": ""
   },
@@ -2931,7 +2939,7 @@
    "x": ""
   },
   {
-   "t": "AI’s hidden storage bill: What inference leaves behind",
+   "t": "人工智能隐藏的存储账单：推断留下了什么",
    "u": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
    "s": "外网新声·MIT 科技评论",
    "d": "08:41",
@@ -2971,7 +2979,7 @@
    "x": ""
   },
   {
-   "t": "LongZero: Enhancing Long-Context Reasoning in LLMs from Zero Data",
+   "t": "LongZero：从零数据增强LLM中的长上下文推理",
    "u": "https://arxiv.org/abs/2610.30132v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:59",
@@ -2979,7 +2987,7 @@
    "x": ""
   },
   {
-   "t": "The role of locality and weight sharing in convolutional neural networks",
+   "t": "局部和权重共享在卷积神经网络中的作用",
    "u": "https://arxiv.org/abs/2610.30118v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:56",
@@ -2987,7 +2995,7 @@
    "x": ""
   },
   {
-   "t": "Environment Duels: A Microcosm of LLM Co-Evolution",
+   "t": "环境决斗：法学硕士共同进化的缩影",
    "u": "https://arxiv.org/abs/2610.30116v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:55",
@@ -2995,7 +3003,7 @@
    "x": ""
   },
   {
-   "t": "The End of Consensus Research?",
+   "t": "共识研究的终结？",
    "u": "https://arxiv.org/abs/2610.30114v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:55",
@@ -3003,7 +3011,7 @@
    "x": ""
   },
   {
-   "t": "Quant-Arena: Benchmarking LLM Agents for Quantitative Trading Research",
+   "t": "Quant-Arena：量化交易研究的LLM代理商基准",
    "u": "https://arxiv.org/abs/2610.30113v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:54",
@@ -3011,7 +3019,7 @@
    "x": ""
   },
   {
-   "t": "Multimodal Embodied Agents: A Unified Capability-centric Perspective from Computer-Use to Robot-Use",
+   "t": "多模式嵌入式代理：从计算机使用到机器人使用的统一以能力为中心的视角",
    "u": "https://arxiv.org/abs/2610.30108v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:52",
