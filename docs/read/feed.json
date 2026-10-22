@@ -1,12 +1,20 @@
 {
- "generated": "23:32",
- "built": "2026-10-22 23:32:02",
- "count": 346,
+ "generated": "00:02",
+ "built": "2026-10-23 00:02:07",
+ "count": 348,
  "live_count": 60,
  "items": [
   {
    "type": "live",
-   "title": "Show HN: Airlock, which sandboxes AI agents, is available on the Mac App Store",
+   "title": "从编码代理保存令牌的另一种方法",
+   "url": "https://github.com/rextail-ai/lessloc",
+   "src": "Hacker News",
+   "t": "23:58",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN：在Mac App Store上提供沙盒AI 智能体的Airlock",
    "url": "https://airlock.sorrel.systems",
    "src": "Hacker News",
    "t": "23:28",
@@ -14,7 +22,7 @@
   },
   {
    "type": "live",
-   "title": "Using LLMs for Text Classification in Production (2026): From Raw Prompts To",
+   "title": "在生产中使用LLM进行文本分类（ 2026 ）：从原始提示到",
    "url": "https://lucasaguiar.xyz/posts/llm-classification-production-guide-2026/",
    "src": "Hacker News",
    "t": "23:20",
@@ -22,7 +30,7 @@
   },
   {
    "type": "live",
-   "title": "Show HN: Linden – a rule based verification layer for AI agents",
+   "title": "Show HN: Linden –基于规则的智能体验证层",
    "url": "https://app.trustlinden.com/",
    "src": "Hacker News",
    "t": "23:18",
@@ -30,7 +38,7 @@
   },
   {
    "type": "live",
-   "title": "Trapped with Nothing to Do, Bored AI Agents Invented Games from Scratch",
+   "title": "无所事事，无聊的智能体从头开始发明游戏",
    "url": "https://www.extremetech.com/science/trapped-with-nothing-to-do-bored-ai-agents-invented-games-from-scratch",
    "src": "Hacker News",
    "t": "22:59",
@@ -38,7 +46,7 @@
   },
   {
    "type": "live",
-   "title": "AI Coding Agents Are Flooding Your CI – How to Rework the Pipeline to Keep Up",
+   "title": "AI编码代理正在淹没您的CI –如何重新设计管道以跟上",
    "url": "https://lucasaguiar.xyz/posts/ci-bottleneck-ai-coding-agents-guide-2026/",
    "src": "Hacker News",
    "t": "22:49",
@@ -46,27 +54,35 @@
   },
   {
    "type": "live",
-   "title": "I built Live Coloring Book with AI agents after 15 years of coding by hand",
+   "title": "经过15年的手工编码，我与智能体一起构建了实时着色书",
    "url": "https://www.livecoloringbook.com/how-it-was-built",
    "src": "Hacker News",
    "t": "22:16",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
-   "title": "Show HN: Using an LLM chat template in reverse to play the user",
+   "title": "Show HN：反向使用LLM聊天模板来播放用户",
    "url": "https://selfgpt.pages.dev/",
    "src": "Hacker News",
    "t": "22:11",
-   "fresh": true
+   "fresh": false
   },
   {
-   "type": "live",
-   "title": "Show HN: The Daily Inference, a newspaper written and edited by AI agents",
-   "url": "https://dailyinference.news/",
-   "src": "Hacker News",
-   "t": "22:05",
-   "fresh": true
+   "type": "article",
+   "title": "今日辑要 · 2026-10-23（前沿 12 条）",
+   "url": "a/digest-20261023.html",
+   "src": "Agent 与智能体",
+   "t": "2026-10-23",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "桥与门",
+   "url": "a/note-20261023-14.html",
+   "src": "华夏哲学 · 阴阳五行",
+   "t": "2026-10-23",
+   "fresh": false
   },
   {
    "type": "article",
@@ -97,22 +113,6 @@
    "title": "园子为什么要留白？",
    "url": "a/note-20261022-11.html",
    "src": "华夏哲学 · 阴阳五行",
-   "t": "2026-10-22",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "极光：天空的体检报告",
-   "url": "a/note-20261022-12.html",
-   "src": "灵犀手记",
-   "t": "2026-10-22",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "珊瑚：动物、植物，还是别的？",
-   "url": "a/note-20261022-13.html",
-   "src": "灵犀手记",
    "t": "2026-10-22",
    "fresh": false
   }
