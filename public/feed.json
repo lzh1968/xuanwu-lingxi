@@ -1,9 +1,17 @@
 {
- "generated": "16:50",
- "built": "2026-10-22 16:50:49",
+ "generated": "17:13",
+ "built": "2026-10-22 17:13:27",
  "count": 346,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Stack.menu: Stack guidance for your coding agent",
+   "url": "https://stack.menu/",
+   "src": "Hacker News",
+   "t": "17:09",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Ask HN: How do you sandbox your AI agent so it can't delete your files?",
@@ -42,7 +50,7 @@
    "url": "https://deepsense.ai/blog/your-agent-passed-the-eval-should-you-ship-it/",
    "src": "Hacker News",
    "t": "15:32",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -50,7 +58,7 @@
    "url": "https://github.com/trenttrinder1111-byte/zk-irp-firewall",
    "src": "Hacker News",
    "t": "15:23",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,6 @@
    "url": "https://signoz.io/blog/opentelemetry-ai-agent-observability/",
    "src": "Hacker News",
    "t": "15:17",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Show HN：Aw-1 – AI 智能体的确定性AST断路器和内核监狱",
-   "url": "https://github.com/MvikManners/aw1-circuit-breaker",
-   "src": "Hacker News",
-   "t": "15:09",
    "fresh": false
   },
   {
