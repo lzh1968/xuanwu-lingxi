@@ -2,20 +2,20 @@
  "日期": "2026-10-22",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-22 12:54:23",
+  "updated": "2026-10-22 13:24:43",
   "chosen": "ARB short",
   "nodes": [
    {
     "coin": "BTC",
-    "side": "long",
+    "side": "short",
     "align": 1,
-    "embryo": 2.3
+    "embryo": 1.4
    },
    {
     "coin": "LTC",
     "side": "short",
     "align": 2,
-    "embryo": 2.4
+    "embryo": 3.2
    },
    {
     "coin": "ADA",
@@ -37,9 +37,9 @@
    },
    {
     "coin": "SOL",
-    "side": "long",
-    "align": 1,
-    "embryo": 3.5
+    "side": "short",
+    "align": 2,
+    "embryo": 2.7
    },
    {
     "coin": "ARB",
@@ -51,13 +51,13 @@
     "coin": "SUI",
     "side": "short",
     "align": 2,
-    "embryo": 2.1
+    "embryo": 2.7
    },
    {
     "coin": "ETH",
     "side": "long",
     "align": 1,
-    "embryo": 3.5
+    "embryo": 2.3
    },
    {
     "coin": "AVAX",
@@ -81,7 +81,7 @@
     "coin": "WLD",
     "side": "short",
     "align": 2,
-    "embryo": 2.2
+    "embryo": 3.2
    },
    {
     "coin": "BNB",
@@ -93,13 +93,13 @@
     "coin": "DOT",
     "side": "short",
     "align": 2,
-    "embryo": 2.7
+    "embryo": 4.7
    },
    {
     "coin": "FIL",
     "side": "long",
     "align": 0,
-    "embryo": 1.4
+    "embryo": 0.9
    },
    {
     "coin": "LINK",
