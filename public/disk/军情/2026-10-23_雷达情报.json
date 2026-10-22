@@ -2,14 +2,14 @@
  "日期": "2026-10-23",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-23 05:17:04",
-  "chosen": "XRP short",
+  "updated": "2026-10-23 05:23:50",
+  "chosen": "XRP long",
   "nodes": [
    {
     "coin": "XRP",
-    "side": "short",
-    "align": 1,
-    "embryo": 1.7
+    "side": "long",
+    "align": 3,
+    "embryo": 1.8
    },
    {
     "coin": "BTC",
