@@ -1,9 +1,19 @@
 {
  "日期": "2026-10-23",
- "落盘": "2026-10-23 01:21:08",
+ "落盘": "2026-10-23 01:27:07",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "vLLM TorchTPU：零拷贝KV缓存卸载和分解服务",
+   "url": "https://vllm.ai/blog/2026-10-20-vllm-torchtpu",
+   "type": "live"
+  },
+  {
+   "title": "Opus 5.5制作了一部3D电影，解释LLM的工作原理",
+   "url": "https://www.youtube.com/watch?v=LDH7UhHeKG4",
+   "type": "live"
+  },
   {
    "title": "Show HN: Halv –减少使用的开源代理编码软件",
    "url": "https://halv.ai/",
@@ -35,16 +45,6 @@
    "type": "live"
   },
   {
-   "title": "在生产中使用LLM进行文本分类（ 2026 ）：从原始提示到",
-   "url": "https://lucasaguiar.xyz/posts/llm-classification-production-guide-2026/",
-   "type": "live"
-  },
-  {
-   "title": "经过15年的手工编码，我与智能体一起构建了实时着色书",
-   "url": "https://www.livecoloringbook.com/how-it-was-built",
-   "type": "live"
-  },
-  {
    "title": "今日辑要 · 2026-10-23（前沿 12 条）",
    "url": "a/digest-20261023.html",
    "type": "article"
@@ -52,6 +52,11 @@
   {
    "title": "自治系统的\"慢变量\"",
    "url": "a/note-20261023-1.html",
+   "type": "article"
+  },
+  {
+   "title": "睡觉时，大脑在忙什么？",
+   "url": "a/note-20261023-10.html",
    "type": "article"
   },
   {
@@ -67,11 +72,6 @@
   {
    "title": "名字的重量",
    "url": "a/note-20261023-16.html",
-   "type": "article"
-  },
-  {
-   "title": "从无到有，只需一条线",
-   "url": "a/note-20261023-17.html",
    "type": "article"
   }
  ]
