@@ -1,6 +1,6 @@
 {
- "built": "2026-10-23 00:14:59",
- "count": 392,
+ "built": "2026-10-23 00:21:16",
+ "count": 393,
  "items": [
   {
    "t": "仿生理论 · 人脑映射（左脑·右脑·小脑·胼胝体）",
@@ -49,6 +49,14 @@
    "d": "2026-10-23",
    "k": "手记,方法论",
    "x": "古人造物，必先命名。名字看似只是标签，其实是 一份承诺的浓缩 。 给一座桥起名，等于承诺它要一直连通两岸；给一头守夜的兽起名，等于承诺它要一直睁着眼。名字一旦立下，后来的所有行为都要对得起它——这才是\"名\"真正的重量。 所以真正的造物者，起名之前总要停顿片刻： 这个名字，我能不能一直担得起？ 担得起的，才配得起；配不起的，宁可不立。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "从无到有，只需一条线",
+   "u": "a/note-20261023-17.html",
+   "s": "创造神",
+   "d": "2026-10-23",
+   "k": "手记,方法论",
+   "x": "把一张白纸对折，你得到了一条线。再折几次，线便织成了网。 从无到有的秘密，从来不是一开始就想清楚全部，而是 先落下第一条 ——一条足够简单、能被下一次继承的线。第一条立得住，第二条才有地方生长；前面留了余地，后面才敢尽情展开。 这就是造物最迷人的地方： 你不需要预见整座宫殿，只需要先砌一块经得起时间的砖。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "今日辑要 · 2026-10-22（前沿 12 条）",
@@ -2899,6 +2907,54 @@
    "x": ""
   },
   {
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:20",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:14",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
+   "u": "https://github.com/morluto/rea",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:12",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:07",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
+   "s": "外网新声·GitHub 新星",
+   "d": "14:43",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
+   "u": "https://github.com/mattpocock/skills",
+   "s": "外网新声·GitHub 新星",
+   "d": "09:35",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "人工智能隐藏的存储账单：推断留下了什么",
    "u": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
    "s": "外网新声·MIT 科技评论",
@@ -2907,10 +2963,26 @@
    "x": ""
   },
   {
+   "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
+   "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+   "s": "外网新声·GitHub 新星",
+   "d": "04:55",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Claude Code的多代理代码审查成本和发现",
    "u": "https://quickchat.ai/post/claude-code-multi-agent-code-review",
    "s": "外网新声·Hacker News",
    "d": "23:10",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "obra/superpowers —有效的代理技能框架和软件开发方法。",
+   "u": "https://github.com/obra/superpowers",
+   "s": "外网新声·GitHub 新星",
+   "d": "21:34",
    "k": "",
    "x": ""
   },
@@ -3019,7 +3091,7 @@
    "x": ""
   },
   {
-   "t": "Charts as Epistemic Actions for Experience-Driven Agentic Data Analysis",
+   "t": "图表作为体验驱动的代理数据分析的认知行为",
    "u": "https://arxiv.org/abs/2610.30072v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:26",
@@ -3027,7 +3099,7 @@
    "x": ""
   },
   {
-   "t": "Loopholing All the Way: Language Modeling with pure Self-Conditioning",
+   "t": "一路漏洞：纯粹自我调节的语言建模",
    "u": "https://arxiv.org/abs/2610.30068v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:25",
@@ -3035,7 +3107,7 @@
    "x": ""
   },
   {
-   "t": "Looped Uniform Diffusion Language Models",
+   "t": "循环均匀扩散语言模型",
    "u": "https://arxiv.org/abs/2610.30066v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:24",
@@ -3043,7 +3115,7 @@
    "x": ""
   },
   {
-   "t": "From Reasoning to Action: Benchmarking Frontier AI Models on LIBERO-10 Robot Manipulation Tasks",
+   "t": "从推理到行动：对LIBERO-10机器人操纵任务的前沿AI模型进行基准测试",
    "u": "https://arxiv.org/abs/2610.30051v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:11",
@@ -3051,7 +3123,7 @@
    "x": ""
   },
   {
-   "t": "SWE-DIVE: Multi-Turn Coding Agent Evaluation with Dynamic User Simulation",
+   "t": "SWE-DIVE：使用动态用户模拟的多圈编码代理评估",
    "u": "https://arxiv.org/abs/2610.30047v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:06",
@@ -3059,7 +3131,7 @@
    "x": ""
   },
   {
-   "t": "HGM-Dual: Lineage-Aware Guided Agent Harness Optimization for Long-Horizon Planning",
+   "t": "HGM-Dual：用于长期规划的Lineage-Aware引导式代理线束优化",
    "u": "https://arxiv.org/abs/2610.30042v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:02",
@@ -3067,74 +3139,10 @@
    "x": ""
   },
   {
-   "t": "Robust Soft Skill Adaptation via Behavioral Localization in Tool-Using Agents",
+   "t": "通过工具使用智能体的行为本地化进行强大的软技能适应",
    "u": "https://arxiv.org/abs/2610.30041v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:02",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "What the Author Wrote, What the Agent Reads: Silent Cue Loss in Enterprise Document Ingestion",
-   "u": "https://arxiv.org/abs/2610.30026v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:51",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Code Comprehensor: Hierarchical Documentation and Cross-Modal Retrieval for Large Repositories",
-   "u": "https://arxiv.org/abs/2610.30016v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "16:45",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Agent Behavior Maps: Locating Agents by What They Would Do, Without Running Them",
-   "u": "https://arxiv.org/abs/2610.30014v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "16:44",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "通过构建多代理设计实验室进行学习。然而，单一智能体的工作效果更好",
-   "u": "https://github.com/bencodev/dsgnrd",
-   "s": "外网新声·Hacker News",
-   "d": "16:43",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Patch the Planet：客服代表发现关键漏洞时进行全球响应协调",
-   "u": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-   "s": "外网新声·OpenAI 官方",
-   "d": "07:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "我们如何构建ChatGPT的新型广告堆栈，以获得用户的信任和相关性",
-   "u": "https://openai.com/index/building-chatgpt-ad-stack",
-   "s": "外网新声·OpenAI 官方",
-   "d": "07:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "使用成千上万的智能体来发现生物数据中的新线索",
-   "u": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-   "s": "外网新声·OpenAI 官方",
-   "d": "04:50",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "前沿人工智能的民主治理，第二部分：增强网络防御者的权能",
-   "u": "https://openai.com/index/empowering-cyber-defenders",
-   "s": "外网新声·OpenAI 官方",
-   "d": "00:00",
    "k": "",
    "x": ""
   }
