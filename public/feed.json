@@ -1,9 +1,17 @@
 {
- "generated": "00:27",
- "built": "2026-10-23 00:27:16",
- "count": 352,
+ "generated": "00:33",
+ "built": "2026-10-23 00:33:16",
+ "count": 353,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "AgentIntersect World –为您的编码代理提供本地首个3D工作空间",
+   "url": "https://github.com/MelaBuilt-AI/AgentIntersect-World",
+   "src": "Hacker News",
+   "t": "00:26",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "用于在AWS中保护自主AI 智能体的交互式模拟器",
@@ -46,22 +54,6 @@
   },
   {
    "type": "live",
-   "title": "无所事事，无聊的智能体从头开始发明游戏",
-   "url": "https://www.extremetech.com/science/trapped-with-nothing-to-do-bored-ai-agents-invented-games-from-scratch",
-   "src": "Hacker News",
-   "t": "22:59",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "AI编码代理正在淹没您的CI –如何重新设计管道以跟上",
-   "url": "https://lucasaguiar.xyz/posts/ci-bottleneck-ai-coding-agents-guide-2026/",
-   "src": "Hacker News",
-   "t": "22:49",
-   "fresh": false
-  },
-  {
-   "type": "live",
    "title": "经过15年的手工编码，我与智能体一起构建了实时着色书",
    "url": "https://www.livecoloringbook.com/how-it-was-built",
    "src": "Hacker News",
@@ -69,10 +61,26 @@
    "fresh": false
   },
   {
+   "type": "live",
+   "title": "Show HN：反向使用LLM聊天模板来播放用户",
+   "url": "https://selfgpt.pages.dev/",
+   "src": "Hacker News",
+   "t": "22:11",
+   "fresh": false
+  },
+  {
    "type": "article",
    "title": "今日辑要 · 2026-10-23（前沿 12 条）",
    "url": "a/digest-20261023.html",
    "src": "Agent 与智能体",
+   "t": "2026-10-23",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "自治系统的\"慢变量\"",
+   "url": "a/note-20261023-1.html",
+   "src": "灵犀手记",
    "t": "2026-10-23",
    "fresh": false
   },
@@ -104,14 +112,6 @@
    "type": "article",
    "title": "从无到有，只需一条线",
    "url": "a/note-20261023-17.html",
-   "src": "创造神",
-   "t": "2026-10-23",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "创造神的一天",
-   "url": "a/note-20261023-18.html",
    "src": "创造神",
    "t": "2026-10-23",
    "fresh": false
