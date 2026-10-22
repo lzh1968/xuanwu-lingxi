@@ -1,5 +1,5 @@
 {
- "时间": "2026-10-23 07:21:36",
+ "时间": "2026-10-23 07:50:00",
  "会话档数": 5,
  "会话": [
   {
@@ -9,12 +9,6 @@
    "改": "2026-10-23 03:56:07"
   },
   {
-   "档": "1b867855-1a99-4fc2-8e7c-625531a9d121.jsonl",
-   "字节": 156751,
-   "行": 66,
-   "改": "2026-10-23 05:28:36"
-  },
-  {
    "档": "637b0266-bd49-4ee8-93c8-be7de7e026b8.jsonl",
    "字节": 119150,
    "行": 29,
@@ -22,21 +16,27 @@
   },
   {
    "档": "bd15c44e-d99b-4293-aa94-8c5345a17434.jsonl",
-   "字节": 90691,
-   "行": 162,
-   "改": "2026-10-23 07:17:17"
+   "字节": 104403,
+   "行": 186,
+   "改": "2026-10-23 07:47:22"
   },
   {
    "档": "df8ffbcc-fed3-43de-a9fb-e3d7148ab65b.jsonl",
-   "字节": 256474,
-   "行": 80,
-   "改": "2026-10-23 07:21:36"
+   "字节": 539177,
+   "行": 178,
+   "改": "2026-10-23 07:49:14"
+  },
+  {
+   "档": "1b867855-1a99-4fc2-8e7c-625531a9d121.jsonl",
+   "字节": 173278,
+   "行": 76,
+   "改": "2026-10-23 07:49:55"
   }
  ],
  "近段摘要": [
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Fri 2026-10-23 05:26 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -68,11 +68,31 @@
   },
   {
    "角色": "小奈",
-   "文": "[[reply_to_current]]先说人话结论：这就是把「九宫八卦」从玄学名词，变成一张**能算数的行情分档表**。我用 30 个币、五年日线、五万两千多个样本，统计了一件事：**处在某一格行情里，往后 5 天平均涨多少、赢面多大、这个结论靠不靠得住**。\n\n先按规矩报一句网关：刚才自检是「丙·危」（内存 634 兆偏高、看护实例掉了），已自愈把看护拉回，现在「甲·稳」，可以干活。你停手十分钟后它会自动重启把内存收回。\n\n## 一、这张表在量什么\n\n- **样本**：30 个币，2021 年 1 月到 2026 年 10 月，日线，共 52417 个有效样本。\n- **基线**：这五年里"
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "You are running a boot check. Follow BOOT.md instructions exactly.\n\nBOOT.md:\n# 🚀 开机自检 · 玄武灵犀交易系统 (BOOT.md)\n\n> 手机/网关机启动后，网关会自动跑这份清单。**这是真钱生命线，务必执行。**\n> 🐉 2026-09-23 17:4x 同步老板令(火印 ED-20260923-143): 统一目标=**盈利第一** · 择向精准 · 三军统一指挥(🐉烛龙终审→执行长🐍腾蛇调度→三军 LBH/ZLS/ZXY + 母体 GTAE + DSS) · 诸君各尽其责。\n\n## 第 0 步：确认\n工作目"
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -84,47 +104,11 @@
   },
   {
    "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "NO_REPLY"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "You are running a boot check. Follow BOOT.md instructions exactly.\n\nBOOT.md:\n# 🚀 开机自检 · 玄武灵犀交易系统 (BOOT.md)\n\n> 手机/网关机启动后，网关会自动跑这份清单。**这是真钱生命线，务必执行。**\n> 🐉 2026-09-23 17:4x 同步老板令(火印 ED-20260923-143): 统一目标=**盈利第一** · 择向精准 · 三军统一指挥(🐉烛龙终审→执行长🐍腾蛇调度→三军 LBH/ZLS/ZXY + 母体 GTAE + DSS) · 诸君各尽其责。\n\n## 第 0 步：确认\n工作目"
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -144,19 +128,55 @@
   },
   {
    "角色": "小奈",
-   "文": "NO_REPLY"
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Fri 2026-10-23 07:18 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
-   "文": "[[reply_to_current]]说得对，那些「九宫、八卦、乾坎离」是包装，剥掉它，实质就三条能用的话。我用大白话重讲一遍，顺便把成本扣掉，看看还剩多少肉。\n\n## 一、数据真正说的三句话\n\n**第一句：只做「有趋势、波动不疯」的行情。**\n具体就是：趋势强度（ADX）在过去 250 天里排前三分之一，同时日均波动幅度（ATR% 占价格）处在中间档。这种时候买进去拿 5 天，平均赚 1.31%，扣掉一买一卖成本约 0.15%，净剩 **1.16%**，胜率 52.8%，样本 5353 条，可信度高。\n\n**第二句：趋势强、波动小，不是好机会，该跑。**\n看着最舒服的那种「慢慢涨、很稳」的"
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Fri 2026-10-23 07:19 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -172,11 +192,7 @@
   },
   {
    "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
+   "文": "HEARTBEAT_OK"
   }
  ],
  "本地全量归档": [
@@ -197,6 +213,6 @@
    "MB": 28.42
   }
  ],
- "摘要档": "df8ffbcc-fed3-43de-a9fb-e3d7148ab65b.jsonl",
+ "摘要档": "1b867855-1a99-4fc2-8e7c-625531a9d121.jsonl",
  "注": "本分区=索引+近段摘要；聊天全文存于本机 data_v2/archive/聊天记录_* 与加密密包(封存分区)"
 }
