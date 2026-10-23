@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-24",
- "落盘": "2026-10-24 04:42:30",
+ "落盘": "2026-10-24 05:00:21",
  "条数": 14,
- "live": 56,
+ "live": 60,
  "条目": [
+  {
+   "title": "一次我们故意破坏LLM缓存",
+   "url": "https://www.induction.ai/blog/benchmark-cache-isolation",
+   "type": "live"
+  },
   {
    "title": "AI编码代理安全基准",
    "url": "https://www.endorlabs.com/research/ai-code-security-benchmark",
@@ -37,11 +42,6 @@
   {
    "title": "隆重推出1Password客服代表版",
    "url": "https://1password.com/blog/1password-for-ai-agents",
-   "type": "live"
-  },
-  {
-   "title": "从零开始构建基础AI Agent：会话管理II",
-   "url": "https://www.ruxu.dev/articles/ai/build-an-ai-agent-sessions-2/",
    "type": "live"
   },
   {
