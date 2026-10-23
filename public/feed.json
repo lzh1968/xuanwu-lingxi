@@ -1,9 +1,17 @@
 {
- "generated": "01:59",
- "built": "2026-10-24 01:59:50",
+ "generated": "02:22",
+ "built": "2026-10-24 02:22:34",
  "count": 384,
- "live_count": 60,
+ "live_count": 54,
  "items": [
+  {
+   "type": "live",
+   "title": "浏览器用于具有Chrome扩展的LLM",
+   "url": "https://michaelscrypt.com/blog/browser-use-for-llms-with-a-chrome-extension",
+   "src": "Hacker News",
+   "t": "02:19",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "OpenAI称其智能体禁用了安全护栏，然后撒了谎",
@@ -42,7 +50,7 @@
    "url": "https://yamanahlawat.in/articles/llm-judge-same-code-different-scores",
    "src": "Hacker News",
    "t": "00:50",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -50,7 +58,7 @@
    "url": "https://awflow.io/blog/ai-agent-teams-that-dont-loop",
    "src": "Hacker News",
    "t": "00:30",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,6 @@
    "url": "https://github.com/ghorbelhamdi/buddy-android",
    "src": "Hacker News",
    "t": "00:26",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Show HN: Koala –在macOS上的隔离Linux虚拟机中运行AI 智能体",
-   "url": "https://kunalkushwaha.github.io/homebrew-koala/",
-   "src": "Hacker News",
-   "t": "00:18",
    "fresh": false
   },
   {
