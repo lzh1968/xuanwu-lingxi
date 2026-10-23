@@ -1,5 +1,5 @@
 {
- "built": "2026-10-23 11:08:25",
+ "built": "2026-10-23 11:24:16",
  "count": 407,
  "items": [
   {
@@ -2939,6 +2939,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Agent Compute Engine deep dive",
+   "u": "https://cloud.google.com/blog/topics/ai-infrastructure/agent-compute-engine-deep-dive",
+   "s": "外网新声·Hacker News",
+   "d": "11:12",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Show HN: TenseMem – deterministic memory for AI agents",
    "u": "https://github.com/tensemem/tensemem",
    "s": "外网新声·Hacker News",
@@ -2995,10 +3003,26 @@
    "x": ""
   },
   {
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "03:23",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
+   "u": "https://github.com/IBAX-io/go-ibax",
+   "s": "外网新声·GitHub 新星",
+   "d": "03:21",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "03:08",
+   "d": "03:16",
    "k": "",
    "x": ""
   },
@@ -3006,7 +3030,7 @@
    "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
    "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
-   "d": "02:44",
+   "d": "03:08",
    "k": "",
    "x": ""
   },
@@ -3019,26 +3043,10 @@
    "x": ""
   },
   {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "02:25",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
    "u": "https://github.com/Dao-AILab/flash-attention",
    "s": "外网新声·GitHub 新星",
    "d": "00:01",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
-   "u": "https://github.com/IBAX-io/go-ibax",
-   "s": "外网新声·GitHub 新星",
-   "d": "23:49",
    "k": "",
    "x": ""
   },
@@ -3075,10 +3083,130 @@
    "x": ""
   },
   {
-   "t": "不同的任务，不同的时间步长：扩散语言模型的时间任务感知量化",
-   "u": "https://arxiv.org/abs/2610.31198v1",
+   "t": "Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
+   "u": "https://arxiv.org/abs/2610.31667v1",
    "s": "外网新声·arXiv cs.AI",
-   "d": "12:45",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Cost-Aware Abstention for LLM-Based IT Ticket Classification",
+   "u": "https://arxiv.org/abs/2610.31657v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:58",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning",
+   "u": "https://arxiv.org/abs/2610.31656v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:58",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence",
+   "u": "https://arxiv.org/abs/2610.31650v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Questioning Instrumental Convergence in RLVR: Checkpoint Evidence from OLMo-3",
+   "u": "https://arxiv.org/abs/2610.31624v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:44",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "How Ground Truth Shapes Retrieval Scores: Evidence-Aware Evaluation of a Retrieval-Augmented Generation System for Breast Lesions",
+   "u": "https://arxiv.org/abs/2610.31606v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:36",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Simulated Control Evals",
+   "u": "https://arxiv.org/abs/2610.31593v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:26",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "VERA: A Responsible AI Dashboard for Assessing LLM Deployments in Light of the EU AI Act",
+   "u": "https://arxiv.org/abs/2610.31588v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:23",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Would an LLM Match into a Residency? Uncertainty, Reasoning and Image Use of Open Language Models on the Spanish MIR Examination",
+   "u": "https://arxiv.org/abs/2610.31586v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:23",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Who Is Sycophantic to Whom? Confident LLMs, Human Deference, and the Collapse of Trust Calibration",
+   "u": "https://arxiv.org/abs/2610.31579v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:15",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "What Makes a Good Unmasking Policy? A Controlled Study of Learned Unmasking in Diffusion Language Models",
+   "u": "https://arxiv.org/abs/2610.31576v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:15",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Social-HUMINT: An LLM-Augmented Unified Framework for Measuring Social Media Exposure",
+   "u": "https://arxiv.org/abs/2610.31573v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:13",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Contestable Agents for Data Governance: Recording Human Stewardship of AI-Generated Metadata Across Structured and Unstructured Systems",
+   "u": "https://arxiv.org/abs/2610.31553v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Beyond Causal Masks: Auditing and Localizing Hidden Future-Token Leakage in Adaptive Sequence Models",
+   "u": "https://arxiv.org/abs/2610.31522v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:34",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "The Geometry of Metaphor: Probing and Steering Metaphor Representations in Large Language Models",
+   "u": "https://arxiv.org/abs/2610.31520v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:33",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "From Prompt Rules to Golden Data Model: Production-Scale Generation of Personalized, Compliant Pharmaceutical Claims",
+   "u": "https://arxiv.org/abs/2610.31519v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:31",
    "k": "",
    "x": ""
   },
@@ -3093,7 +3221,7 @@
   {
    "t": "当更多元数据误导时：在LLM生成的博物馆描述中探索现场层面的接地",
    "u": "https://arxiv.org/abs/2610.31193v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "12:41",
    "k": "",
    "x": ""
@@ -3117,7 +3245,7 @@
   {
    "t": "Prompting Strategy Effects Depend on the Judge: A Multilingual Study of LLM-as-a-Judge Robustness",
    "u": "https://arxiv.org/abs/2610.31172v1",
-   "s": "外网新声·arXiv cs.AI",
+   "s": "外网新声·arXiv cs.LG",
    "d": "12:27",
    "k": "",
    "x": ""
@@ -3127,134 +3255,6 @@
    "u": "https://arxiv.org/abs/2610.31166v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "12:24",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Network topology shapes consensus and vulnerability in LLM populations",
-   "u": "https://arxiv.org/abs/2610.31165v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "12:22",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Prediction Uncertainty Controlled Computer Model Calibration",
-   "u": "https://arxiv.org/abs/2610.31163v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "12:22",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Prompt Sensitivity in Tool-Augmented Model Comparisons",
-   "u": "https://arxiv.org/abs/2610.31148v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "12:07",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Rethinking Fisher Vectors for Second-order Multi-scale Deep Feature Aggregation in Scalable Scene Retrieval",
-   "u": "https://arxiv.org/abs/2610.31146v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "12:06",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Mixing Matters: Evidence Position Bias Across Sequence Mixers in Long-Context Question Answering",
-   "u": "https://arxiv.org/abs/2610.31135v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "11:54",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Is High Local Accuracy Enough? Geometric Consensus with Support-Adaptive Statistical Personalization for Federated Learning",
-   "u": "https://arxiv.org/abs/2610.31133v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "11:52",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Post-Audit Mirage: Identifiability Limits of Offline Agent Verification",
-   "u": "https://arxiv.org/abs/2610.31130v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "11:50",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Delta N-gram: Forward-Only Continual Writing into a Language Model's Native N-gram Memory",
-   "u": "https://arxiv.org/abs/2610.31125v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "11:42",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "SetCommit: Coordinated Token Commitments for Few-Step Diffusion Language Model Decoding",
-   "u": "https://arxiv.org/abs/2610.31120v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "11:33",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Constraint Reasoning and Large Language Models Join Forces: Providing Contrastive Explanations for Real-World Optimisation-Based Applications",
-   "u": "https://arxiv.org/abs/2610.31119v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "11:33",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ProductWebBench: Evaluating Website Continuity Beyond Task Completion",
-   "u": "https://arxiv.org/abs/2610.31118v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "11:33",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "A Grammar of French Civil Cassation: A Ground-Level Dataset and Tool",
-   "u": "https://arxiv.org/abs/2610.31116v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "11:30",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Can AI Co-Design Structures? An AI Agent for Early-Stage Structural Design",
-   "u": "https://arxiv.org/abs/2610.31113v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "11:27",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Who Is the Influencer? Consensus Dynamics in Multi-Agent Systems",
-   "u": "https://arxiv.org/abs/2610.31105v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "11:15",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "DeepOpen: Decision-Oriented Intent Classification on BANKING77 and CLINC150",
-   "u": "https://arxiv.org/abs/2610.31104v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "11:15",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "What Pairwise Evaluation Misses: Reward Scores across Prompts",
-   "u": "https://arxiv.org/abs/2610.31090v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "11:00",
    "k": "",
    "x": ""
   }
