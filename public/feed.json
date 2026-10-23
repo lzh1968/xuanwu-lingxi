@@ -1,9 +1,17 @@
 {
- "generated": "04:12",
- "built": "2026-10-24 04:12:52",
+ "generated": "04:48",
+ "built": "2026-10-24 04:48:15",
  "count": 384,
- "live_count": 56,
+ "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "一次我们故意破坏LLM缓存",
+   "url": "https://www.induction.ai/blog/benchmark-cache-isolation",
+   "src": "Hacker News",
+   "t": "04:41",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "AI编码代理安全基准",
@@ -26,7 +34,7 @@
    "url": "https://github.com/llm-d/llm-d/releases/tag/v1.0.0",
    "src": "Hacker News",
    "t": "03:13",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,6 @@
    "url": "https://1password.com/blog/1password-for-ai-agents",
    "src": "Hacker News",
    "t": "01:42",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "从零开始构建基础AI Agent：会话管理II",
-   "url": "https://www.ruxu.dev/articles/ai/build-an-ai-agent-sessions-2/",
-   "src": "Hacker News",
-   "t": "01:41",
    "fresh": false
   },
   {

@@ -1,5 +1,5 @@
 {
- "built": "2026-10-24 04:12:52",
+ "built": "2026-10-24 04:48:15",
  "count": 426,
  "items": [
   {
@@ -3091,6 +3091,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "一次我们故意破坏LLM缓存",
+   "u": "https://www.induction.ai/blog/benchmark-cache-isolation",
+   "s": "外网新声·Hacker News",
+   "d": "04:41",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "AI编码代理安全基准",
    "u": "https://www.endorlabs.com/research/ai-code-security-benchmark",
    "s": "外网新声·Hacker News",
@@ -3155,14 +3163,6 @@
    "x": ""
   },
   {
-   "t": "一名法学硕士法官通过了我种植的缺陷的渲染",
-   "u": "https://yamanahlawat.in/articles/llm-judge-same-code-different-scores",
-   "s": "外网新声·Hacker News",
-   "d": "00:50",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "不循环的智能体团队：切换地图、三种模式、硬预算",
    "u": "https://awflow.io/blog/ai-agent-teams-that-dont-loop",
    "s": "外网新声·Hacker News",
@@ -3191,6 +3191,78 @@
    "u": "https://arxiv.org/abs/2610.30769",
    "s": "外网新声·Hacker News",
    "d": "00:02",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
+   "u": "https://github.com/morluto/rea",
+   "s": "外网新声·GitHub 新星",
+   "d": "20:47",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "20:46",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
+   "s": "外网新声·GitHub 新星",
+   "d": "20:43",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "20:37",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
+   "s": "外网新声·GitHub 新星",
+   "d": "19:37",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
+   "u": "https://github.com/IBAX-io/go-ibax",
+   "s": "外网新声·GitHub 新星",
+   "d": "10:04",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "obra/superpowers —有效的代理技能框架和软件开发方法。",
+   "u": "https://github.com/obra/superpowers",
+   "s": "外网新声·GitHub 新星",
+   "d": "03:48",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "u": "https://github.com/Dao-AILab/flash-attention",
+   "s": "外网新声·GitHub 新星",
+   "d": "00:01",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Shubhamsaboo/awesome-llm-apps：100+ 智能体 / 技能 / RAG 应用合集（开源）",
+   "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+   "s": "外网新声·GitHub 新星",
+   "d": "19:10",
    "k": "",
    "x": ""
   },
@@ -3335,78 +3407,6 @@
    "u": "https://arxiv.org/abs/2610.31579v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:15",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "什么是好的揭露政策？扩散语言模型中学习揭盲的对照研究",
-   "u": "https://arxiv.org/abs/2610.31576v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:15",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "使用测试时间回归重新思考序列压缩",
-   "u": "https://arxiv.org/abs/2610.31574v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:14",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Social-HUMINT：衡量社交媒体曝光度的LLM增强型统一框架",
-   "u": "https://arxiv.org/abs/2610.31573v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:13",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "论文本图形软提示中的令牌崩溃现象",
-   "u": "https://arxiv.org/abs/2610.31572v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:13",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "可竞争的数据治理代理：记录跨结构化和非结构化系统的人工智能生成元数据的人工管理",
-   "u": "https://arxiv.org/abs/2610.31553v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:57",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "超越因果掩码：审计和本地化自适应序列模型中隐藏的未来代币泄漏",
-   "u": "https://arxiv.org/abs/2610.31522v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:34",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "隐喻的几何学：大模型中的探索和引导隐喻表示",
-   "u": "https://arxiv.org/abs/2610.31520v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:33",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "从快速规则到黄金数据模型：个性化合规药品索赔的生产规模生成",
-   "u": "https://arxiv.org/abs/2610.31519v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:31",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "人工智能隐藏的存储账单：推断留下了什么",
-   "u": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "08:41",
    "k": "",
    "x": ""
   }
