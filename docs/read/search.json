@@ -1,5 +1,5 @@
 {
- "built": "2026-10-23 09:59:30",
+ "built": "2026-10-23 10:20:51",
  "count": 407,
  "items": [
   {
@@ -2939,18 +2939,18 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "独家：未经审查的智能体正在访问美国银行账户",
-   "u": "https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access",
+   "t": "Building Laminar: Ramp's Managed Agents Platform",
+   "u": "https://builders.ramp.com/post/building-laminar",
    "s": "外网新声·Hacker News",
-   "d": "08:06",
+   "d": "10:19",
    "k": "",
    "x": ""
   },
   {
-   "t": "LLM正在使正式的软件验证在更大的规模上可行",
-   "u": "https://www.anthropic.com/research/formal-verification",
+   "t": "独家：未经审查的智能体正在访问美国银行账户",
+   "u": "https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access",
    "s": "外网新声·Hacker News",
-   "d": "06:54",
+   "d": "08:06",
    "k": "",
    "x": ""
   },
@@ -2998,7 +2998,15 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "01:59",
+   "d": "02:20",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "02:17",
    "k": "",
    "x": ""
   },
@@ -3007,14 +3015,6 @@
    "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
    "d": "01:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "01:57",
    "k": "",
    "x": ""
   },
@@ -3075,6 +3075,118 @@
    "x": ""
   },
   {
+   "t": "Inside-JEPA: From Prediction to Relational Grounding in Latent World Models",
+   "u": "https://arxiv.org/abs/2610.31194v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "12:43",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "当更多元数据误导时：在LLM生成的博物馆描述中探索现场层面的接地",
+   "u": "https://arxiv.org/abs/2610.31193v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "12:41",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "RaSFNet: Ray-aligned and Scan-aware Fusion Network for LiDAR Semantic Segmentation",
+   "u": "https://arxiv.org/abs/2610.31186v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "12:35",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Track finding and particle identification performance with particle physics foundation models",
+   "u": "https://arxiv.org/abs/2610.31180v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "12:32",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Prompting Strategy Effects Depend on the Judge: A Multilingual Study of LLM-as-a-Judge Robustness",
+   "u": "https://arxiv.org/abs/2610.31172v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "12:27",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Memory before Goal: Role of Pre-History Memory for Humanoid Loco-Manipulation",
+   "u": "https://arxiv.org/abs/2610.31166v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "12:24",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Prediction Uncertainty Controlled Computer Model Calibration",
+   "u": "https://arxiv.org/abs/2610.31163v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "12:22",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Prompt Sensitivity in Tool-Augmented Model Comparisons",
+   "u": "https://arxiv.org/abs/2610.31148v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "12:07",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Mixing Matters: Evidence Position Bias Across Sequence Mixers in Long-Context Question Answering",
+   "u": "https://arxiv.org/abs/2610.31135v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "11:54",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Is High Local Accuracy Enough? Geometric Consensus with Support-Adaptive Statistical Personalization for Federated Learning",
+   "u": "https://arxiv.org/abs/2610.31133v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "11:52",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Post-Audit Mirage: Identifiability Limits of Offline Agent Verification",
+   "u": "https://arxiv.org/abs/2610.31130v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "11:50",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Delta N-gram: Forward-Only Continual Writing into a Language Model's Native N-gram Memory",
+   "u": "https://arxiv.org/abs/2610.31125v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "11:42",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Transformers with CoT Discover Heavy-Ball Acceleration Through Training",
+   "u": "https://arxiv.org/abs/2610.31089v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "10:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "nnInteractive Agent: General-Purpose AI Agents as 3D Image Annotators",
+   "u": "https://arxiv.org/abs/2610.31080v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "10:55",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
    "u": "https://github.com/mattpocock/skills",
    "s": "外网新声·GitHub 新星",
@@ -3095,22 +3207,6 @@
    "u": "https://quickchat.ai/post/claude-code-multi-agent-code-review",
    "s": "外网新声·Hacker News",
    "d": "23:10",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "LongZero：从零数据增强LLM中的长上下文推理",
-   "u": "https://arxiv.org/abs/2610.30132v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "局部和权重共享在卷积神经网络中的作用",
-   "u": "https://arxiv.org/abs/2610.30118v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:56",
    "k": "",
    "x": ""
   },
@@ -3147,14 +3243,6 @@
    "x": ""
   },
   {
-   "t": "速度模糊剖面：用于流匹配的时间分辨贝叶斯风险诊断",
-   "u": "https://arxiv.org/abs/2610.30107v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:52",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "非对称随机蒸馏学习上下文探索",
    "u": "https://arxiv.org/abs/2610.30105v1",
    "s": "外网新声·arXiv cs.AI",
@@ -3167,94 +3255,6 @@
    "u": "https://arxiv.org/abs/2610.30104v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:50",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "具有偏好反馈的差异私有稀疏奖励估计",
-   "u": "https://arxiv.org/abs/2610.30099v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:45",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "AtomicRL：用于长视野机器人操纵的原子强化学习",
-   "u": "https://arxiv.org/abs/2610.30097v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:45",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "LLM分类器的电路",
-   "u": "https://arxiv.org/abs/2610.30076v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:27",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "并行AI Agent协作作为图结构分布式块优化",
-   "u": "https://arxiv.org/abs/2610.30074v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:27",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "图表作为体验驱动的代理数据分析的认知行为",
-   "u": "https://arxiv.org/abs/2610.30072v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:26",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "一路漏洞：纯粹自我调节的语言建模",
-   "u": "https://arxiv.org/abs/2610.30068v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:25",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "循环均匀扩散语言模型",
-   "u": "https://arxiv.org/abs/2610.30066v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:24",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "从推理到行动：对LIBERO-10机器人操纵任务的前沿AI模型进行基准测试",
-   "u": "https://arxiv.org/abs/2610.30051v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:11",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "SWE-DIVE：使用动态用户模拟的多圈编码代理评估",
-   "u": "https://arxiv.org/abs/2610.30047v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:06",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "HGM-Dual：用于长期规划的Lineage-Aware引导式代理线束优化",
-   "u": "https://arxiv.org/abs/2610.30042v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:02",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "通过工具使用智能体的行为本地化进行强大的软技能适应",
-   "u": "https://arxiv.org/abs/2610.30041v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:02",
    "k": "",
    "x": ""
   }
