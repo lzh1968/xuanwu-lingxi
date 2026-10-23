@@ -1,5 +1,5 @@
 {
- "built": "2026-10-23 08:12:58",
+ "built": "2026-10-23 09:53:40",
  "count": 407,
  "items": [
   {
@@ -2971,14 +2971,6 @@
    "x": ""
   },
   {
-   "t": "Show HN：CNET – C++/CUDA中的复数值神经网络",
-   "u": "https://github.com/crasmarum/CNet",
-   "s": "外网新声·Hacker News",
-   "d": "06:05",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "美国银行正在阻止第三方智能体访问客户账户",
    "u": "https://www.reuters.com/legal/government/us-banks-detect-unauthorized-ai-agents-customer-accounts-axios-reports-2026-10-22/",
    "s": "外网新声·Hacker News",
@@ -3003,26 +2995,10 @@
    "x": ""
   },
   {
-   "t": "智能体的消息传递",
-   "u": "https://trycrabmail.com/",
-   "s": "外网新声·Hacker News",
-   "d": "03:38",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Hornet：为当地LLM构建持久的工作流程",
-   "u": "https://github.com/matrixswarm/hornet",
-   "s": "外网新声·Hacker News",
-   "d": "02:21",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "00:10",
+   "d": "01:53",
    "k": "",
    "x": ""
   },
@@ -3030,7 +3006,15 @@
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "00:04",
+   "d": "01:52",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
+   "u": "https://github.com/morluto/rea",
+   "s": "外网新声·GitHub 新星",
+   "d": "01:31",
    "k": "",
    "x": ""
   },
@@ -3039,14 +3023,6 @@
    "u": "https://github.com/Dao-AILab/flash-attention",
    "s": "外网新声·GitHub 新星",
    "d": "00:01",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
-   "u": "https://github.com/morluto/rea",
-   "s": "外网新声·GitHub 新星",
-   "d": "23:59",
    "k": "",
    "x": ""
   },
@@ -3099,6 +3075,142 @@
    "x": ""
   },
   {
+   "t": "不同的任务，不同的时间步长：扩散语言模型的时间任务感知量化",
+   "u": "https://arxiv.org/abs/2610.31198v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "12:45",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "当更多元数据误导时：在LLM生成的博物馆描述中探索现场层面的接地",
+   "u": "https://arxiv.org/abs/2610.31193v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "12:41",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Prompting Strategy Effects Depend on the Judge: A Multilingual Study of LLM-as-a-Judge Robustness",
+   "u": "https://arxiv.org/abs/2610.31172v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "12:27",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Network topology shapes consensus and vulnerability in LLM populations",
+   "u": "https://arxiv.org/abs/2610.31165v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "12:22",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Prompt Sensitivity in Tool-Augmented Model Comparisons",
+   "u": "https://arxiv.org/abs/2610.31148v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "12:07",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Rethinking Fisher Vectors for Second-order Multi-scale Deep Feature Aggregation in Scalable Scene Retrieval",
+   "u": "https://arxiv.org/abs/2610.31146v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "12:06",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Mixing Matters: Evidence Position Bias Across Sequence Mixers in Long-Context Question Answering",
+   "u": "https://arxiv.org/abs/2610.31135v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "11:54",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Post-Audit Mirage: Identifiability Limits of Offline Agent Verification",
+   "u": "https://arxiv.org/abs/2610.31130v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "11:50",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "SetCommit: Coordinated Token Commitments for Few-Step Diffusion Language Model Decoding",
+   "u": "https://arxiv.org/abs/2610.31120v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "11:33",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Constraint Reasoning and Large Language Models Join Forces: Providing Contrastive Explanations for Real-World Optimisation-Based Applications",
+   "u": "https://arxiv.org/abs/2610.31119v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "11:33",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ProductWebBench: Evaluating Website Continuity Beyond Task Completion",
+   "u": "https://arxiv.org/abs/2610.31118v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "11:33",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "A Grammar of French Civil Cassation: A Ground-Level Dataset and Tool",
+   "u": "https://arxiv.org/abs/2610.31116v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "11:30",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Can AI Co-Design Structures? An AI Agent for Early-Stage Structural Design",
+   "u": "https://arxiv.org/abs/2610.31113v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "11:27",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Who Is the Influencer? Consensus Dynamics in Multi-Agent Systems",
+   "u": "https://arxiv.org/abs/2610.31105v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "11:15",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "DeepOpen: Decision-Oriented Intent Classification on BANKING77 and CLINC150",
+   "u": "https://arxiv.org/abs/2610.31104v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "11:15",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "What Pairwise Evaluation Misses: Reward Scores across Prompts",
+   "u": "https://arxiv.org/abs/2610.31090v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "11:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "MQAScore: Fine-Grained Text-Music Alignment Evaluation via Large Audio Language Model",
+   "u": "https://arxiv.org/abs/2610.31083v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "10:56",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
    "u": "https://github.com/mattpocock/skills",
    "s": "外网新声·GitHub 新星",
@@ -3139,122 +3251,10 @@
    "x": ""
   },
   {
-   "t": "环境决斗：法学硕士共同进化的缩影",
-   "u": "https://arxiv.org/abs/2610.30116v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "共识研究的终结？",
-   "u": "https://arxiv.org/abs/2610.30114v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:55",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Quant-Arena：量化交易研究的LLM代理商基准",
-   "u": "https://arxiv.org/abs/2610.30113v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:54",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "多模式嵌入式代理：从计算机使用到机器人使用的统一以能力为中心的视角",
-   "u": "https://arxiv.org/abs/2610.30108v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:52",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "速度模糊剖面：用于流匹配的时间分辨贝叶斯风险诊断",
    "u": "https://arxiv.org/abs/2610.30107v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:52",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "非对称随机蒸馏学习上下文探索",
-   "u": "https://arxiv.org/abs/2610.30105v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:50",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "BatchBench：将AI鲁棒性与生物医学图像中的批处理效果和域转移进行对标- JUMP细胞绘制排行榜",
-   "u": "https://arxiv.org/abs/2610.30104v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:50",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "具有偏好反馈的差异私有稀疏奖励估计",
-   "u": "https://arxiv.org/abs/2610.30099v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:45",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "AtomicRL：用于长视野机器人操纵的原子强化学习",
-   "u": "https://arxiv.org/abs/2610.30097v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:45",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "LLM分类器的电路",
-   "u": "https://arxiv.org/abs/2610.30076v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:27",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "并行AI Agent协作作为图结构分布式块优化",
-   "u": "https://arxiv.org/abs/2610.30074v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:27",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "图表作为体验驱动的代理数据分析的认知行为",
-   "u": "https://arxiv.org/abs/2610.30072v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:26",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "一路漏洞：纯粹自我调节的语言建模",
-   "u": "https://arxiv.org/abs/2610.30068v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:25",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "循环均匀扩散语言模型",
-   "u": "https://arxiv.org/abs/2610.30066v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:24",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "从推理到行动：对LIBERO-10机器人操纵任务的前沿AI模型进行基准测试",
-   "u": "https://arxiv.org/abs/2610.30051v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:11",
    "k": "",
    "x": ""
   }
