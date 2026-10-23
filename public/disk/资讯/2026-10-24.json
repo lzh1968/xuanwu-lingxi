@@ -1,8 +1,8 @@
 {
  "日期": "2026-10-24",
- "落盘": "2026-10-24 05:13:22",
+ "落盘": "2026-10-24 05:23:14",
  "条数": 14,
- "live": 60,
+ "live": 52,
  "条目": [
   {
    "title": "一次我们故意破坏LLM缓存",
@@ -12,6 +12,11 @@
   {
    "title": "AI编码代理安全基准",
    "url": "https://www.endorlabs.com/research/ai-code-security-benchmark",
+   "type": "live"
+  },
+  {
+   "title": "Show HN：Dánwò -使用仿真器和故障注入的开源E2E测试",
+   "url": "https://github.com/carbonmeai/danwo",
    "type": "live"
   },
   {
@@ -37,11 +42,6 @@
   {
    "title": "使用同态加密的私人LLM推理[pdf]",
    "url": "https://www.vldb.org/pvldb/vol19/p4927-lim.pdf",
-   "type": "live"
-  },
-  {
-   "title": "隆重推出1Password客服代表版",
-   "url": "https://1password.com/blog/1password-for-ai-agents",
    "type": "live"
   },
   {
