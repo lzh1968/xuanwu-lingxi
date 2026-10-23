@@ -1,9 +1,17 @@
 {
- "generated": "03:04",
- "built": "2026-10-24 03:04:07",
+ "generated": "03:16",
+ "built": "2026-10-24 03:16:00",
  "count": 384,
- "live_count": 49,
+ "live_count": 50,
  "items": [
+  {
+   "type": "live",
+   "title": "LLM-d v1.0.0已推出",
+   "url": "https://github.com/llm-d/llm-d/releases/tag/v1.0.0",
+   "src": "Hacker News",
+   "t": "03:13",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "如果您正在构建用于金融的人工智能，请在可能的情况下退出",
@@ -42,7 +50,7 @@
    "url": "https://1password.com/blog/1password-for-ai-agents",
    "src": "Hacker News",
    "t": "01:42",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -50,7 +58,7 @@
    "url": "https://www.ruxu.dev/articles/ai/build-an-ai-agent-sessions-2/",
    "src": "Hacker News",
    "t": "01:41",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,6 @@
    "url": "https://yamanahlawat.in/articles/llm-judge-same-code-different-scores",
    "src": "Hacker News",
    "t": "00:50",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "不循环的智能体团队：切换地图、三种模式、硬预算",
-   "url": "https://awflow.io/blog/ai-agent-teams-that-dont-loop",
-   "src": "Hacker News",
-   "t": "00:30",
    "fresh": false
   },
   {
