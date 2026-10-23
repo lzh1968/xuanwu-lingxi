@@ -1,34 +1,34 @@
 {
  "日期": "2026-10-23",
- "落盘": "2026-10-23 12:32:45",
+ "落盘": "2026-10-23 13:01:14",
  "内存报表": {
-  "时间": "2026-10-23 12:32:45",
+  "时间": "2026-10-23 13:01:14",
+  "受托进程数": 16,
   "网关": {
    "进程号": "9498",
-   "内存MB": 571.1,
+   "内存MB": 478.9,
    "线程": 11,
    "堆上限": "1536"
   },
   "实例数": 1,
-  "受托进程数": 17,
   "全机MemTotal": "11469MB",
-  "全机MemAvailable": "6238MB",
+  "全机MemAvailable": "6319MB",
   "全机SwapTotal": "7110MB",
-  "全机SwapFree": "5228MB",
+  "全机SwapFree": "5280MB",
   "探活": "200"
  },
  "断线统计": {
-  "今日断线次数": 27,
+  "今日断线次数": 28,
   "今日最长断线秒": 477,
   "近2小时真停摆(≥90秒)": 1,
   "维护窗口": 0
  },
  "日志体量KB": {
-  "gateway_guard.log": 2152.2,
+  "gateway_guard.log": 2152.8,
   "gateway_outage.jsonl": 61.0,
   "gw_boot.out": 1092.3,
   "gw_run.out": 71.8,
-  "网关停摆取证.log": 612.1
+  "网关停摆取证.log": 612.5
  },
  "会话索引(不含正文)": [
   {
@@ -51,9 +51,9 @@
   },
   {
    "档": "bd15c44e-d99b-4293-aa94-8c5345a17434.jsonl",
-   "大小KB": 230.0,
-   "行数": 414,
-   "最后改动": "2026-10-23 12:32:36"
+   "大小KB": 241.2,
+   "行数": 434,
+   "最后改动": "2026-10-23 12:57:35"
   },
   {
    "档": "637b0266-bd49-4ee8-93c8-be7de7e026b8.jsonl",
@@ -63,15 +63,6 @@
   }
  ],
  "停摆取证(近段)": [
-  "  CPU    53.6s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
-  "── 停摆取证 2026-10-23 04:00:54 (取码 000) ──",
-  "  网关 VmRSS:\t  536028 kB",
-  "  网关 VmSwap:\t       0 kB",
-  "  网关 Threads:\t11",
-  "  Mem:           11469        4906         701          18        5860        6426",
-  "  Swap:           7110        1170        5940",
-  "  CPU  1130.4s openclaw-gateway",
-  "  CPU   105.2s bash _守护总管.sh",
   "  CPU    29.8s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
   "── 停摆取证 2026-10-23 05:30:55 (取码 000) ──",
   "  网关 VmRSS:\t  581068 kB",
@@ -222,6 +213,15 @@
   "  Swap:           7110        1732        5378",
   "  CPU   204.6s openclaw-gateway",
   "  CPU    33.9s bash _网关盾_内环.sh",
-  "  CPU    29.0s cloudflared tunnel --url http://127.0.0.1:8092 --no-autoupda"
+  "  CPU    29.0s cloudflared tunnel --url http://127.0.0.1:8092 --no-autoupda",
+  "── 停摆取证 2026-10-23 12:57:20 (取码 000) ──",
+  "  网关 VmRSS:\t  538212 kB",
+  "  网关 VmSwap:\t       0 kB",
+  "  网关 Threads:\t11",
+  "  Mem:           11469        5029         871          29        5568        6276",
+  "  Swap:           7110        1842        5267",
+  "  CPU  1011.4s openclaw-gateway",
+  "  CPU    31.2s bash _守护总管.sh",
+  "  CPU    21.9s bash /data/data/com.termux/files/home/.openclaw/workspace/sk"
  ]
 }
