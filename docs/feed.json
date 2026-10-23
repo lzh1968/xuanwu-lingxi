@@ -1,9 +1,25 @@
 {
- "generated": "00:25",
- "built": "2026-10-24 00:25:26",
- "count": 370,
- "live_count": 52,
+ "generated": "00:32",
+ "built": "2026-10-24 00:32:05",
+ "count": 371,
+ "live_count": 48,
  "items": [
+  {
+   "type": "live",
+   "title": "不循环的智能体团队：切换地图、三种模式、硬预算",
+   "url": "https://awflow.io/blog/ai-agent-teams-that-dont-loop",
+   "src": "Hacker News",
+   "t": "00:30",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "开源Mobile-Use MCP和AI Agent",
+   "url": "https://github.com/ghorbelhamdi/buddy-android",
+   "src": "Hacker News",
+   "t": "00:26",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Show HN: Koala –在macOS上的隔离Linux虚拟机中运行AI 智能体",
@@ -53,22 +69,6 @@
    "fresh": true
   },
   {
-   "type": "live",
-   "title": "询问HN：为本地法学硕士提供安全简约的网络前端？",
-   "url": "https://news.ycombinator.com/item?id=50210227",
-   "src": "Hacker News",
-   "t": "23:01",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Nvidia Sentry：运行时保护AI 智能体",
-   "url": "https://developer.nvidia.com/blog/inside-nvidia-sentry-secure-ai-agents-at-runtime/",
-   "src": "Hacker News",
-   "t": "23:01",
-   "fresh": true
-  },
-  {
    "type": "article",
    "title": "今日辑要 · 2026-10-24（前沿 12 条）",
    "url": "a/digest-20261024.html",
@@ -110,10 +110,10 @@
   },
   {
    "type": "article",
-   "title": "今日辑要 · 2026-10-23（前沿 12 条）",
-   "url": "a/digest-20261023.html",
+   "title": "关于\"记忆\"的三种用法",
+   "url": "a/note-20261024-2.html",
    "src": "Agent 与智能体",
-   "t": "2026-10-23",
+   "t": "2026-10-24",
    "fresh": false
   }
  ]
