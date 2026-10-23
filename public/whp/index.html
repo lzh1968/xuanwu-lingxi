@@ -6,25 +6,34 @@
 <style>
   *{box-sizing:border-box}
   html,body{max-width:100%;overflow-x:hidden}
-  body{background:#0e1117;color:#e6edf3;font-family:-apple-system,system-ui,sans-serif;margin:0;padding:14px;-webkit-text-size-adjust:100%}
-  .card{background:#161b22;border:1px solid #21262d;border-radius:12px;padding:14px;margin-bottom:12px}
+  :root{--bg:#0e1117;--card:#161b22;--bd:#21262d;--tx:#e6edf3;--mut:#8a94a3;--kpi:#0d1117;--soft:#c9d1d9;--dim:#484f58}
+  body.light{--bg:#f6f8fa;--card:#ffffff;--bd:#d0d7de;--tx:#1f2328;--mut:#57606a;--kpi:#f6f8fa;--soft:#1f2328;--dim:#6e7781}
+  body{background:var(--bg);color:var(--tx);font-family:-apple-system,system-ui,sans-serif;margin:0;padding:14px;-webkit-text-size-adjust:100%}
+  .card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:14px;margin-bottom:12px}
   h1{font-size:17px;margin:0 0 10px;line-height:1.4}
   .grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-  .kpi{background:#0d1117;border-radius:9px;padding:10px;text-align:center;overflow:hidden}
+  .kpi{background:var(--kpi);border-radius:9px;padding:10px;text-align:center;overflow:hidden}
   .kpi .v{font-size:20px;font-weight:700;word-break:break-all}
   .kpi .l{font-size:11px;color:#8a94a3;margin-top:2px}
   .tw{overflow-x:auto;-webkit-overflow-scrolling:touch;margin-top:8px}
   table{width:100%;border-collapse:collapse;font-size:12px;min-width:340px}
-  th,td{padding:5px 4px;text-align:left;border-bottom:1px solid #21262d;vertical-align:top}
-  th{color:#8a94a3;font-weight:500;font-size:11px;white-space:nowrap}
+  th,td{padding:5px 4px;text-align:left;border-bottom:1px solid var(--bd);vertical-align:top}
+  th{color:var(--mut);font-weight:500;font-size:11px;white-space:nowrap}
+  /* 🌗 2026-10-23 老板令「给锐门户加白天黑夜开关」: 内联灰字在日间模式下转深色 */
+  body.light [style*="#8a94a3"]{color:#57606a !important}
+  body.light [style*="#c9d1d9"]{color:#1f2328 !important}
+  body.light [style*="#484f58"]{color:#6e7781 !important}
+  body.light [style*="#0d1117"]{background:var(--kpi) !important}
+  #dm{position:fixed;top:8px;right:8px;z-index:99;font-size:12px;padding:5px 10px;border-radius:16px;border:1px solid var(--bd);background:var(--card);color:var(--tx);cursor:pointer}
   details>summary{cursor:pointer;font-size:13px;color:#8a94a3;padding:4px 0}
-  @media(max-width:400px){body{padding:10px}table{font-size:11px}th,td{padding:4px 3px}}</style></head><body>
+  @media(max-width:400px){body{padding:10px}table{font-size:11px}th,td{padding:4px 3px}}
   .tag{display:inline-block;font-size:10px;padding:1px 7px;border-radius:9px;background:#1f6feb22;color:#58a6ff;margin-left:6px}
 </style></head><body>
+<button id="dm" onclick="dmT()" title="白天/黑夜">🌙</button>
 
 <div class="card">
   <h1>🧬 WHP · 实盘门户 (测试官·DSS 100%基因·待Key) <span class="tag">运行中</span></h1>
-  <div style="font-size:12px;color:#8a94a3;margin-bottom:8px">独立门户 · 独立结算 · 21币(ADA/ARB/ATOM/AVAX/BNB/BTC/DOGE/DOT/ETH/FIL/INJ/LTC/NEAR/SEI/SOL/SUI/TIA/UNI/WLD/WLFI/XRP)多币择强</div>
+  <div style="font-size:12px;color:#8a94a3;margin-bottom:8px">独立门户 · 独立结算 · 多币择强</div>
   
   
   
@@ -39,7 +48,7 @@
 </div>
 
 <div class="card">
-  <div style="font-size:13px;margin-bottom:6px">📌 当前持仓 <span style="color:#f0b90b;font-size:11px">（实盘账本真身 · 数据更新于 23:04:07）</span></div>
+  <div style="font-size:13px;margin-bottom:6px">📌 当前持仓 <span style="color:#f0b90b;font-size:11px">（实盘账本真身 · 数据更新于 23:34:36）</span></div>
   <div style="color:#8a94a3;font-size:13px;padding:6px 0">空仓 · 等待信号(宁缺毋滥)</div>
 </div>
 
@@ -71,11 +80,14 @@
 </div>
 
 <div style="text-align:center;font-size:11px;color:#484f58;margin-top:8px">
-  📊 数据更新于 23:04:07（账本每 60 秒同步一拍）· 页面每5秒自刷(<span id=cd>5</span>s) · 子引擎独立结算
+  📊 数据更新于 23:34:36（账本每 60 秒同步一拍）· 页面每5秒自刷(<span id=cd>5</span>s) · 子引擎独立结算
 </div>
 <script>
 // ⏱ 实时倒计时(增强实时同步感): 每5秒自刷
 var _cd=5;var _el=document.getElementById('cd');
 setInterval(function(){_cd--;if(_cd<0)_cd=5;if(_el)_el.textContent=_cd;},1000);
+// 🌗 白天/黑夜开关(记忆在本机浏览器·跨刷新/自刷保持)
+function dmT(){var l=document.body.classList.toggle('light');try{localStorage.setItem('lx_dm',l?'light':'dark');}catch(e){}document.getElementById('dm').textContent=l?'☀️':'🌙';}
+(function(){try{if(localStorage.getItem('lx_dm')==='light'){document.body.classList.add('light');document.getElementById('dm').textContent='☀️';}}catch(e){}})();
 </script>
 </body></html>
