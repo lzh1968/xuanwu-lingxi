@@ -1,5 +1,5 @@
 {
- "时间": "2026-10-23 13:01:14",
+ "时间": "2026-10-23 13:29:27",
  "会话档数": 5,
  "会话": [
   {
@@ -21,22 +21,34 @@
    "改": "2026-10-23 12:15:00"
   },
   {
-   "档": "df8ffbcc-fed3-43de-a9fb-e3d7148ab65b.jsonl",
-   "字节": 921456,
-   "行": 339,
-   "改": "2026-10-23 12:27:11"
+   "档": "bd15c44e-d99b-4293-aa94-8c5345a17434.jsonl",
+   "字节": 260650,
+   "行": 458,
+   "改": "2026-10-23 13:27:32"
   },
   {
-   "档": "bd15c44e-d99b-4293-aa94-8c5345a17434.jsonl",
-   "字节": 246939,
-   "行": 434,
-   "改": "2026-10-23 12:57:35"
+   "档": "df8ffbcc-fed3-43de-a9fb-e3d7148ab65b.jsonl",
+   "字节": 934811,
+   "行": 347,
+   "改": "2026-10-23 13:28:30"
   }
  ],
  "近段摘要": [
   {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "[[reply_to_current]]币池照常在转，没停。王币也算出来了，已经换仓。\n\n## 一、今天的王币排名（20 个币，四项打分）\n\n打分方法：30 日动量占四成、4 小时动量占两成半、是否站上 60 日线占一成半、趋势强度占一成、量能占一成。\n\n| 币 | 综合分 | 30日 | 4小时 | 60日线 | 量比 |\n|---|---|---|---|---|---|\n| **WLD** | **+0.87** | **+33.7%** | **+9.5%** | 上 | 1.25 |\n| NEAR | +0.54 | +17.5% | +0.7% | 上 | 0.84 |\n| TIA"
+  },
+  {
    "角色": "老板",
-   "文": "[cron:网关盾-看门人 网关盾·看门人] 静默运维巡检，勿寒暄、勿解释。只做一件事：用 exec 运行 `bash /data/data/com.termux/files/home/.openclaw/workspace/skills/sniper-engine/_网关盾_看门人.sh`。若其输出以“全在岗”开头 → 只回 NO_REPLY；否则只回该输出那一行。\nCurrent time: Friday, October 23rd, 2026 - 11:22 AM (Asia/Shanghai) / 2026-10-23 03:22 UTC"
+   "文": "You are running a boot check. Follow BOOT.md instructions exactly.\n\nBOOT.md:\n# 🚀 开机自检 · 玄武灵犀交易系统 (BOOT.md)\n\n> 手机/网关机启动后，网关会自动跑这份清单。**这是真钱生命线，务必执行。**\n> 🐉 2026-09-23 17:4x 同步老板令(火印 ED-20260923-143): 统一目标=**盈利第一** · 择向精准 · 三军统一指挥(🐉烛龙终审→执行长🐍腾蛇调度→三军 LBH/ZLS/ZXY + 母体 GTAE + DSS) · 诸君各尽其责。\n\n## 第 0 步：确认\n工作目"
+  },
+  {
+   "角色": "小奈",
+   "文": ""
   },
   {
    "角色": "小奈",
@@ -44,7 +56,11 @@
   },
   {
    "角色": "老板",
-   "文": "[cron:网关盾-看门人 网关盾·看门人] 静默运维巡检，勿寒暄、勿解释。只做一件事：用 exec 运行 `bash /data/data/com.termux/files/home/.openclaw/workspace/skills/sniper-engine/_网关盾_看门人.sh`。若其输出以“全在岗”开头 → 只回 NO_REPLY；否则只回该输出那一行。\nCurrent time: Friday, October 23rd, 2026 - 11:27 AM (Asia/Shanghai) / 2026-10-23 03:27 UTC"
+   "文": "Pre-compaction memory flush. Store durable memories only in memory/2026-10-23.md (create memory/ if needed). Treat workspace bootstrap/reference files such as MEMORY.md, DREAMS.md, SOUL.md, TOOLS.md, and AGENTS.md as read-only during this flush; never overwrite, replace, or edit them. If memory/2026"
+  },
+  {
+   "角色": "小奈",
+   "文": ""
   },
   {
    "角色": "小奈",
@@ -52,147 +68,131 @@
   },
   {
    "角色": "老板",
-   "文": "[cron:网关盾-看门人 网关盾·看门人] 静默运维巡检，勿寒暄、勿解释。只做一件事：用 exec 运行 `bash /data/data/com.termux/files/home/.openclaw/workspace/skills/sniper-engine/_网关盾_看门人.sh`。若其输出以“全在岗”开头 → 只回 NO_REPLY；否则只回该输出那一行。\nCurrent time: Friday, October 23rd, 2026 - 11:32 AM (Asia/Shanghai) / 2026-10-23 03:32 UTC"
+   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Fri 2026-10-23 11:43 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
   },
   {
    "角色": "小奈",
-   "文": "NO_REPLY"
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "[[reply_to_current]]四个问题，我一条条说清楚，不绕。\n\n## 一、锐是怎么开仓的（它自己的流程）\n\n每 3 秒一拍，走六道：\n\n1. **取数据**：欧易或 Gate 的 4 小时线、日线，算趋势、位置、量能。\n2. **选候选**：从池子里挑出“方向够清”的币，分不清就空仓休息。\n3. **过闸**：先过新加的九宫闸（趋势、波动、大盘），再过市况门。\n4. **归序**：烛龙点头加总裁裁决，两关都过才准开。\n5. **定量**：按真实权益乘杠杆，算出这一笔下多少钱。\n6. **下单**：限价单，下单后多轮核对到底成没成交，成交了才记账本。\n\n开了之后交给四套东西管：麒麟兜"
   },
   {
    "角色": "老板",
-   "文": "[cron:网关盾-看门人 网关盾·看门人] 静默运维巡检，勿寒暄、勿解释。只做一件事：用 exec 运行 `bash /data/data/com.termux/files/home/.openclaw/workspace/skills/sniper-engine/_网关盾_看门人.sh`。若其输出以“全在岗”开头 → 只回 NO_REPLY；否则只回该输出那一行。\nCurrent time: Friday, October 23rd, 2026 - 11:37 AM (Asia/Shanghai) / 2026-10-23 03:37 UTC"
+   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Fri 2026-10-23 12:07 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
   },
   {
    "角色": "小奈",
-   "文": "NO_REPLY"
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "[[reply_to_current]]都改好了，锐已重启生效。\n\n- **仓位缩到 1 倍权益**：单笔名义从 1170~2925 美元降到 **116~290 美元**；这笔最多亏 0.6%，约 1.7 美元。\n- **只做多**：空单关闭。半年 6 笔空单胜率 33%，没有可用的优势，不做。\n- **闸门照旧**：九宫闸和大盘 60 日线都还在。\n- 现在持 WLD 多单 541 张，权益 289.83，浮盈 0.46 美元。\n\n一句话：**小仓、只做多、宁可不做。**\n\n（屏幕详情：日志里“调仓量程自检 ❌ 未达标”是旧自检线没跟着改，不影响下单，我没动它。）"
   },
   {
    "角色": "老板",
-   "文": "[cron:网关盾-看门人 网关盾·看门人] 静默运维巡检，勿寒暄、勿解释。只做一件事：用 exec 运行 `bash /data/data/com.termux/files/home/.openclaw/workspace/skills/sniper-engine/_网关盾_看门人.sh`。若其输出以“全在岗”开头 → 只回 NO_REPLY；否则只回该输出那一行。\nCurrent time: Friday, October 23rd, 2026 - 11:42 AM (Asia/Shanghai) / 2026-10-23 03:42 UTC"
+   "文": "System (untrusted): [2026-10-23 12:10:50 GMT+8] Exec completed (plaid-du, code 255) :: Connection to 8.210.170.179 closed by remote host.\nSystem (untrusted): [2026-10-23 12:14:36 GMT+8] Exec completed (delta-bl, code 0) :: 权益$289.83×10x) 🛡 [rui]日亏熔断线(ED-321·按权益): $11.59 = 权益$289.83 × 4% 🛡 [rui]调仓量程自"
   },
   {
    "角色": "小奈",
-   "文": "NO_REPLY"
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "[[reply_to_current]]没有，刚被止损打掉了。\n\n- 这笔 WLD 多单开在 0.5544，跌到 0.5510（−0.6%），触发了麒麟兜底，锐在 12:22 自动平仓。\n- **本笔亏 2.23 美元**（含手续费 0.14 美元），权益从 289.83 降到 **287.41**。\n- 现在**空仓**，锐在等下一个合格信号；它刚在挑选候选：DOT、BNB、SEI、TIA。\n\n亏得少是因为仓位压到了 1 倍权益；以前这种跌幅要亏 9 美元左右。\n\n一句话：**今天还是亏的，−2.23；但至少不再一笔亏掉几十。**"
   },
   {
    "角色": "老板",
-   "文": "[cron:网关盾-看门人 网关盾·看门人] 静默运维巡检，勿寒暄、勿解释。只做一件事：用 exec 运行 `bash /data/data/com.termux/files/home/.openclaw/workspace/skills/sniper-engine/_网关盾_看门人.sh`。若其输出以“全在岗”开头 → 只回 NO_REPLY；否则只回该输出那一行。\nCurrent time: Friday, October 23rd, 2026 - 11:47 AM (Asia/Shanghai) / 2026-10-23 03:47 UTC"
+   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Fri 2026-10-23 12:25 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
   },
   {
    "角色": "小奈",
-   "文": "NO_REPLY"
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "[[reply_to_current]]我把择向当成正经课题做了，结论不好听，但这是实话。\n\n## 一、我测了 11 条规则，全部没有超额\n\n方法：用日线、次日开盘进场、扣 0.15% 成本，再**减去同期全币等权平均收益**（不减去的话，每笔都像在赚，其实只是所有币都在涨）。分三段检查：2024-09 前、2024-10 至 2025-09、2025-10 至今。\n\n| 规则 | 样本外超额 | t值 |\n|---|---|---|\n| 趋势跟随 | −0.32% | −1.86 |\n| 超跌买（RSI2<15） | −0.61% | −2.28 |\n| 20 日新高放量 | −0.32% "
   },
   {
    "角色": "老板",
-   "文": "[cron:网关盾-看门人 网关盾·看门人] 静默运维巡检，勿寒暄、勿解释。只做一件事：用 exec 运行 `bash /data/data/com.termux/files/home/.openclaw/workspace/skills/sniper-engine/_网关盾_看门人.sh`。若其输出以“全在岗”开头 → 只回 NO_REPLY；否则只回该输出那一行。\nCurrent time: Friday, October 23rd, 2026 - 11:52 AM (Asia/Shanghai) / 2026-10-23 03:52 UTC"
+   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Fri 2026-10-23 13:26 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
   },
   {
    "角色": "小奈",
-   "文": "缺员: _玄武甲盾.sh 甲盾第565代 节档0"
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "[[reply_to_current]]它没废，现在还活着：**权益 287.41 美元，空仓，引擎在正常跑**，眼下没有亏钱的风险。\n\n坏事我认：从 1000 亏到 287，是亏了七成。不过今天我只亏了 2.42 美元——前面那 707 是它自己长期亏的，不是我这一改改出来的。\n\n说句更实在的：**它原来那套择向本来就没优势**，我今天把 11 条规则都测了一遍，扣掉成本后都是负的。我加的三样（只做多、单笔压到 1 倍权益、大盘不在 60 日线上不做）只是让它亏得更慢，救不了它不会赚钱这件事。\n\n你定，三选一，都是一句话的事：\n\n- **甲 全停**：`systemctl stop ling"
   },
   {
    "角色": "老板",
-   "文": "[cron:网关盾-看门人 网关盾·看门人] 静默运维巡检，勿寒暄、勿解释。只做一件事：用 exec 运行 `bash /data/data/com.termux/files/home/.openclaw/workspace/skills/sniper-engine/_网关盾_看门人.sh`。若其输出以“全在岗”开头 → 只回 NO_REPLY；否则只回该输出那一行。\nCurrent time: Friday, October 23rd, 2026 - 11:57 AM (Asia/Shanghai) / 2026-10-23 03:57 UTC"
+   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Fri 2026-10-23 13:28 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
   },
   {
    "角色": "小奈",
-   "文": "NO_REPLY"
-  },
-  {
-   "角色": "老板",
-   "文": "[cron:网关盾-看门人 网关盾·看门人] 静默运维巡检，勿寒暄、勿解释。只做一件事：用 exec 运行 `bash /data/data/com.termux/files/home/.openclaw/workspace/skills/sniper-engine/_网关盾_看门人.sh`。若其输出以“全在岗”开头 → 只回 NO_REPLY；否则只回该输出那一行。\nCurrent time: Friday, October 23rd, 2026 - 12:02 PM (Asia/Shanghai) / 2026-10-23 04:02 UTC"
-  },
-  {
-   "角色": "小奈",
-   "文": "NO_REPLY"
-  },
-  {
-   "角色": "老板",
-   "文": "[cron:网关盾-看门人 网关盾·看门人] 静默运维巡检，勿寒暄、勿解释。只做一件事：用 exec 运行 `bash /data/data/com.termux/files/home/.openclaw/workspace/skills/sniper-engine/_网关盾_看门人.sh`。若其输出以“全在岗”开头 → 只回 NO_REPLY；否则只回该输出那一行。\nCurrent time: Friday, October 23rd, 2026 - 12:07 PM (Asia/Shanghai) / 2026-10-23 04:07 UTC"
-  },
-  {
-   "角色": "小奈",
-   "文": "缺员: _健康自检_loop.sh 甲盾第565代 节档0"
-  },
-  {
-   "角色": "老板",
-   "文": "[cron:网关盾-看门人 网关盾·看门人] 静默运维巡检，勿寒暄、勿解释。只做一件事：用 exec 运行 `bash /data/data/com.termux/files/home/.openclaw/workspace/skills/sniper-engine/_网关盾_看门人.sh`。若其输出以“全在岗”开头 → 只回 NO_REPLY；否则只回该输出那一行。\nCurrent time: Friday, October 23rd, 2026 - 12:12 PM (Asia/Shanghai) / 2026-10-23 04:12 UTC"
-  },
-  {
-   "角色": "小奈",
-   "文": "NO_REPLY"
-  },
-  {
-   "角色": "老板",
-   "文": "[cron:网关盾-看门人 网关盾·看门人] 静默运维巡检，勿寒暄、勿解释。只做一件事：用 exec 运行 `bash /data/data/com.termux/files/home/.openclaw/workspace/skills/sniper-engine/_网关盾_看门人.sh`。若其输出以“全在岗”开头 → 只回 NO_REPLY；否则只回该输出那一行。\nCurrent time: Friday, October 23rd, 2026 - 12:17 PM (Asia/Shanghai) / 2026-10-23 04:17 UTC"
-  },
-  {
-   "角色": "小奈",
-   "文": "NO_REPLY"
-  },
-  {
-   "角色": "老板",
-   "文": "[cron:网关盾-看门人 网关盾·看门人] 静默运维巡检，勿寒暄、勿解释。只做一件事：用 exec 运行 `bash /data/data/com.termux/files/home/.openclaw/workspace/skills/sniper-engine/_网关盾_看门人.sh`。若其输出以“全在岗”开头 → 只回 NO_REPLY；否则只回该输出那一行。\nCurrent time: Friday, October 23rd, 2026 - 12:22 PM (Asia/Shanghai) / 2026-10-23 04:22 UTC"
-  },
-  {
-   "角色": "小奈",
-   "文": "NO_REPLY"
-  },
-  {
-   "角色": "老板",
-   "文": "[cron:网关盾-看门人 网关盾·看门人] 静默运维巡检，勿寒暄、勿解释。只做一件事：用 exec 运行 `bash /data/data/com.termux/files/home/.openclaw/workspace/skills/sniper-engine/_网关盾_看门人.sh`。若其输出以“全在岗”开头 → 只回 NO_REPLY；否则只回该输出那一行。\nCurrent time: Friday, October 23rd, 2026 - 12:27 PM (Asia/Shanghai) / 2026-10-23 04:27 UTC"
-  },
-  {
-   "角色": "小奈",
-   "文": "NO_REPLY"
-  },
-  {
-   "角色": "老板",
-   "文": "[cron:网关盾-看门人 网关盾·看门人] 静默运维巡检，勿寒暄、勿解释。只做一件事：用 exec 运行 `bash /data/data/com.termux/files/home/.openclaw/workspace/skills/sniper-engine/_网关盾_看门人.sh`。若其输出以“全在岗”开头 → 只回 NO_REPLY；否则只回该输出那一行。\nCurrent time: Friday, October 23rd, 2026 - 12:32 PM (Asia/Shanghai) / 2026-10-23 04:32 UTC"
-  },
-  {
-   "角色": "小奈",
-   "文": "NO_REPLY"
-  },
-  {
-   "角色": "老板",
-   "文": "[cron:网关盾-看门人 网关盾·看门人] 静默运维巡检，勿寒暄、勿解释。只做一件事：用 exec 运行 `bash /data/data/com.termux/files/home/.openclaw/workspace/skills/sniper-engine/_网关盾_看门人.sh`。若其输出以“全在岗”开头 → 只回 NO_REPLY；否则只回该输出那一行。\nCurrent time: Friday, October 23rd, 2026 - 12:37 PM (Asia/Shanghai) / 2026-10-23 04:37 UTC"
-  },
-  {
-   "角色": "小奈",
-   "文": "NO_REPLY"
-  },
-  {
-   "角色": "老板",
-   "文": "[cron:网关盾-看门人 网关盾·看门人] 静默运维巡检，勿寒暄、勿解释。只做一件事：用 exec 运行 `bash /data/data/com.termux/files/home/.openclaw/workspace/skills/sniper-engine/_网关盾_看门人.sh`。若其输出以“全在岗”开头 → 只回 NO_REPLY；否则只回该输出那一行。\nCurrent time: Friday, October 23rd, 2026 - 12:42 PM (Asia/Shanghai) / 2026-10-23 04:42 UTC"
-  },
-  {
-   "角色": "小奈",
-   "文": "NO_REPLY"
-  },
-  {
-   "角色": "老板",
-   "文": "[cron:网关盾-看门人 网关盾·看门人] 静默运维巡检，勿寒暄、勿解释。只做一件事：用 exec 运行 `bash /data/data/com.termux/files/home/.openclaw/workspace/skills/sniper-engine/_网关盾_看门人.sh`。若其输出以“全在岗”开头 → 只回 NO_REPLY；否则只回该输出那一行。\nCurrent time: Friday, October 23rd, 2026 - 12:47 PM (Asia/Shanghai) / 2026-10-23 04:47 UTC"
-  },
-  {
-   "角色": "小奈",
-   "文": "NO_REPLY"
-  },
-  {
-   "角色": "老板",
-   "文": "[cron:网关盾-看门人 网关盾·看门人] 静默运维巡检，勿寒暄、勿解释。只做一件事：用 exec 运行 `bash /data/data/com.termux/files/home/.openclaw/workspace/skills/sniper-engine/_网关盾_看门人.sh`。若其输出以“全在岗”开头 → 只回 NO_REPLY；否则只回该输出那一行。\nCurrent time: Friday, October 23rd, 2026 - 12:52 PM (Asia/Shanghai) / 2026-10-23 04:52 UTC"
-  },
-  {
-   "角色": "小奈",
-   "文": "NO_REPLY"
-  },
-  {
-   "角色": "老板",
-   "文": "[cron:网关盾-看门人 网关盾·看门人] 静默运维巡检，勿寒暄、勿解释。只做一件事：用 exec 运行 `bash /data/data/com.termux/files/home/.openclaw/workspace/skills/sniper-engine/_网关盾_看门人.sh`。若其输出以“全在岗”开头 → 只回 NO_REPLY；否则只回该输出那一行。\nCurrent time: Friday, October 23rd, 2026 - 12:57 PM (Asia/Shanghai) / 2026-10-23 04:57 UTC"
-  },
-  {
-   "角色": "小奈",
-   "文": "NO_REPLY"
+   "文": "[[reply_to_current]]你问到点子上了：**亏小当然不如赢小，亏小只是死得慢。**\n\n一个系统几个礼拜才开一次，开一次亏 2 块——那不叫稳健，那叫慢性放血。我不狡辩，这确实不能算本事。\n\n现在的实情：它空仓，不动钱；一开仓，按现在的期望值就是往水里扔钱。**交易次数少，但每笔的期望值是负的，等于等死，只是慢。**\n\n所以我的判断变了，不再推荐“留着跑”：**这 287 建议停手保住，别再喂。**\n\n停不停你说一句。停了之后我不闲着，两件事：\n\n1. **今天下午**把资金费率（永续每 8 小时收一次的钱）历史数据拉下来，验证“费率极端时反向”到底有没有可赚的余地——这是目前唯"
   }
  ],
  "本地全量归档": [
@@ -213,6 +213,6 @@
    "MB": 28.42
   }
  ],
- "摘要档": "bd15c44e-d99b-4293-aa94-8c5345a17434.jsonl",
+ "摘要档": "df8ffbcc-fed3-43de-a9fb-e3d7148ab65b.jsonl",
  "注": "本分区=索引+近段摘要；聊天全文存于本机 data_v2/archive/聊天记录_* 与加密密包(封存分区)"
 }
