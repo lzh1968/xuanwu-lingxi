@@ -1,6 +1,6 @@
 {
- "built": "2026-10-24 00:18:48",
- "count": 398,
+ "built": "2026-10-24 00:25:26",
+ "count": 412,
  "items": [
   {
    "t": "仿生理论 · 人脑映射（左脑·右脑·小脑·胼胝体）",
@@ -25,6 +25,14 @@
    "d": "2026-10-24",
    "k": "辑要,每日,前沿",
    "x": "今日从公开源汇得 12 条与人工智能、智能体系统、链上机制与数字经济相关的条目，按方向归拢如下。所有条目均保留来源与原文链接， 只作线索与机制观察 ，不代表任何结论。 Agent 与智能体 LLM Multi Agent Systems Are Vulnerable to Herding and Runaway Cascades <span class=\"src\" Hacker News · 00:02</span [查看原文](https://arxiv.org/abs/2610.30769) Show HN: Gsearch – Real Google Search for AI Agents(MCP) <span class=\"src\" Hacker News · 23:21</span [查看原文](https://github.com/RayenMlayeh/gsearch) L"
+  },
+  {
+   "t": "自治系统的\"慢变量\"",
+   "u": "a/note-20261024-1.html",
+   "s": "灵犀手记",
+   "d": "2026-10-24",
+   "k": "手记,方法论",
+   "x": "在自治系统里，最难的从来不是把动作写对，而是判断 该不该动 。 快变量是价格、是情绪、是每一根K线；慢变量是结构、是约束、是系统的边界条件。只盯快变量的系统，会把噪声当信号；只认慢变量的系统，又会在真实拐点前迟钝。 工程上的折中是分层的：外层用慢变量定\"能不能做\"，内层用快变量定\"此刻怎么做\"。两层之间用一条极窄的通道传递许可，而不是把两套逻辑搅在一起。 这也是为什么 固定底线 在自动化里如此重要：它不由任何一次判断决定，因此也不会被任何一次判断推翻。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "名字的重量",
@@ -2971,6 +2979,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Show HN: Koala –在macOS上的隔离Linux虚拟机中运行AI 智能体",
+   "u": "https://kunalkushwaha.github.io/homebrew-koala/",
+   "s": "外网新声·Hacker News",
+   "d": "00:18",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "法学硕士多智能体系统易受放牧和失控级联的影响",
    "u": "https://arxiv.org/abs/2610.30769",
    "s": "外网新声·Hacker News",
@@ -3035,18 +3051,210 @@
    "x": ""
   },
   {
-   "t": "Show HN：Vericto –在Postgres或MySQL运行之前检查AI 智能体的SQL",
-   "u": "https://github.com/vericto/vericto-proxy",
-   "s": "外网新声·Hacker News",
-   "d": "22:16",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "可扩展AI的基础",
    "u": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
    "s": "外网新声·MIT 科技评论",
    "d": "18:48",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Sensorimotor对齐：体现政策成功的柏拉图式代理",
+   "u": "https://arxiv.org/abs/2610.31670v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "直接通过@ $ k $思维修剪的优化：在测试时间推理中平衡质量和多样性",
+   "u": "https://arxiv.org/abs/2610.31667v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "从随机功能到完全可训练网络的阶段转换",
+   "u": "https://arxiv.org/abs/2610.31663v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "SpectralCanary：用于T2I数据集使用审计的令人尴尬的简单低频跟踪",
+   "u": "https://arxiv.org/abs/2610.31659v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "基于LLM的IT工单分类的成本意识弃权",
+   "u": "https://arxiv.org/abs/2610.31657v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:58",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "METTA：元强化学习的记忆增强测试时间适应",
+   "u": "https://arxiv.org/abs/2610.31656v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:58",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "EpiSEM-Bench：评估LLM受试者在缺少证据情况下的安全性和证据恢复",
+   "u": "https://arxiv.org/abs/2610.31650v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "BeNice! Closing Looping's Inference-Memory Gap via KV-Sharing",
+   "u": "https://arxiv.org/abs/2610.31633v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:49",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Questioning Instrumental Convergence in RLVR: Checkpoint Evidence from OLMo-3",
+   "u": "https://arxiv.org/abs/2610.31624v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:44",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "How Ground Truth Shapes Retrieval Scores: Evidence-Aware Evaluation of a Retrieval-Augmented Generation System for Breast Lesions",
+   "u": "https://arxiv.org/abs/2610.31606v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:36",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "CRANE: Post-Hoc Counterfactual Retrieval for Multimodal Classifiers",
+   "u": "https://arxiv.org/abs/2610.31594v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:26",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Simulated Control Evals",
+   "u": "https://arxiv.org/abs/2610.31593v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:26",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Beyond Best-of-$k$: Prior-Consistent DAPS for Ambiguous Nonlinear Inverse Problems",
+   "u": "https://arxiv.org/abs/2610.31592v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:26",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "VERA: A Responsible AI Dashboard for Assessing LLM Deployments in Light of the EU AI Act",
+   "u": "https://arxiv.org/abs/2610.31588v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:23",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Would an LLM Match into a Residency? Uncertainty, Reasoning and Image Use of Open Language Models on the Spanish MIR Examination",
+   "u": "https://arxiv.org/abs/2610.31586v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:23",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Action Learning for Scientific Simulations",
+   "u": "https://arxiv.org/abs/2610.31585v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:22",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Who Is Sycophantic to Whom? Confident LLMs, Human Deference, and the Collapse of Trust Calibration",
+   "u": "https://arxiv.org/abs/2610.31579v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:15",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "What Makes a Good Unmasking Policy? A Controlled Study of Learned Unmasking in Diffusion Language Models",
+   "u": "https://arxiv.org/abs/2610.31576v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:15",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Rethinking Sequence Compression with Test-time Regression",
+   "u": "https://arxiv.org/abs/2610.31574v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:14",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Social-HUMINT: An LLM-Augmented Unified Framework for Measuring Social Media Exposure",
+   "u": "https://arxiv.org/abs/2610.31573v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:13",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "On the Token Collapse Phenomenon in Textual Graph Soft Prompting",
+   "u": "https://arxiv.org/abs/2610.31572v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:13",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Contestable Agents for Data Governance: Recording Human Stewardship of AI-Generated Metadata Across Structured and Unstructured Systems",
+   "u": "https://arxiv.org/abs/2610.31553v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Beyond Causal Masks: Auditing and Localizing Hidden Future-Token Leakage in Adaptive Sequence Models",
+   "u": "https://arxiv.org/abs/2610.31522v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:34",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "The Geometry of Metaphor: Probing and Steering Metaphor Representations in Large Language Models",
+   "u": "https://arxiv.org/abs/2610.31520v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:33",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "From Prompt Rules to Golden Data Model: Production-Scale Generation of Personalized, Compliant Pharmaceutical Claims",
+   "u": "https://arxiv.org/abs/2610.31519v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:31",
    "k": "",
    "x": ""
   },
@@ -3087,102 +3295,6 @@
    "u": "https://github.com/aviaviavi/celorga",
    "s": "外网新声·Hacker News",
    "d": "00:18",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "MIT许可的多代理系统Rust框架：A2A 1.0，MCP 2026-07-28",
-   "u": "https://github.com/EmilLindfors/a2a-rs",
-   "s": "外网新声·Hacker News",
-   "d": "23:23",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "让智能体的互联网变得更好，可能会让其他人变得更糟",
-   "u": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "18:22",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "“我们看错了”：颠覆人工智能世界的爆炸性主张",
-   "u": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "17:45",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "人工智能研究人员将克劳德困在一个虚拟的荒岛上。它开始“玩耍”。",
-   "u": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "09:08",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "长视野多智能体系统的对抗性压力测试",
-   "u": "https://arxiv.org/abs/2609.17320",
-   "s": "外网新声·Hacker News",
-   "d": "13:09",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "客服代表角色>客服代表目标：使用多客服代表基准工具进行案例研究",
-   "u": "https://jonathanwmaddison.github.io/loombench/",
-   "s": "外网新声·Hacker News",
-   "d": "06:30",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "用于Rust中多代理系统的MIT许可Rust框架",
-   "u": "https://emillindfors.github.io/a2a-rs/",
-   "s": "外网新声·Hacker News",
-   "d": "23:14",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Gemini 4 Argon机器人",
-   "u": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "16:01",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "EmbeddingGemma 2：开放、轻量级的多模态嵌入模型",
-   "u": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "19:57",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "使用安全的服务器端内存推进专用AI计算",
-   "u": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "16:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "通过Gemini介绍代理视频理解",
-   "u": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "17:08",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "试行全球首个双盲人工智能评估",
-   "u": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
-   "s": "外网新声·DeepMind 官方",
-   "d": "12:59",
    "k": "",
    "x": ""
   }
