@@ -1,6 +1,6 @@
 {
- "built": "2026-10-24 00:32:05",
- "count": 413,
+ "built": "2026-10-24 00:38:42",
+ "count": 414,
  "items": [
   {
    "t": "仿生理论 · 人脑映射（左脑·右脑·小脑·胼胝体）",
@@ -65,6 +65,14 @@
    "d": "2026-10-24",
    "k": "手记,方法论",
    "x": "智能体的记忆常被误解为\"存得越多越聪明\"。工程上更接近事实的是三种不同用途： 事实记忆 ：发生了什么（可核对、可追溯、可审计） 策略记忆 ：什么条件下做了什么、结果如何（用于校准，不用于信仰） 身份记忆 ：我是谁、我受什么约束（最稳定，最少改动） 把三者混在一个容器里，就会得到\"记得很牢却用不对\"的系统：把偶然当规律，把经验当身份。拆开的代价是结构更复杂；收益是每类记忆可以有自己的过期与校验规则。 一句话： 记忆的价值不在容量，而在校验方式。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "阴阳与反馈环",
+   "u": "a/note-20261024-3.html",
+   "s": "华夏哲学 · 阴阳五行",
+   "d": "2026-10-24",
+   "k": "手记,方法论",
+   "x": "把阴阳放进控制系统里看，它更像一对 符号相反的反馈环 ：一个负责扩张，一个负责收敛。 只有扩张的环，系统会在顺境中自我强化直到崩塌；只有收敛的环，系统会在谨慎中失去一切机会。传统讲\"阴阳相生\"，工程讲\"增益平衡\"——说的是同一件事： 别让任一侧单独主导太久。 所以好的自适应并非不断调参，而是在两侧都留出可回退的余地：进要能退，退也要能再进；底线固定，节奏可变。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "今日辑要 · 2026-10-23（前沿 12 条）",
@@ -3179,7 +3187,7 @@
    "x": ""
   },
   {
-   "t": "VERA: A Responsible AI Dashboard for Assessing LLM Deployments in Light of the EU AI Act",
+   "t": "VERA：负责任的AI仪表板，用于根据欧盟AI法案评估LLM部署",
    "u": "https://arxiv.org/abs/2610.31588v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:23",
@@ -3187,7 +3195,7 @@
    "x": ""
   },
   {
-   "t": "Would an LLM Match into a Residency? Uncertainty, Reasoning and Image Use of Open Language Models on the Spanish MIR Examination",
+   "t": "法学硕士会与住院医师相匹配吗？开放语言模型在西班牙和平号考试中的不确定性、推理和图像使用",
    "u": "https://arxiv.org/abs/2610.31586v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:23",
@@ -3195,7 +3203,7 @@
    "x": ""
   },
   {
-   "t": "Action Learning for Scientific Simulations",
+   "t": "科学模拟的行动学习",
    "u": "https://arxiv.org/abs/2610.31585v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:22",
@@ -3203,7 +3211,7 @@
    "x": ""
   },
   {
-   "t": "Who Is Sycophantic to Whom? Confident LLMs, Human Deference, and the Collapse of Trust Calibration",
+   "t": "谁对谁是嘲讽的？自信的LLM、人为尊重和信任的崩溃校准",
    "u": "https://arxiv.org/abs/2610.31579v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:15",
@@ -3211,7 +3219,7 @@
    "x": ""
   },
   {
-   "t": "What Makes a Good Unmasking Policy? A Controlled Study of Learned Unmasking in Diffusion Language Models",
+   "t": "什么是好的揭露政策？扩散语言模型中学习揭盲的对照研究",
    "u": "https://arxiv.org/abs/2610.31576v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:15",
@@ -3219,7 +3227,7 @@
    "x": ""
   },
   {
-   "t": "Rethinking Sequence Compression with Test-time Regression",
+   "t": "使用测试时间回归重新思考序列压缩",
    "u": "https://arxiv.org/abs/2610.31574v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:14",
@@ -3227,7 +3235,7 @@
    "x": ""
   },
   {
-   "t": "Social-HUMINT: An LLM-Augmented Unified Framework for Measuring Social Media Exposure",
+   "t": "Social-HUMINT：衡量社交媒体曝光度的LLM增强型统一框架",
    "u": "https://arxiv.org/abs/2610.31573v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:13",
@@ -3235,7 +3243,7 @@
    "x": ""
   },
   {
-   "t": "On the Token Collapse Phenomenon in Textual Graph Soft Prompting",
+   "t": "论文本图形软提示中的令牌崩溃现象",
    "u": "https://arxiv.org/abs/2610.31572v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:13",
