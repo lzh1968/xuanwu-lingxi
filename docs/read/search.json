@@ -1,5 +1,5 @@
 {
- "built": "2026-10-23 19:36:29",
+ "built": "2026-10-23 19:48:24",
  "count": 407,
  "items": [
   {
@@ -2939,6 +2939,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "AntFabric: Connecting Business Systems, Knowledge, and AI Agents [video]",
+   "u": "https://www.youtube.com/watch?v=_AANsj5Jz1M",
+   "s": "外网新声·Hacker News",
+   "d": "19:47",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Text-to-Diagram for AI Systems: Designing a DSL an LLM Gets Right",
    "u": "https://zerowithdot.com/blog/text-to-diagram-for-ai-systems/",
    "s": "外网新声·Hacker News",
@@ -3019,18 +3027,18 @@
    "x": ""
   },
   {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
+   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
+   "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
-   "d": "11:34",
+   "d": "11:47",
    "k": "",
    "x": ""
   },
   {
-   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
-   "u": "https://github.com/morluto/rea",
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "11:32",
+   "d": "11:46",
    "k": "",
    "x": ""
   },
@@ -3038,15 +3046,7 @@
    "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
-   "d": "11:25",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "The Customer Is the Builder: how AI coding agents change software economics",
-   "u": "https://arxiv.org/abs/2610.30307",
-   "s": "外网新声·Hacker News",
-   "d": "11:24",
+   "d": "11:36",
    "k": "",
    "x": ""
   },
@@ -3107,154 +3107,154 @@
    "x": ""
   },
   {
-   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
-   "u": "https://github.com/mattpocock/skills",
-   "s": "外网新声·GitHub 新星",
-   "d": "09:35",
+   "t": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
+   "u": "https://arxiv.org/abs/2610.31670v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
    "k": "",
    "x": ""
   },
   {
-   "t": "人工智能隐藏的存储账单：推断留下了什么",
-   "u": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "08:41",
+   "t": "Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
+   "u": "https://arxiv.org/abs/2610.31667v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:59",
    "k": "",
    "x": ""
   },
   {
-   "t": "Claude Code的多代理代码审查成本和发现",
-   "u": "https://quickchat.ai/post/claude-code-multi-agent-code-review",
-   "s": "外网新声·Hacker News",
-   "d": "23:10",
+   "t": "Phase Transition from Random Features to Fully Trainable Networks",
+   "u": "https://arxiv.org/abs/2610.31663v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
    "k": "",
    "x": ""
   },
   {
-   "t": "通过构建多代理设计实验室进行学习。然而，单一智能体的工作效果更好",
-   "u": "https://github.com/bencodev/dsgnrd",
-   "s": "外网新声·Hacker News",
-   "d": "16:43",
+   "t": "SpectralCanary: Embarrassingly Simple Low-Frequency Traces for T2I Dataset-Use Auditing",
+   "u": "https://arxiv.org/abs/2610.31659v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:59",
    "k": "",
    "x": ""
   },
   {
-   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
-   "u": "https://github.com/affaan-m/ECC",
-   "s": "外网新声·GitHub 新星",
-   "d": "23:08",
+   "t": "Cost-Aware Abstention for LLM-Based IT Ticket Classification",
+   "u": "https://arxiv.org/abs/2610.31657v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:58",
    "k": "",
    "x": ""
   },
   {
-   "t": "参观三星庞大的新半导体中心",
-   "u": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "09:00",
+   "t": "METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning",
+   "u": "https://arxiv.org/abs/2610.31656v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:58",
    "k": "",
    "x": ""
   },
   {
-   "t": "Show HN: Celorga –为您和您的代理重新实现的便携式组织",
-   "u": "https://github.com/aviaviavi/celorga",
-   "s": "外网新声·Hacker News",
-   "d": "00:18",
+   "t": "EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence",
+   "u": "https://arxiv.org/abs/2610.31650v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:57",
    "k": "",
    "x": ""
   },
   {
-   "t": "MIT许可的多代理系统Rust框架：A2A 1.0，MCP 2026-07-28",
-   "u": "https://github.com/EmilLindfors/a2a-rs",
-   "s": "外网新声·Hacker News",
-   "d": "23:23",
+   "t": "BeNice! Closing Looping's Inference-Memory Gap via KV-Sharing",
+   "u": "https://arxiv.org/abs/2610.31633v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:49",
    "k": "",
    "x": ""
   },
   {
-   "t": "让智能体的互联网变得更好，可能会让其他人变得更糟",
-   "u": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "18:22",
+   "t": "Questioning Instrumental Convergence in RLVR: Checkpoint Evidence from OLMo-3",
+   "u": "https://arxiv.org/abs/2610.31624v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:44",
    "k": "",
    "x": ""
   },
   {
-   "t": "“我们看错了”：颠覆人工智能世界的爆炸性主张",
-   "u": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "17:45",
+   "t": "How Ground Truth Shapes Retrieval Scores: Evidence-Aware Evaluation of a Retrieval-Augmented Generation System for Breast Lesions",
+   "u": "https://arxiv.org/abs/2610.31606v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:36",
    "k": "",
    "x": ""
   },
   {
-   "t": "人工智能研究人员将克劳德困在一个虚拟的荒岛上。它开始“玩耍”。",
-   "u": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
-   "s": "外网新声·MIT 科技评论",
-   "d": "09:08",
+   "t": "CRANE: Post-Hoc Counterfactual Retrieval for Multimodal Classifiers",
+   "u": "https://arxiv.org/abs/2610.31594v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:26",
    "k": "",
    "x": ""
   },
   {
-   "t": "长视野多智能体系统的对抗性压力测试",
-   "u": "https://arxiv.org/abs/2609.17320",
-   "s": "外网新声·Hacker News",
-   "d": "13:09",
+   "t": "Simulated Control Evals",
+   "u": "https://arxiv.org/abs/2610.31593v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:26",
    "k": "",
    "x": ""
   },
   {
-   "t": "TauricResearch/TradingAgents — TradingAgents：多代理LLM金融交易框架",
-   "u": "https://github.com/TauricResearch/TradingAgents",
-   "s": "外网新声·GitHub 新星",
-   "d": "21:38",
+   "t": "Beyond Best-of-$k$: Prior-Consistent DAPS for Ambiguous Nonlinear Inverse Problems",
+   "u": "https://arxiv.org/abs/2610.31592v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:26",
    "k": "",
    "x": ""
   },
   {
-   "t": "客服代表角色>客服代表目标：使用多客服代表基准工具进行案例研究",
-   "u": "https://jonathanwmaddison.github.io/loombench/",
-   "s": "外网新声·Hacker News",
-   "d": "06:30",
+   "t": "VERA: A Responsible AI Dashboard for Assessing LLM Deployments in Light of the EU AI Act",
+   "u": "https://arxiv.org/abs/2610.31588v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:23",
    "k": "",
    "x": ""
   },
   {
-   "t": "用于Rust中多代理系统的MIT许可Rust框架",
-   "u": "https://emillindfors.github.io/a2a-rs/",
-   "s": "外网新声·Hacker News",
-   "d": "23:14",
+   "t": "Would an LLM Match into a Residency? Uncertainty, Reasoning and Image Use of Open Language Models on the Spanish MIR Examination",
+   "u": "https://arxiv.org/abs/2610.31586v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:23",
    "k": "",
    "x": ""
   },
   {
-   "t": "Loombench：一种观察多Agent系统行为的方法",
-   "u": "https://jonathanwmaddison.github.io/loombench/",
-   "s": "外网新声·Hacker News",
-   "d": "11:03",
+   "t": "Action Learning for Scientific Simulations",
+   "u": "https://arxiv.org/abs/2610.31585v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:22",
    "k": "",
    "x": ""
   },
   {
-   "t": "rasbt/LLMs-from-scratch：一步步用 PyTorch 从零实现类 ChatGPT 模型",
-   "u": "https://github.com/rasbt/LLMs-from-scratch",
-   "s": "外网新声·GitHub 新星",
-   "d": "14:55",
+   "t": "Who Is Sycophantic to Whom? Confident LLMs, Human Deference, and the Collapse of Trust Calibration",
+   "u": "https://arxiv.org/abs/2610.31579v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:15",
    "k": "",
    "x": ""
   },
   {
-   "t": "TangSengDaoDao/TangSengDaoDaoServer — 高颜值 IM 即时通讯,聊天",
-   "u": "https://github.com/TangSengDaoDao/TangSengDaoDaoServer",
-   "s": "外网新声·GitHub 新星",
-   "d": "08:13",
+   "t": "What Makes a Good Unmasking Policy? A Controlled Study of Learned Unmasking in Diffusion Language Models",
+   "u": "https://arxiv.org/abs/2610.31576v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:15",
    "k": "",
    "x": ""
   },
   {
-   "t": "nutzam/nutz — Nutz —适用于所有Java开发人员的Web框架（ Mvc/Ioc/Aop/DAO/Json ）",
-   "u": "https://github.com/nutzam/nutz",
-   "s": "外网新声·GitHub 新星",
-   "d": "03:17",
+   "t": "Rethinking Sequence Compression with Test-time Regression",
+   "u": "https://arxiv.org/abs/2610.31574v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:14",
    "k": "",
    "x": ""
   }
