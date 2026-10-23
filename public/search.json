@@ -1,5 +1,5 @@
 {
- "built": "2026-10-23 11:40:02",
+ "built": "2026-10-23 11:52:17",
  "count": 407,
  "items": [
   {
@@ -2939,6 +2939,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "AI Agents Kinda Broke the Internet",
+   "u": "https://jacobg.co/ai-agents/",
+   "s": "外网新声·Hacker News",
+   "d": "11:48",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Show HN: What LLM fits my GPU? – VRAM measured on real hardware for 117 models",
    "u": "https://quantized.uk/",
    "s": "外网新声·Hacker News",
@@ -3003,10 +3011,10 @@
    "x": ""
   },
   {
-   "t": "美国银行正在阻止第三方智能体访问客户账户",
-   "u": "https://www.reuters.com/legal/government/us-banks-detect-unauthorized-ai-agents-customer-accounts-axios-reports-2026-10-22/",
-   "s": "外网新声·Hacker News",
-   "d": "05:43",
+   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
+   "u": "https://github.com/morluto/rea",
+   "s": "外网新声·GitHub 新星",
+   "d": "03:51",
    "k": "",
    "x": ""
   },
@@ -3014,15 +3022,15 @@
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "03:35",
+   "d": "03:49",
    "k": "",
    "x": ""
   },
   {
-   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
-   "u": "https://github.com/morluto/rea",
+   "t": "obra/superpowers —有效的代理技能框架和软件开发方法。",
+   "u": "https://github.com/obra/superpowers",
    "s": "外网新声·GitHub 新星",
-   "d": "03:33",
+   "d": "03:48",
    "k": "",
    "x": ""
   },
@@ -3059,14 +3067,6 @@
    "x": ""
   },
   {
-   "t": "obra/superpowers —有效的代理技能框架和软件开发方法。",
-   "u": "https://github.com/obra/superpowers",
-   "s": "外网新声·GitHub 新星",
-   "d": "23:26",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
    "u": "https://github.com/earendil-works/pi",
    "s": "外网新声·GitHub 新星",
@@ -3091,33 +3091,9 @@
    "x": ""
   },
   {
-   "t": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
-   "u": "https://arxiv.org/abs/2610.31670v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
    "u": "https://arxiv.org/abs/2610.31667v1",
    "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Phase Transition from Random Features to Fully Trainable Networks",
-   "u": "https://arxiv.org/abs/2610.31663v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:59",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "SpectralCanary: Embarrassingly Simple Low-Frequency Traces for T2I Dataset-Use Auditing",
-   "u": "https://arxiv.org/abs/2610.31659v1",
-   "s": "外网新声·arXiv cs.LG",
    "d": "17:59",
    "k": "",
    "x": ""
@@ -3147,14 +3123,6 @@
    "x": ""
   },
   {
-   "t": "BeNice! Closing Looping's Inference-Memory Gap via KV-Sharing",
-   "u": "https://arxiv.org/abs/2610.31633v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:49",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Questioning Instrumental Convergence in RLVR: Checkpoint Evidence from OLMo-3",
    "u": "https://arxiv.org/abs/2610.31624v1",
    "s": "外网新声·arXiv cs.AI",
@@ -3171,25 +3139,9 @@
    "x": ""
   },
   {
-   "t": "CRANE: Post-Hoc Counterfactual Retrieval for Multimodal Classifiers",
-   "u": "https://arxiv.org/abs/2610.31594v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:26",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Simulated Control Evals",
    "u": "https://arxiv.org/abs/2610.31593v1",
    "s": "外网新声·arXiv cs.AI",
-   "d": "17:26",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Beyond Best-of-$k$: Prior-Consistent DAPS for Ambiguous Nonlinear Inverse Problems",
-   "u": "https://arxiv.org/abs/2610.31592v1",
-   "s": "外网新声·arXiv cs.LG",
    "d": "17:26",
    "k": "",
    "x": ""
@@ -3211,14 +3163,6 @@
    "x": ""
   },
   {
-   "t": "Action Learning for Scientific Simulations",
-   "u": "https://arxiv.org/abs/2610.31585v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:22",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Who Is Sycophantic to Whom? Confident LLMs, Human Deference, and the Collapse of Trust Calibration",
    "u": "https://arxiv.org/abs/2610.31579v1",
    "s": "外网新声·arXiv cs.AI",
@@ -3235,14 +3179,6 @@
    "x": ""
   },
   {
-   "t": "Rethinking Sequence Compression with Test-time Regression",
-   "u": "https://arxiv.org/abs/2610.31574v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:14",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Social-HUMINT: An LLM-Augmented Unified Framework for Measuring Social Media Exposure",
    "u": "https://arxiv.org/abs/2610.31573v1",
    "s": "外网新声·arXiv cs.AI",
@@ -3251,10 +3187,74 @@
    "x": ""
   },
   {
-   "t": "On the Token Collapse Phenomenon in Textual Graph Soft Prompting",
-   "u": "https://arxiv.org/abs/2610.31572v1",
+   "t": "Contestable Agents for Data Governance: Recording Human Stewardship of AI-Generated Metadata Across Structured and Unstructured Systems",
+   "u": "https://arxiv.org/abs/2610.31553v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Beyond Causal Masks: Auditing and Localizing Hidden Future-Token Leakage in Adaptive Sequence Models",
+   "u": "https://arxiv.org/abs/2610.31522v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:34",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "The Geometry of Metaphor: Probing and Steering Metaphor Representations in Large Language Models",
+   "u": "https://arxiv.org/abs/2610.31520v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:33",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "From Prompt Rules to Golden Data Model: Production-Scale Generation of Personalized, Compliant Pharmaceutical Claims",
+   "u": "https://arxiv.org/abs/2610.31519v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:31",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Inside-JEPA: From Prediction to Relational Grounding in Latent World Models",
+   "u": "https://arxiv.org/abs/2610.31194v1",
    "s": "外网新声·arXiv cs.LG",
-   "d": "17:13",
+   "d": "12:43",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "当更多元数据误导时：在LLM生成的博物馆描述中探索现场层面的接地",
+   "u": "https://arxiv.org/abs/2610.31193v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "12:41",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "RaSFNet: Ray-aligned and Scan-aware Fusion Network for LiDAR Semantic Segmentation",
+   "u": "https://arxiv.org/abs/2610.31186v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "12:35",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Track finding and particle identification performance with particle physics foundation models",
+   "u": "https://arxiv.org/abs/2610.31180v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "12:32",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Prompting Strategy Effects Depend on the Judge: A Multilingual Study of LLM-as-a-Judge Robustness",
+   "u": "https://arxiv.org/abs/2610.31172v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "12:27",
    "k": "",
    "x": ""
   }
