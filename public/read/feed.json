@@ -1,9 +1,17 @@
 {
- "generated": "17:24",
- "built": "2026-10-23 17:24:09",
+ "generated": "17:35",
+ "built": "2026-10-23 17:35:52",
  "count": 365,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Text Is Unnatural, and LLMs Are Built on It",
+   "url": "https://www.innerkore.com/blog/text-is-unnatural-llms-learn-the-map/",
+   "src": "Hacker News",
+   "t": "17:33",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Show HN: Kucedr (was Friday) – a desktop AI agent that runs on your machine",
@@ -34,7 +42,7 @@
    "url": "https://research.ibm.com/blog/fast-interpretability-plugin-vllm",
    "src": "Hacker News",
    "t": "16:01",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,6 @@
    "url": "https://jacobg.co/ai-agents/",
    "src": "Hacker News",
    "t": "11:48",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Show HN: What LLM fits my GPU? – VRAM measured on real hardware for 117 models",
-   "url": "https://quantized.uk/",
-   "src": "Hacker News",
-   "t": "11:25",
    "fresh": false
   },
   {
