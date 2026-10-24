@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-24",
- "落盘": "2026-10-24 23:51:59",
+ "落盘": "2026-10-24 23:54:40",
  "条数": 14,
- "live": 60,
+ "live": 46,
  "条目": [
+  {
+   "title": "Agent Compute Engine: Building the compute foundation for the agentic era",
+   "url": "https://cloud.google.com/blog/topics/ai-infrastructure/agent-compute-engine-deep-dive",
+   "type": "live"
+  },
   {
    "title": "Show HN: TenseMem -智能体的确定性记忆",
    "url": "https://github.com/tensemem/tensemem",
@@ -37,11 +42,6 @@
   {
    "title": "Worca -确定性多Agent管道",
    "url": "https://worca.dev/",
-   "type": "live"
-  },
-  {
-   "title": "ZK-irp-firewall –用于AI 智能体的Rust/Python ZK安全框架",
-   "url": "https://github.com/trenttrinder1111-byte/zk-irp-firewall",
    "type": "live"
   },
   {
