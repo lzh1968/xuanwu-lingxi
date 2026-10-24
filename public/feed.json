@@ -1,9 +1,17 @@
 {
- "generated": "08:29",
- "built": "2026-10-24 08:29:03",
+ "generated": "09:16",
+ "built": "2026-10-24 09:16:08",
  "count": 384,
- "live_count": 50,
+ "live_count": 55,
  "items": [
+  {
+   "type": "live",
+   "title": "我为智能体搭建了协作房间",
+   "url": "https://bellman.sh/r/blog/p001-hello-front-desk",
+   "src": "Hacker News",
+   "t": "09:11",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Algernon –通过x402为Base上的AI 智能体提供B2B合规和安全预言机",
@@ -18,7 +26,7 @@
    "url": "https://github.com/mrpkk/soma-protocol",
    "src": "Hacker News",
    "t": "07:31",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -26,7 +34,7 @@
    "url": "https://sampact.com/",
    "src": "Hacker News",
    "t": "07:10",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,6 @@
    "url": "https://zenodo.org/records/23602948",
    "src": "Hacker News",
    "t": "05:23",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "一次我们故意破坏LLM缓存",
-   "url": "https://www.induction.ai/blog/benchmark-cache-isolation",
-   "src": "Hacker News",
-   "t": "04:41",
    "fresh": false
   },
   {
