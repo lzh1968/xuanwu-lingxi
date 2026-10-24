@@ -1,9 +1,17 @@
 {
- "generated": "00:01",
- "built": "2026-10-25 00:01:30",
- "count": 386,
+ "generated": "00:07",
+ "built": "2026-10-25 00:07:54",
+ "count": 387,
  "live_count": 46,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN: AI agent swarms test if new CVEs are exploitable in your env",
+   "url": "https://app.enclave.ai/threat-feed",
+   "src": "Hacker News",
+   "t": "00:00",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "代理计算引擎：构建代理时代的计算基础",
@@ -54,14 +62,6 @@
   },
   {
    "type": "live",
-   "title": "Mace AI创始人在银行检测到未经授权的人工智能时警告AI双重代理",
-   "url": "https://www.thestreet.com/crypto/artificial-intelligence/mace-ai-founders-warn-of-ai-double-agents-amid-banks-detecting-unauthorized-ai-agents-",
-   "src": "Hacker News",
-   "t": "16:54",
-   "fresh": false
-  },
-  {
-   "type": "live",
    "title": "Worca -确定性多Agent管道",
    "url": "https://worca.dev/",
    "src": "Hacker News",
@@ -73,6 +73,14 @@
    "title": "今日辑要 · 2026-10-25（前沿 12 条）",
    "url": "a/digest-20261025.html",
    "src": "Agent 与智能体",
+   "t": "2026-10-25",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "自治系统的\"慢变量\"",
+   "url": "a/note-20261025-1.html",
+   "src": "灵犀手记",
    "t": "2026-10-25",
    "fresh": false
   },
@@ -105,14 +113,6 @@
    "title": "睡觉时，大脑在忙什么？",
    "url": "a/note-20261024-10.html",
    "src": "灵犀手记",
-   "t": "2026-10-24",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "园子为什么要留白？",
-   "url": "a/note-20261024-11.html",
-   "src": "华夏哲学 · 阴阳五行",
    "t": "2026-10-24",
    "fresh": false
   }
