@@ -2,14 +2,14 @@
  "日期": "2026-10-26",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-26 00:16:59",
+  "updated": "2026-10-26 00:47:21",
   "chosen": "XRP long",
   "nodes": [
    {
     "coin": "BTC",
     "side": "long",
-    "align": 0,
-    "embryo": -0.3
+    "align": 1,
+    "embryo": 1.7
    },
    {
     "coin": "LTC",
@@ -68,14 +68,14 @@
    {
     "coin": "NEAR",
     "side": "long",
-    "align": 1,
-    "embryo": 1.7
+    "align": 2,
+    "embryo": 2.7
    },
    {
     "coin": "UNI",
     "side": "long",
     "align": 1,
-    "embryo": 1.4
+    "embryo": 1.7
    },
    {
     "coin": "WLD",
