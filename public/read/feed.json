@@ -1,9 +1,17 @@
 {
- "generated": "23:17",
- "built": "2026-10-25 23:17:31",
+ "generated": "23:47",
+ "built": "2026-10-25 23:47:07",
  "count": 403,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "红队AI 智能体使用伪造工具输出的LLM进行监控",
+   "url": "https://www.redwoodresearch.org/blog/simulated-control-evaluations",
+   "src": "Hacker News",
+   "t": "23:41",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "问问HN：我们能否对这种即将到来的人工智能反乌托邦做点什么",
@@ -18,7 +26,7 @@
    "url": "https://github.com/NoMac-app/simulator-use",
    "src": "Hacker News",
    "t": "22:05",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -26,7 +34,7 @@
    "url": "https://www.reddit.com/r/opensource/comments/1xelcuf/your_tokens_arent_valuable_no_more_ai",
    "src": "Hacker News",
    "t": "22:05",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -46,10 +54,10 @@
   },
   {
    "type": "live",
-   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "url": "https://github.com/ggml-org/llama.cpp",
+   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "url": "https://github.com/NousResearch/hermes-agent",
    "src": "GitHub 新星",
-   "t": "15:16",
+   "t": "15:42",
    "fresh": false
   },
   {
@@ -57,15 +65,7 @@
    "title": "anomalyco/opencode：开源编码智能体",
    "url": "https://github.com/anomalyco/opencode",
    "src": "GitHub 新星",
-   "t": "15:15",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "url": "https://github.com/NousResearch/hermes-agent",
-   "src": "GitHub 新星",
-   "t": "15:09",
+   "t": "15:40",
    "fresh": false
   },
   {
