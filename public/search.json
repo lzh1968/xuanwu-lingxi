@@ -1,5 +1,5 @@
 {
- "built": "2026-10-25 22:52:37",
+ "built": "2026-10-25 23:17:31",
  "count": 445,
  "items": [
   {
@@ -3243,6 +3243,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "问问HN：我们能否对这种即将到来的人工智能反乌托邦做点什么",
+   "u": "https://news.ycombinator.com/item?id=50232407",
+   "s": "外网新声·Hacker News",
+   "d": "23:12",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Show HN：适用于AI 智能体的最快、最具代币效率的IOS模拟器MCP",
    "u": "https://github.com/NoMac-app/simulator-use",
    "s": "外网新声·Hacker News",
@@ -3278,7 +3286,7 @@
    "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
-   "d": "14:50",
+   "d": "15:16",
    "k": "",
    "x": ""
   },
@@ -3286,15 +3294,7 @@
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "14:47",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "TaskWire用于管理AI 智能体工作流的基于MCP的任务板",
-   "u": "https://taskwire.si",
-   "s": "外网新声·Hacker News",
-   "d": "14:44",
+   "d": "15:15",
    "k": "",
    "x": ""
   },
@@ -3302,6 +3302,14 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
+   "d": "15:09",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "TaskWire用于管理AI 智能体工作流的基于MCP的任务板",
+   "u": "https://taskwire.si",
+   "s": "外网新声·Hacker News",
    "d": "14:44",
    "k": "",
    "x": ""
@@ -3319,14 +3327,6 @@
    "u": "https://alexalejandre.com/interviews/michal-wallace/",
    "s": "外网新声·Hacker News",
    "d": "13:14",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：AgentSkill – Yara-L-Skill",
-   "u": "https://github.com/ajaynyayapathi/yara-l-skill",
-   "s": "外网新声·Hacker News",
-   "d": "11:32",
    "k": "",
    "x": ""
   },
@@ -3379,14 +3379,6 @@
    "x": ""
   },
   {
-   "t": "快速扩展在线存储，为超过10亿ChatGPT用户提供服务（第二部分）",
-   "u": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-   "s": "外网新声·OpenAI 官方",
-   "d": "17:00",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
    "u": "https://github.com/IBAX-io/go-ibax",
    "s": "外网新声·GitHub 新星",
@@ -3395,26 +3387,10 @@
    "x": ""
   },
   {
-   "t": "保护我们的前沿模型培训环境",
-   "u": "https://openai.com/index/securing-our-frontier-model-training-environment",
-   "s": "外网新声·OpenAI 官方",
-   "d": "10:00",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "obra/superpowers —有效的代理技能框架和软件开发方法。",
    "u": "https://github.com/obra/superpowers",
    "s": "外网新声·GitHub 新星",
    "d": "03:48",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "OpenAI与波兰NASK合作推进人工智能安全保障",
-   "u": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
-   "s": "外网新声·OpenAI 官方",
-   "d": "00:00",
    "k": "",
    "x": ""
   },
@@ -3559,6 +3535,30 @@
    "u": "https://arxiv.org/abs/2610.31585v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:22",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "谁对谁是嘲讽的？自信的LLM、人为尊重和信任的崩溃校准",
+   "u": "https://arxiv.org/abs/2610.31579v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:15",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "什么是好的揭露政策？扩散语言模型中学习揭盲的对照研究",
+   "u": "https://arxiv.org/abs/2610.31576v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "17:15",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "使用测试时间回归重新思考序列压缩",
+   "u": "https://arxiv.org/abs/2610.31574v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:14",
    "k": "",
    "x": ""
   }
