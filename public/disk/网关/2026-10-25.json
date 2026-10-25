@@ -1,33 +1,33 @@
 {
  "日期": "2026-10-25",
- "落盘": "2026-10-25 14:23:25",
+ "落盘": "2026-10-25 14:41:26",
  "内存报表": {
-  "时间": "2026-10-25 14:23:25",
+  "时间": "2026-10-25 14:41:26",
   "网关": {
    "进程号": "1181",
-   "内存MB": 433.3,
+   "内存MB": 413.4,
    "线程": 11,
    "堆上限": "1536"
   },
   "实例数": 1,
   "受托进程数": 17,
   "全机MemTotal": "11469MB",
-  "全机MemAvailable": "6482MB",
+  "全机MemAvailable": "6062MB",
   "全机SwapTotal": "7110MB",
-  "全机SwapFree": "4554MB",
+  "全机SwapFree": "4619MB",
   "探活": "200"
  },
  "断线统计": {
-  "今日断线次数": 54,
+  "今日断线次数": 55,
   "今日最长断线秒": 301,
   "近2小时真停摆(≥90秒)": 2,
   "维护窗口": 0
  },
  "日志体量KB": {
-  "gateway_guard.log": 2325.3,
+  "gateway_guard.log": 2325.4,
   "gateway_outage.jsonl": 68.1,
   "gw_boot.out": 1222.8,
-  "网关停摆取证.log": 671.4
+  "网关停摆取证.log": 671.8
  },
  "会话索引(不含正文)": [
   {
@@ -68,21 +68,12 @@
   },
   {
    "档": "9ac4eedf-f0a5-4e4f-bfe3-ac1d8cc916e4.jsonl",
-   "大小KB": 276.4,
-   "行数": 494,
-   "最后改动": "2026-10-25 14:19:35"
+   "大小KB": 285.3,
+   "行数": 510,
+   "最后改动": "2026-10-25 14:39:35"
   }
  ],
  "停摆取证(近段)": [
-  "  Swap:           7110        2256        4854",
-  "  CPU   174.8s openclaw-gateway",
-  "  CPU   109.3s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
-  "  CPU    40.8s bash _网关看护.sh",
-  "── 停摆取证 2026-10-25 09:57:07 (取码 000) ──",
-  "  网关 VmRSS:\t  468312 kB",
-  "  网关 VmSwap:\t       0 kB",
-  "  网关 Threads:\t11",
-  "  Mem:           11469        5177         750         205        5541        5891",
   "  Swap:           7110        2244        4866",
   "  CPU   367.1s openclaw-gateway",
   "  CPU   121.2s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
@@ -233,6 +224,15 @@
   "  Swap:           7110        2135        4974",
   "  CPU   365.1s openclaw-gateway",
   "  CPU    31.1s bash _守护总管.sh",
-  "  CPU    14.7s bash _网关看护.sh"
+  "  CPU    14.7s bash _网关看护.sh",
+  "── 停摆取证 2026-10-25 14:34:17 (取码 000) ──",
+  "  网关 VmRSS:\t  458324 kB",
+  "  网关 VmSwap:\t       0 kB",
+  "  网关 Threads:\t11",
+  "  Mem:           11469        4803         913         151        5751        6353",
+  "  Swap:           7110        2535        4575",
+  "  CPU   530.5s openclaw-gateway",
+  "  CPU    53.1s bash _守护总管.sh",
+  "  CPU    23.1s bash _网关看护.sh"
  ]
 }
