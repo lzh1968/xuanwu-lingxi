@@ -2,8 +2,8 @@
  "日期": "2026-10-26",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-26 09:52:26",
-  "chosen": "LTC short",
+  "updated": "2026-10-26 10:22:57",
+  "chosen": "NEAR short",
   "nodes": [
    {
     "coin": "BTC",
@@ -15,25 +15,25 @@
     "coin": "LTC",
     "side": "short",
     "align": 2,
-    "embryo": 5.5
+    "embryo": 4.5
    },
    {
     "coin": "ADA",
     "side": "short",
     "align": 3,
-    "embryo": 3.0
+    "embryo": 2.1
    },
    {
     "coin": "DOGE",
     "side": "short",
     "align": 3,
-    "embryo": 3.5
+    "embryo": 2.4
    },
    {
     "coin": "XRP",
     "side": "short",
-    "align": 3,
-    "embryo": 1.7
+    "align": 2,
+    "embryo": 2.7
    },
    {
     "coin": "SOL",
@@ -45,43 +45,43 @@
     "coin": "ARB",
     "side": "short",
     "align": 2,
-    "embryo": 2.8
+    "embryo": 3.3
    },
    {
     "coin": "SUI",
     "side": "short",
     "align": 3,
-    "embryo": 0.8
+    "embryo": 0.7
    },
    {
     "coin": "ETH",
     "side": "short",
     "align": 3,
-    "embryo": 2.7
+    "embryo": 2.1
    },
    {
     "coin": "AVAX",
     "side": "short",
     "align": 2,
-    "embryo": 3.3
+    "embryo": 5.5
    },
    {
     "coin": "NEAR",
     "side": "short",
     "align": 2,
-    "embryo": 2.8
+    "embryo": 6.0
    },
    {
     "coin": "UNI",
     "side": "long",
     "align": 1,
-    "embryo": 1.2
+    "embryo": 1.7
    },
    {
     "coin": "WLD",
     "side": "short",
     "align": 3,
-    "embryo": 3.0
+    "embryo": 3.2
    },
    {
     "coin": "BNB",
@@ -93,13 +93,13 @@
     "coin": "DOT",
     "side": "short",
     "align": 3,
-    "embryo": 3.5
+    "embryo": 2.9
    },
    {
     "coin": "FIL",
     "side": "short",
     "align": 3,
-    "embryo": 0.8
+    "embryo": 2.9
    },
    {
     "coin": "LINK",
