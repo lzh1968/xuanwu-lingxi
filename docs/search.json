@@ -1,5 +1,5 @@
 {
- "built": "2026-10-26 20:50:32",
+ "built": "2026-10-26 21:02:23",
  "count": 464,
  "items": [
   {
@@ -3395,6 +3395,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Fixing Tool-Call Accuracy in vLLM",
+   "u": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
+   "s": "外网新声·Hacker News",
+   "d": "20:59",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Show HN: Extending X402 for MoR fiat payments and budget attenuation",
    "u": "https://github.com/mceleri/attenuated-agent-budgets",
    "s": "外网新声·Hacker News",
@@ -3459,14 +3467,6 @@
    "x": ""
   },
   {
-   "t": "Unintended Disclosure Through Revision Traces of LLM Deliverables",
-   "u": "https://arxiv.org/abs/2609.35408",
-   "s": "外网新声·Hacker News",
-   "d": "20:08",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "The AI Agents Trying to Be Real-Life Journalists",
    "u": "https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/",
    "s": "外网新声·Hacker News",
@@ -3491,14 +3491,6 @@
    "x": ""
   },
   {
-   "t": "Agentic Project Kit – A control harness for LLM-assisted coding via repo-state",
-   "u": "https://github.com/vfi64/agentic-project-kit",
-   "s": "外网新声·Hacker News",
-   "d": "18:48",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Show HN: Mob programming with AI agents, built on OpenSpec and OpenCode",
    "u": "https://griyd.com",
    "s": "外网新声·Hacker News",
@@ -3507,34 +3499,10 @@
    "x": ""
   },
   {
-   "t": "顶级开源法学硕士网关",
-   "u": "https://medium.com/@hadilbenabdallah/top-5-open-source-llm-gateways-41d6c9ec7438",
-   "s": "外网新声·Hacker News",
-   "d": "18:15",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
    "s": "外网新声·GitHub 新星",
-   "d": "12:49",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
-   "s": "外网新声·GitHub 新星",
-   "d": "12:49",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "12:49",
+   "d": "12:58",
    "k": "",
    "x": ""
   },
@@ -3542,23 +3510,15 @@
    "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
    "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
-   "d": "12:46",
+   "d": "12:57",
    "k": "",
    "x": ""
   },
   {
-   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "u": "https://github.com/earendil-works/pi",
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
-   "d": "12:45",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "affaan-m/ECC —代理利用性能优化系统。技能、本能、记忆、安全、",
-   "u": "https://github.com/affaan-m/ECC",
-   "s": "外网新声·GitHub 新星",
-   "d": "04:56",
+   "d": "12:54",
    "k": "",
    "x": ""
   },
@@ -3675,14 +3635,6 @@
    "x": ""
   },
   {
-   "t": "快速扩展在线存储，为超过10亿ChatGPT用户提供服务（第二部分）",
-   "u": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-   "s": "外网新声·OpenAI 官方",
-   "d": "17:00",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "绿色代码还是昂贵的代码？评估基于LLM的迭代代码优化的能源成本",
    "u": "https://arxiv.org/abs/2610.32891v1",
    "s": "外网新声·arXiv cs.AI",
@@ -3711,6 +3663,54 @@
    "u": "https://arxiv.org/abs/2610.32887v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "16:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NgramRL：通过推出感知N-gram投机解码加速结构化生成的RL后训练",
+   "u": "https://arxiv.org/abs/2610.32881v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:47",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "通过分层误差模型搜索推进基于SVD的LLM压缩",
+   "u": "https://arxiv.org/abs/2610.32878v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:46",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "信任工具：LLM漏洞审计师对静态分析证据的不对称尊重",
+   "u": "https://arxiv.org/abs/2610.32876v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:45",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "“正确”和“错误”加起来是一个吗？ LLM代理意见模拟中的补充一致性",
+   "u": "https://arxiv.org/abs/2610.32874v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:44",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "使用TopKLoRA进行可解释的稀疏微调，实现忠实的电路发现",
+   "u": "https://arxiv.org/abs/2610.32866v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:37",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "为多Agent系统重新构想企业RAG：在检索之前进行组织的知识层",
+   "u": "https://arxiv.org/abs/2610.32851v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:21",
    "k": "",
    "x": ""
   }
