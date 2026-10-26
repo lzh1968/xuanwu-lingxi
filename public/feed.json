@@ -1,9 +1,17 @@
 {
- "generated": "23:19",
- "built": "2026-10-26 23:19:24",
+ "generated": "23:25",
+ "built": "2026-10-26 23:25:24",
  "count": 422,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN: Sturnus, a latency-based LLM load balancer",
+   "url": "https://github.com/sturnus-dev/sturnus",
+   "src": "Hacker News",
+   "t": "23:20",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "How we test LLM serving changes for coding agents, two hours of GPUs per change",
@@ -50,7 +58,7 @@
    "url": "https://equibles.com/research/agentic-ai-has-overtaken-generative-ai-on-earnings-calls-evidence-from-5-305-s-p-500-calls",
    "src": "Hacker News",
    "t": "21:54",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,6 @@
    "url": "https://github.com/claix-dev/claix-for-devs",
    "src": "Hacker News",
    "t": "21:46",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "AI is coming for accounting after coding",
-   "url": "https://news.ycombinator.com/item?id=50243234",
-   "src": "Hacker News",
-   "t": "21:24",
    "fresh": false
   },
   {
