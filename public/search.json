@@ -1,6 +1,6 @@
 {
- "built": "2026-10-27 00:32:18",
- "count": 471,
+ "built": "2026-10-27 00:38:23",
+ "count": 472,
  "items": [
   {
    "t": "仿生理论 · 人脑映射（左脑·右脑·小脑·胼胝体）",
@@ -25,6 +25,14 @@
    "d": "2026-10-27",
    "k": "辑要,每日,前沿",
    "x": "今日从公开源汇得 12 条与人工智能、智能体系统、链上机制与数字经济相关的条目，按方向归拢如下。所有条目均保留来源与原文链接， 只作线索与机制观察 ，不代表任何结论。 Agent 与智能体 Show HN: Give one context across all your agents via MCP <span class=\"src\" Hacker News · 23:38</span [查看原文](https://make0.ai/) Ask HN: What are your creative context bombs to make AI agents pay? <span class=\"src\" Hacker News · 23:32</span [查看原文](https://news.ycombinator.com/item?id=50245483) Markdown Is "
+  },
+  {
+   "t": "睡觉时，大脑在忙什么？",
+   "u": "a/note-20261027-10.html",
+   "s": "灵犀手记",
+   "d": "2026-10-27",
+   "k": "手记,方法论",
+   "x": "睡眠常被当成\"关机\"，其实更像 打烊后的盘点与归档 ：白天的经历被重放、筛选、贴上标签，重要的加固，琐碎的被清掉。 一个反直觉的发现是： 睡一觉之后，人对\"规律\"的把握常常变好 ，哪怕睡前并没把规律想通。大脑在你无意识时，替你做了归纳。 对一个靠\"学习\"改进的系统来说，这一点同样成立： 持续地做，也要刻意地停下。 不整理的输入，只是堆积，不会变成能力。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "链上机制的可读性",
@@ -3451,6 +3459,30 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Show HN: Mainplane –位于旧电脑上的Go座席，驱动您的笔记本电脑",
+   "u": "https://github.com/mainplane-ai/mainplane",
+   "s": "外网新声·Hacker News",
+   "d": "00:37",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Tokensaver，查看您的LLM提示的哪些部分需要花钱",
+   "u": "https://github.com/behrouzbk/tokensaver",
+   "s": "外网新声·Hacker News",
+   "d": "00:36",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Humanlayer：在复杂代码库中获取AI编码智能体的方法",
+   "u": "https://github.com/humanlayer/humanlayer",
+   "s": "外网新声·Hacker News",
+   "d": "00:32",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Show HN：通过MCP为所有客服代表提供一个上下文",
    "u": "https://make0.ai/",
    "s": "外网新声·Hacker News",
@@ -3483,22 +3515,6 @@
    "x": ""
   },
   {
-   "t": "我们如何测试编码智能体的LLM服务变更，每次变更两个小时的GPU",
-   "u": "https://www.upbound.io/blog/drinking-our-own-champagne-part-5-what-does-it-take-to-grow-a-self-hosted-coding-model-from-pilot-to-team",
-   "s": "外网新声·Hacker News",
-   "d": "23:12",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN：我构建了从反馈中学习的搜索/Recsys",
-   "u": "https://dna.hashgrid.ai/",
-   "s": "外网新声·Hacker News",
-   "d": "23:03",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Markdown是新的可执行文件：攻击者将代理说明下载到下载文件中",
    "u": "https://forever.security/blog/hijacking-ai-agents-via-downloads-folder/",
    "s": "外网新声·Hacker News",
@@ -3527,14 +3543,6 @@
    "u": "https://equibles.com/research/agentic-ai-has-overtaken-generative-ai-on-earnings-calls-evidence-from-5-305-s-p-500-calls",
    "s": "外网新声·Hacker News",
    "d": "21:54",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "将您的AI 智能体连接到数据库，而无需编写SQL",
-   "u": "https://github.com/claix-dev/claix-for-devs",
-   "s": "外网新声·Hacker News",
-   "d": "21:46",
    "k": "",
    "x": ""
   },
