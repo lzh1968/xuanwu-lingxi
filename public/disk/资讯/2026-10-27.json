@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-27",
- "落盘": "2026-10-27 02:56:59",
+ "落盘": "2026-10-27 03:14:08",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "我是如何在6GB VRAM上预先培训10B LLM的",
+   "url": "https://huggingface.co/blog/RitishReal/1b-petrain-llm-in-4gb-vram",
+   "type": "live"
+  },
   {
    "title": "密歇根大学教授为人工智能智能体创建了类似蟒蛇的Jac语言",
    "url": "https://www.theregister.com/devops/2026/10/23/michigan-prof-creates-python-like-jac-language-for-ai-agents/5305110",
@@ -37,11 +42,6 @@
   {
    "title": "Humanlayer：在复杂代码库中获取AI编码智能体的方法",
    "url": "https://github.com/humanlayer/humanlayer",
-   "type": "live"
-  },
-  {
-   "title": "Show HN：通过MCP为所有客服代表提供一个上下文",
-   "url": "https://make0.ai/",
    "type": "live"
   },
   {
