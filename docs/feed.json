@@ -1,12 +1,12 @@
 {
- "generated": "23:43",
- "built": "2026-10-26 23:43:49",
- "count": 422,
+ "generated": "00:01",
+ "built": "2026-10-27 00:01:48",
+ "count": 424,
  "live_count": 60,
  "items": [
   {
    "type": "live",
-   "title": "Show HN: Give one context across all your agents via MCP",
+   "title": "Show HN：通过MCP为所有客服代表提供一个上下文",
    "url": "https://make0.ai/",
    "src": "Hacker News",
    "t": "23:38",
@@ -14,7 +14,7 @@
   },
   {
    "type": "live",
-   "title": "Ask HN: What are your creative context bombs to make AI agents pay?",
+   "title": "问问HN：你的创意背景炸弹是什么让智能体付出代价？",
    "url": "https://news.ycombinator.com/item?id=50245483",
    "src": "Hacker News",
    "t": "23:32",
@@ -22,7 +22,7 @@
   },
   {
    "type": "live",
-   "title": "Investigating changes in the writing style of HN users since the advent of LLMs",
+   "title": "调查自LLM出现以来HN用户写作风格的变化",
    "url": "https://thinkwhere.wordpress.com/2026/10/26/investigating-if-the-writing-style-of-users-on-hackernews-has-changed-since-the-advent-of-llms/",
    "src": "Hacker News",
    "t": "23:28",
@@ -30,7 +30,7 @@
   },
   {
    "type": "live",
-   "title": "Show HN: Sturnus, a latency-based LLM load balancer",
+   "title": "Show HN：Sturnus，基于延迟的LLM负载均衡器",
    "url": "https://github.com/sturnus-dev/sturnus",
    "src": "Hacker News",
    "t": "23:20",
@@ -38,7 +38,7 @@
   },
   {
    "type": "live",
-   "title": "How we test LLM serving changes for coding agents, two hours of GPUs per change",
+   "title": "我们如何测试编码智能体的LLM服务变更，每次变更两个小时的GPU",
    "url": "https://www.upbound.io/blog/drinking-our-own-champagne-part-5-what-does-it-take-to-grow-a-self-hosted-coding-model-from-pilot-to-team",
    "src": "Hacker News",
    "t": "23:12",
@@ -46,7 +46,7 @@
   },
   {
    "type": "live",
-   "title": "Show HN: I built Search/Recsys that learns from feedback",
+   "title": "Show HN：我构建了从反馈中学习的搜索/Recsys",
    "url": "https://dna.hashgrid.ai/",
    "src": "Hacker News",
    "t": "23:03",
@@ -54,7 +54,7 @@
   },
   {
    "type": "live",
-   "title": "Markdown Is the New Executable: Attackers Drop Agent Instructions into Downloads",
+   "title": "Markdown是新的可执行文件：攻击者将代理说明下载到下载文件中",
    "url": "https://forever.security/blog/hijacking-ai-agents-via-downloads-folder/",
    "src": "Hacker News",
    "t": "22:04",
@@ -62,10 +62,26 @@
   },
   {
    "type": "live",
-   "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+   "title": "使用下载文件夹中的AGENTS.md文件劫持AI编码代理",
    "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
    "src": "Hacker News",
    "t": "22:01",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "今日辑要 · 2026-10-27（前沿 12 条）",
+   "url": "a/digest-20261027.html",
+   "src": "Agent 与智能体",
+   "t": "2026-10-27",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "链上机制的可读性",
+   "url": "a/note-20261027-4.html",
+   "src": "Web3 · 链上世界",
+   "t": "2026-10-27",
    "fresh": false
   },
   {
@@ -97,22 +113,6 @@
    "title": "园子为什么要留白？",
    "url": "a/note-20261026-11.html",
    "src": "华夏哲学 · 阴阳五行",
-   "t": "2026-10-26",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "极光：天空的体检报告",
-   "url": "a/note-20261026-12.html",
-   "src": "灵犀手记",
-   "t": "2026-10-26",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "珊瑚：动物、植物，还是别的？",
-   "url": "a/note-20261026-13.html",
-   "src": "灵犀手记",
    "t": "2026-10-26",
    "fresh": false
   }

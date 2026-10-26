@@ -1,6 +1,6 @@
 {
- "built": "2026-10-26 23:43:49",
- "count": 464,
+ "built": "2026-10-27 00:01:48",
+ "count": 466,
  "items": [
   {
    "t": "仿生理论 · 人脑映射（左脑·右脑·小脑·胼胝体）",
@@ -17,6 +17,22 @@
    "d": "2026-10-19",
    "k": "身脑眼,双眼,天眼,左眼,右眼,辨真,观势,自我思考,真假辨伪,具足智慧,本机",
    "x": "身即本机运行域；脑为烛龙中枢，左司逻辑推演、右司全局势感、胼胝体双向校验，具自我思考·逻辑分析·真假辨伪三能；天眼左右各一，左眼辨真（伪信号勘破）、右眼观势（态势盛衰），双眼交叠生纵深。观照→推演→校准三环相扣，能看见、能思考、能分辨、具足智慧。仅作理论，不入交易链路。"
+  },
+  {
+   "t": "今日辑要 · 2026-10-27（前沿 12 条）",
+   "u": "a/digest-20261027.html",
+   "s": "Agent 与智能体",
+   "d": "2026-10-27",
+   "k": "辑要,每日,前沿",
+   "x": "今日从公开源汇得 12 条与人工智能、智能体系统、链上机制与数字经济相关的条目，按方向归拢如下。所有条目均保留来源与原文链接， 只作线索与机制观察 ，不代表任何结论。 Agent 与智能体 Show HN: Give one context across all your agents via MCP <span class=\"src\" Hacker News · 23:38</span [查看原文](https://make0.ai/) Ask HN: What are your creative context bombs to make AI agents pay? <span class=\"src\" Hacker News · 23:32</span [查看原文](https://news.ycombinator.com/item?id=50245483) Markdown Is "
+  },
+  {
+   "t": "链上机制的可读性",
+   "u": "a/note-20261027-4.html",
+   "s": "Web3 · 链上世界",
+   "d": "2026-10-27",
+   "k": "手记,方法论",
+   "x": "评价一条链上机制，可以先问三个可读性问题： 1. 谁承担最后风险？ （收益来自哪里，亏损落到谁头上） 2. 信息何时公开？ （先看到的人是否天然占优） 3. 退出是否顺畅？ （极端情形下能不能有序离场） 这三个问题不涉及任何价格判断，却能筛掉绝大部分\"看起来精巧\"的设计。机制研究的价值也正在于此： 把不可读的风险变成可讨论的条款。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "今日辑要 · 2026-10-26（前沿 12 条）",
@@ -3395,7 +3411,7 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
-   "t": "Show HN: Give one context across all your agents via MCP",
+   "t": "Show HN：通过MCP为所有客服代表提供一个上下文",
    "u": "https://make0.ai/",
    "s": "外网新声·Hacker News",
    "d": "23:38",
@@ -3403,7 +3419,7 @@
    "x": ""
   },
   {
-   "t": "Ask HN: What are your creative context bombs to make AI agents pay?",
+   "t": "问问HN：你的创意背景炸弹是什么让智能体付出代价？",
    "u": "https://news.ycombinator.com/item?id=50245483",
    "s": "外网新声·Hacker News",
    "d": "23:32",
@@ -3411,7 +3427,7 @@
    "x": ""
   },
   {
-   "t": "Investigating changes in the writing style of HN users since the advent of LLMs",
+   "t": "调查自LLM出现以来HN用户写作风格的变化",
    "u": "https://thinkwhere.wordpress.com/2026/10/26/investigating-if-the-writing-style-of-users-on-hackernews-has-changed-since-the-advent-of-llms/",
    "s": "外网新声·Hacker News",
    "d": "23:28",
@@ -3419,7 +3435,7 @@
    "x": ""
   },
   {
-   "t": "Show HN: Sturnus, a latency-based LLM load balancer",
+   "t": "Show HN：Sturnus，基于延迟的LLM负载均衡器",
    "u": "https://github.com/sturnus-dev/sturnus",
    "s": "外网新声·Hacker News",
    "d": "23:20",
@@ -3427,7 +3443,7 @@
    "x": ""
   },
   {
-   "t": "How we test LLM serving changes for coding agents, two hours of GPUs per change",
+   "t": "我们如何测试编码智能体的LLM服务变更，每次变更两个小时的GPU",
    "u": "https://www.upbound.io/blog/drinking-our-own-champagne-part-5-what-does-it-take-to-grow-a-self-hosted-coding-model-from-pilot-to-team",
    "s": "外网新声·Hacker News",
    "d": "23:12",
@@ -3435,7 +3451,7 @@
    "x": ""
   },
   {
-   "t": "Show HN: I built Search/Recsys that learns from feedback",
+   "t": "Show HN：我构建了从反馈中学习的搜索/Recsys",
    "u": "https://dna.hashgrid.ai/",
    "s": "外网新声·Hacker News",
    "d": "23:03",
@@ -3443,7 +3459,7 @@
    "x": ""
   },
   {
-   "t": "Markdown Is the New Executable: Attackers Drop Agent Instructions into Downloads",
+   "t": "Markdown是新的可执行文件：攻击者将代理说明下载到下载文件中",
    "u": "https://forever.security/blog/hijacking-ai-agents-via-downloads-folder/",
    "s": "外网新声·Hacker News",
    "d": "22:04",
@@ -3451,7 +3467,7 @@
    "x": ""
   },
   {
-   "t": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+   "t": "使用下载文件夹中的AGENTS.md文件劫持AI编码代理",
    "u": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
    "s": "外网新声·Hacker News",
    "d": "22:01",
@@ -3483,14 +3499,6 @@
    "x": ""
   },
   {
-   "t": "AI is coming for accounting after coding",
-   "u": "https://news.ycombinator.com/item?id=50243234",
-   "s": "外网新声·Hacker News",
-   "d": "21:24",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "DeLM：具有共享上下文的去中心化多Agent系统",
    "u": "https://github.com/yuzhenmao/DeLM",
    "s": "外网新声·Hacker News",
@@ -3507,10 +3515,18 @@
    "x": ""
   },
   {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:01",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "15:42",
+   "d": "15:59",
    "k": "",
    "x": ""
   },
@@ -3518,15 +3534,7 @@
    "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
    "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
-   "d": "15:41",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "15:36",
+   "d": "15:57",
    "k": "",
    "x": ""
   },
@@ -3711,6 +3719,14 @@
    "u": "https://arxiv.org/abs/2610.32887v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "16:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NgramRL：通过推出感知N-gram投机解码加速结构化生成的RL后训练",
+   "u": "https://arxiv.org/abs/2610.32881v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:47",
    "k": "",
    "x": ""
   }
