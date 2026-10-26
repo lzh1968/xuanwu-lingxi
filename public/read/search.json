@@ -1,5 +1,5 @@
 {
- "built": "2026-10-26 10:17:30",
+ "built": "2026-10-26 10:23:39",
  "count": 464,
  "items": [
   {
@@ -3395,6 +3395,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "BIFF 2.0.4：法学硕士技能",
+   "u": "https://biffweb.com/p/skills/",
+   "s": "外网新声·Hacker News",
+   "d": "10:18",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "展示HN：上帝– LLM代理协会的实时控制室（ EMNLP 2026演示）",
    "u": "https://github.com/XiaoLuoLYG/GOD",
    "s": "外网新声·Hacker News",
@@ -3459,14 +3467,6 @@
    "x": ""
   },
   {
-   "t": "问HN：GTAcraft VI在哪里？",
-   "u": "https://news.ycombinator.com/item?id=50235819",
-   "s": "外网新声·Hacker News",
-   "d": "04:37",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "为您的代理制定计划和代码审核",
    "u": "https://plannotator.ai/",
    "s": "外网新声·Hacker News",
@@ -3502,7 +3502,7 @@
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "02:14",
+   "d": "02:18",
    "k": "",
    "x": ""
   },
@@ -3587,10 +3587,90 @@
    "x": ""
   },
   {
+   "t": "RobustRLlib：健壮强化学习算法的统一库和基准",
+   "u": "https://arxiv.org/abs/2610.32971v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "培训前的衡量：类型化决策模型与经典基线对比生成LLM用于路由个人多语言收件箱",
+   "u": "https://arxiv.org/abs/2610.32955v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:49",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "四舍五入在哪里发生很重要：四舍五入-位置对齐稳定了LLM强化学习",
+   "u": "https://arxiv.org/abs/2610.32951v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:45",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ZENO：使用Zakai方程神经算子进行非线性滤波",
+   "u": "https://arxiv.org/abs/2610.32926v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:24",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "推荐者对使用土匪和MCTS改进正则化RL估计感到遗憾",
+   "u": "https://arxiv.org/abs/2610.32910v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:14",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "LoCA：在地理空间位置编码器中实现多模态",
+   "u": "https://arxiv.org/abs/2610.32894v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:01",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "快速扩展在线存储，为超过10亿ChatGPT用户提供服务（第二部分）",
    "u": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
    "s": "外网新声·OpenAI 官方",
    "d": "17:00",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "人体矫正旅行时：联邦VLA适应中的安全",
+   "u": "https://arxiv.org/abs/2610.32888v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:56",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Reinforcement Learning with Multi-Step Transition Predictions: A Bellman Theory",
+   "u": "https://arxiv.org/abs/2610.32887v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:55",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Trusting the Tool: Asymmetric Deference of LLM Vulnerability Auditors to Static-Analysis Evidence",
+   "u": "https://arxiv.org/abs/2610.32876v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:45",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Interpretable sparse fine-tuning with TopKLoRA enables faithful circuit discovery",
+   "u": "https://arxiv.org/abs/2610.32866v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:37",
    "k": "",
    "x": ""
   },
@@ -3619,30 +3699,6 @@
    "x": ""
   },
   {
-   "t": "轨迹匹配：离散流匹配与结构化操作",
-   "u": "https://arxiv.org/abs/2610.32602v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "13:27",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "对称多凸能量和包络的通用神经网络近似",
-   "u": "https://arxiv.org/abs/2610.32598v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "13:23",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "从参数重置到跨异构变压器的功能转移",
-   "u": "https://arxiv.org/abs/2610.32581v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "13:08",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "在现实MCP故障下调用LLM智能体的工具：规模不购买容错",
    "u": "https://arxiv.org/abs/2610.32555v1",
    "s": "外网新声·arXiv cs.AI",
@@ -3655,62 +3711,6 @@
    "u": "https://arxiv.org/abs/2610.32536v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "12:14",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "BAARC：不确定性驱动的自适应部分光谱测量用于材料分类的完全重建",
-   "u": "https://arxiv.org/abs/2610.32505v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "11:27",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "手风琴：通过固定前缀层循环进行弹性深度推断",
-   "u": "https://arxiv.org/abs/2610.32492v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "11:07",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "具有构建体感知蛋白质靶点的精选多端点药物-蛋白质生物活性数据集",
-   "u": "https://arxiv.org/abs/2610.32490v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "11:07",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "通过信号感知自适应融合（ SAAF ）进行有效的零拍摄视频异常检测",
-   "u": "https://arxiv.org/abs/2610.32486v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "11:02",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "当代理失败时：模型或线束--谁是罪魁祸首？",
-   "u": "https://arxiv.org/abs/2610.32483v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "10:57",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "案例：冷冻多模式情绪模型的混淆感知技能进化",
-   "u": "https://arxiv.org/abs/2610.32481v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "10:50",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "CauProphet：教导代理人像人类一样发展因果认知",
-   "u": "https://arxiv.org/abs/2610.32477v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "10:45",
    "k": "",
    "x": ""
   }
