@@ -1,16 +1,24 @@
 {
- "generated": "12:42",
- "built": "2026-10-26 12:42:27",
+ "generated": "15:03",
+ "built": "2026-10-26 15:03:31",
  "count": 422,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Aw1-breaker – Sub-millisecond AST circuit breaker for AI agent tool calls",
+   "url": "https://news.ycombinator.com/item?id=50240104",
+   "src": "Hacker News",
+   "t": "15:02",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Local-first video production workspace for people and AI agents",
    "url": "https://github.com/TriHerm/cutmark",
    "src": "Hacker News",
    "t": "12:39",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -18,7 +26,7 @@
    "url": "https://github.com/nodecode-ai/nodecode",
    "src": "Hacker News",
    "t": "11:30",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -34,14 +42,6 @@
    "url": "https://github.com/XiaoLuoLYG/GOD",
    "src": "Hacker News",
    "t": "10:11",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "让Flame Serving接近独立的vLLM",
-   "url": "https://xflops.io/blog/flame-vllm-serving/",
-   "src": "Hacker News",
-   "t": "09:06",
    "fresh": false
   },
   {
@@ -62,10 +62,10 @@
   },
   {
    "type": "live",
-   "title": "Show HN：故障中断：当您的AI 智能体需要您的关注时，故障您的桌面",
-   "url": "https://github.com/elbee19/glitchrupt",
-   "src": "Hacker News",
-   "t": "06:22",
+   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "url": "https://github.com/ggml-org/llama.cpp",
+   "src": "GitHub 新星",
+   "t": "07:03",
    "fresh": false
   },
   {
