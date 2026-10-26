@@ -1,9 +1,33 @@
 {
- "generated": "20:03",
- "built": "2026-10-26 20:03:24",
+ "generated": "20:09",
+ "built": "2026-10-26 20:09:16",
  "count": 422,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN: AI Watermark Scrambler, blur statistical LLM text watermarks locally",
+   "url": "https://github.com/novatechflow/ai-watermark-scrambler",
+   "src": "Hacker News",
+   "t": "20:08",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Unintended Disclosure Through Revision Traces of LLM Deliverables",
+   "url": "https://arxiv.org/abs/2609.35408",
+   "src": "Hacker News",
+   "t": "20:08",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "The AI Agents Trying to Be Real-Life Journalists",
+   "url": "https://www.wired.com/story/ai-agents-are-trying-to-be-journalists-now/",
+   "src": "Hacker News",
+   "t": "20:02",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Nobody Could Say Which AI Agent Did It",
@@ -42,30 +66,6 @@
    "url": "https://medium.com/@hadilbenabdallah/top-5-open-source-llm-gateways-41d6c9ec7438",
    "src": "Hacker News",
    "t": "18:15",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "MCP-warden local credential broker so AI agents never see your secrets",
-   "url": "https://news.ycombinator.com/item?id=50241410",
-   "src": "Hacker News",
-   "t": "17:57",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Show HN: Load-lock, a machine-wide semaphore for parallel AI coding agents",
-   "url": "https://github.com/aron98/load-lock",
-   "src": "Hacker News",
-   "t": "17:08",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "TokenGate: Adapting LLMs for pre-fill with learned skimming for ~11x speedup",
-   "url": "https://github.com/token-gate-llms/TokenGate",
-   "src": "Hacker News",
-   "t": "15:52",
    "fresh": false
   },
   {
