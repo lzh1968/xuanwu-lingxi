@@ -1,9 +1,17 @@
 {
- "generated": "17:10",
- "built": "2026-10-26 17:10:33",
+ "generated": "17:58",
+ "built": "2026-10-26 17:58:51",
  "count": 422,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "MCP-warden local credential broker so AI agents never see your secrets",
+   "url": "https://news.ycombinator.com/item?id=50241410",
+   "src": "Hacker News",
+   "t": "17:57",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Show HN: Load-lock, a machine-wide semaphore for parallel AI coding agents",
@@ -18,7 +26,7 @@
    "url": "https://github.com/token-gate-llms/TokenGate",
    "src": "Hacker News",
    "t": "15:52",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,6 @@
    "url": "https://github.com/XiaoLuoLYG/GOD",
    "src": "Hacker News",
    "t": "10:11",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "url": "https://github.com/ggml-org/llama.cpp",
-   "src": "GitHub 新星",
-   "t": "09:09",
    "fresh": false
   },
   {
