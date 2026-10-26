@@ -1,9 +1,17 @@
 {
- "generated": "04:10",
- "built": "2026-10-27 04:10:52",
+ "generated": "04:36",
+ "built": "2026-10-27 04:36:42",
  "count": 441,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "智能体对日志篡改几乎没有疑虑",
+   "url": "https://www.manifold.security/blog/agent-log-tampering",
+   "src": "Hacker News",
+   "t": "04:31",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Agent-first repos：为编码代理开发和运营而构建的代码库",
@@ -34,7 +42,7 @@
    "url": "https://huggingface.co/blog/RitishReal/1b-petrain-llm-in-4gb-vram",
    "src": "Hacker News",
    "t": "02:59",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,6 @@
    "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
    "src": "Hacker News",
    "t": "00:40",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Show HN: Mainplane –位于旧电脑上的Go座席，驱动您的笔记本电脑",
-   "url": "https://github.com/mainplane-ai/mainplane",
-   "src": "Hacker News",
-   "t": "00:37",
    "fresh": false
   },
   {

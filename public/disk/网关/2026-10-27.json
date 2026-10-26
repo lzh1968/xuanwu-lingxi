@@ -1,33 +1,33 @@
 {
  "日期": "2026-10-27",
- "落盘": "2026-10-27 04:28:01",
+ "落盘": "2026-10-27 04:30:56",
  "内存报表": {
-  "时间": "2026-10-27 04:28:01",
-  "受托进程数": 19,
+  "时间": "2026-10-27 04:30:56",
+  "受托进程数": 18,
   "网关": {
-   "进程号": "7922",
-   "内存MB": 621.0,
+   "进程号": "18986",
+   "内存MB": 422.5,
    "线程": 11,
    "堆上限": "1536"
   },
   "实例数": 1,
   "全机MemTotal": "11469MB",
-  "全机MemAvailable": "6307MB",
+  "全机MemAvailable": "6562MB",
   "全机SwapTotal": "7110MB",
-  "全机SwapFree": "4548MB",
-  "探活": "200"
+  "全机SwapFree": "4524MB",
+  "探活": "000"
  },
  "断线统计": {
-  "今日断线次数": 8,
+  "今日断线次数": 9,
   "今日最长断线秒": 166,
   "近2小时真停摆(≥90秒)": 0,
   "维护窗口": 0
  },
  "日志体量KB": {
-  "gateway_guard.log": 2419.2,
+  "gateway_guard.log": 2419.7,
   "gateway_outage.jsonl": 72.4,
-  "gw_boot.out": 1274.8,
-  "网关停摆取证.log": 706.9
+  "gw_boot.out": 1276.7,
+  "网关停摆取证.log": 707.3
  },
  "会话索引(不含正文)": [
   {
@@ -68,9 +68,9 @@
   },
   {
    "档": "637b0266-bd49-4ee8-93c8-be7de7e026b8.jsonl",
-   "大小KB": 494.8,
-   "行数": 329,
-   "最后改动": "2026-10-27 04:27:59"
+   "大小KB": 504.3,
+   "行数": 336,
+   "最后改动": "2026-10-27 04:28:14"
   },
   {
    "档": "2f5d38c8-0b18-4377-aa90-b108dcfb8814.jsonl",
@@ -92,15 +92,6 @@
   }
  ],
  "停摆取证(近段)": [
-  "  网关 VmSwap:\t       0 kB",
-  "  网关 Threads:\t11",
-  "  Mem:           11469        4945         606          28        5917        6158",
-  "  Swap:           7110        2869        4241",
-  "  CPU   732.8s openclaw-gateway",
-  "  CPU    90.5s bash _守护总管.sh",
-  "  CPU    20.1s /data/data/com.termux/files/usr/bin/python3 /data/data/com.t",
-  "── 停摆取证 2026-10-26 19:12:45 (取码 000) ──",
-  "  网关 VmRSS:\t  560996 kB",
   "  网关 VmSwap:\t    5884 kB",
   "  网关 Threads:\t11",
   "  Mem:           11469        4878         930          29        5660        6356",
@@ -251,6 +242,15 @@
   "  Swap:           7110        2546        4564",
   "  CPU  1621.8s openclaw-gateway",
   "  CPU   568.4s bash _守护总管.sh",
-  "  CPU   129.5s bash /data/data/com.termux/files/home/.openclaw/workspace/sk"
+  "  CPU   129.5s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
+  "── 停摆取证 2026-10-27 04:30:20 (取码 000) ──",
+  "  网关 VmRSS:\t  427504 kB",
+  "  网关 VmSwap:\t       0 kB",
+  "  网关 Threads:\t11",
+  "  Mem:           11469        4794         922          26        5752        6466",
+  "  Swap:           7110        2482        4628",
+  "  CPU    98.2s openclaw-gateway",
+  "  CPU    67.9s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
+  "  CPU    57.2s cloudflared tunnel --url http://127.0.0.1:8092 --no-autoupda"
  ]
 }
