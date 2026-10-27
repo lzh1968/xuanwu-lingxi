@@ -1,5 +1,5 @@
 {
- "时间": "2026-10-27 12:17:32",
+ "时间": "2026-10-27 12:35:05",
  "会话档数": 10,
  "会话": [
   {
@@ -51,16 +51,16 @@
    "改": "2026-10-27 07:42:08"
   },
   {
-   "档": "1b867855-1a99-4fc2-8e7c-625531a9d121.jsonl",
-   "字节": 968682,
-   "行": 764,
-   "改": "2026-10-27 10:51:58"
+   "档": "02093eff-7cdc-48a3-8a67-0210d0350aed.jsonl",
+   "字节": 834598,
+   "行": 445,
+   "改": "2026-10-27 12:27:07"
   },
   {
-   "档": "02093eff-7cdc-48a3-8a67-0210d0350aed.jsonl",
-   "字节": 760888,
-   "行": 405,
-   "改": "2026-10-27 12:08:03"
+   "档": "1b867855-1a99-4fc2-8e7c-625531a9d121.jsonl",
+   "字节": 971769,
+   "行": 768,
+   "改": "2026-10-27 12:27:24"
   }
  ],
  "近段摘要": [
@@ -82,19 +82,11 @@
   },
   {
    "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "**都删干净了，两边都清过。**\n\n**锐模拟系统：**`_起_锐模拟.sh`、`_起_锐模拟15.sh`、`_起_锐模拟C.sh` 三个起跑器已经全部删掉。现在剩下的 `sub_rui` 指向真钱锐，没有受影响。\n\n**脑V3：**`_脑v3_loop.sh`、`_脑v3_广域.py`、`_脑v3_纸面.py`、`_门户_脑v3.py` 在手机和云机上各一套，全部删掉。\n\n**锐-四臂对照组：**`_门户_锐对照.py`、`_门户_D臂.py` 这两端都已经删掉，配套的静态页也一并删掉了：`sub_rui_compare`、`sub_rui_sim`、`sub_train`、`sub_pap"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "System (untrusted): [2026-10-27 10:51:22 GMT+8] Exec completed (young-se, code 0) :: 残余静态页: 0 === 重启门户 === active === 首页入口检查 === (空=门户上已看不见)\n\nSender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n"
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -110,11 +102,71 @@
   },
   {
    "角色": "小奈",
-   "文": "**网关先报：甲·稳（369 兆，单实例，探活 200）。太极中枢的清单如下，已停状态，一行没改。**\n\n**一，服务本体**\n\n- `lingxi-taiji.service`，云机常驻，每 10 秒跑一次，`Restart=always`（杀不掉的那种）\n- 状态：今早我已停，现在 inactive\n\n**二，代码（三个文件，共 599 行）**\n\n- `_太极中枢_循环.py` 18 行：只管定时循环\n- `_太极中枢.py` 439 行：核心推演\n- `_太极_起卦.py` 142 行：起卦\n\n**三，吃进去的五个数据源（重点看新鲜度）**\n\n- 合参信号 `xinhao.json`："
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Tue 2026-10-27 11:50 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -126,11 +178,19 @@
   },
   {
    "角色": "小奈",
-   "文": "**网关：甲·稳。先说一句实话，再列清单。**\n\n**交易没有“百战百胜”，谁承诺这个谁就在骗您。** 能立得住的只有一件事：**先做到不亏，再做到长期正期望**。我今天被骂，就是因为以前总拿“高胜率”糊弄您，结果胜率七十二照样亏钱。这一条我改不了嘴，改的是做法。\n\n**大脑的问题在于太杂，并不缺聪明：五个大脑并排跑，九路信号互相投票，最后那个“综合裁决”是所有信号里最差的一个。**\n\n数据在这里，18,085 个样本：\n\n- 大势门：**+0.115%**，唯一正期望\n- 币王令：+0.034%\n- 开明情报 −0.003%、阴阳五行 −0.006%、白虎 −0.012%、择强 −0.013"
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Tue 2026-10-27 11:59 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -138,27 +198,11 @@
   },
   {
    "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "**已照办，清单里的每一项都做了。**\n\n**删的：**\n- `_中枢大脑_v2_算法.py`、`_v4_横截面.py`、`_v5_赔率.py`，手机、云机两边都删干净，残留 0\n- `lingxi-taiji` 太极中枢：停用、删服务文件、封禁（masked），以后谁也启动不了它\n\n**整理的：**\n- 烛龙大脑的历史日志压成压缩包：手机从 31 兆缩到 668K，云机从 10 兆缩到 228K。只压缩不删除，一笔数据都还在，要查随时解压\n- 五个大脑并存的问题也一并处理：v2、v4、v5 删掉，太极封禁，只剩烛龙大脑，唯一的主脑\n\n**立的文件两份，手机和云机都同步了：**\n- `_脑·整"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Tue 2026-10-27 12:04 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -166,7 +210,11 @@
   },
   {
    "角色": "小奈",
-   "文": ""
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -174,55 +222,7 @@
   },
   {
    "角色": "小奈",
-   "文": "**网关：甲·稳。两天，我安排如下，说完就动手。**\n\n**第一天（今天，到现在到今晚）**\n\n- 下午建一个干净的回测器，只有一个文件，一条命令就能跑。老板哪天想自己验，敲一下就行\n- 用它跑大势门、时段、出场这三项的组合。用现成的十九天五分钟数据，做样本内筛选\n- 晚上八点前出第一版数字：笔数、胜率、每笔期望、盈亏比、最长连亏\n\n**第二天（明天）**\n\n- 上午做样本外验证：前九天调参，后十天验证，两段都得正才算数\n- 下午出结论：正，就给出纸面启动方案，单户单币、单笔零点二五；负，我就直接报失败，不粉饰、不改数字\n- 傍晚交两样东西：一条命令，加一页数字\n\n**规矩我先立着：全程纸面回"
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "**第一版跑完了，如实报告：结果是负的，有一个好消息也被我自己当场推翻。**\n\n**先说我做出来的东西：**\n\n回测器建好了，`_器_一元否决_v1.py`，一条命令就能复跑，老板自己敲也是这个数。数据用现有的十九天五分钟行情，二十一个币。\n\n**第一版结果，全部参数组合都是负的：**\n\n- 最好的一组：394 笔，胜率 39.6%，每笔 −0.015%，盈亏比 1.50\n- 我扫了五十四种参数组合（止损、目标、趋势强度、回踩带宽），没有一组转正\n\n**中间出现过一个让我心跳的亮点：**\n\n十六点到二十四点，只做空，250 笔，胜率 51.6%，每笔 +0.473%，盈亏比 1.57，前段 +"
+   "文": "HEARTBEAT_OK"
   }
  ],
  "本地全量归档": [
@@ -243,6 +243,6 @@
    "MB": 13.46
   }
  ],
- "摘要档": "02093eff-7cdc-48a3-8a67-0210d0350aed.jsonl",
+ "摘要档": "1b867855-1a99-4fc2-8e7c-625531a9d121.jsonl",
  "注": "本分区=索引+近段摘要；聊天全文存于本机 data_v2/archive/聊天记录_* 与加密密包(封存分区)"
 }
