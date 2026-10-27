@@ -1,5 +1,5 @@
 {
- "时间": "2026-10-27 21:11:17",
+ "时间": "2026-10-27 21:22:48",
  "会话档数": 10,
  "会话": [
   {
@@ -51,16 +51,16 @@
    "改": "2026-10-27 07:42:08"
   },
   {
-   "档": "1b867855-1a99-4fc2-8e7c-625531a9d121.jsonl",
-   "字节": 992678,
-   "行": 789,
-   "改": "2026-10-27 19:16:41"
-  },
-  {
    "档": "02093eff-7cdc-48a3-8a67-0210d0350aed.jsonl",
    "字节": 2296858,
    "行": 1134,
    "改": "2026-10-27 20:46:38"
+  },
+  {
+   "档": "1b867855-1a99-4fc2-8e7c-625531a9d121.jsonl",
+   "字节": 995451,
+   "行": 793,
+   "改": "2026-10-27 21:16:32"
   }
  ],
  "近段摘要": [
@@ -74,11 +74,47 @@
   },
   {
    "角色": "小奈",
-   "文": "**四个角色已经定好了，全部在运行。**\n\n**一主方向 = 烛龙**——不只判断该做多还是做空，还判断该做哪个币、往哪个方向做。刚加的白名单就归它管，9 组组合写在里面：\n\n**WLD 多、ARB 空、BTC 空、ETH 空、INJ 多、SOL 空、SUI 多、BNB 多、UNI 多**\n\n这 9 组以外的，不论方向对错都不做。日志刚刚拦下一条：\n\n```\n🚫 烛龙·择币白名单外: WLFI short → 不做\n```\n\n**一主执行 = 腾蛇**——只在烛龙认可的币和方向上找进场点。\n\n**一主盈利 = 貔貅↹金蟾**——金蟾收小利，貔貅让大肉，两者互为阴阳。\n\n**一主风控 = 麒麟*"
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Tue 2026-10-27 19:54 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -86,11 +122,23 @@
   },
   {
    "角色": "小奈",
-   "文": "**四象对上了，环已经转起来。**\n\n**少阳（生）——烛龙定方向**：挑币、挑方向，白名单九组。\n\n**太阳（长）——腾蛇主执行**：找到点位，开仓。\n\n**少阴（收）——貔貅↹金蟾主盈利**：金蟾先收小利，貔貅让大肉跑完。\n\n**太阴（藏）——麒麟主风控**：护住本金，回到起点，等下一轮。\n\n**转法是：方向 → 执行 → 收割 → 护本 → 再定方向。** 四步一个环，环环相扣，不停。\n\n**四主缺一个，环就断了：**\n\n缺方向就乱打，缺执行就是空谈，缺盈利就白干，**缺风控必死**。\n\n**现在锐转到第一环**：空仓等信号，烛龙盯着那九个组合，腾蛇待命。权益 996.03。\n\n**“永"
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Tue 2026-10-27 19:57 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -98,11 +146,11 @@
   },
   {
    "角色": "小奈",
-   "文": "**固化完成，四件齐备：**\n\n**一、正本档案** `_内核·锐新系统_四象轮转_20261027.md`（6.2K）\n八章：四主架构、择币白名单、风控参数、盈利结构、已卸载清单、今日五个错误、局限、件与回退。\n\n**二、机读配置** `_锐新系统_定型_20261027.json`（3.7K）\nJSON 校验通过，含三段 sha256 指纹，代码一改就对不上。\n\n**三、写入长期记忆** `MEMORY.md` 追加一整章\n先备份后追加，没有覆盖。四象、白名单、风控、已卸载、五个错误、回退方式、判定标准，全在里面。\n\n**四、云机母体中枢已同步**——正本、机读、基因。\n\n**今天这套东西"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Tue 2026-10-27 20:03 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -110,11 +158,11 @@
   },
   {
    "角色": "小奈",
-   "文": "**老板这十六个字，我写进正本题记了。**\n\n**“赢在择向”**——数据摆着：ARB 做空 80% 赚、做多 12.5% 亏，同一个币，方向反了胜负差十倍。**择向就是生死，不是技巧问题。**\n\n**“顺势而为”**——主流币做空命中 62% 到 80%，那是顺着跌势走；山寨币追多是接刀。**顺的做，逆的不做。**\n\n**“大道至简”**——四主四象，一环不多，一环不少。\n\n**“一定能赢”这四个字我记在档上，也记在心上。**\n\n但我还得说一句实话：**这话得让 30 笔来兑现，不是让我的嘴来兑现。** 我把判定标准写死在案上，跑满了如果不行，我自己认。\n\n**锐现在空仓等信号，白名单在拦，"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Tue 2026-10-27 20:04 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -122,43 +170,35 @@
   },
   {
    "角色": "小奈",
-   "文": "**改好了。**\n\n**正本题记现在记的是：「大道至简，赢在择向。道法自然，顺势必成。」**\n\n云机也已同步，台账留痕。\n\n**十六个字，四个字一句，没有一句多余的。**\n\n- **大道至简**——四主四象，一环不多\n- **赢在择向**——白名单九组，方向错了差距十倍\n- **道法自然**——不预测，只跟随\n- **顺势必成**——顺着走，不逆势抢\n\n**锐还在转，权益 996.03，空仓等信号。**"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Tue 2026-10-27 20:06 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "明白，我盯着。\n\n当前：一个进程在跑，空仓，权益 996.03，白名单刚拦下 WLFI 空单。"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Tue 2026-10-27 20:07 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "**做进页面里了，六个数字并排显示：**\n\n**期望值（每笔）** −1.32 美元\n\n**当前连盈/连亏** 1连亏\n\n**历史最大连胜** 1\n\n**近10笔** −3.97（3笔，33%胜）\n\n**近20笔** −3.97（3笔，33%胜）\n\n**30笔判定进度** 10%，还差 27 笔\n\n**现在的数字不好看——三笔一盈两亏，期望负一块三。这是起点，不是结论。** 样本才 3 笔，判定线要 30 笔。\n\n**页面每五秒自刷，每跑一笔自动重算。** 老板打开看，期望值转正那天，一眼就能看见。\n\n地址还是那个：`http://8.210.170.179:8092/sub_rui.html"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Tue 2026-10-27 20:32 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -166,63 +206,23 @@
   },
   {
    "角色": "小奈",
-   "文": "收到。\n\n刚才这半小时，FIL 出现了两次三才信号，都是空单，白名单把它挡掉了，因为 FIL 空没有被验证过。**烛龙在挡，腾蛇在等。** 权益 996.03，空仓。"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Tue 2026-10-27 20:35 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "**空单通路是通的，没有关。**\n\n白名单里五组空单在等信号：**ARB 空、BTC 空、ETH 空、SOL 空**。空单没禁，只是要过择向这一关。\n\n**不过有件事得说清楚：FIL 空今晚反复出现，被我拦了五次。**\n\n原因在数据：FIL 十笔里只赢四笔，每笔亏 0.13%，**验证结果是负的**。按“择向有准”这一条，它进不了门。\n\n**但样本只有十笔，说它一定错也早。**\n\n**老板要是认为 FIL 这类也该做，说一声，我就放开。** 说“FIL 可以做”或者“未验证的也放”，我立刻改。\n\n**现在这五组是数据认可的准头，FIL 是感觉上的准头。** 我按数据走，老板按感觉走，两者不一样"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Tue 2026-10-27 20:37 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
-   "文": "明白。策略不改动。\n\n空单五组在等信号，锐运行正常，权益 996.03。\n\n有单我就报。"
-  },
-  {
-   "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Tue 2026-10-27 20:39 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "**让肉跑起来了，上百美金的算法也给你摆明白。**\n\n**改四个参数：**\n\n| 参数 | 原 | 现 |\n|---|---|---|\n| 目标止盈 | 8% | **16%** |\n| 大肉认定 | 1.5% | **3%** |\n| 让肉启动 | 0.7% | **1.5%** |\n| 让吐上限 | 1.05% | **3%** |\n\n**关键一招：行情利好时放名额。**\n\n三才里“大势”档（24 小时斜率 ≥0.954%，就是老板说的行情利好）**名额从 330 放到 990**，短波档照旧 330。\n\n**数学：**\n\n| 档 | 名义 | 涨 16% | 止损 1.5% 亏 |\n|-"
-  },
-  {
-   "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Tue 2026-10-27 20:45 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
-  },
-  {
-   "角色": "小奈",
-   "文": "对，账得算清楚。\n\n**一笔大赢，抵十笔小亏。**\n\n过去是按“大势档”算的：赢一笔 **+158**，亏一笔 **−15**，**十点五比一**。短波档也差不多，赢 53、亏 5，是十点六比一。\n\n**意味着胜率只要超过一成，这盘就是赚的。**\n\n这就是“容许小亏”的底气：**亏的每笔都在预算内，赢的那笔足够把十笔亏的抹平还有余。**\n\n**前提只有一条：让肉跑。** 中途要是手软先平了，这个数就永远凑不出来。\n\n自动管理这块，已经全交给系统了：护本、让肉、收小利，三道各管一段，不用人盯。\n\n**空仓等强趋势。** 大势一起来，名额自动放到 990，肉就交给它跑。"
-  },
-  {
-   "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Tue 2026-10-27 20:46 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
-  },
-  {
-   "角色": "小奈",
-   "文": "好。盯着，有单就报。"
+   "文": "HEARTBEAT_OK"
   }
  ],
  "本地全量归档": [
@@ -243,6 +243,6 @@
    "MB": 13.46
   }
  ],
- "摘要档": "02093eff-7cdc-48a3-8a67-0210d0350aed.jsonl",
+ "摘要档": "1b867855-1a99-4fc2-8e7c-625531a9d121.jsonl",
  "注": "本分区=索引+近段摘要；聊天全文存于本机 data_v2/archive/聊天记录_* 与加密密包(封存分区)"
 }
