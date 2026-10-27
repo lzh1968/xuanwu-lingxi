@@ -2,59 +2,89 @@
  "日期": "2026-10-27",
  "来源": "data_v2/mtsim/_雷达情报.json",
  "数据": {
-  "updated": "2026-10-27 21:39:59",
-  "chosen": "WLD short",
+  "updated": "2026-10-27 22:03:17",
+  "chosen": "FIL short",
   "nodes": [
    {
-    "coin": "NEAR",
+    "coin": "SOL",
+    "side": "short",
+    "align": 2,
+    "embryo": 3.3
+   },
+   {
+    "coin": "XRP",
+    "side": "long",
+    "align": 3,
+    "embryo": 2.2
+   },
+   {
+    "coin": "ADA",
+    "side": "short",
+    "align": 2,
+    "embryo": 4.7
+   },
+   {
+    "coin": "LTC",
+    "side": "short",
+    "align": 2,
+    "embryo": 3.89
+   },
+   {
+    "coin": "BNB",
     "side": "long",
     "align": 2,
-    "embryo": 3.2
+    "embryo": 3.7
    },
    {
     "coin": "AVAX",
     "side": "short",
     "align": 2,
-    "embryo": 2.2
+    "embryo": 4.7
+   },
+   {
+    "coin": "UNI",
+    "side": "long",
+    "align": 3,
+    "embryo": 0.8
    },
    {
     "coin": "WLD",
     "side": "short",
     "align": 3,
-    "embryo": 0.7
+    "embryo": 2.7
    },
    {
     "coin": "FIL",
     "side": "short",
     "align": 3,
-    "embryo": 0.2
+    "embryo": 3.2
+   },
+   {
+    "coin": "DOT",
+    "side": "short",
+    "align": 3,
+    "embryo": 2.7
    },
    {
     "coin": "TIA",
     "side": "short",
     "align": 3,
-    "embryo": 0.2
+    "embryo": 3.2
    },
    {
     "coin": "WLFI",
     "side": "short",
     "align": 2,
-    "embryo": 2.7
+    "embryo": 4.7
    },
    {
     "coin": "ATOM",
     "side": "short",
     "align": 3,
-    "embryo": 0.7
+    "embryo": 2.7
    },
    {
     "coin": "BTC",
-    "side": "",
-    "align": 0,
-    "embryo": 0.0
-   },
-   {
-    "coin": "SOL",
     "side": "",
     "align": 0,
     "embryo": 0.0
@@ -66,25 +96,7 @@
     "embryo": 0.0
    },
    {
-    "coin": "XRP",
-    "side": "",
-    "align": 0,
-    "embryo": 0.0
-   },
-   {
-    "coin": "ADA",
-    "side": "",
-    "align": 0,
-    "embryo": 0.0
-   },
-   {
-    "coin": "LTC",
-    "side": "",
-    "align": 0,
-    "embryo": 0.0
-   },
-   {
-    "coin": "BNB",
+    "coin": "NEAR",
     "side": "",
     "align": 0,
     "embryo": 0.0
@@ -96,19 +108,7 @@
     "embryo": 0.0
    },
    {
-    "coin": "UNI",
-    "side": "",
-    "align": 0,
-    "embryo": 0.0
-   },
-   {
     "coin": "ARB",
-    "side": "",
-    "align": 0,
-    "embryo": 0.0
-   },
-   {
-    "coin": "DOT",
     "side": "",
     "align": 0,
     "embryo": 0.0
