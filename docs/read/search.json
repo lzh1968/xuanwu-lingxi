@@ -1,6 +1,6 @@
 {
- "built": "2026-10-28 00:02:12",
- "count": 485,
+ "built": "2026-10-28 00:08:37",
+ "count": 486,
  "items": [
   {
    "t": "仿生理论 · 人脑映射（左脑·右脑·小脑·胼胝体）",
@@ -33,6 +33,14 @@
    "d": "2026-10-28",
    "k": "手记,方法论",
    "x": "蚁群里没有\"总工程师\"。每一只蚂蚁只做极简单的事：碰到什么，留一点信息素，跟着浓的那条走。可整群却能修路、筑巢、搬运比自身重百倍的东西。 这叫 涌现 ：整体表现出的智慧，不在任何一个个体身上，而在它们之间的 规则与反馈 里。关键有两条：一是规则要足够简单（单只能执行），二是反馈要足够快（走对了路，信息素立刻变浓）。 一个系统的能力上限，往往不取决于最强的那个成员，而取决于 成员之间传递信号的方式 。把信号通道修好，比把单点做强，收益大得多。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "鲸歌能传多远？",
+   "u": "a/note-20261028-7.html",
+   "s": "灵犀手记",
+   "d": "2026-10-28",
+   "k": "手记,方法论",
+   "x": "蓝鲸的叫声可以低到十几赫兹——接近人耳的下限。低频在海水中衰减极慢，一头鲸的歌声，理论上能跨越 上千公里 的海域被另一头听见。 这带来一个反直觉的结论： \"喊得响\"不如\"选对频率\"。 低频穿透力强，代价是携带的信息量低（听不细，但传得远）；高频传得清，却出了不了多远。通信的设计，永远是在\"传多远\"和\"说多清\"之间做取舍。 今天人类面对的问题也一样： 不是信息不够多，而是不知道该用哪个频段，去说给谁听。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "今日辑要 · 2026-10-27（前沿 12 条）",
@@ -3563,6 +3571,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Show HN：片段–始终在线的智能体",
+   "u": "https://snippet.wacht.dev/",
+   "s": "外网新声·Hacker News",
+   "d": "23:59",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Show HN：黎巴嫩法律的开放数据集",
    "u": "https://huggingface.co/datasets/taktekhq/lebanese-legislation",
    "s": "外网新声·Hacker News",
@@ -3603,14 +3619,6 @@
    "x": ""
   },
   {
-   "t": "Show HN：片段–始终在线的智能体",
-   "u": "https://github.com/wacht-platform/snippet-service",
-   "s": "外网新声·Hacker News",
-   "d": "23:39",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Kechup –适用于AI 智能体的简单CLI任务跟踪器",
    "u": "https://github.com/erogol/kechup",
    "s": "外网新声·Hacker News",
@@ -3627,26 +3635,10 @@
    "x": ""
   },
   {
-   "t": "Show HN: Agent Referee – signed, checkable reviews and tie-breaks for AI agents",
-   "u": "https://github.com/ccheez34/agent-referee-client",
-   "s": "外网新声·Hacker News",
-   "d": "22:48",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Show HN: ADAP – An open protocol for AI Agent delegated authority",
-   "u": "https://github.com/Hardalion/agent-delegated-authority",
-   "s": "外网新声·Hacker News",
-   "d": "22:14",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Agent Gateway in Bifrost: One gateway for models, tools and agents",
-   "u": "https://www.getmaxim.ai/bifrost/blog/introducing-agent-gateway-in-bifrost-one-gateway-for-models-tools-and-agents",
-   "s": "外网新声·Hacker News",
-   "d": "22:11",
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:07",
    "k": "",
    "x": ""
   },
@@ -3654,7 +3646,15 @@
    "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
-   "d": "15:59",
+   "d": "16:06",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:05",
    "k": "",
    "x": ""
   },
@@ -3663,22 +3663,6 @@
    "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
    "d": "15:57",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "15:54",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "15:43",
    "k": "",
    "x": ""
   },
@@ -3723,6 +3707,14 @@
    "x": ""
   },
   {
+   "t": "Agensh：去中心化、可扩展的多剂线束",
+   "u": "https://github.com/microsoft/Agensh",
+   "s": "外网新声·Hacker News",
+   "d": "20:43",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
    "u": "https://github.com/Dao-AILab/flash-attention",
    "s": "外网新声·GitHub 新星",
@@ -3731,7 +3723,7 @@
    "x": ""
   },
   {
-   "t": "Retriever-Free Retrieval: Navigating Documents with Decision Models",
+   "t": "无检索器检索：使用决策模型浏览文档",
    "u": "https://arxiv.org/abs/2610.35868v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
@@ -3739,7 +3731,7 @@
    "x": ""
   },
   {
-   "t": "Auto-Research Arena: Benchmarking and Advancing Auto-Research in Language Modeling",
+   "t": "自动研究竞技场：语言建模中的基准测试和推进自动研究",
    "u": "https://arxiv.org/abs/2610.35866v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:59",
@@ -3747,7 +3739,7 @@
    "x": ""
   },
   {
-   "t": "On the stability of learning",
+   "t": "关于学习的稳定性",
    "u": "https://arxiv.org/abs/2610.35856v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:58",
@@ -3755,7 +3747,7 @@
    "x": ""
   },
   {
-   "t": "Patient-specific rubric-based evaluation of large language models across longitudinal cancer care",
+   "t": "纵向癌症护理中基于患者特异性细则表的大模型评估",
    "u": "https://arxiv.org/abs/2610.35847v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:56",
@@ -3763,7 +3755,7 @@
    "x": ""
   },
   {
-   "t": "Work Agents: Systems, Capabilities, and Optimization",
+   "t": "工作代理：系统、能力和优化",
    "u": "https://arxiv.org/abs/2610.35845v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:56",
@@ -3771,7 +3763,7 @@
    "x": ""
   },
   {
-   "t": "I-HITL: Inalienable Human-in-the-Loop",
+   "t": "I-HITL：不可剥夺的人类在循环中",
    "u": "https://arxiv.org/abs/2610.35835v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:52",
@@ -3779,7 +3771,7 @@
    "x": ""
   },
   {
-   "t": "Information-Theoretic Secure Aggregation With Heterogeneous Client Quantization",
+   "t": "信息理论安全聚合与异构客户端量化",
    "u": "https://arxiv.org/abs/2610.35833v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:51",
@@ -3787,7 +3779,7 @@
    "x": ""
   },
   {
-   "t": "Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy",
+   "t": "使用EBench分析前沿代理：从直接控制到利用策略",
    "u": "https://arxiv.org/abs/2610.35832v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:51",
@@ -3879,6 +3871,22 @@
    "u": "https://arxiv.org/abs/2610.35733v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "16:52",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "TRACE: Memory-Efficient Time Series Class-Incremental Learning via Temporal-Spectral Reconstruction",
+   "u": "https://arxiv.org/abs/2610.35727v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:45",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "The Watchtower Imperative: Lifespan-Calibrated Evaluation for Frontier AI",
+   "u": "https://arxiv.org/abs/2610.35725v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "16:44",
    "k": "",
    "x": ""
   }
