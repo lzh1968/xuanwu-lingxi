@@ -1,9 +1,33 @@
 {
- "generated": "00:08",
- "built": "2026-10-28 00:08:37",
- "count": 444,
+ "generated": "00:14",
+ "built": "2026-10-28 00:14:53",
+ "count": 445,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN：Crulon –人工智能完成工作，人类拨打电话的商务电话",
+   "url": "https://crulon.ai/#talk",
+   "src": "Hacker News",
+   "t": "00:10",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN：Aigent-OS，一种Claude Code线束，用于清除和恢复",
+   "url": "https://github.com/wrg32786/aigent-os",
+   "src": "Hacker News",
+   "t": "00:10",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN: Weir –捕获您构建和使用的AI 智能体中的凭据泄漏",
+   "url": "https://github.com/IdoGol24/weir",
+   "src": "Hacker News",
+   "t": "00:07",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Show HN：片段–始终在线的智能体",
@@ -45,30 +69,6 @@
    "fresh": true
   },
   {
-   "type": "live",
-   "title": "Show HN: Sectr -无服务器后端平台，可轻松部署AI 智能体",
-   "url": "https://sectr.dev",
-   "src": "Hacker News",
-   "t": "23:40",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Kechup –适用于AI 智能体的简单CLI任务跟踪器",
-   "url": "https://github.com/erogol/kechup",
-   "src": "Hacker News",
-   "t": "23:31",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "单个神经元的变化可以以令人惊讶的方式引导法学硕士的行为",
-   "url": "https://huggingface.co/spaces/webml-community/neuron-studio",
-   "src": "Hacker News",
-   "t": "23:05",
-   "fresh": true
-  },
-  {
    "type": "article",
    "title": "今日辑要 · 2026-10-28（前沿 12 条）",
    "url": "a/digest-20261028.html",
@@ -94,6 +94,14 @@
   },
   {
    "type": "article",
+   "title": "三千年前的蜂蜜",
+   "url": "a/note-20261028-8.html",
+   "src": "灵犀手记",
+   "t": "2026-10-28",
+   "fresh": false
+  },
+  {
+   "type": "article",
    "title": "今日辑要 · 2026-10-27（前沿 12 条）",
    "url": "a/digest-20261027.html",
    "src": "Agent 与智能体",
@@ -104,14 +112,6 @@
    "type": "article",
    "title": "自治系统的\"慢变量\"",
    "url": "a/note-20261027-1.html",
-   "src": "灵犀手记",
-   "t": "2026-10-27",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "睡觉时，大脑在忙什么？",
-   "url": "a/note-20261027-10.html",
    "src": "灵犀手记",
    "t": "2026-10-27",
    "fresh": false
