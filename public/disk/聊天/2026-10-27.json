@@ -1,5 +1,5 @@
 {
- "时间": "2026-10-27 18:14:27",
+ "时间": "2026-10-27 18:47:48",
  "会话档数": 10,
  "会话": [
   {
@@ -51,26 +51,38 @@
    "改": "2026-10-27 07:42:08"
   },
   {
-   "档": "02093eff-7cdc-48a3-8a67-0210d0350aed.jsonl",
-   "字节": 1000484,
-   "行": 511,
-   "改": "2026-10-27 14:24:02"
+   "档": "1b867855-1a99-4fc2-8e7c-625531a9d121.jsonl",
+   "字节": 990080,
+   "行": 785,
+   "改": "2026-10-27 18:32:14"
   },
   {
-   "档": "1b867855-1a99-4fc2-8e7c-625531a9d121.jsonl",
-   "字节": 977235,
-   "行": 776,
-   "改": "2026-10-27 16:27:23"
+   "档": "02093eff-7cdc-48a3-8a67-0210d0350aed.jsonl",
+   "字节": 1541749,
+   "行": 705,
+   "改": "2026-10-27 18:45:33"
   }
  ],
  "近段摘要": [
   {
    "角色": "小奈",
-   "文": "HEARTBEAT_OK"
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "**改造完成，新内核从 5,069 行缩到 327 行。原内核一个字没动，随时能退回去。**\n\n**四层结构，从上往下照老板的话排：**\n\n**① 风控层（第一优先，比什么都先跑）**\n- 硬止损 0.6%，一到就走\n- 日亏到 3% 当日停手\n- 连亏两笔仓位减半，连亏三笔停四小时\n- 单仓不超总资金 20%，最多同时 6 个\n\n**② 腾蛇择向**\n- 日线突破二十天最高点，并且站在两百日均线之上，才做多\n- **永不做追空**（这是锐最大的病根，直接切掉）\n\n**③ 烛龙统御**\n- 全市场多数币在涨才放行，多数在跌一手不开\n- 管总量：开不开、开多大\n\n**④ 金蟾、貔貅、麒麟**\n-"
   },
   {
    "角色": "老板",
-   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+   "文": "System (untrusted): [2026-10-27 18:29:58 GMT+8] Exec completed (tidy-lob, code 0) :: space/skills/sniper-engine/data_v2/mtsim/_网关台账.jsonl 🚨 丙·危 —— 须立即救(看护拉起/去重) ═════════════════════════════════════ === 锐内核 === lrwxrwxrwx. 1 u0_a137 u0_a137 98 Sep 22 14:35 _内核_ru…\n\nSender (untrusted metadata):\n```js"
+  },
+  {
+   "角色": "小奈",
+   "文": "明白，是我做错了。不另造器，直接改原内核。\n\n现在把新做的那个挪走，回到原内核，按病灶一处一处改。"
   },
   {
    "角色": "小奈",
@@ -98,59 +110,23 @@
   },
   {
    "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "HEARTBEAT_OK"
+   "文": "**改完了，是改原文件，不是另造器。新做的那个已经撤掉、删干净了。**\n\n**原内核 `子引擎/_内核_rui.py` 动了四处，每一处都对着一个旧毛病：**\n\n**一是硬止损：百分之二点五，改成百分之零点六。**\n这是 DOT 那笔亏百分之一点九九的根源——止损线放太宽，一亏就亏三笔盈利的量。\n\n**二是禁追空。**\n凡是要开空单的，一律拦下。数据实证追空每笔亏百分之一点五九，是锐那五笔之后连亏的直接原因。\n\n**三是风控提到最前面。**\n每个交易循环第一件事先过风控：当天亏到百分之三，整日停手；连续亏三笔，停四小时。**风控不过，后面所有判断都不算。**\n\n**四是大势门从默认关，改成默认"
   },
   {
    "角色": "老板",
-   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Tue 2026-10-27 18:37 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+  },
+  {
+   "角色": "小奈",
+   "文": "明白，改。空单不禁止，但要有条件——多空轮转而不是一路追空。先看内核里空单依据什么数据判断。"
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "锐的内核已改成多空轮转。现在做独立门户，先看现有门户怎么搭的。"
   },
   {
    "角色": "小奈",
@@ -170,11 +146,15 @@
   },
   {
    "角色": "小奈",
-   "文": "HEARTBEAT_OK"
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "**三件事都做完了。**\n\n**一，空单解禁，改多空轮转。**\n\n空单不再一律拦下，改成两个条件卡在两头：\n\n- **做空要求价格已脱离区间底部（位置高于三成）**，正在创新低的地方不去追\n- **做多要求价格没冲到区间顶部（位置低于七成）**，冲顶的地方不追\n\n这样多空都能做，但两头都不接刀。数据在这：追空每笔亏 1.59，逢反弹再空只亏 0.18，差九倍。\n\n**二，基因剥干净了。**\n\n原来那个基因文件叠了三四十个补丁开关，今天重写成最基础的：补丁层全关，只留大势门、硬止损零点六、紧急止损一点二、单笔火力三成，加上轮转四参和熔断三参。**改完当场验证，十个关键参数全部正确生效。**\n\n*"
   },
   {
    "角色": "老板",
-   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Tue 2026-10-27 18:42 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
   },
   {
    "角色": "小奈",
@@ -182,11 +162,15 @@
   },
   {
    "角色": "小奈",
-   "文": "HEARTBEAT_OK"
+   "文": "三才的定义我已经找到：短波、大势、死水三档。10 月 18 号做过严格实验，有实证参数。我先读出那份正本，绝不自行编造参数。"
   },
   {
-   "角色": "老板",
-   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+   "角色": "小奈",
+   "文": "三才的定稿参数已经拿到，都是有数据支撑的：大势、短波、死水三档，各有持有和出场规则。现在严格配进锐的内核。"
+  },
+  {
+   "角色": "小奈",
+   "文": "发现一个关键坑：`_器成_定稿.json` 里存的是当时失败的那组参数，全为负值；真正的定稿参数在内核文档里，大势持 12 小时、短波持 72 小时，是反着来的。按文档走，不按那份 json。"
   },
   {
    "角色": "小奈",
@@ -194,11 +178,7 @@
   },
   {
    "角色": "小奈",
-   "文": "HEARTBEAT_OK"
-  },
-  {
-   "角色": "老板",
-   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+   "文": ""
   },
   {
    "角色": "小奈",
@@ -206,23 +186,43 @@
   },
   {
    "角色": "小奈",
-   "文": "HEARTBEAT_OK"
-  },
-  {
-   "角色": "老板",
-   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+   "文": ""
   },
   {
    "角色": "小奈",
-   "文": "HEARTBEAT_OK"
-  },
-  {
-   "角色": "老板",
-   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+   "文": ""
   },
   {
    "角色": "小奈",
-   "文": "HEARTBEAT_OK"
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "**做完了。三才矩阵已经配进锐的内核，旧文件也清了一遍。内核清单在下面，内容偏长，请老板看屏幕。**\n\n---\n\n**一、三才盈利矩阵：严格按 10 月 18 号那次的定稿配置，不是我自己编的参数**\n\n| 档 | 怎么认 | 怎么做 | 实测 |\n|---|---|---|---|\n| **大势** | 24 小时斜率 ≥ 0.954% | **持 12 小时**，时间到就走 | 1194 笔 · +0.358%/笔 · 3/4 折正 |\n| **短波** | 中间地带 | **持 72 小时**，短在入场不在持有 | 1309 笔 · +1.381%/笔 · 3/4 折正 |\n| **死水"
   }
  ],
  "本地全量归档": [
@@ -243,6 +243,6 @@
    "MB": 13.46
   }
  ],
- "摘要档": "1b867855-1a99-4fc2-8e7c-625531a9d121.jsonl",
+ "摘要档": "02093eff-7cdc-48a3-8a67-0210d0350aed.jsonl",
  "注": "本分区=索引+近段摘要；聊天全文存于本机 data_v2/archive/聊天记录_* 与加密密包(封存分区)"
 }
