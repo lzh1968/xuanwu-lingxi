@@ -1,9 +1,25 @@
 {
- "generated": "01:16",
- "built": "2026-10-28 01:16:07",
- "count": 455,
+ "generated": "01:21",
+ "built": "2026-10-28 01:21:58",
+ "count": 456,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Claude与DeepSeek与GLM：编码代理选择什么",
+   "url": "https://whatagentspick.com/claude-vs-deepseek-vs-glm/",
+   "src": "Hacker News",
+   "t": "01:18",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN：Search2o简化了AI 智能体",
+   "url": "https://search2o.com/",
+   "src": "Hacker News",
+   "t": "01:18",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "几乎还不够好：介绍我们的设计保真度基准VybBench",
@@ -53,26 +69,18 @@
    "fresh": true
   },
   {
-   "type": "live",
-   "title": "Show HN：Aigent-OS，一种Claude Code线束，用于清除和恢复",
-   "url": "https://github.com/wrg32786/aigent-os",
-   "src": "Hacker News",
-   "t": "00:10",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Show HN: Weir -捕获您构建和使用的AI 智能体中的凭据泄漏",
-   "url": "https://github.com/IdoGol24/weir",
-   "src": "Hacker News",
-   "t": "00:07",
-   "fresh": true
-  },
-  {
    "type": "article",
    "title": "今日辑要 · 2026-10-28（前沿 12 条）",
    "url": "a/digest-20261028.html",
    "src": "Agent 与智能体",
+   "t": "2026-10-28",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "自治系统的\"慢变量\"",
+   "url": "a/note-20261028-1.html",
+   "src": "灵犀手记",
    "t": "2026-10-28",
    "fresh": false
   },
@@ -105,14 +113,6 @@
    "title": "珊瑚：动物、植物，还是别的？",
    "url": "a/note-20261028-13.html",
    "src": "灵犀手记",
-   "t": "2026-10-28",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "桥与门",
-   "url": "a/note-20261028-14.html",
-   "src": "华夏哲学 · 阴阳五行",
    "t": "2026-10-28",
    "fresh": false
   }
