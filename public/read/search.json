@@ -1,6 +1,6 @@
 {
- "built": "2026-10-29 00:16:34",
- "count": 506,
+ "built": "2026-10-29 00:23:04",
+ "count": 507,
  "items": [
   {
    "t": "仿生理论 · 人脑映射（左脑·右脑·小脑·胼胝体）",
@@ -33,6 +33,14 @@
    "d": "2026-10-29",
    "k": "手记,方法论",
    "x": "睡眠常被当成\"关机\"，其实更像 打烊后的盘点与归档 ：白天的经历被重放、筛选、贴上标签，重要的加固，琐碎的被清掉。 一个反直觉的发现是： 睡一觉之后，人对\"规律\"的把握常常变好 ，哪怕睡前并没把规律想通。大脑在你无意识时，替你做了归纳。 对一个靠\"学习\"改进的系统来说，这一点同样成立： 持续地做，也要刻意地停下。 不整理的输入，只是堆积，不会变成能力。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "园子为什么要留白？",
+   "u": "a/note-20261029-11.html",
+   "s": "华夏哲学 · 阴阳五行",
+   "d": "2026-10-29",
+   "k": "手记,方法论",
+   "x": "东方园林讲究\"留白\"：一片水面，一段空廊，一扇借景的窗。看起来什么都没放，其实是 故意把一部分不填满 。 背后的道理是： 满，就没有余地；空，人才进得来。 留白给了观看者参与的空间——你不是被动地看，而是用自己的想象把空白补上。信息过载会让人疲惫，适当的\"缺口\"反而让内容被人记住。 这大概是最朴素的一条设计律： 会做加法是技术，敢做减法是审美。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "三千年前的蜂蜜",
@@ -3795,14 +3803,6 @@
    "x": ""
   },
   {
-   "t": "Show HN：采访您的分析师，而不是自动生成语义层",
-   "u": "https://github.com/nodal-data/nodal-context",
-   "s": "外网新声·Hacker News",
-   "d": "22:35",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Show HN：Harness Corp –由本地LLM使用WebGPU提供支持的增量游戏",
    "u": "https://simedw.com/projects/harness-corp/",
    "s": "外网新声·Hacker News",
@@ -3814,15 +3814,7 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "16:15",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "16:09",
+   "d": "16:22",
    "k": "",
    "x": ""
   },
@@ -3830,7 +3822,15 @@
    "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
-   "d": "16:09",
+   "d": "16:19",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:19",
    "k": "",
    "x": ""
   },
@@ -3979,7 +3979,7 @@
    "x": ""
   },
   {
-   "t": "TeamGym: A Gym for Team Decision-Making by AI Agents with Distributed Information",
+   "t": "TeamGym：智能体利用分布式信息进行团队决策的健身房",
    "u": "https://arxiv.org/abs/2610.37571v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:15",
@@ -3987,7 +3987,7 @@
    "x": ""
   },
   {
-   "t": "LCM-Promo: An LLM-Based Uplift Model for Promotion Allocation",
+   "t": "LCM-Promo：基于LLM的晋升模式，用于晋升分配",
    "u": "https://arxiv.org/abs/2610.37570v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:15",
@@ -3995,7 +3995,7 @@
    "x": ""
   },
   {
-   "t": "Gym-Anything-RT: Scaling Real-Time Environments for Vision-Language Agents",
+   "t": "Gym-Anything-RT：扩展视觉语言智能体的实时环境",
    "u": "https://arxiv.org/abs/2610.37567v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:13",
@@ -4003,7 +4003,7 @@
    "x": ""
   },
   {
-   "t": "Pneuma: A Large-Scale Real-World Time Series Benchmark for Commercial Aircraft Predictive Maintenance",
+   "t": "Pneuma：商用飞机预测性维护的大规模实时时间序列基准",
    "u": "https://arxiv.org/abs/2610.37563v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:09",
@@ -4011,7 +4011,7 @@
    "x": ""
   },
   {
-   "t": "When uncertainty quantification fails: structural vulnerabilities and corrections for selective prediction under clinical class imbalance",
+   "t": "不确定性定量失败时：临床分类不平衡下的结构脆弱性和选择性预测修正",
    "u": "https://arxiv.org/abs/2610.37561v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:08",
@@ -4019,7 +4019,7 @@
    "x": ""
   },
   {
-   "t": "Collective Dynamics of Self-Reinforcement: How Cross-Task Coupling Drives Policy Collapse in Unsupervised RLVR",
+   "t": "自我强化的集体动力学：交叉任务耦合如何推动无监督RLVR中的策略崩溃",
    "u": "https://arxiv.org/abs/2610.37553v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:01",
@@ -4027,7 +4027,7 @@
    "x": ""
   },
   {
-   "t": "Kinematic Constraint-Referenced Evaluation for Articulated Object Manipulation",
+   "t": "铰接物体操纵的运动学约束参考评估",
    "u": "https://arxiv.org/abs/2610.37550v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:00",
@@ -4035,7 +4035,7 @@
    "x": ""
   },
   {
-   "t": "GroundControl: Satellite-Conditioned Multi-View Diffusion for Reconstruction-Free Novel View Synthesis",
+   "t": "GroundControl：卫星调节多视点扩散无重建新视点合成",
    "u": "https://arxiv.org/abs/2610.37545v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "16:56",
@@ -4045,6 +4045,14 @@
   {
    "t": "GTFormer: A Syntax-Free Graph Network Alternative to Transformers for 8192$\\times$ Length Extrapolation in Linear Time",
    "u": "https://arxiv.org/abs/2610.37524v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "16:45",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "The Structure Gap: When More Data Cannot Replace Structured Reasoning",
+   "u": "https://arxiv.org/abs/2610.37523v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "16:45",
    "k": "",
