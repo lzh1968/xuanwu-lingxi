@@ -1,16 +1,24 @@
 {
- "generated": "12:54",
- "built": "2026-10-28 12:54:09",
+ "generated": "14:23",
+ "built": "2026-10-28 14:23:48",
  "count": 460,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN: CI-Lifeboat – Offload GitHub Action runners to your desktop",
+   "url": "https://github.com/olaryn-lab/ci-lifeboat",
+   "src": "Hacker News",
+   "t": "14:14",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Show HN: SelfClaw – Self-hosted multi-model AI chat with OpenAI-compatible API",
    "url": "https://github.com/Alanzj/SelfClaw",
    "src": "Hacker News",
    "t": "12:52",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -18,7 +26,7 @@
    "url": "https://github.com/carlostapiacl/sandbox-conformance",
    "src": "Hacker News",
    "t": "11:35",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,6 @@
    "url": "https://secondtimeisabug.com/blog/coding-agent-guardrails-270-runs/",
    "src": "Hacker News",
    "t": "09:46",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Show HN: A visual explainer tracing an LLM API request to the GPU and back",
-   "url": "https://github.com/sujee/visual-stories/tree/main/projects/tracing-llm-api-request",
-   "src": "Hacker News",
-   "t": "08:55",
    "fresh": false
   },
   {
