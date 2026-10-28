@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-28",
- "落盘": "2026-10-28 19:29:50",
+ "落盘": "2026-10-28 19:58:07",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "Analysts followed AI agent's randomly assigned preferences in 86% of decisions",
+   "url": "https://www.anthropic.com/research/agents-judgment-calls",
+   "type": "live"
+  },
   {
    "title": "AI Agents Flooded RubyGems to Get Code Execution on Its Docs Builder",
    "url": "https://optimuslabs.io/research/briefings/rubygems-rubydoc-agent-execution",
@@ -20,18 +25,8 @@
    "type": "live"
   },
   {
-   "title": "Requesty: AI Gateway and LLM Router for 600 Models in EU Datacenters",
-   "url": "https://www.requesty.ai",
-   "type": "live"
-  },
-  {
    "title": "\"No human at the helm\": Delaware plan would let AI agents run businesses",
    "url": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
-   "type": "live"
-  },
-  {
-   "title": "Show HN: FreeApply Free Job Application MCP, runs locally with your existing LLM",
-   "url": "https://www.mybotsai.com/",
    "type": "live"
   },
   {
@@ -42,6 +37,11 @@
   {
    "title": "I ran each AI coding-agent sandbox's own tests against the others",
    "url": "https://github.com/carlostapiacl/sandbox-conformance",
+   "type": "live"
+  },
+  {
+   "title": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
+   "url": "https://github.com/morluto/rea",
    "type": "live"
   },
   {
