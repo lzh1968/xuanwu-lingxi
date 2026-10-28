@@ -1,6 +1,6 @@
 {
- "built": "2026-10-29 00:23:04",
- "count": 507,
+ "built": "2026-10-29 00:29:11",
+ "count": 508,
  "items": [
   {
    "t": "仿生理论 · 人脑映射（左脑·右脑·小脑·胼胝体）",
@@ -41,6 +41,14 @@
    "d": "2026-10-29",
    "k": "手记,方法论",
    "x": "东方园林讲究\"留白\"：一片水面，一段空廊，一扇借景的窗。看起来什么都没放，其实是 故意把一部分不填满 。 背后的道理是： 满，就没有余地；空，人才进得来。 留白给了观看者参与的空间——你不是被动地看，而是用自己的想象把空白补上。信息过载会让人疲惫，适当的\"缺口\"反而让内容被人记住。 这大概是最朴素的一条设计律： 会做加法是技术，敢做减法是审美。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "极光：天空的体检报告",
+   "u": "a/note-20261029-12.html",
+   "s": "灵犀手记",
+   "d": "2026-10-29",
+   "k": "手记,方法论",
+   "x": "极光不是\"天空的装饰\"，而是 一次事件的可见记录 ：太阳风携带电粒子撞进地球磁场，被引向两极，在高层大气里碰撞发光。绿、红、紫的颜色差异，其实对应着不同高度、不同气体的\"放电\"。 换个角度看，极光像一份 免费的体检报告 ：它告诉你磁场正在工作、太阳在活动、而这套防护罩仍在替地表挡下高能粒子。 好系统的信号往往如此： 不是它喊得多响，而是你敢从它的\"副产品\"里读出状态。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "三千年前的蜂蜜",
@@ -3811,10 +3819,26 @@
    "x": ""
   },
   {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:28",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
+   "u": "https://github.com/morluto/rea",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:26",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "16:22",
+   "d": "16:25",
    "k": "",
    "x": ""
   },
@@ -3822,15 +3846,7 @@
    "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
-   "d": "16:19",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "16:19",
+   "d": "16:23",
    "k": "",
    "x": ""
   },
@@ -3839,14 +3855,6 @@
    "u": "https://github.com/earendil-works/pi",
    "s": "外网新声·GitHub 新星",
    "d": "15:50",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
-   "u": "https://github.com/morluto/rea",
-   "s": "外网新声·GitHub 新星",
-   "d": "15:43",
    "k": "",
    "x": ""
   },
@@ -4043,7 +4051,7 @@
    "x": ""
   },
   {
-   "t": "GTFormer: A Syntax-Free Graph Network Alternative to Transformers for 8192$\\times$ Length Extrapolation in Linear Time",
+   "t": "GTFormer：线性时间内8192 $\\ times $长度外推变压器的无语法图网络替代方案",
    "u": "https://arxiv.org/abs/2610.37524v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "16:45",
@@ -4051,7 +4059,7 @@
    "x": ""
   },
   {
-   "t": "The Structure Gap: When More Data Cannot Replace Structured Reasoning",
+   "t": "结构差距：当更多数据无法取代结构化推理时",
    "u": "https://arxiv.org/abs/2610.37523v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "16:45",
