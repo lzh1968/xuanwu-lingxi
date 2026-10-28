@@ -1,9 +1,17 @@
 {
- "generated": "04:05",
- "built": "2026-10-29 04:05:16",
+ "generated": "04:22",
+ "built": "2026-10-29 04:22:06",
  "count": 479,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "隐士：线束和药剂进化的统一框架",
+   "url": "https://github.com/Infini-AI-Lab/hermit",
+   "src": "Hacker News",
+   "t": "04:15",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "法学硕士喜欢Python：法学硕士偏见的研究",
@@ -42,7 +50,7 @@
    "url": "https://daveremy.github.io/agent-scrum/",
    "src": "Hacker News",
    "t": "02:47",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -50,7 +58,7 @@
    "url": "https://cameronmpalmer.com/blog/are-you-paying-for-useless-llm-prompts/",
    "src": "Hacker News",
    "t": "02:38",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,6 @@
    "url": "https://nats.io/blog/nats-native-protocol-for-ai-agents/",
    "src": "Hacker News",
    "t": "02:16",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "租用模型，拥有线束：如何构建与模型无关的AI 智能体",
-   "url": "https://blog.getwerk.ai/posts/rent-the-model-own-the-harness",
-   "src": "Hacker News",
-   "t": "01:51",
    "fresh": false
   },
   {
