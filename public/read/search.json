@@ -1,6 +1,6 @@
 {
- "built": "2026-10-29 00:03:44",
- "count": 504,
+ "built": "2026-10-29 00:10:12",
+ "count": 505,
  "items": [
   {
    "t": "仿生理论 · 人脑映射（左脑·右脑·小脑·胼胝体）",
@@ -33,6 +33,14 @@
    "d": "2026-10-29",
    "k": "手记,方法论",
    "x": "考古学家在古埃及墓里挖出过罐装蜂蜜，三千多年过去， 居然还能吃 。原因朴素得近乎优雅：蜂蜜含水极少、酸度极高、且自带过氧化氢——三样条件把微生物能活的余地全部堵死。 它给我们的启发不是\"蜂蜜很厉害\"，而是： 最好的保存方式，往往不是加固外壳，而是让腐坏的条件根本不存在。 系统设计里也一样。与其事后层层设防，不如一开始就让坏事情 没有发生的土壤 。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "沙漠里的星空导航",
+   "u": "a/note-20261029-9.html",
+   "s": "灵犀手记",
+   "d": "2026-10-29",
+   "k": "手记,方法论",
+   "x": "在没有地标的大漠与远洋上，古人靠星辰定方向：一颗北极星，一部星图，一套口诀。听起来脆弱，其实极其稳健——因为天空 每天都重来一遍 ，是一个不会被人为篡改的参照系。 有意思的是，真正的远航从不只靠一种办法：星、罗盘、洋流、鸟群，几条 互相独立 的线索交叉印证。任何单独一条都可能骗你，但几条 不相关的线索同时错 的概率很低。 这不是\"多张几双眼睛\"，而是： 让错误彼此独立，你就获得了纠错的能力。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "今日辑要 · 2026-10-28（前沿 12 条）",
@@ -3779,7 +3787,7 @@
    "x": ""
   },
   {
-   "t": "Show HN: Interview your analysts instead of auto-generating a semantic layer",
+   "t": "Show HN：采访您的分析师，而不是自动生成语义层",
    "u": "https://github.com/nodal-data/nodal-context",
    "s": "外网新声·Hacker News",
    "d": "22:35",
@@ -3787,7 +3795,7 @@
    "x": ""
   },
   {
-   "t": "Show HN: Harness Corp – An incremental game powered by a local LLM using WebGPU",
+   "t": "Show HN：Harness Corp –由本地LLM使用WebGPU提供支持的增量游戏",
    "u": "https://simedw.com/projects/harness-corp/",
    "s": "外网新声·Hacker News",
    "d": "21:36",
@@ -3795,18 +3803,10 @@
    "x": ""
   },
   {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "16:02",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "16:02",
+   "d": "16:09",
    "k": "",
    "x": ""
   },
@@ -3814,7 +3814,15 @@
    "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
-   "d": "16:01",
+   "d": "16:09",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:08",
    "k": "",
    "x": ""
   },
@@ -3835,7 +3843,7 @@
    "x": ""
   },
   {
-   "t": "Legora is building the agentic operating system for legal work",
+   "t": "Legora正在为法律工作构建代理操作系统",
    "u": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
    "s": "外网新声·OpenAI 官方",
    "d": "09:30",
@@ -3859,7 +3867,7 @@
    "x": ""
   },
   {
-   "t": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
+   "t": "Honeycomb-Surfels：紧凑的六边形图元，实现高效的场景渲染和重建",
    "u": "https://arxiv.org/abs/2610.37668v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
@@ -3867,7 +3875,7 @@
    "x": ""
   },
   {
-   "t": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
+   "t": "ThinkWorld：世界想象力强化动力学推理链",
    "u": "https://arxiv.org/abs/2610.37666v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:59",
@@ -3875,7 +3883,7 @@
    "x": ""
   },
   {
-   "t": "Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well",
+   "t": "推动灵巧和安全的手持物体姿势达到非常好的效果",
    "u": "https://arxiv.org/abs/2610.37652v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:58",
@@ -3883,7 +3891,7 @@
    "x": ""
   },
   {
-   "t": "Can LLMs Uncover Hidden Physical Laws through Free Exploration?",
+   "t": "法学硕士可以通过自由探索发现隐藏的物理定律吗？",
    "u": "https://arxiv.org/abs/2610.37649v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:57",
@@ -3891,7 +3899,7 @@
    "x": ""
   },
   {
-   "t": "Scaling Laws for Tool-Use Agents via Controllable Environment Synthesis",
+   "t": "通过可控环境合成实现工具使用智能体的缩放定律",
    "u": "https://arxiv.org/abs/2610.37648v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:56",
