@@ -1,5 +1,5 @@
 {
- "时间": "2026-10-28 23:44:39",
+ "时间": "2026-10-28 23:50:46",
  "会话档数": 11,
  "会话": [
   {
@@ -57,114 +57,114 @@
    "改": "2026-10-28 19:18:38"
   },
   {
-   "档": "1b867855-1a99-4fc2-8e7c-625531a9d121.jsonl",
-   "字节": 1218827,
-   "行": 1092,
-   "改": "2026-10-28 22:14:30"
+   "档": "ecbe8ae8-a472-42b0-b2c2-4e2d465542f1.jsonl",
+   "字节": 4660469,
+   "行": 2386,
+   "改": "2026-10-28 23:50:26"
   },
   {
-   "档": "ecbe8ae8-a472-42b0-b2c2-4e2d465542f1.jsonl",
-   "字节": 4606270,
-   "行": 2350,
-   "改": "2026-10-28 23:44:39"
+   "档": "1b867855-1a99-4fc2-8e7c-625531a9d121.jsonl",
+   "字节": 1222174,
+   "行": 1097,
+   "改": "2026-10-28 23:50:46"
   }
  ],
  "近段摘要": [
   {
    "角色": "小奈",
-   "文": "前面那些确实都是空话，你否定得对。这次不上理论，从衡自己的账本里量出来的。\n\n**十一笔，赢了七笔，输了四笔。看它们的峰值：**\n\n赢的七笔，开仓后都摸到过利润：一点零三、一点零六、一点三一、一点三九、一点六一、一点零六、零点六八，峰值平均 **1.16%**。\n\n输的四笔：零点四四、零点零五、**零**、零点零二，峰值平均 **0.13%**。\n\n**差距接近九倍。而且输的四笔有共同点：开仓之后从来没给过面子——峰值几乎为零，一路反向走到硬止损，亏零点八二到一点三三。**\n\n**结论一句话：衡不是“选对了方向却被止损打掉”，而是这四笔从一开始就选错了，方向压根没站住。**\n\n那笔 SUI 多"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Wed 2026-10-28 23:15 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
-   "文": "从架构上讲，衡的问题出在结构上，不在参数上。四条。\n\n**第一，整个系统由一层层否决环节串成，结构里没有“合成”。**\n从护栏到择强，再到半山腰、质量、时段、追高，每一层都只做一件事：拦。**没有一层把多路证据合成为一个判断**，也就是没有“证据加权得出方向置信度”这一层。这种结构的必然结果是两种极端：要么各层全放过，信号照样弱；要么某一层拦下，整天不开。**串行否决的结构不可能精确，只能二值化。**\n\n**第二，方向与强度混在同一个数里。**\n净分是一个标量，正负决定方向、绝对值决定力度。**这两个本来应该是两个量**：方向要的是“有多确定”，力度要的是“能走多远”。现在被压成一个数，于是高"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Wed 2026-10-28 23:17 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
-   "文": "**一句重点：衡的每一层只会回答“能不能开”，从不会回答“这笔赢的概率有多大”。**\n\n它不知道自己的不确定程度。所以它既不会在没把握时收手，也不会在有把握时加力；十一个闸门，都是在猜“行不行”，没有一个算“值不值”。\n\n**根在这里：没有概率，就没有精度可言。**"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Wed 2026-10-28 23:18 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
-   "文": "**好。这是目前唯一能补上衡缺的那一层的路径。**\n\n**为什么好：** 衡现在是十一个闸各自为政，谁都不汇总。烛龙在锐那边的角色，正是“汇聚多源参谋、出判断”的中枢——大势门、择强、开明情报、白虎哨探、触觉军情、顶底半山、费率腿，七源汇到一处再判。**衡缺的就是这一层汇总，烛龙回来就把这个位置填上了。**\n\n**但有三个前提，缺一条就白改：**\n\n**一，烛龙得带着多源参谋来。** 如果只是把“净分”改叫烛龙判，那就是换个名字的闸，等于第十二个筛子，只会更不开。\n\n**二，烛龙必须有弃权权。** 它得能说“这轮不判”，而不是每轮必须给个方向。否则它会被迫在噪声里选，比现在还差。\n\n**三，也"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Wed 2026-10-28 23:20 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
-   "文": "**因为烛龙掌握的信息和以前完全一样，只是否决权集中到了它一个人手里。权力集中了，信息没有升级。判断准不准取决于它手上有多少条独立信息、这些信息有没有被校准过，而不取决于谁最后拍板。**\n\n**一点：所谓的“两声音齐”，其实是同源，并不是互相校验。** 烛龙和腾蛇看的是同一份信号——同一组四小时斜率、十五分钟趋势、位置分位。同一个声音说两遍，不叫交叉验证，只是让自己心里踏实。\n\n**二点：三思本质上只是三个门槛，并非判断。** 斜率是正是负、动量够不够、位置贴不贴顶，这些都是事先拍定的数。烛龙不知道“斜率一点零的时候，历史上赢过几次”。**没有命中率，就没有判断，只有及格线。**\n\n**三点："
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Wed 2026-10-28 23:22 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
-   "文": "**能，但必须换成“参谋”的形式，不能再用“门”的形式。**\n\n**理由很直接：三思是在单币内部自证，问的是“这一币像不像样”；择强问的是“这一币跟全池比强多少”。** 这两个是不同的信息，不是同一份信息的重复说法。**横向比较才是衡和锐都缺的那条独立证据，而不是换个人再说一遍。**\n\n**但如果恢复成门，一定会回到老路：** 门槛一设，静市全池都不够格，整天不开——当初删它就是这个原因。**门是二值判断，一拦就全拦。**\n\n**正确的用法是把择强当第四问、当排序号、当力度依据，而不是当拦路的门：**\n- 全池排序：这一币是不是排前三；\n- 领先幅度：是不是明显强过第二名；\n- 不达标时不否决"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Wed 2026-10-28 23:25 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
-   "文": "**因为方向根本不是在烛龙手里生成的，它在更前面就已经定了。**\n\n**具体是这样：信号层算完净分，直接一行代码——净分正就做多，负就做空。** 接着这张已经填好方向的单子，才送到烛龙面前，问它同不同意。**它能做的只是打勾或打叉，不能改方向，更不能自己生成方向。**\n\n**所以现在的“判势”实际是“用趋势去校验一个已经定好的方向”，并非“用趋势去产生方向”。** 这两件事完全不同：校验只能否决，生成才能控制走向。\n\n**要让烛龙真做主方向，方向必须在中枢生成**——先判是上涨、下跌还是无势，再由这个判断给向；净分从“决定方向”降为“佐证方向”的证据。**方向由中枢定住，证据只负责打分。**\n"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Wed 2026-10-28 23:27 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
-   "文": "**做法一句话：把“用符号定方向”那一行去掉，方向改由大势三票生成，分数只降为“力度与时机”的证据。**\n\n**现在是：分数正负定方向 → 趋势做校验。**\n**改成：趋势定方向 → 分数做力度。**\n\n**五步决策，顺序固定：**\n\n**第一步，判势。** 4小时EMA、1小时EMA、近三日斜率三票表决——三票同向就是上涨或下跌；不一致就是无势。\n\n**第二步，定侧。** 判上涨只许做多，判下跌只许做空，无势直接弃权不开。**方向从这一步就锁死，后面任何证据都不能改侧。**\n\n**第三步，验时机。** 位置：多单不贴顶，空单不贴底，过不了就等，不改侧。动量：15分钟是否同向，不同向也等。\n\n"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Wed 2026-10-28 23:32 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
-   "文": "**更好。它比我上一条多管住了一种情况——趋势对、但时机不对。**\n\n**差别在这：“分数拟合”等于让分数负责判断“现在能不能开”，不只是判断“开多大”。**\n\n**具体规则三句：**\n- 大势判上涨、分数为正 → 开，按强度给名义；\n- 大势判上涨、分数为负 → **不开，等**；不是反手做空；\n- 无势 → 弃权。\n\n**这样一来，趋势给方向，分数判断时机和力度。两道信息各司其职，谁也不抢谁的位置。** 我上一条让分数只定力度，会在“趋势刚转向、价格还在反着走”的时候硬开，这一版能避开。\n\n**但有个坑必须先堵住：分数里本来就有4小时大势那一项。** 用它来拟合趋势方向，等于同一份信息两次"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Wed 2026-10-28 23:34 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
-   "文": "**更好，是这三个版本里最好的一个。因为它把“谁说了算”定死了。**\n\n**为什么：衡现在的毛病就是多个声音都能说不，却没人负责；出了事查不到是谁的判断。独裁一改，每笔开仓都能归到烛龙当时那一次判断上——可复盘、可记账、可算它准不准。** 这是唯一能让“精度”变成可测量的东西。\n\n**但有三个必须，缺一条就变成灾难：**\n\n**一，独裁必须带弃权和记录。** 每轮固定记一行：三票判势结果、方向、分数拟合结论、为什么开或为什么不开。**没有这条记录，独裁就是黑箱，事后连“它准不准”都算不出来。**\n\n**二，硬风险不归它。** 熔断、黑天鹅、闪崩、单日亏损上限，这几道独立生效，烛龙无权越过。**"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Wed 2026-10-28 23:37 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
-   "文": "**可以，而且从工程上说，分片加权比独裁更抗故障。但它成立有个死前提：权重必须是从数据中算出来的，不能凭感觉估。**\n\n**三个前提，缺一不可：**\n\n**第一，分片之间必须先去掉信息重叠。** 现在的大势、趋势、动量、MACD，全都是同一批价格数据变出来的，彼此高度相关。**直接加权等于同一份意见投了四票**，权重加起来再好看也是假独立。要么正交化，要么按重叠程度降权。\n\n**第二，权重必须用“边际贡献”算，不能主观分配。** 方法很硬：拿掉某个分片，看胜率掉多少，掉得多就权重高。**这就是可执行的算法，不是分配哲学。**\n\n**第三，分片权限要按治理划分清楚，不只是技术上拆开：**\n- 哪"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Wed 2026-10-28 23:39 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
-   "文": "明白，前面按锐来讲。\n\n**锐的具体形态，七源参谋拆成四片：**\n- **方向片**：大势门、择强 → 只出方向证据\n- **时机片**：顶底半山、位置回踩 → 只定开或等\n- **力度片**：净分强度、振幅 → 只定开多大\n- **风控片**：熔断、闪崩、日亏、连亏 → 只否风险，不碰方向\n\n**但锐有个现实约束必须先说清：锐现在只有一笔成交（SOL 那笔已平），样本量是一。**\n\n**权重靠边际贡献算，可没有样本就算不出来。** 一笔成交拟合不出任何权重，硬算就是拍脑袋，只是把“拍脑袋”写得像数学。\n\n**所以锐不能直接从分片加权起步，顺序必须是这样：**\n\n**第一步，先用临时先验权重跑"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Wed 2026-10-28 23:40 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -172,55 +172,51 @@
   },
   {
    "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "锐的清单出来了，文件在 `_清单·锐系统内核_20261028.md`（本机云机各一份）。内容带行号，建议在屏幕上看；这里说骨架。\n\n**钱：** 保证金七百，十倍杠杆；名义基数按档——大势七千、短波四千九、死水两千一。调仓按权益和波动伸缩，调完仍守本档硬顶。\n\n**分档：** 二十四小时斜率到 0.954 算大势；振幅不到 4.35 且斜率不到 0.375 算死水；其余短波。\n\n**择向链：** 择强门已经降成参谋，只记不拦；真正判的是烛龙三思——趋势、方向、位置三问；后面共振、同向率、位置带、市况门全都只记不拦；知止校验是唯一还会弃单的一关。\n\n**力度门槛（今晚加的）：** 动量一点零、"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Wed 2026-10-28 23:43 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -228,7 +224,11 @@
   },
   {
    "角色": "小奈",
-   "文": ""
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   }
  ],
  "本地全量归档": [
@@ -249,6 +249,6 @@
    "MB": 13.46
   }
  ],
- "摘要档": "ecbe8ae8-a472-42b0-b2c2-4e2d465542f1.jsonl",
+ "摘要档": "1b867855-1a99-4fc2-8e7c-625531a9d121.jsonl",
  "注": "本分区=索引+近段摘要；聊天全文存于本机 data_v2/archive/聊天记录_* 与加密密包(封存分区)"
 }
