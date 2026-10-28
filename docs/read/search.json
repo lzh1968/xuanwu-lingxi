@@ -1,5 +1,5 @@
 {
- "built": "2026-10-28 10:45:07",
+ "built": "2026-10-28 10:56:27",
  "count": 502,
  "items": [
   {
@@ -3699,6 +3699,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "毫不妥协地压缩LLM",
+   "u": "https://www.sigarch.org/compressing-llms-without-compromise/",
+   "s": "外网新声·Hacker News",
+   "d": "10:53",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Writing AI agents in YAML instead of Python",
    "u": "https://codecut.ai/build-ai-agents-yaml-docker-agent/",
    "s": "外网新声·Hacker News",
@@ -3859,10 +3867,26 @@
    "x": ""
   },
   {
+   "t": "Pushing Dexterity and Safety for In-Hand Object Pose Reaching That Works Remarkably Well",
+   "u": "https://arxiv.org/abs/2610.37652v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:58",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Can LLMs Uncover Hidden Physical Laws through Free Exploration?",
    "u": "https://arxiv.org/abs/2610.37649v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:57",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Scaling Laws for Tool-Use Agents via Controllable Environment Synthesis",
+   "u": "https://arxiv.org/abs/2610.37648v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:56",
    "k": "",
    "x": ""
   },
@@ -3891,6 +3915,14 @@
    "x": ""
   },
   {
+   "t": "EnvSched: Environment-Aware Scheduling for Rollout-Efficient Agent Reinforcement Learning",
+   "u": "https://arxiv.org/abs/2610.37609v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:38",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "MoI-Bench: A Benchmark for Image Generation and Editing on Mobile Devices",
    "u": "https://arxiv.org/abs/2610.37599v1",
    "s": "外网新声·arXiv cs.AI",
@@ -3907,9 +3939,33 @@
    "x": ""
   },
   {
+   "t": "Zero-Shot Multimodal Event Spotting in Soccer Broadcasts",
+   "u": "https://arxiv.org/abs/2610.37583v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:24",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Spectral Braids: A Topological Descriptor for Dynamic Directed Networks",
+   "u": "https://arxiv.org/abs/2610.37580v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:21",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "TeamGym: A Gym for Team Decision-Making by AI Agents with Distributed Information",
    "u": "https://arxiv.org/abs/2610.37571v1",
    "s": "外网新声·arXiv cs.AI",
+   "d": "17:15",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "LCM-Promo: An LLM-Based Uplift Model for Promotion Allocation",
+   "u": "https://arxiv.org/abs/2610.37570v1",
+   "s": "外网新声·arXiv cs.LG",
    "d": "17:15",
    "k": "",
    "x": ""
@@ -3923,10 +3979,26 @@
    "x": ""
   },
   {
+   "t": "Pneuma: A Large-Scale Real-World Time Series Benchmark for Commercial Aircraft Predictive Maintenance",
+   "u": "https://arxiv.org/abs/2610.37563v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:09",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "When uncertainty quantification fails: structural vulnerabilities and corrections for selective prediction under clinical class imbalance",
    "u": "https://arxiv.org/abs/2610.37561v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:08",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Collective Dynamics of Self-Reinforcement: How Cross-Task Coupling Drives Policy Collapse in Unsupervised RLVR",
+   "u": "https://arxiv.org/abs/2610.37553v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:01",
    "k": "",
    "x": ""
   },
@@ -3939,82 +4011,10 @@
    "x": ""
   },
   {
-   "t": "Retell uses OpenAI models to help power 100M monthly calls",
-   "u": "https://openai.com/index/retell-ai",
-   "s": "外网新声·OpenAI 官方",
-   "d": "15:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "TDLM: Adaptive Temporal Integration for Diffusion Language Models",
-   "u": "https://arxiv.org/abs/2610.36940v1",
+   "t": "GroundControl: Satellite-Conditioned Multi-View Diffusion for Reconstruction-Free Novel View Synthesis",
+   "u": "https://arxiv.org/abs/2610.37545v1",
    "s": "外网新声·arXiv cs.LG",
-   "d": "10:01",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Provenance Signatures for Low Rank Adaptations of Image Diffusion Models",
-   "u": "https://arxiv.org/abs/2610.36933v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "09:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "HiLo-RD: Cross-Budget Self-Distillation for Masked Diffusion Language Models",
-   "u": "https://arxiv.org/abs/2610.36901v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "09:34",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Hyperparameter and Neural Architecture Search via Evolutionary Optimization for Reinforcement Learning: HPNAS-RL",
-   "u": "https://arxiv.org/abs/2610.36882v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "09:21",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "RAG-CSI: Global Local Retrieval via Joint State and Dynamics Matching for CSI Prediction",
-   "u": "https://arxiv.org/abs/2610.36881v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "09:19",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Evaluating AlphaEarth Embeddings for Crop Classification: Separability, Temporal Dynamics, and Cross-Regional Transferability",
-   "u": "https://arxiv.org/abs/2610.36857v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "08:53",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "Boundary Geometry Determines Optimal Shallow ReLU Approximation under Weighted Coefficient Constraints",
-   "u": "https://arxiv.org/abs/2610.36854v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "08:51",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "When All Rollouts Fail: Policy-Compatible Joint Decoding for Hard-Problem Reasoning",
-   "u": "https://arxiv.org/abs/2610.36849v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "08:47",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "TauricResearch/TradingAgents — TradingAgents：多代理LLM金融交易框架",
-   "u": "https://github.com/TauricResearch/TradingAgents",
-   "s": "外网新声·GitHub 新星",
-   "d": "08:43",
+   "d": "16:56",
    "k": "",
    "x": ""
   }
