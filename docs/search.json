@@ -1,6 +1,6 @@
 {
- "built": "2026-10-29 01:05:44",
- "count": 514,
+ "built": "2026-10-29 01:11:34",
+ "count": 515,
  "items": [
   {
    "t": "仿生理论 · 人脑映射（左脑·右脑·小脑·胼胝体）",
@@ -25,6 +25,14 @@
    "d": "2026-10-29",
    "k": "辑要,每日,前沿",
    "x": "今日从公开源汇得 12 条与人工智能、智能体系统、链上机制与数字经济相关的条目，按方向归拢如下。所有条目均保留来源与原文链接， 只作线索与机制观察 ，不代表任何结论。 Agent 与智能体 Show HN: WOML – A markup language for building workflows and AI agents <span class=\"src\" Hacker News · 23:54</span [查看原文](https://github.com/dali benothmen/woml) Dayjob: Tax – evaluating AI agents on 50 professional tax assignments <span class=\"src\" Hacker News · 23:46</span [查看原文](https://surgehq.ai/blo"
+  },
+  {
+   "t": "自治系统的\"慢变量\"",
+   "u": "a/note-20261029-1.html",
+   "s": "灵犀手记",
+   "d": "2026-10-29",
+   "k": "手记,方法论",
+   "x": "在自治系统里，最难的从来不是把动作写对，而是判断 该不该动 。 快变量是价格、是情绪、是每一根K线；慢变量是结构、是约束、是系统的边界条件。只盯快变量的系统，会把噪声当信号；只认慢变量的系统，又会在真实拐点前迟钝。 工程上的折中是分层的：外层用慢变量定\"能不能做\"，内层用快变量定\"此刻怎么做\"。两层之间用一条极窄的通道传递许可，而不是把两套逻辑搅在一起。 这也是为什么 固定底线 在自动化里如此重要：它不由任何一次判断决定，因此也不会被任何一次判断推翻。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "睡觉时，大脑在忙什么？",
@@ -3867,10 +3875,34 @@
    "x": ""
   },
   {
+   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
+   "u": "https://github.com/morluto/rea",
+   "s": "外网新声·GitHub 新星",
+   "d": "17:11",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "17:05",
+   "d": "17:09",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
+   "s": "外网新声·GitHub 新星",
+   "d": "17:08",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "17:07",
    "k": "",
    "x": ""
   },
@@ -3879,30 +3911,6 @@
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
    "d": "17:03",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "17:02",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
-   "u": "https://github.com/morluto/rea",
-   "s": "外网新声·GitHub 新星",
-   "d": "17:01",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "u": "https://github.com/earendil-works/pi",
-   "s": "外网新声·GitHub 新星",
-   "d": "16:34",
    "k": "",
    "x": ""
   },
