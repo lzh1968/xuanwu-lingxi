@@ -1,5 +1,5 @@
 {
- "built": "2026-10-29 17:07:44",
+ "built": "2026-10-29 18:19:52",
  "count": 521,
  "items": [
   {
@@ -3851,6 +3851,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Show HN: Endlesstokens – an LLM API billed by time, not tokens",
+   "u": "https://endlesstokens.ai/",
+   "s": "外网新声·Hacker News",
+   "d": "18:17",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Tell HN: Claude Code adds your email to the prompt, the LLM sends it to websites",
    "u": "https://news.ycombinator.com/item?id=50286306",
    "s": "外网新声·Hacker News",
@@ -3899,26 +3907,10 @@
    "x": ""
   },
   {
-   "t": "Bernstein –智能体的开源治理层",
-   "u": "https://bernstein.run",
-   "s": "外网新声·Hacker News",
-   "d": "14:24",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "智能体可以做高级专家工作吗？证据说明了什么",
    "u": "https://estimandlab.com/insights/can-ai-agents-do-senior-expert-work/",
    "s": "外网新声·Hacker News",
    "d": "13:47",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "问HN：为什么大型LLM使用“不是A，是B”模式？共享数据集供应商？",
-   "u": "https://news.ycombinator.com/item?id=50284849",
-   "s": "外网新声·Hacker News",
-   "d": "13:20",
    "k": "",
    "x": ""
   },
@@ -3931,26 +3923,26 @@
    "x": ""
   },
   {
+   "t": "Claude Code定期将每个后台智能体的成绩单发送到其模型",
+   "u": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+   "s": "外网新声·Hacker News",
+   "d": "11:33",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
    "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
-   "d": "09:04",
+   "d": "10:19",
    "k": "",
    "x": ""
   },
   {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
+   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
+   "u": "https://github.com/mattpocock/skills",
    "s": "外网新声·GitHub 新星",
-   "d": "08:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "08:57",
+   "d": "10:19",
    "k": "",
    "x": ""
   },
@@ -3958,7 +3950,31 @@
    "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
    "u": "https://github.com/ggml-org/llama.cpp",
    "s": "外网新声·GitHub 新星",
-   "d": "08:48",
+   "d": "10:18",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "10:16",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
+   "u": "https://github.com/IBAX-io/go-ibax",
+   "s": "外网新声·GitHub 新星",
+   "d": "10:01",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "09:35",
    "k": "",
    "x": ""
   },
@@ -4151,22 +4167,6 @@
    "u": "https://arxiv.org/abs/2610.37561v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:08",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "自我强化的集体动力学：交叉任务耦合如何推动无监督RLVR中的策略崩溃",
-   "u": "https://arxiv.org/abs/2610.37553v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "17:01",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "铰接物体操纵的运动学约束参考评估",
-   "u": "https://arxiv.org/abs/2610.37550v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:00",
    "k": "",
    "x": ""
   }
