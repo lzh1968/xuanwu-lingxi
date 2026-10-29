@@ -1,33 +1,33 @@
 {
  "日期": "2026-10-30",
- "落盘": "2026-10-30 05:34:10",
+ "落盘": "2026-10-30 05:39:57",
  "内存报表": {
-  "时间": "2026-10-30 05:34:10",
-  "受托进程数": 13,
+  "时间": "2026-10-30 05:39:57",
+  "受托进程数": 18,
   "网关": {
-   "进程号": "11703",
-   "内存MB": 507.0,
+   "进程号": "30938",
+   "内存MB": 496.9,
    "线程": 11,
    "堆上限": "1536"
   },
   "实例数": 1,
   "全机MemTotal": "11469MB",
-  "全机MemAvailable": "6001MB",
+  "全机MemAvailable": "6107MB",
   "全机SwapTotal": "7110MB",
-  "全机SwapFree": "5224MB",
-  "探活": "200"
+  "全机SwapFree": "5094MB",
+  "探活": "000"
  },
  "断线统计": {
-  "今日断线次数": 2,
+  "今日断线次数": 3,
   "今日最长断线秒": 121,
   "近2小时真停摆(≥90秒)": 0,
   "维护窗口": 0
  },
  "日志体量KB": {
-  "gateway_guard.log": 3752.7,
+  "gateway_guard.log": 3755.4,
   "gateway_outage.jsonl": 74.0,
-  "gw_boot.out": 2248.3,
-  "网关停摆取证.log": 721.6
+  "gw_boot.out": 2252.1,
+  "网关停摆取证.log": 722.0
  },
  "会话索引(不含正文)": [
   {
@@ -98,15 +98,6 @@
   }
  ],
  "停摆取证(近段)": [
-  "  网关 VmSwap:\t       0 kB",
-  "  网关 Threads:\t11",
-  "  Mem:           11469        5033        1353          51        5081        6244",
-  "  Swap:           7110        2530        4580",
-  "  CPU  1521.8s bash _网关看护.sh",
-  "  CPU   901.5s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
-  "  CPU   389.3s cloudflared tunnel --url http://127.0.0.1:8092 --no-autoupda",
-  "── 停摆取证 2026-10-28 21:39:09 (取码 000) ──",
-  "  网关 VmRSS:\t  546484 kB",
   "  网关 VmSwap:\t       0 kB",
   "  网关 Threads:\t11",
   "  Mem:           11469        5436         952          51        5080        5841",
@@ -257,6 +248,15 @@
   "  Swap:           7110        1837        5273",
   "  CPU  3007.5s bash _健康自检_loop.sh",
   "  CPU  2355.8s bash _网关看护.sh",
-  "  CPU  1675.9s bash /data/data/com.termux/files/home/.openclaw/workspace/sk"
+  "  CPU  1675.9s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
+  "── 停摆取证 2026-10-30 05:39:33 (取码 000) ──",
+  "  网关 VmRSS:\t  512416 kB",
+  "  网关 VmSwap:\t       0 kB",
+  "  网关 Threads:\t11",
+  "  Mem:           11469        5033         944          30        5490        6254",
+  "  Swap:           7110        2148        4962",
+  "  CPU  3238.4s bash _健康自检_loop.sh",
+  "  CPU  2422.7s bash _网关看护.sh",
+  "  CPU  1740.6s bash /data/data/com.termux/files/home/.openclaw/workspace/sk"
  ]
 }
