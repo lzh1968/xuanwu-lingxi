@@ -1,5 +1,5 @@
 {
- "built": "2026-10-29 08:32:24",
+ "built": "2026-10-29 10:01:19",
  "count": 521,
  "items": [
   {
@@ -3851,6 +3851,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "智能体暴露（机密、SSH、配置）的零依赖性审核员",
+   "u": "https://ai-agent-antivirus.space/",
+   "s": "外网新声·Hacker News",
+   "d": "09:56",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "MicroZig将采用严格的无法学硕士/无人工智能政策",
    "u": "https://github.com/ZigEmbeddedGroup/microzig/blob/main/CODE_OF_CONDUCT.md",
    "s": "外网新声·Hacker News",
@@ -3883,14 +3891,6 @@
    "x": ""
   },
   {
-   "t": "法学硕士喜欢Python：法学硕士偏见的研究",
-   "u": "https://arxiv.org/abs/2503.17181",
-   "s": "外网新声·Hacker News",
-   "d": "04:03",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Agent Scrum：在两个小时的冲刺中运行一个AI编码代理团队",
    "u": "https://daveremy.github.io/agent-scrum/",
    "s": "外网新声·Hacker News",
@@ -3899,10 +3899,10 @@
    "x": ""
   },
   {
-   "t": "用于代理AI编排的C #和NATS.io",
-   "u": "https://nats.io/blog/nats-native-protocol-for-ai-agents/",
-   "s": "外网新声·Hacker News",
-   "d": "02:16",
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "02:00",
    "k": "",
    "x": ""
   },
@@ -3910,23 +3910,7 @@
    "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
    "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
-   "d": "00:31",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "00:24",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
-   "s": "外网新声·GitHub 新星",
-   "d": "00:23",
+   "d": "01:57",
    "k": "",
    "x": ""
   },
@@ -3934,7 +3918,23 @@
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "00:17",
+   "d": "01:51",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
+   "s": "外网新声·GitHub 新星",
+   "d": "00:51",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
+   "s": "外网新声·GitHub 新星",
+   "d": "00:35",
    "k": "",
    "x": ""
   },
@@ -3943,14 +3943,6 @@
    "u": "https://github.com/Dao-AILab/flash-attention",
    "s": "外网新声·GitHub 新星",
    "d": "23:50",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "u": "https://github.com/earendil-works/pi",
-   "s": "外网新声·GitHub 新星",
-   "d": "23:16",
    "k": "",
    "x": ""
   },
@@ -4167,6 +4159,14 @@
    "u": "https://arxiv.org/abs/2610.37523v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "16:45",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Retell使用OpenAI模型来帮助推动每月1亿次通话",
+   "u": "https://openai.com/index/retell-ai",
+   "s": "外网新声·OpenAI 官方",
+   "d": "15:00",
    "k": "",
    "x": ""
   }
