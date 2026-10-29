@@ -1,5 +1,5 @@
 {
- "built": "2026-10-30 06:41:58",
+ "built": "2026-10-30 07:20:55",
  "count": 540,
  "items": [
   {
@@ -4003,6 +4003,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "智能体的社交界限在哪里突破：5位LLM试图组建政府",
+   "u": "https://judgementlabs.app/blog/the-coalition-room",
+   "s": "外网新声·Hacker News",
+   "d": "07:19",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "法学硕士带来了抽象的新本质（ 2025年）",
    "u": "https://martinfowler.com/articles/2025-nature-abstraction.html",
    "s": "外网新声·Hacker News",
@@ -4059,14 +4067,6 @@
    "x": ""
   },
   {
-   "t": "Squishling 0.5.0 –混合LLM/Ruby代码类",
-   "u": "https://coolhand-labs.github.io/squishling/",
-   "s": "外网新声·Hacker News",
-   "d": "04:35",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "一名国防承包商授予其智能体访问安全的五角大楼系统的权限",
    "u": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
    "s": "外网新声·Hacker News",
@@ -4099,14 +4099,6 @@
    "x": ""
   },
   {
-   "t": "Show HN：Sheetgraph，AI 智能体可以理解复杂的电子表格",
-   "u": "https://github.com/asharma327/sheetgraph",
-   "s": "外网新声·Hacker News",
-   "d": "01:49",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "问HN：Agent swarm，orchestra，sequential，你的工作流程是什么？",
    "u": "https://news.ycombinator.com/item?id=50292324",
    "s": "外网新声·Hacker News",
@@ -4115,18 +4107,34 @@
    "x": ""
   },
   {
-   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
-   "u": "https://github.com/morluto/rea",
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "22:40",
+   "d": "23:19",
    "k": "",
    "x": ""
   },
   {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
+   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
+   "u": "https://github.com/Dao-AILab/flash-attention",
    "s": "外网新声·GitHub 新星",
-   "d": "22:29",
+   "d": "23:03",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
+   "u": "https://github.com/IBAX-io/go-ibax",
+   "s": "外网新声·GitHub 新星",
+   "d": "22:54",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
+   "u": "https://github.com/morluto/rea",
+   "s": "外网新声·GitHub 新星",
+   "d": "22:49",
    "k": "",
    "x": ""
   },
@@ -4135,14 +4143,6 @@
    "u": "https://github.com/affaan-m/ECC",
    "s": "外网新声·GitHub 新星",
    "d": "22:22",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
-   "u": "https://github.com/IBAX-io/go-ibax",
-   "s": "外网新声·GitHub 新星",
-   "d": "22:21",
    "k": "",
    "x": ""
   },
@@ -4191,14 +4191,6 @@
    "u": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
    "s": "外网新声·OpenAI 官方",
    "d": "09:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
-   "u": "https://github.com/Dao-AILab/flash-attention",
-   "s": "外网新声·GitHub 新星",
-   "d": "03:51",
    "k": "",
    "x": ""
   },
@@ -4319,6 +4311,14 @@
    "u": "https://arxiv.org/abs/2610.37588v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:25",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "足球广播中的零拍多式联运活动定位",
+   "u": "https://arxiv.org/abs/2610.37583v1",
+   "s": "外网新声·arXiv cs.LG",
+   "d": "17:24",
    "k": "",
    "x": ""
   }
