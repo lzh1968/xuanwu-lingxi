@@ -1,6 +1,6 @@
 {
- "generated": "13:51",
- "built": "2026-10-29 13:51:32",
+ "generated": "14:25",
+ "built": "2026-10-29 14:25:14",
  "count": 479,
  "live_count": 60,
  "items": [
@@ -34,7 +34,15 @@
    "url": "https://o11.ai",
    "src": "Hacker News",
    "t": "12:36",
-   "fresh": true
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "Claude Code定期将每个后台智能体的成绩单发送到其模型",
+   "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+   "src": "Hacker News",
+   "t": "11:33",
+   "fresh": false
   },
   {
    "type": "live",
@@ -58,14 +66,6 @@
    "url": "https://docs.hlock.ai/",
    "src": "Hacker News",
    "t": "10:01",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "智能体暴露（机密、SSH、配置）的零依赖性审核员",
-   "url": "https://ai-agent-antivirus.space/",
-   "src": "Hacker News",
-   "t": "09:56",
    "fresh": false
   },
   {
