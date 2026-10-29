@@ -1,5 +1,5 @@
 {
- "时间": "2026-10-30 02:47:12",
+ "时间": "2026-10-30 03:31:50",
  "会话档数": 11,
  "会话": [
   {
@@ -57,158 +57,98 @@
    "改": "2026-10-28 19:18:38"
   },
   {
-   "档": "1b867855-1a99-4fc2-8e7c-625531a9d121.jsonl",
-   "字节": 1297534,
-   "行": 1210,
-   "改": "2026-10-30 02:15:29"
+   "档": "9f5cf42f-5eb8-4f98-af60-dbbcd5754d79.jsonl",
+   "字节": 4343563,
+   "行": 1897,
+   "改": "2026-10-30 03:24:31"
   },
   {
-   "档": "9f5cf42f-5eb8-4f98-af60-dbbcd5754d79.jsonl",
-   "字节": 4151546,
-   "行": 1778,
-   "改": "2026-10-30 02:46:24"
+   "档": "1b867855-1a99-4fc2-8e7c-625531a9d121.jsonl",
+   "字节": 1300131,
+   "行": 1214,
+   "改": "2026-10-30 03:24:56"
   }
  ],
  "近段摘要": [
   {
-   "角色": "小奈",
-   "文": ""
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
-   "文": "方案定下来了：止损按振幅分档，名义按“固定风险”反推，否则止损放宽就会变成造灾。现在写补丁。"
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "改动干净：只碰离场层、名义口径和存振幅，择向层零改动。现在重启生效。"
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "进程活着，918 内核在持仓状态下本来就不逐轮打日志。现在重建钉死基线。"
-  },
-  {
-   "角色": "小奈",
-   "文": "出现 3 行匹配择向关键词的改动，必须查清，不能含糊。"
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "配好了。先说结论：**根子是止损被压到 1.3%，跟振幅没关系，这才是关键。**\n\n**改前：**\n\n918 的安全夹把硬止损从 2.5% 强制压到 1.3%。而高振幅币的正常波动中位数就有 1.31%，等于一半仓位还没走出方向，就被正常波动扫出局。早断 -1.2% 也一样，在 2-3% 振幅档里属于 65% 分位，35% 的正常回踩被当成错误砍掉。\n\n**改后，止损跟着振幅走：**\n\n| 振幅 | 止损 | 早断 |\n|---|---|---|\n| 0-2% | 1.4% | 0.8% |\n| 2-3% | 2.0% | 1.2% |\n| 3-4% | 2.3% | 1.4% |\n| 4-6"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Fri 2026-10-30 01:01 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "锁死了，三样都在：\n\n**一、文件锁：** 内核和基因都是 `-r--r--r--`（只读，444），改不动。内核指纹 58cfae3a1791，128897 字节；基因指纹 c46d785ae362。\n\n**二、机器核：** 衡的内核和基因都在钉死校验清单里，守护每 300 秒自动对一次指纹。刚才手工核了一遍，校验码 0，一致。\n\n**三、档案：** 架构钉死档在 `data_v2/mtsim/_架构钉死_heng_20261028.json`，2885 字节，也是只读。\n\n服务在跑，正常。\n\n要改只有一个路子：你明令、我先备份、解开锁、改完再锁回去、重建基线、报你。中间任何一步被跳过，守护"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Fri 2026-10-30 02:29 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "查了 26 笔实际成交，结构看清了，先说最要紧的一句：\n\n**金蟾一次都没出场，现在全靠貔貅。**\n\n**先说两头兽原本的分工：**\n\n金蟾管“小口吃”，阶梯止盈，0.45%、0.70%、0.95%、1.20%、1.45%、1.60% 六档，价格每到一档就收一部分利润。\n\n貔貅管“大肉放跑”，浮盈过 0.4% 就启动护利地板，只往上抬不往下退，让利润自己跑，回吐就锁住。\n\n**实际 26 笔的结果：**\n\n| 出口 | 笔数 | 净盈亏 | 平均 |\n|---|---|---|---|\n| 金蟾阶梯 | **0** | 0 | — |\n| 貔貅让跑 | 13 | +4745.98 | +0.8"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Fri 2026-10-30 02:32 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
-   "文": "要配得准，先得知道“这钱到底能涨多少”。我再算一遍反向的，看开仓后最多能浮盈多少。"
-  },
-  {
-   "角色": "小奈",
-   "文": "反向的数据出来了，这一步很关键：\n\n**24 小时内，顺行空间是逆行的 2.4 倍左右。** 0-2% 档能涨 1.62%，只跌 0.61%；6% 以上能涨 4.04%，只跌 1.72%。\n\n而衡现在平均只赚 0.855%，说明赚到的钱连顺行空间的一半都没吃到。\n\n再跑一遍“先触谁”，把止盈止损的组合扫出来。"
-  },
-  {
-   "角色": "小奈",
-   "文": "配置出来了，先说最重要的一句实话：\n\n**我把止盈、止损全组合扫了一遍，随机进场，96 个组合全是负的。** 只有 6% 以上振幅的最优组合是 +0.039%/笔，几乎为零。\n\n这印证了老结论：**调参数造不出利润，利润只来自择向。** 参数只有一个作用：别把择向挣来的赢面白白漏掉。\n\n**衡现在漏在哪儿（26 笔实测）：**\n\n赢的均 +0.855%，亏的均 -0.878%。而市场给的顺行空间是：小振幅 1.62%、大振幅 4.04%。**赚到的连一半都不到。**\n\n原因是两处：\n\n一是**止损比正常波动还窄**。小振幅币正常跌 1.37% 才算超出常规，衡设 0.50% 就砍，一半仓位是被"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Fri 2026-10-30 02:35 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "最适配的配置给你，分两类：一类靠环境变量就能改，一类要动代码。\n\n**第一类：环境变量直接改，不动代码**\n\n| 参数 | 现在 | 改成 | 为什么 |\n|---|---|---|---|\n| `HENG_S1` 振幅<1.5% 止损 | 0.0050 | **0.013** | 正常波动 1.37% 才算出格 |\n| `HENG_S2` 1.5-3% 止损 | 0.0065 | **0.019** | 正常波动 1.98% |\n| `HENG_S3` 3-5% 止损 | 0.0090 | **0.024** | 正常波动 2.29% |\n| `HENG_S4` 5-6% 止损 | 0.01"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Fri 2026-10-30 02:40 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
-   "文": ""
-  },
-  {
-   "角色": "小奈",
-   "文": "**单笔最多 280 美元，占本金 5.6%。**\n\n算给你看：目标止盈 3.5%，碰上强趋势时乘 1.6 倍，就是 5.6%；名义 5000 美元，5.6% 等于 280 美元。\n\n这就是单笔上限。因为价格涨到 5.6% 时，止盈就已经把整笔平仓了，后面的棘轮最高档根本没机会触发。\n\n往下铺开看：如果连续 10 笔全对，就是 2800 美元，本金涨 56%；连续 20 笔全对，就是 5600 美元，翻一倍还多。名义是固定的 5000，不随本金涨，所以收益是线性叠加，不是复利翻倍。\n\n反过来，最坏情况也有个数：单笔亏损封顶是止损 2.4% 乘以 5000，也就是 120 美元，占本金 2.4%"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Fri 2026-10-30 02:41 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
-   "文": "我上一条答错了，你这一问点到了要害。\n\n**3.5% 乘以 1.6 得 5.6%，这就是我给自己设的天花板。** 我一边说衡 0.855% 收得太早，一边又把止盈封在 5.6%，等于自己又犯了一遍同样的毛病。而且棘轮最高那两档，峰值到 6% 才锁 4%、8% 才锁 5.8%，根本用不上，因为 5.6% 就已经平仓了。两头自相矛盾。\n\n**正确答案：盈利没有上限，行情给多少就拿多少。**\n\n正确的配套是：\n\n**止盈不设硬性的最高限制。** `HENG_TARGET_PCT` 从 0.035 提到 **0.30**。这个数的意思就是“这辈子都不想点到它”，行情涨到什么位置都不主动平仓。\n\n**靠"
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Fri 2026-10-30 02:44 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
-   "文": "**280 美元。**\n\n依据：目标止盈 3.5%，强趋势乘 1.6 得 5.6%，这是天花板；名义 5000 美元，5.6% 就是 280 美元。价格到那儿整笔平掉，棘轮更高两档根本轮不到。\n\n所以按这套参数，单笔盈利上限就是 280 美元，占本金 5.6%。"
+   "文": "HEARTBEAT_OK"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Fri 2026-10-30 02:44 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -216,7 +156,55 @@
   },
   {
    "角色": "小奈",
-   "文": "矛盾找到了：棘轮最高两档永远用不上，因为止盈先平仓。而且貔貅和棘轮同时开着，会互相覆盖：貔貅锁得比棘轮高，棘轮就形同虚设。全部用环境变量改，不动代码。"
+   "文": ""
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
@@ -224,11 +212,23 @@
   },
   {
    "角色": "小奈",
-   "文": ""
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
   },
   {
    "角色": "小奈",
-   "文": "改完了，矛盾没有了。全部用环境变量改的，内核一行代码没动。\n\n**消掉的三处矛盾：**\n\n一是止盈封顶。目标止盈从 8% 提到 30%，等于不点了，行情涨到哪儿都不主动平。\n\n二是棘轮和貔貅互相覆盖。棘轮按固定档位来锁，貔貅按峰值比例来锁；两边同时开着，永远是貔貅先触发，棘轮白设。现在关掉棘轮，让跑全交给貔貅，一个机制管到底：锁定位置等于峰值乘 0.75，峰值 2% 锁 1.5%，峰值 10% 锁 7.5%，峰值 20% 锁 15%。\n\n三是止损放宽但名义没变。止损从 0.5% 放宽到 2.4%，名义还按 32500 算就是一笔亏 780 美元、占权益 15.6%，那是找死。名义封顶从 0.6"
+   "文": "HEARTBEAT_OK"
+  },
+  {
+   "角色": "老板",
+   "文": "Read HEARTBEAT.md if it exists (workspace context). Follow it strictly. Do not infer or repeat old tasks from prior chats. If nothing needs attention, reply HEARTBEAT_OK.\nWhen reading HEARTBEAT.md, use workspace file /data/data/com.termux/files/home/.openclaw/workspace/HEARTBEAT.md (exact case). Do "
+  },
+  {
+   "角色": "小奈",
+   "文": "HEARTBEAT_OK"
   }
  ],
  "本地全量归档": [
@@ -249,6 +249,6 @@
    "MB": 13.46
   }
  ],
- "摘要档": "9f5cf42f-5eb8-4f98-af60-dbbcd5754d79.jsonl",
+ "摘要档": "1b867855-1a99-4fc2-8e7c-625531a9d121.jsonl",
  "注": "本分区=索引+近段摘要；聊天全文存于本机 data_v2/archive/聊天记录_* 与加密密包(封存分区)"
 }
