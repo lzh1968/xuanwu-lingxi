@@ -1,9 +1,14 @@
 {
  "日期": "2026-10-31",
- "落盘": "2026-10-31 00:38:37",
+ "落盘": "2026-10-31 00:44:34",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "Show HN：NKTg AI –在生成之前解码文本的LLM",
+   "url": "https://nktg.org/",
+   "type": "live"
+  },
   {
    "title": "LlamaIndex的文档解析协议：正确解析页面的140条规则",
    "url": "https://www.llamaindex.ai/blog/introducing-the-document-parsing-protocol",
@@ -40,13 +45,13 @@
    "type": "live"
   },
   {
-   "title": "Show HN：将Anthropic和OpenAI账单导出转换为FinOps焦点（开源）",
-   "url": "https://github.com/mandarvshinde/ai-bill-to-focus",
-   "type": "live"
-  },
-  {
    "title": "今日辑要 · 2026-10-31（前沿 12 条）",
    "url": "a/digest-20261031.html",
+   "type": "article"
+  },
+  {
+   "title": "自治系统的\"慢变量\"",
+   "url": "a/note-20261031-1.html",
    "type": "article"
   },
   {
@@ -67,11 +72,6 @@
   {
    "title": "造物者的三条誓言",
    "url": "a/note-20261031-15.html",
-   "type": "article"
-  },
-  {
-   "title": "名字的重量",
-   "url": "a/note-20261031-16.html",
    "type": "article"
   }
  ]
