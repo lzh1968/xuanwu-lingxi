@@ -1,9 +1,17 @@
 {
- "generated": "00:38",
- "built": "2026-10-31 00:38:22",
- "count": 506,
+ "generated": "00:44",
+ "built": "2026-10-31 00:44:20",
+ "count": 507,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN：NKTg AI –在生成之前解码文本的LLM",
+   "url": "https://nktg.org/",
+   "src": "Hacker News",
+   "t": "00:38",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "LlamaIndex的文档解析协议：正确解析页面的140条规则",
@@ -61,18 +69,18 @@
    "fresh": false
   },
   {
-   "type": "live",
-   "title": "Show HN：将Anthropic和OpenAI账单导出转换为FinOps焦点（开源）",
-   "url": "https://github.com/mandarvshinde/ai-bill-to-focus",
-   "src": "Hacker News",
-   "t": "23:03",
-   "fresh": false
-  },
-  {
    "type": "article",
    "title": "今日辑要 · 2026-10-31（前沿 12 条）",
    "url": "a/digest-20261031.html",
    "src": "Agent 与智能体",
+   "t": "2026-10-31",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "自治系统的\"慢变量\"",
+   "url": "a/note-20261031-1.html",
+   "src": "灵犀手记",
    "t": "2026-10-31",
    "fresh": false
   },
@@ -104,14 +112,6 @@
    "type": "article",
    "title": "造物者的三条誓言",
    "url": "a/note-20261031-15.html",
-   "src": "创造神",
-   "t": "2026-10-31",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "名字的重量",
-   "url": "a/note-20261031-16.html",
    "src": "创造神",
    "t": "2026-10-31",
    "fresh": false

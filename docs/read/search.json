@@ -1,6 +1,6 @@
 {
- "built": "2026-10-31 00:38:22",
- "count": 548,
+ "built": "2026-10-31 00:44:20",
+ "count": 549,
  "items": [
   {
    "t": "仿生理论 · 人脑映射（左脑·右脑·小脑·胼胝体）",
@@ -25,6 +25,14 @@
    "d": "2026-10-31",
    "k": "辑要,每日,前沿",
    "x": "今日从公开源汇得 12 条与人工智能、智能体系统、链上机制与数字经济相关的条目，按方向归拢如下。所有条目均保留来源与原文链接， 只作线索与机制观察 ，不代表任何结论。 Agent 与智能体 Scaling to 50 coding agents without scaling human attention <span class=\"src\" Hacker News · 23:52</span [查看原文](https://centauri ai.tech/live/scaling to 50 coding agents without scaling human attention.html) AWS's Hydro team wants the compiler to catch coding agents' mistakes <span class=\"src\" Hacker News"
+  },
+  {
+   "t": "自治系统的\"慢变量\"",
+   "u": "a/note-20261031-1.html",
+   "s": "灵犀手记",
+   "d": "2026-10-31",
+   "k": "手记,方法论",
+   "x": "在自治系统里，最难的从来不是把动作写对，而是判断 该不该动 。 快变量是价格、是情绪、是每一根K线；慢变量是结构、是约束、是系统的边界条件。只盯快变量的系统，会把噪声当信号；只认慢变量的系统，又会在真实拐点前迟钝。 工程上的折中是分层的：外层用慢变量定\"能不能做\"，内层用快变量定\"此刻怎么做\"。两层之间用一条极窄的通道传递许可，而不是把两套逻辑搅在一起。 这也是为什么 固定底线 在自动化里如此重要：它不由任何一次判断决定，因此也不会被任何一次判断推翻。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "极光：天空的体检报告",
@@ -4067,6 +4075,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Show HN：NKTg AI –在生成之前解码文本的LLM",
+   "u": "https://nktg.org/",
+   "s": "外网新声·Hacker News",
+   "d": "00:38",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "LlamaIndex的文档解析协议：正确解析页面的140条规则",
    "u": "https://www.llamaindex.ai/blog/introducing-the-document-parsing-protocol",
    "s": "外网新声·Hacker News",
@@ -4155,18 +4171,10 @@
    "x": ""
   },
   {
-   "t": "LLM的本地推理",
-   "u": "https://jacquesmattheij.com/local-inference-with-large-language-models/",
-   "s": "外网新声·Hacker News",
-   "d": "20:16",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "16:37",
+   "d": "16:43",
    "k": "",
    "x": ""
   },
@@ -4174,7 +4182,15 @@
    "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
    "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
-   "d": "16:33",
+   "d": "16:42",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:40",
    "k": "",
    "x": ""
   },
@@ -4183,14 +4199,6 @@
    "u": "https://github.com/earendil-works/pi",
    "s": "外网新声·GitHub 新星",
    "d": "16:27",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "16:20",
    "k": "",
    "x": ""
   },
