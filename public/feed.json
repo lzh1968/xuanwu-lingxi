@@ -1,12 +1,28 @@
 {
- "generated": "23:54",
- "built": "2026-10-30 23:54:37",
- "count": 498,
+ "generated": "00:01",
+ "built": "2026-10-31 00:01:03",
+ "count": 500,
  "live_count": 60,
  "items": [
   {
    "type": "live",
-   "title": "AWS's Hydro team wants the compiler to catch coding agents' mistakes",
+   "title": "LlamaIndex的文档解析协议：正确解析页面的140条规则",
+   "url": "https://www.llamaindex.ai/blog/introducing-the-document-parsing-protocol",
+   "src": "Hacker News",
+   "t": "23:55",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "在不增加人类注意力的情况下扩展到50种编码剂",
+   "url": "https://centauri-ai.tech/live/scaling-to-50-coding-agents-without-scaling-human-attention.html",
+   "src": "Hacker News",
+   "t": "23:52",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "AWS的Hydro团队希望编译器能够发现编码智能体的错误",
    "url": "https://thenewstack.io/ai-agents-compiler-guardrails/",
    "src": "Hacker News",
    "t": "23:26",
@@ -14,7 +30,7 @@
   },
   {
    "type": "live",
-   "title": "Show HN: Sketch Stadium – watch your agent play Pictionary",
+   "title": "Show HN: Sketch Stadium –观看您的经纪人播放Pictionary",
    "url": "https://sketch.wakeshift.ai/",
    "src": "Hacker News",
    "t": "23:23",
@@ -22,7 +38,7 @@
   },
   {
    "type": "live",
-   "title": "Show HN: Cc-pair – Claude Code and Codex review each other's work",
+   "title": "Show HN：抄送对– Claude Code和Codex互相审查对方的工作",
    "url": "https://github.com/leonlee/cc-pair",
    "src": "Hacker News",
    "t": "23:06",
@@ -30,7 +46,15 @@
   },
   {
    "type": "live",
-   "title": "Show HN: Omneum – Local, text-blind context control plane for AI agents",
+   "title": "男子雇佣成群的人工智能智能体对大公司进行史诗般的黑客攻击",
+   "url": "http://www.apex-news.com/newsitementry.aspx?id=fe1a783e-3fe1-4c06-bbdd-a93b55c6c4ec",
+   "src": "Hacker News",
+   "t": "23:06",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN: Omneum -智能体的本地、文本盲上下文控制平面",
    "url": "https://github.com/cole-h06/omneum",
    "src": "Hacker News",
    "t": "23:03",
@@ -38,34 +62,26 @@
   },
   {
    "type": "live",
-   "title": "Show HN: AI agent needs process to build a commercial application",
-   "url": "https://nomorehappypath.com/",
+   "title": "Show HN：将Anthropic和OpenAI账单导出转换为FinOps焦点（开源）",
+   "url": "https://github.com/mandarvshinde/ai-bill-to-focus",
    "src": "Hacker News",
-   "t": "22:49",
+   "t": "23:03",
    "fresh": true
   },
   {
-   "type": "live",
-   "title": "A computer scientist breaks through a limit that stood since 1996",
-   "url": "https://www.sciencedaily.com/releases/2026/10/261029072146.htm",
-   "src": "Hacker News",
-   "t": "22:28",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "Show HN: Beolis – Manage your coding AI agents",
-   "url": "https://beolis.com",
-   "src": "Hacker News",
-   "t": "22:22",
+   "type": "article",
+   "title": "今日辑要 · 2026-10-31（前沿 12 条）",
+   "url": "a/digest-20261031.html",
+   "src": "Agent 与智能体",
+   "t": "2026-10-31",
    "fresh": false
   },
   {
-   "type": "live",
-   "title": "Local agent with multivendors, free, you own your context",
-   "url": "https://safata.ai/",
-   "src": "Hacker News",
-   "t": "22:04",
+   "type": "article",
+   "title": "极光：天空的体检报告",
+   "url": "a/note-20261031-12.html",
+   "src": "灵犀手记",
+   "t": "2026-10-31",
    "fresh": false
   },
   {
@@ -97,22 +113,6 @@
    "title": "园子为什么要留白？",
    "url": "a/note-20261030-11.html",
    "src": "华夏哲学 · 阴阳五行",
-   "t": "2026-10-30",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "极光：天空的体检报告",
-   "url": "a/note-20261030-12.html",
-   "src": "灵犀手记",
-   "t": "2026-10-30",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "珊瑚：动物、植物，还是别的？",
-   "url": "a/note-20261030-13.html",
-   "src": "灵犀手记",
    "t": "2026-10-30",
    "fresh": false
   }
