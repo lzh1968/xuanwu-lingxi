@@ -1,6 +1,6 @@
 {
- "built": "2026-10-31 00:07:18",
- "count": 543,
+ "built": "2026-10-31 00:13:39",
+ "count": 544,
  "items": [
   {
    "t": "仿生理论 · 人脑映射（左脑·右脑·小脑·胼胝体）",
@@ -41,6 +41,14 @@
    "d": "2026-10-31",
    "k": "手记,方法论",
    "x": "珊瑚看起来像石头、像植物，其实是 成群的小动物 。更妙的是，每一只珊瑚虫体内都住着 虫黄藻 ——一种能光合作用的微生物，替它造养分，换它提供庇护与原料。 这种关系叫 共生 ：双方都活得更好了，但谁也离不开谁。珊瑚礁之所以能撑起整片海洋生态，靠的正是这种\"分工而不分家\"的紧密协作。 自然界反复证明： 长期稳定的结构，往往不是靠征服，而是靠互利。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "桥与门",
+   "u": "a/note-20261031-14.html",
+   "s": "华夏哲学 · 阴阳五行",
+   "d": "2026-10-31",
+   "k": "手记,方法论",
+   "x": "门和桥都是\"连接\"，但方向相反： 门在墙上开口，桥在水上架通。 门决定谁能进来，桥决定能不能过去。 一个系统也总在这两者之间权衡： 门 是边界与权限， 桥 是流通与协作。门太少，什么都能进；桥太少，内部各过各的。两种病都致命，只是死法不同。 成熟的做法是先想清楚： 这一段到底是院墙，还是河道？ 该设门的地方设门，该架桥的地方架桥——别用修建围墙的思路，去堵一条本该畅通的河。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "今日辑要 · 2026-10-30（前沿 12 条）",
@@ -4123,10 +4131,10 @@
    "x": ""
   },
   {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "16:01",
+   "d": "16:13",
    "k": "",
    "x": ""
   },
@@ -4134,15 +4142,23 @@
    "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
    "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
-   "d": "15:59",
+   "d": "16:12",
    "k": "",
    "x": ""
   },
   {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "15:59",
+   "d": "16:12",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:01",
    "k": "",
    "x": ""
   },
@@ -4159,14 +4175,6 @@
    "u": "https://gethiveos.com/",
    "s": "外网新声·Hacker News",
    "d": "15:31",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "15:27",
    "k": "",
    "x": ""
   },
@@ -4259,7 +4267,7 @@
    "x": ""
   },
   {
-   "t": "An ODE-based Sampler for Discrete Diffusion Models",
+   "t": "基于ODE的离散扩散模型采样器",
    "u": "https://arxiv.org/abs/2610.40618v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:55",
@@ -4267,7 +4275,7 @@
    "x": ""
   },
   {
-   "t": "Difficulty Calibration Across Time for Membership Inference in Diffusion Models",
+   "t": "扩散模型中成员推断随时间变化的难度校准",
    "u": "https://arxiv.org/abs/2610.40616v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "17:54",
@@ -4275,7 +4283,7 @@
    "x": ""
   },
   {
-   "t": "TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races",
+   "t": "TextSeal2：采用Copula混合和无记忆比赛的无失真LLM水印",
    "u": "https://arxiv.org/abs/2610.40613v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:54",
@@ -4283,7 +4291,7 @@
    "x": ""
   },
   {
-   "t": "When to Assist and What to Suggest: Joint Gating and Memory-Grounded Hint Generation in One Compact Decoder",
+   "t": "何时提供帮助和建议：在一个紧凑型解码器中生成关节选通和内存接地提示",
    "u": "https://arxiv.org/abs/2610.40611v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:54",
@@ -4291,7 +4299,7 @@
    "x": ""
   },
   {
-   "t": "Collaborative AI agents for autonomous experimental research with solid-state quantum spins",
+   "t": "用于固态量子自旋自主实验研究的协作智能体",
    "u": "https://arxiv.org/abs/2610.40589v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:47",
@@ -4299,7 +4307,7 @@
    "x": ""
   },
   {
-   "t": "Pre-Crime for Agents, at the Last Second: Probing When a Recruited Agent Gives In",
+   "t": "智能体的预犯罪，在最后一秒：被招募的代理何时提供",
    "u": "https://arxiv.org/abs/2610.40588v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:47",
@@ -4307,7 +4315,7 @@
    "x": ""
   },
   {
-   "t": "VeriCUA: Verification as Agentic Exploration for Computer-Using Agents",
+   "t": "VeriCUA：验证作为计算机使用智能体的代理探索",
    "u": "https://arxiv.org/abs/2610.40578v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:45",
@@ -4315,7 +4323,7 @@
    "x": ""
   },
   {
-   "t": "Gym-Anything for Robotics: Scaling physical simulations with digital agents",
+   "t": "健身房-机器人的一切：使用数字代理缩放物理模拟",
    "u": "https://arxiv.org/abs/2610.40565v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "17:42",
