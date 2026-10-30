@@ -1,40 +1,40 @@
 {
  "日期": "2026-10-31",
- "落盘": "2026-10-31 01:02:21",
+ "落盘": "2026-10-31 01:08:25",
  "内存报表": {
-  "时间": "2026-10-31 01:02:21",
-  "受托进程数": 12,
+  "时间": "2026-10-31 01:08:25",
+  "受托进程数": 13,
   "网关": {
    "进程号": "13873",
-   "内存MB": 516.8,
+   "内存MB": 460.5,
    "线程": 11,
    "堆上限": "1536"
   },
   "实例数": 1,
   "全机MemTotal": "11469MB",
-  "全机MemAvailable": "5544MB",
+  "全机MemAvailable": "5506MB",
   "全机SwapTotal": "7110MB",
-  "全机SwapFree": "4681MB",
-  "探活": "000"
+  "全机SwapFree": "4773MB",
+  "探活": "200"
  },
  "断线统计": {
-  "今日断线次数": 2,
-  "今日最长断线秒": 61,
-  "近2小时真停摆(≥90秒)": 0,
+  "今日断线次数": 3,
+  "今日最长断线秒": 95,
+  "近2小时真停摆(≥90秒)": 1,
   "维护窗口": 0
  },
  "日志体量KB": {
-  "gateway_guard.log": 4255.4,
-  "gateway_outage.jsonl": 74.7,
-  "gw_boot.out": 2357.5,
-  "网关停摆取证.log": 728.4
+  "gateway_guard.log": 4258.1,
+  "gateway_outage.jsonl": 74.8,
+  "gw_boot.out": 2363.0,
+  "网关停摆取证.log": 728.8
  },
  "会话索引(不含正文)": [
   {
    "档": "9f5cf42f-5eb8-4f98-af60-dbbcd5754d79.jsonl",
-   "大小KB": 6611.1,
-   "行数": 3217,
-   "最后改动": "2026-10-31 00:57:40"
+   "大小KB": 6630.3,
+   "行数": 3232,
+   "最后改动": "2026-10-31 01:04:59"
   },
   {
    "档": "ecbe8ae8-a472-42b0-b2c2-4e2d465542f1.checkpoint.2fe6095a-a117-43fc-8949-2596219491aa.jsonl",
@@ -92,15 +92,6 @@
   }
  ],
  "停摆取证(近段)": [
-  "  网关 VmSwap:\t       0 kB",
-  "  网关 Threads:\t11",
-  "  Mem:           11469        5092        1023          26        5352        6215",
-  "  Swap:           7110        1838        5272",
-  "  CPU  3002.8s bash _健康自检_loop.sh",
-  "  CPU  2354.6s bash _网关看护.sh",
-  "  CPU  1675.2s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
-  "── 停摆取证 2026-10-30 03:31:31 (取码 000) ──",
-  "  网关 VmRSS:\t  473692 kB",
   "  网关 VmSwap:\t       0 kB",
   "  网关 Threads:\t11",
   "  Mem:           11469        5353         754          26        5361        5955",
@@ -251,6 +242,15 @@
   "  Swap:           7110        2432        4677",
   "  CPU  5308.5s bash _健康自检_loop.sh",
   "  CPU  2358.7s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
-  "  CPU  1376.8s python3 -u _子引擎.py rui --mode paper"
+  "  CPU  1376.8s python3 -u _子引擎.py rui --mode paper",
+  "── 停摆取证 2026-10-31 01:06:38 (取码 000) ──",
+  "  网关 VmRSS:\t  482448 kB",
+  "  网关 VmSwap:\t       0 kB",
+  "  网关 Threads:\t11",
+  "  Mem:           11469        5500         874         207        5093        5564",
+  "  Swap:           7110        2418        4692",
+  "  CPU  5316.4s bash _健康自检_loop.sh",
+  "  CPU  2360.4s bash /data/data/com.termux/files/home/.openclaw/workspace/sk",
+  "  CPU  1378.1s python3 -u _子引擎.py rui --mode paper"
  ]
 }
