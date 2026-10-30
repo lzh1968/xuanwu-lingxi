@@ -1,5 +1,5 @@
 {
- "时间": "2026-10-30 20:13:48",
+ "时间": "2026-10-30 20:48:02",
  "会话档数": 10,
  "会话": [
   {
@@ -58,171 +58,171 @@
   },
   {
    "档": "9f5cf42f-5eb8-4f98-af60-dbbcd5754d79.jsonl",
-   "字节": 5492551,
-   "行": 2444,
-   "改": "2026-10-30 20:13:44"
+   "字节": 5682584,
+   "行": 2555,
+   "改": "2026-10-30 20:42:33"
   }
  ],
  "近段摘要": [
   {
    "角色": "小奈",
-   "文": "The real renderer is `_子引擎门户.py` with `gen(z)`. So 衡's page = `_子引擎门户.py gen('heng')`. Best approach: make 四象 use the SAME renderer, by feeding it 四象's state file as a \"sub engine\" node.\n\nOptions:\nA. Register 4x in `_子引擎门户.py`'s node list → then gen('4x') produces identical design automatically. Cle"
+   "文": "TITLE替换未生效于这两处 — because `_刷_模拟臂门户.py` overrides TITLE with its own dict containing 纸面! Yes — `_刷_模拟臂门户.py` sets `_m.TITLE.update({'4x': '...（纸面 $5000）'})`. Fix that file too.\n\nAlso fix size_ct computation in kernel (quanto). Let me patch both:\n\n1. `_刷_模拟臂门户.py`: remove 纸面.\n2. Kernel: import quanto?"
   },
   {
    "角色": "小奈",
-   "文": "Perfect: adding '4x' to NODES + TITLE + TITLE map makes gen('4x') produce the identical 衡-style page reading `_sub_4x_state.json`.\n\nCheck line 15-30 for NODES/TITLE and what else keyed by node (e.g., 参数字典, 门户口径 labels)."
+   "文": "Size_ct self-corrected: BTC 1137.66 contracts. Now regenerate portal and verify floating P&L shows real number."
   },
   {
    "角色": "小奈",
-   "文": "Good. Plan: add '4x' to NODES, TITLE ('四象引擎 · 烛龙+三才矩阵'), _POOL_LOG (optional). Then call gen('4x') to produce sub_4x.html — identical 衡 design. Then retire my custom `_四象门户.py` (keep as backup) and switch 守护总管 hook to regenerate via the same renderer.\n\nBut careful: 4x state has 'pos' with same schem"
+   "文": "Problem: the page now is my OLD custom page (title 四象引擎 · 玄武灵犀) — meaning `_刷_模拟臂门户.py` wrote it, then `_手机入口门户.py` re-ran and its main() calls the OLD `_四象门户.py` build() (I added that call earlier at step ⑧), overwriting with the retired design!\n\nFix: remove that stale call (⑧ block) from `_手机入口门户."
   },
   {
    "角色": "小奈",
-   "文": "Generated with same style (dm toggle, 交易胜率, 已结算净盈亏). But the 刷新器 output printed nothing? tail -5 showed file listing directly, meaning stdout was empty — maybe gen failed silently. Page size 6349 (smaller than 衡's 23919 because fewer trades).\n\nLet me verify content correctness: does it show TIA posi"
+   "文": "Zero 纸面/模拟, title clean. Now verify the profit card renders with real floating."
   },
   {
    "角色": "小奈",
-   "文": "Same CSS as 衡 exactly. Now check body content (KPI + position)."
+   "文": "Now: 当前总盈亏 +84.72, 收益率 +1.69%, 已实现 +79.18, 浮动 +5.54. Correct.\n\nRestart guard hook to keep 刷新器 running (hook calls _刷_模拟臂门户.py — good, unchanged). Verify hook still exists and page refreshes.\n\nAlso sync kernel local copy, update docs, memory. Then report."
   },
   {
    "角色": "小奈",
-   "文": "Content is thin — KPI numbers missing (\"盈亏比：—\"). The renderer likely reads a different field schema for KPI (e.g., 'realized' vs 'pnl_sum'), or expects pos fields differently. Let me look at how gen() computes KPI and what fields it reads, comparing 衡 state and 4x state.\n\nSimplest: inspect 衡 state k"
-  },
-  {
-   "角色": "小奈",
-   "文": "Schema differences: heng trade uses 'ts' & 'exit' (I used 'close_ts'), and pos in heng uses different keys. Let me check heng's pos schema when it HAD a position — it's empty now. Look at the renderer to see exact expected keys.\n\nLet me grep the renderer for pos field usage."
-  },
-  {
-   "角色": "小奈",
-   "文": "The renderer filters trades requiring `t.get('exit') is not None` — my trades lack 'exit' → all filtered out → empty KPI.\n\nSo to be \"一模一样\" I should align my state schema to the shared one: trade keys `coin/side/entry/exit/pnl/pnl_pct/why/ts/peak_pct/day`, and pos keys as the renderer expects.\n\nCheck"
-  },
-  {
-   "角色": "小奈",
-   "文": "Confirmed: requires `exit` field on trades, `pnl` etc. Also `realized` computed from trades.\n\nTo be compatible, I'll change my kernel's trade record to use the shared schema:\n- trade: coin, side, entry, exit, notional?, pnl, pnl_pct, why, ts, peak_pct, day, hold_min extra ok.\n- pos: what does render"
-  },
-  {
-   "角色": "小奈",
-   "文": "The renderer's pos detail expects `size_ct` + `notional` to compute upnl. My pos has notional but no size_ct → upnl = 0.\n\nTo make it truly \"一模一样\" and correct, adapt my kernel's state to the shared schema:\n\npos: {coin, side, entry, size_ct, notional, peak_pct, open_ts, tier, conf, big_meat, _ctx...}\n"
-  },
-  {
-   "角色": "小奈",
-   "文": "Existing position lacks size_ct (opened before patch). Add size_ct on load for legacy pos, in main() after load.\n\nThen regenerate page and verify KPI shows values."
-  },
-  {
-   "角色": "小奈",
-   "文": "size_ct printed? \"pos.size_ct=\" line missing from tail. Page now has 目标进度 and 最近交易账本 — good progress. But need to see KPI numbers + position block. Let me dump the top of body properly."
-  },
-  {
-   "角色": "小奈",
-   "文": "Now identical to 衡's style: 持23分, 浮盈亏, 峰值, 名义, 张数, 金蟾档, 金蟾下档, 目标止盈, 目标进度, 最近交易账本.\n\nRemaining: 目标止盈 shows +5.0% (renderer's hardcoded TARGET_PCT=0.05) — our engine doesn't cap at 5% (貔貅让跑). That's a display mismatch that could mislead boss. Options: leave (it's renderer default for all nodes) or note"
-  },
-  {
-   "角色": "小奈",
-   "文": "Hook working (31s refresh). Now verify external tunnel and record.\n\nThen reply to boss with link + the 5% disclosure."
-  },
-  {
-   "角色": "小奈",
-   "文": "Tunnel 530 again — the trycloudflare quick tunnel URL rotates. Need current URL from 云门户地址.txt (regenerated by tunnel script) or restart tunnel.\n\nCheck current file."
-  },
-  {
-   "角色": "小奈",
-   "文": "Tunnel restarted at 14:36 → new URL. Verify it works."
-  },
-  {
-   "角色": "小奈",
-   "文": "改好了，现在跟衡完全一个模子出来的。\n\n**新地址（旧的那个隧道换了，用这个）：**\n**https://altered-ethical-fundamentals-oriented.trycloudflare.com/sub/sub_4x.html**\n\n**怎么做到“一模一样”的：不复制样式，直接接进同一个渲染器。**\n\n衡那张页面是 `_子引擎门户.py` 画出来的。我没照着抄样式，因为抄容易走样；我把四象引擎登记成它的一个节点，让它自己画。\n\n所以现在的页面：白天黑夜开关、两个宫格数字卡、持仓详情、最近十二笔账本，全都跟衡一个样，连字号行距都一样。\n\n**顺手还把账本格式也对齐了。**\n"
+   "文": "改完了，纸面和模拟这两个词，页面里一个都搜不到了。**当前盈利也提到最上面显出来了。**\n\n**先说赚钱情况，这是你最想看的：**\n\n**当前总盈亏 +84.72 美元，对本金收益率 +1.69%。**\n\n拆开看：已实现 +79.18，持仓浮动 +5.54。\n\n**两笔都是赚的，一笔没亏：**\n\n下午 3 点 46 分，TIA 空单，金蟾在 0.45% 档咬住，**赚 19.33**。\n\n下午 6 点 33 分，BNB 空单，跑到了 1.02%，金蟾 0.95 档落袋，**赚 59.85**。\n\n现在手上还有一笔 BTC 空单，名义 8824，浮盈 5.54。\n\n**页面顶上新加了「💰 当前盈"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Fri 2026-10-30 14:55 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Fri 2026-10-30 20:19 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
   },
   {
    "角色": "小奈",
-   "文": "Boss wants the 四象引擎 kernel architecture listing. Produce a clean, accurate inventory — files, structure, functions, parameters, state, service. Better to pull actual facts from the file rather than memory."
+   "文": "The 4x page shows 待机 because the renderer checks `d.get('cooldown') is not None`. My state has no 'cooldown' key → shows 待机. Fix: add 'cooldown' field to state (kernel writes it), so tag shows 运行中.\n\nCleanest: kernel writes `cooldown` (e.g., {} or 0) in state. Then tag = 运行中.\n\nBut careful — that's th"
   },
   {
    "角色": "小奈",
-   "文": "Note：`四象/data_v2` dir exists (from the pre-path-fix run) — stray. Also perms 600. Let me check the stray dir and permissions, plus current runtime facts."
-  },
-  {
-   "角色": "小奈",
-   "文": "Stray `四象/data_v2` is empty (16K, no files) — leftover dir from first run. Harmless; I'll note it and can remove on order.\n\nNow write the architecture inventory doc. Comprehensive but readable: 7 sections.\n\nLet me also grab the exact parameter defaults from code for accuracy."
-  },
-  {
-   "角色": "小奈",
-   "文": "清单出来了，十个部分。文字多，你对着屏幕看，我这儿讲主干。\n\n**一句话说清架构：** 烛龙自己取 K 线、自己算方向、自己开仓；开仓后交给三才矩阵管钱，金蟾剪小利、貔貅让大肉、麒麟守本金；平完仓回到烛龙。**一个闭环，四步，没有第五步。**\n\n**优先级是硬的：麒麟最高，貔貅第二，金蟾第三。** 守本金永远排第一。\n\n**内核就一个文件，328 行，12 个函数，纯标准库，没有第三方依赖。**\n\n烛龙那段只有两个函数：单币打分、全池择优。\n\n管钱那段只有三个：判出场、开仓、平仓。\n\n**烛龙怎么算，就三样：** 24 小时趋势占五成、8 小时趋势占三成、12 小时动量占两成。三项同向才满分，"
+   "文": "改好了，现在是「运行中」。\n\n**病根：** 页面判状态的规则是——账本里有没有“冷却”这个字段。有就显示运行中，没有就显示待机。\n\n四象引擎没这个字段，所以一直被当成待机。**其实它一直在跑，只是没那个标记。**\n\n现在补上了，显示运行中。\n\n**顺便说：这个标签不是我瞎写的，是有依据的**——引擎确实在跑，60 秒一轮，没停过。\n\n**页面已刷新，下一秒会自动再刷一次。**"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Fri 2026-10-30 15:02 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Fri 2026-10-30 20:22 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
   },
   {
    "角色": "小奈",
-   "文": "Boss wants: add K-line + 金叉/死叉 (MA golden/death cross) analysis to 烛龙. And confirm 328 lines.\n\nPer 三戒: list changes before touching. This is a kernel change (non-readonly). But he said \"给烛龙增加...即可\" = an order. Still, I should present a short 清单 and then do it (he dislikes over-asking; but 三戒 demands"
+   "文": "Boss orders: 焊死 (weld/seal) 四象引擎 as immutable, with hash encryption/lock state.\n\nPer 三戒 — this is a non-readonly action on the kernel. He ordered it. Approach consistent with existing 铙/衡 pattern: chmod 444 + sha256 baseline + 钉死校验 script hook.\n\nPlan:\n1. Backup.\n2. Freeze: chmod 444 kernel + service"
   },
   {
    "角色": "小奈",
-   "文": "The pos block has `'day'` followed by different ordering. Let me check actual text. Also earlier steps may have applied before the failure? The script writes at end only, so nothing saved. Good.\n\nCheck pos block."
+   "文": "Structure clear. Plan: extend `_核_钉死校验.py` FILES list with 四象 items, snapshot new baseline (keeping rui/heng), verify.\n\nLet me see the top of the file (FILES list) and CLI."
   },
   {
    "角色": "小奈",
-   "文": "The cloud copy is the older version (my local edit adding size_ct/day was scp'd but then... wait, local file has it). Cloud lacks 'day' → my earlier scp of 四象/_四象_烛龙.py happened, but cloud still old? Because local edits were made locally and scp'd to `四象/` — the last scp put local version. Hmm cloud"
+   "文": "Now write the seal job:\n\n1. chmod 444 kernel + service file\n2. Patch WATCH list to include 四象 files\n3. Rebuild baseline (snapshot) — keeps existing since snapshot rewrites all WATCH items\n4. Add a dedicated seal record `_架构钉死_四象_20261030.json` (hash + timestamp + 令文)\n5. Verify check returns 0; tampe"
   },
   {
    "角色": "小奈",
-   "文": "Wait — did the schema patch already exist there (the \"旧仓补齐\" was in cloud)? Now schema applied. But legacy-pos-fill (size_ct fill in main) may also have been lost. Let me check and then apply cross patch."
+   "文": "Now rebuild baseline (snapshot) so 校验器 includes 四象, then run check → expect 0."
   },
   {
    "角色": "小奈",
-   "文": "Both present. Now apply cross patch (its pos anchor expects 'day' line — now exists)."
+   "文": "Baseline 6 items, check = 0. Now tamper test to prove it actually detects (on a temp copy? No—must test real detection: temporarily unlock, modify a byte, run check → expect alert; then restore).\n\nSafe approach: copy kernel to /tmp, but check script only watches real paths. So do a controlled test: "
   },
   {
    "角色": "小奈",
-   "文": "414 lines now. Test the cross function live and confirm gate behavior, then restart service.\n\nTest: for each coin print score, cross state, and whether it passes gate."
+   "文": "Tamper detection proven: exit 1 + alert; restore → exit 0, hash back to c55e9443.\n\nNow confirm guard hook runs 校验 every 300s (dingsi hook exists), and service still running after all chmod. Also verify engine can still run with 444 (yes) and that restart works.\n\nThen docs + memory + report."
   },
   {
    "角色": "小奈",
-   "文": "Working: cross states computed, gate blocks counter-direction. AVAX score +0.60 (long bias) but 1h 空头 → 闸拦. That's the gate doing its job.\n\nNow restart service and verify."
+   "文": "All good. Log shows the tamper caught and restored. Now write 正本 doc + memory, and push 焊死状 to cloud (already there)."
   },
   {
    "角色": "小奈",
-   "文": "Good. Now sync local copy with cloud (to avoid future overwrite), update docs, record.\n\nAlso 三件自证: file fingerprint, runtime env/service, backup path.\n\nLet me pull cloud file to local, update architecture doc + memory."
-  },
-  {
-   "角色": "小奈",
-   "文": "Local = cloud (same sha). Now update the architecture doc (node count, lines 414, new function) and memory."
-  },
-  {
-   "角色": "小奈",
-   "文": "先回你那句：**原来 328 行，加完金死叉是 414 行**，还是同一个文件。\n\n**加了什么：**\n\n**一、MA5 和 MA20 的金叉死叉，两个级别都算。**\n\n1 小时线是主判，15 分钟线做辅判。回溯最近 8 根，能看出交叉是几根 K 线前发生的；没有新交叉就记当前排列，多头就是快线在上，空头就是快线在下。\n\n**二、加了确认闸。**\n\n三周期打分给出方向后，还要 1 小时线的金死叉站同一队才放行。做多要求 1 小时是多头或金叉，做空要求是空头或死叉。**方向相反就不开。**\n\n**三、原来的三维权重一个字没动**，还是 0.5、0.3、0.2。金死叉只作确认，不加权重，所以老信号"
+   "文": "焊死了，四道锁。\n\n**先给你指纹，这是焊死的凭据：**\n\n内核 `四象/_四象_烛龙.py` 哈希 **c55e9443a3bc4309**，18622 字节，权限 444。\n\n验证件 `90a99bc9e30ea8d9`，2452 字节，444。\n\n服务文件 `169e6868b846c6d8`，也锁 444 了。\n\n**四道锁各管一件事：**\n\n第一道，权限 444，只读。**连 root 也得先解锁才改得动。**\n\n第二道，哈希基线落盘，全部文件逐件指纹记在两个档案里。\n\n第三道，守护总管每 300 秒自动比对一次，不用我盯着。\n\n第四道，一旦对不上，立刻写告警文件，日志打红标。\n\n*"
   },
   {
    "角色": "老板",
-   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Fri 2026-10-30 20:12 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
+   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Fri 2026-10-30 20:26 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
   },
   {
    "角色": "小奈",
-   "文": "Boss: remove \"纸面/模拟\" wording from 四象引擎 (portal + docs + title), and surface current profit data.\n\nNeed to check where 纸面/模拟 appears:\n1. Page title/TITLE in `_子引擎门户.py`: '4x': '🐉 四象引擎 · 烛龙+三才矩阵（纸面 $5000）'\n2. Card subtitle: '独立门户 · 独立结算 · 多币择强'\n3. My 四象_烛龙.py header/log shows 纸面? log says 模拟? Let me c"
+   "文": "Boss says \"以上记起来\" — record all of this to memory. I've been appending to daily memory. Now should consolidate into MEMORY.md (long-term, main session) as an iron-rule level entry, following AGENTS.md rule: append only, backup first.\n\nLet me back up MEMORY.md, then append a 四象引擎 block.\n\nAlso check AG"
   },
   {
    "角色": "小奈",
-   "文": "Great news: 2 trades closed, realized **+79.18** (TIA +19.33, BNB +59.85). Now holding BTC short 8823.\n\nNow the task:\n1. Remove 纸面/模拟 from TITLE ('🐉 四象引擎 · 烛龙+三才矩阵（$5000）').\n2. Home portal entry text: '纸面实时' → '实时'.\n3. Doc cleanup maybe.\n4. \"显化出来当前盈利数据\" — make profit prominent. Check what card shows"
+   "文": "记进去了，写进长期记忆了。**先备份再追加，只加不覆盖**——这条规矩我一直守着。\n\n**记的是什么：**\n\n**定名和架构。** 四象引擎，烛龙加盈利三才矩阵，单仓，纯标准库，不接任何外部信号。\n\n**你那句原话我一个字没改**，整段抄进去了。\n\n**四象轮转的四步**，每一步的数值都记死了：金蟾四档 0.45、0.70、0.95、1.20，到档回吐 0.25 个点落袋；貔貅 1.2% 接管，只许回吐 25%，不设上限；麒麟两档止损加 2% 外环。**优先级也写了：麒麟最高，貔貅第二，金蟾第三。**\n\n**烛龙那三样算法和权重 0.5、0.3、0.2，** 还有金死叉的确认闸怎么卡。\n\n**"
+  },
+  {
+   "角色": "老板",
+   "文": "Sender (untrusted metadata):\n```json\n{\n  \"label\": \"NF Agent (openclaw-android)\",\n  \"id\": \"openclaw-android\",\n  \"name\": \"NF Agent\",\n  \"username\": \"NF Agent\"\n}\n```\n\n[Fri 2026-10-30 20:29 GMT+8] 【NFChat · Agent 会话上下文】\n你当前在 NF Agent 中与用户对话，默认助手名是「小奈」。\n仅当用户明确询问你是谁、你叫什么、使用什么模型/通道/接口时，才简短说明：你是「小奈」，当前模型通道是 "
   },
   {
    "角色": "小奈",
-   "文": "I see the KPI grid endpoints. Plan for \"显化当前盈利数据\": insert a dedicated **当前盈利** block only for 4x right after the h1 subtitle — showing:\n- 当前总盈亏 = 已实现 + 浮动\n- 已实现 +79.18\n- 浮动 (from pos)\n- 总收益率 % of 5000\n\nImplement as `{_profit_card(z, d) if z == '4x' else ''}` with a new function that computes floatin"
+   "文": "Boss: weld 衡 (heng) engine the same way.\n\n衡 is already in baseline (kernel ed6d45944e59, gene 7ec1baec48fc, both 444). So need: verify perms, add 衡 files to the 焊死状 machine record, and ensure the seal doc exists for 衡 — mirroring 四象.\n\nFiles: `子引擎/_内核_heng.py`, `_基因_heng.sh`. Check if already 444 and"
   },
   {
    "角色": "小奈",
-   "文": "Now write the patch: \n1. TITLE 纸面 → remove\n2. 主页入口 纸面实时 → 实时\n3. Kernel header line 31 纸面模拟 → 独立账本 (keep truth internally? He said remove wording. I'll change to '独立账本·独立结算')\n4. Add 当前盈利 KPI card for 4x.\n\nFor the profit card, need a function. Insert before gen() and call in template. Let me find a go"
+   "文": "That existing record is stale (kernel sha 685c97d7 / 122862B, now ed6d4594 / 129257B after 三才矩阵). I'll create a fresh 焊死 seal for 衡 like 四象: `_架构钉死_heng_20261030_焊死.json`, include kernel, gene, 起衡 script, service unit. Plus tamper test.\n\nLet me check service unit path for heng."
   },
   {
    "角色": "小奈",
-   "文": "Good — pxmap at line 726, template uses it at 791. I'll add `_profit_card` function and insert call.\n\nWrite patch script."
+   "文": "Wait — service file shows perm 644 in the seal (captured before chmod). Minor: re-record perm. Also need tamper test + verify engine still runs after chmod 555 on 起衡.\n\nLet me fix seal perm and run checks + tamper test."
   },
   {
    "角色": "小奈",
-   "文": "Error: \"must be real number, not str\" — in my _profit_card, `_stats` returns 'pf' possibly string? No... likely `_QUANTO.get` fine. The issue: `\"%.2f\" % (fl, flp)` formatting with a string? Let me debug — probably `s.get('net')` fine. Maybe `ct` from state is str? `float(p.get('size_ct') or 0)` hand"
+   "文": "Restart blocked by single-instance guard (old PID still running—fine, means no double start). Verify PID unchanged and engine healthy.\n\nThen tamper test on heng kernel."
+  },
+  {
+   "角色": "小奈",
+   "文": "Tamper detected and restored (ed6d4594 → 3fe6c1f6 → back). But engine PID 1898549 restarted 14 seconds ago (etime 00:14)? That's the restart I just issued — it killed old and started new? Log said \"已有实例在跑→退出\" for the new attempt, but old was killed by systemd restart. Fine: single instance alive.\n\nN"
+  },
+  {
+   "角色": "小奈",
+   "文": "衡也焊死了，做法与四象引擎相同。\n\n**四个件的指纹：**\n\n内核 `子引擎/_内核_heng.py`，哈希 **ed6d45944e5934e5**，129257 字节，444。\n\n基因 `_基因_heng.sh`，**7ec1baec48fcd549**，1472 字节，444。\n\n启动脚本 `_起_衡.sh`，**eab9d696f5740e01**，设 555。**这个特殊：能执行、不能写。** 它是启动入口，必须能跑；把它锁成 444，服务就起不来了。\n\n服务文件 `7a8e7147a0ba427f`，444。\n\n**四道锁和四象一样：** 权限锁、哈希基线入案（现在共 6 件，四象"
+  },
+  {
+   "角色": "老板",
+   "文": "You are running a boot check. Follow BOOT.md instructions exactly.\n\nBOOT.md:\n# 🚀 开机自检 · 玄武灵犀交易系统 (BOOT.md)\n\n> 手机/网关机启动后，网关会自动跑这份清单。**这是真钱生命线，务必执行。**\n> 🐉 2026-09-23 17:4x 同步老板令(火印 ED-20260923-143): 统一目标=**盈利第一** · 择向精准 · 三军统一指挥(🐉烛龙终审→执行长🐍腾蛇调度→三军 LBH/ZLS/ZXY + 母体 GTAE + DSS) · 诸君各尽其责。\n\n## 第 0 步：确认\n工作目"
+  },
+  {
+   "角色": "小奈",
+   "文": "账实漂移新增 whp 一项，需要查一下——whp 是真钱户，这次不能只当噪声。"
+  },
+  {
+   "角色": "小奈",
+   "文": "whp 是这回事：交易所真有 NEAR 空单 482 张，但本地账本没记。真钱户，必须查清是账本滞后还是引擎没写。"
+  },
+  {
+   "角色": "小奈",
+   "文": "账本说空仓，交易所却有 NEAR 空单 482 张——真钱户有仓不认账，这是真问题，必须查交易所时间戳。"
+  },
+  {
+   "角色": "小奈",
+   "文": "whp 是新出现的漂移：交易所出现 NEAR 空单 482 张，账本仍记空仓。查一下这笔仓是何时开出的，以及引擎是否漏写。"
+  },
+  {
+   "角色": "小奈",
+   "文": "查到了：20:32 起连续 open_fail，交易所那边 NEAR 空单 482 张居然开成了，但账本没记，单仓锁随后拒开新币。这是真钱户的账实不一，必须报老板。\n\n先确认开仓时刻和这笔仓的来源。"
+  },
+  {
+   "角色": "小奈",
+   "文": "whp 这笔 NEAR 空单 482 张是真实持仓，但账本不认，引擎正被单仓锁卡住。这属于真钱异常，按 BOOT 第 4 步必须立刻报老板。\n\n先拿到这笔仓的准确信息再报。"
+  },
+  {
+   "角色": "小奈",
+   "文": "时间线清楚了：NEAR 空单 482 张从 15:10 起就卡在那里，账本始终不认。这是真钱户的账实不一，已经卡了五个多小时。按 BOOT 必须报老板。"
+  },
+  {
+   "角色": "小奈",
+   "文": "关键线索：日志里有一条「开仓未成交（丢单·已多轮核验）NEAR：交易所无仓→不记账本（防幽灵）」。**这是引擎判定没成交才不记账，但交易所实际有仓——判定错了，成了真钱裸仓。**\n\n立即报老板。"
+  },
+  {
+   "角色": "小奈",
+   "文": "真相找到了，必须如实报老板。"
+  },
+  {
+   "角色": "小奈",
+   "文": "WHP 有一个真钱问题需要报老板，其余一切正常。"
+  },
+  {
+   "角色": "小奈",
+   "文": "老板，WHP 真钱户有一笔账实不符的情况，需要你知道。\n\n**交易所中有 NEAR 空单 482 张，本地账本记为没有这笔仓。**\n\n这笔仓于今天凌晨 4 点 32 分开出：成交价 4.342，名义约 2092 美元，使用的是 10 倍杠杆。\n\n**问题产生于开仓那一刻。** 引擎当时核验是否成交，连续几轮判断“交易所无仓”，于是按防止幽灵仓的规则不把它写入账本。\n\n**但交易所实际上已经成交了。**\n\n因此现在的情况是：**交易所有一笔真实仓位，账本里没有记录**，引擎也不知道。\n\n**目前的浮盈：** NEAR 现价 4.2935，**浮盈 23.38 美元，约 +1.12%**。暂时没有"
   }
  ],
  "本地全量归档": [
