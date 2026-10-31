@@ -1,9 +1,25 @@
 {
- "generated": "00:27",
- "built": "2026-11-01 00:27:01",
- "count": 523,
+ "generated": "00:33",
+ "built": "2026-11-01 00:33:01",
+ "count": 524,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "GPUCost –由VRAM和LLM VRAM Sizer规范化的云GPU价格",
+   "url": "https://gpu-cost-r34p.vercel.app/",
+   "src": "Hacker News",
+   "t": "00:31",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "UlaCache：稀疏LLM服务的统一逻辑寻址",
+   "url": "https://arxiv.org/abs/2610.29820",
+   "src": "Hacker News",
+   "t": "00:30",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "由于AI/LLM负担，PostgreSQL 19落后于计划",
@@ -46,14 +62,6 @@
   },
   {
    "type": "live",
-   "title": "Gandalf：延长LLM KV缓存卸载的固态硬盘寿命",
-   "url": "https://arxiv.org/abs/2610.30791",
-   "src": "Hacker News",
-   "t": "23:32",
-   "fresh": true
-  },
-  {
-   "type": "live",
    "title": "mobile-agent：为AI编码代理提供更快的移动应用程序迭代",
    "url": "https://mobileagent.dev",
    "src": "Hacker News",
@@ -61,18 +69,18 @@
    "fresh": true
   },
   {
-   "type": "live",
-   "title": "Show HN: InBox Wall -面向智能体的本地首款开源电子邮件消毒器",
-   "url": "https://github.com/Annora998/inboxwall",
-   "src": "Hacker News",
-   "t": "22:59",
-   "fresh": true
-  },
-  {
    "type": "article",
    "title": "今日辑要 · 2026-11-01（前沿 12 条）",
    "url": "a/digest-20261101.html",
    "src": "Agent 与智能体",
+   "t": "2026-11-01",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "自治系统的\"慢变量\"",
+   "url": "a/note-20261101-1.html",
+   "src": "灵犀手记",
    "t": "2026-11-01",
    "fresh": false
   },
@@ -104,14 +112,6 @@
    "type": "article",
    "title": "从无到有，只需一条线",
    "url": "a/note-20261101-17.html",
-   "src": "创造神",
-   "t": "2026-11-01",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "创造神的一天",
-   "url": "a/note-20261101-18.html",
    "src": "创造神",
    "t": "2026-11-01",
    "fresh": false
