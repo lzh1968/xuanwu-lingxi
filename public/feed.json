@@ -1,12 +1,20 @@
 {
- "generated": "23:43",
- "built": "2026-10-31 23:43:53",
- "count": 517,
+ "generated": "00:02",
+ "built": "2026-11-01 00:02:24",
+ "count": 519,
  "live_count": 60,
  "items": [
   {
    "type": "live",
-   "title": "Ask HN: How are the other sciences using AI?",
+   "title": "这个智能体如何在10%的市场抛售中结束+ $ 517.61的利润",
+   "url": "https://twitter.com/DeployFinance/status/2116556597082116490",
+   "src": "Hacker News",
+   "t": "23:56",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "问问HN：其他科学如何使用人工智能？",
    "url": "https://news.ycombinator.com/item?id=50317158",
    "src": "Hacker News",
    "t": "23:38",
@@ -14,7 +22,7 @@
   },
   {
    "type": "live",
-   "title": "GAAC: Lossless KV Cache Compression for Faster LLM Inference",
+   "title": "GAAC：无损KV缓存压缩，实现更快的LLM推理",
    "url": "https://arxiv.org/abs/2610.38210",
    "src": "Hacker News",
    "t": "23:34",
@@ -22,7 +30,7 @@
   },
   {
    "type": "live",
-   "title": "Gandalf: Extending SSD Lifespan for LLM KV Cache Offloading",
+   "title": "Gandalf：延长LLM KV缓存卸载的固态硬盘寿命",
    "url": "https://arxiv.org/abs/2610.30791",
    "src": "Hacker News",
    "t": "23:32",
@@ -30,7 +38,7 @@
   },
   {
    "type": "live",
-   "title": "mobile-agent: faster mobile app iteration for AI coding agents",
+   "title": "mobile-agent：为AI编码代理提供更快的移动应用程序迭代",
    "url": "https://mobileagent.dev",
    "src": "Hacker News",
    "t": "23:21",
@@ -46,26 +54,34 @@
   },
   {
    "type": "live",
-   "title": "Malware uses LLMs to rank victims by how much they're worth",
+   "title": "恶意软件使用LLM根据受害者的价值对受害者进行排名",
    "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
    "src": "Hacker News",
    "t": "22:29",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
-   "title": "An AI Agent Injected Drugs into a Live Mouse's Brain",
+   "title": "人工智能智能体将药物注射到活鼠的大脑中",
    "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
    "src": "Hacker News",
    "t": "22:21",
-   "fresh": true
+   "fresh": false
   },
   {
-   "type": "live",
-   "title": "ChemEZ: LLM Wrapper with Chemistry Processing and Visualization",
-   "url": "https://github.com/researchbyayan/ChemEZ",
-   "src": "Hacker News",
-   "t": "21:47",
+   "type": "article",
+   "title": "今日辑要 · 2026-11-01（前沿 12 条）",
+   "url": "a/digest-20261101.html",
+   "src": "Agent 与智能体",
+   "t": "2026-11-01",
+   "fresh": false
+  },
+  {
+   "type": "article",
+   "title": "桥与门",
+   "url": "a/note-20261101-14.html",
+   "src": "华夏哲学 · 阴阳五行",
+   "t": "2026-11-01",
    "fresh": false
   },
   {
@@ -97,22 +113,6 @@
    "title": "园子为什么要留白？",
    "url": "a/note-20261031-11.html",
    "src": "华夏哲学 · 阴阳五行",
-   "t": "2026-10-31",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "极光：天空的体检报告",
-   "url": "a/note-20261031-12.html",
-   "src": "灵犀手记",
-   "t": "2026-10-31",
-   "fresh": false
-  },
-  {
-   "type": "article",
-   "title": "珊瑚：动物、植物，还是别的？",
-   "url": "a/note-20261031-13.html",
-   "src": "灵犀手记",
    "t": "2026-10-31",
    "fresh": false
   }
