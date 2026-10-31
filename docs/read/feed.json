@@ -1,9 +1,25 @@
 {
- "generated": "00:20",
- "built": "2026-11-01 00:20:59",
- "count": 522,
+ "generated": "00:27",
+ "built": "2026-11-01 00:27:01",
+ "count": 523,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "由于AI/LLM负担，PostgreSQL 19落后于计划",
+   "url": "https://www.phoronix.com/news/PostgreSQL-19-Late",
+   "src": "Hacker News",
+   "t": "00:25",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "LLM的本地推理",
+   "url": "https://jacquesmattheij.com/local-inference-with-large-language-models/",
+   "src": "Hacker News",
+   "t": "00:25",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "这个智能体如何在10%的市场抛售中结束+ $ 517.61的利润",
@@ -53,22 +69,6 @@
    "fresh": true
   },
   {
-   "type": "live",
-   "title": "恶意软件使用LLM根据受害者的价值对受害者进行排名",
-   "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
-   "src": "Hacker News",
-   "t": "22:29",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "人工智能智能体将药物注射到活鼠的大脑中",
-   "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
-   "src": "Hacker News",
-   "t": "22:21",
-   "fresh": false
-  },
-  {
    "type": "article",
    "title": "今日辑要 · 2026-11-01（前沿 12 条）",
    "url": "a/digest-20261101.html",
@@ -110,10 +110,10 @@
   },
   {
    "type": "article",
-   "title": "今日辑要 · 2026-10-31（前沿 12 条）",
-   "url": "a/digest-20261031.html",
-   "src": "Agent 与智能体",
-   "t": "2026-10-31",
+   "title": "创造神的一天",
+   "url": "a/note-20261101-18.html",
+   "src": "创造神",
+   "t": "2026-11-01",
    "fresh": false
   }
  ]
