@@ -1,9 +1,17 @@
 {
- "generated": "00:33",
- "built": "2026-11-01 00:33:01",
- "count": 524,
+ "generated": "00:39",
+ "built": "2026-11-01 00:39:00",
+ "count": 525,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN：将LLM上下文复杂度从O (N ^ 2)降低到O (k)",
+   "url": "https://github.com/samamatariq3527/Deferred-Cognitive-Architecture",
+   "src": "Hacker News",
+   "t": "00:34",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "GPUCost –由VRAM和LLM VRAM Sizer规范化的云GPU价格",
@@ -50,14 +58,6 @@
    "url": "https://news.ycombinator.com/item?id=50317158",
    "src": "Hacker News",
    "t": "23:38",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "GAAC：无损KV缓存压缩，实现更快的LLM推理",
-   "url": "https://arxiv.org/abs/2610.38210",
-   "src": "Hacker News",
-   "t": "23:34",
    "fresh": true
   },
   {
