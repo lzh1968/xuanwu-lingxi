@@ -1,16 +1,24 @@
 {
- "generated": "06:05",
- "built": "2026-11-01 06:05:02",
+ "generated": "07:33",
+ "built": "2026-11-01 07:33:52",
  "count": 536,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "DeepSeek将其始终在线的自治代理架构放在GitHub上",
+   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+   "src": "Hacker News",
+   "t": "07:31",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "Show HN：设计可构建机器人的游乐场",
    "url": "https://github.com/JamelHammoud/basecase",
    "src": "Hacker News",
    "t": "05:59",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -18,7 +26,23 @@
    "url": "https://emergencemagazine.org/essay/benchmarking/",
    "src": "Hacker News",
    "t": "04:58",
-   "fresh": true
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
+   "url": "https://github.com/morluto/rea",
+   "src": "GitHub 新星",
+   "t": "23:32",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "url": "https://github.com/ggml-org/llama.cpp",
+   "src": "GitHub 新星",
+   "t": "23:30",
+   "fresh": false
   },
   {
    "type": "live",
@@ -30,18 +54,10 @@
   },
   {
    "type": "live",
-   "title": "Show HN: InBox Wall -面向智能体的本地首款开源电子邮件消毒器",
-   "url": "https://github.com/Annora998/inboxwall",
-   "src": "Hacker News",
-   "t": "22:59",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "人工智能智能体将药物注射到活鼠的大脑中",
-   "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
-   "src": "Hacker News",
-   "t": "22:21",
+   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "url": "https://github.com/NousResearch/hermes-agent",
+   "src": "GitHub 新星",
+   "t": "23:11",
    "fresh": false
   },
   {
@@ -49,23 +65,7 @@
    "title": "anomalyco/opencode：开源编码智能体",
    "url": "https://github.com/anomalyco/opencode",
    "src": "GitHub 新星",
-   "t": "22:04",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "url": "https://github.com/NousResearch/hermes-agent",
-   "src": "GitHub 新星",
-   "t": "22:04",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
-   "url": "https://github.com/morluto/rea",
-   "src": "GitHub 新星",
-   "t": "22:03",
+   "t": "23:10",
    "fresh": false
   },
   {
