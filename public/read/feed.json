@@ -1,9 +1,17 @@
 {
- "generated": "01:43",
- "built": "2026-11-01 01:43:44",
+ "generated": "02:11",
+ "built": "2026-11-01 02:11:57",
  "count": 536,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN: Hey Spark –适用于您的笔记本电脑、任何LLM大脑的开源语音助手",
+   "url": "https://github.com/contextuai/hey-spark",
+   "src": "Hacker News",
+   "t": "02:09",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "法学硕士工程师的日程安排",
@@ -18,7 +26,7 @@
    "url": "https://github.com/samamatariq3527/Deferred-Cognitive-Architecture",
    "src": "Hacker News",
    "t": "00:34",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -26,23 +34,7 @@
    "url": "https://gpu-cost-r34p.vercel.app/",
    "src": "Hacker News",
    "t": "00:31",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "UlaCache：稀疏LLM服务的统一逻辑寻址",
-   "url": "https://arxiv.org/abs/2610.29820",
-   "src": "Hacker News",
-   "t": "00:30",
-   "fresh": true
-  },
-  {
-   "type": "live",
-   "title": "由于AI/LLM负担，PostgreSQL 19落后于计划",
-   "url": "https://www.phoronix.com/news/PostgreSQL-19-Late",
-   "src": "Hacker News",
-   "t": "00:25",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -66,6 +58,14 @@
    "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
    "src": "Hacker News",
    "t": "22:21",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "DeepSeek开源dsh-superagent，主要由代理构建的编码代理",
+   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+   "src": "Hacker News",
+   "t": "21:41",
    "fresh": false
   },
   {
