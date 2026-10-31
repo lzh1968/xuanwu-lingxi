@@ -1,5 +1,5 @@
 {
- "built": "2026-10-31 20:48:54",
+ "built": "2026-10-31 21:12:12",
  "count": 559,
  "items": [
   {
@@ -4155,6 +4155,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Prompt caching: same agent, same rules, about a quarter of the bill",
+   "u": "https://blog.getwerk.ai/posts/prompt-caching-a-quarter-of-the-bill",
+   "s": "外网新声·Hacker News",
+   "d": "21:09",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Show HN: Tadpole – an LLM agent built from scratch then post-trained on 4B model",
    "u": "https://github.com/shakewingo/Tadpole",
    "s": "外网新声·Hacker News",
@@ -4227,18 +4235,26 @@
    "x": ""
   },
   {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
+   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
+   "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
-   "d": "12:48",
+   "d": "13:08",
    "k": "",
    "x": ""
   },
   {
-   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
-   "u": "https://github.com/morluto/rea",
+   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
+   "u": "https://github.com/mattpocock/skills",
    "s": "外网新声·GitHub 新星",
-   "d": "12:22",
+   "d": "13:06",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "12:48",
    "k": "",
    "x": ""
   },
@@ -4299,14 +4315,6 @@
    "x": ""
   },
   {
-   "t": "Assure –您的AI 智能体说“完成。“这会检查它是否在撒谎",
-   "u": "https://github.com/mgasparin67-cmd/Agent-verification_Assure",
-   "s": "外网新声·Hacker News",
-   "d": "06:48",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "YC的Minecraft和Mindustry agent swarms展示了多agent团队",
    "u": "https://theainewsreport.com/2026-10-30-yc-agent-swarms-minecraft-mindustry-explained.html",
    "s": "外网新声·Hacker News",
@@ -4319,14 +4327,6 @@
    "u": "https://gethiveos.com/",
    "s": "外网新声·Hacker News",
    "d": "15:31",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "mattpocock/skills —真正工程师的技能。直接来自我的.agents目录。",
-   "u": "https://github.com/mattpocock/skills",
-   "s": "外网新声·GitHub 新星",
-   "d": "14:00",
    "k": "",
    "x": ""
   },
