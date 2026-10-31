@@ -1,9 +1,14 @@
 {
  "日期": "2026-11-01",
- "落盘": "2026-11-01 02:06:22",
+ "落盘": "2026-11-01 04:58:22",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "Show HN: Hey Spark –适用于您的笔记本电脑、任何LLM大脑的开源语音助手",
+   "url": "https://github.com/contextuai/hey-spark",
+   "type": "live"
+  },
   {
    "title": "法学硕士工程师的日程安排",
    "url": "https://kwojcicki.github.io/blog/LLM-ENGINEER-SCHEDULE",
@@ -20,16 +25,6 @@
    "type": "live"
   },
   {
-   "title": "UlaCache：稀疏LLM服务的统一逻辑寻址",
-   "url": "https://arxiv.org/abs/2610.29820",
-   "type": "live"
-  },
-  {
-   "title": "由于AI/LLM负担，PostgreSQL 19落后于计划",
-   "url": "https://www.phoronix.com/news/PostgreSQL-19-Late",
-   "type": "live"
-  },
-  {
    "title": "mobile-agent：为AI编码代理提供更快的移动应用程序迭代",
    "url": "https://mobileagent.dev",
    "type": "live"
@@ -42,6 +37,11 @@
   {
    "title": "人工智能智能体将药物注射到活鼠的大脑中",
    "url": "https://www.wired.com/story/an-ai-agent-did-brain-surgery-on-live-mouse/",
+   "type": "live"
+  },
+  {
+   "title": "DeepSeek开源dsh-superagent，主要由代理构建的编码代理",
+   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "type": "live"
   },
   {
