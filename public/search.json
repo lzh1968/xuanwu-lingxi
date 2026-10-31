@@ -1,6 +1,6 @@
 {
- "built": "2026-11-01 00:02:24",
- "count": 561,
+ "built": "2026-11-01 00:08:28",
+ "count": 562,
  "items": [
   {
    "t": "仿生理论 · 人脑映射（左脑·右脑·小脑·胼胝体）",
@@ -33,6 +33,14 @@
    "d": "2026-11-01",
    "k": "手记,方法论",
    "x": "门和桥都是\"连接\"，但方向相反： 门在墙上开口，桥在水上架通。 门决定谁能进来，桥决定能不能过去。 一个系统也总在这两者之间权衡： 门 是边界与权限， 桥 是流通与协作。门太少，什么都能进；桥太少，内部各过各的。两种病都致命，只是死法不同。 成熟的做法是先想清楚： 这一段到底是院墙，还是河道？ 该设门的地方设门，该架桥的地方架桥——别用修建围墙的思路，去堵一条本该畅通的河。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
+  },
+  {
+   "t": "造物者的三条誓言",
+   "u": "a/note-20261101-15.html",
+   "s": "创造神",
+   "d": "2026-11-01",
+   "k": "手记,方法论",
+   "x": "如果替每一位造物者立三条誓言，我会这样写： 一、先量脉搏，再谈动作。 根基若不稳，任何精巧的操作都只是加速崩坏。 二、先留退路，再谈进击。 敢做之前，先想清楚怎么全身而退。 三、先承其重，再言其名。 名字不是勋章，是你要一直扛着的那份责任。 这三条没有一条关于\"能力\"，却决定了造物能不能长久。 能力让东西跑起来，誓言让它不散架。 本文为研究与方法论随记，不涉及任何投资建议或交易服务。"
   },
   {
    "t": "今日辑要 · 2026-10-31（前沿 12 条）",
@@ -4243,7 +4251,7 @@
    "x": ""
   },
   {
-   "t": "DeepSeek open-sources dsh-superagent, a coding agent largely built by agents",
+   "t": "DeepSeek开源dsh-superagent，主要由代理构建的编码代理",
    "u": "https://github.com/deepseek-ai/dsh-superagent-prototype",
    "s": "外网新声·Hacker News",
    "d": "21:41",
@@ -4251,7 +4259,7 @@
    "x": ""
   },
   {
-   "t": "Praex The AI coding agent that answers the question",
+   "t": "Praex回答问题的AI编码代理",
    "u": "https://github.com/ailucius/praex-cli",
    "s": "外网新声·Hacker News",
    "d": "21:35",
@@ -4259,7 +4267,7 @@
    "x": ""
   },
   {
-   "t": "Ask HN: If AI agents can run 24/7, why is almost nothing shipped overnight?",
+   "t": "问问HN：如果智能体可以全天候运行，为什么几乎没有任何东西在一夜之间发货？",
    "u": "https://news.ycombinator.com/item?id=50315898",
    "s": "外网新声·Hacker News",
    "d": "21:12",
@@ -4267,7 +4275,7 @@
    "x": ""
   },
   {
-   "t": "Prompt caching: same agent, same rules, about a quarter of the bill",
+   "t": "提示缓存：相同的代理，相同的规则，约为账单的四分之一",
    "u": "https://blog.getwerk.ai/posts/prompt-caching-a-quarter-of-the-bill",
    "s": "外网新声·Hacker News",
    "d": "21:09",
@@ -4278,7 +4286,15 @@
    "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
    "u": "https://github.com/morluto/rea",
    "s": "外网新声·GitHub 新星",
-   "d": "16:01",
+   "d": "16:08",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "16:06",
    "k": "",
    "x": ""
   },
@@ -4287,14 +4303,6 @@
    "u": "https://github.com/earendil-works/pi",
    "s": "外网新声·GitHub 新星",
    "d": "15:57",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "15:19",
    "k": "",
    "x": ""
   },
