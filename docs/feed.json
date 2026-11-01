@@ -1,16 +1,24 @@
 {
- "generated": "15:19",
- "built": "2026-11-01 15:19:31",
+ "generated": "17:10",
+ "built": "2026-11-01 17:10:09",
  "count": 536,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Show HN：OpenProject代理引擎–自动工作流程和代理调度",
+   "url": "https://github.com/310networks/openproject-agent-engine",
+   "src": "Hacker News",
+   "t": "17:06",
+   "fresh": true
+  },
   {
    "type": "live",
    "title": "FineDNA：开放数据以训练DNA上的LLM",
    "url": "https://huggingface.co/datasets/HuggingFaceBio/FineDNA",
    "src": "Hacker News",
    "t": "15:13",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -18,7 +26,7 @@
    "url": "https://github.com/huggingface/carbon",
    "src": "Hacker News",
    "t": "15:10",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -38,18 +46,10 @@
   },
   {
    "type": "live",
-   "title": "DeepSeek将其始终在线的自治代理架构放在GitHub上",
-   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
-   "src": "Hacker News",
-   "t": "07:31",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "anomalyco/opencode：开源编码智能体",
-   "url": "https://github.com/anomalyco/opencode",
+   "title": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
+   "url": "https://github.com/morluto/rea",
    "src": "GitHub 新星",
-   "t": "07:17",
+   "t": "09:08",
    "fresh": false
   },
   {
@@ -57,15 +57,15 @@
    "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
    "url": "https://github.com/ggml-org/llama.cpp",
    "src": "GitHub 新星",
-   "t": "07:15",
+   "t": "09:03",
    "fresh": false
   },
   {
    "type": "live",
-   "title": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
-   "url": "https://github.com/morluto/rea",
-   "src": "GitHub 新星",
-   "t": "07:13",
+   "title": "DeepSeek将其始终在线的自治代理架构放在GitHub上",
+   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+   "src": "Hacker News",
+   "t": "07:31",
    "fresh": false
   },
   {

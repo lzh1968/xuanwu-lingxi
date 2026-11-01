@@ -1,11 +1,16 @@
 {
  "日期": "2026-11-01",
- "落盘": "2026-11-01 15:13:40",
+ "落盘": "2026-11-01 17:04:31",
  "条数": 14,
  "live": 60,
  "条目": [
   {
-   "title": "Open data and code to teach LLMs to read DNA",
+   "title": "FineDNA：开放数据以训练DNA上的LLM",
+   "url": "https://huggingface.co/datasets/HuggingFaceBio/FineDNA",
+   "type": "live"
+  },
+  {
+   "title": "开放数据和代码，教LLM读取DNA",
    "url": "https://github.com/huggingface/carbon",
    "type": "live"
   },
@@ -30,18 +35,13 @@
    "type": "live"
   },
   {
-   "title": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
-   "url": "https://github.com/morluto/rea",
-   "type": "live"
-  },
-  {
    "title": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
    "url": "https://github.com/ggml-org/llama.cpp",
    "type": "live"
   },
   {
-   "title": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "url": "https://github.com/NousResearch/hermes-agent",
+   "title": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
+   "url": "https://github.com/morluto/rea",
    "type": "live"
   },
   {
