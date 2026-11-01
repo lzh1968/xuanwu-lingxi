@@ -1,9 +1,14 @@
 {
  "日期": "2026-11-01",
- "落盘": "2026-11-01 21:42:34",
+ "落盘": "2026-11-01 21:48:42",
  "条数": 14,
  "live": 60,
  "条目": [
+  {
+   "title": "Uniichat：永远使用单个LLM聊天",
+   "url": "https://github.com/VictorTaelin/uniichat",
+   "type": "live"
+  },
   {
    "title": "Vibe编码Go中的自主Agent线程：自我修复AI工作流程",
    "url": "https://medium.com/@vishwanathanraman/vibe-coding-an-autonomous-agent-harness-in-go-from-zero-to-self-healing-ai-workflows-785d82f981b6",
@@ -37,11 +42,6 @@
   {
    "title": "QwenPU：在另一个LLM的权重内运行的LLM",
    "url": "https://huggingface.co/divagr1925/QwenPU",
-   "type": "live"
-  },
-  {
-   "title": "Show HN：用于SEO和内容审核的Rust爬虫，可选LLM审核",
-   "url": "https://crawler.siteone.io/",
    "type": "live"
   },
   {
