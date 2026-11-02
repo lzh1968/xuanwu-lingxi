@@ -1,5 +1,5 @@
 {
- "built": "2026-11-02 10:42:53",
+ "built": "2026-11-02 11:44:30",
  "count": 597,
  "items": [
   {
@@ -4459,6 +4459,14 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "代理人工智能是神话开始运作",
+   "u": "https://braddelong.substack.com/p/crosspost-henry-farrell-agentic-ai",
+   "s": "外网新声·Hacker News",
+   "d": "11:20",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Show HN: Skep - AI编码智能体的实时跨设备会话",
    "u": "https://skepagent.com/",
    "s": "外网新声·Hacker News",
@@ -4507,14 +4515,6 @@
    "x": ""
   },
   {
-   "t": "所以我想现在每个人都用LLM来思考",
-   "u": "https://eva.ac/blog/llms/",
-   "s": "外网新声·Hacker News",
-   "d": "05:49",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "Show HN: Nonce –智能体的开源、最低权限Gmail访问权限",
    "u": "https://www.anonce.io/",
    "s": "外网新声·Hacker News",
@@ -4526,7 +4526,7 @@
    "t": "anomalyco/opencode：开源编码智能体",
    "u": "https://github.com/anomalyco/opencode",
    "s": "外网新声·GitHub 新星",
-   "d": "02:42",
+   "d": "03:43",
    "k": "",
    "x": ""
   },
@@ -4534,15 +4534,15 @@
    "t": "NousResearch/hermes-agent：与你一起成长的智能体",
    "u": "https://github.com/NousResearch/hermes-agent",
    "s": "外网新声·GitHub 新星",
-   "d": "02:39",
+   "d": "03:43",
    "k": "",
    "x": ""
   },
   {
-   "t": "Muse AI agent是一个伪装成AI助手的商业监控网络",
-   "u": "https://paulfwalsh.substack.com/p/metas-muse-ai-agent-is-a-commercial",
-   "s": "外网新声·Hacker News",
-   "d": "02:33",
+   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
+   "u": "https://github.com/morluto/rea",
+   "s": "外网新声·GitHub 新星",
+   "d": "03:31",
    "k": "",
    "x": ""
   },
@@ -4559,14 +4559,6 @@
    "u": "https://github.com/Dao-AILab/flash-attention",
    "s": "外网新声·GitHub 新星",
    "d": "02:21",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
-   "u": "https://github.com/morluto/rea",
-   "s": "外网新声·GitHub 新星",
-   "d": "01:16",
    "k": "",
    "x": ""
   },
@@ -4619,10 +4611,66 @@
    "x": ""
   },
   {
+   "t": "从1D基准到复杂的3D几何形状：代理商能否可靠地指定自动化PDE模拟的问题？",
+   "u": "https://arxiv.org/abs/2610.41267v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "05:20",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "罗马并非一蹴而就：重播长视野Freeciv代理商的奖励信号",
+   "u": "https://arxiv.org/abs/2610.41264v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "05:13",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "MEMIG：用于抗体优化的自我进化记忆构建",
+   "u": "https://arxiv.org/abs/2610.41245v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "04:39",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "具有可训练扩散和基于密度的损失的生成式SDE",
    "u": "https://arxiv.org/abs/2610.41243v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "04:35",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "专家展示结构化冗余：混合专家大模型的结构保留专家修剪",
+   "u": "https://arxiv.org/abs/2610.41236v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "04:21",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "TRIDENT和SHAKTI：印地语AI文本检测的框架和基准",
+   "u": "https://arxiv.org/abs/2610.41232v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "04:13",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "RTL-Interact：为多任务RTL设计培训EDA-Interactive模型",
+   "u": "https://arxiv.org/abs/2610.41225v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "04:03",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "从评估到进化：对标图像编辑和进化图像模型",
+   "u": "https://arxiv.org/abs/2610.41210v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "03:42",
    "k": "",
    "x": ""
   },
@@ -4659,10 +4707,42 @@
    "x": ""
   },
   {
+   "t": "纠缠辅助量子密码族的循环进化发现研究者",
+   "u": "https://arxiv.org/abs/2610.41183v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "03:02",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "CAP：从相关任务的稀疏观察中学习优化",
    "u": "https://arxiv.org/abs/2610.41173v1",
    "s": "外网新声·arXiv cs.LG",
    "d": "02:48",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Context as Infrastructure: Knowledge Compilation for Retrieval in Agentic Systems with Harnesses",
+   "u": "https://arxiv.org/abs/2610.41172v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "02:48",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ImplicitHop: Evaluating knowledge integration across context and memory",
+   "u": "https://arxiv.org/abs/2610.41169v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "02:44",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ROSTrans: Empirically Benchmarking LLMs for ROS1-to-ROS2 Migration",
+   "u": "https://arxiv.org/abs/2610.41168v1",
+   "s": "外网新声·arXiv cs.AI",
+   "d": "02:44",
    "k": "",
    "x": ""
   },
@@ -4675,106 +4755,26 @@
    "x": ""
   },
   {
-   "t": "rasbt/LLMs-from-scratch：一步步用 PyTorch 从零实现类 ChatGPT 模型",
-   "u": "https://github.com/rasbt/LLMs-from-scratch",
-   "s": "外网新声·GitHub 新星",
-   "d": "02:15",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "TalentRL：分层技能路由的战略引导强化学习",
-   "u": "https://arxiv.org/abs/2610.41143v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "02:03",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "问HN：Agent swarm，orchestra，sequential，你的工作流程是什么？",
-   "u": "https://news.ycombinator.com/item?id=50292324",
-   "s": "外网新声·Hacker News",
-   "d": "01:01",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "MUON-RT重复使用老师的轨迹进行无动量Muon进行法学硕士自蒸馏",
-   "u": "https://arxiv.org/abs/2610.41104v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "00:50",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "bf16四舍五入静默丢弃大多数RL策略更新：隐藏的训练-推理不匹配和公正的单行修复",
-   "u": "https://arxiv.org/abs/2610.41073v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "23:40",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "obra/superpowers —有效的代理技能框架和软件开发方法。",
-   "u": "https://github.com/obra/superpowers",
-   "s": "外网新声·GitHub 新星",
-   "d": "23:35",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "使用语义-空间残差库进行单注释、多假设分割",
-   "u": "https://arxiv.org/abs/2610.41069v1",
-   "s": "外网新声·arXiv cs.LG",
-   "d": "23:32",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "重新思考无权重干扰的神经厚度",
-   "u": "https://arxiv.org/abs/2610.40649v1",
+   "t": "LLM Detoxification via Transition-Aware Reward-Guided Representation Sampling",
+   "u": "https://arxiv.org/abs/2610.41165v1",
    "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
+   "d": "02:42",
    "k": "",
    "x": ""
   },
   {
-   "t": "读取、分配、路由：像素空间生成变压器的角色耦合令牌化",
-   "u": "https://arxiv.org/abs/2610.40647v1",
+   "t": "FrontierMat: Benchmarking Language Models at the Frontier of Materials R&D",
+   "u": "https://arxiv.org/abs/2610.41162v1",
    "s": "外网新声·arXiv cs.AI",
-   "d": "17:59",
+   "d": "02:37",
    "k": "",
    "x": ""
   },
   {
-   "t": "从极端天气到农业后果，智能人工智能",
-   "u": "https://arxiv.org/abs/2610.40641v1",
+   "t": "ARK: Avoiding Routing Collisions for KV Cache Transfer in Disaggregated LLM Inference",
+   "u": "https://arxiv.org/abs/2610.41160v1",
    "s": "外网新声·arXiv cs.AI",
-   "d": "17:58",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "TextSeal2：采用Copula混合和无记忆比赛的无失真LLM水印",
-   "u": "https://arxiv.org/abs/2610.40613v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:54",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "何时提供帮助和建议：在一个紧凑型解码器中生成关节选通和内存接地提示",
-   "u": "https://arxiv.org/abs/2610.40611v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:54",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "用于固态量子自旋自主实验研究的协作智能体",
-   "u": "https://arxiv.org/abs/2610.40589v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "17:47",
+   "d": "02:35",
    "k": "",
    "x": ""
   }
