@@ -1,5 +1,5 @@
 {
- "built": "2026-11-02 14:28:25",
+ "built": "2026-11-02 19:09:48",
  "count": 597,
  "items": [
   {
@@ -4459,6 +4459,38 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Why AI agents struggle with chip design (RTL) debugging, and what helps",
+   "u": "https://booley.dev/blog/harness-matters/",
+   "s": "外网新声·Hacker News",
+   "d": "18:22",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN: Zero-knowledge zero-overhead LLM routing mesh using pure web primitives",
+   "u": "https://bringYourOwnBrain.org",
+   "s": "外网新声·Hacker News",
+   "d": "17:45",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "Show HN: AgentTM – A time-travel debugger for AI coding agents built in Go",
+   "u": "https://github.com/Jyotishmoy12/AgentTM",
+   "s": "外网新声·Hacker News",
+   "d": "16:54",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "An Illustrated Guide to AI Agents",
+   "u": "https://github.com/HandsOnLLM/An-Illustrated-Guide-To-AI-Agents",
+   "s": "外网新声·Hacker News",
+   "d": "15:22",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Reliably aligning LLMs is impossible in principle",
    "u": "https://www.seangoedecke.com/alignment-is-impossible/",
    "s": "外网新声·Hacker News",
@@ -4499,6 +4531,54 @@
    "x": ""
   },
   {
+   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
+   "u": "https://github.com/earendil-works/pi",
+   "s": "外网新声·GitHub 新星",
+   "d": "11:03",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
+   "u": "https://github.com/ggml-org/llama.cpp",
+   "s": "外网新声·GitHub 新星",
+   "d": "11:01",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
+   "u": "https://github.com/NousResearch/hermes-agent",
+   "s": "外网新声·GitHub 新星",
+   "d": "10:51",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "anomalyco/opencode：开源编码智能体",
+   "u": "https://github.com/anomalyco/opencode",
+   "s": "外网新声·GitHub 新星",
+   "d": "10:45",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
+   "u": "https://github.com/morluto/rea",
+   "s": "外网新声·GitHub 新星",
+   "d": "10:31",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
+   "u": "https://github.com/IBAX-io/go-ibax",
+   "s": "外网新声·GitHub 新星",
+   "d": "09:20",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Show HN: Skep - AI编码智能体的实时跨设备会话",
    "u": "https://skepagent.com/",
    "s": "外网新声·Hacker News",
@@ -4515,46 +4595,6 @@
    "x": ""
   },
   {
-   "t": "Show HN: Better Together –人工智能客服代表联手打击垃圾邮件和短信",
-   "u": "https://better-together.fun/",
-   "s": "外网新声·Hacker News",
-   "d": "08:19",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "肉制品，代理工程从业者的列表服务",
-   "u": "https://mom-hub.tryapexti.ai/",
-   "s": "外网新声·Hacker News",
-   "d": "07:07",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "NousResearch/hermes-agent：与你一起成长的智能体",
-   "u": "https://github.com/NousResearch/hermes-agent",
-   "s": "外网新声·GitHub 新星",
-   "d": "06:28",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "morluto/rea —使用代理对任何内容进行反向工程，从应用行为到本机二进制文件。",
-   "u": "https://github.com/morluto/rea",
-   "s": "外网新声·GitHub 新星",
-   "d": "06:27",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "anomalyco/opencode：开源编码智能体",
-   "u": "https://github.com/anomalyco/opencode",
-   "s": "外网新声·GitHub 新星",
-   "d": "06:25",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "DAO-AILab/flash-attention -快速且内存高效的精确注意",
    "u": "https://github.com/Dao-AILab/flash-attention",
    "s": "外网新声·GitHub 新星",
@@ -4567,30 +4607,6 @@
    "u": "https://github.com/affaan-m/ECC",
    "s": "外网新声·GitHub 新星",
    "d": "04:56",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "ggml-org/llama.cpp：C/C++ 大模型推理引擎",
-   "u": "https://github.com/ggml-org/llama.cpp",
-   "s": "外网新声·GitHub 新星",
-   "d": "04:18",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
-   "u": "https://github.com/IBAX-io/go-ibax",
-   "s": "外网新声·GitHub 新星",
-   "d": "04:00",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
-   "u": "https://github.com/earendil-works/pi",
-   "s": "外网新声·GitHub 新星",
-   "d": "23:11",
    "k": "",
    "x": ""
   },
@@ -4759,22 +4775,6 @@
    "u": "https://arxiv.org/abs/2610.42004v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "16:45",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "SecPO: Principled Adversarial Training for Prompt Injection Security",
-   "u": "https://arxiv.org/abs/2610.41998v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:43",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "DAMI: Dual-Axis Memory Initialization for Enhanced Long-Context Retrieval in Gated Linear Attention",
-   "u": "https://arxiv.org/abs/2610.41994v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:39",
    "k": "",
    "x": ""
   }

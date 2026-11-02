@@ -1,16 +1,48 @@
 {
- "generated": "14:28",
- "built": "2026-11-02 14:28:25",
+ "generated": "19:09",
+ "built": "2026-11-02 19:09:48",
  "count": 555,
  "live_count": 60,
  "items": [
+  {
+   "type": "live",
+   "title": "Why AI agents struggle with chip design (RTL) debugging, and what helps",
+   "url": "https://booley.dev/blog/harness-matters/",
+   "src": "Hacker News",
+   "t": "18:22",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN: Zero-knowledge zero-overhead LLM routing mesh using pure web primitives",
+   "url": "https://bringYourOwnBrain.org",
+   "src": "Hacker News",
+   "t": "17:45",
+   "fresh": true
+  },
+  {
+   "type": "live",
+   "title": "Show HN: AgentTM – A time-travel debugger for AI coding agents built in Go",
+   "url": "https://github.com/Jyotishmoy12/AgentTM",
+   "src": "Hacker News",
+   "t": "16:54",
+   "fresh": false
+  },
+  {
+   "type": "live",
+   "title": "An Illustrated Guide to AI Agents",
+   "url": "https://github.com/HandsOnLLM/An-Illustrated-Guide-To-AI-Agents",
+   "src": "Hacker News",
+   "t": "15:22",
+   "fresh": false
+  },
   {
    "type": "live",
    "title": "Reliably aligning LLMs is impossible in principle",
    "url": "https://www.seangoedecke.com/alignment-is-impossible/",
    "src": "Hacker News",
    "t": "14:27",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -18,7 +50,7 @@
    "url": "https://arxiv.org/abs/2610.34722",
    "src": "Hacker News",
    "t": "12:58",
-   "fresh": true
+   "fresh": false
   },
   {
    "type": "live",
@@ -34,38 +66,6 @@
    "url": "https://github.com/arkenforge/arken-core",
    "src": "Hacker News",
    "t": "12:29",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "代理人工智能是神话开始运作",
-   "url": "https://braddelong.substack.com/p/crosspost-henry-farrell-agentic-ai",
-   "src": "Hacker News",
-   "t": "11:20",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Show HN: Skep - AI编码智能体的实时跨设备会话",
-   "url": "https://skepagent.com/",
-   "src": "Hacker News",
-   "t": "09:20",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Show HN：EchoChain，了解LLM播放电话时会发生什么",
-   "url": "https://github.com/smusali/echoChain",
-   "src": "Hacker News",
-   "t": "09:15",
-   "fresh": false
-  },
-  {
-   "type": "live",
-   "title": "Show HN: Better Together –人工智能客服代表联手打击垃圾邮件和短信",
-   "url": "https://better-together.fun/",
-   "src": "Hacker News",
-   "t": "08:19",
    "fresh": false
   },
   {
