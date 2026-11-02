@@ -1,5 +1,5 @@
 {
- "built": "2026-11-02 19:09:48",
+ "built": "2026-11-02 19:11:13",
  "count": 597,
  "items": [
   {
@@ -4459,6 +4459,22 @@
    "x": "用东方思维谈技术，容易滑向两个极端：要么玄乎其玄，要么一概否定。其实《易》与《道德经》里最硬的，是一套 关于变化的结构化语言 ：消长、转化、盛极而衰、柔弱胜刚强。这些说法，与控制论里的反馈、阻尼、阈值，惊人地呼应。 一、阴阳：一对相互定义的状态量 阴与阳不是两种东西，而是 同一系统的两个相位 。 阴：收敛、后退、保存、等待； 阳：扩张、前进、投入、行动。 任何活的系统都在两者之间摆动。 只阳不阴，必竭；只阴不阳，必死。 我们的风控里，兜底机制就是\"阴\"，进攻机制就是\"阳\"。真正的功夫不在选哪个，而在 何时由阳转阴 。 二、物极必反：趋势的边际 \"盛极而衰\"用现代语言说，是 趋势的加速度衰减 。判断转折，看的不是涨幅有多大，而是 继续前进所需的代价是否在上升 。 工程上可以量化三件事： 消耗（同样的推进，代价是否更大）； 分歧（推进是否越来越依赖少数力量）； 疲劳（回撤之后，恢复是否一次比一"
   },
   {
+   "t": "Context Anxiety: How AI Agents Panic About Their Perceived Context Windows",
+   "u": "https://inkeep.com/blog/context-anxiety",
+   "s": "外网新声·Hacker News",
+   "d": "18:54",
+   "k": "",
+   "x": ""
+  },
+  {
+   "t": "TinyContext Guide – How to Add Long-Term Memory to an AI Agent (Step by Step)",
+   "u": "https://tinysuite.dev/blog/how-to-add-memory-to-ai-agent/",
+   "s": "外网新声·Hacker News",
+   "d": "18:46",
+   "k": "",
+   "x": ""
+  },
+  {
    "t": "Why AI agents struggle with chip design (RTL) debugging, and what helps",
    "u": "https://booley.dev/blog/harness-matters/",
    "s": "外网新声·Hacker News",
@@ -4523,14 +4539,6 @@
    "x": ""
   },
   {
-   "t": "代理人工智能是神话开始运作",
-   "u": "https://braddelong.substack.com/p/crosspost-henry-farrell-agentic-ai",
-   "s": "外网新声·Hacker News",
-   "d": "11:20",
-   "k": "",
-   "x": ""
-  },
-  {
    "t": "earendil-works/pi：智能体工具箱（统一 LLM 接口·循环·终端界面·编码 CLI）",
    "u": "https://github.com/earendil-works/pi",
    "s": "外网新声·GitHub 新星",
@@ -4571,17 +4579,17 @@
    "x": ""
   },
   {
-   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
-   "u": "https://github.com/IBAX-io/go-ibax",
-   "s": "外网新声·GitHub 新星",
-   "d": "09:20",
+   "t": "The agentic web is here",
+   "u": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+   "s": "外网新声·MIT 科技评论",
+   "d": "09:35",
    "k": "",
    "x": ""
   },
   {
-   "t": "Show HN: Skep - AI编码智能体的实时跨设备会话",
-   "u": "https://skepagent.com/",
-   "s": "外网新声·Hacker News",
+   "t": "IBAX-io/go-ibax —一个创新的区块链协议平台，每个人都可以部署自己的应用程序",
+   "u": "https://github.com/IBAX-io/go-ibax",
+   "s": "外网新声·GitHub 新星",
    "d": "09:20",
    "k": "",
    "x": ""
@@ -4767,14 +4775,6 @@
    "u": "https://arxiv.org/abs/2610.42024v1",
    "s": "外网新声·arXiv cs.AI",
    "d": "16:54",
-   "k": "",
-   "x": ""
-  },
-  {
-   "t": "TradeWar: A Benchmark for Execution-Grounded Trade Negotiation with Adaptive LLM Agents",
-   "u": "https://arxiv.org/abs/2610.42004v1",
-   "s": "外网新声·arXiv cs.AI",
-   "d": "16:45",
    "k": "",
    "x": ""
   }
